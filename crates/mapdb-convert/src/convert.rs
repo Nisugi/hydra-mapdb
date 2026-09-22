@@ -92,6 +92,9 @@ pub fn convert_room(upstream: UpstreamRoom) -> Converted {
             kind,
             crossing,
             cost,
+            // Upstream has no layout data. A corrected bearing arrives later,
+            // from `corrections/`, applied over this conversion.
+            dirto: None,
         });
     }
     for destination in upstream.timeto.keys() {
@@ -156,6 +159,11 @@ pub fn convert_room(upstream: UpstreamRoom) -> Converted {
         meta,
         image,
         exits,
+        // Layout is not upstream's to say: `map`, `area` and `placement` are
+        // filled in from `corrections/` after this conversion runs.
+        map: None,
+        area: None,
+        placement: None,
     };
     Converted { room, problems }
 }

@@ -1,0 +1,164 @@
+name: corrections
+
+# Take a corrections file somebody attached to an issue, check it, and -- if
+# it passes -- open a pull request carrying it.
+#
+# Why a PR and not a merge. A correction is somebody's judgement about what
+# the map should say, which is exactly the kind of thing this repo does not
+# automate: `convert.yml` proposes a diff for the same reason. What the bot
+# decides is only whether a submission is *well-formed* -- that its rooms
+# exist, that its bearings agree with each other, that it does not contradict
+# a correction already accepted. Whether it is *right* is a person's call, on
+# the PR, with the submitter's pictures in front of them.
+#
+# The check runs on every edit and every comment, so a submitter who gets a
+# refusal fixes their export and attaches it again on the same issue rather
+# than opening a new one.
+on:
+  issues:
+    types: [opened, edited, labeled]
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    # Only issues from the corrections form, and never the bot's own comments
+    # -- posting a verdict must not trigger another check of it.
+    if: >-
+      contains(github.event.issue.labels.*.name, 'corrections') &&
+      github.event.sender.type != 'Bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The attachment is a URL in the issue body or in a comment, not a file
+      # the runner has. Take the most recent `.json` anybody attached, so
+      # re-attaching a corrected export supersedes the earlier one without
+      # needing a new issue.
+      - name: Find the attached export
+        id: find
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          {
+            gh issue view "$ISSUE" --json body --jq .body
+            gh issue view "$ISSUE" --json comments --jq '.comments[].body'
+          } > all-text.md
+
+          # GitHub rewrites attachments to github-user-content URLs. The last
+          # one wins: submitters attach a fixed export below a refusal.
+          url=$(grep -oE 'https://[a-zA-Z0-9./_-]*githubusercontent\.com/[a-zA-Z0-9./_?=&-]+\.json' all-text.md | tail -1)
+          if [ -z "$url" ]; then
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "found=true" >> "$GITHUB_OUTPUT"
+          curl -sSL --max-filesize 26214400 -o submission.json "$url"
+          ls -la submission.json
+
+      - name: Say that nothing was attached
+        if: steps.find.outputs.found == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --body "$(cat <<'EOF'
+          ## No export found
+
+          This issue has no `.json` attachment. Drag the file `hydra-mapper`
+          exported into a comment here -- it has to be the file itself, not
+          its contents pasted in, because the check fetches it by URL.
+          EOF
+          )"
+
+      - uses: dtolnay/rust-toolchain@stable
+        if: steps.find.outputs.found == 'true'
+      - uses: Swatinem/rust-cache@v2
+        if: steps.find.outputs.found == 'true'
+
+      # The submission is named for the day it was accepted, which is what
+      # makes name order the order corrections landed -- and so the order the
+      # fold resolves an override in. The issue number keeps two submissions
+      # on the same day apart.
+      - name: Name this submission
+        if: steps.find.outputs.found == 'true'
+        id: name
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+        run: echo "file=$(date -u +%Y-%m-%d)-issue-$ISSUE.json" >> "$GITHUB_OUTPUT"
+
+      - name: Validate
+        if: steps.find.outputs.found == 'true'
+        id: validate
+        continue-on-error: true
+        run: |
+          cargo run --release -p cena-corrections --bin validate -- \
+            submission.json rooms . --accept "${{ steps.name.outputs.file }}" \
+            > verdict.md
+          cat verdict.md
+
+      # The verdict goes back to the issue either way. A refusal is a normal
+      # outcome that the submitter has to be able to act on, so it is posted
+      # in the same words whether it passed or not.
+      - name: Post the verdict
+        if: steps.find.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: gh issue comment "$ISSUE" --body-file verdict.md
+
+      - name: Stop here if it was refused
+        if: steps.find.outputs.found == 'true' && steps.validate.outcome != 'success'
+        run: |
+          echo "Refused; no pull request opened. See the comment on the issue."
+          exit 1
+
+      # The pictures are committed here and **only** here: on the review
+      # branch, so GitHub renders them in the PR's file list for whoever is
+      # judging the layout. They are evidence, not corrections -- squashing
+      # the merge is what keeps them out of `main`.
+      - name: Open a pull request
+        if: steps.find.outputs.found == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: corrections/
+          commit-message: |
+            Corrections from #${{ github.event.issue.number }}
+
+            Submitted by @${{ github.event.issue.user.login }}.
+          branch: corrections/issue-${{ github.event.issue.number }}
+          delete-branch: true
+          title: "Corrections from #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+          body: |
+            Closes #${{ github.event.issue.number }}, submitted by
+            @${{ github.event.issue.user.login }}.
+
+            ${{ steps.validate.outputs.stdout }}
+
+            <details>
+            <summary>What the submitter said they corrected</summary>
+
+            ${{ github.event.issue.body }}
+
+            </details>
+
+            ---
+
+            **Reviewing this.** The bot checked that the file is well-formed:
+            its rooms exist, its bearings agree with each other, and nothing
+            here contradicts a correction already accepted. It did **not**
+            check whether the corrections are *right* -- that is this review.
+
+            Any `.svg` files in this PR are the submitter's pictures of the
+            sheets they changed. Open them from the "Files changed" tab to see
+            the layout they were looking at. **Squash and merge**: the
+            pictures are review evidence and should not land in `main`.
+
+            Merging applies these corrections to `rooms/` and publishes a new
+            `hydra.map` release.

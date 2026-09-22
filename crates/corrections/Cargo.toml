@@ -1,0 +1,21 @@
+[package]
+name = "cena-corrections"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+# The submission half of the map pipeline: validate a corrections file
+# somebody attached to an issue, and fold the accepted ones into the set the
+# build reads.
+#
+# The format is `hydra-mapper`'s, specified in its `docs/corrections-format.md`
+# -- this crate implements that document's "Validating a submission" section,
+# and the rules there are quoted at the checks that enforce them so the two
+# can be read against each other.
+[dependencies]
+cena-map.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true
