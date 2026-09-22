@@ -1,0 +1,44 @@
+{
+  "id": 23522,
+  "uid": [
+    18048005
+  ],
+  "title": [
+    "[Alabaster Spire, Dining Hall]"
+  ],
+  "description": [
+    "Sconces on the alabaster walls illuminate oil paintings depicting historically significant Faendryl and the officers of the Enclave.  A massive ebonwood dining table set for a formal meal traverses the length of the narrow room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "mho:Faendryl Enclave"
+  ],
+  "image": {
+    "file": "wl-faendrylenclave.png",
+    "rect": [
+      281,
+      384,
+      319,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 23521,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23523,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

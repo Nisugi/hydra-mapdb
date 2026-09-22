@@ -1,0 +1,66 @@
+{
+  "id": 27860,
+  "uid": [
+    1303401
+  ],
+  "title": [
+    "[Front Porch]"
+  ],
+  "description": [
+    "A three foot high railing encloses a wide, cedar porch which has aged to a warm red tone.  Several rocking chairs are arranged near a small wicker table.  Through the trees, in the distance, snow-capped mountains can be seen rising through a fog.  A spiral staircase, following the contour of the tree, descends back to the forest floor, while a heavy oak door provides access to a cottage built around the tree.  A tall window provides a glimpse of the interior of a cottage"
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "Keh'nira Fyr'sah",
+    "private property",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 4651,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 27864,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock oak door"
+        },
+        {
+          "put": "open oak door"
+        },
+        {
+          "move": "go oak door"
+        },
+        {
+          "put": "close oak door"
+        },
+        {
+          "put": "lock oak door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    }
+  ]
+}

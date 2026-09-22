@@ -1,0 +1,41 @@
+{
+  "id": 36366,
+  "uid": [
+    55037
+  ],
+  "title": [
+    "[Keep, Outer Chamber]"
+  ],
+  "description": [
+    "This chamber is full of old junk.  There are some bent and corroded pots of all shapes and sizes lying about haphazardly.  In one corner, an old heavy basin lies broken, one side completely shattered from its impact with the floor.  Several stacks of old buckets beside a large stone door, corroded together so that it would be difficult to pull them apart."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1080,
+      203,
+      1120,
+      243
+    ]
+  },
+  "exits": [
+    {
+      "to": 36365,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36367,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

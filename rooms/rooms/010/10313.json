@@ -1,0 +1,103 @@
+{
+  "id": 10313,
+  "uid": [
+    14104001
+  ],
+  "title": [
+    "[Wyvern Keep, Lobby]"
+  ],
+  "description": [
+    "A gleaming, red marble floor extends at least a hundred feet to the east, its shiny surface reflecting the sunlight that pours through the glass panes high overhead.  White marble columns shot with gold veins support an oak framework two stories up, and large metal baskets filled with trailing ivy and climbing roses hang from the oak mesh.  Immaculate, carved chairs occupy places around the lobby near tables polished to a mirror-like sheen.",
+    "A gleaming, red marble floor extends at least a hundred feet to the east, its shiny surface reflecting the moonlight that pours through the glass panes high overhead.  White marble columns shot with gold veins support an oak girder framework two stories up, and large metal baskets filled with trailing ivy and climbing roses hang from the oak mesh.  Immaculate, carved chairs occupy places around the lobby near tables polished to a mirror-like sheen."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapname:Elven Nations - Ta'Vaalor - Wyvern Keep",
+    "mapshortname:Ta'Vaalor - Wyvern Keep"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-wyverns_keep-1488759285.png",
+    "rect": [
+      308,
+      373,
+      448,
+      433
+    ]
+  },
+  "exits": [
+    {
+      "to": 3487,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10314,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10317,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12347,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

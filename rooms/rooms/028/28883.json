@@ -1,0 +1,110 @@
+{
+  "id": 28883,
+  "uid": [
+    7118220
+  ],
+  "title": [
+    "[Wandering Eye Market, West]"
+  ],
+  "description": [
+    "Still busy despite the hour, traffic trickles in from the northwestern road through the cobblestone courtyard.  Wagons, mules, and heavily burdened workers have worn away some of the painting upon the cobblestone of the market, though some of the edges still display the black, cerulean, and azure hues.  A large flat-roofed tent with an enormous wooden sign hanging over its entry stands open for business along the western edges, while opposite a weathered oak building is brightly illuminated from within.",
+    "Constant traffic from the northwestern roads through the cobblestone courtyard lends this section of the market a loudness that is missing from other sections.  Wagons, mules, and heavily burdened workers have worn away some of the painting upon the cobblestone of the market, though some of the edges still display the black, cerulean, and azure hues.  A large flat-roofed tent with an enormous wooden sign hanging over its entry stands open for business along the western edges.",
+    "Constant traffic from the northwestern roads through the cobblestone courtyard lends this section of the market a loudness that is missing from other sections.  Wagons, mules, and heavily burdened workers have worn away some of the painting upon the cobblestone of the market, though some of the edges still display the black, cerulean, and azure hues.  A large flat-roofed tent with an enormous wooden sign hanging over its entry stands open for business along the western edges, while opposite a weathered oak building has a steady flow of visitors."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, northwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      340,
+      375,
+      353,
+      386
+    ]
+  },
+  "exits": [
+    {
+      "to": 28813,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28872,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28884,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28895,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28925,
+      "kind": "go",
+      "cmd": "go oak building",
+      "cost": 0.2
+    },
+    {
+      "to": 28940,
+      "kind": "go",
+      "cmd": "go flat tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 1950,
+  "uid": [
+    3001045
+  ],
+  "title": [
+    "[Glaes and Dragonstail]"
+  ],
+  "description": [
+    "The tunnel turns here, as Glaes and Dragonstail meet.  One building stands out, a large, black granite structure.  A staircase of grey and white marble leads up to the mithril gates, which are flanked by a pair of stone manticores.  The dwarves who amble in and out look to be prosperous sorts."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1394,
+      253,
+      1424,
+      283
+    ]
+  },
+  "exits": [
+    {
+      "to": 1949,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1951,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12574,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26238,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

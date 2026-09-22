@@ -1,0 +1,44 @@
+{
+  "id": 35526,
+  "uid": [
+    4410314
+  ],
+  "title": [
+    "[Tideswept Bazaar]"
+  ],
+  "description": [
+    "Opening into a wide cavern, the walls are draped in shaleflare moss that pulses with faint bioluminescence.  Bright coral clusters rise from crevices, forming jagged spires and rounded domes.  The vibrant formations scatter across the sandy floor and cling to rocky ledges, casting shifting patterns across the water as pale light gently illuminates each surface."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "exits": [
+    {
+      "to": 35517,
+      "kind": "cardinal",
+      "cmd": "se",
+      "cost": 0.2
+    },
+    {
+      "to": 35525,
+      "kind": "cardinal",
+      "cmd": "n",
+      "cost": 0.2
+    },
+    {
+      "to": 35566,
+      "kind": "go",
+      "cmd": "go kelp walls",
+      "cost": 0.2
+    },
+    {
+      "to": 35567,
+      "kind": "go",
+      "cmd": "go effervescing curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 16395,
+  "uid": [
+    261009
+  ],
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "The hall is panelled with dark wood and hung with heavy tapestries that dull the sounds of footsteps.  Illuminated only by the glow from the torches to the south, the passage continues north into darkness.  A draft of cool air occasionally wafts in from a narrow stairway that leads up through an opening in one wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      460,
+      415,
+      488,
+      443
+    ]
+  },
+  "exits": [
+    {
+      "to": 16394,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16396,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 16421,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16433,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

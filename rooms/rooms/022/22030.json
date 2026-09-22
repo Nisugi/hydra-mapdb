@@ -1,0 +1,45 @@
+{
+  "id": 22030,
+  "uid": [
+    109103
+  ],
+  "title": [
+    "[Silvergate, Ocean Room]"
+  ],
+  "description": [
+    "Three curving walls of this chamber have been painted with fanciful scenes of merfolk and nymphs sporting among ocean waves and sunswept beaches.  A brilliant sunset depicted on the west wall cleverly frames an arched fireplace.  Midnight blue silk panels, embroidered with tiny silver stars and draped from the ceiling above, sway gently in a warm updraft, creating the illusion of a twinkling night sky.  Centered in the room, a feather bed hangs suspended from the ceiling on cotton ropes."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      696,
+      7,
+      751,
+      63
+    ]
+  },
+  "exits": [
+    {
+      "to": 14674,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlatch blue door"
+        },
+        {
+          "put": "open blue door"
+        },
+        {
+          "move": "go blue door"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

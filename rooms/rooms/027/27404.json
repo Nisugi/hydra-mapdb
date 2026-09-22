@@ -1,0 +1,54 @@
+{
+  "id": 27404,
+  "title": [
+    "[Carnival, Creepy Corner]"
+  ],
+  "description": [
+    "Wagons border the carnival to the south and west as the main walkway circles around the central bonfire.  Coiled ropes fill the ground in the netted spaces between the wagons.  Boldly colored pennants and lanterns line the walkway."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      475,
+      387,
+      526,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 27402,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27411,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27412,
+      "kind": "go",
+      "cmd": "go pink tent",
+      "cost": 0.2
+    },
+    {
+      "to": 27414,
+      "kind": "go",
+      "cmd": "go double-wide wagon",
+      "cost": 0.2
+    }
+  ]
+}

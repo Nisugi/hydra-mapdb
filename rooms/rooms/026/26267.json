@@ -1,0 +1,36 @@
+{
+  "id": 26267,
+  "title": [
+    "[Banshee Tower, Fifth Floor]"
+  ],
+  "description": [
+    "The air here is cold and heavy, thick with the scent of death and decay.  White mist floats about the area, dark shapes moving within."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      126,
+      215,
+      153,
+      243
+    ]
+  },
+  "exits": [
+    {
+      "to": 26266,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 26268,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

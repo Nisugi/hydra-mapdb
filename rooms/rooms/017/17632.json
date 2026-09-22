@@ -1,0 +1,53 @@
+{
+  "id": 17632,
+  "uid": [
+    3207026
+  ],
+  "title": [
+    "[Silken Mist, Hallway]"
+  ],
+  "description": [
+    "A small but very detailed crystal chandelier is hanging from the ceiling, and a strategically placed air vent is causing the tiny glassine shards of the lamp to musically tinkle against each other.  There is no light coming from the chandelier, rather it seems to only serve as a ornamental mobile."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Silken Mist on Four Winds Isle",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      481,
+      1541,
+      501,
+      1562
+    ]
+  },
+  "exits": [
+    {
+      "to": 17629,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17633,
+      "kind": "go",
+      "cmd": "go carved door",
+      "cost": 0.2
+    },
+    {
+      "to": 17634,
+      "kind": "go",
+      "cmd": "go glass-inlaid door",
+      "cost": 0.2
+    },
+    {
+      "to": 17635,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

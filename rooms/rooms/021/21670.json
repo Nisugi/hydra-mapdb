@@ -1,0 +1,45 @@
+{
+  "id": 21670,
+  "title": [
+    "[Festival of Frost, Grounds]"
+  ],
+  "description": [
+    "The light of the sun warms the area, as the roaring bonfire from nearby casts a faint glow in the air.  Children dart about, throwing snowballs at each other before running back over to a snowy field.  Close by, a group of burly giantmen lug armfuls of firewood down a torch-lit trail."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "exits": [
+    {
+      "to": 21665,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21667,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21671,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 21672,
+      "kind": "go",
+      "cmd": "go field",
+      "cost": 0.2
+    },
+    {
+      "to": 21673,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

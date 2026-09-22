@@ -1,0 +1,205 @@
+{
+  "id": 4577,
+  "uid": [
+    13302107
+  ],
+  "title": [
+    "[Griffin's Keen, Topaz Point]"
+  ],
+  "description": [
+    "The uneven trail is almost vertical here, and keeping your balance is difficult.  The ice-covered wall of the mountain is veined with spidery cracks which might give purchase to a grasping hand.  A collection of sticks or bones is wedged into the bottom of one of the larger ones."
+  ],
+  "paths": [
+    "Obvious paths: northwest, down"
+  ],
+  "location": "Griffin's Keen",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "deep purple shockroot",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of holly",
+    "sweetfern stalk",
+    "valerian root"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      586,
+      167,
+      596,
+      177
+    ]
+  },
+  "exits": [
+    {
+      "to": 4576,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "down"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 4578,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 4.2
+    }
+  ]
+}

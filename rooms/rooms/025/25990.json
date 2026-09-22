@@ -1,0 +1,36 @@
+{
+  "id": 25990,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "Fitting to its namesake, the road here is twisted and its uneven cobblestones slick from blood.  Disfigured bodies are hoisted up on stakes, creating a ghastly border along both sides of the path."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      282,
+      598,
+      308,
+      624
+    ]
+  },
+  "exits": [
+    {
+      "to": 25941,
+      "kind": "go",
+      "cmd": "go rubble",
+      "cost": 0.2
+    },
+    {
+      "to": 26243,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

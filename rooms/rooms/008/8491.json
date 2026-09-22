@@ -1,0 +1,62 @@
+{
+  "id": 8491,
+  "uid": [
+    2155024
+  ],
+  "title": [
+    "[Temple, Sanctuary]"
+  ],
+  "description": [
+    "The shadows are deep on this side of the sanctuary.  To the north is the altar, sitting above the level of the pews, seemingly casting the shadows down upon you.  To the east, a small prayer chapel sits apart from the sanctuary in a small alcove and a small passageway leads northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, west"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      305,
+      683,
+      315,
+      693
+    ]
+  },
+  "exits": [
+    {
+      "to": 8490,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8492,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8497,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8498,
+      "kind": "go",
+      "cmd": "go chapel",
+      "cost": 0.2
+    },
+    {
+      "to": 8499,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    }
+  ]
+}

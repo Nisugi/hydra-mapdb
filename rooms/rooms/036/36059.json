@@ -1,0 +1,51 @@
+{
+  "id": 36059,
+  "uid": [
+    8022012
+  ],
+  "title": [
+    "[Halan Lea, Eastern Track]"
+  ],
+  "description": [
+    "Larkspur and edelweiss scatter through the tall meadow grass along the village's southern edge, their blooms rising in bright pockets as the blades shift in moonlight.  To the east, black currant and sarsaparilla shrubs mark the boundary of the dark wood of larch, birch, rowan, and pine.  At the curve of the track stands a lone ger, its felt walls stitched with sweeping indigo arcs that form a continuous ring.  Towards the southern section, a juniper-framed stall is surrounded by soot-stained, short brown grass."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Northern Steppes",
+  "image": {
+    "file": "fest-white_star-1765071445.png",
+    "rect": [
+      801,
+      273,
+      848,
+      314
+    ]
+  },
+  "exits": [
+    {
+      "to": 36049,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36058,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36060,
+      "kind": "go",
+      "cmd": "go ger",
+      "cost": 0.2
+    },
+    {
+      "to": 36061,
+      "kind": "go",
+      "cmd": "go juniper-framed stall",
+      "cost": 0.2
+    }
+  ]
+}

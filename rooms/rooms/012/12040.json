@@ -1,0 +1,44 @@
+{
+  "id": 12040,
+  "uid": [
+    17004164
+  ],
+  "title": [
+    "[Basilica Platform, Third Level]"
+  ],
+  "description": [
+    "A building constructed of gleaming white marble is enthroned upon the pinnacle of the pyramid.  No vegetation climbs the pristine heights of the exterior walls. No dirt or signs of erosion mar the ornate carvings that surround the arched entrance leading into its massive hall. It is as if time has come to halt atop this lofty tower.  Wide stone steps lead down to the platform below."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      740,
+      503,
+      750,
+      513
+    ]
+  },
+  "exits": [
+    {
+      "to": 11900,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 12039,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

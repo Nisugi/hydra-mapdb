@@ -1,0 +1,68 @@
+{
+  "id": 26122,
+  "uid": [
+    7107002
+  ],
+  "title": [
+    "[Empyrean Tower, Observation]"
+  ],
+  "description": [
+    "Darkness looms overhead, the air thick with the sterile tang of ozone.  Crumbling arches in the curved wall give way to illuminated chambers, the prismatic light streaming from the stone cavities drawn to the east in colorful ribbons.  A pair of apprentices are bent over a long oaken worktable laden with alchemical supplies surrounding a detailed parchment chart, while several vials and beakers filled with glowing blue liquid bubble over a tabletop brazier."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      1095,
+      335,
+      1129,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 26121,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26123,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26133,
+      "kind": "go",
+      "cmd": "go cobalt chamber",
+      "cost": 0.2
+    },
+    {
+      "to": 26134,
+      "kind": "go",
+      "cmd": "go teal chamber",
+      "cost": 0.2
+    },
+    {
+      "to": 26135,
+      "kind": "go",
+      "cmd": "go orange chamber",
+      "cost": 0.2
+    },
+    {
+      "to": 26136,
+      "kind": "go",
+      "cmd": "go pink chamber",
+      "cost": 0.2
+    }
+  ]
+}

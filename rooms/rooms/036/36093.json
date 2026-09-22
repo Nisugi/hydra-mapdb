@@ -1,0 +1,43 @@
+{
+  "id": 36093,
+  "uid": [
+    105009
+  ],
+  "title": [
+    "[House Arcane, Portico]"
+  ],
+  "description": [
+    "A protective trellis, overgrown with dark green ivy, shades the entranceway to House Arcane.  Over the wrought-iron entrance gate, a rough, stone gargoyle broods, instilling an aura of ancient mystery and adventure.  High walls of black onyx rise from either side of the gate, their polished smoothness contrasting with the trailing ivy.  A flagstone walk extends from gate to door, splitting the grassy turf into two identical squares."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "cultivated",
+  "meta": [
+    "che:arcane_masters:entrance_che"
+  ],
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      240,
+      820,
+      321,
+      901
+    ]
+  },
+  "exits": [
+    {
+      "to": 249,
+      "kind": "go",
+      "cmd": "go wrought gate",
+      "cost": 0.2
+    },
+    {
+      "to": 36094,
+      "kind": "go",
+      "cmd": "go ebony door",
+      "cost": 0.2
+    }
+  ]
+}

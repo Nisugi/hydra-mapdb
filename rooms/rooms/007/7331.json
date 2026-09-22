@@ -1,0 +1,75 @@
+{
+  "id": 7331,
+  "uid": [
+    389036
+  ],
+  "title": [
+    "[A Dark Crevice]"
+  ],
+  "description": [
+    "You are perched on the ledge of a dangerously steep crevice which juts out from the wall hanging over a dark abyss.  The odd mists within it glow with an ethereal light as they lash about in their chaotic dance.  From above, the sound of thundering hooves reverberate throughout the chasm, seemingly vanishing into the bottomless pit below."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "cold, damp",
+  "terrain": "rough",
+  "tags": [
+    "no forageables",
+    "node"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1390,
+      696,
+      1398,
+      704
+    ]
+  },
+  "exits": [
+    {
+      "to": 7315,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "stand",
+          "when": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "move": "jump abyss"
+        },
+        {
+          "wait_until": {
+            "otherwise": {
+              "flag": "stunned"
+            }
+          }
+        },
+        {
+          "put": "stand",
+          "when": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 30.0
+    },
+    {
+      "to": 7328,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

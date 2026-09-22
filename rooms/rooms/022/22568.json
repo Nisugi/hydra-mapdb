@@ -1,0 +1,35 @@
+{
+  "id": 22568,
+  "title": [
+    "[Ruined Office]"
+  ],
+  "description": [
+    "Complete with a plethora of disintegrating wooden beams overhead and entirely missing sections of wall, the building is in shambles.  Dirt, sludge, and cobwebs cling to every surface, the chill wafts of air constantly breezing through disturbing their sleep and creating a mist of dust that permanently swirls through the space.  In a shadowed corner, broken shards of glass scatter across a massive, rotting wooden desk overturned in haphazard fashion."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20353,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 22571,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

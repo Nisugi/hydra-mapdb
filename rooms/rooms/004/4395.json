@@ -1,0 +1,45 @@
+{
+  "id": 4395,
+  "title": [
+    "[Ruby Level, West Hall]"
+  ],
+  "description": [
+    "Displayed in a tall glass case is an ornate suit of armor, clearly of dwarven craftsmanship.  There doesn't appear to be any way to open the case."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4373,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4392,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4396,
+      "kind": "go",
+      "cmd": "go shaft",
+      "cost": 0.2
+    },
+    {
+      "to": 4403,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

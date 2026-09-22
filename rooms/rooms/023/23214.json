@@ -1,0 +1,51 @@
+{
+  "id": 23214,
+  "uid": [
+    213040
+  ],
+  "title": [
+    "[White Haven, Locker Entrance]"
+  ],
+  "description": [
+    "The walls are cool and damp.  Only the back of a mural mars the otherwise bleak appearance of the walls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "White Haven",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:White Haven",
+    "che:white_haven:entrance_locker"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      682,
+      322,
+      759,
+      397
+    ]
+  },
+  "exits": [
+    {
+      "to": 23211,
+      "kind": "go",
+      "cmd": "go mural",
+      "cost": 0.2
+    },
+    {
+      "to": 23238,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 33005,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

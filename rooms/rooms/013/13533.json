@@ -1,0 +1,50 @@
+{
+  "id": 13533,
+  "uid": [
+    4384011
+  ],
+  "title": [
+    "[Silverwood Manor, Great Hall]"
+  ],
+  "description": [
+    "The vaulted ceiling of the hall rises to a spectacular height, and the smooth stonework is punctuated by elongated oval skylights that admit slanting rays of moonlight.  Natural light combined with the candles burning amid dozens of filigree sconces set into the walls causes the ivory-veined grey marble floor to gleam.  Soft velvet curtains in various hues of blue and grey drape the northern wall and are tied back in the center to display a polished granite arch.",
+    "The vaulted ceiling of the hall rises to a spectacular height, and the smooth stonework is punctuated by elongated oval skylights that admit slanting rays of sunlight.  Natural light combined with the candles burning amid dozens of filigree sconces set into the walls causes the ivory-veined grey marble floor to gleam.  Soft velvet curtains in various hues of blue and grey drape the northern wall and are tied back in the center to display a polished granite arch."
+  ],
+  "paths": [
+    "Obvious exits: east, west, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 13532,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 13534,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14008,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14013,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

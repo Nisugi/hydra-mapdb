@@ -1,0 +1,42 @@
+{
+  "id": 19070,
+  "title": [
+    "[Spitfire, Forecastle Starboard]"
+  ],
+  "description": [
+    "The deck of the forecastle displays an intricate pattern of inlaid woods.  Deep mahogany contrasts with lighter-hued maoral wood and pine, crafted into an image of a mariner's compass.  Off the starboard rail, a shapely sloop tacks toward the mouth of the bay, needing no help in the brisk breeze.  The cries of seabirds overhead mingle with the bright melody of the minstrels strolling the wharf."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      160,
+      167,
+      198,
+      206
+    ]
+  },
+  "exits": [
+    {
+      "to": 19057,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19068,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 19073,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

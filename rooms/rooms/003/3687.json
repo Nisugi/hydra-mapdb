@@ -1,0 +1,50 @@
+{
+  "id": 3687,
+  "uid": [
+    42012
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A row of small, desolate cells stands along the east side of the corridor.  Gleaming, new chains and locks have been added to reinforce the bolts on the heavy, iron door to a nearby cell.  Odd, scuffling noises can be heard from within the tiny chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      174,
+      1118,
+      184,
+      1128
+    ]
+  },
+  "exits": [
+    {
+      "to": 3686,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 3688,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3691,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

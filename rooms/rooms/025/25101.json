@@ -1,0 +1,45 @@
+{
+  "id": 25101,
+  "uid": [
+    -7105137
+  ],
+  "title": [
+    "[Reim Settlement, Dungeon]"
+  ],
+  "description": [
+    "The dungeon slopes down and the path splits in two directions, one leading to a cell door, while the other leads further into darkness.  A streak of blackened fluid can be seen along both paths, and an eerie, incessant, tapping noise fills the hallway.  A narrow skylight is carved into the roof casting a spotlight on the intersection of the two paths."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      176,
+      672,
+      187,
+      684
+    ]
+  },
+  "exits": [
+    {
+      "to": 25100,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25102,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25103,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

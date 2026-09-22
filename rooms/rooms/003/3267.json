@@ -1,0 +1,50 @@
+{
+  "id": 3267,
+  "uid": [
+    4127017
+  ],
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The entrance opens into a large cavern that continues to the north and the northeast.  The opening is the only apparent source of light making it difficult to see further into the cavern."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      369,
+      352,
+      379,
+      362
+    ]
+  },
+  "exits": [
+    {
+      "to": 3266,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3268,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3270,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 30847,
+  "uid": [
+    7138110
+  ],
+  "title": [
+    "[Atoll, Ivory Path]"
+  ],
+  "description": [
+    "Ivory blocks are stacked up around a grotto to form a provisional wall.  Tall tropical trees with far-reaching fronds offer shade throughout the area.  Dark and ominous, the ocean waters crash against the shore, and jagged rocks break the sea's surface in sharp, pointed clusters.",
+    "Ivory blocks are stacked up around a grotto to form a makeshift wall.  Tall tropical trees with far-reaching fronds offer shade for those nearby, the ocean waters dark and ominous with jagged rocks protruding from the surface."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Atoll",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "tags": [
+    "blackened moss",
+    "murdroot",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "kf-atoll-1652294074.jpg",
+    "rect": [
+      193,
+      190,
+      223,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 30846,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30848,
+      "kind": "go",
+      "cmd": "go grotto",
+      "cost": 0.2
+    },
+    {
+      "to": 30849,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

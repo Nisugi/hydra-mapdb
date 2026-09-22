@@ -1,0 +1,52 @@
+{
+  "id": 30348,
+  "uid": [
+    8214717
+  ],
+  "title": [
+    "[Below Deck, Corridor]"
+  ],
+  "description": [
+    "Portholes mark both ends of the long corridor, the verdigris copper standing out on the mahogany walls.  Shield lanterns sway as the boat gently rocks at harbor, casting shadows upon the sparse white oak planks that fashion the floor.  A teak and steel stairway leads to the deck above, while a glossy oak door with a bronze placard reading, \"Pinned and Pleated\" leads deeper inside."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      300,
+      822,
+      330,
+      851
+    ]
+  },
+  "exits": [
+    {
+      "to": 30338,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30349,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30350,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 31438,
+      "kind": "go",
+      "cmd": "go feather-crested door",
+      "cost": 0.2
+    }
+  ]
+}

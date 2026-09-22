@@ -1,0 +1,65 @@
+{
+  "id": 15694,
+  "uid": [
+    260001
+  ],
+  "title": [
+    "[Silvermule, Private Library]"
+  ],
+  "description": [
+    "This low-ceilinged chamber is furnished with several small reading tables and a few elaborate, latched bookcases that contain a variety of fine and ancient tomes.  A dark-robed, bespectacled halfling studies at a lectern, his suspicious gaze glancing about the room as he guards his literary treasures."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild",
+    "rogueguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Rogue Guild",
+    "mapshortname:Rogue Guild (Icemule)"
+  ],
+  "image": {
+    "file": "imt-rogue_guild-1305438533.png",
+    "rect": [
+      499,
+      399,
+      528,
+      424
+    ]
+  },
+  "exits": [
+    {
+      "to": 3430,
+      "kind": "go",
+      "cmd": "go tapestry",
+      "cost": 0.2
+    },
+    {
+      "to": 17964,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

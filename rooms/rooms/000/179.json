@@ -1,0 +1,97 @@
+{
+  "id": 179,
+  "uid": [
+    13100020
+  ],
+  "title": [
+    "[Ta'Illistim, Ellaerin Var]"
+  ],
+  "description": [
+    "A finely constructed hall stands at the corner, its lovely stone walls carved with varying curvilinear designs interspersed with delicately wrought renderings of various herbs.  A small herb garden occupies the space between var and hall doors, the acantha and cothinar flower within lightly scenting the surrounding air.",
+    "A finely constructed hall stands at the corner, its marble frieze carved with varying curvilinear designs interspersed with delicately wrought renderings of various herbs.  A small herb garden occupies the space between var and hall doors, acantha and cothinar flower growing with profusion within."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "empath guild",
+    "empathguild",
+    "stalk of bluebells",
+    "urchin guide empathguild",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1066,
+      950,
+      1088,
+      972
+    ]
+  },
+  "exits": [
+    {
+      "to": 178,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 180,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19507,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": {
+        "when": {
+          "profession": "Empath"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

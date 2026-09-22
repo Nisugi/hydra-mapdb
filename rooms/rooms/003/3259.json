@@ -1,0 +1,44 @@
+{
+  "id": 3259,
+  "uid": [
+    7502020
+  ],
+  "title": [
+    "[A Frozen Battlefield]"
+  ],
+  "description": [
+    "A tall semi-circular ring of boulders forms a solid battlement, its position secure upon a small crest.  From this vantage most of the battlefield below is visible, although the heavy weather obscures most detail."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west, northwest"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      122,
+      252,
+      132,
+      262
+    ]
+  },
+  "exits": [
+    {
+      "to": 3254,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3260,
+      "kind": "go",
+      "cmd": "go trench",
+      "cost": 0.2
+    }
+  ]
+}

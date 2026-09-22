@@ -1,0 +1,27 @@
+{
+  "id": 23509,
+  "title": [
+    "[Haberdashery]"
+  ],
+  "description": [
+    "The low, constant creaking of the ship is the only sound that permeates the thick wooden walls of this small room.  Several shelves line the far wall, each one containing small garments for men.  A low opening leads to another room, and the only light penetrating the gloom comes from a single candelabrum set on an overturned crate in the corner."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "exits": [
+    {
+      "to": 19140,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23510,
+      "kind": "go",
+      "cmd": "go low opening",
+      "cost": 0.2
+    }
+  ]
+}

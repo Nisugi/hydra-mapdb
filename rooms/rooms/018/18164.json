@@ -1,0 +1,43 @@
+{
+  "id": 18164,
+  "uid": [
+    666110
+  ],
+  "title": [
+    "[Sorcerer Guild, Storage]"
+  ],
+  "description": [
+    "A large niche deeply recessed into the stone walls holds a myriad of shelves, most laden with lidded jars and tightly stoppered flasks.  Next to it, a stout wooden ladder offers the obvious means to reach even the highest-stored items.  Further back into the cavernous room, numerous tall cabinets offer a glimpse of the vast stores within."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "subterranean",
+  "tags": [
+    "sorcerer alchemy cleaning supplies"
+  ],
+  "image": {
+    "file": "en-ta_illistim-sorcerer_guild-1405076623.png",
+    "rect": [
+      741,
+      743,
+      779,
+      780
+    ]
+  },
+  "exits": [
+    {
+      "to": 18163,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18171,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

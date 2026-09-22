@@ -1,0 +1,57 @@
+{
+  "id": 32339,
+  "uid": [
+    7133002
+  ],
+  "title": [
+    "[Frostmain Docks, Shoreline]",
+    "[Frostmain, Docks]"
+  ],
+  "description": [
+    "Sprouting from a shore of black sand and sharp stone, the docks are an aging trident of planks that stretch out into the forbidding waters of the Frostmain.  Chunks of ice born from the vast white icebergs not far offshore bob in the dark water to the seaward side of the walk.  Despite the cold, silvery fish dart in the dark waters, little bothered by the frigid tides in which they swim."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Frostmain Docks",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Road_to_Moonsedge-1668377644.png",
+    "rect": [
+      1198,
+      670,
+      1238,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 32338,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 32340,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32351,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32357,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

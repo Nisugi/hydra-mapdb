@@ -1,0 +1,63 @@
+{
+  "id": 4143,
+  "uid": [
+    18013
+  ],
+  "title": [
+    "[Graveyard, Crypt]"
+  ],
+  "description": [
+    "You enter the close, stuffy room that houses the sarcophagus of the once-illustrious inhabitant of this imposing crypt.  The coffin stands upright against one wall, almost touching the low ceiling, its painted lid stuck open on sagging hinges.  You shudder as you notice that there are long, fresh tracks on the dust-covered stone floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      568,
+      949,
+      578,
+      959
+    ]
+  },
+  "exits": [
+    {
+      "to": 4142,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4144,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 4344,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4345,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

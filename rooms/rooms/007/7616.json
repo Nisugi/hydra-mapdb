@@ -1,0 +1,47 @@
+{
+  "id": 7616,
+  "uid": [
+    84200
+  ],
+  "title": [
+    "[Beach Area, Dock]"
+  ],
+  "description": [
+    "As you make your way rather heavily through the sand, you come upon the remains of an old wooden dock that juts out some ways over the water.  Old pilings lean at drunken angles and support dry-rotted planks that look to crumble at a footstep.  Moonlight plays over the ancient pier, making it look nearly otherworldly.",
+    "As you make your way rather heavily through the sand, you come upon the remains of an old wooden dock that juts out some ways over the water.  Old pilings lean at drunken angles and support dry-rotted planks that look to crumble at a footstep.  At the far end of the dock sit a pair of sea-birds looking as old and weathered as the pier itself."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      303,
+      500,
+      313,
+      510
+    ]
+  },
+  "exits": [
+    {
+      "to": 7615,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7637,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    }
+  ]
+}

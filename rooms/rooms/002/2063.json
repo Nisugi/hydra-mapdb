@@ -1,0 +1,44 @@
+{
+  "id": 2063,
+  "uid": [
+    3009017
+  ],
+  "title": [
+    "[Teras Isle, Old Road]"
+  ],
+  "description": [
+    "Mossy paving stones climb out of the muck and slime to the north, resuming their trek to the south.  The gallant travellers are quickly stymied again by thick undergrowth thriving at the edge of the bog.  To the south, the brambles and low trees become as thick as a wall.  The road may continue farther, but it looks as though you won't.  The river flows by lazily on the west side of the road."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the old Logging Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      598,
+      591,
+      608,
+      601
+    ]
+  },
+  "exits": [
+    {
+      "to": 2062,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2064,
+      "kind": "go",
+      "cmd": "go ford",
+      "cost": 0.2
+    }
+  ]
+}

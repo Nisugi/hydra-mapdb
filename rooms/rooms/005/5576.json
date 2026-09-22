@@ -1,0 +1,135 @@
+{
+  "id": 5576,
+  "uid": [
+    2130208
+  ],
+  "title": [
+    "[Vornavis, North Gate]"
+  ],
+  "description": [
+    "The sounds of the beast pens and other caravan noises to the north echo off the immense blue granite walls that surround Vornavis.  From within the walls come the familiar noises of city life that, in turn, combine with the animal noises to make an odd mix of sounds.  A guard stands at the gate into the city, watching carefully all who enter."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the holdings of Vornavis",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "advguard",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "guard",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "northgate",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin guide guard",
+    "urchin guide northgate",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      1121,
+      973,
+      1131,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 4617,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 33305,
+      "kind": "go",
+      "cmd": "go copper gates",
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "citizenship": "Solhaven"
+            },
+            {
+              "setting_is_set": "allow_vornavis"
+            }
+          ]
+        },
+        "then": 10.0
+      }
+    }
+  ]
+}

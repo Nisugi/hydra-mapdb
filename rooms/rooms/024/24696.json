@@ -1,0 +1,98 @@
+{
+  "id": 24696,
+  "uid": [
+    480216,
+    17006216
+  ],
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "Deep shadows and curls of ghostly mist grip the edges of the dark forest here.  The trees have grown so thick that there is precious little room to navigate through some of the dense thicket."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "foe:direbear",
+    "foe:direwolf",
+    "foe:warped tree spirit",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      467,
+      76,
+      481,
+      90
+    ]
+  },
+  "exits": [
+    {
+      "to": 24695,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24702,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24704,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

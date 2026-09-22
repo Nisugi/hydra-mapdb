@@ -1,0 +1,47 @@
+{
+  "id": 19729,
+  "uid": [
+    11009
+  ],
+  "title": [
+    "[Cavernhold, Lake Shore]"
+  ],
+  "description": [
+    "This is the eastern shore of the large underground lake.  A small stream exits the lake here and disappears under the wall to the southeast.  The quiet gurgle of the tumbling water is wonderfully relaxing."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      403,
+      627,
+      414,
+      638
+    ]
+  },
+  "exits": [
+    {
+      "to": 19728,
+      "kind": "go",
+      "cmd": "go stones",
+      "cost": 8.0
+    },
+    {
+      "to": 19731,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

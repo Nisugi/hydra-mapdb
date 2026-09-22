@@ -1,0 +1,58 @@
+{
+  "id": 3265,
+  "uid": [
+    4127006
+  ],
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "Around a slight bend in the path you spot another dark opening cut into the foothill.  The remnants of an iron gate lay broken to one side of the opening set against a small, snow-covered boulder.  Pieces of iron and small rock lie scattered about as if some great force had shattered this section of the structure."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "frostflower",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sweetfern stalk",
+    "valerian root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      342,
+      410,
+      352,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 3264,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3266,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3271,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    }
+  ]
+}

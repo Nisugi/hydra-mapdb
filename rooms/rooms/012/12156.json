@@ -1,0 +1,211 @@
+{
+  "id": 12156,
+  "uid": [
+    4569021
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A stone basin sits in the center of the castle courtyard.  Standing within it is a man, badly wounded, up to his knees in blood.  The crimson liquid pours from his cuts, trickling into the pool with a happy sound reminiscent of a burbling fountain.  He holds his hands above his head, as if bound by an invisible cord, although his face registers no emotion at all."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west",
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "discolored fleshbinder bud",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "rotting bile green fleshbulb",
+    "slime-covered grave blossom",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      649,
+      1261,
+      659,
+      1271
+    ]
+  },
+  "exits": [
+    {
+      "to": 12096,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12097,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12207,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12235,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    }
+  ]
+}

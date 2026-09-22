@@ -1,0 +1,130 @@
+{
+  "id": 7465,
+  "uid": [
+    94008
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel branches in three directions here.  The air is still, there is no detectable breeze or air current from any of the branches.  A subtle, bitter odor nags at your palate, leaving a foul taste in your mouth, and irritating your nose and eyes."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      807,
+      960,
+      817,
+      970
+    ]
+  },
+  "exits": [
+    {
+      "to": 7464,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7466,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

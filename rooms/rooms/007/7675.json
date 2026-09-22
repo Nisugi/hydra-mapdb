@@ -1,0 +1,44 @@
+{
+  "id": 7675,
+  "uid": [
+    67052
+  ],
+  "title": [
+    "[Coastal Cliffs, Cemetery]"
+  ],
+  "description": [
+    "A plain and dreary little mausoleum of grime-streaked stone, pockmarked by erosion and damaged by looters, stands empty and abandoned in a small clearing by itself."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      196,
+      979,
+      206,
+      989
+    ]
+  },
+  "exits": [
+    {
+      "to": 7674,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7676,
+      "kind": "go",
+      "cmd": "go mausoleum",
+      "cost": 0.2
+    }
+  ]
+}

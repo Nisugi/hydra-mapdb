@@ -1,0 +1,61 @@
+{
+  "id": 25975,
+  "uid": [
+    336009
+  ],
+  "title": [
+    "[Siren Suite, Oils]"
+  ],
+  "description": [
+    "Moonlight from the open windows set high above filters down to the soft emerald-hued rug that covers the stone floor with its luxuriously plush surface.  A long, rose-carved table wraps around three walls of the room, its surface laden with various jars.  Strong scents waft into the air, but a gentle breeze from above keeps the fragrance from becoming overpowering."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      1277,
+      880,
+      1421,
+      942
+    ]
+  },
+  "exits": [
+    {
+      "to": 25860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25976,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25978,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

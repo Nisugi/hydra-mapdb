@@ -1,0 +1,96 @@
+{
+  "id": 5637,
+  "uid": [
+    4214320
+  ],
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "Rocks about the size of pumpkins litter the path here, which appears to have once been a stream bed.  The rocks, unseen beneath the fog, make walking painful and treacherous.  The swirling fog pours downward into a large hole in the ground."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "temperate",
+  "terrain": "rough",
+  "tags": [
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "dusky pink sea thrift",
+    "elderberries",
+    "fiddlehead fern",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "heath aster",
+    "horseradish root",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "leafy arugula",
+    "leek",
+    "motherwort",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "rhubarb",
+    "shallot",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "white baneberry",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      849,
+      634,
+      859,
+      644
+    ]
+  },
+  "exits": [
+    {
+      "to": 5636,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5638,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5644,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb hole"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

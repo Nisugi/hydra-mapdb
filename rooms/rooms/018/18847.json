@@ -1,0 +1,45 @@
+{
+  "id": 18847,
+  "uid": [
+    108002
+  ],
+  "title": [
+    "[Twilight Hall, Great Hall]"
+  ],
+  "description": [
+    "A huge hall stretches before you, a collection of artwork on display.  The high walls of cherry mahogany reach upwards to a vaulted ceiling made of marble the color of shadows on a cold winter's evening.  A tiled floor of fine Lysierian slate etched with a magical pattern catches your eye.  You feel drawn towards a pulse of power coming from somewhere nearby.",
+    "A huge hall stretches before you.  The high walls of cherry mahogany reach upwards to a vaulted ceiling made of marble the color of shadows on a cold winter's evening.  A tiled floor of fine Lysierian slate etched with a magical pattern catches your eye.  You feel drawn towards a pulse of power coming from somewhere nearby."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall",
+    "che:twilight_hall:entrance_che"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      391,
+      444,
+      480,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 8622,
+      "kind": "go",
+      "cmd": "go heavy door",
+      "cost": 0.2
+    },
+    {
+      "to": 18848,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

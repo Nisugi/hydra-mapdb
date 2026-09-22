@@ -1,0 +1,119 @@
+{
+  "id": 2426,
+  "uid": [
+    4042301
+  ],
+  "title": [
+    "[Icemule Trace, East Road]"
+  ],
+  "description": [
+    "A pair of town guards are stationed outside the archway leading into the town's bank.  One halfling guard seems to be dozing on his stool, while the other keeps a close and wary eye on the foot traffic flowing past.  The bank is a tall building, its clapboard exterior painted a bright wintry blue that complements its dark slate-shingled roof.  Several krolvin sailors count their money nearby, using the top of an old oaken hogshead to stack coins familiar and strange.",
+    "A pair of guards lean back against the the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past.",
+    "A pair of guards lean back against the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "trash"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      672,
+      786,
+      708,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 2300,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2423,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2427,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3370,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "2426"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "2426"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

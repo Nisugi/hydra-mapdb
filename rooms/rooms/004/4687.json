@@ -1,0 +1,92 @@
+{
+  "id": 4687,
+  "uid": [
+    14051028
+  ],
+  "title": [
+    "[Naerine Hostelry, Lobby]"
+  ],
+  "description": [
+    "Beautifully rendered watercolor and oil paintings adorn the silver-speckled marble walls.  Cushioned benches offer a grand view of the heavily trafficked foyer while a banistered oak stairway leads off to other attractions of the Naerine Hostelry.  Faint sounds of rushing water can be heard through a set of glaes-paned doors leading out to the bailey."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "inn",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4639,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 4688,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4689,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4690,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4691,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

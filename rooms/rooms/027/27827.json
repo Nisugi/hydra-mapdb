@@ -1,0 +1,47 @@
+{
+  "id": 27827,
+  "uid": [
+    284026
+  ],
+  "title": [
+    "[Cholen's Temple, East Hall]"
+  ],
+  "description": [
+    "The wide corridor ends at an arched door inlaid with a crimson-stained lute set in a circle of gold.  Brass lanterns line the walls, spilling golden light in pools across the long crimson rug that traverses the length of the hall.  Three short steps lead up to an elevated door set in the west wall, while an oak door draped with scarlet silk stands further down the corridor in the east wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 27815,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27824,
+      "kind": "go",
+      "cmd": "go elevated door",
+      "cost": 0.2
+    },
+    {
+      "to": 27828,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 27829,
+      "kind": "go",
+      "cmd": "go arched door",
+      "cost": 0.2
+    }
+  ]
+}

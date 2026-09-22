@@ -1,0 +1,62 @@
+{
+  "id": 31073,
+  "uid": [
+    13205201
+  ],
+  "title": [
+    "[Seethe Naedal, Transportation]"
+  ],
+  "description": [
+    "Rough wooden paneling lines the walls of the cabin, the tight knots in the slabs creating natural patterns.  Several wrought iron lanterns hang from the ceiling, shedding a soft light across the room.  Centered on the floor is a thick, wool carpet with a large padded chair resting behind a wide maple desk.  A pair of maps are hung by the door with details of various trails and tracks."
+  ],
+  "paths": [
+    "Obvious paths: east, out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "silver-cost:29860:3000",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 29860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 1"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await": "With a groan and a creak, the caravan comes to a stop."
+        },
+        {
+          "remember": [
+            "hinterwilds_location",
+            "EN"
+          ]
+        }
+      ],
+      "cost": 3600.0
+    },
+    {
+      "to": 31071,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31074,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

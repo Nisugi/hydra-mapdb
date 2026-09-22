@@ -1,0 +1,69 @@
+{
+  "id": 1575,
+  "uid": [
+    4902109
+  ],
+  "title": [
+    "[Solhaven, South Market SW]"
+  ],
+  "description": [
+    "Looking more like an oversized stall than a shop, the wooden wall panels of the western-most business have been swung open to allow customers to more easily enter and examine the wide variety of items for sale.  A silver-painted breastplate hangs from the second story of the storefront.  The bustle of the South Market continues to the west along a substantial pier, and a catwalk extends to the northwest behind the Market's row of east-facing shops."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      577,
+      1459,
+      599,
+      1481
+    ]
+  },
+  "exits": [
+    {
+      "to": 1572,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1574,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1576,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1582,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9306,
+      "kind": "go",
+      "cmd": "go catwalk",
+      "cost": 0.2
+    },
+    {
+      "to": 34277,
+      "kind": "go",
+      "cmd": "go small shop",
+      "cost": 0.2
+    }
+  ]
+}

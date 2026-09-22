@@ -1,0 +1,53 @@
+{
+  "id": 36359,
+  "uid": [
+    55029
+  ],
+  "title": [
+    "[Black Swan Castle, Keep]"
+  ],
+  "description": [
+    "The grand ebony doors of the Black Swan are carved in beautiful, yet somehow subtly disquieting, detail.  Impossibly shaped, the keep itself rises vertically and spreads its black wings out, casting a commanding shadow over the courtyard.  The entire facade is rife with strange architectural fillips and hideously attenuated crenelations.  It is like some evil black bird of prey, ready to take flight."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      440,
+      360,
+      480,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36358,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36360,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36375,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36377,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

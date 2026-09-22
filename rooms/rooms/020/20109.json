@@ -1,0 +1,55 @@
+{
+  "id": 20109,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "The ground is littered with a thick layer of crisp brown leaves that crunch underfoot.  Downslope to the west, pools of murky water lie stagnant on the ground.  A perpetual, misty fog hangs in the air, blocking even an occasional glimspe of the starry black skies.",
+    "The ground is littered with a thick layer of crisp brown leaves that crunch underfoot.  Downslope to the west, pools of murky water lie stagnant on the ground.  A perpetual, misty fog hangs in the air, resisting the attempt of the sun's rays to burn it off."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      322,
+      523,
+      337,
+      537
+    ]
+  },
+  "exits": [
+    {
+      "to": 20108,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    },
+    {
+      "to": 20123,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20128,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20140,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25468,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

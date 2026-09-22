@@ -1,0 +1,52 @@
+{
+  "id": 29614,
+  "uid": [
+    686040
+  ],
+  "title": [
+    "[Fire Tower, Third Floor]"
+  ],
+  "description": [
+    "Next to the opening leading southeast, a small shrine covered in gold foil studded with lapis lazuli stands ready to catch the evening moonlight from the fretwork and glass conical rooftop.  The rest of the area's surfaces are covered in a cinnamon-colored paint, while a large red bear rug is centered on the floor.  Understated, yet clearly well-maintained, the eastern bridge and southern bridge offer access to other towers."
+  ],
+  "paths": [
+    "Obvious exits: southeast, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      187,
+      236,
+      217,
+      263
+    ]
+  },
+  "exits": [
+    {
+      "to": 29586,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29610,
+      "kind": "go",
+      "cmd": "go eastern bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29612,
+      "kind": "go",
+      "cmd": "go southern bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29613,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

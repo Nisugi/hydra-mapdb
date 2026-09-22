@@ -1,0 +1,34 @@
+{
+  "id": 33192,
+  "uid": [
+    13010151
+  ],
+  "title": [
+    "[Obsidian Tower Annex]"
+  ],
+  "description": [
+    "Two huge toadstools in large stone pots illuminate a large, comfortable room.  Mottled grey granite benches line two of the black marble walls, facing each other across the silver carpet.  On one wall, an obsidian arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker annex:Obsidian Tower"
+  ],
+  "exits": [
+    {
+      "to": 28674,
+      "kind": "go",
+      "cmd": "go obsidian arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33193,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

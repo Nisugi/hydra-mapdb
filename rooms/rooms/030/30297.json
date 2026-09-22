@@ -1,0 +1,49 @@
+{
+  "id": 30297,
+  "title": [
+    "[Yuvi Qorit, Sandy Path]"
+  ],
+  "description": [
+    "Bristly shrubs and short grasses edge a cleared pathway that naturally meanders through the area.  Towering palms arch over a small shaded stall and provide cool shelter from an overbearing sun.  Flowering cacti have been cut back and tied in place with brightly dyed ropes, the colors contrasting against a circular canvas tent painted in varying shades of ahmdir blue.",
+    "Cloaked in shadow from the night sky, a small shaded stall stands nearby, providing little light that manages to escape through its layered cloth to the area.  Cold, but gentle, winds cause the palms above to rustle, allowing twinkling stars to be seen between the blades of the fronds.  Sweetened incense smoke drifts through openings at the peak of a circular canvas tent, scented vapors coiling upwards before dissipating into the twilight."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Sea of Fire",
+  "image": {
+    "file": "fest-yuvi_qorit-1643758946.jpg",
+    "rect": [
+      461,
+      397,
+      492,
+      429
+    ]
+  },
+  "exits": [
+    {
+      "to": 30296,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30298,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30305,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    },
+    {
+      "to": 30306,
+      "kind": "go",
+      "cmd": "go flap",
+      "cost": 0.2
+    }
+  ]
+}

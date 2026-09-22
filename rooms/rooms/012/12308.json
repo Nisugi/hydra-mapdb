@@ -1,0 +1,106 @@
+{
+  "id": 12308,
+  "uid": [
+    711002
+  ],
+  "title": [
+    "[Boreas Meadows, Levantera Road]"
+  ],
+  "description": [
+    "A lone wildflower pokes its head up through the cobbles, surviving despite the traffic along the street, while the long grass lining the street sways gently in the breeze.  A dusty dirt road leads away from the cobblestone street off into another part of the meadow.",
+    "A lone wildflower pokes its head up through the cobbles, its normally bright color washed out by the moonlight.  The sound of crickets can be heard from the long grass lining the street.  A dusty dirt road leads away from the cobblestone street off into another part of the meadow."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "black tea leaves",
+    "blood orange",
+    "brostheras grass",
+    "butterfly pea flower",
+    "cherry peppers",
+    "coffee cherries",
+    "curly garlic scapes",
+    "deep crimson plumeria",
+    "dill",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh lemongrass",
+    "garlic",
+    "ghost pepper",
+    "grapefruit",
+    "green cabbage",
+    "green soybean pod",
+    "green tea leaves",
+    "hot pepper",
+    "ironfern root",
+    "jasmine floret",
+    "luckbloom blossom",
+    "mate leaves",
+    "murdroot",
+    "pearl onions",
+    "peppermint leaves",
+    "pepperthorn root",
+    "purple cabbage",
+    "purple tea leaves",
+    "red onion",
+    "rose-marrow root",
+    "round yuzu",
+    "small watermelon",
+    "stalk of celery",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "tobacco leaves",
+    "wavepetal blossom",
+    "white tea leaves",
+    "wild rice",
+    "yellow squash",
+    "zucchini"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3303,
+      633,
+      3316,
+      645
+    ]
+  },
+  "exits": [
+    {
+      "to": 12307,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12339,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12340,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16153,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go hut"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

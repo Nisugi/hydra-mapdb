@@ -1,0 +1,78 @@
+{
+  "id": 1959,
+  "uid": [
+    3003052
+  ],
+  "title": [
+    "[Deputy Commander's Office]"
+  ],
+  "description": [
+    "The weapons rack contains a collection of highly polished axes and knives.  Papers are scattered over the top of the large desk.  A lantern gives off an oily smoke, but lights the room surprisingly well."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "jail",
+    "justice",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 1958,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 1960,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

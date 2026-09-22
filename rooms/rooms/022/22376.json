@@ -1,0 +1,40 @@
+{
+  "id": 22376,
+  "uid": [
+    13125049
+  ],
+  "title": [
+    "[Halfling Embassy, Corridor]"
+  ],
+  "description": [
+    "Carved to resemble fabric, the marble of the walls and ceiling are crafted to represent the interior of a traditional ger.  Tiny niches line the long length of the corridor that gently curves to the northwest, and each tiny recess is filled with blown glass scones wrought in the image of burning flames.  Two carved marble flaps mark the walls, one leading into a wood-lined office and the other leading to the great hall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      975,
+      473,
+      1040,
+      509
+    ]
+  },
+  "exits": [
+    {
+      "to": 22375,
+      "kind": "go",
+      "cmd": "go second flap",
+      "cost": 0.2
+    },
+    {
+      "to": 22377,
+      "kind": "go",
+      "cmd": "go first flap",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 14610,
+  "uid": [
+    4215149
+  ],
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "The windows along the corridor have all been broken in for some time, the floorboards beneath each of them having warped badly.  A pale green door fills the north end of the hallway, and a peeling blue door is set in the east wall opposite the middle window."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1046,
+      797,
+      1058,
+      809
+    ]
+  },
+  "exits": [
+    {
+      "to": 14597,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14611,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 14612,
+      "kind": "go",
+      "cmd": "go green door",
+      "cost": 0.2
+    }
+  ]
+}

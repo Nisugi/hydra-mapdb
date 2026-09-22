@@ -1,0 +1,37 @@
+{
+  "id": 34831,
+  "uid": [
+    8089033
+  ],
+  "title": [
+    "[Thistlegear, Blackthorn Hedge]"
+  ],
+  "description": [
+    "A tall blackthorn hedge keeps the Tanglemist Woods at bay, and a trio of small homes nestles beneath it, each with neatly rowed gardens.  Curving east and south, a small road is lined with more gardens, a scattering of buildings, and tiny aragless spheres strung between cherrywood poles."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Evermore Hollow",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34830,
+      "kind": "go",
+      "cmd": "go hedge",
+      "cost": 0.2
+    },
+    {
+      "to": 34832,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34838,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

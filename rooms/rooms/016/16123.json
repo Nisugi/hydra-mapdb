@@ -1,0 +1,56 @@
+{
+  "id": 16123,
+  "uid": [
+    683002
+  ],
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "Cracks in the domed ceiling and stone walls admit enough illumination to see the carved knotwork that surrounds the circular chamber, the light filtering through the vines tinged a cool viridian.  Although open to the elements, the chamber's thick carpets and intricate tapestries are in pristine condition.  To your north, an archway leads down into near-darkness, while passages to your east and west lead to brighter rooms.",
+    "Cracks in the domed ceiling and stone walls admit barely enough moonlight to reveal the carved knotwork that surrounds the circular chamber, the illumination augmented by ranks of fat beeswax candles in heavy iron sconces.  To your north, a shadowed archway leads down, and other passages stretch to your east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-wizard_guild.png",
+    "rect": [
+      279,
+      400,
+      340,
+      459
+    ]
+  },
+  "exits": [
+    {
+      "to": 11031,
+      "kind": "go",
+      "cmd": "go ivy-covered gates",
+      "cost": 0.2
+    },
+    {
+      "to": 16232,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17007,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 17048,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 12421,
+  "uid": [
+    262001
+  ],
+  "title": [
+    "[Abandoned Warehouse, Entry]"
+  ],
+  "description": [
+    "Stacks of boxes form a narrow corridor around you, looking more than a bit unstable in their piling.  A light layer of dust covers them, as if this place had not been cleaned in some time."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "rogue guild",
+    "rogueguild"
+  ],
+  "image": {
+    "file": "ti-rogue_guild-1486041266.png",
+    "rect": [
+      294,
+      733,
+      415,
+      817
+    ]
+  },
+  "exits": [
+    {
+      "to": 12420,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14089,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

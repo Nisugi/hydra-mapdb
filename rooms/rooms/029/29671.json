@@ -1,0 +1,53 @@
+{
+  "id": 29671,
+  "uid": [
+    8208744
+  ],
+  "title": [
+    "[Cysaelotar, Ingress of Welcome]"
+  ],
+  "description": [
+    "Elevated above the bustle and noise of the Tourney Grounds, the grassy mound acts as a portal between the alpine world and that of the subalpine forests.  Bristle-headed sedge rushes north and westward towards the granite faces of nearby cliffs, while hemlock, juniper, and alder casually dot the lower elevation to the east and south amid colorful forbs and rushes.  A grass-edged narrow dirt track slithers down the hill, dodging clumps of snow and the odd boulder in its effort to reach the bottom."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Rumor Woods",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1361,
+      449,
+      1388,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 28050,
+      "kind": "go",
+      "cmd": "go narrow track",
+      "cost": 0.2
+    },
+    {
+      "to": 29693,
+      "kind": "go",
+      "cmd": "go green pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 29694,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29697,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

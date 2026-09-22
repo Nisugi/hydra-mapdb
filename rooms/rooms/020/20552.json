@@ -1,0 +1,27 @@
+{
+  "id": 20552,
+  "title": [
+    "[Erythro Island, Forest Ring]"
+  ],
+  "description": [
+    "The ground has turned a dull grey and little foliage remains as the dark of the forest is left behind.  The sky above still holds a ruddy hue, broken up only by billowing black clouds.  A dirt trail leads across the broken landscape to the rim of a massive crater."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20551,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 20553,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 198,
+  "title": [
+    "[Cairnfang Manor, Foyer]"
+  ],
+  "description": [
+    "Oriel windows, graced with recessed window seats, are framed in azure draperies of soft Vornavian silk that pools in placid folds upon the polished floors.  Fitted between the arched entryways set at the room's cardinal points, are cozy linden chairs and matching tables.  Resting in the center of the floor is a plush emerald green rug richly designed with the image of a peacock, while a blue silk banner hangs above stained glass doors."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Solhaven",
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 152,
+      "kind": "go",
+      "cmd": "go stained doors",
+      "cost": 0.2
+    },
+    {
+      "to": 14095,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14096,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17431,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    }
+  ]
+}

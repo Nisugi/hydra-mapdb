@@ -1,0 +1,53 @@
+{
+  "id": 736,
+  "uid": [
+    737007
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "A small wooden cart has been covered by canvas, closed for the night.  Windows of cottages glow with the warmth cast by candlelight, attracing nocturnal insects with their ambience.",
+    "A small wooden cart boasts the ripest and choicest fruits of the day, its vendor kept busy by an endless line of patrons.  Several children munch happily on apples as they sit on the dewy lawn of a nearby shop, shaded by the leafy branches of an old oak tree."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1404,
+      608,
+      1420,
+      624
+    ]
+  },
+  "exits": [
+    {
+      "to": 735,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 737,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18816,
+      "kind": "go",
+      "cmd": "go pale building",
+      "cost": 0.2
+    }
+  ]
+}

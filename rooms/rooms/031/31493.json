@@ -1,0 +1,261 @@
+{
+  "id": 31493,
+  "uid": [
+    7136032
+  ],
+  "title": [
+    "[Mistwatch]"
+  ],
+  "description": [
+    "Tucked away from the more traveled areas, this small part of the dock juts out over the water, perpendicular to a white-veined vaalorn gate leading to a private pier.  The sturdy pilings are stained with layers of white salt.  A few warped wooden benches are secured to the floor planks, several rolls of fishing net piled to the side.",
+    "Tucked away from the more traveled areas, this small part of the dock juts out over the water.  The sturdy pilings are stained with layers of white salt.  A few warped wooden benches are secured to the floor planks, several rolls of fishing net piled to the side."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Elven Nations Port",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "portmaster",
+    "silver-cost:10838:35000",
+    "silver-cost:11756:12500",
+    "silver-cost:1870:35000",
+    "silver-cost:250:35000",
+    "silver-cost:29033:35000",
+    "silver-cost:32372:25000",
+    "silver-cost:32928:25000",
+    "stalk of bluebells",
+    "urchin guide docks",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_port-1662946910.png",
+    "rect": [
+      807,
+      373,
+      825,
+      389
+    ]
+  },
+  "exits": [
+    {
+      "to": 250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 1870,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 10838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 11756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 29033,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31487,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32372,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32928,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 33403,
+      "kind": "go",
+      "cmd": "go vaalorn gate",
+      "cost": 0.2
+    }
+  ]
+}

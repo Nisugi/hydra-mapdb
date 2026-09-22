@@ -1,0 +1,50 @@
+{
+  "id": 3033,
+  "uid": [
+    4129201
+  ],
+  "title": [
+    "[Mountainside, Snow Drifts]"
+  ],
+  "description": [
+    "Heavy snow mounds rise high on either side of the trail, providing some shelter from the wind.  A few hardy pines grow along the trailside.  From high up in the pines, the chatter of squirrels can be heard."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      237,
+      1053,
+      247,
+      1063
+    ]
+  },
+  "exits": [
+    {
+      "to": 3032,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3034,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 3041,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

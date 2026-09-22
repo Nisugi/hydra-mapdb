@@ -1,0 +1,40 @@
+{
+  "id": 36353,
+  "uid": [
+    55020
+  ],
+  "title": [
+    "[Black Swan Castle, Drawbridge]"
+  ],
+  "description": [
+    "The decaying drawbridge suspends precariously by rusted chains that hang steadfastly frozen in place.  The strength of the old planks appears to have been sapped by the elements, attempts at forcible entry, and long neglect.  They groan ominously as the currents of the smelly moat swirl beneath you.  It is easy to see both the the shore and the castle entrance from where you stand, and face only a matter of choice of which direction you decide to go as the drawbridge creaks beneath your weight."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      440,
+      600,
+      480,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 36354,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 36453,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 18421,
+  "title": [
+    "[Grawood Farmstead, Meadow]"
+  ],
+  "description": [
+    "This side of the gate opens up into a large expanse of meadow, with tall green grasses and a dappling of vibrant wildflowers.  A scent that is green and fresh lingers in the air, touched by the faintest hint of the surrounding flowers."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18420,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 18454,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

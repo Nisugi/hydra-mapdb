@@ -1,0 +1,27 @@
+{
+  "id": 24095,
+  "title": [
+    "[Necropolis, Corridor]"
+  ],
+  "description": [
+    "Rivulets of water glisten on the walls, disappearing in and out of patches of moss that cling to the limestone.  Small piles of entrails shine wetly in the light of the torches set into several sconces placed around the room.  Drag marks in dust-caked blood lead from the north toward a crumbling stone archway."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24094,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24096,
+      "kind": "go",
+      "cmd": "go stone archway",
+      "cost": 0.2
+    }
+  ]
+}

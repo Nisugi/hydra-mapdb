@@ -1,0 +1,35 @@
+{
+  "id": 24152,
+  "title": [
+    "[Necropolis, Underground Lake]"
+  ],
+  "description": [
+    "Bits and pieces of debris bob in the eerie stillness of the underground lake.  The putrid scent of swamp gas rises from the water, a familiar smell of Feywrot Mire."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south, west, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24151,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24154,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "ne"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

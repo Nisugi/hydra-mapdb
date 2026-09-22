@@ -1,0 +1,110 @@
+{
+  "id": 2412,
+  "uid": [
+    4042225
+  ],
+  "title": [
+    "[Icemule Trace, South Road]"
+  ],
+  "description": [
+    "A flow of adventurers, merchants, trappers, and lumberjacks congeals into a noisy throng near the South Gate of Icemule Trace.  Adding to the clack of wagon wheels and the din of the crowd, sounds of laughter and clanking mugs beckon from the inns and taverns that occupy the Tavern Burrow, just to the west.   The road lies in the shadow of the town's high walls and barbican towers, the foundations of which are of darker stone than the top.",
+    "Several groups of adventurers jostle past you on their way through the South Gate.  The sounds of laughter from the west remind you of the inns and taverns back home.  You notice that the lowest part of the wall is darker stone than the top, a sign that this fortification was raised at some point in the past."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "advpickup",
+    "southgate",
+    "stalk of bluebells",
+    "urchin guide guard",
+    "urchin guide southgate",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      582,
+      1229,
+      618,
+      1265
+    ]
+  },
+  "exits": [
+    {
+      "to": 2411,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2413,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2486,
+      "kind": "go",
+      "cmd": "go south gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3438,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27702,
+      "kind": "go",
+      "cmd": "go east tower",
+      "cost": 0.2
+    },
+    {
+      "to": 27709,
+      "kind": "go",
+      "cmd": "go west tower",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

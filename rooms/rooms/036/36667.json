@@ -1,0 +1,45 @@
+{
+  "id": 36667,
+  "uid": [
+    8400016
+  ],
+  "title": [
+    "[Nyessem, Room of Observation]"
+  ],
+  "description": [
+    "A circular platform rises out of the room's center, under a silvery blue spotlight.  Placed on this platform is a metal viewing glass glowing with a pearlescent light.  A wood and stone sign covered in metal letters is set next to the glass, so it cannot be missed by those approaching.  Opposite the platform, a perpendicular and narrow ascent slopes up."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      1020,
+      514,
+      1038,
+      530
+    ]
+  },
+  "exits": [
+    {
+      "to": 36666,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36668,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36689,
+      "kind": "go",
+      "cmd": "go ascent",
+      "cost": 0.2
+    }
+  ]
+}

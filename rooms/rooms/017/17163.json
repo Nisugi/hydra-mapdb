@@ -1,0 +1,86 @@
+{
+  "id": 17163,
+  "uid": [
+    160020
+  ],
+  "title": [
+    "[Raechaer's Alchemical Supplies]"
+  ],
+  "description": [
+    "Natural recesses in the stone display various crystal figurines in an assortment of shapes and colors.  A rock formation that is topped with a square piece of glass is obviously serving as a counter.  Mullein torches cast flickering light along the walls, bathing the floor beneath them with a soft glow.  Concealing one of the shop's stone walls is a series of dupioni silk tapestries."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "alchemy",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "consignment",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide alchemy",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 4681,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17164,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

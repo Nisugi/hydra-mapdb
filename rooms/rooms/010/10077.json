@@ -1,0 +1,46 @@
+{
+  "id": 10077,
+  "uid": [
+    13050019
+  ],
+  "title": [
+    "[Sylvarraend, Foehn Var]"
+  ],
+  "description": [
+    "The small wooden bridge spans a cheerfully bubbling brook, its water tumbling over various rocks and fallen limbs in its giddy haste to arrive at its destination.  A small bench is set beneath the bridge's railing, providing a peaceful spot for a few minutes' contemplation."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      31,
+      868,
+      67,
+      904
+    ]
+  },
+  "exits": [
+    {
+      "to": 10075,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10078,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

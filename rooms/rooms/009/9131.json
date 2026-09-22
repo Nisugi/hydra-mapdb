@@ -1,0 +1,50 @@
+{
+  "id": 9131,
+  "uid": [
+    4045238
+  ],
+  "title": [
+    "[Subterranean Island, Large Hill]"
+  ],
+  "description": [
+    "Murky water stretches into the haze in all directions.  To the south the island curves away in a long rocky spit.  To the north a lower hill rests beyond a row of natural stepping stones.  Moss covers the island from one end to the other.  The top of the hill is split open revealing a mossy cave below."
+  ],
+  "paths": [
+    "Obvious exits: north, south, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "moist",
+  "terrain": "barren scrub",
+  "tags": [
+    "wingstem root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      109,
+      913,
+      119,
+      923
+    ]
+  },
+  "exits": [
+    {
+      "to": 9130,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 9132,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9135,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

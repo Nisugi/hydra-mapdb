@@ -1,0 +1,44 @@
+{
+  "id": 25362,
+  "uid": [
+    8100025
+  ],
+  "title": [
+    "[Delirium Manor, Kitchen]"
+  ],
+  "description": [
+    "A medley of enticing aromas dance and mingle, filling the air with a fragrance that teases the palate.  Pots of soup burble on the stove, freshly baked breads await tasting on a wobbly sideboard, and pies cool upon the sill of an open window.  A trail of scraps and tiny pawprints leads into a curtained pantry."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25361,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25364,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25366,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pantry"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

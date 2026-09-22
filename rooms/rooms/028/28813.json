@@ -1,0 +1,138 @@
+{
+  "id": 28813,
+  "uid": [
+    7118221
+  ],
+  "title": [
+    "[Wandering Eye Market]"
+  ],
+  "description": [
+    "Black, azure, and cerulean paint spreads across the cobblestones of the large market, the pigments converging upon an enormous sandstone fountain that has a towering bronze kraken statue rising out of it.  Firelight spills from lanterns clutched in four of the statue's arcing arms, each positioned over a different stone bench to create a small pool of light.  A thatched driftwood store, built just beyond the shadow of the nearby cliffs, has its doors thrown wide to the cool night air.",
+    "Black, azure, and cerulean paint spreads across the cobblestones of the large market, the pigments converging upon an enormous sandstone fountain that has a towering bronze kraken statue rising out of it.  Sunlight cascades off of the lanterns clutched in four of the statue's arms, causing rainbow whorls to dance across the surrounding stone benches.  Nearby, a thatched driftwood store, built just beyond the shade of the tower cliff, draws all manner of customers through its front door.",
+    "Black, azure, and cerulean paint spreads across the cobblestones of the large market, the pigments converging upon an enormous sandstone fountain that has a towering bronze kraken statue rising out of it.  Sunlight cascades off of the lanterns clutched in four of the statue's arms, causing rainbow whorls to dance across surrounding stone benches.  Nearby, a severe stone structure is encircled by heavily armed, brutish guards that pointedly ignore the catcalls and laughter of the surrounding market, while opposite a weathered oak building has a steady flow of visitors.",
+    "Black, azure, and cerulean paint spreads across the cobblestones of the large market, the pigments converging upon an enormous sandstone fountain that has a towering bronze kraken statue rising out of it.  Firelight spills from lanterns clutched in four of the statue's arcing arms, each positioned over a different stone bench to create a small pool of light.  Nearby, a severe stone structure is encircled by heavily armed, brutish guards that warily watching the darkened market."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "town",
+    "urchin guide market",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "mapcategory:Kraken's Fall",
+    "mapcategory:Towns",
+    "mapname:Kraken's Fall"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      406,
+      373,
+      419,
+      388
+    ]
+  },
+  "exits": [
+    {
+      "to": 28871,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 10.0
+    },
+    {
+      "to": 28872,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 10.0
+    },
+    {
+      "to": 28883,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 10.0
+    },
+    {
+      "to": 28895,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 10.0
+    },
+    {
+      "to": 28898,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 10.0
+    },
+    {
+      "to": 28899,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 10.0
+    },
+    {
+      "to": 28907,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 10.0
+    },
+    {
+      "to": 28908,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 10.0
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31525,
+      "kind": "go",
+      "cmd": "go driftwood store",
+      "cost": 0.2
+    }
+  ]
+}

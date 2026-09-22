@@ -1,0 +1,47 @@
+{
+  "id": 5640,
+  "uid": [
+    4740107
+  ],
+  "title": [
+    "[Captain's Rest, Landing]"
+  ],
+  "description": [
+    "The well-worn oaken stairs open out to a green carpeted hall leading to rooms to the east and west.  A spiral staircase continues up toward the roof.  The sound of conversation from the common room downstairs drifts up the stairs."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 5398,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 5686,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14105,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14110,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 25759,
+  "uid": [
+    3223832
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Glistening in the ambient light, the tiny swells of the waterway roll in a rhythmic motion that is almost hypnotic.  Tiny white caps mark the waters that will grow into waves, while those lacking caps simply disappear into the dark blue depths."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2081,
+      1279,
+      2100,
+      1300
+    ]
+  },
+  "exits": [
+    {
+      "to": 25757,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25760,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25770,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

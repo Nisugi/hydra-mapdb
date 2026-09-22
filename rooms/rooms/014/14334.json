@@ -1,0 +1,41 @@
+{
+  "id": 14334,
+  "uid": [
+    4901106
+  ],
+  "title": [
+    "[The Krawling Kraken, Upstairs]"
+  ],
+  "description": [
+    "A large oak door marks this hall's southern end and is situated next to a long, winding staircase that leads down to the lower level.  Polished mahogany paneling covers the western wall and the floor is covered in a fine, plush red carpet that muffles the sound of passing patrons."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14333,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14337,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14338,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

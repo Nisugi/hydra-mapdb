@@ -1,0 +1,50 @@
+{
+  "id": 34360,
+  "uid": [
+    13150416
+  ],
+  "title": [
+    "[Titan's Crown, Tempest Isle]"
+  ],
+  "description": [
+    "White clouds of steam rise up from the lake where the water has been superheated by the violent strikes of the storm.  The result is a dense fog that carries the scent of ozone.  A softly glowing hemisphere of bright white zorchar rests on the ground, perfectly aligned with one of the obsidian spires of the large ring at the center of the island."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Stormpeak",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1145,
+      512,
+      1163,
+      528
+    ]
+  },
+  "exits": [
+    {
+      "to": 34354,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    },
+    {
+      "to": 34357,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34361,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

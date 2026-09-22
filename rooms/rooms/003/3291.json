@@ -1,0 +1,44 @@
+{
+  "id": 3291,
+  "uid": [
+    4127027
+  ],
+  "title": [
+    "[Ice Plains, Worker Burrows]"
+  ],
+  "description": [
+    "The passage narrows here as you work your way deep into the cavern.  Timbers line the walls and ceiling to reinforce them against a possible cave-in.  One of the timbers has a large hook nailed to it with several lengths of thick chain dangling from it."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      472,
+      353,
+      482,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 3281,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3292,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

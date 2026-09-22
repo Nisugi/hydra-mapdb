@@ -1,0 +1,52 @@
+{
+  "id": 2418,
+  "uid": [
+    4042323
+  ],
+  "title": [
+    "[Commerce Burrow, Krolvin Alley]",
+    "[Commerce Burrow, Elven Alley]"
+  ],
+  "description": [
+    "A tall, brightly painted building stands at the end of the alleyway.  Banners of red, blue, yellow, and green wool dangle from the awnings, rustling slightly in the breeze.  Finely dressed halflings bustle past, their arms loaded with bright packages from the clothier's shop, while a space between two storefronts dovetails into another alley.",
+    "A tall, brightly painted building dominates the lower end of Elven Alley.  Banners of red, blue, yellow and green dangle from the awnings, rustling slightly in the breeze.  Finely dressed halflings bustle past you, their arms loaded with bright packages from the clothier shop."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      759,
+      1320,
+      795,
+      1356
+    ]
+  },
+  "exits": [
+    {
+      "to": 2416,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 2483,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 3403,
+      "kind": "go",
+      "cmd": "go clothier",
+      "cost": 0.2
+    }
+  ]
+}

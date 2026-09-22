@@ -1,0 +1,109 @@
+{
+  "id": 3516,
+  "uid": [
+    14100051
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Wey]"
+  ],
+  "description": [
+    "A large stone-clad building sits back from the cobbled wey, its doors and windows thrown open.  The clanging sound of hammer on metal rings through the area as smiths do their part to keep the city well armed.  A small bronze plaque hangs upon the doorpost.  A stone walkway snakes around to the rear of the building.",
+    "A large stone-clad building sits back from the cobbled wey, its doors and windows thrown open.  The clanging sound of hammer on metal rings through the area as smiths do their part to keep the city well armed.  A small bronze plaque hangs upon the doorpost, illuminated by the red glow emanating from within the structure.  Ambient light from the windows casts shadows on a stone walkway that leads to the rear of the building."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide victorygate",
+    "urchin-access",
+    "victorygate",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      701,
+      854,
+      737,
+      891
+    ]
+  },
+  "exits": [
+    {
+      "to": 3515,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3517,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5907,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 10394,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 12350,
+      "kind": "go",
+      "cmd": "go armory",
+      "cost": 0.2
+    },
+    {
+      "to": 25587,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

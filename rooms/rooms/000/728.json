@@ -1,0 +1,81 @@
+{
+  "id": 728,
+  "uid": [
+    13100049
+  ],
+  "title": [
+    "[Ta'Illistim, Glamesine Var]"
+  ],
+  "description": [
+    "Opposite the city's theatre, a small garden has been planted to provide a respite from the crowded var.  Beds thick with hostas, lady's slipper, dragonstalk, and a myriad of other nameless blooming flora carpet the ground beneath thick shady monir trees.  Stone benches surround the small clearing.  A few glaesine lamps mounted on slender iron stakes gently illuminate the area.",
+    "Opposite the city's theatre, a small garden has been planted to provide a respite from the crowded var.  Beds thick with hostas, lady's slipper, dragonstalk, and a myriad of other nameless blooming flora carpet the ground beneath thick shady monir trees.  Stone benches surround the small clearing.",
+    "Opposite the city's theatre, a small garden has been planted to provide a respite from the urban landscape.  Carefully manicured beds of trillium, white jasmine and roses are sectioned into a symmetrically organized design, each of the beds separated from the next with a narrow walkway of silver paving stones.  Centrally set amidst the flowers is a broken blue granite column, while around the edges of the garden are several benches."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1006,
+      677,
+      1029,
+      699
+    ]
+  },
+  "exits": [
+    {
+      "to": 22,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 18758,
+  "uid": [
+    657015
+  ],
+  "title": [
+    "[Empath Guild, Training Hall]"
+  ],
+  "description": [
+    "Wide blue-washed sandstone floors stretch down the hallway, covered down the middle with a light acantha green carpet.  A carved apple wood staircase curves upwards, and vertical matching apple wood moldings occur along the walls at regular intervals with limestone-potted sweetferns at the base of each.  A slender doorway pierces the wall opposite the staircase, while a large vine-limned archway leads east to a foyer."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "tags": [
+    "empath alchemy administrator",
+    "empath guild administrator"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_empath_guild.png",
+    "rect": [
+      740,
+      450,
+      803,
+      514
+    ]
+  },
+  "exits": [
+    {
+      "to": 18757,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18759,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 18765,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18767,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18776,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

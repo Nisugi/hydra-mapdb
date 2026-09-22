@@ -1,0 +1,50 @@
+{
+  "id": 8935,
+  "uid": [
+    680052
+  ],
+  "title": [
+    "[Wizard Guild, Balcony]"
+  ],
+  "description": [
+    "Opaque green mist rolls over the balcony, spilling into the open air in the center of the tower.  The virulent shade of mist and the distinctly strange shapes it produces suggest that it may be the product of an alchemical experiment gone wrong, or perhaps completely right."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      318,
+      108,
+      368,
+      157
+    ]
+  },
+  "exits": [
+    {
+      "to": 8934,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8936,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 15909,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

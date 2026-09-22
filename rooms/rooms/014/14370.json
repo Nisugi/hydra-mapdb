@@ -1,0 +1,44 @@
+{
+  "id": 14370,
+  "uid": [
+    34210
+  ],
+  "title": [
+    "[Midrian's Dyes, Kitchen]"
+  ],
+  "description": [
+    "Lining the entire northern wall is a long row of shelves set over a series of cast-iron stoves, where a young woman bustles about, quietly talking to herself.  Copper and steel pots simmer, steam, and bubble upon the stoves, while nearby a vinegar distillery gurgles softly.  A wide oak table rests beside a door leading into the garden and is topped with pestles, mortars, and dried plants.  Opposite the door, exposed rafters display various dried herbs, plants, and barks above several casks and barrels."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Solhaven",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-dyers_tent-1512161334.png",
+    "rect": [
+      1423,
+      517,
+      1567,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 14369,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14371,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

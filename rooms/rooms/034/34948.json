@@ -1,0 +1,68 @@
+{
+  "id": 34948,
+  "uid": [
+    7118392
+  ],
+  "title": [
+    "[The Peaceful Porpoise, Grotto]"
+  ],
+  "description": [
+    "Damp and dilapidated rugs, their scent cloying and dank, conceal cracks along the surface of a granite mezzanine overlooking a honeycombed grotto.  The sound of water dripping from crystalline stalactites echoes as it falls into a subterranean lagoon, causing ripples that glow and fade as they expand."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "npccleric",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 34947,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

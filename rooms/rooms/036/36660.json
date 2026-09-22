@@ -1,0 +1,39 @@
+{
+  "id": 36660,
+  "uid": [
+    8400001
+  ],
+  "title": [
+    "[Nyessem, Portal Room]"
+  ],
+  "description": [
+    "A tall white stone portal lined with jeweled runes sits on a white stone pedestal at one end of the room.  Set at its apex is a large rune-etched diamond.  Descending from the portal, a semicircle of white marble stairs leads to a recessed path.  Flanking this path, the walls glow with a shimmering pearlescence that limits the need for additional light.  Some bright violet-hued banners trimmed with silver threads line the length of the room, matching the silver-hued cloth pillows arranged around the room.  Overhead, some gem-studded carved stone lanterns line the way north and onward."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      852,
+      810,
+      869,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 36659,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 36661,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": 6141,
+  "uid": [
+    495102
+  ],
+  "title": [
+    "[Upper Krag Slopes]"
+  ],
+  "description": [
+    "A steep landslide has tumbled masses of rocks and boulders down the western slope, preventing further passage in that direction.  The tip of a boot-clad foot protrudes from beneath the rubble."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the Krag slopes",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      627,
+      893,
+      661,
+      927
+    ]
+  },
+  "exits": [
+    {
+      "to": 6140,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6145,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6152,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb landslide"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

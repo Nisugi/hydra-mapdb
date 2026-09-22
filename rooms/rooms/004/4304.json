@@ -1,0 +1,55 @@
+{
+  "id": 4304,
+  "uid": [
+    24004
+  ],
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "To the west is a rough opening to another tunnel which looks cavelike and lacks the shoring timbers as in the passageway where you stand."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the crystal caves",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      754,
+      604,
+      764,
+      614
+    ]
+  },
+  "exits": [
+    {
+      "to": 4303,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4305,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4334,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

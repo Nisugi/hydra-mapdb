@@ -1,0 +1,51 @@
+{
+  "id": 11074,
+  "uid": [
+    26112
+  ],
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Extremely hard rock forms the floor and the ceiling of the cave here, as the cave narrows to nearly a crawl space.  The cave opens wider to the north and east, and an opening leads southwest.  A slight breeze blows in from the north and the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Sea Caves",
+  "climate": "cold, damp",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      4447,
+      933,
+      4470,
+      954
+    ]
+  },
+  "exits": [
+    {
+      "to": 11073,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 11075,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11082,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

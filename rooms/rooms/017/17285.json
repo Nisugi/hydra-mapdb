@@ -1,0 +1,40 @@
+{
+  "id": 17285,
+  "uid": [
+    252072
+  ],
+  "title": [
+    "[Guild Hall, West Wing]"
+  ],
+  "description": [
+    "Beyond the pair of gilded mithril gates is a large open field that is the guild's training grounds.  The guild has spared no expense in providing all the necessary facilities for the tutelage of its members."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1292,
+      841,
+      1314,
+      863
+    ]
+  },
+  "exits": [
+    {
+      "to": 17281,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17286,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    }
+  ]
+}

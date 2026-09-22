@@ -1,0 +1,127 @@
+{
+  "id": 23830,
+  "uid": [
+    4132017
+  ],
+  "title": [
+    "[Abbey Stables, Caravan Master]",
+    "[Abbey Stables]"
+  ],
+  "description": [
+    "The center of the stables has been turned into a makeshift office by an old maplewood counter that demarcates the workspace of a harried caravan master.  Framed by horse stalls along either wall, the hay-strewn space is well-lit and breezy, the air kept fresh by a large window along one wall that lets in a crisp, cold breeze.",
+    "Motes of dust float gently in shafts of light streaming into the stable through great holes torn from the thatched ceiling.  The hard-packed floor is littered with molding straw, from which puffs of dust arise with one's every movement."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "arctic puma",
+    "dark shambler",
+    "nedum vereri",
+    "silver-cost:221:3000",
+    "silver-cost:2773:3000",
+    "silver-cost:29860:3000",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      379,
+      963,
+      433,
+      1016
+    ]
+  },
+  "exits": [
+    {
+      "to": 221,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 1"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_any": [
+            "The wagon comes to a halt",
+            "The wagon draws to an abrupt halt",
+            "the caravan comes to a stop"
+          ]
+        }
+      ],
+      "cost": 3600.0
+    },
+    {
+      "to": 2773,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 2"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_any": [
+            "The wagon comes to a halt",
+            "The wagon draws to an abrupt halt",
+            "the caravan comes to a stop"
+          ]
+        }
+      ],
+      "cost": 3600.0
+    },
+    {
+      "to": 2942,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2943,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 3"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_any": [
+            "The wagon comes to a halt",
+            "The wagon draws to an abrupt halt",
+            "the caravan comes to a stop"
+          ]
+        },
+        {
+          "remember": [
+            "hinterwilds_location",
+            "IM"
+          ]
+        }
+      ],
+      "cost": 3600.0
+    }
+  ]
+}

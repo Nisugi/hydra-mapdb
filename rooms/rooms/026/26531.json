@@ -1,0 +1,49 @@
+{
+  "id": 26531,
+  "title": [
+    "[Caligos Isle, Dank Tidepools]"
+  ],
+  "description": [
+    "Black sands stretch across the cave floor, the soft grains incredibly fine and iridescent, while high above, the rough ceiling is covered in purple algae that is speckled with white.  Pacing between an iron-bound warped oak chest and a jagged-edged dark crevasse, a barefoot pale human child watches the ocean water that aggressively laps at the shore.  Dangling between torches set into the roughened wall, a knotted hemp rope provides access to the cavern above."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: east, south, west, down"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      660,
+      417,
+      673,
+      431
+    ]
+  },
+  "exits": [
+    {
+      "to": 26530,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 27558,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27559,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27560,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

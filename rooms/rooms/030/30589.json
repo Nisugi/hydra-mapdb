@@ -1,0 +1,68 @@
+{
+  "id": 30589,
+  "uid": [
+    12002001
+  ],
+  "title": [
+    "[Clearing]"
+  ],
+  "description": [
+    "This wide clearing is covered in hay, though sections of black volcanic rock peek out from beneath.  Directly across from the entry arch is a large black barn trimmed in fiery red paint.  The handles on the door are glaes and forged in the shape of a horseshoe."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stable",
+    "urchin guide stable",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12393,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

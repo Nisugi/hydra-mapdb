@@ -1,0 +1,58 @@
+{
+  "id": 18161,
+  "uid": [
+    666009
+  ],
+  "title": [
+    "[Sorcerer Guild, Library]"
+  ],
+  "description": [
+    "Rows upon rows of tomes and grimoires line shelves built into the cavernous wall itself, and rickety ladders are positioned discreetly to the side.  A variety of small reading tables are spaced evenly throughout the room, each harboring a tiny silk-shrouded oil lamp upon their lustrous black surfaces.  A small alcove lies to the east, the rippling candlelight from within only a small beacon in the sea of desklamps."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-ta_illistim-sorcerer_guild-1405076623.png",
+    "rect": [
+      460,
+      322,
+      499,
+      360
+    ]
+  },
+  "exits": [
+    {
+      "to": 18150,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18162,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 18163,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 19002,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 19003,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

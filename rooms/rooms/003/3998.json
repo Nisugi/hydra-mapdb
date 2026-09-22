@@ -1,0 +1,212 @@
+{
+  "id": 3998,
+  "uid": [
+    13302116
+  ],
+  "title": [
+    "[Griffin's Keen, Onyx Point]"
+  ],
+  "description": [
+    "A short scramble up from here would place you on the mountain's peak, but the downward trail is steep and less than alluring.  This bleak northern facing wall is worn almost smooth by the coursing wind.  Layered with years of alternating snow and ice, its surface is black and almost featureless."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Griffin's Keen",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "deep purple shockroot",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of holly",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      825,
+      169,
+      835,
+      179
+    ]
+  },
+  "exits": [
+    {
+      "to": 3997,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "down"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 3999,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    },
+    {
+      "to": 4000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "up"
+        }
+      ],
+      "cost": 4.2
+    }
+  ]
+}

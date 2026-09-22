@@ -1,0 +1,50 @@
+{
+  "id": 36451,
+  "uid": [
+    59038
+  ],
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "All along the fetid moat, the upsweeping form of the keep is oppressive, its shadow from the southwest giving no shade or comfort.  The hideous carvings and eaves that mark the upper floors of the Black Swan are evident above the outer walls.  Gargoyles, scaly things, unnamed fell beasts, all squatting atop tiled, upturned roofs at weird angles.",
+    "There is no respite from the heat to be had here in the shade of the massive keep.  The building blocks any hint of a breeze, making the air almost unbearably stagnant and warm.  Clouds of gnats rise from the fetid moat, viciously attacking any living thing nearby in a frenzy of voracious hunger."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "grassland",
+  "tags": [
+    "sprig of lavender"
+  ],
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      840,
+      40,
+      880,
+      80
+    ]
+  },
+  "exits": [
+    {
+      "to": 36450,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36452,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36464,
+      "kind": "go",
+      "cmd": "go moat",
+      "cost": 0.2
+    }
+  ]
+}

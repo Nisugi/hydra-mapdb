@@ -1,0 +1,42 @@
+{
+  "id": 14404,
+  "uid": [
+    4749804
+  ],
+  "title": [
+    "[Venquinor House, Upper Hall]"
+  ],
+  "description": [
+    "Situated at the top of some rounded riverstone steps, the hallway is long and lushly carpeted.  Its northern wall is dominated by a muraled alcove, the vivid greens and shadowy blues of which provide a contrasting backdrop to a wide-mouthed dark jade jug.  At the hallway's end stands a pair of stained glass doors, the semi-translucent crystal panes adequately concealing the chamber beyond."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14403,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 32712,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go panel"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

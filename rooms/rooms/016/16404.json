@@ -1,0 +1,67 @@
+{
+  "id": 16404,
+  "uid": [
+    3204011
+  ],
+  "title": [
+    "[Lighthouse, Gift Shop]"
+  ],
+  "description": [
+    "Delicate curtains frame the large windows, allowing only small rays of light into the store.  Vibrantly colored hand-sewn quilts adorn the white walls giving the room warmth while the plush blue carpet keeps the sound of clattering footsteps down to a minimum.  A wooden toy chest is pushed under an ivory table which has a wicker basket perched on it.  A velvet-lined box is carelessly propped against the open door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "lighthouse",
+    "urchin guide lighthouse",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 16403,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

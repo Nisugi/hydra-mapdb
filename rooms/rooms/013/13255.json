@@ -1,0 +1,110 @@
+{
+  "id": 13255,
+  "uid": [
+    13112001
+  ],
+  "title": [
+    "[The Lost Home, Foyer]"
+  ],
+  "description": [
+    "Tall columns of dark marble rise above you, supporting the high, vaulted ceiling.  The black-tiled floor is covered with a large, thick forest-green carpet.  On the far side of the foyer a fire is roaring in a massive basalt fireplace, sending waves of welcome heat into the room.  Several comfortable looking chairs are pulled to the side of the fireplace, close enough to enjoy the fire without getting too warm."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "houselockers",
+    "inn",
+    "losthome",
+    "urchin guide inn",
+    "urchin guide losthome",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      588,
+      576,
+      644,
+      632
+    ]
+  },
+  "exits": [
+    {
+      "to": 193,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13256,
+      "kind": "go",
+      "cmd": "go ornate archway",
+      "cost": 0.2
+    },
+    {
+      "to": 13258,
+      "kind": "go",
+      "cmd": "go desk",
+      "cost": 0.2
+    },
+    {
+      "to": 13259,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 13271,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13275,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 31272,
+  "uid": [
+    4410003
+  ],
+  "title": [
+    "[Jungle Path]"
+  ],
+  "description": [
+    "Various low-growing flowers bloom in a vivid array of colors, here at the edge of a clearing.  The path ends subtly by fading gradually into the surrounding flora.  A natural gap in the blossoms leads to a wide expanse of grass."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "tropical",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      422,
+      719,
+      475,
+      769
+    ]
+  },
+  "exits": [
+    {
+      "to": 31271,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31273,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    }
+  ]
+}

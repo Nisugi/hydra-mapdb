@@ -1,0 +1,50 @@
+{
+  "id": 11111,
+  "uid": [
+    26023
+  ],
+  "title": [
+    "[Krol Ship, Passageway]"
+  ],
+  "description": [
+    "This hallway connects the Purser's office and the arms locker to the companionway aft.  This area appears to have been the scene of some recent violence.  The arms locker door hangs uselessly off its hinges, little more than a splintered plank, and the steel door to the Purser's cabin appears to have been forced open by repeated blows with a large hammer."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3802,
+      1526,
+      3825,
+      1547
+    ]
+  },
+  "exits": [
+    {
+      "to": 11109,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11112,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 11113,
+      "kind": "go",
+      "cmd": "go wood door",
+      "cost": 0.2
+    }
+  ]
+}

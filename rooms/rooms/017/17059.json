@@ -1,0 +1,48 @@
+{
+  "id": 17059,
+  "uid": [
+    683010
+  ],
+  "title": [
+    "[Wizard Guild, Narrow Passage]"
+  ],
+  "description": [
+    "A baleful red light along the wall emanates from the vivid mural of Krolvin ships, their sails aflame and brilliant in the gloom.  You catch the faint scent of mineral salts beneath the sharper odor of something burning."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "River's Rest",
+  "terrain": "rough",
+  "tags": [
+    "cone-shaped pineapple",
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "ironfern root",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "rr-wizard_guild.png",
+    "rect": [
+      156,
+      154,
+      218,
+      215
+    ]
+  },
+  "exits": [
+    {
+      "to": 17052,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17060,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

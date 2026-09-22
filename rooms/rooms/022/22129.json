@@ -1,0 +1,61 @@
+{
+  "id": 22129,
+  "uid": [
+    106401
+  ],
+  "title": [
+    "[Cairnfang Manor, Hallway]"
+  ],
+  "description": [
+    "Textured cerulean carpet extends down the hallway, covering the polished linden floor.  A cushioned fel bench rests against the wall next to a shiny brass canister, a leafy fern draping its long green leaves over the edge.  Several doors lead into various member rooms."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      669,
+      536,
+      681,
+      547
+    ]
+  },
+  "exits": [
+    {
+      "to": 22115,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22130,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 22131,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 22132,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 22145,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

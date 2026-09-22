@@ -1,0 +1,83 @@
+{
+  "id": 11431,
+  "uid": [
+    2101986
+  ],
+  "title": [
+    "[The Stone Eye, Veranda]"
+  ],
+  "description": [
+    "The slanted roof of the veranda keeps out the night insects.  The veranda overlooks the North Fork of the Tempest River.  Moonlight reflects off the swiftly moving river, giving it a silvery glow.  The steep, densely wooded cliffs on the northern bank of the river are barely visible in the dark.  A ramp leads down to a narrow wooden dock.",
+    "The slanted roof of the veranda offers respite from the sun.  The veranda overlooks the North Fork of the Tempest River.  The sunlight catches the ripples of the swiftly moving river, making the water dance with diamond-bright sparkles.  Steep, densely wooded cliffs form the northern bank of the river.  A ramp leads down to a narrow wooden dock."
+  ],
+  "paths": [
+    "Obvious paths: south, down"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1980,
+      326,
+      2000,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 11429,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11432,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

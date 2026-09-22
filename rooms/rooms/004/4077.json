@@ -1,0 +1,59 @@
+{
+  "id": 4077,
+  "uid": [
+    4051003
+  ],
+  "title": [
+    "[Warehouse, Nexus]"
+  ],
+  "description": [
+    "The air is filled with shouts and bellowed orders as warehouse workers, wagons, and tradesmen barely avoid each other in their rush to get to their appointed locations at their appointed times.  A large wooden platform sits in the center of this whirling pool of chaos, a calm eye in the center of the howling storm of commerce."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, south, west, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 4076,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4078,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4081,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4082,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 15519,
+      "kind": "climb",
+      "cmd": "climb platform",
+      "cost": 0.2
+    },
+    {
+      "to": 15520,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

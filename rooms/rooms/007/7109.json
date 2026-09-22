@@ -1,0 +1,44 @@
+{
+  "id": 7109,
+  "uid": [
+    44045
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The corridor dead ends here at the blank south wall.  The walls and floor show signs of age and stress, with cracks and crumbled spots here and there."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1002,
+      1150,
+      1012,
+      1160
+    ]
+  },
+  "exits": [
+    {
+      "to": 7107,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7110,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    }
+  ]
+}

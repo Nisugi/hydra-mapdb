@@ -1,0 +1,85 @@
+{
+  "id": 22007,
+  "title": [
+    "[Talador Mines, Old Tunnel]"
+  ],
+  "description": [
+    "The walls of the tunnel are swarming with slimy, glowing white maggots that crawl along like a cascade of bright opals.  Amidst the darkness of the passage, thick cobwebs hang from the uneven ceiling."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      899,
+      427,
+      914,
+      441
+    ]
+  },
+  "exits": [
+    {
+      "to": 21962,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21964,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21967,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.7
+    },
+    {
+      "to": 22008,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

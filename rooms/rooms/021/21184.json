@@ -1,0 +1,50 @@
+{
+  "id": 21184,
+  "uid": [
+    265011
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Scents of garlic and herbs mingle with those of rotten food.  The water flows slowly past piles of food wastes in various states of decay.  A soft click-click in the darkness suggests that the piles are feasts for some.  Rising from a pile of fresh slop, a slippery ladder leads upward to the apparent source."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      733,
+      471,
+      749,
+      486
+    ]
+  },
+  "exits": [
+    {
+      "to": 21183,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21185,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21186,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 12208,
+  "uid": [
+    4570013
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A mass of pulsing and twitching tissue sits to the west.  At first, the booming that rolls through the air sounds like thunder, but a moment of listening proves it to be too regular and rhythmic to be a storm.  Thump-thump... thump-thump....  All at once the source comes to you, and as you gaze at the tissue you realize it is a giant heart.  Grey-green worms chew through the flesh, and listening to the beating it becomes obvious that they are killing the heart, and whatever creature it belongs to."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, southwest, northwest",
+    "Obvious exits: north, east, south, southwest, northwest"
+  ],
+  "location": "the Rift",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "congealed slime",
+    "discolored fleshbinder bud",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "rotting bile green fleshbulb",
+    "slime-covered grave blossom",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      908,
+      1108,
+      920,
+      1120
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 6.8
+    },
+    {
+      "to": 12165,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12173,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12209,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 34584,
+  "uid": [
+    669016
+  ],
+  "title": [
+    "[Ebonshade Tower, Lower Portal]"
+  ],
+  "description": [
+    "Bare of any adornment except for a decorative feature, a small engraving on the polished, dark stone floor gleams under the otherworldly glow of a column of cobalt blue energy.  As the light rises and disappears into the ceiling, intricate patterns of light and shadow cast across the room create an atmosphere of sinister power.  A shimmering crimson portal madly swirls out and back upon itself, emanating a faint humming sound."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      424,
+      797,
+      453,
+      826
+    ]
+  },
+  "exits": [
+    {
+      "to": 34583,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 34585,
+      "kind": "go",
+      "cmd": "go column",
+      "cost": 0.2
+    }
+  ]
+}

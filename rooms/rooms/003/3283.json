@@ -1,0 +1,56 @@
+{
+  "id": 3283,
+  "uid": [
+    4127031
+  ],
+  "title": [
+    "[Ice Plains, Worker Burrows]"
+  ],
+  "description": [
+    "This room branches off into several different directions but appears to be the central location to this tunnel.  A large table dominates the room, with many stools arranged along the outside for the inhabitants to sit while they dine.  A large firepit ringed with stones is off to one side of the room.  It looks as if the area has seen a lot of use recently, and the odor of burnt flesh lingers in the air."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      497,
+      349,
+      507,
+      359
+    ]
+  },
+  "exits": [
+    {
+      "to": 3282,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3284,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3285,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3286,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

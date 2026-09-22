@@ -1,0 +1,55 @@
+{
+  "id": 14023,
+  "uid": [
+    4384016
+  ],
+  "title": [
+    "[East Wing Corridor]"
+  ],
+  "description": [
+    "This corridor is quiet, and the decorations here are minimal.  A soft carpet woven with several hues of complementary wintry shades matches the lacquered white monir of the walls.  A soulstone-inset door stands between a pair of triple-pronged candelabrum affixed to the walls, and opposite is a rose-carved white willow door and a black ironwood door.  The hallway terminates here, where a polished mahogany arch leads further into the manor."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 14013,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14024,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14025,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 14026,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 14027,
+      "kind": "go",
+      "cmd": "go soulstone-inset door",
+      "cost": 0.2
+    }
+  ]
+}

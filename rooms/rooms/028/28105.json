@@ -1,0 +1,43 @@
+{
+  "id": 28105,
+  "uid": [
+    8209132
+  ],
+  "title": [
+    "[Grand Stable, West Wing]"
+  ],
+  "description": [
+    "On the north side of the wide alley running the length of the stable, a freshly-constructed low pinewood wall surrounds a damp grey flagstone floor to create a large stall.  Long-handled brushes stand at the ready next to white oak barrels filled with water that line the western wall, while horseshoe picks lay on the flagstones next to a simple red stool resting in the far east corner. Across the alley to the south, two stalls stand side by side."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28068,
+      "kind": "go",
+      "cmd": "go wide door",
+      "cost": 0.2
+    },
+    {
+      "to": 28102,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28106,
+      "kind": "go",
+      "cmd": "go east stall",
+      "cost": 0.2
+    },
+    {
+      "to": 28107,
+      "kind": "go",
+      "cmd": "go west stall",
+      "cost": 0.2
+    }
+  ]
+}

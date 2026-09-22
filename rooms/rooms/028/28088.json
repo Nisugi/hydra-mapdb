@@ -1,0 +1,46 @@
+{
+  "id": 28088,
+  "uid": [
+    8211331
+  ],
+  "title": [
+    "[Summit Academy, Sylinar's Way]"
+  ],
+  "description": [
+    "The paved walkway winds its way between rows of trees, pleached to form an arched canopy over the path.  The air is unseasonably warm along the corridor, and to the south, the opening in the trees is filled with radiant sunlight."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Summit Academy",
+  "terrain": "deciduous forest",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      295,
+      607,
+      320,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 25899,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25902,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27980,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

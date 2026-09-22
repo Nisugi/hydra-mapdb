@@ -1,0 +1,56 @@
+{
+  "id": 8488,
+  "uid": [
+    2155019
+  ],
+  "title": [
+    "[Temple, Sanctuary]"
+  ],
+  "description": [
+    "Your footsteps echo through the large, open sanctuary.  Chandeliers hang from the square beams above you, the red wax dripping from them looking disturbingly like blood.  Overturned and splintered pews litter the floor, sprinkled with sparkling dust from the ruined stained glass windows in the walls.  To the east opens a collapsing archway, sagging beneath the stone above it.  A pair of double doors opens to the south."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      305,
+      735,
+      315,
+      745
+    ]
+  },
+  "exits": [
+    {
+      "to": 8471,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8489,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8490,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8494,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 7565,
+  "uid": [
+    47036
+  ],
+  "title": [
+    "[Catacombs, Narrow Passage]"
+  ],
+  "description": [
+    "There is barely room to walk between the walls of solid stone that narrow to a crack at the east end of the passage.  Shining veins of mineral deposits in the rock glitter in the light from the southwest, where the passage widens into a cavern."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the dark caverns",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      251,
+      1369,
+      261,
+      1379
+    ]
+  },
+  "exits": [
+    {
+      "to": 7534,
+      "kind": "go",
+      "cmd": "go deep crack",
+      "cost": 0.2
+    },
+    {
+      "to": 7566,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 5223,
+  "uid": [
+    4202409
+  ],
+  "title": [
+    "[Vornavian Coast, South Beach]"
+  ],
+  "description": [
+    "The dunes grow very tall here, and must be climbed to navigate the beach.  The sands reach nearly to the height of the cliff to the east, and several areas of the cliff look climbable.  The waves of the beach continue to crash endlessly to the west."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      360,
+      845,
+      370,
+      855
+    ]
+  },
+  "exits": [
+    {
+      "to": 5222,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5224,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5225,
+      "kind": "climb",
+      "cmd": "climb cliff",
+      "cost": 0.2
+    }
+  ]
+}

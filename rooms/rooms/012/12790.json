@@ -1,0 +1,83 @@
+{
+  "id": 12790,
+  "uid": [
+    3012002
+  ],
+  "title": [
+    "[Lobby]"
+  ],
+  "description": [
+    "This square room seems to have been carved out of solid rock, as evidenced by the smooth, hard walls.  A simple, deep brown rug covers the center of the floor.  A mural has been painted on one wall, covering it from floor to ceiling with a detailed image of the Eye of V'Tull.  Two granite benches sit against the adjacent walls, and a refreshment cart stands in the corner.  A sign hangs over a carved stone stairway, and a rounded arch is carved in the fourth wall, nearly hidden by deep blue curtains."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the old Logging Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "fire lily",
+    "urchin guide chronomages",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      289,
+      1101,
+      325,
+      1137
+    ]
+  },
+  "exits": [
+    {
+      "to": 12789,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12791,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

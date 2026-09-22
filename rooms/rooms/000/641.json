@@ -1,0 +1,114 @@
+{
+  "id": 641,
+  "uid": [
+    737001
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "A wide stonework archway separates the bazaar from the main wey, though the Sapphire Gate and its crowds are clearly visible beyond the granite structure.  Along the cobblestone route, fragrant honeysuckle vines cling to ornamental trellises, attracting florid butterflies and pollinating bees.",
+    "A wide stonework archway separates the bazaar from the main wey, though the Sapphire Gate and its crowds are clearly visible beyond the granite structure in the moonlight.  Along the cobblestone route, the closed buds of honeysuckle vines cling to ornamental trellises, while moths flit towards several lanterns."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1464,
+      698,
+      1481,
+      714
+    ]
+  },
+  "exits": [
+    {
+      "to": 33,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 642,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 730,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3866,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 3875,
+      "kind": "go",
+      "cmd": "go maple building",
+      "cost": 0.2
+    },
+    {
+      "to": 24260,
+      "kind": "go",
+      "cmd": "go pale store",
+      "cost": 0.2
+    },
+    {
+      "to": 24261,
+      "kind": "go",
+      "cmd": "go storefront",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

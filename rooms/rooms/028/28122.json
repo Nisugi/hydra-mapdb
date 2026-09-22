@@ -1,0 +1,48 @@
+{
+  "id": 28122,
+  "uid": [
+    8208630
+  ],
+  "title": [
+    "[Rumor Woods, Small Cave]"
+  ],
+  "description": [
+    "The walls of the cramped cave are heavy with moss, lichen, and frost.  A smattering of small bones betray the cave's possible use as a den for a predator sometime in the past.  An array of delicate icicles hanging from the cave's mouth, while only darkness lies further in."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location_unknowable": true,
+  "climate": "glacial",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-foxhunt-1654928999.jpg",
+    "rect": [
+      249,
+      793,
+      272,
+      818
+    ]
+  },
+  "exits": [
+    {
+      "to": 28123,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28124,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mouth"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

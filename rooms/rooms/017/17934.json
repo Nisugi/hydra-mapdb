@@ -1,0 +1,45 @@
+{
+  "id": 17934,
+  "uid": [
+    264018
+  ],
+  "title": [
+    "[Rogue Guild, Narrow Hall]"
+  ],
+  "description": [
+    "A rosewood railing runs along this portion of the hall allowing a view of the foyer below.  The soft, woven rug makes all footsteps silent."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      553,
+      761,
+      581,
+      787
+    ]
+  },
+  "exits": [
+    {
+      "to": 17933,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17935,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17955,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

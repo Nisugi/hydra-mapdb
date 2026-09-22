@@ -1,0 +1,41 @@
+{
+  "id": 34999,
+  "uid": [
+    4426025
+  ],
+  "title": [
+    "[Grim Sands, Chasm]"
+  ],
+  "description": [
+    "Deep in the chasm between two cliff faces, the pathway refines into a switchback road that climbs to the top of the bluffs.  Slick from the cold and the damp, the igneous rock has been scattered with gravel to provide better footholds.  The pounding of the surf is a distant, even roar that echoes oddly off of the surrounding stone."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Glaoveln",
+  "climate": "snowy, arctic",
+  "terrain": "riparian",
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      494,
+      1261,
+      516,
+      1280
+    ]
+  },
+  "exits": [
+    {
+      "to": 34997,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35000,
+      "kind": "go",
+      "cmd": "go road",
+      "cost": 0.2
+    }
+  ]
+}

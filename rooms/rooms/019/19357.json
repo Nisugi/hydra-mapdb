@@ -1,0 +1,44 @@
+{
+  "id": 19357,
+  "uid": [
+    3223109
+  ],
+  "title": [
+    "[The Crystal Lotus, Entry]"
+  ],
+  "description": [
+    "Wide open windows flank the entrance and provide an excellent view of the street, which is lined with tropical blossoms.  Polished golden linden floors spread across the room towards the white walls that are hung with a variety of pictures, each depicting a different flower in full bloom.  A glass-front cabinet stands as guardian before a wall-hugging wooden staircase that leads to the second level."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 19356,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19358,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19402,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19403,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

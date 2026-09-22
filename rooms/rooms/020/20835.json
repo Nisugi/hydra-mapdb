@@ -1,0 +1,39 @@
+{
+  "id": 20835,
+  "title": [
+    "[Dreadnaught Alliance Courtyard]"
+  ],
+  "description": [
+    "Secured by a massive stone wall, this spacious courtyard is a welcome retreat.  A deep fire pit encircled by black stones fills the area with warmth.  An old, dried-up cobblestone well sits alongside a stone bench.  Posted near the gigantic drawbridge is an oak signpost staked into the ground.  A massive gnarled oak tree with grey threadlike moss hanging from its branches rests in the midst.  A winding cobblestone path guides travelers to the torch-lit stairs, the entrance to the Dreadnaught tavern, and beyond."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "gone"
+  ],
+  "meta": [
+    "mho:House Dreadnaught"
+  ],
+  "exits": [
+    {
+      "to": 10814,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20836,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 20841,
+      "kind": "climb",
+      "cmd": "climb stair",
+      "cost": 0.2
+    }
+  ]
+}

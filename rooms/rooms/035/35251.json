@@ -1,0 +1,50 @@
+{
+  "id": 35251,
+  "uid": [
+    7142101
+  ],
+  "title": [
+    "[Sleeping Drake Harbor, Docks]"
+  ],
+  "description": [
+    "Steps carved from white travertine create a transitional space between the sprawling dock system and the rocky shoreline.  A weathered wooden sign directs visitors to the harbor master's shed nearby.  The shed itself is a quaint structure with a red-tiled roof and an ornate iron lantern hanging by the door.  Nearby, a small crate filled with fishing nets and tools is arranged as if the pieces have been placed out to dry."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Isle of Ornath",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "bract of sea spurge"
+  ],
+  "image": {
+    "file": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
+    "rect": [
+      853,
+      1192,
+      882,
+      1219
+    ]
+  },
+  "exits": [
+    {
+      "to": 35250,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35252,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    },
+    {
+      "to": 35253,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

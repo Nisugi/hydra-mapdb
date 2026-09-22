@@ -1,0 +1,68 @@
+{
+  "id": 28942,
+  "uid": [
+    7118430
+  ],
+  "title": [
+    "[The Naked Fauna]"
+  ],
+  "description": [
+    "A small counter occupies the back wall, its backdrop a large glass tank housing a variety of colorful fish.  Stretched beneath a tall drying rack covered in stretched animal skins, a loosely-woven seagrass mat attempts to protect the wagon floors from scuffing but does little to hide the wear and tear.  A cheerful windchime of two pewter octopuses sways in the doorway of the shop."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "furrier",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28895,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

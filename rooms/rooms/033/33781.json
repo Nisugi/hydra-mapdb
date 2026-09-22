@@ -1,0 +1,40 @@
+{
+  "id": 33781,
+  "uid": [
+    170935
+  ],
+  "title": [
+    "[The Ember Vale, Clover Path]"
+  ],
+  "description": [
+    "A worn trail leads from the pass to a wide field, which has been fenced off to encapsule swathes of grass, clovers and grazing mountain roltons.  Sunlight washes over the area, streaming down from the open sky beyond the crown of mountains above."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Talador",
+  "terrain": "grassland",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      583,
+      658,
+      599,
+      675
+    ]
+  },
+  "exits": [
+    {
+      "to": 33780,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33786,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

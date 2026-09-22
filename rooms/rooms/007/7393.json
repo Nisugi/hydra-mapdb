@@ -1,0 +1,54 @@
+{
+  "id": 7393,
+  "uid": [
+    389057
+  ],
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "The shaft comes to an abrupt end as the ceiling begins to slope rapidly downward to meet the floor.  The wall juts sharply underneath itself and you can see the ground reaching far underneath it."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blackgrove root",
+    "blue moss",
+    "cave moss",
+    "shadowlace moss"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1438,
+      338,
+      1448,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 7328,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "crawl hole"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7392,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

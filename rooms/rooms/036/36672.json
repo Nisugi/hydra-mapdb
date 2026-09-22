@@ -1,0 +1,45 @@
+{
+  "id": 36672,
+  "uid": [
+    8400011
+  ],
+  "title": [
+    "[Nyessem, Ring Loop]"
+  ],
+  "description": [
+    "Pink quartz crystals and fiery red rubies line the white stone walls leading to a broad ruby-studded tunnel down, reflecting their multihued light across the floor.  The faint movement of large amounts of water can be heard down the tunnel's mouth.  Next to the opening, a pastel-hued cloth banner trimmed with silver threads and its riot of colors draws the eye.  Nearby, some wide stone benches carved with a bubble motif are a place for respite.  Alongside them, a marble side table offers refreshments."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      725,
+      472,
+      741,
+      489
+    ]
+  },
+  "exits": [
+    {
+      "to": 36671,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36673,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36690,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

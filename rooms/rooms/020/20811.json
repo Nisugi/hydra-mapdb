@@ -1,0 +1,55 @@
+{
+  "id": 20811,
+  "uid": [
+    210500
+  ],
+  "title": [
+    "[House Sovyn, Hallway]"
+  ],
+  "description": [
+    "A vibrant red carpet lines this dim hallway.  The only light comes from two large brass braziers flanking the staircase.  Flickering shadows turn the silk patterned paper on the walls into shimmering pools of red."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sovyn"
+  ],
+  "image": {
+    "file": "wl-house_sovyn-11481362649.png",
+    "rect": [
+      1301,
+      1326,
+      1467,
+      1436
+    ]
+  },
+  "exits": [
+    {
+      "to": 20793,
+      "kind": "go",
+      "cmd": "go mithril staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20818,
+      "kind": "go",
+      "cmd": "go dark staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20824,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20825,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

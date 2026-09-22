@@ -1,0 +1,68 @@
+{
+  "id": 9687,
+  "uid": [
+    14051026
+  ],
+  "title": [
+    "[Maeve's Furs]"
+  ],
+  "description": [
+    "Exemplary displays of taxidermy decorate this spacious shop, though several of the arrangements are disturbing at best.  Posed as if ready to attack, stuffed white rabbits dangle upon wires over the grizzly prone body of a black forest ogre.  A glass counter has been filled to the brim with the preserved forms of dead badgers, and the countertop has been topped off a with a shiny golden bell."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "furrier",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 9686,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

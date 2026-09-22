@@ -1,0 +1,60 @@
+{
+  "id": 36440,
+  "uid": [
+    58051
+  ],
+  "title": [
+    "[Dungeon, Stream Shore]"
+  ],
+  "description": [
+    "Though this room is manmade, a channel of water runs straight through the center, entering from a tunnel to the south and emptying into another to the north.  The stream does not appear deep, but it is swift.  On the other side, the corridor continues eastward.  You also see a large iron lever positioned in a slot on the wall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2000,
+      680,
+      2040,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36419,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "pull lever"
+          ],
+          "when": {
+            "not": {
+              "sees": "opening"
+            }
+          }
+        },
+        {
+          "wait_until": {
+            "sees": "opening"
+          }
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36441,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

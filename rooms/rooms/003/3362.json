@@ -1,0 +1,97 @@
+{
+  "id": 3362,
+  "uid": [
+    650001
+  ],
+  "title": [
+    "[Empath Guild, Entrance]"
+  ],
+  "description": [
+    "A small iron door nestles into an expansive white marble wall.  To the left of the door the wall is decorated with a large insignia, and to the right a silver plaque is firmly affixed.  Torches line the top of the wall to await nightfall.  The ground is firm yet icy, the dirt covered by a layer of snow compressed by the passage of many footsteps.  A few small pines struggle for existence in the frigid conditions.",
+    "A small iron door nestles into an expansive white marble wall.  To the left of the door the wall is decorated with a large insignia, and to the right a silver plaque is firmly affixed.  Brightly burning torches line the top of the wall.  The ground is firm yet icy, the dirt covered by a layer of snow compressed by the passage of many footsteps.  A few small pines struggle for existence in the frigid conditions."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "empath guild",
+    "empathguild",
+    "Icemule empath guild entrance",
+    "stalk of bluebells",
+    "urchin guide empathguild",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Empath Guild",
+    "mapshortname:Empath Guild (Icemule)"
+  ],
+  "image": {
+    "file": "imt-empath_guild-1307499864.png",
+    "rect": [
+      126,
+      425,
+      172,
+      468
+    ]
+  },
+  "exits": [
+    {
+      "to": 2306,
+      "kind": "go",
+      "cmd": "go street",
+      "cost": 0.2
+    },
+    {
+      "to": 19417,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "profession": "Empath"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

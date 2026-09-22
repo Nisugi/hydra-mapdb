@@ -1,0 +1,56 @@
+{
+  "id": 23270,
+  "uid": [
+    4422210
+  ],
+  "title": [
+    "[Circle of Trees, Ground Level]"
+  ],
+  "description": [
+    "A tall cedar tree stands in the center of a patch of leafy ferns.  Dotted among the plants are several types of colorful flowers that seem to attract honey bees, as several of them dart among the blossoms.  A section of the ferns has been trampled to form a thin trail that winds its way toward the center of the circle of trees.",
+    "A tall cedar tree stands in the center of a patch of leafy ferns.  Dotted among the plants are several types of colorful flowers that have closed their petals and bowed their heads.  A section of the ferns has been trampled to form a thin trail that winds its way toward the center of the circle of trees."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Mist Harbor",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:fest-midsummers-night"
+  ],
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      674,
+      641,
+      687,
+      655
+    ]
+  },
+  "exits": [
+    {
+      "to": 23840,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23843,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 23846,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34532,
+      "kind": "go",
+      "cmd": "go mahogany wagon",
+      "cost": 0.2
+    }
+  ]
+}

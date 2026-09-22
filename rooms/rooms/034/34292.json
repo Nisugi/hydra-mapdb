@@ -1,0 +1,86 @@
+{
+  "id": 34292,
+  "uid": [
+    13150204
+  ],
+  "title": [
+    "[Giant's Ridge, Juncture]"
+  ],
+  "description": [
+    "Impeding further travel to the east is a wall of tremendous boulders, a barricade to the immense summit that imposes a foreboding shadow over an already darkened trail.  Freshly cut limbs and branches rest in an orderly pile beneath a covered stand filled with a variety of pruning tools and other miscellaneous items.  Just beyond a wide crevice in the ground, a rock-spattered ledge clings to the mountain face and wends back and forth toward a moderate clearing set back from the trail's sharp edge."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Stormpeak",
+  "climate": "moist",
+  "terrain": "deciduous",
+  "tags": [
+    "acantha leaf",
+    "alpine violet",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red cranberry",
+    "broken twig",
+    "brostheras grass",
+    "cabbage rose",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "haphip root",
+    "luckbloom blossom",
+    "murdroot",
+    "nightbloom blossom",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "striped heart mushroom",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "virescent rose",
+    "wild chokecherry",
+    "willow twig",
+    "withered mushroom",
+    "woth flower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      434,
+      60,
+      451,
+      76
+    ]
+  },
+  "exits": [
+    {
+      "to": 34291,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 34293,
+      "kind": "climb",
+      "cmd": "climb ledge",
+      "cost": 0.2
+    },
+    {
+      "to": 34313,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go gap"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

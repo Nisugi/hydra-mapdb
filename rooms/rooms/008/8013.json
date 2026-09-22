@@ -1,0 +1,51 @@
+{
+  "id": 8013,
+  "uid": [
+    401101
+  ],
+  "title": [
+    "[Kobold Mines, Crucible]"
+  ],
+  "description": [
+    "This room reeks of hot iron and smoke.  Dominating the cave is a massive crucible set over a firebox of metal and stone.  A stone trough lies on the floor next to the crucible.  A thick layer of soot covers the walls, floor and ceiling except for a pair of iron rails set in the ground leading out of the cavern.  Far overhead, a narrow crack leads to the outside and a constant breeze blows upwards."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the old Mine Road",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "cinnamon bark",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      159,
+      916,
+      169,
+      926
+    ]
+  },
+  "exits": [
+    {
+      "to": 8008,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8014,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8015,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

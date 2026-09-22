@@ -1,0 +1,44 @@
+{
+  "id": 22159,
+  "uid": [
+    106308
+  ],
+  "title": [
+    "[Cairnfang Manor, Locker Annex]"
+  ],
+  "description": [
+    "Dried flowers hang from the rafters in this part of the attic, their fading scents fill the air with an earthy sweetness.  Swept clean the floor has been cleared of the clutter than fills the other attic rooms.  A small window to the east lights the room the panes of glass streaked with dust as if recently washed."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor",
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      813,
+      419,
+      825,
+      431
+    ]
+  },
+  "exits": [
+    {
+      "to": 22156,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36074,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

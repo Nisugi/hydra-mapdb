@@ -1,0 +1,46 @@
+{
+  "id": 17892,
+  "uid": [
+    268010
+  ],
+  "title": [
+    "[Rogue Guild, East Hall]"
+  ],
+  "description": [
+    "Stark and unadorned, the corridor turns a sharp corner into the adjacent hall.  The nearest source of light lies many yards to the north and northwest, leaving much of the area swathed in shadows.  Small seams run down and across the surrounding polished black marble, marking the edges of each perfectly cut block.  A dark stairway is visible just beyond a large, arched alcove built into the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      559,
+      552,
+      598,
+      590
+    ]
+  },
+  "exits": [
+    {
+      "to": 17891,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17895,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17902,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

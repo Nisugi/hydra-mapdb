@@ -1,0 +1,56 @@
+{
+  "id": 3714,
+  "uid": [
+    42017
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The dim flicker of torchlight casts shadows that flit across the uneven stone walls in a macabre dance that evokes images of death and demons.  A heavy, iron door hangs from rusted hinges.  A crude, iron ladder leads up to a sturdy-looking trapdoor.  The trapdoor has a strong-looking spring mechanism across its underside."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      149,
+      1235,
+      159,
+      1245
+    ]
+  },
+  "exits": [
+    {
+      "to": 3713,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3715,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3805,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7071,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

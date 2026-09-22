@@ -1,0 +1,75 @@
+{
+  "id": 5826,
+  "uid": [
+    14101002
+  ],
+  "title": [
+    "[The Legendary Rest, Lobby]"
+  ],
+  "description": [
+    "A spacious lobby replete with gleaming brass fixtures, plush woolen carpet, and polished walnut furniture greets guests both coming and going.  Carved, thickly padded walnut chairs reside next to lacquered walnut tables, their wood grain surfaces rubbed to a mirror-like sheen, and richly appointed tapestries adorn the walls.  A pair of heavy walnut doors, inlaid with cut-glass panes, allow exit to an immaculate courtyard, while a dignified elf waits stiffly behind a polished walnut desk."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Legendary Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "inn",
+    "stalk of bluebells",
+    "urchin guide inn",
+    "urchin-access",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 3485,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 5825,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

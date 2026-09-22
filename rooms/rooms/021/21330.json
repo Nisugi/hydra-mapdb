@@ -1,0 +1,85 @@
+{
+  "id": 21330,
+  "uid": [
+    211002
+  ],
+  "title": [
+    "[Sylvanfair, Rogal-Keli Hall]"
+  ],
+  "description": [
+    "The trunk of this enormous tree is hollow, providing the House with a huge hall of living wood.  Natural knotholes and other openings in the trunk allow light to enter the hall, while layers of carefully arranged branches and bright autumn-colored leaves keep out the weather.  Birdsong fills the air, giving the hall a cheerful atmosphere.  A staircase spirals up around the inside of the tree.",
+    "The trunk of this enormous tree is hollow, providing the House with a huge hall of living wood.  Natural knotholes and other openings in the trunk allow moonlight to enter the hall, while layers of carefully arranged branches and bright autumn-colored leaves keep out the weather.  Crickets and other night insects fill the air with their songs, giving the hall a cheerful atmosphere.  A staircase spirals up around the inside of the tree."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, west, northwest, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sylvanfair",
+    "che:sylvanfair:entrance_che",
+    "mapcategory:CHE",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - House Sylvanfair",
+    "mapshortname:House Sylvanfair"
+  ],
+  "image": {
+    "file": "wl-sylvanfair.jpg",
+    "rect": [
+      477,
+      505,
+      517,
+      544
+    ]
+  },
+  "exits": [
+    {
+      "to": 8753,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21331,
+      "kind": "go",
+      "cmd": "go spiral staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 21332,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 21334,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21335,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21340,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21341,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21346,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 22352,
+  "uid": [
+    13125001
+  ],
+  "title": [
+    "[Ta'Illistim, Linsandrych Var]"
+  ],
+  "description": [
+    "Just out of the shadow of a silvery blue stone gatehouse, the cobblestones fan out into a wide var, which splits off in opposite directions.  Lush, blossoming foliage lines either side of a narrow walkway that leads into a flourishing garden.  An enameled silver sign is placed next to a crystal-paned lantern hung from a carved alabaster column."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapname:Elven Nations - Ta'Illistim Embassies",
+    "mapshortname:Ta'Illistim Embassies"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      542,
+      54,
+      618,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 603,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 22353,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22371,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22386,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    }
+  ]
+}

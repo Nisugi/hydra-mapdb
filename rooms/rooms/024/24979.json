@@ -1,0 +1,31 @@
+{
+  "id": 24979,
+  "title": [
+    "[Underground, Ravine]"
+  ],
+  "description": [
+    "Steep earthen walls surround you, creating an almost suffocatingly narrow corridor of space.  Filtering down from very high above you, a pinprick of light gives just enough illumination for you to make out and avoid the tangle of sharp rocks spearing out from the sides of the ravine, as well as the hint of a vast cavern stretching up above you."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "missing"
+  ],
+  "exits": [
+    {
+      "to": 24980,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "touch rock"
+        },
+        {
+          "move": "go gaping hole"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

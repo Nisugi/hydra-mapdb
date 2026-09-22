@@ -1,0 +1,41 @@
+{
+  "id": 29695,
+  "uid": [
+    8208752
+  ],
+  "title": [
+    "[Cysaelotar, Roar of the Stars]"
+  ],
+  "description": [
+    "Affording a view of the northern mountains, the southern tundra, and the western tourney grounds, the mound is covered in swaying grasses and sedge that are tugged and toyed with by an inconsistent arctic breeze.  Rust and mint-green lichen cling to granite boulders that, through some act of nature, form a ring across the flat expanses, in the center of which someone has built a large blazing bonfire.  Various pathways are visible as thin tracks that meander to the top, but only one pathway down is efficient and hazard free."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Rumor Woods",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1473,
+      449,
+      1496,
+      470
+    ]
+  },
+  "exits": [
+    {
+      "to": 29671,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29696,
+      "kind": "go",
+      "cmd": "go canvas enclosure",
+      "cost": 0.2
+    }
+  ]
+}

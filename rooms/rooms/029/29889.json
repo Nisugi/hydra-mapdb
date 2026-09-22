@@ -1,0 +1,95 @@
+{
+  "id": 29889,
+  "uid": [
+    7503110
+  ],
+  "title": [
+    "[Hinterwilds, Boreal Forest]"
+  ],
+  "description": [
+    "Paw prints from some variety of small four-legged animal mar the pristine white snow in a clearing between two great stands of conifers.  The tracks vanish under a carpet of spent green needles.  With the trees serving as a wind break, the faintest tang of spoor colors the crisp, dry air, an earthy undertone to the clean odor of pine resin that fills the area."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "cold, dry",
+  "terrain": "coniferous",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "buckthorn berry",
+    "crowberry",
+    "daggit root",
+    "ephlox moss",
+    "feverfew stalk",
+    "frostflower",
+    "frostweed",
+    "gok nut",
+    "ironfern root",
+    "lingonberry",
+    "manroot stalk",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "red lichen",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "slender twig",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wintergreen leaf",
+    "wolifrew lichen",
+    "wyrmwood bark",
+    "yew twig"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      841,
+      1107,
+      856,
+      1122
+    ]
+  },
+  "exits": [
+    {
+      "to": 29886,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29888,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go game trail"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

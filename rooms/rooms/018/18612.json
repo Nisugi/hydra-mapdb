@@ -1,0 +1,67 @@
+{
+  "id": 18612,
+  "uid": [
+    671052
+  ],
+  "title": [
+    "[Annex, Hallway]"
+  ],
+  "description": [
+    "Inlaid into the ruddy mahogany flooring of this broad corridor, bands of dark, medium, and light wood form paths to three exits set with stone of corresponding colors.  On the north side of the hallway, interlocking squares of white ash lead to a marble arch, and a strip of smokey-grey haon leads to a granite arch on the south side.  A line of dark ebonwood separates the two, terminating before the onyx-inlaid arch at the hall's west end."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "tags": [
+    "trash"
+  ],
+  "image": {
+    "file": "wl-cleric_guild-1275417297.png",
+    "rect": [
+      195,
+      347,
+      239,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 18602,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18613,
+      "kind": "go",
+      "cmd": "go onyx-inlaid arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18614,
+      "kind": "go",
+      "cmd": "go granite arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18615,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18616,
+      "kind": "go",
+      "cmd": "go walnut door",
+      "cost": 0.2
+    },
+    {
+      "to": 18617,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    }
+  ]
+}

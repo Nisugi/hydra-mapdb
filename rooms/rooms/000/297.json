@@ -1,0 +1,61 @@
+{
+  "id": 297,
+  "uid": [
+    7356
+  ],
+  "title": [
+    "[Town Square, South Alley]"
+  ],
+  "description": [
+    "This narrow alleyway passes crookedly between the old wood and stone walls of the surrounding buildings, providing a shaded byway from the busy road to the south to a small park nestled in a grassy niche to the north.  An occasional stray mutt sniffs around the foundations, searching for rats or morsels."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      197,
+      992,
+      234,
+      1028
+    ]
+  },
+  "exits": [
+    {
+      "to": 288,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 296,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22349,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go alleyway"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 14064,
+  "uid": [
+    4750034
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "Bits of rotted tack and harness litter the area around you.  To the north, the castle stables sit in the shadow of the northern walls.  A pair of large barn doors leading into the stable's interior stand open just enough for someone to squeeze by."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      734,
+      224,
+      742,
+      232
+    ]
+  },
+  "exits": [
+    {
+      "to": 14062,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14065,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 14066,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

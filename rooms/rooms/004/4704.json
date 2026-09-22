@@ -1,0 +1,50 @@
+{
+  "id": 4704,
+  "uid": [
+    14052008
+  ],
+  "title": [
+    "[Reformatory, Antechamber]"
+  ],
+  "description": [
+    "A heavy, barred gateway at the edge of the immense and circular chamber leads to a walkway that reaches three cellblocks.  Thick hinges and iron straps reinforced by huge black iron locks adorn the gateway, prohibiting further passage toward the holding cells.  The rhythmic sound of marching boots echoes off the walls as sentries tread on a metal catwalk high overhead while patrolling the area from up above."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 4671,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4703,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17144,
+      "kind": "go",
+      "cmd": "go gateway",
+      "cost": 0.2
+    },
+    {
+      "to": 17145,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    }
+  ]
+}

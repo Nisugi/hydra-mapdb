@@ -1,0 +1,68 @@
+{
+  "id": 29130,
+  "uid": [
+    7118380
+  ],
+  "title": [
+    "[Storm Petrel's Wing]"
+  ],
+  "description": [
+    "Along this shop's timbered walls, bows of all makes and sizes hang like stuffed and mounted hunting trophies.  Feathers, paint splatters, and other evidence of arrow-making lightly litter the creaky wooden floors.  Behind a narrow leather-topped counter, the shop's wide variety of archery-related wares sit on display."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "fletcher",
+    "urchin guide fletcher",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28909,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

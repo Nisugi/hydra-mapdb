@@ -1,0 +1,36 @@
+{
+  "id": 19061,
+  "title": [
+    "[Spitfire, Mainmast Shrouds]"
+  ],
+  "description": [
+    "The Spitfire's rigging is anchored solidly with dead-eyes and screws sunk into the ship's sides.  Above, the shrouds angle towards the crow's nest, high above the deck.  Creaks and groans are audible as the yards move on the mast, shifted by the loll of the ship on the bay's gentle swells."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      270,
+      421,
+      306,
+      457
+    ]
+  },
+  "exits": [
+    {
+      "to": 19058,
+      "kind": "go",
+      "cmd": "go shrouds",
+      "cost": 0.2
+    },
+    {
+      "to": 19075,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

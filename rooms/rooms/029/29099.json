@@ -1,0 +1,68 @@
+{
+  "id": 29099,
+  "uid": [
+    7118355
+  ],
+  "title": [
+    "[The Knife's Edge, Show Room]"
+  ],
+  "description": [
+    "Crates, boxes, and shipping containers clutter the back of the shop.  The sturdy wooden structures create a wall that stretches to the ceiling.  Along the northern and southern walls, open shipping containers provide a view of the wares that are for sale.  A long glossy counter crafted of oak provides a centralized location to place orders, its smooth surface clean and tidy."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide weapons",
+    "urchin-access",
+    "weapons"
+  ],
+  "exits": [
+    {
+      "to": 28884,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

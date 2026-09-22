@@ -1,0 +1,56 @@
+{
+  "id": 19007,
+  "uid": [
+    662005
+  ],
+  "title": [
+    "[Sorcerer Guild, Relaxation Room]"
+  ],
+  "description": [
+    "Overstuffed chairs and sofas rest on plush silver carpeting in this elegant resting room.  Several large paintings illuminated softly by nearby lanterns hang on the walls.  A fire burns merrily in the spacious fireplace, its mottled grey granite a soft contrast to the surrounding dark brown walnut paneling.  A refreshment cart in the corner offers several tasty and refreshing selections."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild node"
+  ],
+  "image": {
+    "file": "ti-sorcerer_guild-1405076623.png",
+    "rect": [
+      498,
+      373,
+      533,
+      409
+    ]
+  },
+  "exits": [
+    {
+      "to": 19006,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19008,
+      "kind": "climb",
+      "cmd": "climb ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 19029,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "oil painting"
+          ]
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

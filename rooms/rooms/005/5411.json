@@ -1,0 +1,49 @@
+{
+  "id": 5411,
+  "uid": [
+    319100
+  ],
+  "title": [
+    "[Bonespear Tower, Entrance]"
+  ],
+  "description": [
+    "The tower, which looms a hundred feet overhead, is devoid of any windows or balconies save for the massive iron doors that lead inside.  The entire structure appears to be made from all manner of humanoid and animal bone fragments.",
+    "The tower, which looms a hundred feet overhead, is devoid of any windows or balconies save for a towering iron double door that leads inside.  The entire structure appears to be made from all manner of humanoid and animal bone fragments."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      1224,
+      933,
+      1232,
+      941
+    ]
+  },
+  "exits": [
+    {
+      "to": 5409,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5413,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go iron door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

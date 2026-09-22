@@ -1,0 +1,58 @@
+{
+  "id": 31871,
+  "uid": [
+    8083086
+  ],
+  "title": [
+    "[Darkbriar Woods, Shadowed Wilds]"
+  ],
+  "description": [
+    "Almost swallowed by the dark, briar-filled woods, many wooden edifices fight for life against the ice-hardened snow drifts blanketing the area.  Strings of jacinthe-hued baubles glow against the dark green cedar boughs to light up the path cutting through the woods.  Off to one side of the path, a giant ice sculpture sits, carved into the likeness of a jack-o'-lantern on a manticore's body.",
+    "Almost swallowed by the dark, briar-filled woods, many wooden edifices fight for life against the ice-hardened snow drifts blanketing the area.  Strings of jacinthe-hued baubles glow against the dark green cedar boughs to light up the path cutting through the woods.  Off to one side of the path, a giant ice sculpture sits, carved into the likeness of a jack'o'lantern on a manticore's body."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1282,
+      243,
+      1304,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31870,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31872,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32210,
+      "kind": "go",
+      "cmd": "go iced-over store",
+      "cost": 0.2
+    },
+    {
+      "to": 33960,
+      "kind": "go",
+      "cmd": "go brambled cabin",
+      "cost": 0.2
+    }
+  ]
+}

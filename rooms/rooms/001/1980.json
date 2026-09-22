@@ -1,0 +1,47 @@
+{
+  "id": 1980,
+  "uid": [
+    3003044
+  ],
+  "title": [
+    "[Temple, Corridor]"
+  ],
+  "description": [
+    "An ethereal silence looms along this corridor of stone. Residents of Kharam-Dzu move solemnly about their business, as a pensive elven acolyte maintains a respectful watch.  To one side, an elaborate white marble arch decked with garlands leads to the wedding chapel.  A black marble arch solemnly ushers passing travelers to the altar of Lorminstra."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1979,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1981,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12376,
+      "kind": "go",
+      "cmd": "go white arch",
+      "cost": 0.2
+    },
+    {
+      "to": 13057,
+      "kind": "go",
+      "cmd": "go black arch",
+      "cost": 0.2
+    }
+  ]
+}

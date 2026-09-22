@@ -1,0 +1,39 @@
+{
+  "id": 33974,
+  "uid": [
+    8085028
+  ],
+  "title": [
+    "[A Darkly Canopied Path]"
+  ],
+  "description": [
+    "Liana vines creep up the tall trees crowding the cobblestone pathway, their grasping tendrils interweaving with branches to create an arching canopy overhead.  Leading somewhat northerly, a vine-choked trail branches off from the main road.  A riot of blood red fungi scatter across decaying stumps, interspersed with virulent orange stalks of slime mold.  An arrow-shaped sign points east."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Naidem",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 33973,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33975,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33976,
+      "kind": "go",
+      "cmd": "go vine-choke trail",
+      "cost": 0.2
+    }
+  ]
+}

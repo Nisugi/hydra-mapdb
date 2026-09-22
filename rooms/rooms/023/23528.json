@@ -1,0 +1,173 @@
+{
+  "id": 23528,
+  "uid": [
+    14117020
+  ],
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Wild geese congregate midstream, honking noisily at anyone or anything that comes near.  Upstream, a tree-covered isle parts the waters, its lush shore creating a haven for fish and small animals.  To the east, a wide game trail leads from the riverbank into the untamed weald.  Rustling brush is accompanied by a quick glimpse of something brown, though it moved far too quickly to identify with surety.  Across the river, the shore bends gently south, with boulders of varying size extending into the water.",
+    "Small bubbles break the surface of the water as fish come to the surface to feed.  Upstream, a tree-covered isle parts the waters, its lush shore creating a haven for fish and small animals.  To the east, a wide game trail leads from the riverbank into the untamed weald.  Rustling brush is accompanied by a quick glimpse of something dark, though it moved far too quickly to identify with surety.  Across the river, the shore bends gently south, with boulders of varying size extending into the water."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1278,
+      846,
+      1303,
+      871
+    ]
+  },
+  "exits": [
+    {
+      "to": 18823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row south",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25543,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row west",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25544,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30512,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

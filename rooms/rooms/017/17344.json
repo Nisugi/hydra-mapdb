@@ -1,0 +1,59 @@
+{
+  "id": 17344,
+  "uid": [
+    253016
+  ],
+  "title": [
+    "[Warrior Guild, West Lawn]"
+  ],
+  "description": [
+    "The grass grows lush and green, bordered by well-kept shrubbery that is bounded in turn by a low stone wall.  A weathered woodshed stands several paces away from a solid oak door that leads into the Guild proper.  Several large vertical wheels similar to those on sailing ships are set up along the southwestern side of the lawn.",
+    "The grass grows lushly, bordered by well-kept shrubbery that is bounded in turn by a low stone wall.  A weathered woodshed stands several paces away from a solid oak door that leads into the Guild proper.  Moonlight glints off of the brass fittings of several large vertical wheels, similar to those on sailing ships, which are set up along the southwestern side of the lawn."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild masters",
+    "warrior guild shrubbery",
+    "warrior guild wheel"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      554,
+      987,
+      573,
+      1005
+    ]
+  },
+  "exits": [
+    {
+      "to": 17343,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17364,
+      "kind": "go",
+      "cmd": "go woodshed",
+      "cost": 0.2
+    },
+    {
+      "to": 17365,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30524,
+      "kind": "other",
+      "cmd": "ask nihma about training berserk",
+      "cost": 0.2
+    }
+  ]
+}

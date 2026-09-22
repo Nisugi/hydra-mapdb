@@ -1,0 +1,54 @@
+{
+  "id": 27407,
+  "title": [
+    "[Carnival, Peculiar Path]"
+  ],
+  "description": [
+    "The wall of wagons closes off the eastern edge of the walkway.  Old baskets and trunks have been piled up in the spaces between to prevent escape.  Toffee and popcorn scents fill the air.  A brightly colored bench has been placed here off of the main path."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      674,
+      288,
+      725,
+      337
+    ]
+  },
+  "exits": [
+    {
+      "to": 27405,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27408,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27425,
+      "kind": "go",
+      "cmd": "go old wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 27427,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 34436,
+  "uid": [
+    2022478
+  ],
+  "title": [
+    "[Cuddfan Hollow, Sleeping Space]"
+  ],
+  "description": [
+    "Small and large rugs are stacked upon the ebonwood floors of the wagon's sleeping quarters, their woven patterns decorative and varied.  Fitted into the back half of the wagon, a large box bed occupies much of the space, though its underside has been cleverly fitted with a variety of drawers for convenient storage.  A pair of bronze sconces flank on either side of a bright off-white door that leads to the backyard."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 34435,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34437,
+      "kind": "go",
+      "cmd": "go off-white door",
+      "cost": 0.2
+    }
+  ]
+}

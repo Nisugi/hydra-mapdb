@@ -1,0 +1,51 @@
+{
+  "id": 17267,
+  "uid": [
+    252020
+  ],
+  "title": [
+    "[Guild Hall, Frigidarium]"
+  ],
+  "description": [
+    "Four semi-translucent screens surround a pair of ice tubs recessed in the floor of this round, domed room.  Small round windows and an oculus at the top of the dome keep the room perpetually bathed in light.  Marble steps skirt the tubs and are textured to prevent slipping.  A dolphin-shaped golden spout continually gushes fresh water through a basin of crushed ice, which spills into the two tubs, keeping the bath water cold and brisk."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild iceblocks",
+    "warrior guild icetub"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1499,
+      802,
+      1519,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 17265,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17268,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32796,
+      "kind": "go",
+      "cmd": "go tubs",
+      "cost": 0.2
+    }
+  ]
+}

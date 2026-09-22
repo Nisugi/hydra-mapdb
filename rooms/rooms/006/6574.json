@@ -1,0 +1,50 @@
+{
+  "id": 6574,
+  "uid": [
+    4285046
+  ],
+  "title": [
+    "[Anwyn Castle, Hall]"
+  ],
+  "description": [
+    "This paneled passage connects the Great Hall to the old keep.  A row of tall, mullioned windows -- each with a window embrasure forming a 'sitting window' -- casts irregularly shaped reflections onto the broad beams of the floor.  They shift and fade in synchrony with the drifting fog outside."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1240,
+      517,
+      1250,
+      527
+    ]
+  },
+  "exits": [
+    {
+      "to": 6570,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6575,
+      "kind": "go",
+      "cmd": "go seat",
+      "cost": 0.2
+    },
+    {
+      "to": 6576,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": 23811,
+  "title": [
+    "[Under the Counter]"
+  ],
+  "description": [
+    "The walls of this perfectly square room are painted a pale fawn hue and bisected by a strip of pristine white molding.  Decorative yet functional brass sconces hang in the center of each, casting a warm glow over a pair of mannequins that stand on either side of a tall oak cabinet.  A deep gold velvet curtain on the opposite wall leads to the store room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Bloodriven Village",
+  "exits": [
+    {
+      "to": 23810,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23812,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

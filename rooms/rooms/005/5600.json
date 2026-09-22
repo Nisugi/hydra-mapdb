@@ -1,0 +1,41 @@
+{
+  "id": 5600,
+  "uid": [
+    2120203
+  ],
+  "title": [
+    "[Storage Warehouse, Hallway]"
+  ],
+  "description": [
+    "Dimly lit, this hallway runs west to a larger chamber and also turns to the south.  In the north wall is a curtained opening."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 5599,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5603,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35243,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

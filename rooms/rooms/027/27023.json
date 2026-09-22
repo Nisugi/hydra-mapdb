@@ -1,0 +1,184 @@
+{
+  "id": 27023,
+  "title": [
+    "[Lake of Fear, Southern Expanse]"
+  ],
+  "description": [
+    "The smooth, uniform surface of the lake stretches out in all directions, making navigation difficult.  Nearby, a half-eaten fish stares blankly up through the ice, its crystalized entrails adding a bit of macabre color to an otherwise bleak environment."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 27022,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27024,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

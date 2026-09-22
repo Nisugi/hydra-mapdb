@@ -1,0 +1,47 @@
+{
+  "id": 14309,
+  "uid": [
+    4901092
+  ],
+  "title": [
+    "[The Krawling Kraken, Foyer]"
+  ],
+  "description": [
+    "Heavy red velvet curtains hang against the southern wall, effectively blocking the public eye from the inner sanctum.  Brass wall sconces, polished to a golden sheen, line the walls, their candles smoldering slightly from the light breeze that passes from beneath the curtains.  Plush red rugs with long black tassels overlap one another and hide the rough oak floorboards that creak slightly.  Riotous laughter can be heard from the west while soft music enters the foyer from the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14308,
+      "kind": "go",
+      "cmd": "go curtains",
+      "cost": 0.2
+    },
+    {
+      "to": 14325,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14330,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14331,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

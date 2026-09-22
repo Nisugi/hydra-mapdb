@@ -1,0 +1,52 @@
+{
+  "id": 5552,
+  "uid": [
+    4215139
+  ],
+  "title": [
+    "[Manor House, South Wing]"
+  ],
+  "description": [
+    "Lit only by what moonlight leaks between the boards covering the west-facing windows, the hallway seems dark and confining.  A continuous spiderweb of cracks riddles the plaster of the east wall and several large patches of plaster have fallen from the ceiling.  A pale doorframe carved with vines fills the south end of the corridor, and a maple door is set into the east wall.",
+    "Lit only by the light leaking between the boards covering the west-facing windows, the hallway seems dark and confining.  A continuous spiderweb of cracks riddles the plaster of the east wall, and several large patches of plaster have fallen from the ceiling.  An oak doorframe carved with vines fills the south end of the corridor, and a maple door is set into the east wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1047,
+      655,
+      1057,
+      665
+    ]
+  },
+  "exits": [
+    {
+      "to": 5549,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5554,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5555,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

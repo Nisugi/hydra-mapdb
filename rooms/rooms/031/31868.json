@@ -1,0 +1,56 @@
+{
+  "id": 31868,
+  "uid": [
+    8083079
+  ],
+  "title": [
+    "[Icebriar Lake, Winter's Edge]"
+  ],
+  "description": [
+    "Barely visible behind large drifts of cold-hardened snow, a frozen lake glitters in the ambient light.  A large riverstone manor sits on a small rise, surrounded by several outbuildings, and the cobblestone path ends abruptly at a foreboding thicket of trees and briars.  Several twisting trails lead behind the manor to additional buildings."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "glacial",
+  "terrain": "icy glacier",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1321,
+      204,
+      1344,
+      227
+    ]
+  },
+  "exits": [
+    {
+      "to": 31861,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31869,
+      "kind": "go",
+      "cmd": "go thicket",
+      "cost": 0.2
+    },
+    {
+      "to": 31910,
+      "kind": "go",
+      "cmd": "go smithy",
+      "cost": 0.2
+    },
+    {
+      "to": 33983,
+      "kind": "go",
+      "cmd": "go entry",
+      "cost": 0.2
+    }
+  ]
+}

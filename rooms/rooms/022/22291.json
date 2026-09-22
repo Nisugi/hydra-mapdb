@@ -1,0 +1,36 @@
+{
+  "id": 22291,
+  "title": [
+    "[Barret's Gorge, The Sprawl]"
+  ],
+  "description": [
+    "A huge flight of flat stone stairs ascends up to the top of the crumbling ramparts of the fabled Demonwall.  The wall itself stretches far and wide to both the east and west, each section disappearing further than the eye can see."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      533,
+      568,
+      546,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 22290,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22292,
+      "kind": "go",
+      "cmd": "go demonwall",
+      "cost": 0.2
+    }
+  ]
+}

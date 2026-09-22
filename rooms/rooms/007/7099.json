@@ -1,0 +1,50 @@
+{
+  "id": 7099,
+  "uid": [
+    44034
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Strange characters are carved into the walls, looking rather like an alphabet, and grouped to form words, but you've never seen anything like them before.  The symbols continue along the walls, disappearing into the shadows to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1001,
+      925,
+      1011,
+      935
+    ]
+  },
+  "exits": [
+    {
+      "to": 7098,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7100,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7104,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

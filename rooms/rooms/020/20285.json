@@ -1,0 +1,36 @@
+{
+  "id": 20285,
+  "title": [
+    "[Feymist Inn, Dining Room]"
+  ],
+  "description": [
+    "Hanging on the near wall, just above a two-way stone fireplace, the eyes on a grimy, bent miner's portraiture glare out across the room.  Several groupings of diners are seated at long wooden tables and around a small, circular bar, while busy waitstaff bustle past every so often, laden with trays and steaming dishes.  The bright colors and rich decor do little to hide the stains that have spread across the wallpaper and the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Feywrot Mire",
+  "tags": [
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 20200,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20286,
+      "kind": "go",
+      "cmd": "go tables",
+      "cost": 0.2
+    },
+    {
+      "to": 20287,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

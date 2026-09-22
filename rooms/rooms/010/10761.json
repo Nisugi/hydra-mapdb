@@ -1,0 +1,53 @@
+{
+  "id": 10761,
+  "uid": [
+    287100
+  ],
+  "title": [
+    "[Bard Guild, Gallery]"
+  ],
+  "description": [
+    "Encircling the the whole of the guildhall entry, this wide gallery is bounded by pale granite walls and a richly carved oak balustrade, which forms an elongated oval flowing up from a sweeping staircase.  Sunlight filtered through tall, lancet-topped leaded glass windows illumines four magnificent paintings, two flanking a pair of wide doors on the south side, and the other two placed symmetrically on the north side, framing a wide archway leading north.",
+    "Encircling the the whole of the guildhall entry, this wide gallery is bounded by pale granite walls and a richly carved oak balustrade, which forms an elongated oval flowing up from a sweeping staircase.  Candlelight from grand vaalorn chandeliers reflects from tall, lancet-topped leaded glass windows and illumines four magnificent paintings, two flanking a pair of wide doors on the south side, and the other two placed symmetrically on the north side, framing a wide archway leading north."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-vaalor-bard-guild.png",
+    "rect": [
+      187,
+      360,
+      208,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 10438,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 13537,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 13728,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

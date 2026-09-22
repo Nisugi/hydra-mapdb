@@ -1,0 +1,286 @@
+{
+  "id": 12662,
+  "uid": [
+    3031001
+  ],
+  "title": [
+    "[Teras Isle, Beach]"
+  ],
+  "description": [
+    "Dim moonlight bathes the beach in its glow, causing portions of the beach to shimmer like a masterfully cut gem.  The gentle, rhythmic breaking of waves against rock can be heard coming from the sea.",
+    "Sunlight breaks through the clouds and ash above in bright streams, bathing the area in shadowed light.  Tiny crustaceans skitter across the beach, appearing and disappearing near the rocks of the sea.  The gentle, rhythmic breaking of waves against rock and sand echoes through the cove, interrupted only by the occasional call of a sea bird."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "humid",
+  "terrain": "sandy",
+  "tags": [
+    "acantha leaf",
+    "black peppercorn",
+    "bur-clover root",
+    "cardamom",
+    "cinnamon bark",
+    "cumin seeds",
+    "murdroot",
+    "nutmeg",
+    "pink peppercorn",
+    "star anise",
+    "vanilla bean",
+    "wingstem root",
+    "yabathilium fruit"
+  ],
+  "meta": [
+    "mapcategory:Teras Isle",
+    "mapname:Teras Isle - Nelemar",
+    "mapshortname:Nelemar"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      1173,
+      768,
+      1191,
+      786
+    ]
+  },
+  "exits": [
+    {
+      "to": 2071,
+      "kind": "go",
+      "cmd": "go incline",
+      "cost": 0.2
+    },
+    {
+      "to": 12677,
+      "kind": "scripted",
+      "routine": {
+        "name": "signposts",
+        "verb": "swim",
+        "dirs": [
+          [
+            20786,
+            "down"
+          ],
+          [
+            12662,
+            "whirlpool"
+          ],
+          [
+            12987,
+            "south"
+          ],
+          [
+            12663,
+            "south"
+          ],
+          [
+            12988,
+            "southeast"
+          ],
+          [
+            12664,
+            "south"
+          ],
+          [
+            12726,
+            "east"
+          ],
+          [
+            12665,
+            "south"
+          ],
+          [
+            12666,
+            "south"
+          ],
+          [
+            12667,
+            "south"
+          ],
+          [
+            12989,
+            "southeast"
+          ],
+          [
+            12991,
+            "southwest"
+          ],
+          [
+            12668,
+            "northeast"
+          ],
+          [
+            12727,
+            "west"
+          ],
+          [
+            12990,
+            "east"
+          ],
+          [
+            12669,
+            "southeast"
+          ],
+          [
+            12670,
+            "north"
+          ],
+          [
+            12728,
+            "south"
+          ],
+          [
+            12671,
+            "southeast"
+          ],
+          [
+            12672,
+            "west"
+          ],
+          [
+            12673,
+            "fissure"
+          ],
+          [
+            12674,
+            "steps"
+          ],
+          [
+            12675,
+            "northeast"
+          ],
+          [
+            12729,
+            "southeast"
+          ],
+          [
+            12676,
+            "up"
+          ]
+        ],
+        "hands_free_in": [
+          12662,
+          20786
+        ]
+      },
+      "cost": 45.0
+    },
+    {
+      "to": 20786,
+      "kind": "scripted",
+      "routine": {
+        "name": "signposts",
+        "verb": "swim",
+        "dirs": [
+          [
+            12677,
+            "down"
+          ],
+          [
+            12662,
+            "whirlpool"
+          ],
+          [
+            12987,
+            "south"
+          ],
+          [
+            12663,
+            "south"
+          ],
+          [
+            12988,
+            "southeast"
+          ],
+          [
+            12664,
+            "south"
+          ],
+          [
+            12726,
+            "east"
+          ],
+          [
+            12665,
+            "south"
+          ],
+          [
+            12666,
+            "south"
+          ],
+          [
+            12667,
+            "south"
+          ],
+          [
+            12989,
+            "southeast"
+          ],
+          [
+            12991,
+            "southwest"
+          ],
+          [
+            12668,
+            "northeast"
+          ],
+          [
+            12727,
+            "west"
+          ],
+          [
+            12990,
+            "east"
+          ],
+          [
+            12669,
+            "southeast"
+          ],
+          [
+            12670,
+            "north"
+          ],
+          [
+            12728,
+            "south"
+          ],
+          [
+            12671,
+            "southeast"
+          ],
+          [
+            12672,
+            "west"
+          ],
+          [
+            12673,
+            "fissure"
+          ],
+          [
+            12674,
+            "steps"
+          ],
+          [
+            12675,
+            "northwest"
+          ],
+          [
+            12729,
+            "up"
+          ],
+          [
+            12676,
+            "southwest"
+          ]
+        ],
+        "hands_free_in": [
+          12662,
+          12677
+        ]
+      },
+      "cost": 45.0
+    }
+  ]
+}

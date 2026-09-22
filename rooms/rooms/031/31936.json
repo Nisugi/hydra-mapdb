@@ -1,0 +1,39 @@
+{
+  "id": 31936,
+  "uid": [
+    8084620
+  ],
+  "title": [
+    "[Rack 'Em Up, Lounge]"
+  ],
+  "description": [
+    "Layers of tanned animal hide cover all the walls and windows of this building.  The rooms are sectioned off by elk horn arches held up by whitewashed wooden beams that are covered with bloodstains.  At the center peak of the room dangles a chandelier of skulls that are decorated with a mix of horns and candles, the wax coating everything and dripping down onto a table below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31935,
+      "kind": "go",
+      "cmd": "go hide-lined door",
+      "cost": 0.2
+    },
+    {
+      "to": 31964,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31965,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

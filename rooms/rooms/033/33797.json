@@ -1,0 +1,46 @@
+{
+  "id": 33797,
+  "uid": [
+    170956
+  ],
+  "title": [
+    "[The Ember Vale, Fennel Road]"
+  ],
+  "description": [
+    "Running east and west, the path is weathered and, in some places, uneven.  Large stone structures dominate the edges of the road, some with rock or thatched roofs.  Wooden booths and stalls are set about, many unattended but filled with various fruits or dried meats."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      736,
+      356,
+      750,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 33795,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33798,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33804,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

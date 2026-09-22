@@ -1,0 +1,49 @@
+{
+  "id": 12678,
+  "uid": [
+    3031045
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A pair of bronze fire bowls rests near the base of the wall, one toppled and both beyond repair.  Streams of water form puddles that flow silently down to the depths below."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      743,
+      776,
+      779,
+      812
+    ]
+  },
+  "exits": [
+    {
+      "to": 12677,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 12679,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12688,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

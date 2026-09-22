@@ -1,0 +1,72 @@
+{
+  "id": 30582,
+  "uid": [
+    312201
+  ],
+  "title": [
+    "[Darkness]"
+  ],
+  "description": [
+    ""
+  ],
+  "paths": [
+    ""
+  ],
+  "location_unknowable": true,
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 30581,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "staircase"
+            ]
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "move": "go staircase"
+        }
+      ],
+      "cost": 12.0
+    },
+    {
+      "to": 30583,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "curtain"
+            ]
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "move": "go curtain"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

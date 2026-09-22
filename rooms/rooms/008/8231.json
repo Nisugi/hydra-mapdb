@@ -1,0 +1,44 @@
+{
+  "id": 8231,
+  "uid": [
+    390014
+  ],
+  "title": [
+    "[Wolves' Den, Well]"
+  ],
+  "description": [
+    "The ancient well in the center of the room is filled with water.  It bubbles up from below, clear and cold.  The walls are lined with finely carved stone benches, and a passage leads off northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      247,
+      337,
+      257,
+      347
+    ]
+  },
+  "exits": [
+    {
+      "to": 8230,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8232,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

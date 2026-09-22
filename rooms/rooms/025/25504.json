@@ -1,0 +1,40 @@
+{
+  "id": 25504,
+  "uid": [
+    12101007
+  ],
+  "title": [
+    "[The Firebird, Main Deck]"
+  ],
+  "description": [
+    "Daylight filters in through an ornate red bronze hatch in the ceiling, the ostentatious bronzework at odds with the simple, elegant care that has gone in to the stone-colored wood of the deck and paneled walls.  A spiraling stairway ascends up toward light and open sky.  Faint metallic whistling echoes down through the aperture, muted by distance so that it almost sounds like the music of woodwinds."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 24410,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25505,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 25506,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

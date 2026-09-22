@@ -1,0 +1,47 @@
+{
+  "id": 19655,
+  "uid": [
+    10019
+  ],
+  "title": [
+    "[Cavernhold, Guard Post]"
+  ],
+  "description": [
+    "This narrow ledge lies between a deep chasm to the west and a high wall that blocks further passage to the east.  Spanning the chasm is a narrow suspension bridge."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1050,
+      1191,
+      1057,
+      1200
+    ]
+  },
+  "exits": [
+    {
+      "to": 19654,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 19656,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

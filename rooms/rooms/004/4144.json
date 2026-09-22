@@ -1,0 +1,44 @@
+{
+  "id": 4144,
+  "uid": [
+    2138001
+  ],
+  "title": [
+    "[Hall of the Dead, Tunnel]"
+  ],
+  "description": [
+    "As you enter into the tunnel you feel the cold wind of death chill you to the bone.  You know this is where many a dead adventurer lies to rest.  You shudder with the revulsion of such a fate befalling you.  The flickering torch in the wall mount does little more than bring the shadows to life."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      644,
+      760,
+      654,
+      770
+    ]
+  },
+  "exits": [
+    {
+      "to": 4143,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    },
+    {
+      "to": 4145,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

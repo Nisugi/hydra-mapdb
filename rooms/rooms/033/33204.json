@@ -1,0 +1,35 @@
+{
+  "id": 33204,
+  "uid": [
+    4043941
+  ],
+  "title": [
+    "[Winterberry Room, Cubbyhole]"
+  ],
+  "description": [
+    "The small room ends in a dark leather curtain, which is drawn shut.  Remnants of old advertising slogans are painted onto the curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:rone_academy:entrance_locker",
+    "locker annex:Rone Academy"
+  ],
+  "exits": [
+    {
+      "to": 33203,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 36085,
+      "kind": "go",
+      "cmd": "go leather curtain",
+      "cost": 0.2
+    }
+  ]
+}

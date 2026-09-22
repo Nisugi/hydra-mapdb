@@ -1,0 +1,36 @@
+{
+  "id": 22005,
+  "title": [
+    "[Talador Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "The tunnel descends sharply, the depths of the underground cavern blanketing the area in darkness.  Tiny claw marks move in all directions through the dirt."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      669,
+      560,
+      683,
+      573
+    ]
+  },
+  "exits": [
+    {
+      "to": 21942,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 22006,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

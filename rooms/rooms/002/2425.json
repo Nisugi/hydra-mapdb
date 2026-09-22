@@ -1,0 +1,78 @@
+{
+  "id": 2425,
+  "uid": [
+    4043853
+  ],
+  "title": [
+    "[Blackfinger's Locks]"
+  ],
+  "description": [
+    "The walls of this small room are lined with small, gold-framed cases holding some of Blackfinger's finer wares.  Ranging from diamond-encrusted lockpicks to the simplest pick, the cases glow in the warm candlelight.  A low oak workstand lines one wall of the room, on which Blackfinger cheerfully works his talents."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "locksmith",
+    "locksmith shop",
+    "no forageables",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      671,
+      912,
+      707,
+      948
+    ]
+  },
+  "exits": [
+    {
+      "to": 2424,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

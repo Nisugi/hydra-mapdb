@@ -1,0 +1,52 @@
+{
+  "id": 16191,
+  "uid": [
+    216019
+  ],
+  "title": [
+    "[Beacon Hall, Water Lagoon]"
+  ],
+  "description": [
+    "The hole from which the waterfall emerges is far, far above.  Providing the only source of outside light, the opening frames the noble head of the immense stone dragon that is barely visible above.  The dragon's scaled body glistens under the fine mist from the waterfall, and its majestic wings stretch out against the walls of this cavern.  The large, powerful legs of the creature disappear beneath the rippled surface of the lagoon."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive",
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      131,
+      364,
+      177,
+      409
+    ]
+  },
+  "exits": [
+    {
+      "to": 16192,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crevice"
+        }
+      ],
+      "cost": 1.6
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": 8754,
+  "uid": [
+    210001
+  ],
+  "title": [
+    "[House Sovyn, Courtyard]"
+  ],
+  "description": [
+    "Fragrant herbs and flowers grow under fruit trees around a small hillock where empaths and clerics see to those in need.  A fountain rests in the middle of the hillock where a crystal wind chime sways in the wind, hanging from a willow tree.  A large house, ordained with silver spires and twined ivy, is accented by a crystal tower on one side.  Double doors carved in rich pinewood give entrance to the house."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "aubergine hellebore",
+    "ayana leaf",
+    "bay leaf",
+    "black peppercorn",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "branch of kerria",
+    "brown potato",
+    "brown-skinned kiwi",
+    "cactacae spine",
+    "calamia fruit",
+    "cardamom",
+    "cherry peppers",
+    "chives",
+    "creamy white wisteria",
+    "cumin seeds",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark blue wisteria",
+    "deep orange sirensong",
+    "deep purple wisteria",
+    "dill",
+    "Elanthian snow rose",
+    "fennel bulb",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh cilantro",
+    "fresh oregano",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "ginger root",
+    "golden buttercup",
+    "green beans",
+    "green cabbage",
+    "green tomato",
+    "haphip root",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hot pepper",
+    "house sovyn",
+    "Imaera's Lace",
+    "iris blossom",
+    "large white gardenia",
+    "leek",
+    "lemon balm",
+    "lemon verbena",
+    "lettuce",
+    "luckbloom blossom",
+    "motherwort",
+    "nightbloom blossom",
+    "node",
+    "nutmeg",
+    "onion skin",
+    "orange tomato",
+    "orris root",
+    "pale rose pink wisteria",
+    "pale yellow daffodil",
+    "pea pods",
+    "peppermint leaves",
+    "pink oleander",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple cabbage",
+    "purple crocus",
+    "purple datura blossom",
+    "purple potato",
+    "purple-tipped artichoke",
+    "rainbow chard",
+    "raspberries",
+    "red oleander",
+    "red onion",
+    "red tomato",
+    "rhubarb",
+    "rose-marrow root",
+    "round red radish",
+    "round yuzu",
+    "safflower seeds",
+    "sanguine blood rose",
+    "scallions",
+    "shallot",
+    "silver bay rose",
+    "small apple",
+    "small carnation",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small pumpkin",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "snapdragon stalk",
+    "soft mushroom",
+    "sovyn",
+    "sovyn clove",
+    "spearmint leaf",
+    "sprig of bleeding-heart",
+    "sprig of holly",
+    "sprig of jasmine",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "stalk of celery",
+    "star anise",
+    "stem of freesia flowers",
+    "striped tomato",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sunflower seeds",
+    "supernode",
+    "sweet onion",
+    "tangerine butterflyweed",
+    "thistle seeds",
+    "tiger lily",
+    "tobacco leaves",
+    "trollear mushroom",
+    "urchin-access",
+    "vanilla bean",
+    "wavepetal blossom",
+    "white datura blossom",
+    "white lily",
+    "white oleander",
+    "wild pansy blossom",
+    "wild spinach",
+    "withered mushroom",
+    "yellow carrot",
+    "yellow datura blossom",
+    "yellow lemon",
+    "yellow squash",
+    "yellow tomato",
+    "yew twig",
+    "zucchini"
+  ],
+  "meta": [
+    "noteleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      681,
+      1016,
+      717,
+      1050
+    ]
+  },
+  "exits": [
+    {
+      "to": 258,
+      "kind": "go",
+      "cmd": "go crystal walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 14616,
+      "kind": "go",
+      "cmd": "go crystal path",
+      "cost": 0.2
+    },
+    {
+      "to": 20788,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20794,
+      "kind": "go",
+      "cmd": "go narrow footpath",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

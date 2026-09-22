@@ -1,0 +1,47 @@
+{
+  "id": 8862,
+  "uid": [
+    4046
+  ],
+  "title": [
+    "[Local Warehouse, Dry Storage]"
+  ],
+  "description": [
+    "The wooden floor groans in protest at your weight.  Sacks of wheat, rye, and other grains are stacked high against one wall.  You notice ants marching in the cracks between the floorboards."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 272,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 8863,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8864,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8865,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    }
+  ]
+}

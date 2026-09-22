@@ -1,0 +1,44 @@
+{
+  "id": 17213,
+  "uid": [
+    256666
+  ],
+  "title": [
+    "[Warrior Guild, Basement]"
+  ],
+  "description": [
+    "A lone sconce sheds minimal light about the chamber.  The room appears mostly bare, though in the darkness, it is difficult to discern much of anything.  Curious, zapping noises emanate from a tank on a not-too-distant corner, followed closely by flashes of light.  A small set of shelves resides near the stairwell leading upward and out of the darkness."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild dark attendant"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      720,
+      572,
+      745,
+      600
+    ]
+  },
+  "exits": [
+    {
+      "to": 17212,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17214,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

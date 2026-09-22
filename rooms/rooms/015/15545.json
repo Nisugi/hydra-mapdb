@@ -1,0 +1,50 @@
+{
+  "id": 15545,
+  "uid": [
+    217004
+  ],
+  "title": [
+    "[Rone Academy, Alumni Hall]"
+  ],
+  "description": [
+    "The sound of footsteps echoes off the stone floor of the main thoroughfare of the Academy, mixing with the soft voices of passing students.  Portraits of graduates crowd the walls beneath the vaulted ceilings.  A studious white-robed novice stands out from those passing as he stands before an intricately carved arch to the west."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Rone Academy",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-rone_academy-1619899949.png",
+    "rect": [
+      785,
+      265,
+      810,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 14621,
+      "kind": "go",
+      "cmd": "go dreamstone doors",
+      "cost": 0.2
+    },
+    {
+      "to": 15546,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24407,
+      "kind": "go",
+      "cmd": "go carved arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 117,
+  "uid": [
+    13300025
+  ],
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "An astonishingly beautiful relief carving covers the entire eastern wall.  Though stained by leaching minerals and the occasional passing bat, there is no mistaking the passion and skill which brought this artwork into being."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      583,
+      737,
+      593,
+      747
+    ]
+  },
+  "exits": [
+    {
+      "to": 116,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 118,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16751,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "rub carving"
+        },
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 11105,
+  "uid": [
+    26028
+  ],
+  "title": [
+    "[Krol Ship, Hold, Casks]"
+  ],
+  "description": [
+    "You find yourself precariously balanced atop a stack of several large casks, but well within reach of the cargo grate above you."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3967,
+      1589,
+      3989,
+      1612
+    ]
+  },
+  "exits": [
+    {
+      "to": 11090,
+      "kind": "climb",
+      "cmd": "climb grate",
+      "cost": 0.2
+    },
+    {
+      "to": 11106,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

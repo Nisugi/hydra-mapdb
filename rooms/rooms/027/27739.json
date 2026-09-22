@@ -1,0 +1,58 @@
+{
+  "id": 27739,
+  "uid": [
+    4050124
+  ],
+  "title": [
+    "[West Barbican, South Tower]"
+  ],
+  "description": [
+    "The stairs come to an end in this upper room, where a rough construction of planks and reinforced wood forms a small platform giving access to slitted windows in the walls.  A stunted little barrel stands between the gaps of the numerous slitted windows that encircle the area.  One wider window looks down upon the western wall of Icemule Trace, and a knotted rope is tied to a grommet securely fastened to its stony ledge."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      219,
+      573,
+      254,
+      604
+    ]
+  },
+  "exits": [
+    {
+      "to": 27738,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27740,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

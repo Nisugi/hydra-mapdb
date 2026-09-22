@@ -1,0 +1,56 @@
+{
+  "id": 30048,
+  "uid": [
+    7503479
+  ],
+  "title": [
+    "[Angargreft, Burrow]"
+  ],
+  "description": [
+    "Infestation has induced a terrible transformation in the wide hall, which looks to have been some sort of treasury.  The double doors are missing entirely and the aperture they guarded has corroded into a ragged acid-pocked gash.  Strings of ichorous gunk hang from the ceiling, dripping unsavory substances that smell vaguely of lizard.  The tang of it chokes the space."
+  ],
+  "paths": [
+    "Obvious exits: south, west, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      822,
+      227,
+      837,
+      242
+    ]
+  },
+  "exits": [
+    {
+      "to": 30047,
+      "kind": "go",
+      "cmd": "go gash",
+      "cost": 0.2
+    },
+    {
+      "to": 30060,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30064,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30068,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

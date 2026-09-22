@@ -1,0 +1,56 @@
+{
+  "id": 7964,
+  "uid": [
+    2148040
+  ],
+  "title": [
+    "[Burrows, Excavation]"
+  ],
+  "description": [
+    "Signs of fresh digging are evident here.  A few tools lie in the dirt, as well as large chunks of rock taken from the face of the wall.  The main focus of the excavation seems to be a small fissure in the rock, just large enough for you to slide through if you exhale completely."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Melgorehn's Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      683,
+      539,
+      693,
+      549
+    ]
+  },
+  "exits": [
+    {
+      "to": 7963,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7965,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

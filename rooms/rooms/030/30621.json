@@ -1,0 +1,49 @@
+{
+  "id": 30621,
+  "uid": [
+    850003
+  ],
+  "title": [
+    "[Kraken's Fall Hall, Corridor]"
+  ],
+  "description": [
+    "Wooden panels generously covered in whitewash line the walls of the curved hallway.  Protecting the corridor is a railing of thick cast iron chain links that thread through carved oak supports.  A smooth driftwood door carved with a leaping dolphin is set into the wall near a spiral ascending staircase.  Imbedded with bits of sea glass, a stone archway leads into a shadowed chamber."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30620,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30622,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30623,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30624,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30630,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

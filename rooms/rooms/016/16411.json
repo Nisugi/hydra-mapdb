@@ -1,0 +1,88 @@
+{
+  "id": 16411,
+  "uid": [
+    3209318
+  ],
+  "title": [
+    "[Firefly Villa, Front Desk]"
+  ],
+  "description": [
+    "Polished paneling reflects the light the candles that are housed within wrought iron wall scones, their warm glow providing ample illumination throughout the small lobby.  Tall and wide, an alcove recessed into the northern wall housing a plethora of cubbies is guarded by a circular teak and cedar desk, while a set of spiraling stairs leads to the second level."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "inn",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1400,
+      2400,
+      1421,
+      2421
+    ]
+  },
+  "exits": [
+    {
+      "to": 12316,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12320,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 16420,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

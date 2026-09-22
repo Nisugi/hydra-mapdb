@@ -1,0 +1,64 @@
+{
+  "id": 31652,
+  "uid": [
+    8083028
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Transitioning from cobbled stones to rough-slatted wooden boardwalks, the road becomes a wide bridgelike structure that traverses the boggy ground in this section of the town.   Perched at the junction of stone and wood, a glittering golden stone-strewn footpath darts between thick bushes and staghorn sumacs.  Hovels and huts rise above the muddy road on stilts, their entrances accessible via twisting ramps."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "no forageables",
+    "seedhead of beebalm",
+    "white willow bark"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      723,
+      435,
+      745,
+      456
+    ]
+  },
+  "exits": [
+    {
+      "to": 31613,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31630,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31653,
+      "kind": "go",
+      "cmd": "go footpath",
+      "cost": 0.2
+    },
+    {
+      "to": 31885,
+      "kind": "go",
+      "cmd": "go dusky house",
+      "cost": 0.2
+    },
+    {
+      "to": 31902,
+      "kind": "go",
+      "cmd": "go tile-roofed hovel",
+      "cost": 0.2
+    }
+  ]
+}

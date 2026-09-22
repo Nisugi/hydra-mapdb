@@ -1,0 +1,68 @@
+{
+  "id": 11707,
+  "uid": [
+    376023
+  ],
+  "title": [
+    "[Marsh Keep, East Wall]"
+  ],
+  "description": [
+    "Ending abruptly to the south, the wall continues to the north toward the end of the eastern side of the fortification.  The narrow pathway continues along the same basic direction, skirting away from the wall where the earth has given way to a gaping hole in the ground.  Footprints, none of them from the civilized races, lead in and out of the hole and down into the nearby fens."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, damp",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "angelica root",
+    "bright red cranberry",
+    "cuctucae berry",
+    "golden flax fronds",
+    "ironfern root",
+    "mistweed",
+    "murdroot",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      1135,
+      586,
+      1145,
+      596
+    ]
+  },
+  "exits": [
+    {
+      "to": 11706,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11708,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11743,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

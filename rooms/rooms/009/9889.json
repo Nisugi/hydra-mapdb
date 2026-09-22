@@ -1,0 +1,152 @@
+{
+  "id": 9889,
+  "uid": [
+    219006
+  ],
+  "title": [
+    "[Linden Grove, Path]"
+  ],
+  "description": [
+    "Next to the path, a filigree of lichens cover the shoulders of a grouping of three boulders huddled like ancient old trolls squatting over a game of knucklebones.  Birds chatter and dart through the linden boughs overhead, the leafy half-light of the thick canopy offering them almost constant concealment.  The grove wears its scent of rich, moist earth and leafy compost like a rare perfume, alternately strong and subtle depending on the whim of the breeze.",
+    "Next to the path, a filigree of lichens cover the shoulders of a grouping of three boulders huddled like ancient old trolls squatting over a game of knucklebones.  A nightingale, hidden within the linden boughs overhead, periodically sings its call to the moonlight.  The grove wears its scent of rich, moist earth and leafy compost like a rare perfume, alternately strong and subtle depending on the whim of the breeze."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the dark woods",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "haphip root",
+    "lady slipper blossom",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "no-auto-map",
+    "oak twig",
+    "oxblood lily",
+    "pink rain lily",
+    "silver-edged fern",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "some acantha leaf",
+    "some murkweed",
+    "some torban leaf",
+    "some tree bark",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "stick",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "wolfsbane root",
+    "wood violet",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-sapphire-1658723758.png",
+    "rect": [
+      1018,
+      193,
+      1028,
+      203
+    ]
+  },
+  "exits": [
+    {
+      "to": 9886,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9888,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9890,
+      "kind": "go",
+      "cmd": "go grove",
+      "cost": 0.2
+    },
+    {
+      "to": 13183,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16956,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16957,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 18803,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

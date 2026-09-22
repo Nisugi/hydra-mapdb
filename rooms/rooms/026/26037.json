@@ -1,0 +1,36 @@
+{
+  "id": 26037,
+  "title": [
+    "[The Falcon, Amidships]"
+  ],
+  "description": [
+    "The golvern-edged propellers of the ship glow silver in the moonlight, casting a wavering blur of reflected radiance over the smooth-worn and polished planes of wood below.  Fanciful tracery forms golden vines that twine up the trio of cylindrical supports leading to the whirring blades.  A dark teak hatch fastened with a black iron ring lies to starboard.  Unmarked crates and wooden barrels have been stacked high and lashed down near the railings."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "The Falcon, inside the seaside town of Solhaven",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 26036,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26038,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 26039,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

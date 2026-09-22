@@ -1,0 +1,43 @@
+{
+  "id": 21967,
+  "title": [
+    "[Talador Mines, Dwarven Den]"
+  ],
+  "description": [
+    "Stout dwarven skeletons lie half-buried under collapsed rubble.  An icy wind rushes through the blackness of the rocky ledge."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      900,
+      295,
+      914,
+      309
+    ]
+  },
+  "exits": [
+    {
+      "to": 21959,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 21966,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

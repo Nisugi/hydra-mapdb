@@ -1,0 +1,82 @@
+{
+  "id": 24853,
+  "uid": [
+    4031029
+  ],
+  "title": [
+    "[Krolvin Warship, Brig]"
+  ],
+  "description": [
+    "Grimy copper-banded barrels, dented and scarred from misuse, stand to the side of a series of iron-barred cells.  Each barrel is filled to overflowing with tattered and rotting garments, most of which are so faded that it is hard to discern their original hues.  One barrel lies on its side, pinned between a cell wall and another container, its contents spilled in a heap across the stained decking."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west, northwest"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      632,
+      401,
+      649,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 18249,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18700,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18703,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put_until": {
+            "command": "batter door",
+            "until": [
+              "destroyed",
+              "ineffective"
+            ]
+          },
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18706,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18707,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18708,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

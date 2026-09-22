@@ -1,0 +1,83 @@
+{
+  "id": 32885,
+  "uid": [
+    7140012
+  ],
+  "title": [
+    "[Brisker's Cove, Drayhyme Way]"
+  ],
+  "description": [
+    "Canting to one side, a nondescript wooden shop is huddled amongst the backs of buildings at the western edge of a wide, cobblestoned thoroughfare while opposite green-grey ocotillo rise like dead sticks from the runnels near Old Ward Wall, their thin forms pale green and riddled with thorns.  The lights of Comyner's Market spill across the street, illuminating the dark section of road."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Seareach",
+  "climate": "arid, temperate",
+  "terrain": "sandy",
+  "tags": [
+    "blue and white lantana",
+    "coppery red gaura",
+    "creeping fig vine",
+    "date palm fronds",
+    "fountain grass",
+    "green and red lantana",
+    "ocotillo stick",
+    "pink and blue lantana",
+    "pink muhly grass",
+    "russet gaura",
+    "rust orange gaura",
+    "yellow and red lantana"
+  ],
+  "meta": [
+    "fwi:teleport"
+  ],
+  "image": {
+    "file": "osa-briskers_cove-1693936381.png",
+    "rect": [
+      507,
+      232,
+      521,
+      245
+    ]
+  },
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 32877,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32884,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32889,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32940,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

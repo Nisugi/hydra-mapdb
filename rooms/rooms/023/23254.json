@@ -1,0 +1,45 @@
+{
+  "id": 23254,
+  "title": [
+    "[Onoir, Paladin's Pub]"
+  ],
+  "description": [
+    "Muted lighting from small barred windows inside the tavern adds ambience and illumination to the bottles stored behind a brass-trimmed felwood bar and a triple-tiered brass serving cart that sits nearby in one corner.  Waitresses pass sets of plush high-backed chairs placed around small round tables scattered throughout the room, as they carry trays of food and drinks back and forth through the teakwood swinging doors that lead to the kitchen."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Coastal Cliffs",
+  "meta": [
+    "mho:House Onoir"
+  ],
+  "image": {
+    "file": "wl-House_Onoir-1439662135.png",
+    "rect": [
+      567,
+      325,
+      652,
+      409
+    ]
+  },
+  "exits": [
+    {
+      "to": 15995,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 23248,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23253,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

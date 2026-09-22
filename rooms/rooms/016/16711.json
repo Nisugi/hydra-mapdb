@@ -1,0 +1,39 @@
+{
+  "id": 16711,
+  "uid": [
+    -570008
+  ],
+  "title": [
+    "[Warcamp, Outside]"
+  ],
+  "description": [
+    "The makeshift wall of broken limbs and trees that surrounds the warcamp cuts in and around a large supply hut set farther away from the main encampment.  Several barrels rest outside the hut's entrance and a large crate lies broken nearby, its contents spilling out onto the ground.  A shallow, filthy ditch running alongside the path leading up to the hunt smells like a pitiful attempt at a latrine and serves as the breeding ground for yellow-stained, writhing maggots."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Warcamp",
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      361,
+      205,
+      397,
+      241
+    ]
+  },
+  "exits": [
+    {
+      "to": 16709,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16712,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    }
+  ]
+}

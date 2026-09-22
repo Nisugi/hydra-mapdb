@@ -1,0 +1,94 @@
+{
+  "id": 1481,
+  "uid": [
+    4209057
+  ],
+  "title": [
+    "[Solhaven, Liabo Plaza]"
+  ],
+  "description": [
+    "Easily as large as the entire North Market, the plaza is paved with a spiral pattern of alternating terra-cotta and golden-yellow bricks.  On the eastern edge of the plaza stands an ornate, white limestone arch, and beyond it the brick-paved avenue stretches toward Vornavis' towering west wall.  A steady mix of merchants, artisans, and clerics pass through the arch in both directions.",
+    "Easily as large as the entire North Market, the plaza is paved with a spiral pattern of alternating terra-cotta and golden-yellow bricks.  On the eastern edge of the plaza stands an ornate, pale limestone arch, and beyond it the brick-paved avenue stretches toward Vornavis' towering west wall.  A steady mix of merchants, artisans, and clerics pass through the arch in both directions."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:copper-banded green oak barrel"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      759,
+      765,
+      783,
+      789
+    ]
+  },
+  "exits": [
+    {
+      "to": 1477,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1482,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1602,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

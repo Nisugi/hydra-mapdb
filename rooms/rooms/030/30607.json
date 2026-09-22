@@ -1,0 +1,36 @@
+{
+  "id": 30607,
+  "uid": [
+    7121222
+  ],
+  "title": [
+    "[House Annex, Silvergate Inn]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted verdant green and dominated by a rampant argent lion, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush grass green carpeting dappled with silver threads lends the otherwise austere space a coziness that is enhanced by the presence of a straw yellow crushed velvet settee.  A lacquered white door leads to the hallway, while a silver-edged verdant green curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "che:silvergate_inn:entrance_locker",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 3396,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 30608,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

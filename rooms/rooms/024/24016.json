@@ -1,0 +1,45 @@
+{
+  "id": 24016,
+  "title": [
+    "[Coliseum, Lower Nexus]"
+  ],
+  "description": [
+    "The bottom of a steeply angled limestone passage terminates in the northern wall of the large, elliptical chamber.  Polished brass sconces are evenly spaced around the room, casting their flickering light across the smooth stone floor.  Rough stone benches have been hewn into the walls between four hallways that lead deeper under the coliseum."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "exits": [
+    {
+      "to": 24015,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 24027,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24029,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24032,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24034,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 30047,
+  "uid": [
+    7503478
+  ],
+  "title": [
+    "[Angargreft, Hanging Gardens]"
+  ],
+  "description": [
+    "What remains of a pair of enormous stone doors lies in pitted wreckage to either side of a ragged acid-pocked gash leading deeper into the cyclopean mausoleum.  The ruddy stone of the floor is etched deep with smooth gullies formed by the same corrosive substance.  Over the doorway, a graven bar features a spray of ominous-looking runes."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      860,
+      227,
+      876,
+      243
+    ]
+  },
+  "exits": [
+    {
+      "to": 30046,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30048,
+      "kind": "go",
+      "cmd": "go gash",
+      "cost": 0.2
+    }
+  ]
+}

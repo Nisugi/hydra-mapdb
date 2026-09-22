@@ -1,0 +1,57 @@
+{
+  "id": 32604,
+  "uid": [
+    336413
+  ],
+  "title": [
+    "[Landing Bazaar, Baystone Byway]"
+  ],
+  "description": [
+    "A slender wooden post rises amidst some flowerbeds, hoisting a banner depicting an emblem of a red lion, its cloth crisp and wrinkle free.  Multi-colored canopies decorate the edges of the road, each boutique boasting different goods to sell.  Inside each tent, merchants peddle their wares, a mixture of boisterous exchanges echoing throughout the street.  The mixed aroma of smoked meats drifts out from the open window of a nearby brick-lined shop."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-bazaar-1671674653.png",
+    "rect": [
+      221,
+      285,
+      272,
+      334
+    ]
+  },
+  "exits": [
+    {
+      "to": 32602,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32603,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32605,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32610,
+      "kind": "go",
+      "cmd": "go black shop",
+      "cost": 0.2
+    }
+  ]
+}

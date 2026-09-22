@@ -1,0 +1,76 @@
+{
+  "id": 3222,
+  "uid": [
+    4127500
+  ],
+  "title": [
+    "[Icemule Trace, West Gate]"
+  ],
+  "description": [
+    "The wind whistles around you as it passes along this side of the town walls.  The road leading up to the gate itself is merely a dirt path but you notice it has seen some extensive use.  A huge snowbank is off to one side from all the snow being removed in front of the gates.  Just to the south of the gate is a stout building with a large sign over the door that reads \"The Icehouse Tavern\"."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Ice Plains",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "frostflower",
+    "frostweed",
+    "ironfern root",
+    "murdroot",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "pine twig",
+    "sassafras leaf",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      255,
+      631,
+      265,
+      641
+    ]
+  },
+  "exits": [
+    {
+      "to": 3069,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3221,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3228,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 3229,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 3235,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

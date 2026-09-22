@@ -1,0 +1,57 @@
+{
+  "id": 7705,
+  "uid": [
+    7121205
+  ],
+  "title": [
+    "[Inking Den, Annex Hallway]"
+  ],
+  "description": [
+    "Frosted globes nestled within decorative wall sconces provide a steady glow of welcoming light down the long corridor.  The walls are hidden behind bright ivory white silk drapery, the soft ends of which pool upon the thick cerulean and azure carpet.  Built into opposing walls, a lacquered white door and a lacquered beige door part the drapery and have a trio of brightly glowing globes directly above their pointed, cinquefoil frames."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "peer door =~ /House Sylvanfair|House Sovyn/"
+  ],
+  "image": {
+    "file": "kf-inking_den-1615857364.png",
+    "rect": [
+      659,
+      365,
+      687,
+      389
+    ]
+  },
+  "exits": [
+    {
+      "to": 3396,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26923,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33031,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 33034,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    }
+  ]
+}

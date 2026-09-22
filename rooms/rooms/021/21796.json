@@ -1,0 +1,39 @@
+{
+  "id": 21796,
+  "title": [
+    "[Talador, North Trail]"
+  ],
+  "description": [
+    "The northern trail to Talador is wide but cluttered with wagons stopped along each side of the road.  Many have opened up temporary shop, hawking wares to other travelers as they move by, while a number of them are being thoroughly inspected by city guards."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Talador",
+  "tags": [
+    "peer north =~ /^Obvious paths: south/"
+  ],
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      240,
+      296,
+      253,
+      308
+    ]
+  },
+  "exits": [
+    {
+      "to": 21856,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21985,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

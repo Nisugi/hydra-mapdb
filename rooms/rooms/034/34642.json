@@ -1,0 +1,46 @@
+{
+  "id": 34642,
+  "uid": [
+    4572007
+  ],
+  "title": [
+    "[Sablecross, Thresher Street]"
+  ],
+  "description": [
+    "Chatter drifts down from the high balconies of brick buildings to both sides of the lane, the dark shapes of which leave only a narrow strip of daylight overhead.  Sunlight glows tenuously off of horse-drawn stagecoaches that rattle over the cobblestone street, but the sparse pedestrian traffic along the road's edges are consigned to shadow.  The windows of the businesses above a barrister's office are dark and the chambers beyond them shrouded by curtains in lurid reds and other bright, jeweled hues."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      674,
+      432,
+      717,
+      466
+    ]
+  },
+  "exits": [
+    {
+      "to": 34626,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34641,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34646,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    }
+  ]
+}

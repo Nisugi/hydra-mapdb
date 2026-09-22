@@ -1,0 +1,50 @@
+{
+  "id": 27036,
+  "uid": [
+    3210487
+  ],
+  "title": [
+    "[Mooring Dock, Walkway]"
+  ],
+  "description": [
+    "The coastline of the island is still visible from this point on the dock despite the murky shadows that night brings to the island, its white sands greeting the steps jutting forth from the walkway further north.  Flickering lanterns cast light upon the planks of the dock as well as the post-tied boats bobbing slowly in the ocean's current."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "FWI_Western_Waterways.png",
+    "rect": [
+      1844,
+      4717,
+      1876,
+      4747
+    ]
+  },
+  "exits": [
+    {
+      "to": 18315,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27037,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27039,
+      "kind": "go",
+      "cmd": "go boat",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 23688,
+  "uid": [
+    255039
+  ],
+  "title": [
+    "[Tanglevine Hall, Dining Hall]"
+  ],
+  "description": [
+    "Twin tables run the length of the room parallel to each other, long wooden benches on the plank floor to either side of them.  Standing as host, a suit of black iron armor is positioned near the short hallway leading to the entry.  A large stone fireplace dominates the northern wall, a basket of sticks to one side and an archway to the other"
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor",
+    "warrior guild floor",
+    "warrior guild snacks"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      302,
+      447,
+      325,
+      470
+    ]
+  },
+  "exits": [
+    {
+      "to": 23663,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23689,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

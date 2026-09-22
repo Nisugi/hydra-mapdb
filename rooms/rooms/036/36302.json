@@ -1,0 +1,80 @@
+{
+  "id": 36302,
+  "uid": [
+    777308
+  ],
+  "title": [
+    "[Albatross, Gambler's Rest]"
+  ],
+  "description": [
+    "The casino floor begins here and branches off in all directions.  Rosewood and mahogany doors are barely visible along the tapestry-covered walls, which are lined with some dark leather couches and serving trays.  In the center of the room is an elaborately carved mistwood staircase that climbs up to the next level of the riverboat, and a silver-inlaid mahogany archway leads toward the bar, ballroom, and buffet.  A short flight of steps lead down to the cashier."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, west, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "albatross-1342665555.png",
+    "rect": [
+      283,
+      300,
+      300,
+      320
+    ]
+  },
+  "exits": [
+    {
+      "to": 36299,
+      "kind": "go",
+      "cmd": "go mahogany-framed exit",
+      "cost": 0.2
+    },
+    {
+      "to": 36303,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36304,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36305,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36306,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36307,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36318,
+      "kind": "go",
+      "cmd": "go mahogany archway",
+      "cost": 0.2
+    },
+    {
+      "to": 36321,
+      "kind": "go",
+      "cmd": "go carved staircase",
+      "cost": 0.2
+    }
+  ]
+}

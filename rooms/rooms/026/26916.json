@@ -1,0 +1,48 @@
+{
+  "id": 26916,
+  "uid": [
+    104402
+  ],
+  "title": [
+    "[Paupers, Vault]"
+  ],
+  "description": [
+    "This is a secluded alcove toward the rear of the vault.  One of the lockers has been removed for you and rests open on a stone counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "check_location": true,
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "peer opening =~ /^\\[Paupers, Hallway\\]/"
+  ],
+  "meta": [
+    "che:House of Paupers",
+    "che:paupers:locker",
+    "locker",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 7988,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

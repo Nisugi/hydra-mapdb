@@ -1,0 +1,44 @@
+{
+  "id": 31064,
+  "uid": [
+    4132054
+  ],
+  "title": [
+    "[Abbey, Teleportation Chamber]"
+  ],
+  "description": [
+    "Beyond a rose gold and marble arch rests a small chamber with a low, rough ceiling, the floor composed of concentric blocks of stone.  Attended by several robed acolytes, a luminous sliver is suspended at the center of the room.  It crackles occasionally, bathing the surroundings in green and gold light."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      493,
+      641,
+      547,
+      694
+    ]
+  },
+  "exits": [
+    {
+      "to": 29876,
+      "kind": "climb",
+      "cmd": "climb sliver",
+      "cost": 15000.0
+    },
+    {
+      "to": 31063,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": 22580,
+  "title": [
+    "[Good Looks, Studio]"
+  ],
+  "description": [
+    "This end of the rickety pier has been covered with a thick puma fur rug, creating a small seating area for a select group of customers.  Rolled up canvas openings create breezy windows, admitting the sounds of the nearby swamp critters infiltrate the space.  A tilted worktable sits at a slight angle in front of a heavy canvas curtain blocking off the very end of the structure."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 22579,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22581,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

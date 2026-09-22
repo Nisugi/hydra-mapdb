@@ -1,0 +1,47 @@
+{
+  "id": 24417,
+  "uid": [
+    273002
+  ],
+  "title": [
+    "[Ranger Guild, Pavilion]"
+  ],
+  "description": [
+    "Open on all sides to the mild breeze, this tent is large enough to shelter many.  Zephyrs tease the tassels of numerous cushions scattered on the intricately woven rugs which cover smoothly packed earth.  A lectern carved from a tree stump stands at one end of the pavilion, its surface polished to a mellow sheen and engraved with twining vines.  A path leads west to a garden."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr_rangerguild.png",
+    "rect": [
+      222,
+      193,
+      238,
+      209
+    ]
+  },
+  "exits": [
+    {
+      "to": 24416,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24418,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 24421,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

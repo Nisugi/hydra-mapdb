@@ -1,0 +1,69 @@
+{
+  "id": 5612,
+  "uid": [
+    3024
+  ],
+  "title": [
+    "[Locksmith, Backroom]"
+  ],
+  "description": [
+    "The backroom of the locksmith's shop is stark, and lit by a single tallow candle.  A blob of wax secures the candle atop a locked case that provides the only seating in the uncomfortable room.  A tall cabinet secured with a sturdy padlock occupies the far wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "locksmith",
+    "locksmith shop",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4610,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

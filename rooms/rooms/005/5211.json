@@ -1,0 +1,55 @@
+{
+  "id": 5211,
+  "uid": [
+    4202103
+  ],
+  "title": [
+    "[Vornavian Coast, Beach]"
+  ],
+  "description": [
+    "Visible in the moonlight, thousands of small footprints dot the sand here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  A path leads northeast from the beach into a pine woods.",
+    "Thousands of small footprints dot the sands here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  The cries of seagulls can be heard over the crashing waves.  A path leads northeast from the beach into a pine woods."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "yabathilium fruit",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      280,
+      555,
+      290,
+      565
+    ]
+  },
+  "exits": [
+    {
+      "to": 5210,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5212,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5213,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

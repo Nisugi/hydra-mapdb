@@ -1,0 +1,41 @@
+{
+  "id": 14176,
+  "uid": [
+    4742014
+  ],
+  "title": [
+    "[Temple of Lorminstra, Hallway]"
+  ],
+  "description": [
+    "Just southeast of the hallway's bend, a silver velvet curtain fills a doorway in the corridor's southwest wall."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14170,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14177,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 14197,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

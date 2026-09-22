@@ -1,0 +1,54 @@
+{
+  "id": 8224,
+  "uid": [
+    392002
+  ],
+  "title": [
+    "[Sea Caverns, Lower Level]"
+  ],
+  "description": [
+    "The air is still in the circular cavern, smelling faintly of salt water.  A sturdy gate blocks the passage to the northwest, while the southern wall is hidden by a mass of stalagmites.  Piled in front of the stalagmites are three white goblin skulls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the sea caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      330,
+      231,
+      340,
+      241
+    ]
+  },
+  "exits": [
+    {
+      "to": 8221,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 8225,
+      "kind": "go",
+      "cmd": "go stalagmite",
+      "cost": 0.2
+    }
+  ]
+}

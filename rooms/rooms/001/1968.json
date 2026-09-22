@@ -1,0 +1,61 @@
+{
+  "id": 1968,
+  "uid": [
+    682002
+  ],
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "A bright river of flowing lava runs through the middle of the circular chamber, dividing it in two.  A stone bridge spans the channel, connecting the two sides.  Vivid tapestries line the rock walls, their patterns echoed in the highly polished inlaid marble floor.  Despite the searing lava that illuminates the room in a bright reddish glow, the chamber is suprisingly cool.  On this side of the lava there are passages easily accessible to the east and the west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Teras Isle",
+    "mapname:Teras Isle - Wizard Guild",
+    "mapshortname:Wizard Guild (KD)"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      533,
+      533,
+      599,
+      597
+    ]
+  },
+  "exits": [
+    {
+      "to": 1967,
+      "kind": "go",
+      "cmd": "go massive doors",
+      "cost": 0.2
+    },
+    {
+      "to": 1969,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1971,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18073,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

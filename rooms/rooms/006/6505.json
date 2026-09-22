@@ -1,0 +1,54 @@
+{
+  "id": 6505,
+  "uid": [
+    95186
+  ],
+  "title": [
+    "[Monastery, Misty Chamber]"
+  ],
+  "description": [
+    "A damp mist seems to seep from the very walls of this vast chamber casting the walls in an eerie green pallor.  A large round stone stands upright in the center of the room, rotating like a coin that has been stood on edge and spun.  The opening at the center of the stone is pitch black and odd runes are engraved around the edge.  A low steady hum emanates from the stone, and the sound soothes your tired nerves."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "node"
+  ],
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Lysierian Hills",
+    "mapshortname:Lysierian Hills"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      168,
+      1101,
+      178,
+      1111
+    ]
+  },
+  "exits": [
+    {
+      "to": 6504,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 6621,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "read runes"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

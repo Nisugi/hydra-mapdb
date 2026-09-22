@@ -1,0 +1,53 @@
+{
+  "id": 209,
+  "uid": [
+    13100096
+  ],
+  "title": [
+    "[Ta'Illistim, Glimaer Wey]"
+  ],
+  "description": [
+    "Several small warehouses line this section of the wey.  Although less finely detailed than the public buildings and most of the homes, the simple stone structures still boast the city's blue tile roofs.",
+    "Several small warehouses line this section of the wey.  Although less finely detailed than the public buildings and most of the homes, the simple stone structures still boast the city's blue tile roofs.  Moonlight glints across the structures, quiet enveloping the area as the warehouses' owners have shut down for the night.",
+    "Several small warehouses line this section of the wey.  Although less finely detailed than the public buildings and most of the homes, the simple stone structures still boast the city's blue tile roofs.  Moonlight glints across the structures, and quiet envelopes the area as the warehouses' owners have shut down for the night."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      492,
+      653,
+      515,
+      674
+    ]
+  },
+  "exits": [
+    {
+      "to": 170,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 210,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13247,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    }
+  ]
+}

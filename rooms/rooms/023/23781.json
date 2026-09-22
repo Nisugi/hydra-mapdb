@@ -1,0 +1,40 @@
+{
+  "id": 23781,
+  "uid": [
+    8213017
+  ],
+  "title": [
+    "[Duskruin Arena, Descent]"
+  ],
+  "description": [
+    "Sloping downward, smooth stone tunnel ends at an expansive stone archway, the floor lined with black slate tiles.  Iron sconces line either wall, providing uneven lighting to the hall.  The air seems to hang thick with the metallic scent of blood, though a few workers mingle about the area with buckets and mops, keeping the floor clean."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1483,
+      319,
+      1503,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 23779,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23797,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

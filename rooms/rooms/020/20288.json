@@ -1,0 +1,49 @@
+{
+  "id": 20288,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "A half-buried carcass of a large, wild pig protrudes from beneath the leaf litter.  Deep, reptilian, claw-tipped prints leading away, with the drag marks of a heavy tail between them, leave little doubt as to what sealed this porcine's fate.",
+    "A half-buried carcass of a large, wild pig protrudes from beneath the leaf litter.  Deep, reptilian, claw-tipped prints leading away, with the drag marks of a heavy tail between them, leave little doubt as to what sealed this hog's fate."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      917,
+      623,
+      930,
+      635
+    ]
+  },
+  "exits": [
+    {
+      "to": 20275,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20291,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21508,
+      "kind": "go",
+      "cmd": "go wooden wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 21511,
+      "kind": "go",
+      "cmd": "go white wagon",
+      "cost": 0.2
+    }
+  ]
+}

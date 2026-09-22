@@ -1,0 +1,65 @@
+{
+  "id": 6622,
+  "uid": [
+    487002
+  ],
+  "title": [
+    "[The Broken Lands, Central Hall]"
+  ],
+  "description": [
+    "The high ceiling of this large hall is supported by several tall columns.  Discolored areas on the floor indicate that several pieces of furniture or other large items once stood here for a long period of time."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      502,
+      817,
+      512,
+      827
+    ]
+  },
+  "exits": [
+    {
+      "to": 6621,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 6623,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6624,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6625,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6626,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6629,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 6102,
+  "uid": [
+    674017
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "A limestone walkway crosses briefly with a tiny rivulet as it winds its way towards a mist-shrouded stone temple.  Rows of slender limbed trees nearly obscure the high seashell-inset walls that enclose this courtyard.  As the sea breeze propels the leafy foliage into motion, a shady bower reveals a darkened tunnel leading into the earth."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "cleric guild",
+    "clericguild",
+    "stalk of bluebells",
+    "urchin guide clericguild",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Vornavis",
+    "mapname:Vornavis - Cleric Guild",
+    "mapshortname:Cleric Guild (VO)"
+  ],
+  "image": {
+    "file": "vo-cleric_guild-1275418702.png",
+    "rect": [
+      695,
+      201,
+      739,
+      245
+    ]
+  },
+  "exits": [
+    {
+      "to": 1485,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 6105,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 18625,
+      "kind": "go",
+      "cmd": "go temple",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 18627,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

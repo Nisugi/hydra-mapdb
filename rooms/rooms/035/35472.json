@@ -1,0 +1,47 @@
+{
+  "id": 35472,
+  "uid": [
+    4043721
+  ],
+  "title": [
+    "[House Paupers, Great Room]"
+  ],
+  "description": [
+    "Carved from the glacier, the room is given an airy warmth by pine planks covering the floor and curving up the walls to the domed ceiling.  The western wall is dominated by a large fireplace framed by sandstone tiles and flanked by arched openings.  A crystal chandelier reminiscent of icicles hangs above a large oval table adorned with a gold wool runner and surrounded by fur-covered benches and chairs.  Periodic waves of cold air flow from beneath a curtain of caribou hides while some oak doors lead out to the porch."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:paupers:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 35471,
+      "kind": "go",
+      "cmd": "go oak doors",
+      "cost": 0.2
+    },
+    {
+      "to": 35473,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 35474,
+      "kind": "go",
+      "cmd": "go gold tapestry",
+      "cost": 0.2
+    },
+    {
+      "to": 35475,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

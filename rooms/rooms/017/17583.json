@@ -1,0 +1,94 @@
+{
+  "id": 17583,
+  "uid": [
+    3216004
+  ],
+  "title": [
+    "[Western Harbor, Seathrak Way]"
+  ],
+  "description": [
+    "Bejeweled and blinking fireflies drift amongst the various cottages that line the cobblestone street.  Tidy picket fences, each sporting a wrought iron lantern at their gates, separate each home's yard from the other, which causes them to look identical to each other.  The only exception in uniformity is a small store that is built nearest the arch crafted of a seathrak's jawbone."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest",
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1650,
+      1319,
+      1691,
+      1360
+    ]
+  },
+  "exits": [
+    {
+      "to": 17582,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17584,
+      "kind": "go",
+      "cmd": "go store",
+      "cost": 0.2
+    },
+    {
+      "to": 17586,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17587,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

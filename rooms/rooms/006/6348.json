@@ -1,0 +1,50 @@
+{
+  "id": 6348,
+  "uid": [
+    681006
+  ],
+  "title": [
+    "[Wizard Guild, Study Room]"
+  ],
+  "description": [
+    "Dark modwir tables gleam softly in the pale blue light cast by several small crystalline orbs set in the center of the tables.  A quiet thrumming sound is heard every few moments from the dark spheres as they occasionally dim and then glow stronger.  The subtle, rhythmically-shifting illumination provides a peaceful atmosphere for relaxing study."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      213,
+      308,
+      261,
+      355
+    ]
+  },
+  "exits": [
+    {
+      "to": 6331,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6349,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6351,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

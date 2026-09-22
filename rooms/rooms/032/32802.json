@@ -1,0 +1,43 @@
+{
+  "id": 32802,
+  "uid": [
+    5001007
+  ],
+  "title": [
+    "[Timor's Storage, Hallway]"
+  ],
+  "description": [
+    "You are in a dimly lit hallway.  The torches on the walls flicker and fade casting all manner of shadows about the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "public locker",
+    "publiclockers"
+  ],
+  "exits": [
+    {
+      "to": 18011,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 240.0
+    },
+    {
+      "to": 32801,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32803,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

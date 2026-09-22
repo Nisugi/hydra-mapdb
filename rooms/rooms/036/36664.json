@@ -1,0 +1,45 @@
+{
+  "id": 36664,
+  "uid": [
+    8400019
+  ],
+  "title": [
+    "[Nyessem, Ring Loop]"
+  ],
+  "description": [
+    "The tunnel widens here, providing ample space for several rows of people to walk alongside each other.  Although many ornate lanterns are set to offer light, the tunnel's white stone walls emit a pearlescent glow that makes the lanterns' use more ornamental than practical.  Luminescent clusters of crystal formations overhead add to the room's ambient light.  A bright watercolor painting of the Maivaldius family hangs to one side, nearly ten feet tall and twice as long.  Across from the painting, a quartz-studded tunnel leads down."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      978,
+      641,
+      996,
+      655
+    ]
+  },
+  "exits": [
+    {
+      "to": 36663,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36665,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36694,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

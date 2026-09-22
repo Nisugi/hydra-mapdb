@@ -1,0 +1,56 @@
+{
+  "id": 1929,
+  "uid": [
+    3001027
+  ],
+  "title": [
+    "[Krodera Street]"
+  ],
+  "description": [
+    "The walls of the canyon loom overhead.  The street continues inside them to the east, entering a vast, dimly-lit tunnel.  Dwarves and other folk wander in and out, some stopping at a small, bright-blue wooden shop here outside.  A thick plume of black smoke puffs silently out of the shop's chimney and the faint smell of burning bread wafts throughout the street."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1214,
+      519,
+      1244,
+      549
+    ]
+  },
+  "exits": [
+    {
+      "to": 1928,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1930,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 1931,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12535,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

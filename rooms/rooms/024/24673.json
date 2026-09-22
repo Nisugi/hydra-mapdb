@@ -1,0 +1,73 @@
+{
+  "id": 24673,
+  "uid": [
+    8213023
+  ],
+  "title": [
+    "[Duskruin Arena, Countinghouse]"
+  ],
+  "description": [
+    "Shadows dart in and out of this corner nook, and hushed whispers mix with the distinctive sound of clinking coins.  Raucous cheers from the arena make it nearly impossible to understand the mutterings.  A pair of black-gloved hands poke out from beneath a stone ledge, ready to accept your coins."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "tags": [
+    "bank"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1484,
+      752,
+      1514,
+      781
+    ]
+  },
+  "exits": [
+    {
+      "to": 23785,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

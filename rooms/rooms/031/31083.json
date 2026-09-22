@@ -1,0 +1,79 @@
+{
+  "id": 31083,
+  "uid": [
+    7503261
+  ],
+  "title": [
+    "[Cellar, Slickwink's Hideaway]"
+  ],
+  "description": [
+    "Near the rounded doors that are the sole means of egress from the cellar, frozen roots dangle like daggers from the ceiling, aglisten with bitter crystals of frost.  Amidst hanging carcasses and sacks of seed are the obvious signs of habitation, from a pile of rumpled clothes to some rusting cookware near a ramshackle wicker wastebin in one corner.  Several candles atop crates and uneven shelves do their best to hold back the cold, but mostly they just infuse the air with the odor of hot tallow."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "cold, damp",
+  "terrain": "plain dirt",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "locksmith pool",
+    "locksmithpool",
+    "murdroot",
+    "urchin guide locksmithpool",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "meta": [
+    "boxpool:npc:grimy halfling scoundrel",
+    "boxpool:table:slanted pinewood table",
+    "trashcan:ramshackle wicker wastebin"
+  ],
+  "exits": [
+    {
+      "to": 29869,
+      "kind": "go",
+      "cmd": "go greying doors",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

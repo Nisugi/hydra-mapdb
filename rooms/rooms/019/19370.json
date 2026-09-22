@@ -1,0 +1,57 @@
+{
+  "id": 19370,
+  "uid": [
+    3223013
+  ],
+  "title": [
+    "[Eastern Harbor, Cormorant Lane]"
+  ],
+  "description": [
+    "Strong, acrid scents rise from the surf as it crashes against a low stone wall that separates the southern edge of the street from the waters of the harbor.  Sandwiched between two buildings, a small alley provides quick access to the north, while a sandy pathway leads to the beaches in the east.  Wild ducks, their sporadic quacking filling the air, swim in the cool waters and occassionally beg for treats.",
+    "Strong, acrid scents rise from the surf as it crashes against a low stone wall that separates the southern edge of the street from the waters of the harbor.  Sandwiched between two buildings, a small alley provides quick access to the north, while a sandy pathway leads to the beaches in the east."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3893,
+      2024,
+      3921,
+      2045
+    ]
+  },
+  "exits": [
+    {
+      "to": 19366,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 19371,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 19373,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19374,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

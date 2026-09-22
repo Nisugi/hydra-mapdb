@@ -1,0 +1,42 @@
+{
+  "id": 14090,
+  "uid": [
+    4747005
+  ],
+  "title": [
+    "[Schoolhouse, Hallway]"
+  ],
+  "description": [
+    "The lingering scent of cooked food and freshly cut grass wafts throughout the hallway.  Scuff marks mar the otherwise pristine black-speckled white tile floor, coming and going from the door that leads to the playground and the arch that leads into the lunchroom.",
+    "The faint scent of cooking food and freshly cut grass wafts throughout the hallway.  Children run along this end of the hallway, coming and going from the door that leads out to the playground and the arch that leads into the lunchroom.  Dirt and sand cover the black-speckled white tile floor and fingerprints stain the otherwise pristine walls."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 14088,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14091,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14092,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

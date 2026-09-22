@@ -1,0 +1,39 @@
+{
+  "id": 18392,
+  "title": [
+    "[The Pitchfork Pub]"
+  ],
+  "description": [
+    "The spacious interior of this renovated barn bears a bustling tavern and kitchen.  A tanik plank ladder climbs up the back wall of the barn, leading upwards to the loft.  Mounted on the wall above the battered haon bar is a three-pronged matte steel pitchfork.  The hard-packed earthen floor is covered with a thin layer of straw.  A rectangular haon notice hangs from one of the posts of the building."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18391,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18393,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 18522,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

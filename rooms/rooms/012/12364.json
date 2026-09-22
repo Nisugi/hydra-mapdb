@@ -1,0 +1,76 @@
+{
+  "id": 12364,
+  "uid": [
+    3217103
+  ],
+  "title": [
+    "[The Portable Water Hole]"
+  ],
+  "description": [
+    "Oilcloth and canvas panels are strapped to monstrously large sea thrak ribs to create a weather-friendly roof that is loose enough to allow breezes to enter, yet tight enough to protect against rain.  Several of the ribs are yellowed with age, while others display tiny fractures that are mended with wide strips of rawhide.  A narrow corridor runs the length of the wagon with barely enough room to travel between the four booths housing tidy tables, the narrow entryway, and the bustling kitchen.",
+    "Oilcloth and canvas panels are strapped to monstrously large sea thrak ribs to create a weather-friendly roof that is loose enough to allow breezes to enter, yet tight enough to protect against rain.  Several of the ribs are yellowed with age, while others display tiny fractures that are mended with wide strips of rawhide.  A narrow corridor runs the length of the wagon with barely enough room to travel between the four compact booths, the narrow entryway, and the bustling kitchen."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 3661,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23243,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go green table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23745,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26187,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go blue table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26188,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go red table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26189,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go yellow table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 22119,
+  "uid": [
+    106016
+  ],
+  "title": [
+    "[Cairnfang Manor, Dining Room]"
+  ],
+  "description": [
+    "Crystal chandeliers hang from the ceiling, their positioning perfectly illuminates a trio of flowery tables set about the room.  Blue and green braided throw rugs decorate the polished linden floors, their patterns swirling about creating a fanciful pattern.  Framed by a pair of blooming rose bushes, a swinging door leads out of the dining area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      239,
+      246,
+      250,
+      259
+    ]
+  },
+  "exits": [
+    {
+      "to": 22118,
+      "kind": "go",
+      "cmd": "go sliding doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30953,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 30956,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Forsythia table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30957,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Thistle table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30958,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Windflower table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

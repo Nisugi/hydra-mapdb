@@ -1,0 +1,55 @@
+{
+  "id": 1584,
+  "uid": [
+    4219350
+  ],
+  "title": [
+    "[Warehouse, First Floor]"
+  ],
+  "description": [
+    "Several smashed crates litter the floor here, apparently broken after having fallen a great distance from the top of one of the stacks.  The contents of the broken containers have long been removed, but the refuse remains.  The boxes and crates part to allow passage to the west and south from here."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Vornavis",
+    "mapname:Vornavis - Solhaven Lockers",
+    "mapshortname:Solhaven Lockers"
+  ],
+  "image": {
+    "file": "vo-warehouse_lockers-1485119080.png",
+    "rect": [
+      714,
+      995,
+      818,
+      1048
+    ]
+  },
+  "exits": [
+    {
+      "to": 5410,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 5412,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30737,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

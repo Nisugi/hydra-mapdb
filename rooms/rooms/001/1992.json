@@ -1,0 +1,50 @@
+{
+  "id": 1992,
+  "uid": [
+    3001050
+  ],
+  "title": [
+    "[Cobblestone Road, Canyon]"
+  ],
+  "description": [
+    "The road follows the river into a canyon, which narrows to the south.  The craggy, reddish-brown rock towers hundreds of feet overhead.  At the southern end of the canyon, a walled town sits at the base of the peak.  The clang of a bell and the distant bustle of the crowd drift along the canyon.  A squat barge plies the river toward the town, its deck piled high with fresh-cut timber and dozing dwarves."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      416,
+      480,
+      432,
+      496
+    ]
+  },
+  "exits": [
+    {
+      "to": 1991,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1993,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12547,
+      "kind": "climb",
+      "cmd": "climb trail",
+      "cost": 0.2
+    }
+  ]
+}

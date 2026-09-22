@@ -1,0 +1,52 @@
+{
+  "id": 31844,
+  "uid": [
+    8083427
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The silent woodland beyond the channel is covered with a thick carpet of blackish green moss covering nearly every visible inch of ground.  Magnificent trees, their branches uniting to form a dense canopy of foliage, shut out the sky above.  As the slate-colored river winds through the timbered landscape, a mist settles over the water obscuring the course ahead."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1748,
+      452,
+      1774,
+      474
+    ]
+  },
+  "exits": [
+    {
+      "to": 31656,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31843,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 4.2
+    }
+  ]
+}

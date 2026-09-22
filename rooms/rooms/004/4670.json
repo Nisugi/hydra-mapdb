@@ -1,0 +1,92 @@
+{
+  "id": 4670,
+  "uid": [
+    14053001
+  ],
+  "title": [
+    "[Rhyaesdid Hall]"
+  ],
+  "description": [
+    "Ivory inlaid doors line both sides of the hallway.  Most of the doors remain closed and locked while the rooms behind them are still undergoing construction.  Further down the hall, an opened doorway that leads to the citizenship office and a stairway leads to the upper floor.  A magnificent bouquet of delphinuris thrives in a faceted crystal vase sitting atop an ebonwood table that features fluted legs and gilded scrollwork."
+  ],
+  "paths": [
+    "Obvious exits: east, down, out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4643,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 9678,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 9683,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17132,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17133,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

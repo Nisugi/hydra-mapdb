@@ -1,0 +1,40 @@
+{
+  "id": 17029,
+  "uid": [
+    254022
+  ],
+  "title": [
+    "[Warrior Guild, Auditorium]"
+  ],
+  "description": [
+    "Rows of benches descend in a semicircle leading up to the main stage.  The heavy curtains are currently closed, leaving nothing but a small lectern on stage.  Perhaps this auditorium is used more for lectures and teaching than it is for plays and performances.  As you glance down the isles of seating you notice a thick layer of food substance caked on the floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1046,
+      143,
+      1066,
+      162
+    ]
+  },
+  "exits": [
+    {
+      "to": 17028,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17030,
+      "kind": "go",
+      "cmd": "go stage",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 27799,
+  "uid": [
+    285002
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "The hallway ends in a small cul-de-sac that features a gold-framed painting, its exterior well-lit by a grouping of tall crimson candles.  A small arched door stands to the north, its well-polished surface chased with curls of lustrous silver.  A circle of large bay windows allows one to gaze out upon the cityscape, each window's cozy nook supplemented with dark velvet pillows."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 27795,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27800,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

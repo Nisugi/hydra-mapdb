@@ -1,0 +1,59 @@
+{
+  "id": 2260,
+  "uid": [
+    3005013
+  ],
+  "title": [
+    "[On A Ferryboat]"
+  ],
+  "description": [
+    "Were it not for the thick chain holding this squat ferryboat back, the current would certainly sweep it along the river and eventually out to sea.  The boat heaves and sways dangerously now and again, but seems safe enough for the moment."
+  ],
+  "paths": [
+    "Obvious paths: out",
+    "Obvious paths: none"
+  ],
+  "location": "the Abandoned Mine",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      867,
+      892,
+      883,
+      908
+    ]
+  },
+  "exits": [
+    {
+      "to": 1965,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await": "The boat arrives at the dock with a soft thunk."
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 40.0
+    },
+    {
+      "to": 2261,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await": "You arrive at the stone dock with a soft thunk."
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 40.0
+    }
+  ]
+}

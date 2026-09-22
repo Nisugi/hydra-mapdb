@@ -1,0 +1,40 @@
+{
+  "id": 29454,
+  "uid": [
+    1303201
+  ],
+  "title": [
+    "[Sorrow's Edge, Foyer]"
+  ],
+  "description": [
+    "Thick granite walls rise on all sides, dotted by several reddish-yellow globes.  The ceiling is also granite, but mottled and rippled with waves, bubbles, and other inexplicable deformities.  The outline of a large, distorted pentagram has been traced into the polished floor with thick lines of reddish eahnor.  Placed in the center of the pentagram is some bronze lettering.  An irregular alcove proudly displaying a dark fel case engraved with miniature Igaesha has been hacked out of the wall directly across from a riveted steel door."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Sorrow's Edge, outside the glacier-locked town of Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 3003,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 29455,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29457,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

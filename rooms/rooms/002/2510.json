@@ -1,0 +1,44 @@
+{
+  "id": 2510,
+  "uid": [
+    4044206
+  ],
+  "title": [
+    "[Icemule Trail, Icy River]"
+  ],
+  "description": [
+    "Moving cautiously over the ice-covered river, you scan the marsh that seems to extend forever past the northern bank.  You might be able to traverse that quagmire by stepping from hummock to hummock, but truly dry land seems scarce."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      1134,
+      381,
+      1144,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 2509,
+      "kind": "climb",
+      "cmd": "climb bank",
+      "cost": 0.2
+    },
+    {
+      "to": 2511,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

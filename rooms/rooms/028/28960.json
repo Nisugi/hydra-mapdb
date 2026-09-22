@@ -1,0 +1,50 @@
+{
+  "id": 28960,
+  "uid": [
+    7121008
+  ],
+  "title": [
+    "[Inking Den, Hallway]"
+  ],
+  "description": [
+    "Navy blue rugs bordered with braided gold rope and bright white anchors cushion the long hallway as it stretches to the west.  Wrought iron rings dangle from the ceiling and hold aloft glass-fronted lanterns that shed bright yellow light and dispel all surrounding shadows.  Standing opposite each other, a windowed dark green door has the words, \"Office of Citizenship\" etched into its glass, while a windowed mustard yellow door has the words, \"Office of the Cartwright\", etched into its glass."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "kf-inking_den-1615857364.png",
+    "rect": [
+      547,
+      598,
+      574,
+      622
+    ]
+  },
+  "exits": [
+    {
+      "to": 28959,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28975,
+      "kind": "go",
+      "cmd": "go dark door",
+      "cost": 0.2
+    },
+    {
+      "to": 28976,
+      "kind": "go",
+      "cmd": "go mustard door",
+      "cost": 0.2
+    }
+  ]
+}

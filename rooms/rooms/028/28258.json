@@ -1,0 +1,35 @@
+{
+  "id": 28258,
+  "uid": [
+    5001256
+  ],
+  "title": [
+    "[House Sovyn Annex]"
+  ],
+  "description": [
+    "The floor, made of unglazed octagonal tiles, is partly covered with a thick carpet.  A window, screened with intricately carved wood, is set high on the wall.  Set beneath the window is a heavy terra cotta urn containing a flowering plant."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sovyn:entrance_annex",
+    "locker annex:House Sovyn"
+  ],
+  "exits": [
+    {
+      "to": 23199,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 25683,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

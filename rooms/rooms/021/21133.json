@@ -1,0 +1,47 @@
+{
+  "id": 21133,
+  "uid": [
+    265021
+  ],
+  "title": [
+    "[Antechamber]"
+  ],
+  "description": [
+    "Both the reek of the sewers and the humidity of the air are attenuated here.  It feels almost to be a prosperous business lobby above ground.  Two doors are guarded by a scarred knotty oak desk with an elderly secretary behind it.  She sits primly, not obviously doing much outside of occasionally holding a handkerchief to her nose.  Nearer the ladder, a couple of middling-worn sofas and a dog-eared coffee table are provided for visitors."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      603,
+      77,
+      617,
+      91
+    ]
+  },
+  "exits": [
+    {
+      "to": 21132,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21164,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21165,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

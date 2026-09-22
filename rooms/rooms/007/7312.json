@@ -1,0 +1,45 @@
+{
+  "id": 7312,
+  "uid": [
+    2150010
+  ],
+  "title": [
+    "[Narrow Tunnel]"
+  ],
+  "description": [
+    "There is a biting cold in the air that causes you to stamp your feet to try and stay warm as you survey this narrow tunnel.  The walls are rough, and the dirt is a bit moist, which leads you to believe that the tunnel itself was recently dug, apart from the rest of the crypt."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      861,
+      560,
+      870,
+      568
+    ]
+  },
+  "exits": [
+    {
+      "to": 7233,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 7313,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": 4653,
+  "uid": [
+    14050003
+  ],
+  "title": [
+    "[Cysaegir, Linsandrych Common]"
+  ],
+  "description": [
+    "Placed strategically under a leafy arbor for shade, a vine-carved bench hides in the darkness.  Interrupting the natural beauty of a grassy knoll sprinkled with a scattering of buttercups is a lattice-worked gazebo.  A slate-paved walkway that snakes through flowering bushes and trees leads toward the steps of the structure.  Gorgeous bell-shaped flowers in shades of blue and pink encircle the base of a pedestal upon which a magnificent gold statue of an elven man is perched."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "ayana leaf",
+    "barley grass",
+    "birch bark",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "chives",
+    "clasping bellflower",
+    "clove pink flower",
+    "common",
+    "crimson clover inflorescence",
+    "crimson dragonstalk",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ear of corn",
+    "ecru wood sorrel",
+    "feather clover bloom",
+    "fennel bulb",
+    "fig",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "golden aster",
+    "golden buttercup",
+    "green cabbage",
+    "hawksbeard blossom",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "huckleberries",
+    "Imaera's Lace",
+    "ironfern root",
+    "juicy plum",
+    "large sunflower",
+    "leek",
+    "luckbloom blossom",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "mustard seeds",
+    "nettle leaf",
+    "nightbloom blossom",
+    "node",
+    "pale purple spiderwort",
+    "pepperthorn root",
+    "pink clover blossom",
+    "pink redstem filaree",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "rye grass",
+    "scallions",
+    "shallot",
+    "small apple",
+    "small daisy",
+    "small dandelion",
+    "small flower",
+    "small rose",
+    "small violet",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of columbine",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of burdock",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "supernode",
+    "sweet onion",
+    "thin hemp",
+    "town",
+    "trollear mushroom",
+    "urchin guide common",
+    "urchin-access",
+    "vibrant yellow forsythia",
+    "viburnum twig",
+    "violet shining rose",
+    "violet-tinged speedwell",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "white ramie",
+    "wild chokecherry",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rice",
+    "wild rose",
+    "wild sage",
+    "wild strawberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolfsbane root",
+    "wood violet",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Towns",
+    "mapname:Elven Nations - Cysaegir",
+    "mapshortname:Cysaegir"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      460,
+      771,
+      502,
+      813
+    ]
+  },
+  "exits": [
+    {
+      "to": 4650,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4651,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4654,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4655,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

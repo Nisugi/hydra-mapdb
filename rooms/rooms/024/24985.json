@@ -1,0 +1,48 @@
+{
+  "id": 24985,
+  "title": [
+    "[Lich's Landing, Specter Lane]"
+  ],
+  "description": [
+    "A small well rises up from the broken and uneven cobblestone, and a trio of decaying goblin zombies stand around it.  Blood oozes up out of the brick-lined well and the zombies cup their hands, eagerly drinking the crimson fluid."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      842,
+      597,
+      868,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 24756,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 24986,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25312,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25331,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

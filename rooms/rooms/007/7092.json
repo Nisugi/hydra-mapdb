@@ -1,0 +1,56 @@
+{
+  "id": 7092,
+  "uid": [
+    44030
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A structure much like a well stands in the center of the room.  Looking like a stone box, with sides about three feet high, the shaft descends into blackness.  A passage leads off to the north, and another slopes upward to the west."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      974,
+      952,
+      984,
+      962
+    ]
+  },
+  "exits": [
+    {
+      "to": 3707,
+      "kind": "go",
+      "cmd": "go shaft",
+      "cost": 0.2
+    },
+    {
+      "to": 7091,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7093,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 7094,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

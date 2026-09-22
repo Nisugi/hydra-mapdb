@@ -1,0 +1,46 @@
+{
+  "id": 19510,
+  "uid": [
+    655010
+  ],
+  "title": [
+    "[Empath Guild, Courtyard]"
+  ],
+  "description": [
+    "Ornamental fruit trees flank the large glass-paned doors that lead into the hall.  A pair of marble benches rest beneath the shady arbor.  Nearly obscured by the trees is a small greenhouse, its steamed windows a stark contrast to the vivid colors of the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "cultivated",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      382,
+      647,
+      439,
+      703
+    ]
+  },
+  "exits": [
+    {
+      "to": 19509,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19524,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19527,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

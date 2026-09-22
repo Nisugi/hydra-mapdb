@@ -1,0 +1,129 @@
+{
+  "id": 9788,
+  "uid": [
+    13022035
+  ],
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "The size of the tunnel becomes constricted with vine-like roots.  Part of a dusty old spider web dangles from the wall.  Strands of old web cling to the hanging roots, gathering dust while bone fragments and smaller stones rest along the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Maaghara Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      1096,
+      625,
+      1106,
+      635
+    ]
+  },
+  "exits": [
+    {
+      "to": 9734,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go root"
+        },
+        {
+          "wait_until": {
+            "at": 9734
+          },
+          "when": {
+            "not": "still_here"
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "southwest",
+            "southwest",
+            "east",
+            "southwest",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "at": 9823
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "southwest",
+            "west",
+            "west",
+            "northeast",
+            "northeast",
+            "northwest"
+          ],
+          "when": {
+            "at": 9818
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "east",
+            "east",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "at": 9808
+          }
+        },
+        {
+          "moves": [
+            "southwest",
+            "southeast",
+            "southwest"
+          ],
+          "when": {
+            "at": 9788
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "south",
+            "northeast",
+            "north",
+            "west",
+            "west",
+            "west"
+          ],
+          "when": {
+            "at": 9784
+          }
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 100.0
+    },
+    {
+      "to": 9772,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9799,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

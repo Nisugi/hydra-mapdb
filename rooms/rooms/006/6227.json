@@ -1,0 +1,59 @@
+{
+  "id": 6227,
+  "uid": [
+    2167109
+  ],
+  "title": [
+    "[Labyrinth]"
+  ],
+  "description": [
+    "The hallway continues onward with no visible end.  A gentle stream of moonlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air.",
+    "The hallway continues onward with no visible end.  A gentle stream of sunlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      843,
+      226,
+      879,
+      262
+    ]
+  },
+  "exits": [
+    {
+      "to": 6226,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6228,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

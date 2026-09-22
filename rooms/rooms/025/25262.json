@@ -1,0 +1,56 @@
+{
+  "id": 25262,
+  "uid": [
+    7106002
+  ],
+  "title": [
+    "[Reim Base Camp]"
+  ],
+  "description": [
+    "Makeshift shacks and tents, including a tall brown canvas tent, line the perimeter of the area, the rock-strewn ground covered in dirt and clumps of salt.  Small trails of smoke rise slowly behind the housing, the occasional spark of a cracking kindling shooting up toward the sky."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Reim Base Camp",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      1553,
+      334,
+      1589,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 24842,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25263,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 25264,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26222,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

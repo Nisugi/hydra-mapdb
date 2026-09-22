@@ -1,0 +1,80 @@
+{
+  "id": 1070,
+  "uid": [
+    13001042
+  ],
+  "title": [
+    "[Glo'antern Moor, Rope Ladder]"
+  ],
+  "description": [
+    "A thick rope ladder dangles down the side of the cliff, pooling a bit on the ground.  The top of the ladder is not distinguishable as it disappears quickly into the mists above.  A small barren spot has been worn in the matted grass just below the rope ladder, most likely from the passing of feet and the swaying of the ladder.  In all directions away from the cliff the damp, thick grass grows high enough to prevent movement, although it seems to be somewhat beaten down along the cliff to the northwest."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, damp",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "bright red cranberry",
+    "bright red teaberry",
+    "brostheras grass",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "fairy primrose",
+    "golden aster",
+    "ironfern root",
+    "luckbloom blossom",
+    "murdroot",
+    "pennyroyal stem",
+    "rainbow chard",
+    "sassafras leaf",
+    "soft mushroom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1246,
+      808,
+      1256,
+      818
+    ]
+  },
+  "exits": [
+    {
+      "to": 1069,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb ladder"
+        }
+      ],
+      "cost": 30.0
+    }
+  ]
+}

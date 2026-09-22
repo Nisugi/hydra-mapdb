@@ -1,0 +1,45 @@
+{
+  "id": 4459,
+  "title": [
+    "[Topaz Level, Elbow]"
+  ],
+  "description": [
+    "Two columns centered in the shaft fortify the passage, but both are buckling badly under the weight.  A dust-covered sign is attached to one wall, the words barely readable."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4458,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 4460,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 4462,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 4463,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

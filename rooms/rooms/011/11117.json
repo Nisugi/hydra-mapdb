@@ -1,0 +1,44 @@
+{
+  "id": 11117,
+  "uid": [
+    26031
+  ],
+  "title": [
+    "[Krol Ship, Anchor Chain]"
+  ],
+  "description": [
+    "You are holding on to the wet anchor chain with the greatest of care, fully aware of the water swirling under the ship, below you.  Although the bowsprit is not high above you, trying to climb up to it would be suicide.  A few feet above you, the chain disappears into the ship's hull through the hawse hole.  You may be able to squeeze through it."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3937,
+      1714,
+      3959,
+      1736
+    ]
+  },
+  "exits": [
+    {
+      "to": 11118,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 11122,
+      "kind": "climb",
+      "cmd": "climb chain",
+      "cost": 0.2
+    }
+  ]
+}

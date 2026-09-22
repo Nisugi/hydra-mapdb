@@ -1,0 +1,52 @@
+{
+  "id": 33658,
+  "uid": [
+    7101201
+  ],
+  "title": [
+    "[Keep Tower, Vornavis Room]"
+  ],
+  "description": [
+    "Chipped and scratched, a panoramic fresco surrounds the room and depicts the cliffs of Vornavis as they lead downward towards the coast.  Cobwebbed strands drop from the center of the ceiling and attach to the lifelike protrusions of the illustrations, their diaphanous ends trailing into the open spaces.  Above each of the three niches set into the walls is a small enameled crest."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1258,
+      1127,
+      1302,
+      1171
+    ]
+  },
+  "exits": [
+    {
+      "to": 33652,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33659,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33660,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33661,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

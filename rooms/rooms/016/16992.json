@@ -1,0 +1,49 @@
+{
+  "id": 16992,
+  "uid": [
+    251200
+  ],
+  "title": [
+    "[Guild Hall, Second Floor]"
+  ],
+  "description": [
+    "A cast-iron chandelier sways slightly above you; two of the five candles are missing and the other three are wickless, disfigured globs of melted wax.  Swathes of cobwebs cover the chandelier, spotted here and there with dried insect carcasses.  A set of stairs lead to the floor below."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      182,
+      779,
+      204,
+      801
+    ]
+  },
+  "exits": [
+    {
+      "to": 16990,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16994,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16995,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

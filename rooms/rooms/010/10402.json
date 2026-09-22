@@ -1,0 +1,56 @@
+{
+  "id": 10402,
+  "uid": [
+    14109007
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "The pale marble and oak flooring in this section of the hallway is nearly obscured by an enormous crimson runner.  Stylized flames picked out in gold and red-tinged vaalin threads occupy the center of the carpeting.  An arch formed of ash-grey marble at the base blends into a deep red marble crazed with finger-like grey veins as it rises to a peak."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      451,
+      774,
+      594,
+      836
+    ]
+  },
+  "exits": [
+    {
+      "to": 10401,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10403,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10417,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33162,
+      "kind": "go",
+      "cmd": "go red arch",
+      "cost": 0.2
+    }
+  ]
+}

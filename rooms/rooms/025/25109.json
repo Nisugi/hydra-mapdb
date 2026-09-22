@@ -1,0 +1,39 @@
+{
+  "id": 25109,
+  "uid": [
+    -7105151
+  ],
+  "title": [
+    "[Reim Castle, Entry]"
+  ],
+  "description": [
+    "A towering gate stands outside of the castle, while a gold-embroidered crimson rug leads deeper inside.  Perfectly spaced apart on the walls, a row of golden candelabras burn with heatless ethereal flame, casting a bluish white radiance across the entry.  Placed onto a marble podium in the center of the annex, a picture of a family clad with ornate royal jewelry and clothing proudly sits between a greatsword and embossed shield."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      308,
+      376,
+      319,
+      386
+    ]
+  },
+  "exits": [
+    {
+      "to": 25076,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 25110,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

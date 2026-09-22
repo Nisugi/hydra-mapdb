@@ -1,0 +1,72 @@
+{
+  "id": 6897,
+  "uid": [
+    37026
+  ],
+  "title": [
+    "[Smuggling Tunnels, Rest Area]"
+  ],
+  "description": [
+    "The remains of a row of cots have all been blasted back against the walls to the east.  Several are completely splintered, the cotton inside the mattresses dusting the floor like dirty snow.  The rest are mangled and tangled wrecks of wood and twine, unsalvageable for anything but firewood."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the smuggling tunnels",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "birch bark",
+    "bur-clover root",
+    "cave moss",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "hot pepper",
+    "ironfern root",
+    "murdroot",
+    "off-white parsnip",
+    "pepperthorn root",
+    "round grumbleberry",
+    "wingstem root",
+    "withered mushroom",
+    "wraith"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      1050,
+      1302,
+      1060,
+      1312
+    ]
+  },
+  "exits": [
+    {
+      "to": 6892,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6896,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6899,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6928,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "mural_of_deities"
+      },
+      "cost": 0.2
+    }
+  ]
+}

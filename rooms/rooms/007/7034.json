@@ -1,0 +1,62 @@
+{
+  "id": 7034,
+  "uid": [
+    45123
+  ],
+  "title": [
+    "[Castle Darkstone, Inner Keep]"
+  ],
+  "description": [
+    "This is the northwest corner of the central square of the castle.  The tower at this corner of the keep is virtually undamaged and even shows signs of recent renovation, unlike the others which are in various states of delapidation.  Against the northern curtain wall is a large building that also looks recently renovated.  Closer inspection indicates that the northern building is the castle's great hall."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      665,
+      526,
+      675,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 7033,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7035,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 7037,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": 0.2
+    },
+    {
+      "to": 7039,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7040,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

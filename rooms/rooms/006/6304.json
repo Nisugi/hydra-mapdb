@@ -1,0 +1,48 @@
+{
+  "id": 6304,
+  "uid": [
+    372030
+  ],
+  "title": [
+    "[Dirt Mines, Mud Pits]"
+  ],
+  "description": [
+    "The drip-drop of water and the squish-squash of mud echo through these low tunnels and subterranean pockets.  Bubbles of foul smelling air struggle free from the muck nearby, splattering everything.  Not that you'd notice."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "murdroot"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      145,
+      137,
+      155,
+      147
+    ]
+  },
+  "exits": [
+    {
+      "to": 6303,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb roots"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6305,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

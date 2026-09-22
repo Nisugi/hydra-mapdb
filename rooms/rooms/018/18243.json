@@ -1,0 +1,144 @@
+{
+  "id": 18243,
+  "title": [
+    "[Forest Path]"
+  ],
+  "description": [
+    "The ground is dark and wet, as patches of thick peat are scattered across the area.  Rotting vegetation can be seen in the dense muck under the bridge leading further into the swamp, which has a large wooden sign displayed before the entryway."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest",
+    "Obvious paths: southeast, south, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      619,
+      952,
+      634,
+      967
+    ]
+  },
+  "exits": [
+    {
+      "to": 17410,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17520,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18223,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18245,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 22550,
+      "kind": "scripted",
+      "routine": {
+        "name": "search_rooms",
+        "rooms": [
+          18245,
+          20321,
+          20319,
+          20318,
+          20317,
+          20316,
+          20315,
+          20278,
+          20279,
+          20327,
+          20328,
+          20325,
+          20329,
+          20330,
+          20333,
+          20336,
+          20339,
+          20177,
+          20347,
+          20348,
+          20350,
+          20352,
+          20353,
+          20122,
+          20108,
+          20107,
+          20085,
+          20106,
+          20111,
+          20117,
+          20121,
+          20324,
+          20323,
+          20322,
+          20263,
+          20264,
+          20266,
+          20269,
+          20126,
+          20125,
+          20123,
+          20109,
+          20140,
+          20192,
+          20190,
+          20189,
+          20184,
+          20178,
+          20175,
+          20307,
+          20305,
+          20304,
+          20303,
+          20300,
+          20298,
+          20275,
+          20288,
+          20291,
+          20292,
+          20295,
+          20297,
+          20272,
+          20165,
+          20256,
+          20260,
+          20143,
+          20141,
+          20128,
+          20145,
+          20151,
+          20156,
+          20160,
+          20164,
+          20170,
+          20193,
+          20196,
+          20198,
+          20167,
+          20208,
+          20210,
+          20213,
+          20255,
+          21386
+        ],
+        "sees": "doorframe",
+        "enter": "go doorframe"
+      },
+      "cost": 20.0
+    }
+  ]
+}

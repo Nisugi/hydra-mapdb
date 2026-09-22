@@ -1,0 +1,58 @@
+{
+  "id": 28824,
+  "uid": [
+    4132211
+  ],
+  "title": [
+    "[Den of Rot, Chasm]"
+  ],
+  "description": [
+    "Twin stakes are driven into the hard, dark stone of the plateau, which rises many spans over the boggy floor of the cavern.  They anchor a vine-covered wood suspension bridge that sags between the plateau and another, slightly higher, in the distance.  Vines entangle the guide ropes to either side of the bridge's rickety planking."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Abbey",
+  "climate": "hot, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "trafel mushroom",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "imt-Den of Rot Map-51200901.png",
+    "rect": [
+      291,
+      438,
+      338,
+      484
+    ]
+  },
+  "exits": [
+    {
+      "to": 28823,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 28829,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28832,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

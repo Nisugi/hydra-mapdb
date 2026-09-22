@@ -1,0 +1,50 @@
+{
+  "id": 31955,
+  "uid": [
+    8083099
+  ],
+  "title": [
+    "[Vigil's End, Briar Patch]"
+  ],
+  "description": [
+    "Leafy, overhanging boughs cast shadows upon the countless brambles arching over one another to form perilously thorned domes.  Almost hidden by the natural camouflage, a stygian opening creates a break in the tangles of sharp-toothed briars.  A precarious, cobbled path dives southerly toward a stacked stone archway, the unattached portal framing a golden scene that brightens in comparison to the oppressive darkness enclosing the world before it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1324,
+      372,
+      1342,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 31945,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31956,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35846,
+      "kind": "go",
+      "cmd": "go stygian opening",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": 27494,
+  "title": [
+    "[Noteworthiness, Coda]",
+    "[Noteworthiness]"
+  ],
+  "description": [
+    "Spanning several feet, a long wooden plank has been repurposed and painted into a blue and seafoam green shelf, supported by empty rum barrels.  A thin teakwood tray rests atop a wave-painted table along with a glass jug filled with seashells.  Beyond a rather plain-looking steel rack, a cuphea-edged layered linen curtain obscures what lies to the west.",
+    "Spanning several feet, a long wooden plank has been repurposed and painted into a blue and seafoam green shelf supported by empty rum barrels.  A thin teakwood tray rests atop a wave-painted table along with a glass jug filled with seashells.  Beyond a rather plain-looking steel rack, a cuphea-edged layered linen curtain obscures what lies to the west."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 27493,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27586,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

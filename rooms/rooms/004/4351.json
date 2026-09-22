@@ -1,0 +1,39 @@
+{
+  "id": 4351,
+  "title": [
+    "[Emerald Level, Northwest Shaft]"
+  ],
+  "description": [
+    "The cavern's ceiling is dotted with stalactites of various hues, creating an odd yet captivating underground landscape.  Passage through this area can be treacherous for non-dwarven folks, as one must be as careful with the loose rocks and uneven walking surface as well as the cave formations overhead."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4350,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4352,
+      "kind": "go",
+      "cmd": "go pass",
+      "cost": 0.2
+    },
+    {
+      "to": 4354,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 28145,
+  "uid": [
+    8208607
+  ],
+  "title": [
+    "[Rumor Woods]"
+  ],
+  "description": [
+    "The path ends at a creek that seems to have stopped in time.  Its waters, though frozen solid, still echo their natural flows downstream.  A felled log offers access, however dubious, over the creek's frozen surface to its north bank."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location_unknowable": true,
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-foxhunt-1654928999.jpg",
+    "rect": [
+      885,
+      653,
+      909,
+      679
+    ]
+  },
+  "exits": [
+    {
+      "to": 28142,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28146,
+      "kind": "go",
+      "cmd": "go log",
+      "cost": 0.2
+    }
+  ]
+}

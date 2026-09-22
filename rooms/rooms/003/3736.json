@@ -1,0 +1,85 @@
+{
+  "id": 3736,
+  "uid": [
+    109002
+  ],
+  "title": [
+    "[Silvergate, Foyer]"
+  ],
+  "description": [
+    "Comfortable sofas fronted with low tables are arranged neatly around this welcoming lobby.  Well-placed sconces highlight the paintings and statues which decorate the walls.  Small groups of smiling people pass through, filling the lobby with their voices, while at the far end of the room a cheerful clerk stands behind a large modwir desk, busily attending to the Inn's guests.  To the southwest is a secure-looking ancient oak door.",
+    "A polished maoral table holding a bouquet of roses and jasmine rests near the tall arched doors leading to the courtyard.  Damask-covered sofas are arranged neatly around this welcoming lobby.  Silver sconces highlight paintings which decorate the walls, and chandeliers dance with light overhead.  The lobby bustles with life, while a cheerful clerk stands behind a large modwir desk, busily attending to the inn's guests.  To the southwest is an ancient oak door guarded by a footman."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "silvergate",
+    "silvergate inn"
+  ],
+  "meta": [
+    "che:silvergate_inn:entrance_che"
+  ],
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      882,
+      334,
+      966,
+      390
+    ]
+  },
+  "exits": [
+    {
+      "to": 3735,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 3737,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3738,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3739,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3740,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3741,
+      "kind": "go",
+      "cmd": "go arched doors",
+      "cost": 0.2
+    },
+    {
+      "to": 13236,
+      "kind": "go",
+      "cmd": "go desk",
+      "cost": 0.2
+    },
+    {
+      "to": 26229,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

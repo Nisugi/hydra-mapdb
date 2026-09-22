@@ -1,0 +1,55 @@
+{
+  "id": 19727,
+  "uid": [
+    11100
+  ],
+  "title": [
+    "[In a Tiny Boat]"
+  ],
+  "description": [
+    "You are bobbing along in one of the tiny fishing boats used by the Gnolls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the foothills of Zeltoph",
+  "tags": [
+    "no forageables",
+    "no-auto-map"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      341,
+      603,
+      359,
+      619
+    ]
+  },
+  "exits": [
+    {
+      "to": 19726,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 19990,
+      "kind": "scripted",
+      "steps": [
+        {
+          "wait_until": {
+            "sees": "island"
+          }
+        },
+        {
+          "move": "go island"
+        }
+      ],
+      "cost": 2.2
+    }
+  ]
+}

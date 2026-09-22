@@ -1,0 +1,179 @@
+{
+  "id": 16122,
+  "uid": [
+    5003021,
+    5003022,
+    5003023,
+    5003024,
+    5003025,
+    5003026,
+    5003027,
+    5003030,
+    5003032,
+    5003036,
+    5003037,
+    5003038
+  ],
+  "title": [
+    "[Miasmal Forest, Spectral Mist]"
+  ],
+  "description": [
+    "The thick, clammy fog hugs the marshy ground, obscuring the twisting trails that wind through the bent, skeletal trees and the noxious quagmire.  Weeds, black and slick with some form of rot, choke the malodorous bogs.  The air, tainted with the stink of decay, hangs still and heavy.",
+    "Weeds, black and slick with some singularly foul form of rot, grow thick in the malodorous bogs that line the twisting trails.  The bone-grey fog eddies slowly through the bent, skeletal trees.  The listless breeze is tainted with the stink of decay."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "maze"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      527,
+      537,
+      537,
+      547
+    ]
+  },
+  "exits": [
+    {
+      "to": 11612,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move": "northwest",
+          "when": {
+            "exit": "nw"
+          }
+        },
+        {
+          "move": "west",
+          "when": {
+            "exit": "w"
+          }
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11618,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move": "east",
+          "when": {
+            "exit": "e"
+          }
+        },
+        {
+          "move": "southeast",
+          "when": {
+            "exit": "se"
+          }
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11630,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 22218,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

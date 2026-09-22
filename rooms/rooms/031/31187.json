@@ -1,0 +1,61 @@
+{
+  "id": 31187,
+  "uid": [
+    8208759
+  ],
+  "title": [
+    "[Rumor Woods, Caravan Trail]",
+    "[Caravan Trail]"
+  ],
+  "description": [
+    "Slipping through a red-speckled carpet of bearberry shrubs, a serpentine track follows the wide curve of the northeastern hillock.  Peaked tents draped in jewel-toned bourde are staggered along the verdant slope amid sunlit sprays of blooming snow gentian.  Shielded baskets filled with fire shed a comfortable heat throughout the area, the flames within hissing and snapping in defiance to the ever-present alpine winds.",
+    "Slipping through a red-speckled carpet of bearberry shrubs, a serpentine track follows the wide curve of the northeastern hillock.  Peaked tents draped in jewel-toned bourde are staggered along the verdant slope amid moonlit sprays of blooming snow gentian.  Shielded baskets filled with fire shed a comfortable heat throughout the area, the flames within hissing and snapping in defiance to the ever-present alpine winds."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Rumor Woods",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1367,
+      663,
+      1388,
+      684
+    ]
+  },
+  "exits": [
+    {
+      "to": 31186,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31188,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31192,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 33526,
+      "kind": "go",
+      "cmd": "go oak booth",
+      "cost": 0.2
+    },
+    {
+      "to": 36500,
+      "kind": "go",
+      "cmd": "go mahogany pavilion",
+      "cost": 0.2
+    }
+  ]
+}

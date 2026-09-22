@@ -1,0 +1,44 @@
+{
+  "id": 8226,
+  "uid": [
+    390001
+  ],
+  "title": [
+    "[Wolves' Den, Stagnant Pool]"
+  ],
+  "description": [
+    "Grey stone blocks form the walls of this small, square room.  The sturdy gates against the eastern wall are surrounded by arrow slits.  A pool of brackish water, perhaps 15 feet across, lies in the northwest corner."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      132,
+      191,
+      142,
+      201
+    ]
+  },
+  "exits": [
+    {
+      "to": 8225,
+      "kind": "other",
+      "cmd": "swim opening",
+      "cost": 0.2
+    },
+    {
+      "to": 8227,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

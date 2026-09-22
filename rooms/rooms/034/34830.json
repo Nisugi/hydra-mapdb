@@ -1,0 +1,31 @@
+{
+  "id": 34830,
+  "uid": [
+    8089032
+  ],
+  "title": [
+    "[Tanglemist Path, Glade]"
+  ],
+  "description": [
+    "Thick woods open into a small glade of moss, grass, and wildflowers.  A well-worn path curves to the west, while a smaller, winding trail leads deeper into the trees."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Evermore Hollow",
+  "terrain": "coniferous forest",
+  "exits": [
+    {
+      "to": 34829,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34831,
+      "kind": "go",
+      "cmd": "go winding trail",
+      "cost": 0.2
+    }
+  ]
+}

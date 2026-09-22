@@ -1,0 +1,40 @@
+{
+  "id": 25519,
+  "uid": [
+    12101003
+  ],
+  "title": [
+    "[The Firebird, Main Deck]"
+  ],
+  "description": [
+    "Crossed swords adorn one wall, still-honed edges gleaming dimly in the passway's half-light.  They hang opposite a brick-hued double door, the molding around which is marked with a pattern of interlocking feathers.  A faint acrid bite of wood polish lingers in the air."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25517,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25520,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25523,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

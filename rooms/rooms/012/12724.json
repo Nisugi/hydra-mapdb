@@ -1,0 +1,50 @@
+{
+  "id": 12724,
+  "uid": [
+    3031042
+  ],
+  "title": [
+    "[Ruined Temple, Third Floor]"
+  ],
+  "description": [
+    "Numerous tiles from the toppled roof lie scattered around the floor.  Only a single statue remains in the area, the rest having been flung out to the sea through holes in the walls.  Splintered pieces of wood have been gathered into a heap in one corner of the room."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      321,
+      101,
+      357,
+      137
+    ]
+  },
+  "exits": [
+    {
+      "to": 12723,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12725,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12731,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

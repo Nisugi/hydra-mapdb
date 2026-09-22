@@ -1,0 +1,50 @@
+{
+  "id": 9450,
+  "uid": [
+    13014010
+  ],
+  "title": [
+    "[Bluerock Brewery, Corridor]"
+  ],
+  "description": [
+    "Formed from unadorned grey stone, the corridor is neat and tidy.  The smooth stone floor meets the walls in a single seamless line that is echoed by the gentle curve of the high ceiling.  Standing open at the far end of the corridor is a pair of invar double doors, their stone casing carved with gentle whorls and slashes."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      500,
+      586,
+      510,
+      596
+    ]
+  },
+  "exits": [
+    {
+      "to": 9448,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9451,
+      "kind": "go",
+      "cmd": "go invar doors",
+      "cost": 0.2
+    },
+    {
+      "to": 16838,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    }
+  ]
+}

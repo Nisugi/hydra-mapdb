@@ -1,0 +1,79 @@
+{
+  "id": 18697,
+  "uid": [
+    256003
+  ],
+  "title": [
+    "[Ta'Illistim, Warrior Guild]"
+  ],
+  "description": [
+    "The moat is a mere trickle under the bridge, its width no greater than the span of a dwarf's leap.  The sandy ground is held firm at the moat's edges by massive retainer stones of grey slate."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "rye grass",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "exits": [
+    {
+      "to": 18696,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18756,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

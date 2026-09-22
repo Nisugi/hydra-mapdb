@@ -1,0 +1,36 @@
+{
+  "id": 24021,
+  "title": [
+    "[Inner Walkway, Blacksmith]"
+  ],
+  "description": [
+    "Piles of wood and scrap metal clutter the open-air smithy that occupies this portion of walkway.  A sturdy rock forge and leather bellows sit beneath a brightly striped canvas awning bearing the golden wyvern of House Vaalor.  A heavy weapons rack and a sturdy armor stand proudly display the blacksmith's wares."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Ta'Vaalor",
+  "image": {
+    "file": "fest-Festival_of_the_Fallen-1442606479.png",
+    "rect": [
+      618,
+      372,
+      669,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 23993,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24041,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

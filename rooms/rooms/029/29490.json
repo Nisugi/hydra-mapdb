@@ -1,0 +1,50 @@
+{
+  "id": 29490,
+  "uid": [
+    13007222
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Tunnel]"
+  ],
+  "description": [
+    "Twisting into the darkness, clusters of crimson crystals spiral around the curves of this passage carved from the black granite deep in the earth.  A narrow crevice filled with dagger-like protrusions to the west offers a hazardous descent to the level below.  Putrid aromas float in the still air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, down"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      686,
+      312,
+      708,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 29489,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29493,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29494,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

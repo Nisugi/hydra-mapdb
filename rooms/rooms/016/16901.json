@@ -1,0 +1,85 @@
+{
+  "id": 16901,
+  "uid": [
+    13014056
+  ],
+  "title": [
+    "[Municipal Building, Hallway]"
+  ],
+  "description": [
+    "Several nondescript pieces of stone sculpture stand between the doors that run along this corridor.  The faint smell of loam and cigar smoke lingers heavily in the air, originating from one of many offices in the area.  A threadbare curtain occupies the wall at the end of the hall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "urchin guide weddinghall",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 16843,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16902,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 16903,
+      "kind": "go",
+      "cmd": "go mithril door",
+      "cost": 0.2
+    },
+    {
+      "to": 16904,
+      "kind": "go",
+      "cmd": "go iron-framed door",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

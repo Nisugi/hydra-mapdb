@@ -1,0 +1,52 @@
+{
+  "id": 25742,
+  "uid": [
+    3223870
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Soft hoots and strange bleats echo across the rollicking water from the southern island, though no visible sign of their origins can be seen.  Trees dot the shores and dip towards the crystal blue waters as if pausing for a drink."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2080,
+      1760,
+      2101,
+      1780
+    ]
+  },
+  "exits": [
+    {
+      "to": 25731,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25743,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": 11668,
+  "uid": [
+    5004042
+  ],
+  "title": [
+    "[Oteska's Haven, Shanty Rooftop]"
+  ],
+  "description": [
+    "The rooftop is surprisingly sturdy.  A low parapet lines the roof facing the muddy walkway between the buildings.  The light from the moon barely filters through the thick fog.  From this vantage point the rooftops of the other wooden buildings are clearly visible through the fog.",
+    "The rooftop is surprisingly sturdy.  A low parapet lines the roof facing the muddy walkway between the buildings.  The light from the sun barely filters through the thick fog.  From this vantage point the rooftops of the other wooden buildings are clearly visible through the fog."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 11675,
+      "kind": "scripted",
+      "steps": [
+        {
+          "moves": [
+            "down",
+            "out"
+          ]
+        },
+        {
+          "moves": [
+            "northeast",
+            "east"
+          ],
+          "when": {
+            "exit": "ne"
+          }
+        },
+        {
+          "move": "west",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "at": 11675
+                }
+              },
+              {
+                "not": {
+                  "exit": "ne"
+                }
+              },
+              {
+                "not": {
+                  "exit": "e"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "cost": 0.8
+    }
+  ]
+}

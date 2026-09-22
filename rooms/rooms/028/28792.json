@@ -1,0 +1,44 @@
+{
+  "id": 28792,
+  "uid": [
+    3213025
+  ],
+  "title": [
+    "[Chocolate Suite, Dressing Room]"
+  ],
+  "description": [
+    "A large ivory marble tub fills the far corner, and an ornately carved armoire sits across from it.  Pale brown ceramic tiles cover the floor, and flickering candles lend the room a welcoming air."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Vardar_Hollow_Map-51200827a.png",
+    "rect": [
+      764,
+      333,
+      829,
+      397
+    ]
+  },
+  "exits": [
+    {
+      "to": 28790,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28791,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

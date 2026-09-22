@@ -1,0 +1,57 @@
+{
+  "id": 35898,
+  "uid": [
+    3024014
+  ],
+  "title": [
+    "[River Muagh, Dark Cliffs]"
+  ],
+  "description": [
+    "Barren of life, the dark cliffs are jagged and inhospitable.  The winds from a churning black maelstrom roar above the cliffs and blow harshly through a wide channel carved through them by the river's unending quest to flow into the Obsidian Sea."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "strand of seaweed",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      263,
+      587,
+      299,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 35897,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35899,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

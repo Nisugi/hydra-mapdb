@@ -1,0 +1,116 @@
+{
+  "id": 4141,
+  "uid": [
+    18003
+  ],
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "You pause inside the gates to survey the eerie scene.  A magnificently crafted granite crypt to the north inspires wonder and loathing.  The carvings on the facade are horrific, detailing the onslaughts of the Unlife throughout the chaotic history of Elanthia.  A gravel path wraps around the structure, while thorny brambles growing among the tombstones deter you from leaving the paved route."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest, up"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "blue whortleberry",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "ironfern root",
+    "skeleton",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      227,
+      897,
+      237,
+      907
+    ]
+  },
+  "exits": [
+    {
+      "to": 4140,
+      "kind": "scripted",
+      "routine": {
+        "name": "bronze_gate",
+        "batter": true
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "any": [
+                {
+                  "spell_known": "Unlock"
+                },
+                {
+                  "spell_known": "Consecrate"
+                },
+                {
+                  "spell_known": "Bless Item"
+                },
+                {
+                  "spell_known": "Force Projection"
+                }
+              ]
+            },
+            "then": 0.6
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "profession": "Warrior"
+                },
+                {
+                  "level_at_least": 15
+                }
+              ]
+            },
+            "then": 5.2
+          }
+        ],
+        "else": 30.0
+      }
+    },
+    {
+      "to": 4142,
+      "kind": "go",
+      "cmd": "go crypt",
+      "cost": 0.2
+    },
+    {
+      "to": 7163,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7167,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28746,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

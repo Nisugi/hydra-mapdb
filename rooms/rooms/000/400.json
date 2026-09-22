@@ -1,0 +1,82 @@
+{
+  "id": 400,
+  "uid": [
+    2005
+  ],
+  "title": [
+    "[First Elanith Bank, Teller]"
+  ],
+  "description": [
+    "Most of the teller windows that line this room are missing the gates and gratings that once secured them.  Impatient clients stand at one of the two intact windows, waiting to get the attention of the tellers on the other side."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "antimagic",
+    "bank",
+    "fire lily",
+    "urchin guide bank",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic",
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      196,
+      617,
+      232,
+      653
+    ]
+  },
+  "exits": [
+    {
+      "to": 399,
+      "kind": "go",
+      "cmd": "go low arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

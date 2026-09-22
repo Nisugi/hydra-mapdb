@@ -1,0 +1,57 @@
+{
+  "id": 17933,
+  "uid": [
+    264003
+  ],
+  "title": [
+    "[Rogue Guild, Entry Hall]"
+  ],
+  "description": [
+    "This once elegant foyer retains the vestiges of its former beauty.  A deep crimson rug lies across the darkened rosewood planks, softening visitors' footfalls.  Dark-red velvet curtains hang from dust-covered windows, preventing passersby from looking in.  The front door has been nailed shut, rendering it useless as an exit.  A wide staircase curves up to the railing at the second floor landing."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      428,
+      593,
+      457,
+      620
+    ]
+  },
+  "exits": [
+    {
+      "to": 17932,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 17934,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17936,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17937,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17943,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

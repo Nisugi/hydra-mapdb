@@ -1,0 +1,36 @@
+{
+  "id": 21812,
+  "title": [
+    "[Talador, Farmlands]"
+  ],
+  "description": [
+    "The fields and farms are sparse here, giving way to a worn-down dirt road narrowing to the north.  Further off, the walls of an ancient stone keep rise up."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      486,
+      336,
+      501,
+      350
+    ]
+  },
+  "exits": [
+    {
+      "to": 21803,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21813,
+      "kind": "go",
+      "cmd": "go road",
+      "cost": 0.2
+    }
+  ]
+}

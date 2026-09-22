@@ -1,0 +1,107 @@
+{
+  "id": 17518,
+  "uid": [
+    3210101
+  ],
+  "title": [
+    "[Mist Harbor, Southern Gates]"
+  ],
+  "description": [
+    "Twin towers rise up on either side of the wrought iron gates, the terra cotta tiles of their roofs standing out in dark contrast to the muted yellow paint that decorates their faces.  Stretching east and west of the entry is a tall stockade fence, while a wide dirt pathway disappears into the jungle."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "temperate",
+  "terrain": "tropical",
+  "tags": [
+    "acantha leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "bright yellow plantain",
+    "brostheras grass",
+    "bur-clover root",
+    "butterfly pea flower",
+    "cardamom",
+    "cherry peppers",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "cumin seeds",
+    "deep crimson plumeria",
+    "ebony twig",
+    "fresh catnip",
+    "ghost pepper",
+    "grapefruit",
+    "green guava",
+    "green tea leaves",
+    "hot pepper",
+    "jasmine floret",
+    "luckbloom blossom",
+    "mate leaves",
+    "murdroot",
+    "nutmeg",
+    "orange-yellow starfruit",
+    "pearl onions",
+    "peppermint leaves",
+    "pink peppercorn",
+    "purple passion fruit",
+    "purple tea leaves",
+    "raw almonds",
+    "red cherries",
+    "red lychee",
+    "red-green mango",
+    "round hazelnuts",
+    "round yuzu",
+    "slender twig",
+    "small coconut",
+    "small green quenepas",
+    "small lime",
+    "small watermelon",
+    "star anise",
+    "sun-wilted tea leaves",
+    "talneo root",
+    "tea leaves",
+    "twisted twig",
+    "vanilla bean",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white tea leaves",
+    "yellow lemon",
+    "yellow papaya"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2771,
+      2302,
+      2811,
+      2339
+    ]
+  },
+  "exits": [
+    {
+      "to": 3665,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 17577,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23661,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go path"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

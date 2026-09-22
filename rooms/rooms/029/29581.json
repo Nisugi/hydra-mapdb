@@ -1,0 +1,64 @@
+{
+  "id": 29581,
+  "uid": [
+    686009
+  ],
+  "title": [
+    "[Fire Tower, First Floor]"
+  ],
+  "description": [
+    "Two arches lead to unevenly sized rooms at the western edges of the chamber.  Between the eastern walkway and the southern walkway connecting to the other towers, a stairwell winds itself upwards and downwards.  Red glaes, volcanic glass, and scorched metal stands as an abstract sculpture in the center of the area."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest, up, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      187,
+      1171,
+      217,
+      1200
+    ]
+  },
+  "exits": [
+    {
+      "to": 29580,
+      "kind": "go",
+      "cmd": "go eastern walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29582,
+      "kind": "go",
+      "cmd": "go southern walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29584,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29586,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 29590,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29591,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

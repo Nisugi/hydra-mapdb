@@ -1,0 +1,51 @@
+{
+  "id": 28739,
+  "uid": [
+    4043718
+  ],
+  "title": [
+    "[Brewpub, Royalty Suite]"
+  ],
+  "description": [
+    "Oiled black sconces cast a dim yet steady light upon the green and blue marble floor.  A series of connected, soft grey couches surround a quaint mosaic table.  The far wall is adorned with a richly woven tapestry."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker annex:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "imt-beacon_hall.png",
+    "rect": [
+      313,
+      356,
+      350,
+      394
+    ]
+  },
+  "exits": [
+    {
+      "to": 28736,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go arch"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28740,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

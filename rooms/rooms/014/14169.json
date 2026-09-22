@@ -1,0 +1,73 @@
+{
+  "id": 14169,
+  "uid": [
+    4742006
+  ],
+  "title": [
+    "[Temple of Lorminstra, Entry]"
+  ],
+  "description": [
+    "Oil lamps topped by frosted glaes globes hang from the vaulted ceiling, casting a soft golden radiance that is quickly devoured by the dull black basalt of the entry's floor, walls and ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southeast, out"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 14168,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 14170,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

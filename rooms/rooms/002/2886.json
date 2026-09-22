@@ -1,0 +1,97 @@
+{
+  "id": 2886,
+  "uid": [
+    4560037
+  ],
+  "title": [
+    "[Olbin Pass, South Rim]"
+  ],
+  "description": [
+    "A rugged butte forms the southern edge of the pass.   Below it, a concave bowl sweeps down towards the tree line, its curved depression filled with snow.  Wandering through the forest beyond, a twisting trail can be seen leisurely making its way down the mountain.  To the east and west, tall peaks cradle the pass."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, northwest"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1152,
+      235,
+      1162,
+      245
+    ]
+  },
+  "exits": [
+    {
+      "to": 2885,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2887,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2892,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2893,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2894,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb butte"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

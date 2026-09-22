@@ -1,0 +1,108 @@
+{
+  "id": 27030,
+  "title": [
+    "[Lake of Fear, Northern Shore]"
+  ],
+  "description": [
+    "Ice crystals gitter in the sunlight, making the frozen dock to the north appear unearthly.  An endless expanse of ice stretches into the southern darkness, broken only sproadically by strange, dark shapes.",
+    "Ice crystals gitter in the moonlight, making the frozen dock to the north appear unearthly.  An endless expanse of ice stretches into the southern darkness, broken only sproadically by strange, shadowy shapes."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Vaalor",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 10116,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 27029,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

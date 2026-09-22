@@ -1,0 +1,54 @@
+{
+  "id": 31915,
+  "uid": [
+    8084605
+  ],
+  "title": [
+    "[The Witching House, Laboratory]"
+  ],
+  "description": [
+    "A shallow set of steps lead down into the laboratory, its surroundings less bland than one might expect of an underground room.  The walls are lined with ebonwood panels, with an embroidered silk tapestry decorating one large area, while an ebonwood apothecary cabinet dominates nearly the entirety of the back wall.  Opposite the cabinet is a sturdy glass-topped worktable and a long silver-wrought shelf hung high enough above to accommodate all of the alchemical tools beneath.  Between the end of the worktable and the steps that lead out is a round side table with a a black parchment note scribed in silver ink propped atop it."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31914,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 32083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go black arch"
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 32086,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32087,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

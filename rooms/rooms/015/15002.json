@@ -1,0 +1,36 @@
+{
+  "id": 15002,
+  "uid": [
+    3215121
+  ],
+  "title": [
+    "[Annex, Helden Hall Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A blue velvet pennant edged with silver hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_annex",
+    "che:helden_hall:entrance_locker",
+    "locker annex:Helden Hall"
+  ],
+  "exits": [
+    {
+      "to": 12297,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 15005,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

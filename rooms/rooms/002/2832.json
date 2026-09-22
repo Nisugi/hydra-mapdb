@@ -1,0 +1,85 @@
+{
+  "id": 2832,
+  "uid": [
+    4563008
+  ],
+  "title": [
+    "[Northern Slopes, Rock Ledge]"
+  ],
+  "description": [
+    "The trees crowd the edge of the precipice, as if eager for a change to gaze out over the expansive horizon.  Majestic mountains rise up from deep green forests dotted with snow and caressed here and there with drifting fog and low-lying clouds.  The conifers are so thick, further passage through them is impossible."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      563,
+      1232,
+      575,
+      1244
+    ]
+  },
+  "exits": [
+    {
+      "to": 2830,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb slope"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 1.0
+    },
+    {
+      "to": 2833,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    }
+  ]
+}

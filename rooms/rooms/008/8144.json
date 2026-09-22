@@ -1,0 +1,44 @@
+{
+  "id": 8144,
+  "uid": [
+    386066
+  ],
+  "title": [
+    "[Marble Hallway]"
+  ],
+  "description": [
+    "The bright rectangle at the hallway's end fades into the gloom of the dark marble walls.  At the opposite end of the hall, a soft, greenish light glows from the building's interior.  The air smells damp, but it's more the fresh, clean scent of woodland shade than an odor of decay, as one might expect of such a place as this old edifice."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the distant forest",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1168,
+      149,
+      1178,
+      159
+    ]
+  },
+  "exits": [
+    {
+      "to": 8143,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 8145,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

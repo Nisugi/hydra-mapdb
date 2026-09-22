@@ -1,0 +1,51 @@
+{
+  "id": 18737,
+  "uid": [
+    667016
+  ],
+  "title": [
+    "[Sorcerer Guild, Master's Hall]"
+  ],
+  "description": [
+    "Stonemasons have adapted a natural widening in the cavern to create a moderately sized, nearly circular room.  A large brazier at the center dispels the pervasive dankness of the caverns.  Clusters of comfortable chairs are dotted around the brazier, surrounded by tottering piles of tomes."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy masters",
+    "sorcerer guild masters"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      624,
+      187,
+      664,
+      225
+    ]
+  },
+  "exits": [
+    {
+      "to": 18733,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18738,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30538,
+      "kind": "other",
+      "cmd": "ask loridl about train illusions",
+      "cost": 0.2
+    }
+  ]
+}

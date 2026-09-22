@@ -1,0 +1,47 @@
+{
+  "id": 6882,
+  "uid": [
+    21129
+  ],
+  "title": [
+    "[Abandoned Inn, Magical Workshop]",
+    "[Abandoned Inn, Ruined Workshop]"
+  ],
+  "description": [
+    "Mortars and pestles, unlit braziers, jars and bowls and other tools of the wizard's art are strewn chaotically about the perimeter of this room, as if by an explosion.  Walls, floor and ceiling are spattered with random patterns of powders, liquids and blobs, most of which are probably better left unidentified."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      914,
+      1164,
+      924,
+      1174
+    ]
+  },
+  "exits": [
+    {
+      "to": 6880,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "open trapdoor"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

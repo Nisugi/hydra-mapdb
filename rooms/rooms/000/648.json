@@ -1,0 +1,52 @@
+{
+  "id": 648,
+  "uid": [
+    13049004
+  ],
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "A large granite boulder, apparently fallen from the mountain's craggy cliffs in some distant age, lies beside the cobblestoned road.  Surrounded by a thick stand of monir trees, the boulder provides a convenient resting place for travellers, and a brief respite from the rigors of the journey."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sylvarraend Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      258,
+      507,
+      268,
+      517
+    ]
+  },
+  "exits": [
+    {
+      "to": 647,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 649,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1836,
+      "kind": "climb",
+      "cmd": "climb boulder",
+      "cost": 0.2
+    }
+  ]
+}

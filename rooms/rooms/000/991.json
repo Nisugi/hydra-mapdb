@@ -1,0 +1,59 @@
+{
+  "id": 991,
+  "uid": [
+    13003019
+  ],
+  "title": [
+    "[Cavern Mouth]"
+  ],
+  "description": [
+    "A large, well-lit cavern extends back into the mountain face.  Wagonloads of freight move slowly out of the cavern, stopping at the precipice's edge to await daylight and the use of the freight pulley.  The pulley appears to be closed and locked for the night.  Several large bags of salt are piled near the freight pulley.  The footing is icy, and the dwarves moving the wagons wear heavy-soled boots to provide better traction.",
+    "A large, well-lit cavern extends back into the mountain face.  Wagonloads of freight move slowly out of the cavern, stopping at the precipice's edge to await the use of the freight pulley.  Once emptied, the dwarves load the wagons up again with inbound freight and make their way back into the cavern.  Several large bags of salt are piled near the freight pulley.  The footing is icy, and the dwarves working the pulley wear heavy-soled boots to provide better traction."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Zhindel's Post",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      1280,
+      710,
+      1288,
+      718
+    ]
+  },
+  "exits": [
+    {
+      "to": 990,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb trail"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 992,
+      "kind": "go",
+      "cmd": "go mouth",
+      "cost": 0.2
+    }
+  ]
+}

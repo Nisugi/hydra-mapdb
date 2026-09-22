@@ -1,0 +1,48 @@
+{
+  "id": 23397,
+  "uid": [
+    13018027
+  ],
+  "title": [
+    "[A Dark Cave]"
+  ],
+  "description": [
+    "The staircase ends abruptly in a large, round room that is freezing cold.  Torches clamped to the walls burn with odd blue flames, highlighting rusty shackles that are attached to the rough walls.  One set of shackles still holds a pitiful skeleton covered in scraps of tattered cloth.  A pointed archway in the wall leads out."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "glowing toadstool",
+    "ironfern root",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      189,
+      339,
+      201,
+      350
+    ]
+  },
+  "exits": [
+    {
+      "to": 23396,
+      "kind": "go",
+      "cmd": "go pointed archway",
+      "cost": 0.2
+    },
+    {
+      "to": 23398,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

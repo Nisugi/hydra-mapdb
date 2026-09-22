@@ -1,0 +1,62 @@
+{
+  "id": 2068,
+  "uid": [
+    3030201
+  ],
+  "title": [
+    "[Teras Isle, Fhorian Village]"
+  ],
+  "description": [
+    "All sound is muffled by the thick carpet of ash and weed that threatens to overtake this once thriving village.  However, even amid all the rubble and ruin a few structures remain intact.  A footbridge, which spans the river and cleaves the village into two halves, has seen better days -- but is probably functional.  The dark columns of the temple looming to the west are eerily reflected in the river below which lazily feeds a small cove to the south."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west, northwest"
+  ],
+  "location": "the Fhorian Village",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      795,
+      1000,
+      803,
+      1008
+    ]
+  },
+  "exits": [
+    {
+      "to": 2067,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2069,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2075,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2087,
+      "kind": "go",
+      "cmd": "go footbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 12646,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

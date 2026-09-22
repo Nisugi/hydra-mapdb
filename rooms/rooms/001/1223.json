@@ -1,0 +1,147 @@
+{
+  "id": 1223,
+  "uid": [
+    2190005
+  ],
+  "title": [
+    "[Vipershroud, Precipice]"
+  ],
+  "description": [
+    "The trail, coming from the southwest, suddenly ends at a sheer dropoff, perhaps caused decades before by raging floodwaters or a sudden settling of the land.  Massive tree roots extend out from the cliff face, then curl back to reenter the soil, keeping the entire face from tumbling down into the murky darkness below.  A huge boulder shores up part of the cliff, and the choking growth prevents movement along the edge for more than a few yards in either direction."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Vipershroud",
+  "climate": "humid",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "bloodwood twig",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "creamy white wisteria",
+    "daggerstalk mushroom",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "dwarf bilberry",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "haphip root",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "oak twig",
+    "pale rose pink wisteria",
+    "peppermint leaves",
+    "pink oleander",
+    "pothinir grass",
+    "purple datura blossom",
+    "red oleander",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of goldenrod",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white datura blossom",
+    "white oleander",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild orchid",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "woth flower",
+    "yellow datura blossom",
+    "yellow lemon",
+    "yellow passionflower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      153,
+      860,
+      163,
+      870
+    ]
+  },
+  "exits": [
+    {
+      "to": 1222,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 1224,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "stance offensive",
+          "when": {
+            "skill_under": [
+              "climbing",
+              20
+            ]
+          }
+        },
+        {
+          "move": "climb boulder"
+        },
+        {
+          "put": "stance defensive"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 7281,
+  "uid": [
+    2156009
+  ],
+  "title": [
+    "[Slither Creek, South Bank]"
+  ],
+  "description": [
+    "A breeze moves through the area, rippling the surface of the creek.  You can hear it whisper through the forest in the distance, and it seems the trees may be trying to tell you something, if only you could understand what.  The bank slopes easily into the creek, providing you with an easy way to the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright red cranberry",
+    "bright red teaberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "ironfern root",
+    "murdroot",
+    "pearly green vine",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      319,
+      224,
+      327,
+      232
+    ]
+  },
+  "exits": [
+    {
+      "to": 7280,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7282,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7296,
+      "kind": "go",
+      "cmd": "go creek",
+      "cost": 0.2
+    }
+  ]
+}

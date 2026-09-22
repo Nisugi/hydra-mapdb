@@ -1,0 +1,75 @@
+{
+  "id": 10365,
+  "uid": [
+    160018
+  ],
+  "title": [
+    "[Elantaran's Magic, Consignment]"
+  ],
+  "description": [
+    "Filled with many miscellaneous, alchemic products, storage bins are neatly organized throughout the room.  An orb-chased candle chandelier hangs from above, offering a source of illumination.  Two shop attendants wander about, taking inventory and keeping a watchful eye."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "no forageables",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10364,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10366,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

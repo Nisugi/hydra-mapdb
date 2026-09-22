@@ -1,0 +1,50 @@
+{
+  "id": 17590,
+  "uid": [
+    3216013
+  ],
+  "title": [
+    "[Western Harbor, Docks]"
+  ],
+  "description": [
+    "Pilings rise on either side of the dock's platform and act as anchors to the railings that shield travelers from the open water on either side.  The southern railings are draped with fishing nets that block the view of the rocky shore immediately below, while the northern ones are left open to provide an unobstructed view of the open harbor.  Several steps lead down from the main dock and through an arch to the pier beyond."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      813,
+      626,
+      845,
+      654
+    ]
+  },
+  "exits": [
+    {
+      "to": 17589,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17591,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 17592,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

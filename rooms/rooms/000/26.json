@@ -1,0 +1,53 @@
+{
+  "id": 26,
+  "uid": [
+    13100029
+  ],
+  "title": [
+    "[Ta'Illistim, Glaendier Wey]"
+  ],
+  "description": [
+    "The cobblestoned wey widens abruptly as it meets Shimmarglin Court.  The hue and cry from the denizens of the huge plaza echoes off the stone buildings lining the wey.  A trickle of patrons flows to and from a nearby well-kept cottage.",
+    "The cobblestoned wey widens abruptly as it meets the edge of Shimmarglin Court.  Perched at the juncture between the road and the open space is a elevated shop, raised up three steps and set with tapered marble columns.",
+    "The cobblestoned wey widens abruptly as it meets the edge of Shimmarglin Court.  Perched at the juncture between the road and the open space is an elevated shop, raised up three steps and set with tapered marble columns."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1150,
+      771,
+      1173,
+      794
+    ]
+  },
+  "exits": [
+    {
+      "to": 25,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1439,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

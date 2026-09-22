@@ -1,0 +1,100 @@
+{
+  "id": 28256,
+  "uid": [
+    12001100
+  ],
+  "title": [
+    "[City Stables, Stalls]"
+  ],
+  "description": [
+    "Soft whinnying, snorting, and the stamping of hooves resounds throughout the stables.  Stablehands are constantly on the move, fetching fresh horses for the traveling merchants, messengers, or guards who board their steeds here.  The stalls are clean and well-tended, and the horses seem content with their lots in life here in the Landing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest, out",
+    "Obvious paths: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "birch bark",
+    "bur-clover root",
+    "cave moss",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "hot pepper",
+    "ironfern root",
+    "murdroot",
+    "off-white parsnip",
+    "pepperthorn root",
+    "round grumbleberry",
+    "sovyn clove",
+    "stable",
+    "urchin guide stable",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 278,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 7541,
+      "kind": "go",
+      "cmd": "go hay",
+      "cost": 0.2
+    },
+    {
+      "to": 30586,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30587,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 36140,
+  "uid": [
+    3215105
+  ],
+  "title": [
+    "[Annex, House Arcane Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A jade velvet pennant trimmed with crystal hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_annex",
+    "che:arcane_masters:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 12295,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36141,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

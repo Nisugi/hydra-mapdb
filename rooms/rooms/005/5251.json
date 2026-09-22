@@ -1,0 +1,64 @@
+{
+  "id": 5251,
+  "uid": [
+    4006007
+  ],
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "The cramped tunnel begins to squeeze in on all sides and travel in this passage is reduced to an uncomfortable crawl.  While the earthy aroma of the area is not unpleasant, the thick and heavy air is making it quite difficult to breath.  Muffled sounds can be heard coming from either direction, although it is difficult to tell just how far off they might be.",
+    "The cramped tunnel begins to squeeze in on all sides and travel in this passage is reduced to an uncomfortable crawl.  While the earthy aroma of the area is not unpleasant, the thick and heavy air is making it quite difficult to breathe.  Muffled sounds can be heard coming from either direction, although it is difficult to tell just how far off they might be."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "birch bark",
+    "bur-clover root",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "hot pepper",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      682,
+      793,
+      692,
+      803
+    ]
+  },
+  "exits": [
+    {
+      "to": 5250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb hole"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5653,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5655,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

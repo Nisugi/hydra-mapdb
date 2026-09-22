@@ -1,0 +1,62 @@
+{
+  "id": 11192,
+  "uid": [
+    2100030
+  ],
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "The stairs continue upwards.  A few skeletal remains litter the landing, but you should be able to step carefully around them.  There is an unusual lack of broken weaponry here, despite the carnage."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, up, down"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      571,
+      246,
+      581,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 11182,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11193,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11195,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11196,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 32679,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

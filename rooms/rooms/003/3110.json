@@ -1,0 +1,51 @@
+{
+  "id": 3110,
+  "uid": [
+    4124030
+  ],
+  "title": [
+    "[Abandoned Farm, Yard]"
+  ],
+  "description": [
+    "A ravine is visible beneath the bramble hedge.  The dark, rocky sides and black brambles are accentuated by the patches of white snow."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wraith"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      784,
+      434,
+      794,
+      444
+    ]
+  },
+  "exits": [
+    {
+      "to": 3109,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3111,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3112,
+      "kind": "go",
+      "cmd": "go ravine",
+      "cost": 0.2
+    }
+  ]
+}

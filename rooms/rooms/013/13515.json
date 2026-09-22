@@ -1,0 +1,72 @@
+{
+  "id": 13515,
+  "uid": [
+    4740136
+  ],
+  "title": [
+    "[Solhaven, Guardhouse]"
+  ],
+  "description": [
+    "The solemn decorations lend an air of austerity and functionality to the main guardroom.  The room is busy with traffic of towns guardsmen loitering about in between their shifts.  A rack of polished weapons stands beside a large podium that dominates the center of the room.  Upon his high perch, the Sergeant-at-Arms pores over the everyday duties of law enforcement.  A darkened stairwell proceeds ominously down from beyond a steel gate."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "jail",
+    "justice",
+    "no forageables",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 1468,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

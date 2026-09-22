@@ -1,0 +1,43 @@
+{
+  "id": 27158,
+  "uid": [
+    8215012
+  ],
+  "title": [
+    "[Lair of the Ophidian Cabal]"
+  ],
+  "description": [
+    "Three corners of the root cellar are fitted with yawning archways that lead deeper into the lair, while the fourth is filled with a rough pine staircase that disappears into the oak-raftered ceiling.  Caged torches are bolted to the nondescript walls and cast their flickering light upon a large round table in the heart of the room.  A gnarled ebonwood quarterstaff is mounted perpendicular to the floor and has a simple blue flag draping from its length."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, northwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 27157,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 27159,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27160,
+      "kind": "other",
+      "cmd": "swim northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27161,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

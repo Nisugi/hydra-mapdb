@@ -1,0 +1,50 @@
+{
+  "id": 1988,
+  "uid": [
+    3002002
+  ],
+  "title": [
+    "[Aquamarine, Cul-de-sac]"
+  ],
+  "description": [
+    "Swales of green turf rise against the town's rock walls to the north and west, forming a cozy bowl-shaped enclosure about the street.  Carved oaken benches line the cobbles, separated by the sharply-sculpted shapes of boxwood hedges into individual conversation nooks of their own.  An elven couple lounges in the grass, whispering and giggling."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      289,
+      129,
+      325,
+      165
+    ]
+  },
+  "exits": [
+    {
+      "to": 1984,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12382,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 24064,
+      "kind": "go",
+      "cmd": "go wrought gate",
+      "cost": 0.2
+    }
+  ]
+}

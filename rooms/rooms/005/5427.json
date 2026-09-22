@@ -1,0 +1,47 @@
+{
+  "id": 5427,
+  "uid": [
+    319112
+  ],
+  "title": [
+    "[Bonespear Tower, Guest Bedroom]"
+  ],
+  "description": [
+    "The destruction within this room was so complete that it is impossible to determine just what this area was used for.  The shelving and carpet toward the back of the room have been reduced to cinders, and the wall directly behind them is splotched and scorched.  Burned wood fragments, some of which vaguely resemble parts of tables and chairs, are scattered about the floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      995,
+      1096,
+      1005,
+      1106
+    ]
+  },
+  "exits": [
+    {
+      "to": 5421,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13020,
+      "kind": "go",
+      "cmd": "go carpet",
+      "cost": 0.2
+    }
+  ]
+}

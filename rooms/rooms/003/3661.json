@@ -1,0 +1,83 @@
+{
+  "id": 3661,
+  "uid": [
+    3201021
+  ],
+  "title": [
+    "[Wisteria Lane and Rose Avenue]"
+  ],
+  "description": [
+    "Night has fallen on the alcove of Wisteria Lane, blanketing it in silvery moonlight.  Small campfires, surrounded by the gypsy folk, burn brightly in the darkness.  Songs can be heard coming from the folk gathered as they celebrate another fine day.  Circling the camp are numerous wagons and tents, set up by travelling merchants who have come to the Isle to sell their wares.",
+    "Two roads converge in a semi-circled corner, Wisteria Lane heading west back toward the gates, while Rose Avenue heads north toward Oleander Avenue.  In the cozy nook, tents from various travelling merchants have been set up.  Gypsies move about the camp, some tending to their own while others attempt to sell their various wares to any who pass.",
+    "Night has fallen on the alcove of Wisteria Lane, blanketing it in silvery moonlight.  Small campfires, surrounded by the gypsy folk, burn brightly in the darkness and ancient songs drift on the wind.  The circle of wagons and tents set up by various traveling merchants are brightly colored and a complete a contrast to the more orderly glass-walls of the atrium across the street.",
+    "Two roads converge in a semi-circled corner, Wisteria Lane heading west back toward the gates, while Rose Avenue heads north toward Oleander Avenue.  An ivy-twined atrium occupies the corner, while directly across the street is a nook filled with tents and wagons that various traveling merchants have set up.  Gypsies move about the camp, some tending to their own, while others attempt to sell their various wares to any whom pass."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3050,
+      1600,
+      3090,
+      1640
+    ]
+  },
+  "exits": [
+    {
+      "to": 3656,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3660,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12284,
+      "kind": "go",
+      "cmd": "go atrium",
+      "cost": 0.2
+    },
+    {
+      "to": 12364,
+      "kind": "go",
+      "cmd": "go oak wagon",
+      "cost": 2.0
+    },
+    {
+      "to": 18218,
+      "kind": "go",
+      "cmd": "go purple-capped wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 25309,
+      "kind": "go",
+      "cmd": "go marbrinus tent",
+      "cost": 0.2
+    },
+    {
+      "to": 25310,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 25311,
+      "kind": "go",
+      "cmd": "go mosquito tent",
+      "cost": 0.2
+    }
+  ]
+}

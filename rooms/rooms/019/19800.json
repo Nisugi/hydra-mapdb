@@ -1,0 +1,46 @@
+{
+  "id": 19800,
+  "uid": [
+    677023
+  ],
+  "title": [
+    "[Cleric Guild, Western Alcove]"
+  ],
+  "description": [
+    "Bored into the surrounding rock walls are several rough holes, serving as entrances into more private areas of study.  Visible beyond gaps in the affixed curtains are glimmers of colorful glass and black iron.  Shards of crystals have been imbedded into the stone underfoot, creating sparkling paths amid the drab grey."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul-logoth-cleric-guild.png",
+    "rect": [
+      536,
+      211,
+      589,
+      259
+    ]
+  },
+  "exits": [
+    {
+      "to": 19794,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19801,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    },
+    {
+      "to": 19802,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

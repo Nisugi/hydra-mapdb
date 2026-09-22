@@ -1,0 +1,41 @@
+{
+  "id": 13499,
+  "uid": [
+    4747002
+  ],
+  "title": [
+    "[Schoolhouse, Foyer]"
+  ],
+  "description": [
+    "Black-speckled white tiles have been inlaid into the floor, giving a polished sheen to the foyer.  A small plaque that reads \"Office\" hangs on the western wall next to a door, and a wooden board littered with pieces of parchment, notes, and other announcements takes up the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 1450,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3750,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14086,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

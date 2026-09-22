@@ -1,0 +1,61 @@
+{
+  "id": 22111,
+  "uid": [
+    106009
+  ],
+  "title": [
+    "[Cairnfang Manor, Foyer]"
+  ],
+  "description": [
+    "Oriel windows, graced with recessed seats, are framed in azure draperies of soft Vornavian silk that pools in placid folds upon the polished floors.  Climbing up to an open landing, an elegant stairway fixed with a decorative spindled railing looks over a pair of cozy linden chairs with a matching table between.  Resting in the center of the floor is a plush emerald green rug richly designed with the image of a peacock, while a blue silk banner hangs above stained glass doors."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      178,
+      305,
+      190,
+      316
+    ]
+  },
+  "exits": [
+    {
+      "to": 22110,
+      "kind": "go",
+      "cmd": "go stained doors",
+      "cost": 0.2
+    },
+    {
+      "to": 22115,
+      "kind": "go",
+      "cmd": "go elegant stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 22116,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 22117,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 22118,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

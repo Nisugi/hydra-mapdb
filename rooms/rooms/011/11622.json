@@ -1,0 +1,116 @@
+{
+  "id": 11622,
+  "uid": [
+    5003008
+  ],
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "The old road wends it way in and out of the gnarled forest.  Saplings grow in the weedy row between the wagon ruts.  The faint odor of damp animal fur lingers in the air.  To the south is a well-trodden foot trail.  The ancient road runs primarily east and west, where it rapidly disappears into the mist."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      743,
+      613,
+      753,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 11621,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11623,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11627,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11653,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go path"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 16124,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go path"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 22219,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go path"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

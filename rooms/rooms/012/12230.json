@@ -1,0 +1,111 @@
+{
+  "id": 12230,
+  "uid": [
+    4571005
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Overturned desks lie in disarray on the bloody floor of an old classroom.  All along the weathered walls, school books have had their pages stabbed through with daggers, securing them to the wooden panels beneath.  The freezing wind rushes in through an open window, howling and moaning like a spirit possessed.",
+    "Overturned desks lie in disarray on the bloody floor of an old classroom.  All along the weathered walls, school books have had their pages stabbed through with daggers, securing them to the wooden panels beneath.  The scorching wind rushes in through an open window, howling and moaning like a spirit possessed."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast",
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Rift",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "black mawflower",
+    "fleshbinder bud",
+    "fleshsore bulb",
+    "grave blossom",
+    "green fleshbulb",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      238,
+      210,
+      262,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12231,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12232,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 13489,
+  "uid": [
+    4209034
+  ],
+  "title": [
+    "[Solhaven, Abalone Street]"
+  ],
+  "description": [
+    "The crowd bustles with activity, shoppers entering and leaving a modest storefront where a large wooden boot hangs above the door.  A set of stairs to the right of the building lead up to a landing where a bright blue canvas slipper adorns the open door.  You are struck by the incongruence of all these races living together peacefully.  You can barely hear the sounds of the Market Square, carried inland on the ocean breeze."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1185,
+      576,
+      1209,
+      600
+    ]
+  },
+  "exits": [
+    {
+      "to": 149,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1455,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1456,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9065,
+      "kind": "go",
+      "cmd": "go storefront",
+      "cost": 0.2
+    },
+    {
+      "to": 13490,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 24715,
+  "uid": [
+    480225,
+    17006225
+  ],
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "An empty nest lies silent in a small crook where an elongated branch juts out from a bent tree.  Far below the branch stretches a rose bramble with sharpened thorns opening upward like a toothy maw.  Impaled upon several of the thorns are the lifeless bodies of small birds."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "foe:direbear",
+    "foe:direwolf",
+    "foe:warped tree spirit",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      665,
+      175,
+      679,
+      189
+    ]
+  },
+  "exits": [
+    {
+      "to": 24710,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24716,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

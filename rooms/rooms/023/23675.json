@@ -1,0 +1,50 @@
+{
+  "id": 23675,
+  "uid": [
+    255027
+  ],
+  "title": [
+    "[Tanglevine Hall, North Lawn]"
+  ],
+  "description": [
+    "Standing majestically, two large dragon topiaries guard the back wall of the hall, their wings outstretched.  Several large canopy trees tower over the area, fireflies flit among the branches, and flower laden vines creep down their trunks.  A tall wooden gate breaks the thick hedge that encircles the guild compound."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "hot, damp",
+  "terrain": "tropical",
+  "tags": [
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      335,
+      275,
+      359,
+      297
+    ]
+  },
+  "exits": [
+    {
+      "to": 23674,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23676,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 23677,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

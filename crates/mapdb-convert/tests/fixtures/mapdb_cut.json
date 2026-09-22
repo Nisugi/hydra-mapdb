@@ -1,0 +1,894 @@
+[
+ {
+  "id": 0,
+  "title": [
+   "[Moonglae Inn, Atrium]"
+  ],
+  "description": [
+   "A skylight two stories above allows natural light to flood this room, giving it the feel of an outdoor cafe.  Set into the grey marble pillars surrounding the atrium are metal planters filled with a variety of flowers, plants, and hanging vines.  A burbling fountain in the center of the room makes the illusion complete.  Overhead, a row of black granite pillars surrounds the upper cloister, with a gallery of stained glass windows hanging between them."
+  ],
+  "paths": [
+   "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "wayto": {
+   "1": ";e table = \"Cat's Paw\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+   "2": ";e table = \"hammer\"; fput \"go #{table} table\" if dothistimeout(\"go #{table} table\", 25, /You (?:and your group )?head over to|waves.*you.*(?:invites|inviting) you(?: and your group)? to (?:join|come sit at)/) =~ /inviting you|invites you/",
+   "1628": "west",
+   "1629": "northwest"
+  },
+  "timeto": {
+   "1": 0.2,
+   "2": 0.2,
+   "1628": 0.2,
+   "1629": 0.2
+  },
+  "tags": [
+   "meta:forage-sensed",
+   "no forageables",
+   "table"
+  ],
+  "uid": [
+   13107012
+  ]
+ },
+ {
+  "id": 1,
+  "title": [
+   "[Cat's Paw Table]"
+  ],
+  "description": [
+   "While the tables are spaced far enough apart to ensure some measure of privacy, they stand in the center of the skylit atrium.  Like all of the tables in the room, this one is round and spacious, its heavy cast iron base supporting a carved black marble top.  Set at an angle into the stone is a black steel plate inset with eleven white starstones in the shape of a cat's paw and claws."
+  ],
+  "paths": [
+   "Obvious exits: out"
+  ],
+  "location": "the Moonglae Inn",
+  "wayto": {
+   "0": "out"
+  },
+  "timeto": {
+   "0": 0.2
+  },
+  "uid": [
+   13107402
+  ],
+  "tags": []
+ },
+ {
+  "id": 2,
+  "title": [
+   "[Hammer Table]"
+  ],
+  "description": [
+   "While the tables are spaced far enough apart to ensure some measure of privacy, they stand in the center of the skylit atrium.  Like all of the tables in the room, this one is round and spacious, its heavy cast iron base supporting a carved black marble top.  Set at an angle into the stone is a black steel plate inset with five white starstones in the shape of a \"T.\""
+  ],
+  "paths": [
+   "Obvious exits: out"
+  ],
+  "location": "the Moonglae Inn",
+  "wayto": {
+   "0": "out"
+  },
+  "timeto": {
+   "0": 0.2
+  },
+  "uid": [
+   13107401
+  ],
+  "tags": []
+ },
+ {
+  "id": 6,
+  "title": [
+   "[Moonglae Inn, South Lobby]"
+  ],
+  "description": [
+   "Heavy oak doors open into the expansive lobby of the Moonglae Inn.  Greystone walls rise high overhead, where polished ironwood beams reinforce the sharply sloping roof.  Bustling porters usher new guests toward the front desk, while other visitors mingle in small groups, discussing the news of the day.  The room is dominated by a large eahnor planter circled by a round sofa that sits atop a plush red carpet in the center of the room."
+  ],
+  "paths": [
+   "Obvious exits: north, out"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "wayto": {
+   "7": "out"
+  },
+  "timeto": {
+   "7": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
+  "image_coords": [
+   1271,
+   2345,
+   1330,
+   2403
+  ],
+  "tags": [
+   "inn",
+   "meta:forage-sensed",
+   "no forageables"
+  ],
+  "uid": [
+   13107001
+  ]
+ },
+ {
+  "id": 7,
+  "title": [
+   "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+   "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues across the puddles of water accumulated amongst the cobblestones of the court.  The building's mica-flecked granite exterior, worn smooth with age and elements, stands testament to the city's rich and storied history.",
+   "The stonework tracery rosette windows of the Moonglae Inn sparkle in the starlight, casting tiny rainbows of shimmering hues from off their stained glass panes.",
+   "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues from off their stained glass panes.  Surrounding the colorful windows, the building's silvery blue granite exterior is worn smooth from age and the elements.  Against the clean, new looking marbles of the structures nearby, the Inn shows its years."
+  ],
+  "paths": [
+   "Obvious paths: north, northeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "wayto": {
+   "6": "go inn",
+   "8": "northeast",
+   "30714": ";e true"
+  },
+  "timeto": {
+   "6": 0.2,
+   "8": 0.2,
+   "30714": ";e UserVars.mapdb_use_urchins == true and !UserVars.mapdb_urchins_expire.nil? and Time.now.to_i < UserVars.mapdb_urchins_expire and !hidden? and !invisible? ? 0.1 : nil;"
+  },
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+   529,
+   450,
+   551,
+   475
+  ],
+  "tags": [
+   "meta:forage-sensed",
+   "meta:fwi:teleport",
+   "meta:teleport",
+   "stalk of bluebells",
+   "urchin guide moonglae",
+   "urchin-access",
+   "wild sage"
+  ],
+  "uid": [
+   13101017
+  ]
+ },
+ {
+  "id": 8,
+  "title": [
+   "[Ta'Illistim, BriarStone Court]",
+   "[Ta'Illistim, Glamesine Var]",
+   "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+   "The facade of the United Bank of City-States looms in the shadows, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window glowing from within.  Low granite steps lead upwards into the bank.",
+   "The facade of the United Bank of City-States looms skyward, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window.  Low granite steps lead upwards into the bank.",
+   "Beneath a dome of sapphire tiling, the United Bank of City-States looms, presenting an immovable front to the forces of time and weather.  Though the rest of the building is a silvery blue granite, the tall columns that frame the windows are white marble, as are its four peacock shaped gargoyles.  A small flight of steps leads upwards and inside.  Beyond the edge of the var stretches the expanse of Ta'Illistim Green."
+  ],
+  "paths": [
+   "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "wayto": {
+   "7": "southwest"
+  },
+  "timeto": {
+   "7": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+   577,
+   405,
+   599,
+   427
+  ],
+  "tags": [
+   "meta:forage-sensed",
+   "stalk of bluebells",
+   "wild sage"
+  ],
+  "uid": [
+   13101019
+  ]
+ },
+ {
+  "id": 11,
+  "title": [
+   "[United Bank of City-States]"
+  ],
+  "description": [
+   "Rich wine-hued brocade draperies cover the walls of the small teller's room, leaving one to wonder who might be watching from behind.  The rich blue carpeting underfoot muffles the sound of movement as patrons conduct their business in hushed tones and move back out into the lobby.  The teller sits behind a tall counter, flanked by two elven guards."
+  ],
+  "paths": [
+   "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "wayto": {
+   "30714": ";e true"
+  },
+  "timeto": {
+   "30714": ";e Map[7].timeto['30714'].call;"
+  },
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+   576,
+   404,
+   598,
+   426
+  ],
+  "tags": [
+   "bank",
+   "meta:forage-sensed",
+   "no forageables",
+   "urchin guide bank",
+   "urchin-access"
+  ],
+  "uid": [
+   13103004
+  ]
+ },
+ {
+  "id": 86,
+  "title": [
+   "[Emerald Forest, Beech Grove]"
+  ],
+  "description": [
+   "Leaves flutter down like confetti from the thick settlement of beech trees which hems in the path on either side.  A scrawny bush, barren except for a scattering of tiny pale green blossoms, peeks out from behind a mossy pile of boulders."
+  ],
+  "paths": [
+   "Obvious paths: east, west"
+  ],
+  "location": "the Emerald Forest",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "wayto": {
+   "87": "west"
+  },
+  "timeto": {
+   "87": 0.2
+  },
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+   662,
+   1290,
+   672,
+   1300
+  ],
+  "tags": [
+   "acantha leaf",
+   "angelica root",
+   "arbutus berry",
+   "basal moss",
+   "birch bark",
+   "bloodwood twig",
+   "blue trafel mushroom",
+   "blue whortleberry"
+  ],
+  "uid": [
+   13301333
+  ]
+ },
+ {
+  "id": 87,
+  "title": [
+   "[Emerald Forest, Peat Bog]"
+  ],
+  "description": [
+   "The bog is more water than land here, the dark pools stained a rich brown with tannins from the forest.  Long strands of moss drape curtainlike from branches stretched out over a pile of logs that form a crude bridge.  An owl hoots from its hidden perch.",
+   "The bog is more water than land here, the dark pools stained a rich brown with tannins from the forest.  Long strands of moss drape curtainlike from branches stretched out over a pile of logs that form a crude bridge.  A bright green-throated duck gives a raucous call, then splashes off into the dank interior."
+  ],
+  "paths": [
+   "Obvious paths: east, northwest, up"
+  ],
+  "location": "the Emerald Forest",
+  "climate": "temperate",
+  "terrain": "muddy wetlands",
+  "wayto": {
+   "86": "east",
+   "88": "northwest",
+   "9840": "up"
+  },
+  "timeto": {
+   "86": 0.2,
+   "88": 0.2,
+   "9840": 0.2
+  },
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+   635,
+   1289,
+   645,
+   1299
+  ],
+  "tags": [
+   "black peppercorn",
+   "blaestonberries",
+   "blue trafel mushroom",
+   "blue whortleberry",
+   "bolmara lichen",
+   "broken twig",
+   "bur-clover root",
+   "calamia fruit"
+  ],
+  "uid": [
+   13301332
+  ]
+ },
+ {
+  "id": 88,
+  "title": [
+   "[Emerald Forest, Peat Bog]"
+  ],
+  "description": [
+   "A row of willow trees hung with dry moss beards lines the trail, their roots exposed and intertwined.  The green, brackish surface of the marsh is broken by one oily bubble, then another."
+  ],
+  "paths": [
+   "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Emerald Forest",
+  "climate": "temperate",
+  "terrain": "muddy wetlands",
+  "wayto": {
+   "87": "southeast"
+  },
+  "timeto": {
+   "87": 0.2
+  },
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+   611,
+   1262,
+   621,
+   1272
+  ],
+  "tags": [
+   "black peppercorn",
+   "blaestonberries",
+   "blue trafel mushroom",
+   "blue whortleberry",
+   "bolmara lichen",
+   "broken twig",
+   "bur-clover root",
+   "calamia fruit"
+  ],
+  "uid": [
+   13301328
+  ]
+ },
+ {
+  "id": 681,
+  "title": [
+   "[Sylvarraend, Town Commons]"
+  ],
+  "description": [
+   "This corner of the commons is considerably quieter, some distance from the bustle of shops and tavern.  Several small boulders are scattered around the edges of the clearing, small hollows carved from their tops in an attempt to make them a more comfortable seating arrangement.  Several small but brightly burning lanterns line the trail leading southwestward from the square, the illumination shining upon a forge-framed dark pine shop nestled alongside a stack of boulders.",
+   "This corner of the commons is considerably quieter, some distance from the bustle of shops and tavern.  Several small boulders are scattered around the edges of the clearing, small hollows carved from their tops in an attempt to make them a more comfortable seating arrangement.  Several small but brightly burning lanterns line the trail leading southwestward from the square.",
+   "This corner of the commons is considerably quieter, some distance from the bustle of shops and tavern.  Several small boulders are scattered around the edges of the clearing, small hollows carved from their tops in an attempt to make them a more comfortable seating arrangement.  Clumps of bright flowers line the trail leading southwestward from the square."
+  ],
+  "paths": [
+   "Obvious paths: north, east, south"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "wayto": {
+   "682": "south"
+  },
+  "timeto": {
+   "682": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+   242,
+   869,
+   278,
+   905
+  ],
+  "tags": [
+   "fire lily",
+   "meta:forage-sensed",
+   "stalk of bluebells",
+   "wild sage"
+  ],
+  "uid": [
+   13050011
+  ]
+ },
+ {
+  "id": 682,
+  "title": [
+   "[Sylvarraend, Mistglin Wey]"
+  ],
+  "description": [
+   "Three paths come together in this small clearing, ringed by a small but thick stand of modwir trees.  The peaceful silence in this tiny glade is only occasionally interrupted by the forest life as birds, squirrels and other tiny creatures go about their busy lives.  A single lantern illuminates the center of the clearing, providing just enough light to navigate the trails.",
+   "Three paths come together in this small clearing, ringed by a small but thick stand of modwir trees.  The peaceful silence in this tiny glade is only occasionally interrupted by the forest life as birds, squirrels and other tiny creatures go about their busy lives.  Sunlight peeks through the leafy canopy above, spreading a dappled golden hue on all it touches."
+  ],
+  "paths": [
+   "Obvious paths: north, southeast, south, southwest"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "wayto": {
+   "681": "north",
+   "683": "southeast"
+  },
+  "timeto": {
+   "681": 0.2,
+   "683": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+   245,
+   936,
+   281,
+   972
+  ],
+  "tags": [
+   "fire lily",
+   "meta:forage-sensed",
+   "stalk of bluebells",
+   "wild sage"
+  ],
+  "unique_loot": [
+   "twisted stone arch"
+  ],
+  "uid": [
+   13050012
+  ]
+ },
+ {
+  "id": 683,
+  "title": [
+   "[Sylvarraend, Mistglin Wey]"
+  ],
+  "description": [
+   "A small cottage with ivy-twined trellises faces an old dwelling across the trail, each equally tidy and charming.  While the facade of the first is a pleasant mingling of pinewood and maple, the other is composed of smooth river rock and mortar.  Each boasts a roof of thick red clay tiles, the eaves of which offer a convenient roosting place for local birds.",
+   "Two small cottages face one another across the trail, each equally tidy and charming.  While one's walls are made of smooth river rock and mortar, the other's walls have been plastered with creamy colored stucco.  Golden light spills from the windows of both cottages, gently illuminating the night.",
+   "Two small cottages face one another across the trail, each equally tidy and charming.  While one's walls are made of smooth river rock and mortar, the other's walls have been plastered with creamy colored stucco.  Each boasts a thick red clay tile roof, which provides a convenient roosting place for several birds."
+  ],
+  "paths": [
+   "Obvious paths: east, northwest"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "wayto": {
+   "682": "northwest"
+  },
+  "timeto": {
+   "682": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+   315,
+   1013,
+   351,
+   1049
+  ],
+  "tags": [
+   "fire lily",
+   "meta:forage-sensed",
+   "stalk of bluebells",
+   "wild sage"
+  ],
+  "uid": [
+   13050013
+  ]
+ },
+ {
+  "id": 1628,
+  "title": [
+   "[Moonglae Inn, Cloister]"
+  ],
+  "description": [
+   "A covered walkway paved with dark blue slate is brightly lit by an eahnor oil lamp crafted in the shape of a crescent moon.  A row of tall, grey marble pillars separates the walkway from the skylit atrium beyond.  A large oil painting hangs on the dark greystone wall."
+  ],
+  "paths": [
+   "Obvious exits: north, south"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "wayto": {
+   "0": "go atrium",
+   "1629": "north"
+  },
+  "timeto": {
+   "0": 0.2,
+   "1629": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
+  "image_coords": [
+   1148,
+   1959,
+   1209,
+   2018
+  ],
+  "tags": [
+   "meta:forage-sensed",
+   "no forageables"
+  ],
+  "uid": [
+   13107006
+  ]
+ },
+ {
+  "id": 1629,
+  "title": [
+   "[Moonglae Inn, Cloister]"
+  ],
+  "description": [
+   "A covered walkway paved with dark blue slate is brightly lit by an eahnor oil lamp crafted in the shape of a crescent moon.  A row of tall, grey marble pillars separates the walkway from the skylit atrium beyond.  A white marble statue stands against the dark greystone wall."
+  ],
+  "paths": [
+   "Obvious exits: east, south"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "wayto": {
+   "0": "go atrium",
+   "1628": "south"
+  },
+  "timeto": {
+   "0": 0.2,
+   "1628": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
+  "image_coords": [
+   1148,
+   1839,
+   1211,
+   1898
+  ],
+  "tags": [
+   "meta:forage-sensed",
+   "no forageables"
+  ],
+  "uid": [
+   13107007
+  ]
+ },
+ {
+  "id": 2496,
+  "title": [
+   "[Icemule Trace, Forest]"
+  ],
+  "description": [
+   "The lowest branches of the trees have been cut away, allowing visibility further into the woods.  Beyond the first row of pines you can see the dark boles of another row of trees."
+  ],
+  "paths": [
+   "Obvious paths: northeast, east"
+  ],
+  "location": "the southern snowfields",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "wayto": {
+   "2497": "east"
+  },
+  "timeto": {
+   "2497": 0.2
+  },
+  "image": "imt-south_gate-1647231707.png",
+  "image_coords": [
+   289,
+   708,
+   299,
+   718
+  ],
+  "tags": [
+   "angelica root",
+   "bolmara lichen",
+   "bright red teaberry",
+   "broken twig",
+   "crowberry",
+   "frostflower",
+   "frostweed",
+   "handful of pinenuts"
+  ],
+  "uid": [
+   4128013
+  ]
+ },
+ {
+  "id": 2497,
+  "title": [
+   "[Icemule Trace, Forest]"
+  ],
+  "description": [
+   "A solitary wooden signpost stands at the head of a road leading southwest.  It marks the intersection with a smaller trail leading east and west.  Straw has been scattered on the snowy road, helping you maintain your footing as you continue on your way."
+  ],
+  "paths": [
+   "Obvious paths: east, southwest, west"
+  ],
+  "location": "the southern snowfields",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "wayto": {
+   "2496": ";e if (UserVars.mapdb_ice_mode == 'wait') or ((UserVars.mapdb_ice_mode != 'run') and ((XMLData.encumbrance_value > 50) or ((Skills.survival < 50) and not Spell['Haste'].active?))); sleep 0.2; echo 'trying not to slip...'; sleep 4; end; move 'west'"
+  },
+  "timeto": {
+   "2496": 0.2
+  },
+  "image": "imt-south_gate-1647231707.png",
+  "image_coords": [
+   317,
+   707,
+   327,
+   717
+  ],
+  "tags": [
+   "angelica root",
+   "bolmara lichen",
+   "bright red teaberry",
+   "broken twig",
+   "crowberry",
+   "frostflower",
+   "frostweed",
+   "handful of pinenuts"
+  ],
+  "uid": [
+   4128014
+  ]
+ },
+ {
+  "id": 2640,
+  "title": [
+   "[Lake of Tears]"
+  ],
+  "description": [
+   "Currents roil the tepid water, with bits of debris and sand caught in a hectic dance.  Overhead, light filters down in shifting beams, which flicker at the mercy of the water's movement.  A shadowy opening creates a fissure in the rock walls, and below that, the lake descends into darkness."
+  ],
+  "paths": [
+   "Obvious exits: up, down"
+  ],
+  "location": false,
+  "wayto": {},
+  "timeto": {},
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+   37,
+   246,
+   45,
+   254
+  ],
+  "tags": [
+   "meta:forage-sensed",
+   "meta:nomagic",
+   "meta:underwater"
+  ],
+  "uid": [
+   4562039
+  ]
+ },
+ {
+  "id": 2926,
+  "title": [
+   "[Northward Trail, Snow Plains]"
+  ],
+  "description": [
+   "Wintry gales rage freely across the flat expanse of this valley plain, cloaking the land in a gray fog of wind-born snow.  A mountain rises above the plains not far to the south, its snow-laced peak stabbing at the sky.  To the west, a strange dome rises out of the snow, all but concealed by its absence of color and the relentless flurries.  Anything that might be seen to the north is hidden beyond a curtain of swirling snowflakes."
+  ],
+  "paths": [
+   "Obvious paths: north, southwest, west"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "wayto": {
+   "2927": "west"
+  },
+  "timeto": {
+   "2927": 0.2
+  },
+  "image": "imt-east_west_north_gates-1668398077.png",
+  "image_coords": [
+   1052,
+   787,
+   1062,
+   797
+  ],
+  "tags": [
+   "angelica root",
+   "arctic moss",
+   "frostflower",
+   "frostweed",
+   "ironfern root",
+   "meta:forage-sensed",
+   "murdroot",
+   "orange rowanberry"
+  ],
+  "uid": [
+   4560006
+  ]
+ },
+ {
+  "id": 2927,
+  "title": [
+   "[Northward Trail, Snow Plains]"
+  ],
+  "description": [
+   "A strange, crystalline dome rises up out of the snow like a giant bubble, its surface a frosted white that sparkles in the light.  All round it, snow is piled in drifts that vary in depth, some reaching halfway up the side which is a respectable distance.  The storm sends sheets of flurries dancing around the structure, like frenzied participants in a wild ritual."
+  ],
+  "paths": [
+   "Obvious paths: east"
+  ],
+  "location": "the Crystal Dome, outside the glacier-locked town of Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "wayto": {
+   "2926": "east"
+  },
+  "timeto": {
+   "2926": 0.2
+  },
+  "image": "imt-east_west_north_gates-1668398077.png",
+  "image_coords": [
+   1024,
+   788,
+   1034,
+   798
+  ],
+  "tags": [
+   "angelica root",
+   "arctic moss",
+   "frostflower",
+   "frostweed",
+   "ironfern root",
+   "meta:forage-sensed",
+   "murdroot",
+   "orange rowanberry"
+  ],
+  "check_location": true,
+  "uid": [
+   4549254
+  ]
+ },
+ {
+  "id": 4136,
+  "title": [
+   "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+   "You are surrounded by trees.  Trees in front of you, trees behind you.  Trees to the right and trees to the left.  Never before in your life have you seen so many trees."
+  ],
+  "paths": [
+   "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "wayto": {},
+  "timeto": {},
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+   323,
+   1102,
+   333,
+   1112
+  ],
+  "tags": [
+   "acantha leaf",
+   "angelica root",
+   "blue trafel mushroom",
+   "blue whortleberry",
+   "blueberries",
+   "bolmara lichen",
+   "bright red cranberry",
+   "bright red teaberry"
+  ],
+  "uid": [
+   -9054,
+   -9053,
+   -9052
+  ]
+ },
+ {
+  "id": 9840,
+  "title": [
+   "[Emerald Forest, Mound]"
+  ],
+  "description": [
+   "Tall grasses have taken advantage of this small clearing, growing thickly and moving as one green, murmuring wave in the gusting wind.  A circular flattened patch remains where some large creature rested not too long ago."
+  ],
+  "paths": [
+   "Obvious paths: east, northwest, down"
+  ],
+  "location": "the Emerald Forest",
+  "climate": "temperate",
+  "terrain": "hilly",
+  "wayto": {
+   "87": "down"
+  },
+  "timeto": {
+   "87": 0.2
+  },
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+   664,
+   1263,
+   674,
+   1273
+  ],
+  "tags": [
+   "ambrominas leaf",
+   "angelica root",
+   "birch bark",
+   "blaestonberries",
+   "blaestonberry blossom",
+   "bloodwood twig",
+   "blue trafel mushroom",
+   "bolmara lichen"
+  ],
+  "uid": [
+   13301329
+  ]
+ },
+ {
+  "id": 18011,
+  "title": [
+   "[Public Lockers]"
+  ],
+  "description": [
+   "You are standing in a small stall whose facing wall is filled with an array of small, secured lockers.  One of the lockers has been removed for you and is sitting on the counter in front of you."
+  ],
+  "paths": [
+   "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "wayto": {},
+  "timeto": {},
+  "tags": [
+   "meta:exit:go opening:previous",
+   "meta:locker",
+   "meta:map:multi-uid"
+  ],
+  "uid": [
+   5001101,
+   5001102,
+   5001103,
+   5001104,
+   5001105,
+   5001106
+  ]
+ },
+ {
+  "id": 30714,
+  "title": [
+   "[Ta'Illistim - Urchin Hideout]"
+  ],
+  "description": [
+   "This is a fake room used to hold wayto/timeto for urchin guides."
+  ],
+  "paths": [
+   "Obvious exits: bwahaha"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+   "7": "urchin guide moonglae",
+   "11": "urchin guide bank"
+  },
+  "timeto": {
+   "7": ";e !(Script.list.map(&:name) & %w{go2 route2}).empty? ? 0.1 : nil;",
+   "11": ";e Map[30714].timeto['7'].call;"
+  },
+  "tags": [
+   "meta:map:virtual room",
+   "urchin-hideout"
+  ]
+ }
+]

@@ -1,0 +1,43 @@
+{
+  "id": 18081,
+  "uid": [
+    682008
+  ],
+  "title": [
+    "[Wizard Guild, Steps]"
+  ],
+  "description": [
+    "The narrow channel feels as enclosed as a chimney and is almost as sooty.  The rock walls around you are uncomfortably warm to the touch, and the widely spaced torches shed little light on the seemingly never-ending steps."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      269,
+      402,
+      333,
+      463
+    ]
+  },
+  "exits": [
+    {
+      "to": 1970,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 18108,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

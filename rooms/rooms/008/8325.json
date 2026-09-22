@@ -1,0 +1,44 @@
+{
+  "id": 8325,
+  "uid": [
+    12031
+  ],
+  "title": [
+    "[Spider Temple, Entrance]"
+  ],
+  "description": [
+    "You come upon the entrance to the Great Temple of Arachne, the Spider Goddess, whose fearsome likeness provides the plan for the layout of the temple.  Set above the ironbound oaken doors leading into the forbidding black basalt structure are eight moonstones arrayed in dual rows of four.  Representing eyes, they seem to glare down at you with evil intent and a peculiar, insatiable greed."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Lower Trollfang",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      906,
+      797,
+      916,
+      807
+    ]
+  },
+  "exits": [
+    {
+      "to": 8324,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8326,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

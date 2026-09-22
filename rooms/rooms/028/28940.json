@@ -1,0 +1,79 @@
+{
+  "id": 28940,
+  "uid": [
+    7118398
+  ],
+  "title": [
+    "[Bushybrow's Collectibles]"
+  ],
+  "description": [
+    "Despite the chaos outside, the interior of this shop is still and quiet.  The ambient noise is muffled by the stacks and stacks of misshapen crates piled high against the outer walls, and the wooden plank floor underfoot is made of sturdy beams that don't make a sound when trod upon.  A large glass-topped table stands near the center of the space, remarkably clean given the constant bite of salt in the air."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "pawn",
+    "pawnshop",
+    "trash",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:copper-bound rough oak barrel"
+  ],
+  "exits": [
+    {
+      "to": 28883,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28941,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

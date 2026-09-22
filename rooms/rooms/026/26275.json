@@ -1,0 +1,36 @@
+{
+  "id": 26275,
+  "title": [
+    "[Lich Citadel, Darkway]"
+  ],
+  "description": [
+    "The citadel opens up into a massive chamber, where shadows eerily shift from wall to wall.  A low, humming sound reverberates from somewhere close by."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      1251,
+      924,
+      1277,
+      951
+    ]
+  },
+  "exits": [
+    {
+      "to": 26274,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26290,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

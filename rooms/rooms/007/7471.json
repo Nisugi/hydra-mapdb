@@ -1,0 +1,130 @@
+{
+  "id": 7471,
+  "uid": [
+    94014
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel twists and turns, undulating through the surrounding rock.  The floor, walls and low ceiling are irregular but smooth, as if something had passed this way many times to wear away any jagged edges.  The dim green light given off by patches of glowing lichen shrouds the tunnel in odd shadows that dance and waver before your eyes."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      914,
+      959,
+      926,
+      971
+    ]
+  },
+  "exits": [
+    {
+      "to": 7470,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7472,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7474,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

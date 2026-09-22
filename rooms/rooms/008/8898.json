@@ -1,0 +1,102 @@
+{
+  "id": 8898,
+  "uid": [
+    7113
+  ],
+  "title": [
+    "[Wehnimer's, South Wharf]"
+  ],
+  "description": [
+    "Dockworkers curse you and each other as they carry their loads from the great trade ships to the warehouses of Wehnimer's Landing.  Intermixed with the dockworkers are the crews of ships from various exotic and faraway ports."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy sea water",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide star",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      1053,
+      525,
+      1091,
+      563
+    ]
+  },
+  "exits": [
+    {
+      "to": 246,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8899,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    },
+    {
+      "to": 23178,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 23492,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 23493,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

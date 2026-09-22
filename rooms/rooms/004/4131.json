@@ -1,0 +1,50 @@
+{
+  "id": 4131,
+  "uid": [
+    35020
+  ],
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "One end of a grey arch reaches up toward the ceiling, its even planes and distinct corners obviously hewn by some intelligent hand wielding tools.  It looks as though a second, smaller bubble had formed at one time inside the one that forms the cavern, and someone carved away all of it but this arch.  You gaze nervously at the smaller bubbles plopping in the lava below and wonder how often such large bubbles form."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Glatoph",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      268,
+      385,
+      278,
+      395
+    ]
+  },
+  "exits": [
+    {
+      "to": 4130,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4132,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7902,
+      "kind": "climb",
+      "cmd": "climb arch",
+      "cost": 0.2
+    }
+  ]
+}

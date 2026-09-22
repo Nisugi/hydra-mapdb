@@ -1,0 +1,74 @@
+{
+  "id": 1890,
+  "uid": [
+    3003096
+  ],
+  "title": [
+    "[Company Store, Jeweler]"
+  ],
+  "description": [
+    "Everything in the room shines and sparkles in the light.  Even the simple counter manages a fine reflection in its polished glass face.  Your only hint of an actual workplace is a small desk near the back that has a few carefully placed jeweler's tools upon it."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "gemshop",
+    "urchin guide gemshop",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1884,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1891,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

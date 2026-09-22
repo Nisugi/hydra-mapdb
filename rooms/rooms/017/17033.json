@@ -1,0 +1,46 @@
+{
+  "id": 17033,
+  "uid": [
+    254036
+  ],
+  "title": [
+    "[Warrior Guild Basement]"
+  ],
+  "description": [
+    "Steep stairs have been hewn out of the rough stone walls, and lead up out of the basement.  Pitch-covered torches are set in sconces along the wall, providing light.  An odd hissing can be heard from the south, coming at sporadic intervals.  Wet footprints lead up the stairs, and disappear."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1416,
+      307,
+      1437,
+      328
+    ]
+  },
+  "exits": [
+    {
+      "to": 17032,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 17039,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17040,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

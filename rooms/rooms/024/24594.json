@@ -1,0 +1,49 @@
+{
+  "id": 24594,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "The path widens abruptly as it meets the thick green grass of the meadow.  Occasional trees dot the landscape, colorful silken tents pitched among them like brightly hued flowers.  A carved stone bench sits beneath a nearby rose-covered arbor, providing a cool and shady resting place from the bright sunlight.",
+    "The path widens abruptly as it meets the thick green grass of the meadow.  Occasional trees dot the landscape, colorful silken tents pitched among them like brightly hued flowers.  A carved stone bench sits beneath a nearby rose-covered arbor, providing a quiet resting place from which to enjoy the shimmering night sky."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      181,
+      279,
+      202,
+      300
+    ]
+  },
+  "exits": [
+    {
+      "to": 24593,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24596,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24601,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24635,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

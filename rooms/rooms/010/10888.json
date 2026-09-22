@@ -1,0 +1,100 @@
+{
+  "id": 10888,
+  "uid": [
+    5007200
+  ],
+  "title": [
+    "[Fleet Captain's Yard]"
+  ],
+  "description": [
+    "This small yard is bounded on the east by the walls of the Captain's Quarters, on the west by a reed-lined creek, and on the northeast by the tall stucco wall of the River's Rest Hoosegow.  A rabbit hutch stands against the wall of the Captain's Quarters.  A pathway leads north between the creek and the Hoosegow wall.  The fetid smell of the slow-moving creek water competes with the acrid smell of the hutch.  The moons glint off the surface of the creek.",
+    "This small yard is bounded on the east by the walls of the Captain's Quarters, on the west by a reed-lined creek, and on the northeast by the tall stucco wall of the River's Rest Hoosegow.  A rabbit hutch stands against the wall of the Captain's Quarters.  A pathway leads north between the creek and the Hoosegow wall.  The fetid smell of the slow-moving creek water competes with the acrid smell of the hutch."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright orange",
+    "bright red teaberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "kylan berry",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "round yuzu",
+    "small coconut",
+    "small green quenepas",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yellow clover blossom"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1385,
+      926,
+      1408,
+      949
+    ]
+  },
+  "exits": [
+    {
+      "to": 10887,
+      "kind": "go",
+      "cmd": "go quarters",
+      "cost": 0.2
+    },
+    {
+      "to": 10889,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17680,
+      "kind": "other",
+      "cmd": "crawl hutch",
+      "cost": 1.0
+    }
+  ]
+}

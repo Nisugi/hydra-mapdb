@@ -1,0 +1,35 @@
+{
+  "id": 25514,
+  "uid": [
+    12101016
+  ],
+  "title": [
+    "[The Firebird, Upper Deck]"
+  ],
+  "description": [
+    "Covered by an arced ceiling of transparent glaes, the sternmost portion of the upper deck is shielded from the elements.  Several chairs and tables laze underneath the faceted dome, forming a small enclave away from the bustle of the rest of the ship.  Some smooth wooden stairs form a wide path up to the smaller quarterdeck."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Aboard an Airship",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25505,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25515,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

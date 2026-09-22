@@ -1,0 +1,175 @@
+{
+  "id": 228,
+  "uid": [
+    7120
+  ],
+  "title": [
+    "[Town Square Central]"
+  ],
+  "description": [
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end of the space, an old well, with moss-covered stones and a craggy roof, is shaded by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, southwest, west, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "ayana leaf",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "node",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "supernode",
+    "town",
+    "tsc",
+    "urchin guide tsc",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "meta": [
+    "mapcategory:Towns",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Town Map",
+    "mapshortname:Wehnimer's Landing",
+    "teleport:fwi",
+    "trashcan:round silver-banded barrel"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      277,
+      615,
+      313,
+      651
+    ]
+  },
+  "exits": [
+    {
+      "to": 227,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 1.0
+    },
+    {
+      "to": 229,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 1.0
+    },
+    {
+      "to": 276,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 1.0
+    },
+    {
+      "to": 282,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 1.0
+    },
+    {
+      "to": 284,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 1.0
+    },
+    {
+      "to": 285,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 1.0
+    },
+    {
+      "to": 7562,
+      "kind": "go",
+      "cmd": "go old well",
+      "cost": 0.2
+    },
+    {
+      "to": 8665,
+      "kind": "go",
+      "cmd": "go oak tree",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

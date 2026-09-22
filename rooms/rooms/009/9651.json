@@ -1,0 +1,55 @@
+{
+  "id": 9651,
+  "uid": [
+    2167126
+  ],
+  "title": [
+    "[Plateau's Edge, Steep Path]"
+  ],
+  "description": [
+    "Slick and frozen terrain prevents passage back up the cliff.  The path continues sharply down the edge of the plateau, ending abruptly several feet above the ground of the frozen slopes below."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      844,
+      26,
+      878,
+      60
+    ]
+  },
+  "exits": [
+    {
+      "to": 6135,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "jump ledge"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 30.0
+    }
+  ]
+}

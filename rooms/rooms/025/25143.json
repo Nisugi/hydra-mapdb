@@ -1,0 +1,40 @@
+{
+  "id": 25143,
+  "uid": [
+    -7105189
+  ],
+  "title": [
+    "[Reim Castle, Treasure Vault]"
+  ],
+  "description": [
+    "A rectangular platform offers little visibility into the depth of the dimly lit chambers below.  Nearby, torches flicker along the walls, the ethereal flames casting dancing shadows across stacks of countless bars of gold branded with the emblem of Reim."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      374,
+      111,
+      386,
+      122
+    ]
+  },
+  "exits": [
+    {
+      "to": 24895,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "go vortex"
+        },
+        {
+          "move": "go vortex"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

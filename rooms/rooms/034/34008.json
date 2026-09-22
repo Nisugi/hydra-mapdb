@@ -1,0 +1,37 @@
+{
+  "id": 34008,
+  "uid": [
+    8100125
+  ],
+  "title": [
+    "[Dollhouse, Corridor]"
+  ],
+  "description": [
+    "Butterflies and daisies paint the white walls with vibrant hues, their tiny designs illuminated by a pair of brightly burning glass globes set at either end of the long corridor.  Sashes laden with pins flank a polished bronze mirror that is hung upon the northern wall, while a small table beneath holds a jeweler's display rack and a cobalt blue blown glass bowl.  A small rug of verdant green muffles the sound of passage leading to a narrow staircase."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34007,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 34009,
+      "kind": "go",
+      "cmd": "go bedroom door",
+      "cost": 0.2
+    },
+    {
+      "to": 34011,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

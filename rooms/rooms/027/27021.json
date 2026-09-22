@@ -1,0 +1,108 @@
+{
+  "id": 27021,
+  "title": [
+    "[Lake of Fear, Southern Shore]"
+  ],
+  "description": [
+    "Ice crystals glitter in the sunlight all along the frozen shoreline.  An endless expanse of ice stretches into the northern distance, broken only sporadically by strange, dark shapes.",
+    "Ice crystals glitter in the moonlight all along the frozen shoreline.  An endless expanse of ice stretches into the northern darkness, broken only sporadically by strange, shadowy shapes."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Vaalor",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 10119,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 27022,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 25653,
+  "uid": [
+    281051
+  ],
+  "title": [
+    "[Bard Guild, Backstage]"
+  ],
+  "description": [
+    "The backstage area is crowded with scenery flats and miscellaneous props and furnishings.  Overhead, a lattice of catwalks, from which hangs a number of ropes and pulleys, crisscrosses in a dizzy pattern.  Along one wall, beside the fly gallery and the pin rail, an open painted door leads into a vestibule.  A wooden door with a sign on it proclaiming it to be the dressing room nestles in the corner."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 12338,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25654,
+      "kind": "go",
+      "cmd": "go painted door",
+      "cost": 0.2
+    },
+    {
+      "to": 30881,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 30882,
+      "kind": "go",
+      "cmd": "go left",
+      "cost": 0.2
+    }
+  ]
+}

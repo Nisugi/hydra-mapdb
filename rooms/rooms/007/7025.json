@@ -1,0 +1,64 @@
+{
+  "id": 7025,
+  "uid": [
+    45115
+  ],
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "Two huge D-shaped towers here form a massive gatehouse which guards the entrance to the inner keep.  The walls here are much heavier in their construction than the outer curtain, and much higher.  To the north is the much smaller gatehouse."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bright red cranberry",
+    "cuctucae berry",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      488,
+      509,
+      498,
+      519
+    ]
+  },
+  "exits": [
+    {
+      "to": 7000,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7026,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7031,
+      "kind": "go",
+      "cmd": "go gatehouse",
+      "cost": 0.2
+    }
+  ]
+}

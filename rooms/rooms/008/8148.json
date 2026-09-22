@@ -1,0 +1,66 @@
+{
+  "id": 8148,
+  "uid": [
+    386072
+  ],
+  "title": [
+    "[Shrine of Leya, South Niche]"
+  ],
+  "description": [
+    "The area within the alcove is almost completely overtaken by the sculpture it harbors.  An ensemble of two figures, the monument bears a carved legend across its base that reads \"Mercy\".  Appropriately, the soft illumination bathing the statuary promotes a meditative ambiance."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the distant forest",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1091,
+      100,
+      1101,
+      110
+    ]
+  },
+  "exits": [
+    {
+      "to": 8145,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8147,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8149,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25890,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search sculpture"
+        },
+        {
+          "put": "pull latch"
+        },
+        {
+          "move": "go staircase"
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

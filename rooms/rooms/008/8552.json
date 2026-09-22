@@ -1,0 +1,81 @@
+{
+  "id": 8552,
+  "uid": [
+    10104
+  ],
+  "title": [
+    "[Mountain Path]"
+  ],
+  "description": [
+    "A huge pile of rubble has tumbled down from the surrounding cliff face and appears to effectively block further travel to the north.  To the southeast, a narrow road leads up and then twists out of sight around a large boulder."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "alder bark",
+    "angelica root",
+    "birch bark",
+    "bolmara lichen",
+    "cherry peppers",
+    "deep purple shockroot",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "fresh catnip",
+    "golden aster",
+    "hop flowers",
+    "ironfern root",
+    "leek",
+    "lemon balm",
+    "lemon verbena",
+    "peppermint leaves",
+    "pepperthorn root",
+    "rhubarb",
+    "round grumbleberry",
+    "shallot",
+    "small apple",
+    "small watermelon",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "sprig of rooibos",
+    "stalk of bluebells",
+    "stalk of celery",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "wild pink geranium",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1265,
+      732,
+      1275,
+      742
+    ]
+  },
+  "exits": [
+    {
+      "to": 8551,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rubble"
+        }
+      ],
+      "cost": 5.2
+    },
+    {
+      "to": 8553,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

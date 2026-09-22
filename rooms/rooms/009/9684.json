@@ -1,0 +1,69 @@
+{
+  "id": 9684,
+  "uid": [
+    14051002
+  ],
+  "title": [
+    "[Morvaeyn's Armory]"
+  ],
+  "description": [
+    "Despite the banner reading, \"Morvaeyn's Armory\" on the far wall, there is no actual armor on display in this shop.  Instead, the chiseled stone-block walls feature a panoramic showcase of the wares, rendered in vivid paints.  Hanging above each painting, a large sign boasts the benefits and values of the individual armament."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "armor",
+    "armorshop",
+    "fire lily",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4662,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

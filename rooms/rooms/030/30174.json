@@ -1,0 +1,39 @@
+{
+  "id": 30174,
+  "uid": [
+    -7117051
+  ],
+  "title": [
+    "[Frigate, Helm]"
+  ],
+  "description": [
+    "A woodworking masterpiece, a silver-hued zebrawood wheel is positioned behind a polished teak binnacle, the housing for the ship's compass, with a wooden capstan bringing up the rear of the deck at the ship's helm.  Stacked next to a wooden door are a collection of silver and gold serving platters with accompanying utensils."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ships",
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      314,
+      983,
+      329,
+      998
+    ]
+  },
+  "exits": [
+    {
+      "to": 30166,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30175,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

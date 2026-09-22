@@ -1,0 +1,51 @@
+{
+  "id": 17951,
+  "uid": [
+    264024
+  ],
+  "title": [
+    "[Rogue Guild, Conservatory]"
+  ],
+  "description": [
+    "Tangled vines and overgrown shrubs provide a home for the stray birds and small mammals that have made their way through the broken glass into the conservatory.  The singing and chattering provide background noise for the members training on the mats laid out on the gravel paths below.  A large fig tree has broken its way through the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "tags": [
+    "rogue guild footpads",
+    "rogue guild masters",
+    "rogue guild trainer",
+    "silver-cost:17645:500"
+  ],
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      489,
+      145,
+      519,
+      169
+    ]
+  },
+  "exits": [
+    {
+      "to": 17950,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17952,
+      "kind": "climb",
+      "cmd": "climb tree",
+      "cost": 0.2
+    },
+    {
+      "to": 30763,
+      "kind": "other",
+      "cmd": "ask sneck about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

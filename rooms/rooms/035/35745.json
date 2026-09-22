@@ -1,0 +1,45 @@
+{
+  "id": 35745,
+  "uid": [
+    7150518
+  ],
+  "title": [
+    "[The Kyusharu, Main Deck]"
+  ],
+  "description": [
+    "Fractured oak planks converge at a recess beneath the deteriorating aftercastle, where a heavy hatch hangs askew, its iron hinges corroded and yielding.  Lanterns suspended from chains anchored in the wood have long since burnt out, but they sway on the breeze, creakily protesting the state of the ship.  A silver disc depicting a white falcon made from inlaid pearl is fastened to the wood above the hatchway, but one of its mounting nails has corroded away, leaving it hanging at a sad angle."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1000,
+      2440,
+      1080,
+      2520
+    ]
+  },
+  "exits": [
+    {
+      "to": 35731,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 35746,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

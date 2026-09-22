@@ -1,0 +1,50 @@
+{
+  "id": 4126,
+  "uid": [
+    35017
+  ],
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "You're standing at one end of a huge domed cavern that could easily swallow Wehnimer's Landing with elbow room to spare.  The ceiling curves up smoothly, suggesting that the cavern was formed as a bubble that solidified.  A ledge runs around to the north and southeast.  About three manheights below your feet is a pool of molten rock, a deep orange webwork of cracks around solid chunks of black crust."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, up"
+  ],
+  "location": "Glatoph",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      160,
+      440,
+      170,
+      450
+    ]
+  },
+  "exits": [
+    {
+      "to": 4125,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 4127,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4133,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

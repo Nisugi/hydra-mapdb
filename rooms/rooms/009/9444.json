@@ -1,0 +1,44 @@
+{
+  "id": 9444,
+  "uid": [
+    13014107
+  ],
+  "title": [
+    "[Zaratek Hall, Corridor]"
+  ],
+  "description": [
+    "Encased within thick panes of imported Terasian glaes, trophies from many an adventurer's journeys sit out on display.  A thick fringed runner in hues of russet and olive leads up to a pair of faux-oak doors.  Fragrant smoke drifts from the open portal, dissipating as it meets the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      197,
+      2457,
+      262,
+      2520
+    ]
+  },
+  "exits": [
+    {
+      "to": 9442,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16913,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

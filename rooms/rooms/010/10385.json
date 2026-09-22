@@ -1,0 +1,41 @@
+{
+  "id": 10385,
+  "uid": [
+    14102002
+  ],
+  "title": [
+    "[Malwith Inn, Front Desk]"
+  ],
+  "description": [
+    "A large desk surrounds a small office area.  Books, scrolls and other odds and ends litter a table behind the desk.  A grand staircase leads up to the second floor, its railings ending in stylized dragon claws."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "inn"
+  ],
+  "exits": [
+    {
+      "to": 10384,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10386,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10389,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

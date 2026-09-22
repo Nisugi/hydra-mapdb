@@ -1,0 +1,47 @@
+{
+  "id": 33080,
+  "uid": [
+    7134060
+  ],
+  "title": [
+    "[Flotilla, Tenebrous Walk]"
+  ],
+  "description": [
+    "Built up defenses along the outer edge of the flotilla cast twisting shadows across the wide expanse of moonlit deck.  Several empty bottles line up near the docking slip for a derelict carrack listing heavily to port, and a series of painted buoys dangles near the open waters at the flotilla's center.  At the center of the deck is a whimsical sea glass inlay depicting a drowned moose snuggling with a siren."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      254,
+      233,
+      267,
+      246
+    ]
+  },
+  "exits": [
+    {
+      "to": 33077,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33081,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33095,
+      "kind": "go",
+      "cmd": "go derelict carrack",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 17419,
+  "uid": [
+    262012
+  ],
+  "title": [
+    "[Rogue Guild, Court]"
+  ],
+  "description": [
+    "Several crates stacked against the north wall serve as low tables for the short folk that work here.  A group of dwarves stand about a box, holding the hand of a lone elf down on one of the crates.  Given the worried expression the elf is wearing and the flashing blade held by one of the dwarves, it is easy to guess that a game of mumbletypeg is going on."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild footpads",
+    "rogue guild masters"
+  ],
+  "image": {
+    "file": "ti-rogue_guild-1486041266.png",
+    "rect": [
+      1094,
+      771,
+      1217,
+      856
+    ]
+  },
+  "exits": [
+    {
+      "to": 17397,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17421,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17433,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30767,
+      "kind": "other",
+      "cmd": "ask zardak about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

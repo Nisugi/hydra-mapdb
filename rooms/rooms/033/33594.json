@@ -1,0 +1,40 @@
+{
+  "id": 33594,
+  "uid": [
+    7101012
+  ],
+  "title": [
+    "[Vornavis, Hill Top]"
+  ],
+  "description": [
+    "Nearly as tall as the upper branches of the surrounding forest, the hill top provides an excellent view of the surrounding area.  To the south, the river tumbles by at a stately pace through the berry-laden underbrush, while to the east the trees pay homage to a grassy plain where a dilapidated stone castle basks in the sun.  Though steep, the slope provides access to a game trail that heads back into the Cairnfang Forest."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Vornavis",
+  "terrain": "grassland",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      202,
+      225,
+      252,
+      273
+    ]
+  },
+  "exits": [
+    {
+      "to": 33593,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    },
+    {
+      "to": 33595,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 23779,
+  "uid": [
+    8213014
+  ],
+  "title": [
+    "[Duskruin Arena, Descent]"
+  ],
+  "description": [
+    "Forking in several directions, this tunnel appears to have been carved directly into the mountainside, the walls still baring the scars from the picks and tools used.  Flickering iron sconces provide an uneven light, causing shadows to dance lazily across the slate floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest, up, down"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "tags": [
+    "gladiator"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1423,
+      380,
+      1443,
+      398
+    ]
+  },
+  "exits": [
+    {
+      "to": 23767,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 23780,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23781,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23782,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23783,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 24546,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    }
+  ]
+}

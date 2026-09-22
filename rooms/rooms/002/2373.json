@@ -1,0 +1,74 @@
+{
+  "id": 2373,
+  "uid": [
+    735002
+  ],
+  "title": [
+    "[Icemule, Enchantment Alley]"
+  ],
+  "description": [
+    "Wizards of every shape and size move quietly through the shops of Enchantment Alley clutching potion bottles, bundled spell components, or merely wands and staffs.  Nervous glances cut from the city wall to the other mages, as if unsure which constitutes the greater threat."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      271,
+      253,
+      291,
+      273
+    ]
+  },
+  "exits": [
+    {
+      "to": 2372,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2374,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15858,
+      "kind": "go",
+      "cmd": "go boutique",
+      "cost": 0.2
+    },
+    {
+      "to": 15859,
+      "kind": "go",
+      "cmd": "go store",
+      "cost": 0.2
+    },
+    {
+      "to": 15860,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    },
+    {
+      "to": 15861,
+      "kind": "go",
+      "cmd": "go stucco shop",
+      "cost": 0.2
+    },
+    {
+      "to": 15862,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    }
+  ]
+}

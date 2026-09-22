@@ -1,0 +1,81 @@
+{
+  "id": 10846,
+  "uid": [
+    2101009
+  ],
+  "title": [
+    "[River's Rest, Merchants' Walk]"
+  ],
+  "description": [
+    "The swift sound of rushing water is barely audible for the shops which nestle along the riverbank.  Sturdily built to withstand the elements, Felinium's Fur Emporium, Diamante's Gemshop and Hortinger's Armory stand open to those with silver to spare.  The flow of traffic thins to the east, although many who leave the shops here continue on that way, most with smiles but a few grumbling about thieves.  The sound of laughter occasionally drifts in from the north."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2606,
+      1160,
+      2644,
+      1199
+    ]
+  },
+  "exits": [
+    {
+      "to": 10840,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10847,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10850,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10851,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10934,
+      "kind": "go",
+      "cmd": "go emporium",
+      "cost": 0.2
+    },
+    {
+      "to": 10935,
+      "kind": "go",
+      "cmd": "go gemshop",
+      "cost": 0.2
+    },
+    {
+      "to": 10937,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 10939,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

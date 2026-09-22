@@ -1,0 +1,54 @@
+{
+  "id": 21890,
+  "title": [
+    "[Talador, East Circle]"
+  ],
+  "description": [
+    "Vibrant-hued pavilions and merchant carts line the stone road, hawkers displaying their wares to tourists, citizens and town guards alike.  An armored knight stands to the side of the road, brushing down the side of his dapple grey horse."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      368,
+      158,
+      395,
+      183
+    ]
+  },
+  "exits": [
+    {
+      "to": 21879,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21887,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21891,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21892,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21894,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    }
+  ]
+}

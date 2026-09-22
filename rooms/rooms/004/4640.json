@@ -1,0 +1,58 @@
+{
+  "id": 4640,
+  "uid": [
+    14050007
+  ],
+  "title": [
+    "[Cysaegir, Treetop Platform]"
+  ],
+  "description": [
+    "Thick oak beams are nailed together to form a wide platform suspended from the trunks of massive trees.  The planks are cut to split around a particularly wide one and both sections wind further into the shadowy forest.  A sturdy rope bridge leads over a rushing waterfall towards an aqueduct, while a single oak plank leads away from the main platform and comes to rest on the edge of a hollowed out opening in a nearby tree."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      310,
+      392,
+      331,
+      413
+    ]
+  },
+  "exits": [
+    {
+      "to": 4641,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4642,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9673,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 9674,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    }
+  ]
+}

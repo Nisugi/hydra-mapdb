@@ -1,0 +1,46 @@
+{
+  "id": 21190,
+  "uid": [
+    265015
+  ],
+  "title": [
+    "[Rogue Guild, Training Nexus]"
+  ],
+  "description": [
+    "Several iron-grated drains are recessed into the uneven cobblestone of the floor and surround a raised platform that is covered in steel sheets.  Large alcoves lined in white and black stones are arranged around the north, west, and southern walls, their depths illuminated by candles from within.  Surrounding the eastern passage into the sewers is an old iron ladder, that leads up, and a rough oak table that is heavily scarred with jagged gashes."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "rogue guild footpads",
+    "rogue guild masters",
+    "rogue guild trainer"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      536,
+      603,
+      552,
+      620
+    ]
+  },
+  "exits": [
+    {
+      "to": 19390,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21188,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

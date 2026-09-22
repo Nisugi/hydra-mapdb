@@ -1,0 +1,34 @@
+{
+  "id": 33738,
+  "uid": [
+    3003129
+  ],
+  "title": [
+    "[Aquamarine Lounge, Cubbyhole]"
+  ],
+  "description": [
+    "Dark grey stone lines the floor of this narrow, cramped space which ends abruptly at a curtain.  A small brass lever is set inside a small, recessed space in the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 33737,
+      "kind": "other",
+      "cmd": "pull brass lever",
+      "cost": 0.2
+    },
+    {
+      "to": 33739,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

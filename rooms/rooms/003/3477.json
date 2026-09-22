@@ -1,0 +1,116 @@
+{
+  "id": 3477,
+  "uid": [
+    4044132
+  ],
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "There is scarcely enough room to move about in this frightfully cold recess.  Yet, it is evident that something ventures into this tiny area.  Your breath forms a frosty mist as you shudder violently at the thought of being trapped in this confining space."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      852,
+      669,
+      862,
+      679
+    ]
+  },
+  "exits": [
+    {
+      "to": 3476,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

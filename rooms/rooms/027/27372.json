@@ -1,0 +1,59 @@
+{
+  "id": 27372,
+  "uid": [
+    18028002
+  ],
+  "title": [
+    "[Sunholm, Courtyard of the Keep]"
+  ],
+  "description": [
+    "Stretching below a tall stone keep and its pennon-streaming turrets is the inner ward, host to numerous smaller structures built upon its sett stones.  To the south is a low stone kitchen, smoke rising from its many small chimneys, with a short stone-ringed stove outside its wall.  At the center of the courtyard sits a series of sett stone benches that ring a grand weeping willow, their masonry matching the steps of the keep's doors.  Beneath the tall curtain wall to the north is an open training yard."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "mho:The Order of the Azure Sun"
+  ],
+  "image": {
+    "file": "sunholm.png",
+    "rect": [
+      302,
+      348,
+      377,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 27371,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 27373,
+      "kind": "go",
+      "cmd": "go keep",
+      "cost": 0.2
+    },
+    {
+      "to": 27375,
+      "kind": "go",
+      "cmd": "go stables",
+      "cost": 0.2
+    },
+    {
+      "to": 27382,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 17104,
+  "uid": [
+    671001
+  ],
+  "title": [
+    "[Cleric Guild, Landing]"
+  ],
+  "description": [
+    "Walls made of polished and lacquered wood gleam a rich golden brown in the lantern light.  Whorls and swirls of darker grains weave through the whole, joining shadows and sun in an intricate dance.  In the center of the room stand two statues, one male and one female, backs turned but still looking over their shoulders, each watching the other.  They stand upon a wooden base with words carved into the surface.  The soft, rich scent of incense drifts through the air, tickling at the nose."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, west, northwest, up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-cleric_guild-1275417297.png",
+    "rect": [
+      579,
+      196,
+      625,
+      242
+    ]
+  },
+  "exits": [
+    {
+      "to": 6321,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18597,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18598,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18602,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        },
+        {
+          "move": "go annex"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 18603,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18606,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18607,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18728,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

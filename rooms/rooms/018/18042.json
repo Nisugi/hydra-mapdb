@@ -1,0 +1,62 @@
+{
+  "id": 18042,
+  "uid": [
+    687002
+  ],
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "Upward-sweeping arches of stone, impossibly slender yet seemingly ageless, rise overhead to meet around a slender shaft.  Between the stonework, panels of stained and clear glass allow starlight to stream into this roughly triangular room.  The outlines of the three towers of the guildhall are clearly visible, as well."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, out"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      355,
+      835,
+      420,
+      899
+    ]
+  },
+  "exits": [
+    {
+      "to": 18041,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18043,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 18044,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18045,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18046,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

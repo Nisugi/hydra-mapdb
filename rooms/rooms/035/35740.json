@@ -1,0 +1,58 @@
+{
+  "id": 35740,
+  "uid": [
+    7150529
+  ],
+  "title": [
+    "[The Tonbury, Cargo Hold]"
+  ],
+  "description": [
+    "Moldy crates glisten with a thick veneer of briny grime, any clues to their origins lost to time's ravages.  Waterlogged barrels drift, half-submerged, through deep waters that rise and fall with the pounding of the surf outside.  Overhead, slouching beams drip befouled water, dangling the rusted remnants of lantern chains that once lit mildewed steps leading out of the hold.  There is a stale smell to the dark, dank air."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1160,
+      2920,
+      1240,
+      3000
+    ]
+  },
+  "exits": [
+    {
+      "to": 35738,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 35741,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35768,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go hatch"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

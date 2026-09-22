@@ -1,0 +1,50 @@
+{
+  "id": 27000,
+  "uid": [
+    7112001
+  ],
+  "title": [
+    "[Liabo, Sea of Transcendence]"
+  ],
+  "description": [
+    "Soft and ethereal, the protective dome of energy that arcs above the enormous lunar basin ripples with pale blue energy as it rises from the golden tiles that encircle the area.  Beyond the tenebrous light of arcane forces, the sky is an infinite void that is interrupted by startlingly bright starlight that ranges in hue from pure white to yellow and orange.  Nearer at hand, the smooth tiles are interrupted by an illuminated teleportation disk recessed into their smooth bodies."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the surface of Liabo",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "rol:spiritual"
+  ],
+  "image": {
+    "file": "fest-Rings of Lumnis 2022-1649952041.png",
+    "rect": [
+      1471,
+      1393,
+      1485,
+      1405
+    ]
+  },
+  "exits": [
+    {
+      "to": 26999,
+      "kind": "go",
+      "cmd": "go teleportation disk",
+      "cost": 0.2
+    },
+    {
+      "to": 27009,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27010,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

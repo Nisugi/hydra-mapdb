@@ -1,0 +1,41 @@
+{
+  "id": 30642,
+  "uid": [
+    853010
+  ],
+  "title": [
+    "[Landing Hall, Hallway]"
+  ],
+  "description": [
+    "This hallway ends in a small nook, with a small potted tree proudly defending its territory from the polished gold lantern fastened to the wall above it.  Loud laughs can occasionally be heard through an engraved granite arch in the north wall, while the sound of supplies being shuffled can be heard through the oak door in the south wall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 30634,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30637,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30643,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

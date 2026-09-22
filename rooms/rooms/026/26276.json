@@ -1,0 +1,54 @@
+{
+  "id": 26276,
+  "title": [
+    "[Shade Square, Northeast]"
+  ],
+  "description": [
+    "A heavy wooden door bounded by iron-barred windows serves as the entrance into a rock-lined weapon shop.  All manner of undead pass by, their rotting and grotesque forms shambling among a number of multistoried buildings.  Much of this corner of the square is gloomy, shrouded by the shadow of the looming citadel to the south."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      842,
+      421,
+      869,
+      448
+    ]
+  },
+  "exits": [
+    {
+      "to": 25969,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26272,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26274,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26277,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 26286,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

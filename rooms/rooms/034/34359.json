@@ -1,0 +1,50 @@
+{
+  "id": 34359,
+  "uid": [
+    13150414
+  ],
+  "title": [
+    "[Titan's Crown, Tempest Isle]"
+  ],
+  "description": [
+    "Huge mud puddles create slick terrain that makes every step hazardous.  The torrential downpour keeps coming, ensuring that the puddles will never disappear.  A softly glowing hemisphere of bright white zorchar rests on the ground, perfectly aligned with one of the obsidian spires of the large ring at the center of the island."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Stormpeak",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1146,
+      410,
+      1163,
+      429
+    ]
+  },
+  "exits": [
+    {
+      "to": 34354,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    },
+    {
+      "to": 34358,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34361,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

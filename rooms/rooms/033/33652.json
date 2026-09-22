@@ -1,0 +1,52 @@
+{
+  "id": 33652,
+  "uid": [
+    7101173
+  ],
+  "title": [
+    "[Keep Tower, Corridor]"
+  ],
+  "description": [
+    "Thin shafts of light slip through the arrow loops set into the outer walls, their metallic parts missing where some previous looter has tugged them free.  All around, the ashlar walls that line the corridor display the pock-marked appearance of a surface that have been given over to dust and grim.  Slanted arches rise above a light sun-faded oak door and a dark shadowed oak door, which flank the landing."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1456,
+      1326,
+      1502,
+      1371
+    ]
+  },
+  "exits": [
+    {
+      "to": 33651,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33653,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33658,
+      "kind": "go",
+      "cmd": "go shadowed door",
+      "cost": 0.2
+    },
+    {
+      "to": 33662,
+      "kind": "go",
+      "cmd": "go sun-faded door",
+      "cost": 0.2
+    }
+  ]
+}

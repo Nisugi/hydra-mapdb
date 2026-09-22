@@ -1,0 +1,70 @@
+{
+  "id": 3513,
+  "uid": [
+    14100058
+  ],
+  "title": [
+    "[Ta'Vaalor, Aethenireas Wey]"
+  ],
+  "description": [
+    "Several small cottages line the street.  Most are painted a clean white with a deep forest green trim.  Simple shutters are currently wide open on the cottages, their green paint vibrant in the light.  A few of the cottages sport copper guttering along their rooflines.",
+    "Several small cottages line the street.  Most are painted a clean white with a deep forest green trim.  Simple shutters are currently wide open on the cottages, their green paint subdued in the darkness.  A few of the cottages sport copper guttering along their rooflines.",
+    "Several small cottages line the street, their white-painted exteriors marred by streaks of soot and grime.  Across the wey from the cottages, a small shop has succumbed entirely to the fire, its sloped roop collapsed upon its demolished foundation.  Workers diligently pick through the rubble, while a number of guards watch over the area, eyes alert and weapons ready.",
+    "Several small cottages line the street, most painted a clean white with a deep forest green trim.  Across the wey stands a large white limestone building with a flat, tiled roof.  The building boasts wide doulbe doors painted in a dark green hue, next to which is posted a small silver sign.  A tidy herb garden lines the front of the building beneath a row of wide windows.",
+    "Several small cottages line the street, most painted a clean white with a deep forest green trim.  Across the wey stands a large white limestone building with a flat, tiled roof.  The building boasts wide double doors painted in a dark green hue, next to which is posted a small silver sign.  A tidy herb garden lines the front of the building beneath a row of wide windows."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      626,
+      628,
+      659,
+      663
+    ]
+  },
+  "exits": [
+    {
+      "to": 3512,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3514,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10396,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go shop",
+          "when": {
+            "flag": "platinum"
+          }
+        },
+        {
+          "move": "go building",
+          "when": {
+            "otherwise": {
+              "flag": "platinum"
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

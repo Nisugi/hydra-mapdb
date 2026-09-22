@@ -1,0 +1,50 @@
+{
+  "id": 24053,
+  "uid": [
+    104008
+  ],
+  "title": [
+    "[Paupers, Office]"
+  ],
+  "description": [
+    "An opulent, gentleman's haven greets you as you enter the private control center of the House.  Leather-bound books, oil paintings and sportsman's trophies line the walls, the stuffed head of a fearsome black shambler dominating the wall over a large couch.  Easy chairs surround a richly appointed desk under a window."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      444,
+      220,
+      530,
+      277
+    ]
+  },
+  "exits": [
+    {
+      "to": 7985,
+      "kind": "go",
+      "cmd": "go vultite door",
+      "cost": 0.2
+    },
+    {
+      "to": 24054,
+      "kind": "go",
+      "cmd": "go cherry door",
+      "cost": 0.2
+    },
+    {
+      "to": 25648,
+      "kind": "other",
+      "cmd": "tap button",
+      "cost": 0.2
+    }
+  ]
+}

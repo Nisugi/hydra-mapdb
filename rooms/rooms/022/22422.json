@@ -1,0 +1,56 @@
+{
+  "id": 22422,
+  "uid": [
+    13125044
+  ],
+  "title": [
+    "[D'Karz Curraik, Irkuk Quozlav]"
+  ],
+  "description": [
+    "Smooth fitted boards stretch from one end of the room to the other to create a finished ceiling that is hung with thick black iron chains that support bronze lanterns.  Large arches in the east and west lead deeper into the building, while in the center of the room a recessed pit is surrounded by roughly hewn banisters.  Large totems are on display, their carved faces a variety of animals, symbols, and plants.  An enormous modwir door leads out and stands on the opposite side of the room from a ladder that leads to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west, down"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      121,
+      677,
+      182,
+      714
+    ]
+  },
+  "exits": [
+    {
+      "to": 22421,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 22423,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22424,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 22425,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

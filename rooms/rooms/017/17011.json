@@ -1,0 +1,46 @@
+{
+  "id": 17011,
+  "uid": [
+    254005
+  ],
+  "title": [
+    "[Warrior Guild, East Hall]"
+  ],
+  "description": [
+    "The hallway is dark and cool here, illuminated only by a faint glow from the wide wooden archway set into the inner wall.  Pleasant smells of cooking fires and slow-roasted meats meld with the faint scent of sea air and polished stone."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1251,
+      235,
+      1272,
+      255
+    ]
+  },
+  "exits": [
+    {
+      "to": 17009,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17012,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 17021,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

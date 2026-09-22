@@ -1,0 +1,58 @@
+{
+  "id": 30815,
+  "uid": [
+    7138304
+  ],
+  "title": [
+    "[Rapids]"
+  ],
+  "description": [
+    "The rapids careen toward the logging colony below.  Offering a glimpse of a tropical beach, an opening is visible to the side of the rapids.  A thick branch looms overhead with a single vine that may reach the opening."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Atoll",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "alpine violet",
+    "murdroot",
+    "stalk of cattail",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 30816,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "stand"
+        },
+        {
+          "move": "jump"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30817,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_arrival": null
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

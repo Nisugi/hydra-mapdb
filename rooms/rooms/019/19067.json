@@ -1,0 +1,48 @@
+{
+  "id": 19067,
+  "title": [
+    "[Darkstone Bay, Shipside]"
+  ],
+  "description": [
+    "In one direction, the view is completely obscured by the wooden planks of a large ship, the Spitfire, which is anchored alongside the dock area of the bay.  A rope ladder hangs down from one of the covered stowaway boats that is cinched to the side of the ship.  In every other direction, chilly, dark blue water spreads out all around you, and small waves send you bobbing along the surface.  Across the bay, several buildings are visible in the distance, and further out, the open sea is a balmy blue."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest, down"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      451,
+      529,
+      487,
+      567
+    ]
+  },
+  "exits": [
+    {
+      "to": 19066,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23481,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": 2.0
+    },
+    {
+      "to": 23482,
+      "kind": "other",
+      "cmd": "swim northwest",
+      "cost": 2.0
+    },
+    {
+      "to": 23491,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 2.0
+    }
+  ]
+}

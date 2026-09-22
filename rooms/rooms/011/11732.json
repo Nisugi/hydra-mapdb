@@ -1,0 +1,50 @@
+{
+  "id": 11732,
+  "uid": [
+    376070
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Smooth black stone runs from the floor to the ceiling, leaving no evidence of the granite block used to the north in the dungeon hallway.  Claw marks in the floor lead to the skeletal remains of a hand positioned downward and lying halfway out into the hallway from behind an iron door.  The hallway opens up to the east into a large vaulted area."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      473,
+      622,
+      483,
+      632
+    ]
+  },
+  "exits": [
+    {
+      "to": 11731,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11733,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11734,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

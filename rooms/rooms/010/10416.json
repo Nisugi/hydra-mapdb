@@ -1,0 +1,50 @@
+{
+  "id": 10416,
+  "uid": [
+    14109009
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "Mounted against one wall, a glaes case encloses a bizarrely twisted and knotted mistwood staff.  The glaes container appears to have been constructed as part of the original building, as there are no apparent seams or hinges that suggest the case is able to open.  A rough arch, formed of rare pieces of polished mistwood, jointed with shimmartine-studded imflass, stands opposite the case."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      837,
+      773,
+      981,
+      834
+    ]
+  },
+  "exits": [
+    {
+      "to": 10415,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10417,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36152,
+      "kind": "go",
+      "cmd": "go mistwood arch",
+      "cost": 0.2
+    }
+  ]
+}

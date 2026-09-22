@@ -1,0 +1,42 @@
+{
+  "id": 19132,
+  "title": [
+    "[Glass Works, Front Room]"
+  ],
+  "description": [
+    "A splintered oak table and a heavy thanot counter rest along the far wall to either side of a painted black arch.  Tiny fragments of light reflect off the goods on the tables, appearing as stars on the black velvet that hangs off the ends of the glass panes above and covers the walls.  A wooden hatch leads back to the cargo hold."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19126,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 19167,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19168,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19169,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

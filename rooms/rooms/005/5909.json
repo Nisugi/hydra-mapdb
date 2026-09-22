@@ -1,0 +1,53 @@
+{
+  "id": 5909,
+  "uid": [
+    14009001
+  ],
+  "title": [
+    "[Catacombs, Entrance]"
+  ],
+  "description": [
+    "A vaulted ceiling allows dim rays of light to seep in through the cracks from the grate above.  Flickering shadows of various shapes and sizes play on the walls.  An odd assortment of paper, kegs and other trinkets litter the ground.  Shattered crates and barrels mar the surface of the floor, and almost hidden behind them lies the rusted top of an opened hatch."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      354,
+      492,
+      362,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 3503,
+      "kind": "climb",
+      "cmd": "climb grate",
+      "cost": 0.2
+    },
+    {
+      "to": 5910,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

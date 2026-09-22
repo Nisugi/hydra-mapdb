@@ -1,0 +1,77 @@
+{
+  "id": 10362,
+  "uid": [
+    14112001
+  ],
+  "title": [
+    "[Vonder's Archery Supply]"
+  ],
+  "description": [
+    "A newly polished mahogany counter spans the length of the room, completely dividing the room in half.  Several unfinished bows hang from a rack situated behind the counter, along with several displays holding various types of archery supplies."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fletcher",
+    "no forageables",
+    "urchin guide fletcher",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 3533,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10363,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

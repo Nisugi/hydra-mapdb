@@ -1,0 +1,96 @@
+{
+  "id": 29032,
+  "uid": [
+    7118250
+  ],
+  "title": [
+    "[Kraken's Fall, Second Pier]"
+  ],
+  "description": [
+    "Stretching like long fingers towards the ocean, the docking structure has five distinct piers that provide ample room for portage.  A large sign provides directions to the various berths, the instructions painted in several colors upon a black background, while a constantly burning lantern rests above.  Three tie pilings border the western edge of the platform, while two more are arranged upon the east."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      407,
+      605,
+      418,
+      617
+    ]
+  },
+  "exits": [
+    {
+      "to": 28897,
+      "kind": "go",
+      "cmd": "go catwalk",
+      "cost": 0.2
+    },
+    {
+      "to": 29037,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29043,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29044,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

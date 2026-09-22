@@ -1,0 +1,50 @@
+{
+  "id": 7043,
+  "uid": [
+    45129
+  ],
+  "title": [
+    "[Castle Darkstone, Tower]"
+  ],
+  "description": [
+    "Large cracks in the walls here make you question the structural integrity of this tower.  Broken bits of stone and a fine rocky dust cover most everything in this room, what little there is."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      668,
+      621,
+      678,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 7033,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 7044,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 7045,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 33380,
+  "uid": [
+    4201005
+  ],
+  "title": [
+    "[Vornavis, Tower Stairs]"
+  ],
+  "description": [
+    "Bronze-banded torches rest within brackets upon either side of an ironbound door, which is open to the castle walls.  Darkened by exposure to the elements, the landing stones are pitted in places where the natural elements have worked at them over time.  Rising and falling upon either side, the unmarred steps transition to other parts of the tower."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Vornavis Proper",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 33379,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33381,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33385,
+      "kind": "go",
+      "cmd": "go ironbound door",
+      "cost": 0.2
+    }
+  ]
+}

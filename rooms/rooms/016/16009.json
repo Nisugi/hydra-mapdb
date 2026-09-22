@@ -1,0 +1,200 @@
+{
+  "id": 16009,
+  "uid": [
+    854003
+  ],
+  "title": [
+    "[River's Rest Hall, Orchard]"
+  ],
+  "description": [
+    "Grey cobblestones meander beneath well-tended orange and peach trees.  Lining the path, brilliantly colored flowers perfume the night air with heavy scents.  Crickets chirp from their hiding places, and moths flutter aimlessly about.  Wooden steps climb to an enclosed porch attached to a two-story villa.",
+    "Grey cobblestones meander beneath well-tended orange and peach trees.  Lining the path, brilliantly colored flowers perfume the air with heavy scents.  Birds sing in the branches above, and tiny butterflies flit from blossom to blossom with careless abandon.  Wooden steps climb to an enclosed porch attached to a two-story villa."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "alligator lily",
+    "angelica root",
+    "bay leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red beet",
+    "butterfly pea flower",
+    "cactacae spine",
+    "calamia fruit",
+    "cantaloupe",
+    "cardamom",
+    "coffee cherries",
+    "cumin seeds",
+    "curly garlic scapes",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "ear of corn",
+    "fire lily",
+    "flaming violet",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh cilantro",
+    "fresh oregano",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "golden buttercup",
+    "grapefruit",
+    "green beans",
+    "green cabbage",
+    "green garden cucumber",
+    "green guava",
+    "green pepper",
+    "green tea leaves",
+    "heath aster",
+    "honeymoon melon",
+    "horseradish root",
+    "hot pepper",
+    "Imaera's Lace",
+    "luckbloom blossom",
+    "mate leaves",
+    "mho hall",
+    "mho hall board",
+    "motherwort",
+    "nutmeg",
+    "onion skin",
+    "orange pepper",
+    "orange-yellow starfruit",
+    "pale green honeydew",
+    "pea pods",
+    "pearl onions",
+    "pink peppercorn",
+    "pink petunia",
+    "pink wild rose",
+    "purple cabbage",
+    "purple eggplant",
+    "purple passion fruit",
+    "purple petunia",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "rabbit's ear rose",
+    "raspberries",
+    "red lychee",
+    "red onion",
+    "red pepper",
+    "red-green mango",
+    "rose-marrow root",
+    "round red radish",
+    "round white eggplant",
+    "round yuzu",
+    "small banana",
+    "small daisy",
+    "small flower",
+    "small peapod",
+    "small primrose",
+    "small rose",
+    "small violet",
+    "soft mushroom",
+    "sovyn clove",
+    "spider lily",
+    "sprig of rosemary",
+    "sprig of tarragon",
+    "sprig of thanot",
+    "stalk of celery",
+    "stalk of wormwood",
+    "star anise",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "tiger lily",
+    "tobacco leaves",
+    "townhall",
+    "trollfear mushroom",
+    "urchin guide townhall",
+    "urchin-access",
+    "vanilla bean",
+    "viburnum twig",
+    "wavepetal blossom",
+    "white lily",
+    "white petunia",
+    "white tea leaves",
+    "wild rice",
+    "wild spinach",
+    "withered mushroom",
+    "yellow carrot",
+    "yellow lemon",
+    "yellow papaya",
+    "yellow pepper",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2607,
+      1006,
+      2644,
+      1042
+    ]
+  },
+  "exits": [
+    {
+      "to": 10860,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16019,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

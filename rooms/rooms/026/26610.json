@@ -1,0 +1,43 @@
+{
+  "id": 26610,
+  "title": [
+    "[Caligos Isle, Chamber of Tears]"
+  ],
+  "description": [
+    "The stifling humidity of the enclosed area makes it difficult to breathe, a result of the numerous spouts of steam rising up from the cracks along the darkened ground below.  The sharply angled walls drip rivulets of moisture, the murky waters flowing further down into a small hole leading to fresher air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      726,
+      220,
+      738,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 26595,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go fissure"
+        },
+        {
+          "pause": 500
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26611,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

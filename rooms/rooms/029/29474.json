@@ -1,0 +1,56 @@
+{
+  "id": 29474,
+  "uid": [
+    13007218
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Crossways]"
+  ],
+  "description": [
+    "Multiple tunnels cross into and out of this scarred granite junction.  Odd impressions appear in the granite along the ceiling.  The beginnings of a blue-grey vein can be seen in the rocky floor to the west that angles downward to another section of caves below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, down"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      618,
+      208,
+      639,
+      232
+    ]
+  },
+  "exits": [
+    {
+      "to": 29473,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29476,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29489,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29491,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

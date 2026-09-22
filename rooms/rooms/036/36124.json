@@ -1,0 +1,49 @@
+{
+  "id": 36124,
+  "uid": [
+    105007
+  ],
+  "title": [
+    "[House Arcane, Storage Vault]"
+  ],
+  "description": [
+    "Dim lighting is provided by small oil lamps affixed to the walls.  The walls, floor, and ceiling are made of inlaid ora, which seems to absorb and muffle all sound.  Built into the rear wall is a series of strongboxes for use by House members."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      400,
+      1301,
+      481,
+      1383
+    ]
+  },
+  "exits": [
+    {
+      "to": 36123,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 36125,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36126,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

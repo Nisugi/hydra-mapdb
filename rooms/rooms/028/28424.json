@@ -1,0 +1,49 @@
+{
+  "id": 28424,
+  "title": [
+    "[Windfellow's Retreat, Dungeon]"
+  ],
+  "description": [
+    "You find yourself in a wide, stone hallway that leads to a shadowy dead end.  A putrid odor permeates this part of the dungeon with such intensity that it's hard to draw a steady breath.  The strange, glowing light reveals barred cell doors lining either side of the hall.",
+    "The stone hallway leads to a shadowy dead end, the wall covered from floor to ceiling in extremely fluffy bunnies.  The faintly putrid odor permeating this part of the dungeon has been drowned out by dozens of dried lavender and sage bundles dangling from bars set above.  The strange, glowing light reveals barred cell doors lining either side of the hall, the floor before it chalked with large arrows."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      620,
+      1576,
+      673,
+      1629
+    ]
+  },
+  "exits": [
+    {
+      "to": 28423,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28432,
+      "kind": "go",
+      "cmd": "go entryway",
+      "cost": 0.2
+    },
+    {
+      "to": 28433,
+      "kind": "go",
+      "cmd": "go iron-banded door",
+      "cost": 0.2
+    },
+    {
+      "to": 28434,
+      "kind": "go",
+      "cmd": "go cav",
+      "cost": 0.2
+    }
+  ]
+}

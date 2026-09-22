@@ -1,0 +1,52 @@
+{
+  "id": 29612,
+  "uid": [
+    686041
+  ],
+  "title": [
+    "[Air Tower, Third Floor]"
+  ],
+  "description": [
+    "Light fog dances through the area, diffusing the light from a colony of small magelights strung along the cloud-painted ceiling.  Arches to the south and west counterbalance the large, open vista of the rooftop to the northeast.  A small marble walkway spans the ten foot distance to the rooftop, sans railings or supports.  One mistwood bridge heads to the east, while a similar bridge leads north."
+  ],
+  "paths": [
+    "Obvious exits: northeast, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      187,
+      483,
+      217,
+      513
+    ]
+  },
+  "exits": [
+    {
+      "to": 29587,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29611,
+      "kind": "go",
+      "cmd": "go east bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29613,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29614,
+      "kind": "go",
+      "cmd": "go north bridge",
+      "cost": 0.2
+    }
+  ]
+}

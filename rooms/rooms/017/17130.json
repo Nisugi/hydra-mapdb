@@ -1,0 +1,86 @@
+{
+  "id": 17130,
+  "uid": [
+    14051038
+  ],
+  "title": [
+    "[Cysaegir, Top of Pedestal]"
+  ],
+  "description": [
+    "The air thickens from this vantage point on the pedestal, where alternating shades of paled purple, pink, and white light reflect from the disk above, struggling against the glare of the golden sun.  Like fingers of a blind man, hazy mist traverses the ground to obscure the form of a woman.  Loud creaking sounds, emanating from the warped rocking chair she rests in, are muted significantly by a droning sound like that of a thousand agitated cinder wasps.",
+    "The air thickens from this vantage point on the pedestal, where alternating shades of paled purple, pink, and white light reflect from the disk above, enhancing the pale light of the moon.  Like fingers of a blind man, hazy mist traverses the ground to obscure the form of a woman.  Loud creaking sounds, emanating from the warped rocking chair she rests in, are muted significantly by a droning sound like that of a thousand agitated cinder wasps."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide chronomages",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      459,
+      920,
+      481,
+      942
+    ]
+  },
+  "exits": [
+    {
+      "to": 4650,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 17155,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

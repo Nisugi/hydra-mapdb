@@ -1,0 +1,56 @@
+{
+  "id": 11936,
+  "uid": [
+    17004054
+  ],
+  "title": [
+    "[Old Ta'Faendryl, Basilica Plaza]"
+  ],
+  "description": [
+    "To the east a series of wide stone steps lead up the side of a pyramid.  A palatial building awaits at the top of the stairs, towering above the ruins of the surrounding city.  In the river to the west, partially submerged in the water, can be seen a carved obsidian statue fashioned in the image of a massive warrior.  The tip of a thick obsidian spear rests among the bulrush growing along the edge of the river bank."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      597,
+      599,
+      605,
+      607
+    ]
+  },
+  "exits": [
+    {
+      "to": 11850,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11937,
+      "kind": "go",
+      "cmd": "go spear",
+      "cost": 0.2
+    },
+    {
+      "to": 12031,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12032,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

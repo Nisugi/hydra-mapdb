@@ -1,0 +1,33 @@
+{
+  "id": 24227,
+  "title": [
+    "[Wounded for Wear, Foyer]"
+  ],
+  "description": [
+    "The floor is covered in a plush crimson carpet with a series of black stripes, and the walls of the shop are painted black, with splotches of red paint on them.  Nestled into the wall is a small dark hole that leads back to the swamp."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20353,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 24351,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24352,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

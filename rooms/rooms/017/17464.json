@@ -1,0 +1,58 @@
+{
+  "id": 17464,
+  "uid": [
+    7801013
+  ],
+  "title": [
+    "[Hairless Rolton Tavern, Hallway]"
+  ],
+  "description": [
+    "Standing on opposite corners of the corridor on plush emerald green carpeting are identical brass flowerpots with intricate designs etched into their surface.  Gilded scrollwork decorates the long table set in the middle of the hall.  Three doors with swirled royal blue, crimson, and mulberry motifs line the hallway.  The spiral staircase leads back down to the taproom."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "image": {
+    "file": "fest-highman_games-1265497377.png",
+    "rect": [
+      659,
+      238,
+      707,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 17463,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17489,
+      "kind": "go",
+      "cmd": "go mulberry door",
+      "cost": 0.2
+    },
+    {
+      "to": 17490,
+      "kind": "go",
+      "cmd": "go crimson door",
+      "cost": 0.2
+    },
+    {
+      "to": 17491,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    }
+  ]
+}

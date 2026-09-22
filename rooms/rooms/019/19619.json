@@ -1,0 +1,48 @@
+{
+  "id": 19619,
+  "title": [
+    "[Silvers Aweigh Spirits]"
+  ],
+  "description": [
+    "Sunlight filters through the heavy, leaded crystal windows that span floor to ceiling on the port and starboard sides.  A gold-accented, circular mahogany bar sits in the center of the dark green marble floor, and a silver and gold buffet table is pushed against one wall.  A heavy tapestry partially blocks the hallway toward the prow, and a door leads to the aft."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      232,
+      312,
+      267,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 19618,
+      "kind": "climb",
+      "cmd": "climb iron staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19620,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19626,
+      "kind": "climb",
+      "cmd": "climb mahogany staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19628,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

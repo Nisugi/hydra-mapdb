@@ -1,0 +1,50 @@
+{
+  "id": 13275,
+  "uid": [
+    13112004
+  ],
+  "title": [
+    "[East Wing]"
+  ],
+  "description": [
+    "The corridor stretches away to the northeast.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  Dark tapestries hang on the walls, though in the dim light it is difficult to make out the images woven into them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      689,
+      473,
+      745,
+      529
+    ]
+  },
+  "exits": [
+    {
+      "to": 13255,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13276,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33167,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    }
+  ]
+}

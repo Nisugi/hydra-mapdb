@@ -1,0 +1,227 @@
+{
+  "id": 24555,
+  "uid": [
+    13101065
+  ],
+  "title": [
+    "[Ta'Illistim Green]"
+  ],
+  "description": [
+    "At the southern end of the green, the expanse of carefully manicured lawn is broken up by a low pool, set flush to the ground and surrounded with a ring of cut stone socles.  Beyond the statuary, the grass continues until hitting a low silver fence."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "arbutus berry",
+    "ayana leaf",
+    "black peppercorn",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright orange",
+    "brown potato",
+    "brown-skinned kiwi",
+    "cactacae spine",
+    "calamia fruit",
+    "cardamom",
+    "chives",
+    "creamy white wisteria",
+    "crystal-like sylthiel",
+    "cumin seeds",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "ear of corn",
+    "fennel bulb",
+    "fig",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "garlic",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden buttercup",
+    "green beans",
+    "green cabbage",
+    "green olive",
+    "haphip root",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hosta flower",
+    "Imaera's Lace",
+    "iris blossom",
+    "juicy plum",
+    "large sunflower",
+    "large white gardenia",
+    "leek",
+    "light blue hydrangea",
+    "luckbloom blossom",
+    "motherwort",
+    "mustard seeds",
+    "nightbloom blossom",
+    "node",
+    "nutmeg",
+    "onion skin",
+    "orange begonia",
+    "pale rose pink wisteria",
+    "pea pods",
+    "peacock green rose",
+    "pearlescent rose",
+    "pink begonia",
+    "pink hydrangea",
+    "pink oleander",
+    "pink peony",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple cabbage",
+    "purple datura blossom",
+    "purple hydrangea",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red begonia",
+    "red cherries",
+    "red oleander",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "round red radish",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small anemone",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small rose",
+    "small turnip",
+    "small violet",
+    "snapdragon stalk",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of boxwood",
+    "sprig of clematis",
+    "sprig of foxglove",
+    "sprig of holly",
+    "sprig of jasmine",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "stalk of tuberose",
+    "stalk of wormwood",
+    "star anise",
+    "stargazer lily",
+    "stem of freesia flowers",
+    "stem of verbena",
+    "sunburst blossom",
+    "sunflower seeds",
+    "supernode",
+    "sweet onion",
+    "tendril of vinca",
+    "thistle seeds",
+    "thyme",
+    "tiger lily",
+    "trollear mushroom",
+    "urchin-access",
+    "vanilla bean",
+    "vert globe artichoke",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "wavepetal blossom",
+    "white begonia",
+    "white datura blossom",
+    "white hydrangea",
+    "white lily",
+    "white oleander",
+    "white peony",
+    "white ramie",
+    "wild pansy blossom",
+    "wild rice",
+    "wild spinach",
+    "withered mushroom",
+    "yellow carrot",
+    "yellow datura blossom",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      730,
+      402,
+      754,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 8,
+      "kind": "go",
+      "cmd": "go ivy gate",
+      "cost": 0.2
+    },
+    {
+      "to": 608,
+      "kind": "go",
+      "cmd": "go hydrangea gate",
+      "cost": 0.2
+    },
+    {
+      "to": 13231,
+      "kind": "go",
+      "cmd": "go clematis gate",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

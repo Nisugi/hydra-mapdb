@@ -1,0 +1,94 @@
+{
+  "id": 2636,
+  "uid": [
+    4562036
+  ],
+  "title": [
+    "[Breach, Cavern of Ages]"
+  ],
+  "description": [
+    "The chamber's walls are modulated with the same large recesses that pocket the walls of the chamber to the north.  Inside each, the red stone is polished to an indulgent surface that highlights the striations in the rock.  On the cavern's eastern wall however, something went horribly wrong.  The undulating niches are blasted into shambles around a central oval just behind a golden pedestal with a nebulous sphere hovering above it.  There, the rock appears to have melted, running down the cavern wall in eddies of molten stone."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "hot, damp",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "node"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      139,
+      173,
+      149,
+      183
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "go sphere"
+        },
+        {
+          "keep_moving": "north"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 30.0
+    },
+    {
+      "to": 2635,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12093,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "go sphere"
+        },
+        {
+          "keep_moving": "east"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 30.0
+    },
+    {
+      "to": 12099,
+      "kind": "go",
+      "cmd": "go sphere",
+      "cost": 120.0
+    },
+    {
+      "to": 12118,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "go sphere"
+        },
+        {
+          "keep_moving": "west"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 30.0
+    }
+  ]
+}

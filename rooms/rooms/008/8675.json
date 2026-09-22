@@ -1,0 +1,47 @@
+{
+  "id": 8675,
+  "uid": [
+    1025
+  ],
+  "title": [
+    "[Raging Thrak Inn, Hallway]"
+  ],
+  "description": [
+    "You can see more doors in either direction down the length of the hallway, but are prevented from continuing further north by a rope firmly tied across the hall."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8672,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8676,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 8677,
+      "kind": "go",
+      "cmd": "go maoral door",
+      "cost": 0.2
+    },
+    {
+      "to": 18247,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

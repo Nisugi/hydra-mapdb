@@ -1,0 +1,67 @@
+{
+  "id": 26687,
+  "title": [
+    "[The Abandoned Waters]"
+  ],
+  "description": [
+    "A solitary phosphorescent anglerfish swims casually about you, assessing you with its toothy mouth agape.  Its bright, fleshy, illuminated lure is akin to a yellow eye with a penetrating gaze.  In the vast, cold and empty stillness, you grow aware of the *whoosh* of your own breathing and the steady pounding of your heart."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west, up"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      557,
+      999,
+      571,
+      1012
+    ]
+  },
+  "exits": [
+    {
+      "to": 26684,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26688,
+      "kind": "other",
+      "cmd": "swim west",
+      "cost": 0.2
+    },
+    {
+      "to": 26690,
+      "kind": "other",
+      "cmd": "swim north",
+      "cost": 0.2
+    },
+    {
+      "to": 26694,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 0.2
+    },
+    {
+      "to": 26697,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 0.2
+    },
+    {
+      "to": 26703,
+      "kind": "other",
+      "cmd": "swim ship",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 4399,
+  "title": [
+    "[Equip Thyself]"
+  ],
+  "description": [
+    "A trio of simple carved pillars support the low ceiling of the main entryway of the store.  Hanging from the far wall is a tanned rolton hide tapestry depicting a fierce battle between a dwarven brigade and a horde of trolls.  A motley assortment of rugs covers up the floor, subduing the stone's chill and muffling footfalls."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4398,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4400,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4401,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

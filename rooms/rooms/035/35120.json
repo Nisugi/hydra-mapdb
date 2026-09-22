@@ -1,0 +1,50 @@
+{
+  "id": 35120,
+  "uid": [
+    4426546
+  ],
+  "title": [
+    "[Glaeve, Tidehunter Row]"
+  ],
+  "description": [
+    "The windows of a nearby dwelling are open to reveal an interior bedecked in nautical relics and weathered seafaring maps.  A statue of a proud-looking human magister, divorced from its old base with obvious force, appears to be the centerpiece of the collection.  Krolvin workers in drab homespun make their way along the road.  Some attend wagons drawn by aurochs, but the poorer ones drag their own carts, filling the air with a pained squeaking of battered wheels."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      343,
+      348,
+      362,
+      368
+    ]
+  },
+  "exits": [
+    {
+      "to": 35111,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35118,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35121,
+      "kind": "go",
+      "cmd": "go dwelling",
+      "cost": 0.2
+    }
+  ]
+}

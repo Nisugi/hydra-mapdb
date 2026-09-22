@@ -1,0 +1,90 @@
+{
+  "id": 19377,
+  "uid": [
+    3223020
+  ],
+  "title": [
+    "[Eastern Harbor, Boat Rental]"
+  ],
+  "description": [
+    "Surrounded by polished railings, the small dock is comprised of whitewashed floorboards and is occupied by a lanky and tanned sailor.  Benches provide a convenient place to rest, while colorful umbrellas stand open and offer protection against the heat of the day.  Ascending to the pier, a pair of smooth wooden steps slips through an arch and is anchored in place by large black iron nails.",
+    "Surrounded by polished railings, the small dock is comprised of whitewashed floorboards and is occupied by a lanky and tanned sailor.  Benches provide a convenient place to rest, while glass lanterns dispel the dark of the night.  Ascending to the pier, a pair of smooth wooden steps slips through an arch and is anchored in place by large black iron nails."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "silver-cost:25691:500",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3612,
+      2306,
+      3647,
+      2333
+    ]
+  },
+  "exits": [
+    {
+      "to": 19376,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 25691,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask sailor about boat"
+        },
+        {
+          "move": "ask sailor about boat"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

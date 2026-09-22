@@ -1,0 +1,52 @@
+{
+  "id": 20646,
+  "uid": [
+    258002
+  ],
+  "title": [
+    "[Warrior Guild, Entry Courtyard]"
+  ],
+  "description": [
+    "A sprawling cavern unfolds beyond a pair of white marble double doors, harboring numerous stone structures amid a network of walkways.  Row upon row of neatly tended giant luminescent toadstools enclose the courtyard and at the heart of the open space, a bed of soft, bluish moss lies at the base of a brilliant silvery marble monolith.  Interspersed between the glowing fungi are a few polished iron statues of warriors in various battle poses."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      292,
+      209,
+      307,
+      225
+    ]
+  },
+  "exits": [
+    {
+      "to": 16917,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20647,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20648,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20650,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

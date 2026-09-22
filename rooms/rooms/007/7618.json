@@ -1,0 +1,52 @@
+{
+  "id": 7618,
+  "uid": [
+    84119
+  ],
+  "title": [
+    "[Sailor's Haven, Outside Rear]"
+  ],
+  "description": [
+    "A small patch of sand lies between the building and the cliff face.  Green and brown scrubby bushes have gained a foothold here and salt grass flourishes in rank tufts.  A badly corroded iron ladder clings to the wall and leads to the roof."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      358,
+      475,
+      368,
+      485
+    ]
+  },
+  "exits": [
+    {
+      "to": 7614,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7617,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7635,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 13029,
+  "uid": [
+    319132
+  ],
+  "title": [
+    "[Bonespear Tower, Storage Shed]"
+  ],
+  "description": [
+    "A thick, but now ruined door must have originally been placed here to guard something, but whatever it might have been is long gone.  This room is completely empty, but oddly, it seems considerably colder than the rest of the tower.  One of the reasons could be the huge gaping hole in the floor."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      871,
+      902,
+      881,
+      912
+    ]
+  },
+  "exits": [
+    {
+      "to": 5432,
+      "kind": "go",
+      "cmd": "go iron door",
+      "cost": 0.2
+    },
+    {
+      "to": 13030,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

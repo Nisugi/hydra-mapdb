@@ -1,0 +1,111 @@
+{
+  "id": 6997,
+  "uid": [
+    45103
+  ],
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "You are standing before the main gate of a decrepit ruin of stone, which appears to have once been a great fortress.  A moat filled with brackish water and foul smells surrounds the ruin, providing safeguard against intruders."
+  ],
+  "paths": [
+    "Obvious paths: southeast",
+    "Obvious paths: west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "handful of currants",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      160,
+      225,
+      169,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 6998,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "jump",
+            "until": [
+              "give it a good yank!",
+              "since it is underneath",
+              "what were you referring to",
+              "that was fun."
+            ]
+          },
+          "when": {
+            "any": [
+              {
+                "race": "Halfling"
+              },
+              {
+                "race": "Dwarf"
+              },
+              {
+                "race": "Gnome"
+              }
+            ]
+          }
+        },
+        {
+          "put_until": {
+            "command": "pull rope",
+            "until": [
+              "give it a good yank!",
+              "since it is underneath",
+              "what were you referring to",
+              "that was fun."
+            ]
+          },
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "go drawbridge"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 5.2
+    },
+    {
+      "to": 34516,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

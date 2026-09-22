@@ -1,0 +1,56 @@
+{
+  "id": 32454,
+  "uid": [
+    4577202
+  ],
+  "title": [
+    "[Moonsedge Castle, Grand Hall]"
+  ],
+  "description": [
+    "Candles gloriously illuminate the polished stone surfaces of the castle's grand hall, a cavernous chamber that proceeds to the east and west.  There are dozens adorning a singularly immense chandelier that hangs overhead, a three-tiered confection of gold and ruby.  Huge marble floor tiles reflect the honeyed light, save at the center of the room, where jeweled tesserae form a mosaic of the house's briar sprig and rising moon sigil.  Ahead, massive double doors open onto a stone passage."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1107,
+      645,
+      1131,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 32452,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32455,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 32456,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32463,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

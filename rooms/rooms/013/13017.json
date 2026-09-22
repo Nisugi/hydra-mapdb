@@ -1,0 +1,47 @@
+{
+  "id": 13017,
+  "uid": [
+    319104
+  ],
+  "title": [
+    "[Bonespear Tower, West Hallway]"
+  ],
+  "description": [
+    "The hall ends at a gruesome doorway constructed completely of teeth.  Only the polished ivory femur used for a handle stands out, the rest of the door is nothing more than a mass of fangs and molars.  This passage won't soon bring a smile to anyone's face."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      880,
+      1017,
+      890,
+      1027
+    ]
+  },
+  "exits": [
+    {
+      "to": 5418,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13018,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

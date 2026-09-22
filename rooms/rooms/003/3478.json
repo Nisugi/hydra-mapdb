@@ -1,0 +1,116 @@
+{
+  "id": 3478,
+  "uid": [
+    4044133
+  ],
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "On first glance, this chamber looks like the others -- until you notice a slick, icy pile of rocks against the far wall, and the frozen corpse slumped beside them.  Upon closer inspection, you discover that the ice-glazed body is frozen to the rocks themselves.  Nothing short of a thorough thaw will free the pitiful soul for a proper burial."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      852,
+      704,
+      862,
+      714
+    ]
+  },
+  "exits": [
+    {
+      "to": 3476,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

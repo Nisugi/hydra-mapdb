@@ -1,0 +1,32 @@
+{
+  "id": 29569,
+  "uid": [
+    3215124
+  ],
+  "title": [
+    "[Annex, Booth]"
+  ],
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "peer curtain =~ /^\\[Annex, House Sylvanfair Lobby\\]$/"
+  ],
+  "meta": [
+    "che:sylvanfair:locker",
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 28224,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

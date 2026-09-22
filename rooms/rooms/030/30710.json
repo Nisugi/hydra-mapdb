@@ -1,0 +1,250 @@
+{
+  "id": 30710,
+  "title": [
+    "[Solhaven - Urchin Hideout]",
+    "[the free port of Solhaven - Urchin Hideout]"
+  ],
+  "description": [
+    "This is a fake room used to hold wayto/timeto for urchin guides."
+  ],
+  "paths": [
+    "Obvious exits: bwahaha"
+  ],
+  "location": "the free port of Solhaven",
+  "tags": [
+    "urchin-hideout"
+  ],
+  "meta": [
+    "map:virtual room"
+  ],
+  "exits": [
+    {
+      "to": 1438,
+      "kind": "other",
+      "cmd": "urchin guide northmarket",
+      "cost": 0.1
+    },
+    {
+      "to": 1477,
+      "kind": "other",
+      "cmd": "urchin guide premiumhall nonpremium",
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "premium_account"
+          }
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 1508,
+      "kind": "other",
+      "cmd": "urchin guide empathguild",
+      "cost": 0.1
+    },
+    {
+      "to": 1550,
+      "kind": "other",
+      "cmd": "urchin guide sorcererguild",
+      "cost": 0.1
+    },
+    {
+      "to": 1601,
+      "kind": "other",
+      "cmd": "urchin guide weddinghall",
+      "cost": 0.1
+    },
+    {
+      "to": 3905,
+      "kind": "other",
+      "cmd": "urchin guide marketbridge",
+      "cost": 0.1
+    },
+    {
+      "to": 5576,
+      "kind": "other",
+      "cmd": "urchin guide northgate",
+      "cost": 0.1
+    },
+    {
+      "to": 5710,
+      "kind": "other",
+      "cmd": "urchin guide bank",
+      "cost": 0.1
+    },
+    {
+      "to": 5711,
+      "kind": "other",
+      "cmd": "urchin guide pawn",
+      "cost": 0.1
+    },
+    {
+      "to": 5713,
+      "kind": "other",
+      "cmd": "urchin guide inn",
+      "cost": 0.1
+    },
+    {
+      "to": 5716,
+      "kind": "other",
+      "cmd": "urchin guide tables",
+      "cost": 0.1
+    },
+    {
+      "to": 5719,
+      "kind": "other",
+      "cmd": "urchin guide gemshop",
+      "cost": 0.1
+    },
+    {
+      "to": 5722,
+      "kind": "other",
+      "cmd": "urchin guide herbalist",
+      "cost": 0.1
+    },
+    {
+      "to": 5723,
+      "kind": "other",
+      "cmd": "urchin guide healer",
+      "cost": 0.1
+    },
+    {
+      "to": 5724,
+      "kind": "other",
+      "cmd": "urchin guide locksmith",
+      "cost": 0.1
+    },
+    {
+      "to": 6102,
+      "kind": "other",
+      "cmd": "urchin guide clericguild",
+      "cost": 0.1
+    },
+    {
+      "to": 9056,
+      "kind": "other",
+      "cmd": "urchin guide warriorguild",
+      "cost": 0.1
+    },
+    {
+      "to": 9397,
+      "kind": "other",
+      "cmd": "urchin guide alchemy",
+      "cost": 0.1
+    },
+    {
+      "to": 11756,
+      "kind": "other",
+      "cmd": "urchin guide docks",
+      "cost": 0.1
+    },
+    {
+      "to": 12805,
+      "kind": "other",
+      "cmd": "urchin guide bounty",
+      "cost": 0.1
+    },
+    {
+      "to": 12813,
+      "kind": "other",
+      "cmd": "urchin guide armor",
+      "cost": 0.1
+    },
+    {
+      "to": 12815,
+      "kind": "other",
+      "cmd": "urchin guide weapons",
+      "cost": 0.1
+    },
+    {
+      "to": 12818,
+      "kind": "other",
+      "cmd": "urchin guide fletcher",
+      "cost": 0.1
+    },
+    {
+      "to": 12821,
+      "kind": "other",
+      "cmd": "urchin guide debts",
+      "cost": 0.1
+    },
+    {
+      "to": 13054,
+      "kind": "other",
+      "cmd": "urchin guide furrier",
+      "cost": 0.1
+    },
+    {
+      "to": 13479,
+      "kind": "other",
+      "cmd": "urchin guide townhall",
+      "cost": 0.1
+    },
+    {
+      "to": 13485,
+      "kind": "other",
+      "cmd": "urchin guide bardguild",
+      "cost": 0.1
+    },
+    {
+      "to": 13515,
+      "kind": "other",
+      "cmd": "urchin guide justice",
+      "cost": 0.1
+    },
+    {
+      "to": 14169,
+      "kind": "other",
+      "cmd": "urchin guide temple",
+      "cost": 0.1
+    },
+    {
+      "to": 14358,
+      "kind": "other",
+      "cmd": "urchin guide chronomages",
+      "cost": 0.1
+    },
+    {
+      "to": 20721,
+      "kind": "other",
+      "cmd": "urchin guide premiumhall premium",
+      "cost": {
+        "when": {
+          "flag": "premium_account"
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 23816,
+      "kind": "other",
+      "cmd": "urchin guide collectibles",
+      "cost": 0.1
+    },
+    {
+      "to": 28719,
+      "kind": "other",
+      "cmd": "urchin guide locksmithpool",
+      "cost": 0.1
+    },
+    {
+      "to": 30285,
+      "kind": "other",
+      "cmd": "urchin guide postoffice",
+      "cost": 0.1
+    },
+    {
+      "to": 30593,
+      "kind": "other",
+      "cmd": "urchin guide stable",
+      "cost": 0.1
+    },
+    {
+      "to": 32600,
+      "kind": "other",
+      "cmd": "urchin guide grocer",
+      "cost": 0.1
+    }
+  ]
+}

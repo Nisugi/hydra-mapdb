@@ -1,0 +1,46 @@
+{
+  "id": 25675,
+  "uid": [
+    284013
+  ],
+  "title": [
+    "[Bard Guild, Backstage Entry]"
+  ],
+  "description": [
+    "A narrow hall leads from the Bard Guild to the public Performance Hall, its passage a dogleg from east to north.  Sconces mounted to the walls throw a flickering gold light across the hall's dark grey walls.  The only other ornamentation is a carpet runner that follows the passageway's crook.  A small flight of stairs leads to the backstage area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 13201,
+      "kind": "go",
+      "cmd": "go entry",
+      "cost": 0.2
+    },
+    {
+      "to": 25674,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 25678,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

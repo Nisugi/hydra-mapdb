@@ -1,0 +1,43 @@
+{
+  "id": 18879,
+  "uid": [
+    108011
+  ],
+  "title": [
+    "[Twilight Hall, Summoning Area]"
+  ],
+  "description": [
+    "A tinge of ozone lingers in the air as you look around this dimly lit room.  Scorch marks and rust-colored stains, possibly from experiments gone awry, adorn the area.  Your attention is drawn to a mysterious circle etched into the center of the floor, and your mind whirls as it tries to interpret the significance of the design."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      586,
+      655,
+      673,
+      712
+    ]
+  },
+  "exits": [
+    {
+      "to": 18877,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18878,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

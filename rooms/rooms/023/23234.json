@@ -1,0 +1,56 @@
+{
+  "id": 23234,
+  "uid": [
+    213035
+  ],
+  "title": [
+    "[White Haven, West Upper Landing]"
+  ],
+  "description": [
+    "The hallway comes to an end, the gold-flecked walls broken by a modwir door and an oak door along one wall, and a fel door on the other.  A small table bearing an elaborate flower arrangement decorates the third."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "White Haven",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:White Haven"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      202,
+      202,
+      280,
+      281
+    ]
+  },
+  "exits": [
+    {
+      "to": 23229,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23235,
+      "kind": "go",
+      "cmd": "go fel door",
+      "cost": 0.2
+    },
+    {
+      "to": 23236,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 23237,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    }
+  ]
+}

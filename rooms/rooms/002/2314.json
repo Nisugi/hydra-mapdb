@@ -1,0 +1,63 @@
+{
+  "id": 2314,
+  "uid": [
+    735008
+  ],
+  "title": [
+    "[Icemule, Fear Alley]"
+  ],
+  "description": [
+    "A few low buildings mix with the odd tall kiosk in this quiet yet bustling back alley.  Along the wall, some local wag has scratched the image of a giant rat chasing a young halfling adventurer out of the well into the ice covering the wall.",
+    "A few low buildings mix with the odd tall kiosk in this funereal back alley.  Along the wall, some local wag has scratched the image of a giant rat chasing a young halfling adventurer out of the well into the ice covering the wall."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      1017,
+      253,
+      1034,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 2313,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2315,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36621,
+      "kind": "go",
+      "cmd": "go canvas-sided dispensary",
+      "cost": 0.2
+    },
+    {
+      "to": 36624,
+      "kind": "go",
+      "cmd": "go stucco building",
+      "cost": 0.2
+    },
+    {
+      "to": 36625,
+      "kind": "go",
+      "cmd": "go pine cabin",
+      "cost": 0.2
+    }
+  ]
+}

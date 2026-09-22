@@ -1,0 +1,52 @@
+{
+  "id": 16443,
+  "uid": [
+    261038
+  ],
+  "title": [
+    "[Rogue Guild, Basement]"
+  ],
+  "description": [
+    "The heavy wooden boards of the floor are worn smooth by centuries of passing feet and scored by the marks of thousands of objects being dragged in and out of storage over the years.  The rough, unadorned stone walls form an irregularly-shaped chamber that extends to the east and south, and a heavy trapdoor is set into the floor near the western wall."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      336,
+      471,
+      364,
+      499
+    ]
+  },
+  "exits": [
+    {
+      "to": 16442,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 16447,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 16574,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16581,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

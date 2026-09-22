@@ -1,0 +1,74 @@
+{
+  "id": 5830,
+  "uid": [
+    14003001
+  ],
+  "title": [
+    "[Timmorain Road]"
+  ],
+  "description": [
+    "A vibrant deciduous forest presses toward the waters of the Mistydeep River, leaving scant room for passage between the trees and the riverbank.  Cutting into the forest to the northeast, a well-maintained cobblestone road provides sure footing for travelers wishing to venture that direction, while a massive limestone bridge leads southwest, out over the river's waters toward an impressive city."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Timmorain Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      385,
+      1001,
+      397,
+      1013
+    ]
+  },
+  "exits": [
+    {
+      "to": 5829,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 5831,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23525,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover a rocky trail"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "move": "go rocky trail"
+        }
+      ],
+      "cost": {
+        "when": {
+          "not": {
+            "skill_under": [
+              "perception",
+              30
+            ]
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

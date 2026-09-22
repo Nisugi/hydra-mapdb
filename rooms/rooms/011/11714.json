@@ -1,0 +1,56 @@
+{
+  "id": 11714,
+  "uid": [
+    376044
+  ],
+  "title": [
+    "[Marsh Keep, Courtyard]"
+  ],
+  "description": [
+    "Five wide stone steps lead up from the courtyard pavement to a large iron-bound door leading into the keep.  Two women sculpted from black stone flank the steps and offer their open hands in the direction of the portcullis to the south.  Set above the door is a face sculpted from the same stone as the women, but malformed with creature-like features displaying an expression of mockery."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      867,
+      1013,
+      877,
+      1023
+    ]
+  },
+  "exits": [
+    {
+      "to": 11712,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11713,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11715,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11716,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

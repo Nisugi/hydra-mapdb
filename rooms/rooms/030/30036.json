@@ -1,0 +1,46 @@
+{
+  "id": 30036,
+  "uid": [
+    7503421
+  ],
+  "title": [
+    "[Angargreft, Sanguine Grove]"
+  ],
+  "description": [
+    "Pits and pocks mar the sloping face of the fane.  The caustic corrosion has undermined the stability of the snowy garden terrace above, causing a portion to collapse into an unsteady pile of rubble that impedes the pathway's progress to the north.  Cemented by frost, the fallen stones look like they could be climbed, but the way is treacherous."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "glacial",
+  "terrain": "rough",
+  "tags": [
+    "arctic moss",
+    "broken twig",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      982,
+      429,
+      998,
+      443
+    ]
+  },
+  "exits": [
+    {
+      "to": 30035,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30037,
+      "kind": "climb",
+      "cmd": "climb rubble",
+      "cost": 10.0
+    }
+  ]
+}

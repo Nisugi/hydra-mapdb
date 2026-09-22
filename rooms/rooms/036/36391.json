@@ -1,0 +1,47 @@
+{
+  "id": 36391,
+  "uid": [
+    55064
+  ],
+  "title": [
+    "[Black Swan Castle, Ramparts]"
+  ],
+  "description": [
+    "It is a bit difficult to see your way about clearly here in the deep shadows of the keep.  Though the walls are near, it is too far for you to be able to jump across or clamber over from the ramparts to the building itself."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      440,
+      200,
+      480,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 36390,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36392,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36463,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 0.2
+    }
+  ]
+}

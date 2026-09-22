@@ -1,0 +1,56 @@
+{
+  "id": 7836,
+  "uid": [
+    35049
+  ],
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This is a bend in a dull grey corridor.  There's a door on the north wall and an arch in the south wall.  Passages lead west and southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Glatoph",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      626,
+      385,
+      636,
+      395
+    ]
+  },
+  "exits": [
+    {
+      "to": 7829,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7835,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7839,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 7845,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

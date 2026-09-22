@@ -1,0 +1,59 @@
+{
+  "id": 528,
+  "uid": [
+    13100041
+  ],
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
+  ],
+  "description": [
+    "Townsfolk meander into and out of the city's weaponry shop, carrying fat purses on the way in and large packages on the way out.  Three of the city guardsmen stand near the establishment's door, keeping a watchful eye on the comings and goings.",
+    "A square stone shop, ringed with columns on all four faces, stands at the edge of the courtyard.  To either of side of it are buildings of white marble, though the square building is, instead, silvery blue granite.  A floating dais hovers over the center of the open space.",
+    "A square stone shop, ringed with columns on all four faces, stands at the edge of the courtyard.  To either of side of it are buildings of white marble, though the square building is, instead, silvery blue granite.  A series of smaller, less permanent stalls have been erected in front of all of the storefronts, hovered over by a floating dais."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1270,
+      513,
+      1293,
+      532
+    ]
+  },
+  "exits": [
+    {
+      "to": 187,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 188,
+      "kind": "go",
+      "cmd": "go dais",
+      "cost": 0.2
+    },
+    {
+      "to": 529,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 602,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

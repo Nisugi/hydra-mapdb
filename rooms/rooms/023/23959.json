@@ -1,0 +1,42 @@
+{
+  "id": 23959,
+  "title": [
+    "[River's Rest, Festival Grounds]"
+  ],
+  "description": [
+    "The river curves around this small bit of land, the sound of its passing a quiet rush that provides a background of white noise.  Above that sound is the noise of people talking and laughing, and the air is filled with the scent of food and drink."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "River's Rest",
+  "image": {
+    "file": "fest-picklefest-1439662135.png",
+    "rect": [
+      401,
+      86,
+      427,
+      112
+    ]
+  },
+  "exits": [
+    {
+      "to": 23953,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23957,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23973,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

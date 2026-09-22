@@ -1,0 +1,46 @@
+{
+  "id": 393,
+  "uid": [
+    54057
+  ],
+  "title": [
+    "[Moot Hall, Storage Hall]"
+  ],
+  "description": [
+    "You are in a darkly lit hallway which ends here at a curtained opening along its east wall.  To the north you can see what looks like an intersection leading out of the storage area."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "public locker",
+    "publiclockers"
+  ],
+  "image": {
+    "file": "wl-moot_hall-1486755929.png",
+    "rect": [
+      1353,
+      1286,
+      1497,
+      1348
+    ]
+  },
+  "exits": [
+    {
+      "to": 392,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3855,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 240.0
+    }
+  ]
+}

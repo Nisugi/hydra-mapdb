@@ -1,0 +1,48 @@
+{
+  "id": 31845,
+  "uid": [
+    8083392
+  ],
+  "title": [
+    "[Gleyminn Anni River, Dock]"
+  ],
+  "description": [
+    "Shapes emerge from the unraveling mists as a dim light begins to creep through the overhanging trees, their branches weighted with thick, heavy moss.  In the distance, a crumbling mausoleum comes into view behind a tall, wrought iron fence.  A rocky path leads away from a wooden dock at the water's edge."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      868,
+      684,
+      889,
+      707
+    ]
+  },
+  "exits": [
+    {
+      "to": 31816,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31846,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    }
+  ]
+}

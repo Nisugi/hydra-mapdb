@@ -1,0 +1,52 @@
+{
+  "id": 7603,
+  "uid": [
+    84101
+  ],
+  "title": [
+    "[Beach Area, Rocky Shore]"
+  ],
+  "description": [
+    "Standing near the cliff path, you halt upon a narrow spit of sand and gravel.  Your choices here are limited by the sea and the largely unscaleable cliffs above.  To the east, the shore gives way to a tide pool carved out among the rocks.  Turning west, a narrow strand leads to an old pier jutting into the ocean.  Near the old pier, several buildings still stand beneath the cliffs.  Beyond the tumbled structures, among the rocks and boulders, you spy gaps that may lead down to the sea."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      520,
+      529,
+      530,
+      539
+    ]
+  },
+  "exits": [
+    {
+      "to": 496,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 7604,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7605,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

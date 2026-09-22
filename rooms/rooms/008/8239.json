@@ -1,0 +1,50 @@
+{
+  "id": 8239,
+  "uid": [
+    390038
+  ],
+  "title": [
+    "[Wolves' Den, Corridor]"
+  ],
+  "description": [
+    "The dust of eons covers the floor of this long, dark corridor.  To the north, it fades into the shadows.  A long, sloping ramp at the southern end leads downward.  At the top of the ramp, the hallway angles off towards the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east, down"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      132,
+      485,
+      142,
+      495
+    ]
+  },
+  "exits": [
+    {
+      "to": 8233,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8240,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8242,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

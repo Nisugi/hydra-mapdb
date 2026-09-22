@@ -1,0 +1,43 @@
+{
+  "id": 34481,
+  "uid": [
+    8211352
+  ],
+  "title": [
+    "[Elenesse Atelier, Hall]"
+  ],
+  "description": [
+    "Stretching from the foyer in the south to the alcove in the north, a long fuzzy runner of shaggy white roltalen muffles the movement of those within the hall.  Large windows capped in keyhole arches dominate the western walls with their leaded, stained-glass designs and each is surrounded by a plethora of frosted globes that keep the expanse illuminated.  Here and there, doors providing entry to various workspaces fill the space beyond the white stucco walls."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Summit Academy",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34478,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34482,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34485,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 36499,
+      "kind": "go",
+      "cmd": "go stained door",
+      "cost": 0.2
+    }
+  ]
+}

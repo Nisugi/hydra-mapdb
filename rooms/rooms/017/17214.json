@@ -1,0 +1,40 @@
+{
+  "id": 17214,
+  "uid": [
+    256665
+  ],
+  "title": [
+    "[Warrior Guild, Darkened Landing]"
+  ],
+  "description": [
+    "A solitary iron sconce perched above the heavy door provides barely enough illumination to make out the way down to the basement.  Beyond the first few flagstone steps, there are persistent and deeper shadows and the vague outline of a mortared stone wall."
+  ],
+  "paths": [
+    "Obvious exits: down, out"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      919,
+      359,
+      940,
+      386
+    ]
+  },
+  "exits": [
+    {
+      "to": 17183,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17213,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

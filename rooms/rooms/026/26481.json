@@ -1,0 +1,48 @@
+{
+  "id": 26481,
+  "title": [
+    "[Caligos Isle, High Plateau]"
+  ],
+  "description": [
+    "Dim light invades the mist-shrouded landscape, its source, several shuttered windows high up the dark face of the black shale cliff.  Sharp angles and severe lines lend depth to the imposing shadows that surround a carved stone tavern that is carved into the very mountainside.  The uneven pathway is slick with plant life that is partially hidden in the murk of the night."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      264,
+      451,
+      278,
+      464
+    ]
+  },
+  "exits": [
+    {
+      "to": 26479,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26482,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 26484,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27606,
+      "kind": "go",
+      "cmd": "go toadstools",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 11376,
+  "uid": [
+    377027
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "A cool draft blows down the spiral stone staircase in this corner of the hallway, sending the dust on the floor into intricate spirals in the air."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      346,
+      1289,
+      356,
+      1299
+    ]
+  },
+  "exits": [
+    {
+      "to": 11375,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 11377,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11381,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11383,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

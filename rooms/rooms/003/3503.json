@@ -1,0 +1,69 @@
+{
+  "id": 3503,
+  "uid": [
+    14100067
+  ],
+  "title": [
+    "[Ta'Vaalor, Rubicaene Wey]"
+  ],
+  "description": [
+    "The bustle of the airship docks occasionally ascends into a deafening roar, as shouting sailors climb ship riggings, and dock workers operate winches and nets to move cargo to and from the various vessels.  Foremen and ship captains alike yell orders to the workers, their voices carrying above the din.  A thick metal grate is set into the cobbled street."
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      476,
+      477,
+      511,
+      514
+    ]
+  },
+  "exits": [
+    {
+      "to": 3502,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3504,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3505,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5909,
+      "kind": "climb",
+      "cmd": "climb grate",
+      "cost": 0.2
+    },
+    {
+      "to": 23818,
+      "kind": "go",
+      "cmd": "go limestone building",
+      "cost": 0.2
+    },
+    {
+      "to": 30286,
+      "kind": "go",
+      "cmd": "go terminus building",
+      "cost": 0.2
+    }
+  ]
+}

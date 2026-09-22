@@ -1,0 +1,49 @@
+{
+  "id": 20165,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "Wagons of many colors and descriptions have dropped their traces here in the wheel-rutted mud beside the main pathway.  Some boast fine wood paneling and massive iron banded wheels, while others have simple canvas stretched over their arched frame structures.  The aroma of roasting meats and vegetables over the open firepits mingle with the sounds of baying dogs and men and women hawking their wares.",
+    "Wagons of many colors and descriptions have dropped their traces here in the wheel-rutted mud beside the diseased banyan.  Some boast fine wood paneling and massive iron banded wheels, while others have simple canvas stretched over their arched frame structures.  The aroma of roasting meats and vegetables over the open firepits mingle with the sounds of baying dogs and men and women hawking their wares."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      620,
+      755,
+      634,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 20255,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20256,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20263,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21386,
+      "kind": "go",
+      "cmd": "go banyan",
+      "cost": 0.2
+    }
+  ]
+}

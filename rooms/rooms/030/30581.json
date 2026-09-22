@@ -1,0 +1,57 @@
+{
+  "id": 30581,
+  "uid": [
+    312200
+  ],
+  "title": [
+    "[Darkness]"
+  ],
+  "description": [
+    ""
+  ],
+  "paths": [
+    ""
+  ],
+  "location": "the Graveyard",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 7626,
+      "kind": "other",
+      "cmd": "crawl out",
+      "cost": 0.2
+    },
+    {
+      "to": 30582,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "staircase"
+            ]
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "move": "go staircase"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 11231,
+  "uid": [
+    377224
+  ],
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "A single large terra cotta pot, bathed in the rays from a dusty skylight, rests in the center of the hallway.  A faded, time-ravaged carpet covers the floor.  Arched doorways lead east and south."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      164,
+      656,
+      174,
+      666
+    ]
+  },
+  "exits": [
+    {
+      "to": 11230,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 11232,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11233,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

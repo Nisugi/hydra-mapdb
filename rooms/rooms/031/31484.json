@@ -1,0 +1,58 @@
+{
+  "id": 31484,
+  "uid": [
+    7136090
+  ],
+  "title": [
+    "[Mistwatch, Walkway]"
+  ],
+  "description": [
+    "Thick planks of oak create a walkway that parallels the ocean.  Floating tigerwood docks are secured to the east along the shoreline.  Wandering off to the west, a narrow trail disappears into the forest.  Laughter flows out of an iron and mahogany building built across the path, away from the water.  A small stone shop is tucked between a pair of spindly trees with warped bark that has been damaged by the sea air."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Elven Nations Port",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_port-1662946910.png",
+    "rect": [
+      767,
+      333,
+      785,
+      350
+    ]
+  },
+  "exits": [
+    {
+      "to": 31483,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 31485,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 31487,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31488,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

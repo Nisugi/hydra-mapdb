@@ -1,0 +1,39 @@
+{
+  "id": 17665,
+  "uid": [
+    5009050
+  ],
+  "title": [
+    "[River's Rest, Tempest River]"
+  ],
+  "description": [
+    "The violent force of the current carries you forward, as the banks of the river swiftly pass by to the right and left.  The cold river water surrounds you with floatsam in the form of leaves, twigs, and the occassional clumsy rolton."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
+  "climate": "freshwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "exits": [
+    {
+      "to": 11433,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_arrival": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 30.0
+    }
+  ]
+}

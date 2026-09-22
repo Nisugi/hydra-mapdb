@@ -1,0 +1,63 @@
+{
+  "id": 16183,
+  "uid": [
+    216005
+  ],
+  "title": [
+    "[Beacon Hall, Common Room]"
+  ],
+  "description": [
+    "Several coats of arms hang from the dark modwir walls in this softly lit room.  The south wall displays captured banners and armaments from a variety of military campaigns.  A large fieldstone fireplace dominates the north wall.  A massive oaken table sits surrounded by a horde of oak chairs in the center of the room beneath a black wrought iron chandelier.  Despite the presence of war paraphernalia, a sense of peace pervades the room."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "beaconhall",
+    "fire lily",
+    "no forageables",
+    "node",
+    "supernode"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      509,
+      569,
+      555,
+      614
+    ]
+  },
+  "exits": [
+    {
+      "to": 16182,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16184,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16185,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16187,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

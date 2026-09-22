@@ -1,0 +1,50 @@
+{
+  "id": 35074,
+  "uid": [
+    4426512
+  ],
+  "title": [
+    "[Glaeve, Leviathan Road]"
+  ],
+  "description": [
+    "Heat, sere and overpowering, washes up in shimmering waves from a chasm splitting the plateau in twain to the west.  Steep walls of slick obsidian plummet toward a narrow ribbon of lava dizzyingly far below.  Only a railing of wood stakes and braided sinew stands between a hapless traveler and a final fall.  A bridge of volcanic stone, its parapets elaborately carved with a tangle of sea serpents, spans the gap.  The sturdy bridge seems a thin and treacherous thing given the drop to either side."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      596,
+      249,
+      617,
+      269
+    ]
+  },
+  "exits": [
+    {
+      "to": 35072,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35075,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 35076,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

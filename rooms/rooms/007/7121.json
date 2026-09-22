@@ -1,0 +1,52 @@
+{
+  "id": 7121,
+  "uid": [
+    41048
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The hall dead ends here, with a door on the north wall and an archway on the south wall.  A large black beetle is making its slow way across the ceiling, and is currently right over your head."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "kiramon defender",
+    "kiramon worker",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      974,
+      389,
+      984,
+      399
+    ]
+  },
+  "exits": [
+    {
+      "to": 7120,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7122,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 7123,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

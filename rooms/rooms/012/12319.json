@@ -1,0 +1,180 @@
+{
+  "id": 12319,
+  "uid": [
+    3209361
+  ],
+  "title": [
+    "[Luna Rest Tavern, Common Room]"
+  ],
+  "description": [
+    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of a quiet harp drifts in from the south.",
+    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of laughter and music drifts in from the south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1483,
+      2484,
+      1496,
+      2498
+    ]
+  },
+  "exits": [
+    {
+      "to": 12317,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13612,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go lighthouse table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 16420,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 16429,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23746,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dilapidated Driftwood table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26181,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Busy Beachcomber table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26182,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Glass Peach Pit table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26183,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go essence table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26184,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Puffing Clouds table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26185,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sand Castle table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26186,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Lush Vineyard table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27041,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go blue wisteria table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

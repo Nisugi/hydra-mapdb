@@ -1,0 +1,91 @@
+{
+  "id": 17589,
+  "uid": [
+    3216012
+  ],
+  "title": [
+    "[Western Harbor, Docks]"
+  ],
+  "description": [
+    "Transitioning seamlessly from cobblestones to wooden planks, the street and dock meet with little to no fanfare.  Sturdy pilings are fitted with wooden railings along the expanse of the dock to prevent any mishaps, while the streets are lined with glass-sided wrought iron lanterns."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "locksmith pool",
+    "locksmithpool",
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access"
+  ],
+  "meta": [
+    "boxpool:npc:pudgy forest gnome attendant",
+    "boxpool:table:elegant mahogany table",
+    "trashcan:splintered oak barrel"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      955,
+      626,
+      984,
+      652
+    ]
+  },
+  "exits": [
+    {
+      "to": 17588,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17590,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 3807,
+  "uid": [
+    3040
+  ],
+  "title": [
+    "[Land Tower East, Office]"
+  ],
+  "description": [
+    "The ground floor of this guard tower appears to be some kind of office.  A single guard sits behind one of the desks reviewing some paperwork.  A small wood stove in the corner provides heat to the room."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "easttower",
+    "fire lily",
+    "locksmith pool",
+    "locksmithpool",
+    "node",
+    "supernode",
+    "urchin guide easttower",
+    "urchin guide locksmithpool",
+    "urchin-access"
+  ],
+  "meta": [
+    "boxpool:npc:scruffy human worker",
+    "boxpool:table:sturdy wooden table",
+    "teleport:fwi",
+    "trashcan:large wastebasket"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      317,
+      84,
+      353,
+      120
+    ]
+  },
+  "exits": [
+    {
+      "to": 223,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 6932,
+      "kind": "go",
+      "cmd": "go wooden steps",
+      "cost": 0.2
+    },
+    {
+      "to": 23335,
+      "kind": "go",
+      "cmd": "go wooden trapdoor",
+      "cost": 0.3
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

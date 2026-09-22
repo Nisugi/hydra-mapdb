@@ -1,0 +1,42 @@
+{
+  "id": 22265,
+  "title": [
+    "[Mestanir, Garden Lane]"
+  ],
+  "description": [
+    "A decorative stone wall surrounds the Temple of Koar, entrance granted within by a small postern gate.  A lush garden of ferns and wide-petaled flowers peeks out from just behind the wall, perhaps a place for quiet meditation or a morning stroll."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Mestanir",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      98,
+      271,
+      111,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 22264,
+      "kind": "go",
+      "cmd": "go alleyway",
+      "cost": 0.2
+    },
+    {
+      "to": 22341,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22346,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 31701,
+  "uid": [
+    8083384
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "Rooftops appear behind high green reeds scattered along the gently sloping riverfront, the muddy strand trampled with myriad footprints.  Luminous white pebbles litter the shoreline creating a rough path away from the water's edge, through the reeds and disappearing over a grassy bank.  An assortment of abandoned luggage is piled high in a small white boat run aground on the eastern riverbank."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      982,
+      375,
+      1005,
+      394
+    ]
+  },
+  "exits": [
+    {
+      "to": 31700,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 32078,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 20376,
+  "title": [
+    "[Tug-of-War, Elm Knoll]"
+  ],
+  "description": [
+    "Rows of elm benches are clustered atop a gently sloping knoll, providing a clear view of a span of trenched swampland below.  Bits and pieces of rope and clothing litter the area, each stained with blood, mud, and a multitude of unrecognized substances."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20124,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20377,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go field"
+        },
+        {
+          "move": "go field",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20378,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

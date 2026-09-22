@@ -1,0 +1,54 @@
+{
+  "id": 18889,
+  "uid": [
+    216029,
+    216030
+  ],
+  "title": [
+    "[Beacon Hall, Locker]"
+  ],
+  "description": [
+    "Rows of lockers line the shelves along the walls of this compact space.  Your locker has been removed from the shelf above and sits ready for you on a sturdy counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Maelstrom Bay",
+  "tags": [
+    "bhalocker",
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1366,
+      667,
+      1456,
+      709
+    ]
+  },
+  "exits": [
+    {
+      "to": 18888,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

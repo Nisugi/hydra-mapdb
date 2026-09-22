@@ -1,0 +1,66 @@
+{
+  "id": 17931,
+  "uid": [
+    264001
+  ],
+  "title": [
+    "[A Concealed Room]"
+  ],
+  "description": [
+    "Crates, boxes and pieces of dusty, broken furniture are stacked along the walls of this seemingly forgotten storage room.  A simple desk and chair sit next to a narrow door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "rogue guild",
+    "rogueguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Vornavis",
+    "mapname:Vornavis - Rogue Guild",
+    "mapshortname:Rogue Guild (VO)"
+  ],
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      428,
+      481,
+      457,
+      508
+    ]
+  },
+  "exits": [
+    {
+      "to": 13243,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 17932,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

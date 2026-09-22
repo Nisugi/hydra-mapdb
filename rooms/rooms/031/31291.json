@@ -1,0 +1,52 @@
+{
+  "id": 31291,
+  "uid": [
+    4410024
+  ],
+  "title": [
+    "[Iyo Glade, Clearing]"
+  ],
+  "description": [
+    "A raised wooden dais stands in the middle of the clearing, with a circular path all around it.  The platform itself is painted a deep forest green, the hue almost a perfect match for the surrounding grasses.  A number of paths lead away from the clearing, each one framed by split logs, while to the north a wooden archway is guarded by a pair of stern-faced Iyo."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      423,
+      442,
+      474,
+      496
+    ]
+  },
+  "exits": [
+    {
+      "to": 31278,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31292,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31341,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31346,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

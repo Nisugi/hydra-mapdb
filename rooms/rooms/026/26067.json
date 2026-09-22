@@ -1,0 +1,39 @@
+{
+  "id": 26067,
+  "uid": [
+    679030
+  ],
+  "title": [
+    "[DragonSpine Fane, Landing]"
+  ],
+  "description": [
+    "Stone benches line the remarkably smooth walls of the chamber.  Upon one bench, someone has left a pitcher of water for thirsty tourists, while upon another, there is a washbasin and some cloths that have been arranged for the hygiene-conscious.  Standing at opposite ends of the small landing, a pair of downward spiraling stairs affords passage below, while a large stone archway leads deeper into the mountain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26068,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 26072,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

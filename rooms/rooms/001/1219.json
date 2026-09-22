@@ -1,0 +1,166 @@
+{
+  "id": 1219,
+  "uid": [
+    2190001
+  ],
+  "title": [
+    "[Vipershroud, Edge of Settlement]"
+  ],
+  "description": [
+    "Cicadas and crickets fill the night air with insectile song.  Moonlight illuminates a small path meandering southwest through the blackberry bushes toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest presents an impenetrable blackness.",
+    "Sunlight pours into this clearing, nourishing the multicolored wildflowers intermixed with the thorny blackberry bushes.  An overgrown path meanders southwest toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest, heavily overgrown and choked with brambles, encroaches upon the bright meadow."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Vipershroud",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "barley grass",
+    "birch bark",
+    "blue trafel mushroom",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "cherry peppers",
+    "chives",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "dwarf bilberry",
+    "fennel bulb",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "ginger root",
+    "golden aster",
+    "golden buttercup",
+    "green cabbage",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hot pepper",
+    "Imaera's Lace",
+    "ironfern root",
+    "leek",
+    "luckbloom blossom",
+    "monkey grass",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "off-white parsnip",
+    "orris root",
+    "peppermint leaves",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "purple-tipped artichoke",
+    "rainbow chard",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "round grumbleberry",
+    "round yuzu",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small pumpkin",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "soft mushroom",
+    "sovyn clove",
+    "spearmint leaf",
+    "sprig of alyssum",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "stalk of burdock",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sweet onion",
+    "thistle seeds",
+    "tobacco leaves",
+    "traesharm berry",
+    "trollear mushroom",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "wild carrot",
+    "wild chokecherry",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rose",
+    "wild strawberry",
+    "wild tulip",
+    "wintergreen leaf",
+    "wiregrass",
+    "withered mushroom",
+    "woad leaves",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      188,
+      894,
+      198,
+      904
+    ]
+  },
+  "exits": [
+    {
+      "to": 1218,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1220,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover a northwest path"
+            ]
+          }
+        },
+        {
+          "move": "go path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

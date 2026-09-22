@@ -1,0 +1,49 @@
+{
+  "id": 17257,
+  "uid": [
+    252015
+  ],
+  "title": [
+    "[Guild Hall, Vaulted Foyer]"
+  ],
+  "description": [
+    "A solid tanik-wood desk sits underneath a towering vaulted bay-window that opens on the splendor of the garden and pool beyond.  Sunlight shines upon the flowering vines that intertwine the pillars to form a thin veil along the walls.  The tiled hallway runs transverse to the entrance."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild administrator"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1374,
+      923,
+      1396,
+      945
+    ]
+  },
+  "exits": [
+    {
+      "to": 17256,
+      "kind": "go",
+      "cmd": "go entrances",
+      "cost": 0.2
+    },
+    {
+      "to": 17258,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17262,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

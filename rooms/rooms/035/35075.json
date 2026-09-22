@@ -1,0 +1,44 @@
+{
+  "id": 35075,
+  "uid": [
+    4426524
+  ],
+  "title": [
+    "[Glaeve, The Ravening Chasm]"
+  ],
+  "description": [
+    "Lava surges sluggishly in the ravine below the crumbling precipice, as if the gash were a livid wound in the face of the world.  Though the molten rock lies far below the jag of stable ground, the heat churning up from the burning flow is overpowering in its intensity.  A carved black stone bridge arcs from the opposite side of the chasm, anchored to stone by scaffolding and heavy rivets."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      545,
+      249,
+      565,
+      269
+    ]
+  },
+  "exits": [
+    {
+      "to": 35074,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 35091,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

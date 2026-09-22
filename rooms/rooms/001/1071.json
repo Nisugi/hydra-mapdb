@@ -1,0 +1,61 @@
+{
+  "id": 1071,
+  "uid": [
+    13001041
+  ],
+  "title": [
+    "[Rope Ladder]"
+  ],
+  "description": [
+    "Thick mist fills your vision on three sides, while on the fourth the sheer basalt wall of the cliff looms vertical and close.  Sounds become muffled and distorted by the thick, damp air, preventing their location from being ascertained at all.  Nothing moves in the mist or on the cliff face, and the only thing to do is continue to climb, either up through the mist, or down through the mist."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, damp",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1247,
+      772,
+      1257,
+      782
+    ]
+  },
+  "exits": [
+    {
+      "to": 1070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb down"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 1072,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb up"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

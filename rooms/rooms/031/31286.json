@@ -1,0 +1,46 @@
+{
+  "id": 31286,
+  "uid": [
+    4410191
+  ],
+  "title": [
+    "[Crystalline Creations]"
+  ],
+  "description": [
+    "Tapered green branches, many with their leaves still attached, are woven together with vines to form a rustic arbor. The structure is tucked between two giant roots of an ancient redwood, narrowing as it stretches back toward a curtain of hanging moss that obscures the secrets of the tree's deeper embrace.  In front of the living drape stands a naturally finish oiled zebrawood tray.  Two more displays are closer to the front and equally offset to either side, a single piece cocobolo log pedestal and cocobolo log stand completing a triangle with a pyrographed cedar sign at the center.",
+    "Tapered green branches, many with their leaves still attached, are woven together with vines to form a rustic arbor. The structure is tucked between two giant roots of an ancient redwood, narrowing as it stretches back toward a curtain of hanging moss that obscures the secrets the tree's deeper embrace.  In front of the living drape stands a naturally finish oiled zebrawood tray.  Two more displays are closer to the front and equally offset to either side, a single piece cocobolo log pedestal and cocobolo log stand completing a triangle with a pyrographed cedar sign at the center."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "plain dirt",
+  "exits": [
+    {
+      "to": 31285,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31345,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_while": [
+            "search",
+            {
+              "not": {
+                "sees": "gap"
+              }
+            }
+          ]
+        },
+        {
+          "move": "go gap"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

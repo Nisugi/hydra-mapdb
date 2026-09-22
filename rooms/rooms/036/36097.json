@@ -1,0 +1,40 @@
+{
+  "id": 36097,
+  "uid": [
+    105010
+  ],
+  "title": [
+    "[House Arcane, Landing]"
+  ],
+  "description": [
+    "Standing at the top of the spiral staircase, you can look down the long hallway leading to the members' rooms.  The unfinished plaster of the walls is divided at intervals by strips of dark wood that begin at the ceiling and intersect with the paneling two-thirds of the way down the wall.  Cast iron oil lamps extend from the strips, giving the corridor a dusky yellow tint."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      561,
+      660,
+      642,
+      741
+    ]
+  },
+  "exits": [
+    {
+      "to": 36094,
+      "kind": "go",
+      "cmd": "go spiral staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 36098,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

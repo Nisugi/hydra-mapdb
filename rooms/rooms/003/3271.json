@@ -1,0 +1,45 @@
+{
+  "id": 3271,
+  "uid": [
+    4127014
+  ],
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The passage here is long and narrow with several timbers in place to shore up the ceiling in several places.  The well-travelled floor is littered with tracks of some very large creatures but you can't quite identify them."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      343,
+      354,
+      353,
+      364
+    ]
+  },
+  "exits": [
+    {
+      "to": 3265,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3272,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

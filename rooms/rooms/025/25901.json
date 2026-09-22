@@ -1,0 +1,36 @@
+{
+  "id": 25901,
+  "uid": [
+    3215129
+  ],
+  "title": [
+    "[Annex, Rone Academy Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A purple velvet pennant edged with silver hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:rone_academy:entrance_annex",
+    "che:rone_academy:entrance_locker",
+    "locker annex:Rone Academy"
+  ],
+  "exits": [
+    {
+      "to": 16700,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 25997,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

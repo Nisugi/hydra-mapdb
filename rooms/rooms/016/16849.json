@@ -1,0 +1,129 @@
+{
+  "id": 16849,
+  "uid": [
+    13010013
+  ],
+  "title": [
+    "[Bawdy Bard Inn, Tavern]"
+  ],
+  "description": [
+    "Small humus pots suspended from the ceiling cast donut-shaped pools of light across the stone floor of this cramped tavern.  The scent of pipe tobacco mixes with the odor of stale ale, and a smoky haze envelops the entire room.  Behind a low granite bar, the proprietor gazes out mistrustfully at the patrons gathered at the strangely shaped tables, his eyes darting every so often to the cash box that he keeps within easy reach.  A sign on the bar lists the fare available."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 9481,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24376,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Lilting Lute table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24377,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Suffering Shawm table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24378,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Meandering Mandolin table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24379,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Flighty Flute table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24380,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Crooning Crumhorn table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24381,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Prickly Piccolo table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

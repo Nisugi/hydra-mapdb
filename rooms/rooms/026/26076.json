@@ -1,0 +1,43 @@
+{
+  "id": 26076,
+  "uid": [
+    679023
+  ],
+  "title": [
+    "[Ancient Passage, Niche]"
+  ],
+  "description": [
+    "Shadows jump across the wall, their forms created by the flickering candles that are recessed within fist-sized alcoves that ring the chamber.  Stylized flames carved into the wall appear to dance beneath the erratic patterns of the wavering light.  Standing at an angle so that her stony gaze rests upon both the upward and downward spiraling stairs, a female stone statue dominates the center of the chamber, while beyond her, a niche housing a large donation bowl basks in her silhouette."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26075,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26077,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

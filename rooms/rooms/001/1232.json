@@ -1,0 +1,100 @@
+{
+  "id": 1232,
+  "uid": [
+    2190015
+  ],
+  "title": [
+    "[Vipershroud, Fallen Tree]"
+  ],
+  "description": [
+    "A huge tree, perhaps twenty-five feet in diameter, has fallen onto the path, blocking further progress.  The tree trunk is heavily covered with dark green moss and brownish yellow fungus, and the overhead canopy shows no sign of a break in the tightly woven umbrella, indicating the fallen tree has lain here for some time.  Brackish water pools underneath the trunk, adding to the steamy mist.  The narrow path continues off to the north."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Vipershroud",
+  "climate": "hot, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "bloodwood twig",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "fresh catnip",
+    "green pear",
+    "haphip root",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "pothinir grass",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "trafel mushroom",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "withered mushroom",
+    "woth flower",
+    "yellow lemon",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      119,
+      720,
+      129,
+      730
+    ]
+  },
+  "exits": [
+    {
+      "to": 1231,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover"
+            ]
+          }
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 1233,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 7582,
+  "uid": [
+    47016
+  ],
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "A beam of light filters through a crack in the stone above, throwing a bright patch on the floor.  A breeze of fresh air helps to dissipate the unpleasant acrid smell that seems to come from a deep tunnel that winds down into the dirt floor.  Faint clicking noises echo on the rock walls, but you cannot tell their source."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the dark caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "macadamia nuts",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      198,
+      1048,
+      208,
+      1058
+    ]
+  },
+  "exits": [
+    {
+      "to": 7581,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7584,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

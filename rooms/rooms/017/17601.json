@@ -1,0 +1,41 @@
+{
+  "id": 17601,
+  "uid": [
+    3216043
+  ],
+  "title": [
+    "[Scuttlebug Tavern, Hallway]"
+  ],
+  "description": [
+    "Plain and unadorned, the western wall of the hallway has a pair of doors set into its smooth facing, one of knotty oak and the other of driftwood.  Directly opposite the entries is a railing that overlooks the common room below, which culminates in a rickety knotty pine staircase leading down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Western Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node"
+  ],
+  "exits": [
+    {
+      "to": 17600,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 22060,
+      "kind": "go",
+      "cmd": "go driftwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 22061,
+      "kind": "go",
+      "cmd": "go knotty door",
+      "cost": 0.2
+    }
+  ]
+}

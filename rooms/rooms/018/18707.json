@@ -1,0 +1,70 @@
+{
+  "id": 18707,
+  "uid": [
+    4031025
+  ],
+  "title": [
+    "[Krolvin Warship, Brig]"
+  ],
+  "description": [
+    "Floor-to-ceiling bars form a latticework of wrought iron cells along the port side.  Large, brackets bolted to the bulkhead and planks overhead hold the iron bars in place and have been covered in tar to prevent rusting.  Occasionally, an enormous rat scurries between sealed barrels marked with large black X's; some even sit lazily in open sight, unperturbed."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      585,
+      353,
+      607,
+      375
+    ]
+  },
+  "exits": [
+    {
+      "to": 18702,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put_until": {
+            "command": "batter door",
+            "until": [
+              "destroyed",
+              "ineffective"
+            ]
+          },
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18706,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18708,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24853,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

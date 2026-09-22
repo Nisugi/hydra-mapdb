@@ -1,0 +1,114 @@
+{
+  "id": 2300,
+  "uid": [
+    4042150
+  ],
+  "title": [
+    "[Icemule Trace, Town Center]"
+  ],
+  "description": [
+    "A bustling square dusted with snow sprawls beneath a sturdy mule statue standing placidly atop a tall plinth of silver-veined black stone.  The sun filters through the ice of the statue, showering the throng with a kaleidoscope of rainbowed shards.  Some denizens, mostly halflings but with a scattering of other folk mixed in, chatter by a roaring bonfire, lazing on a smooth dark stone bench or reclining on colorful cloaks spread out on the ground.  Others mill around a burled pine message board standing close to a colorful silver-bound barrel.",
+    "The bustling town comes together in this square.  Halflings dressed in varying fashions stand about, some chattering happily, others reclining on cloaks laid on the ground.  One ancient halfling leans against the base of the large ice statue of a mule, snoring blissfully.  A feeling of community pervades the area, putting you immediately at ease.",
+    "The center of the bustling frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The sun's radiance filters through the ice, casting prismatic rays of light over a swirling throng of halflings.  Some chatter loudly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others recline on colorful cloaks spread out across the hard ground.  Over by a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth to the surroundings.",
+    "The center of the slumbering frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The stars' brilliance winks through the ice, casting prismatic glints of light over a scattering of halflings.  Some chatter quietly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others stargaze on colorful cloaks spread out across the hard ground.  Near the comfort of a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth and illumination to the surroundings.",
+    "A tranquil square dusted with snow sprawls beneath a sturdy mule statue standing placidly atop a tall plinth of silver-veined black stone.  The brilliance of the stars refracts through the statue, casting prismatic glints over the townsfolk nearby.  Some denizens, mostly halflings but with a scattering of other folk mixed in, chatter by a roaring bonfire, lazing on a smooth dark stone bench or stargazing on colorful cloaks spread out on the ground.  Others mill around a burled pine message board standing close to a colorful silver-bound barrel."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west",
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "tc",
+    "town",
+    "urchin guide tc",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapcategory:Towns",
+    "mapname:Icemule Trace"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      581,
+      787,
+      617,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 2301,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 2.4
+    },
+    {
+      "to": 2302,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 2.4
+    },
+    {
+      "to": 2426,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 2.4
+    },
+    {
+      "to": 3233,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 2.4
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 34071,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

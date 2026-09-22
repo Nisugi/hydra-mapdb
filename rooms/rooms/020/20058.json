@@ -1,0 +1,38 @@
+{
+  "id": 20058,
+  "uid": [
+    28149
+  ],
+  "title": [
+    "[Museum, Basement Tunnel]"
+  ],
+  "description": [
+    "The slow plinking sound of water dripping from somewhere above echoes through this subterranean room beneath the museum.  Unfinished, the walls are crafted of timber braces and mortared stone, with pale lichen growing in the cracks.  The space is partially illuminated by flickering torches set into the walls that reflect off shallow murky puddles on the rough stone floor.  An open archway in the north wall leads to an adjacent room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 20054,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20059,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

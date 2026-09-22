@@ -1,0 +1,54 @@
+{
+  "id": 5206,
+  "uid": [
+    4202107
+  ],
+  "title": [
+    "[Vornavian Coast, Beach]"
+  ],
+  "description": [
+    "The hulk of a beached ship lies here, partly submerged in the advancing waves.  The ship, once proud and tall, is broken and rotting as it lies on its starboard side on the shore.  Seagulls and crows nest in the masts that remain.  A gaping gash in the side of the ship indicates the probable cause of the ship's demise."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "yabathilium fruit",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      202,
+      530,
+      212,
+      540
+    ]
+  },
+  "exits": [
+    {
+      "to": 5204,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5207,
+      "kind": "go",
+      "cmd": "go gash",
+      "cost": 0.2
+    },
+    {
+      "to": 5208,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 2645,
+  "uid": [
+    4562044
+  ],
+  "title": [
+    "[Pool]"
+  ],
+  "description": [
+    "The depths churn with ferocious tenacity, tossing everything within its embrace like leaves caught in a wind.  Directions are difficult to ascertain, and even the brave beams of light filtering down into the morass seem to bend and stretch in response the currents' vicious onslaught.  Through a momentary lull in the flux, the rough surface of the rock wall of the pool is revealed, scarred by pits and depressions."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location_unknowable": true,
+  "climate": "freshwater",
+  "terrain": "none",
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      296,
+      428,
+      306,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 2642,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search wall"
+        },
+        {
+          "move": "swim crevice"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 2646,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

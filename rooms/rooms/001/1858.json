@@ -1,0 +1,57 @@
+{
+  "id": 1858,
+  "uid": [
+    3002007
+  ],
+  "title": [
+    "[Citrine and Gold]"
+  ],
+  "description": [
+    "High, pruned shrubs run in from the east and west, and bend south to form a brushy barrier between the street and the western wall.  A painted door presses through the foliage to the inside, giving notice of a small bungalow to which it offers entry.  Sounds of conversation and laughter waft out from the shop, accompanied by the sweet, earthy smell of fresh tobacco.",
+    "High, pruned shrubs run in from the east and west, and bend south to form a brushy barrier between the street and the western wall.  A brightly-painted red door presses through the foliage to the inside, giving notice of a small bungalow to which it offers entry.  Sounds of conversation and laughter waft out from the shop, accompanied by the sweet, earthy smell of fresh tobacco."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      289,
+      218,
+      325,
+      254
+    ]
+  },
+  "exits": [
+    {
+      "to": 1857,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1859,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1861,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12451,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

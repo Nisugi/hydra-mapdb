@@ -1,0 +1,41 @@
+{
+  "id": 14385,
+  "uid": [
+    4900705
+  ],
+  "title": [
+    "[Temple, Hall of Death]"
+  ],
+  "description": [
+    "The hall widens and the ceiling rises in a gentle arch to form a tomblike chamber, its curving south wall cradling a pair of arched mistwood doors etched in vinelike patterns of malachite and silver.   A stylized yew tree is carved into the smooth granite of the north wall, its gnarled branches almost lifelike in detail, and the floor is inlaid with grey tile that forms interlocking symbols of eternity.  An ancient silver sickle hangs mounted on a moss-green stone plaque above the doors."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14226,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14386,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 14388,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

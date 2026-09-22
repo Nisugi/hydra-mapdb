@@ -1,0 +1,93 @@
+{
+  "id": 13055,
+  "uid": [
+    160012
+  ],
+  "title": [
+    "[Sorena's Emporium, Consignment]"
+  ],
+  "description": [
+    "Caught in perpetual twilight, the narrow passageway carved from rock and dirt is roofed over with thick, tangled roots.  Twining among the roots is an equally tangled series of interconnected glass tubes, each carrying liquids of varying hue and density.  A slate slab is balanced, somewhat precariously, atop several empty, stained casks that line the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "alchemy",
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "consignment",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "urchin guide alchemy",
+    "urchin-access",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1292,
+      170,
+      1302,
+      180
+    ]
+  },
+  "exits": [
+    {
+      "to": 2385,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13056,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 32465,
+  "uid": [
+    4577234
+  ],
+  "title": [
+    "[Moonsedge Castle, Passage]"
+  ],
+  "description": [
+    "The smoky, torchlit passage splits to either side of a grand staircase of grey stone and deep crimson bloodwood that ascends grandiosely to the second story of the keep.  There, upper banisters fly banners in scarlet and grey.  A framed archway to the northwest reveals glimpses of long shelves crowded with old tomes, while a mirroring path to the northeast dovetails into a spectacular gallery hung with a dazzling selection of artworks."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1105,
+      525,
+      1129,
+      548
+    ]
+  },
+  "exits": [
+    {
+      "to": 32455,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32466,
+      "kind": "go",
+      "cmd": "go bloodwood staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 32467,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32470,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 732,
+  "uid": [
+    737005
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "Situated at a desirable corner of the bazaar, a rather tall grey-blue granite building rises above its neighboring shops.  Its glaesine windows are illuminated from within, while silvery moonlight plays off the bas-reliefs etched into the granite walls, depicting merchants in the act of trading.",
+    "Situated at a desirable corner of the bazaar, a rather tall grey-blue granite building rises above its neighboring shops.  Its glaesine windows glimmer in the sunshine, while the reflected light plays off the bas-reliefs etched into the granite walls, depicting merchants in the act of trading."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1464,
+      667,
+      1480,
+      685
+    ]
+  },
+  "exits": [
+    {
+      "to": 642,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 733,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 737,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7435,
+      "kind": "go",
+      "cmd": "go granite building",
+      "cost": 0.2
+    },
+    {
+      "to": 9300,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    }
+  ]
+}

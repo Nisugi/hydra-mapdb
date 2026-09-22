@@ -1,0 +1,52 @@
+{
+  "id": 12708,
+  "uid": [
+    3031085
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The shattered remnants of a large clay vase rest on a shelf carved into the northern wall, the shards adorned with painted waves.  Some descending stairs rest at the base of an elaborately carved archway along the eastern wall, flanked by a pair of long extinguished fire pots."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      473,
+      371,
+      509,
+      407
+    ]
+  },
+  "exits": [
+    {
+      "to": 12702,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12716,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12749,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

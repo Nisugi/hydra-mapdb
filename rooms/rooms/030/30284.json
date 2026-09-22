@@ -1,0 +1,99 @@
+{
+  "id": 30284,
+  "uid": [
+    336663
+  ],
+  "title": [
+    "[Rusty Cutlass, Quarterdeck]"
+  ],
+  "description": [
+    "Two wooden stairs lead up to the expansive quarterdeck that provides a wide view of the deck and forecastle beyond.  A notched ship's wheel juts up from the center, while far behind it several tables and chairs for guests have been positioned about with each wooden leg nailed into the deck.  Several blued steel lanterns hang from a long wooden railing."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-docks and tavern-1642366998.jpg",
+    "rect": [
+      1057,
+      574,
+      1083,
+      604
+    ]
+  },
+  "exits": [
+    {
+      "to": 30279,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 30941,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Silver Knave table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30942,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Golden Zealot table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30943,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rooftop Rook table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30944,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Blue Baystone table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30945,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Blood Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30946,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dark Bleakstone table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

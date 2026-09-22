@@ -1,0 +1,113 @@
+{
+  "id": 29868,
+  "uid": [
+    7503201
+  ],
+  "title": [
+    "[Cold River, Outskirts]"
+  ],
+  "description": [
+    "The outskirts of a small hamlet are sheltered by a curving palisade of pine stakes.  A narrow gap in the wall serves as the only means of egress from the settlement.  Dwellings of raw timber, with windows of glass or oilcloth, huddle around a hard-packed dirt road leading deeper into the heart of the small village.  Near one home, furs hang on a laundry line, flapping on the sharp-edged breeze.  Smells of woodsmoke and fresh fish flavor the crisp, frigid air."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "angelica root",
+    "black acorn",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "daggit root",
+    "feverfew stalk",
+    "frostflower",
+    "frostweed",
+    "gok nut",
+    "handful of pinenuts",
+    "ironfern root",
+    "lingonberry",
+    "manroot stalk",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "red lichen",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "slender twig",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "urchin guide gate",
+    "urchin-access",
+    "valerian root",
+    "wintergreen leaf",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      545,
+      1107,
+      560,
+      1121
+    ]
+  },
+  "exits": [
+    {
+      "to": 29869,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29878,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

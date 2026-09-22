@@ -1,0 +1,41 @@
+{
+  "id": 18121,
+  "uid": [
+    661006
+  ],
+  "title": [
+    "[Sorcerer Guild, Tub Room]"
+  ],
+  "description": [
+    "Condensation drips from the ceiling and runs down the black marble walls to disappear into a drain in the far corner, leaving the floor slick with moisture.  A spacious tub has been carved directly into the marble floor, and hot seawater swirls and foams within.  A metal vat is securely bolted against the wall with a pipe and a chain hanging down just above the tub.  Wide steps lead into the tub's churning waters."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-sorcerer_guild-1405076623.png",
+    "rect": [
+      623,
+      900,
+      664,
+      939
+    ]
+  },
+  "exits": [
+    {
+      "to": 18120,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18122,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

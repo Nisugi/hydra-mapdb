@@ -1,0 +1,40 @@
+{
+  "id": 16132,
+  "uid": [
+    5001069
+  ],
+  "title": [
+    "[Paupers, Annex]"
+  ],
+  "description": [
+    "The floor, made of unglazed octagonal tiles, is partly covered with a thick carpet.  A window, screened with intricately carved wood, is set high on the wall.  Set beneath the window is a heavy terra cotta urn containing a flowering plant."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "pauperslockers"
+  ],
+  "meta": [
+    "che:paupers:entrance_annex",
+    "locker annex:House of Paupers"
+  ],
+  "exits": [
+    {
+      "to": 16131,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 23194,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

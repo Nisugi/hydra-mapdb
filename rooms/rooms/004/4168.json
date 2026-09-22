@@ -1,0 +1,55 @@
+{
+  "id": 4168,
+  "uid": [
+    2138101
+  ],
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "The smell of death and decay almost overcomes you and you gasp for air, but your lungs refuse it.  Although you have smelled death before, you have never experienced the revulsion you feel entering this area.  You wonder if you should advance any further as the nausea drains your strength."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      969,
+      840,
+      979,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 4154,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 4169,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16801,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

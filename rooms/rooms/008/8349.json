@@ -1,0 +1,62 @@
+{
+  "id": 8349,
+  "uid": [
+    13032
+  ],
+  "title": [
+    "[Spider Temple, Central Chamber]"
+  ],
+  "description": [
+    "Scenes of death by pestilence are played out in the floor tiles of this portion of the central chamber.  To the southeast, the doors into the shrine allow a little more light into the building.  The altar to the south and the tracery overhead intercept that light, sending long shadows into the area to the southwest."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      633,
+      724,
+      643,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 8327,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8337,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8350,
+      "kind": "go",
+      "cmd": "go gold door",
+      "cost": 0.2
+    },
+    {
+      "to": 8352,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 8361,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    }
+  ]
+}

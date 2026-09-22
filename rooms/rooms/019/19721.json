@@ -1,0 +1,53 @@
+{
+  "id": 19721,
+  "uid": [
+    10055
+  ],
+  "title": [
+    "[Cavernhold, Stalagmite Corner]"
+  ],
+  "description": [
+    "A large stalagmite grows slowly in the center of this three-way intersection like a stone sentinel.  Though the light of the passage is dim, the dripping water that has created this formation forms a glistening coat that reflects the available light into fascinating patterns."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      406,
+      989,
+      419,
+      999
+    ]
+  },
+  "exits": [
+    {
+      "to": 19644,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 19712,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19720,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

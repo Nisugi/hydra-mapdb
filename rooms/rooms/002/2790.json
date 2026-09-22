@@ -1,0 +1,62 @@
+{
+  "id": 2790,
+  "uid": [
+    4564203
+  ],
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "The hall ends at the foot of an oak door, but branches to the left and right diagonals.  A second door to the right stands opposite a fine painting, depicting a strange, craggy mountain of seemingly pure ice.  The mount is surrounded by low, thick clouds, giving it a moody, introspective quality."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      211,
+      845,
+      221,
+      855
+    ]
+  },
+  "exits": [
+    {
+      "to": 2789,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2791,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2792,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 15601,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 25400,
+      "kind": "go",
+      "cmd": "go large door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 6201,
+  "uid": [
+    2167070
+  ],
+  "title": [
+    "[Labyrinth, The Unending Path]"
+  ],
+  "description": [
+    "The pungent stench of decay has settled on this section of the tunnel, but its source remains hidden.  The path begins to decline steeply, heading deeper into the heart of the darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast",
+    "Obvious exits: southeast, west",
+    "Obvious exits: north, southeast",
+    "Obvious exits: northeast, southeast",
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      843,
+      302,
+      877,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 6200,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6202,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_by_any_exit_but": "southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": 420,
+  "uid": [
+    9010
+  ],
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "The muted sounds of loud bartering from within Wehnimer's Landing, and the lonely calls of a pair of mated fenvaoks high up in the air vie for your attention as you march along the outer western edge of the town."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "advguard",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "guard",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "kobold",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "urchin guide guard",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      630,
+      328,
+      640,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 291,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "citizenship": "Wehnimer's Landing"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 419,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 435,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

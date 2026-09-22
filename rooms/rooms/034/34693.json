@@ -1,0 +1,46 @@
+{
+  "id": 34693,
+  "uid": [
+    4572026
+  ],
+  "title": [
+    "[Sablecross, Warden Terrace]"
+  ],
+  "description": [
+    "Vast blocks of stone form an uneven arch at the entrance to a circular henge at the southwestern verges of the flagstone terrace.  Crude carvings on the lintel stones take the forms of crossed scimitars, and livid crimson pigments are worked into the etchings to accentuate their shapes.  Unforgiving daylight filters through the spaces between the stones, hinting at a black structure lurking at the center of the foreboding ring."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      293,
+      361,
+      324,
+      390
+    ]
+  },
+  "exits": [
+    {
+      "to": 34616,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34694,
+      "kind": "go",
+      "cmd": "go henge",
+      "cost": 0.2
+    },
+    {
+      "to": 34695,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

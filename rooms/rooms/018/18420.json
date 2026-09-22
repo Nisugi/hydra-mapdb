@@ -1,0 +1,45 @@
+{
+  "id": 18420,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "The sweet scent of honeyed berries and floral fruits wafts through the air, the aroma seeming to originate from a small, modest store tucked between two larger buildings.  The store's roof is thatched, and a sooty brick chimney rises from the center.  Planters of bright morning glories and hyacinth sit at the ends of each of the steps that lead up to a narrow porch enclosed by decorative railings.  A scalloped banner hangs from one of the railings, its decoration simple, but colorful."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18414,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18421,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 18422,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 18424,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": 11756,
+  "uid": [
+    4744014
+  ],
+  "title": [
+    "[Marshtown, Fewr's Pier]"
+  ],
+  "description": [
+    "This pier is secured to pilings as thick as tall trees that are sunk deep into the mud of Solhaven Bay.  The thickly-tarred barrel raft extends under the pier, but is not used for support.  Caravels and large carracks dock at this pier, some bringing in wares and others docked for shore leave.  The pier is bustling with sailors."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "portmaster",
+    "silver-cost:10838:25000",
+    "silver-cost:1870:25000",
+    "silver-cost:250:12500",
+    "silver-cost:29033:25000",
+    "silver-cost:31493:35000",
+    "silver-cost:32372:25000",
+    "silver-cost:32928:25000",
+    "stalk of bluebells",
+    "urchin guide docks",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 1870,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 5734,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 29033,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31493,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32372,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32928,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 35254,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 11"
+        },
+        {
+          "put": "ask portmaster about travel 11"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    }
+  ]
+}

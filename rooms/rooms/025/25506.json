@@ -1,0 +1,46 @@
+{
+  "id": 25506,
+  "uid": [
+    12101008
+  ],
+  "title": [
+    "[The Firebird, Main Deck]"
+  ],
+  "description": [
+    "An ornamental red brass grate in the ceiling lets in the occasional vivid glimpse of sky.  Sunlight streaming through its apertures awakens in the grey wood of the deck sparks of color that bring a fire's heart to mind.  Along the walls, a brass-marked claret door stands opposite a wing-marked carmine hatch.  Showcased on a wooden pedestal in the hallway separating them is an ancient astrolabe made of kelyn."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25504,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25507,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25508,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33323,
+      "kind": "go",
+      "cmd": "go carmine hatch",
+      "cost": 0.2
+    }
+  ]
+}

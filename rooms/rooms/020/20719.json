@@ -1,0 +1,62 @@
+{
+  "id": 20719,
+  "uid": [
+    4002503
+  ],
+  "title": [
+    "[Seamist Hall, Foyer]"
+  ],
+  "description": [
+    "Centered in the light oak floor is an exquisite circular mosaic of colorful sea glass.  A large ship's wheel hangs from the ceiling, illuminating the foyer with frosted glass globes suspended from copper chains.  To one side of the stained glass doors stands a hall tree displaying several hats of various styles.  The model of a large sailing ship rests on the floor between a velvet-draped archway and a curved ocean blue doorway that lead deeper into the manor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      1768,
+      2132,
+      1892,
+      2183
+    ]
+  },
+  "exits": [
+    {
+      "to": 20718,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20720,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 20721,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 20723,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20724,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

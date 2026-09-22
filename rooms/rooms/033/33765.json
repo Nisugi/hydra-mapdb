@@ -1,0 +1,40 @@
+{
+  "id": 33765,
+  "uid": [
+    170918
+  ],
+  "title": [
+    "[Luinne Bheinn, Skyline Slope]"
+  ],
+  "description": [
+    "Patches of dark green moss cling to jagged clusters of rocks along the winding slope, while the ground itself is blackened and pitted from lighting or fire from the sky.  A cool breeze stirs through the angled passage, and lights flicker below in the center of the valley."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      129,
+      510,
+      143,
+      523
+    ]
+  },
+  "exits": [
+    {
+      "to": 33756,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    },
+    {
+      "to": 33766,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

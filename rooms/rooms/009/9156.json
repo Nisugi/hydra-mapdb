@@ -1,0 +1,51 @@
+{
+  "id": 9156,
+  "uid": [
+    7530015
+  ],
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "Huge seabirds circle overhead, their raucous squawking filling the air as they idly glide above the beach.  From time to time, one will swoop into the lake and come up with a wriggling fish trapped within its beak."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "hot, damp",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      464,
+      775,
+      474,
+      785
+    ]
+  },
+  "exits": [
+    {
+      "to": 9155,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9157,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 15824,
+      "kind": "go",
+      "cmd": "go cabana",
+      "cost": 0.2
+    }
+  ]
+}

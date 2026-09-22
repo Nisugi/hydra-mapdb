@@ -1,0 +1,45 @@
+{
+  "id": 17955,
+  "uid": [
+    264017
+  ],
+  "title": [
+    "[Rogue Guild, Narrow Hall]"
+  ],
+  "description": [
+    "A thick, beautifully woven rug lines the floor of the hall, muffling the footsteps of anyone who may be about.  Flickering shadows cast by the brass sconces add to the difficulty of discerning if one is alone or not."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      489,
+      761,
+      519,
+      787
+    ]
+  },
+  "exits": [
+    {
+      "to": 17934,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17956,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17957,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

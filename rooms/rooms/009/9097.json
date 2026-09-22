@@ -1,0 +1,44 @@
+{
+  "id": 9097,
+  "uid": [
+    4045206
+  ],
+  "title": [
+    "[Great Cavern, Limestone Stairs]"
+  ],
+  "description": [
+    "The stairs corkscrew up and down into the gloom.  The air is cold near the rock walls, but warm currents force their way up the shaft out of the darkness."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      202,
+      384,
+      212,
+      394
+    ]
+  },
+  "exits": [
+    {
+      "to": 9096,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9098,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

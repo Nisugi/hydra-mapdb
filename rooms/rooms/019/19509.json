@@ -1,0 +1,52 @@
+{
+  "id": 19509,
+  "uid": [
+    655008
+  ],
+  "title": [
+    "[Empath Guild]"
+  ],
+  "description": [
+    "A neatly tended courtyard is visible beyond the square glass panes of a pair of whitewashed doors set into the eastern wall.  Along the opposite wall, a tapestry depicts the healing hands of Imaera cradling the world of Elanthia."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      238,
+      643,
+      296,
+      700
+    ]
+  },
+  "exits": [
+    {
+      "to": 19508,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19510,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19511,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19521,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

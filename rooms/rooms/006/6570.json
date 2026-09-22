@@ -1,0 +1,51 @@
+{
+  "id": 6570,
+  "uid": [
+    4285047
+  ],
+  "title": [
+    "[Anwyn Castle, Great Hall]"
+  ],
+  "description": [
+    "This cathedral-sized room, the heart of the castle, extends up at least three-stories tall.  Two rows of stone piers march down its length, each with an elaborately carved capital.  The huge beams supporting the ceiling rest on the tops of the piers.  Doors are visible on the hall's southern expanse, but are curiously walled up with stone.  On the room's western wall, an impressive flight of stairs leads to other rooms in that wing.  At the opposite end, discrete stairs lead into the flanking tower.",
+    "This cathedral-sized room, the heart of the castle, extends up at least three-stories tall.  Two rows of stone piers march down its length, each with an elaborately carved capital.  The huge beams supporting the ceiling rest on the tops of the piers.  Doors are visible on the hall's southern expanse, but are curiously walled up with stone.  On the room's western wall, an impressive flight of stairs leads to other rooms in that wing.  At the opposite end, discreet stairs lead into the flanking tower."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1315,
+      515,
+      1325,
+      525
+    ]
+  },
+  "exits": [
+    {
+      "to": 6569,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 6571,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6574,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

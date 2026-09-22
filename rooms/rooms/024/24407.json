@@ -1,0 +1,62 @@
+{
+  "id": 24407,
+  "uid": [
+    217005
+  ],
+  "title": [
+    "[Rone Academy, Alumni Hall West]"
+  ],
+  "description": [
+    "The room bustles with the day-to-day affairs of the Academy.  Clerics chant in somber tones to the west, nearly drowning out soft murmurings from the libary to the north.  An excited babble comes from the south, where a line of eager young applicants awaits admittance to the Academy."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Rone Academy",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-rone_academy-1619899949.png",
+    "rect": [
+      658,
+      266,
+      682,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 15545,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24472,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 24473,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24483,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24485,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

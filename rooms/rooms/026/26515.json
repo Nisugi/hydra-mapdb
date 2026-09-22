@@ -1,0 +1,27 @@
+{
+  "id": 26515,
+  "title": [
+    "[The Glass Slipper, Alcove]"
+  ],
+  "description": [
+    "Secluded behind a veil of turquoise silks, an airy alcove offers shade and respite.  A row of cushioned chairs partially conceals an open crate, while a dye-splattered tub peeks out from behind a curtain made from seashells strung on translucent silk strands."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26510,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26742,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

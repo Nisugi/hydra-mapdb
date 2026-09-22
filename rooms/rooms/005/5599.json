@@ -1,0 +1,56 @@
+{
+  "id": 5599,
+  "uid": [
+    2120202
+  ],
+  "title": [
+    "[Mercantylers' Storage Warehouse]"
+  ],
+  "description": [
+    "Lanterns light this windowless central chamber, where carved signs resembling small, locked strongboxes point to a curtained alcove and to hallways leading east and south.   A padlocked and barred double door closes off the entire western wing of the building from prying eyes and public access.  The wooden image of a wagon stacked high with lockers hangs above a doorway set in the northwest corner of the chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "lockers",
+    "no forageables",
+    "public locker",
+    "publiclockers"
+  ],
+  "exits": [
+    {
+      "to": 5598,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5600,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5601,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 5602,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35239,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

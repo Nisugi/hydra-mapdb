@@ -1,0 +1,44 @@
+{
+  "id": 2286,
+  "uid": [
+    3030025
+  ],
+  "title": [
+    "[Mausoleum, Tomb]"
+  ],
+  "description": [
+    "A chill races up your spine as you see that even the dead were not spared the foul ransacking that most of the village was subjected to.  Stone coffins were ripped open, probably in search of treasure.  No mercy was shown, nor respect of any kind, as even the mummified remains of these bodies were ripped asunder and hacked to bits in order to obtain the jewelry they must have been wearing."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Fhorian Village",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      190,
+      973,
+      200,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 2283,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2287,
+      "kind": "go",
+      "cmd": "go coffin",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 20072,
+  "title": [
+    "[Sunken Mausoleam, Dead End]",
+    "[Sunken Mausoleum, Dead End]"
+  ],
+  "description": [
+    "Along the walls, a group of ebonwood coffins has been plundered, leaving only some skeletal remains.  The circular room is a dead end, and the only exit is the flight of steps leading back toward the front.  A rusted iron plaque, its surface barely legible, is hammered into the granite wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feymist Cemetery",
+  "exits": [
+    {
+      "to": 20071,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 23120,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go staircase"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": 36228,
+  "uid": [
+    9181008
+  ],
+  "title": [
+    "[The Wasteland, Catacombs]"
+  ],
+  "description": [
+    "Blackened liquid pours out through the sewer gate, which leads out of the catacombs and into the Wasteland.  Rubble has blocked access leading northeast, however, peering through the wreckage, the catacombs continue to branch out."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Elanthia",
+  "exits": [
+    {
+      "to": 36227,
+      "kind": "cardinal",
+      "cmd": "w",
+      "cost": 0.2
+    },
+    {
+      "to": 36229,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

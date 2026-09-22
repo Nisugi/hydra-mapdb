@@ -1,0 +1,49 @@
+{
+  "id": 28423,
+  "title": [
+    "[Windfellow's Retreat, Dungeon]"
+  ],
+  "description": [
+    "A low-hanging, rough, stone archway leads into a larger flooded chamber.  The meager amount of light provided by the fungi only highlights the unrelenting blackness of the water that covers the floor here.  Broken down torture equipment litters the room, appearing as little more than looming shadows.",
+    "A low-hanging, rough, stone archway leads into a larger flooded chamber, the surface chiseled with a variety of small animals of unknown origin.  The meager amount of light provided by the fungi only highlights the unrelenting blackness of the water that covers the floor here, flashing the stone eyes of a single wooden toy duck bobbing in the shadows.  Broken down torture equipment litters the room, serving as temporary housing for a family of plump mice."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      618,
+      1464,
+      673,
+      1519
+    ]
+  },
+  "exits": [
+    {
+      "to": 28422,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28424,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28429,
+      "kind": "go",
+      "cmd": "go iron gate",
+      "cost": 0.2
+    },
+    {
+      "to": 28430,
+      "kind": "go",
+      "cmd": "go slab",
+      "cost": 0.2
+    }
+  ]
+}

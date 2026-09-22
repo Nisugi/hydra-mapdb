@@ -1,0 +1,44 @@
+{
+  "id": 7509,
+  "uid": [
+    46017
+  ],
+  "title": [
+    "[Catacombs, Uneven Stair]"
+  ],
+  "description": [
+    "A wide, very uneven stair leads downward and southwest from here.  You wonder as you look at the floor and walls how many centuries these catacombs have been in use.  Deep footholds have been worn into the steps, and the center of the tunnel leading northeast has developed a slight trough in the bare, polished stone.  Graves lining the tunnel here seem to have been well-cared for, most still sealed."
+  ],
+  "paths": [
+    "Obvious exits: northeast, down"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      634,
+      1153,
+      644,
+      1163
+    ]
+  },
+  "exits": [
+    {
+      "to": 7508,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7510,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 3855,
+  "uid": [
+    54005,
+    54006,
+    54007,
+    54150,
+    54151,
+    54152,
+    54156,
+    54157
+  ],
+  "title": [
+    "[Public Lockers]"
+  ],
+  "description": [
+    "You are standing in a tiny room whose facing wall is an array of small, locked doors.  One of the lockers has been removed for you and is sitting on a small counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker",
+    "map:multi-uid"
+  ],
+  "exits": [
+    {
+      "to": 389,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

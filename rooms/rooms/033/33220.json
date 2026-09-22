@@ -1,0 +1,37 @@
+{
+  "id": 33220,
+  "uid": [
+    730302
+  ],
+  "title": [
+    "[Oteska's Den, Main Cabin]"
+  ],
+  "description": [
+    "Cozy and with a theme best described as pirate meets eccentric, the walls of the main living area are covered with a collection of maps and charts with a dart board positioned carefully between them and above a cupboard.  Several leather chairs arranged in a loose semi-circle around the fireplace rest on a rug woven to resemble a treasure map.  Sunlight streams through a large, bullseye window over a curtain-covered arch, brightening the area and bathing a spiral staircase in its warm rays."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Oteska's Den, inside the island town of River's Rest",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 33219,
+      "kind": "go",
+      "cmd": "go spiral staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 33221,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33222,
+      "kind": "go",
+      "cmd": "go curtain-covered arch",
+      "cost": 0.2
+    }
+  ]
+}

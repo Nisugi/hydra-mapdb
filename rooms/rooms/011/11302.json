@@ -1,0 +1,51 @@
+{
+  "id": 11302,
+  "uid": [
+    377106
+  ],
+  "title": [
+    "[Alchemist, Inorganics Room]"
+  ],
+  "description": [
+    "This room holds a large forge, an anvil, and two massive coal bins, one of which sits in its accustomed place and one of which has been shoved to the side to expose the only intact wall.  Near the doorway, the fractured stone tiles forms strange bumps and ripples, as if some great force had struck from beneath the rock.  Smudged charcoal footprints are visible among the debris, leading to and from the intact wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      860,
+      921,
+      870,
+      931
+    ]
+  },
+  "exits": [
+    {
+      "to": 11301,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11312,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

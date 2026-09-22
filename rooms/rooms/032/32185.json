@@ -1,0 +1,33 @@
+{
+  "id": 32185,
+  "uid": [
+    8084252
+  ],
+  "title": [
+    "[The Minaret, Up the Spire]"
+  ],
+  "description": [
+    "The tight coil of treads and risers continues.  Along the wall, a thin eburnation smoothes a second spiral to complement the larger curve, as years upon years of bracing hands have worn the rough stone to a polished finish.  A single arrowslit lets in a bit of light, enough to see the outline of well-fitted trapdoor in the ceiling just above the top of the stairs."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 32184,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 32186,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

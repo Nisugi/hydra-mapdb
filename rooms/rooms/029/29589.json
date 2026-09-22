@@ -1,0 +1,52 @@
+{
+  "id": 29589,
+  "uid": [
+    686027
+  ],
+  "title": [
+    "[Water Tower, Second Floor]"
+  ],
+  "description": [
+    "Where the driftwood stairsteps do not intrude on the blue-painted walls, trophies from the sea hang on marvelous iron hooks.  The curiosities extend onto pedestals on the floor and crowd the area in a manner resembling a shipwreck; items tumble at different heights in random abandon.  The northern bridge extends to the next tower, while a similar perpendicular bridge leads west."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      434,
+      933,
+      464,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 29583,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29587,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29588,
+      "kind": "go",
+      "cmd": "go northern bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29611,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

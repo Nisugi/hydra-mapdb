@@ -1,0 +1,43 @@
+{
+  "id": 25668,
+  "uid": [
+    284009
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "The long hallway ends at a sturdy door bearing a plaque that reads simply, \"Office\".  From down the hall's length, the clink of pottery and glass from the pub combines with the faint sound of melodies, as a few musicians practice their craft."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25667,
+      "kind": "go",
+      "cmd": "go sturdy door",
+      "cost": 0.2
+    },
+    {
+      "to": 25669,
+      "kind": "go",
+      "cmd": "go practice-room door",
+      "cost": 0.2
+    },
+    {
+      "to": 25670,
+      "kind": "go",
+      "cmd": "go teak door",
+      "cost": 0.2
+    },
+    {
+      "to": 25671,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

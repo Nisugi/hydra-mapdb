@@ -1,0 +1,44 @@
+{
+  "id": 7045,
+  "uid": [
+    45131
+  ],
+  "title": [
+    "[Torture Chamber]"
+  ],
+  "description": [
+    "Gruesome instruments of torture fill this room, although most are now broken beyond repair.  The dampness of the castle walls here has promoted the growth of several molds, and a dank, musty smell hangs about the room.  The vague stench of death wafts up from cracks surrounding a trap door in the floor, filling you with dread."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      667,
+      675,
+      677,
+      685
+    ]
+  },
+  "exits": [
+    {
+      "to": 7043,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 7046,
+      "kind": "go",
+      "cmd": "go maiden",
+      "cost": 0.2
+    }
+  ]
+}

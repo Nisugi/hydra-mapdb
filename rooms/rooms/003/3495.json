@@ -1,0 +1,257 @@
+{
+  "id": 3495,
+  "uid": [
+    14100082
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Court]"
+  ],
+  "description": [
+    "A small garden has been cultivated near the exterior wall of Guardian Keep.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
+    "A small garden has been cultivated near the exterior wall of Guardian Keep in the shadow of the shining eahnor gates.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
+    "The towering exterior wall of Guardian Keep is covered with skillfully cultivated vines of creeping fig.  On either side of the shining eahnor gates, an exquisite cutout in the greenery outlines the shape of a wyvern rampant.  At the base of the wall, meticulously planted beds of vivid crimson and gold flowers depict the crest of House Vaalor, the white marble path splitting to lead visitors around to one side or the other."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "advguard",
+    "angelica root",
+    "arbutus berry",
+    "ayana leaf",
+    "bay leaf",
+    "black peppercorn",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "bougainvillea blossom",
+    "brown potato",
+    "brown-skinned kiwi",
+    "cactacae spine",
+    "calamia fruit",
+    "cardamom",
+    "cherry peppers",
+    "chives",
+    "crystal-like sylthiel",
+    "cumin seeds",
+    "curly garlic scapes",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dill",
+    "ear of corn",
+    "fennel bulb",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh cilantro",
+    "garlic",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden buttercup",
+    "green beans",
+    "green cabbage",
+    "green olive",
+    "green pepper",
+    "green soybean pod",
+    "haphip root",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hosta flower",
+    "Imaera's Lace",
+    "incarnadine rose",
+    "iris blossom",
+    "juicy plum",
+    "large sunflower",
+    "large white gardenia",
+    "leek",
+    "light blue hydrangea",
+    "luckbloom blossom",
+    "motherwort",
+    "mustard seeds",
+    "nightbloom blossom",
+    "node",
+    "nutmeg",
+    "onion skin",
+    "orange begonia",
+    "orange pepper",
+    "pea pods",
+    "peppermint leaves",
+    "periwinkle musk rose",
+    "pink begonia",
+    "pink hydrangea",
+    "pink peony",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple cabbage",
+    "purple hydrangea",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red begonia",
+    "red cherries",
+    "red onion",
+    "red pepper",
+    "rose-marrow root",
+    "round red radish",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small anemone",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small rose",
+    "small turnip",
+    "small violet",
+    "small watermelon",
+    "snapdragon stalk",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of amaranth",
+    "sprig of boxwood",
+    "sprig of clematis",
+    "sprig of foxglove",
+    "sprig of holly",
+    "sprig of jasmine",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of rosemary",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of monkeyflower",
+    "stalk of tuberose",
+    "stalk of wormwood",
+    "star anise",
+    "stargazer lily",
+    "stem of freesia flowers",
+    "stem of verbena",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "tendril of vinca",
+    "thistle seeds",
+    "thyme",
+    "tiger lily",
+    "tobacco leaves",
+    "trollear mushroom",
+    "urchin guide wizardguild",
+    "urchin-access",
+    "vanilla bean",
+    "vert globe artichoke",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "wavepetal blossom",
+    "white begonia",
+    "white hydrangea",
+    "white lily",
+    "white peony",
+    "white ramie",
+    "wild pansy blossom",
+    "wild rice",
+    "withered mushroom",
+    "wizard guild",
+    "wizardguild",
+    "yellow carrot",
+    "yellow lemon",
+    "yellow pepper",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      926,
+      330,
+      958,
+      364
+    ]
+  },
+  "exits": [
+    {
+      "to": 3493,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18041,
+      "kind": "scripted",
+      "steps": [
+        {
+          "speak": "wizard"
+        },
+        {
+          "put": "unhide",
+          "when": {
+            "any": [
+              {
+                "flag": "hidden"
+              },
+              {
+                "flag": "invisible"
+              }
+            ]
+          }
+        },
+        {
+          "move": "say ::door wizard"
+        },
+        {
+          "restore_speech": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "profession": "Wizard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

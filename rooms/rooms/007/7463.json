@@ -1,0 +1,99 @@
+{
+  "id": 7463,
+  "uid": [
+    94006
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The irregular walls of the tunnel have been worn smooth, as if they had been polished with abrasive cloths.  There are no jagged edges, no scratches or other marks in the stone, no signs that the tunnel is anything but a natural formation."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      834,
+      907,
+      844,
+      917
+    ]
+  },
+  "exits": [
+    {
+      "to": 7462,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7464,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

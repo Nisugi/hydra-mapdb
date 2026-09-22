@@ -1,0 +1,52 @@
+{
+  "id": 19791,
+  "uid": [
+    677008
+  ],
+  "title": [
+    "[Cleric Guild, Corridor]"
+  ],
+  "description": [
+    "Fine dwarven masonry is on display at this small juncture between floors of the guild.  A steep ramp descends below via a wide tunnel, its curved ceiling inlaid with a colorful mosaic of local gemstones."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul-logoth-cleric-guild.png",
+    "rect": [
+      223,
+      316,
+      274,
+      367
+    ]
+  },
+  "exits": [
+    {
+      "to": 19789,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19792,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 19793,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19794,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

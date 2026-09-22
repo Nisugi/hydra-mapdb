@@ -1,0 +1,68 @@
+{
+  "id": 10074,
+  "uid": [
+    13051010
+  ],
+  "title": [
+    "[Sylvarraend Bowyer Supplies]"
+  ],
+  "description": [
+    "The wooden walls have been sanded smooth, but left unvarnished, creating a rustic look.  Bows of various types, some appearing to be nearly antiques, hang from the walls.  The flames flickering in the small fireplace cast a yellow-orange glow across the smooth maple planked flooring."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "fletcher",
+    "urchin guide fletcher",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10073,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

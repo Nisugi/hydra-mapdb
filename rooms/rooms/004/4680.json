@@ -1,0 +1,61 @@
+{
+  "id": 4680,
+  "uid": [
+    14050024
+  ],
+  "title": [
+    "[Cysaegir, Cave]"
+  ],
+  "description": [
+    "Echoes bounce back and forth over the smooth stone walls of the cavern.  Cylindrical cones of calcite protrude from the ceiling in a haphazard manner.  Pointed spikes dot the surface of the stalactites, and every so often drops of water plummet to the ground, creating small puddles on the floor.  Irregular stone steps lead up to an oval-shaped hole in the wall."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      278,
+      590,
+      299,
+      611
+    ]
+  },
+  "exits": [
+    {
+      "to": 4679,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 4681,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 4682,
+      "kind": "climb",
+      "cmd": "climb tunnel",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 31254,
+  "uid": [
+    3027011
+  ],
+  "title": [
+    "[Asylum, West Wing]"
+  ],
+  "description": [
+    "The austere appearance of this corridor lends to the rigid atmosphere of the entire asylum.  The hallway is mostly empty except for the occasional rat or stone-faced guard that passes through on watch.  A few benches have been firmly secured to the floor along the perimeter."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31250,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31255,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 31256,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

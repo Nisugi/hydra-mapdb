@@ -1,0 +1,45 @@
+{
+  "id": 27669,
+  "title": [
+    "[Clovertooth, Second Floor Hall]"
+  ],
+  "description": [
+    "Large grainy cedar double doors occupy the entire eastern wall of this room with a large silver plaque placed just above them.  A glance through the propped open doors yields a view of a spacious, modern auditorium, and voices from all along the westerly corridor echoing throughout the torchlit hallway seem to become diminished here.  Occasionally, someone passes through a small rounded door off to the side."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      1506,
+      317,
+      1608,
+      386
+    ]
+  },
+  "exits": [
+    {
+      "to": 27667,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27670,
+      "kind": "go",
+      "cmd": "go rounded door",
+      "cost": 0.2
+    },
+    {
+      "to": 27671,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

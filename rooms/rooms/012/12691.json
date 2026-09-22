@@ -1,0 +1,53 @@
+{
+  "id": 12691,
+  "uid": [
+    3031053
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Aside from the water that has flooded the area, the room is plain.  A single iron sconce remains attached to the wall, and the remains of another rests below the surface of the water."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      1030,
+      573,
+      1066,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 12682,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 12692,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12693,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

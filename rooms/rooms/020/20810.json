@@ -1,0 +1,88 @@
+{
+  "id": 20810,
+  "uid": [
+    210650
+  ],
+  "title": [
+    "[House Sovyn, Sun Room]"
+  ],
+  "description": [
+    "Large glass panes form the walls and roof of this room, providing ample sunlight during the day and a perfect spot for the blossoming plants to grow.  The ground is covered with bricks and several tables are placed among the foliage.",
+    "Large glass panes form the walls and roof of this sunny room, providing a perfect spot for the blossoming plants to grow.  The ground is covered with bricks and several tables are placed among the foliage."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sovyn"
+  ],
+  "image": {
+    "file": "wl-house_sovyn-11481362649.png",
+    "rect": [
+      1407,
+      182,
+      1575,
+      296
+    ]
+  },
+  "exits": [
+    {
+      "to": 20804,
+      "kind": "go",
+      "cmd": "go rooftop garden",
+      "cost": 0.2
+    },
+    {
+      "to": 25542,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go acantha table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25545,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go imaera table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25546,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go praying table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25547,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go woth table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25548,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go healer table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

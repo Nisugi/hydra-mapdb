@@ -1,0 +1,56 @@
+{
+  "id": 7303,
+  "uid": [
+    18058
+  ],
+  "title": [
+    "[Graveyard, Under Crypt]"
+  ],
+  "description": [
+    "A bewildering series of tunnels through the rock greets you.  While not shaped by clever craftsmen, the channels do not appear natural.  Trails of slime coat the ground and lead off in several directions."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, west, up"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      565,
+      558,
+      575,
+      568
+    ]
+  },
+  "exits": [
+    {
+      "to": 7301,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 7302,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16792,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16793,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6634,
+  "uid": [
+    487018
+  ],
+  "title": [
+    "[Monastery, Meditation Room]"
+  ],
+  "description": [
+    "The smell of pungent incense dominates this room.  A globe hangs from the ceiling casting dim light over the room.  A small, hand-woven mat lies on the floor in front of a small shrine with two unlit candles atop it.  Several other mats lie rolled up next to a small wicker basket.  Standing in the corner is a simple wooden box."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "exits": [
+    {
+      "to": 6633,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "moves": [
+            "north",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "exit": "n"
+          }
+        }
+      ],
+      "cost": 0.8
+    },
+    {
+      "to": 6636,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "moves": [
+            "east",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "exit": "e"
+          }
+        }
+      ],
+      "cost": 0.8
+    }
+  ]
+}

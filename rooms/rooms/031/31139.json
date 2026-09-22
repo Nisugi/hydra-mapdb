@@ -1,0 +1,49 @@
+{
+  "id": 31139,
+  "uid": [
+    102203
+  ],
+  "title": [
+    "[House Aspis, 3rd Floor Hall]"
+  ],
+  "description": [
+    "The hallway ends at Dmitri and Tala's room.  Thick tapestries cover the walls to either side of a simple, but well-made wooden door."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      271,
+      127,
+      405,
+      197
+    ]
+  },
+  "exits": [
+    {
+      "to": 31136,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31140,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 31141,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

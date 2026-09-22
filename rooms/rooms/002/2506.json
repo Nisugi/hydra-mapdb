@@ -1,0 +1,159 @@
+{
+  "id": 2506,
+  "uid": [
+    4044210
+  ],
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "Heavy snow from the upper branches of the wind-blown trees plops wetly on the trail, creating little islands of slippery ice that impede your way.  It is impossible to avoid the falling snow which slips down your neck and seeps into your clothing, setting your teeth to chattering."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "frostflower",
+    "frostweed",
+    "handful of pinenuts",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "pine twig",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "slender twig",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "spruce twig",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "thorny wintersbite",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white crallisberry",
+    "winter rose",
+    "wintercrisp apple",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      1152,
+      326,
+      1162,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 2505,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2507,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    }
+  ]
+}

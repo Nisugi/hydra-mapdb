@@ -1,0 +1,44 @@
+{
+  "id": 6984,
+  "uid": [
+    43013
+  ],
+  "title": [
+    "[Gorge, North Rim]"
+  ],
+  "description": [
+    "The trail along the top of the cliff ends abruptly here, blocked by a large wall of broken rocks which jut up from the ground at unusual angles.  A small path leads around the rocks right at the rim of the chasm, but it seems dangerously narrow considering its proximity to the sheer drop into the gorge."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      103,
+      412,
+      113,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 6983,
+      "kind": "go",
+      "cmd": "go small path",
+      "cost": 0.2
+    },
+    {
+      "to": 6985,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

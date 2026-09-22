@@ -1,0 +1,52 @@
+{
+  "id": 3534,
+  "uid": [
+    14100023
+  ],
+  "title": [
+    "[Ta'Vaalor, Caernaeas Var]"
+  ],
+  "description": [
+    "A small stand of trees crowds up against the high city wall, so thickly gathered that the wall itself is barely visible through the leafy boughs.  A small gate, closed and locked, blocks progress down the lone path that disappears into the deep green bower.",
+    "A small stand of trees crowds up against the high city wall, so thickly gathered that the wall itself is barely visible through the leafy boughs.  A rusty iron gate blocks progress down the lone path that disappears into the deep green bower."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1372,
+      403,
+      1411,
+      441
+    ]
+  },
+  "exits": [
+    {
+      "to": 3533,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3535,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23541,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

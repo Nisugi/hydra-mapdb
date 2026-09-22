@@ -1,0 +1,53 @@
+{
+  "id": 33109,
+  "uid": [
+    7134154
+  ],
+  "title": [
+    "[Lower Deck, Bow]"
+  ],
+  "description": [
+    "Rope-coiled rungs driven into the port and starboard sides near their convergence form a ladder of sorts, allowing quick travel between decks.  A bucket with a mop in it sits in a corner, ready for use on the scuffed pine floor.  Hanging next to a port side door is a large starfish, and nailed next to starboard side door is a lobster claw."
+  ],
+  "paths": [
+    "Obvious exits: south, up, down"
+  ],
+  "location": "the Flotilla",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 33103,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33110,
+      "kind": "go",
+      "cmd": "go starboard door",
+      "cost": 0.2
+    },
+    {
+      "to": 33111,
+      "kind": "go",
+      "cmd": "go port door",
+      "cost": 0.2
+    },
+    {
+      "to": 33112,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33114,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

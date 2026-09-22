@@ -1,0 +1,44 @@
+{
+  "id": 29965,
+  "uid": [
+    7503434
+  ],
+  "title": [
+    "[Angargreft, Descent]"
+  ],
+  "description": [
+    "A snarling visage has been carved into the stones of the northern wall with surprising skill, its vast maw a gaping sea of shadow.  The darkness beyond is all the more impenetrable for the flickering glow of two torches hanging in sconces to either side of the portal.  They are burning blue."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      820,
+      469,
+      836,
+      484
+    ]
+  },
+  "exits": [
+    {
+      "to": 29955,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 29966,
+      "kind": "go",
+      "cmd": "go maw",
+      "cost": 0.2
+    }
+  ]
+}

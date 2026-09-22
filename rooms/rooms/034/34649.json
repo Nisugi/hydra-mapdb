@@ -1,0 +1,40 @@
+{
+  "id": 34649,
+  "uid": [
+    4572246
+  ],
+  "title": [
+    "[The Lion's Share, Host Stand]"
+  ],
+  "description": [
+    "Chandeliers bathe the entryway of the restaurant in warm lighting that awakens a tawny glow in the fine furnishings.  Beneath the light of the candles, the lifelike glass eyes of a hinterboar trophy mounted on the wall over the entrance glitter keenly.  The host's stand is carved from golden maple and is placed near the entrance, keeping the host in ready view of a smoked glass door leading into a private lounge."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "tags": [
+    "restaurant"
+  ],
+  "exits": [
+    {
+      "to": 34648,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 34650,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 34662,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

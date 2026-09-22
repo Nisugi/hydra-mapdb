@@ -1,0 +1,50 @@
+{
+  "id": 35374,
+  "uid": [
+    7142113
+  ],
+  "title": [
+    "[Spine of Koar, Wings]"
+  ],
+  "description": [
+    "Steps wind upward, growing narrower as they ascend past jagged rock faces.  A flat expanse on the western wing supports a cafe, positioned directly across the mineral springs and pools that define the travertine terraces.  From the eastern side, a dramatic travertine arch is carved into the flanking wing and curves outward, creating a grand canopy that shelters the small establishment."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Isle of Ornath",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "bract of sea spurge"
+  ],
+  "image": {
+    "file": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
+    "rect": [
+      693,
+      362,
+      721,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 35373,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 35375,
+      "kind": "go",
+      "cmd": "go cafe",
+      "cost": 0.2
+    },
+    {
+      "to": 35378,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

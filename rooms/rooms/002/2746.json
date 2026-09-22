@@ -1,0 +1,48 @@
+{
+  "id": 2746,
+  "uid": [
+    4563060
+  ],
+  "title": [
+    "[Ice Cave]"
+  ],
+  "description": [
+    "A small refuge has been carved into the snow and domed with ice blocks, giving shelter from the merciless winds.  Light filtering through the crystalline walls bathes the enclosure in a soft glow.  A wooden hatch leads out to the freezing hinterland to the south and an opening offers passage north."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "arctic moss",
+    "bolmara lichen",
+    "dwarf bilberry",
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      828,
+      875,
+      838,
+      885
+    ]
+  },
+  "exits": [
+    {
+      "to": 2744,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 2747,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 25052,
+  "uid": [
+    -7105079
+  ],
+  "title": [
+    "[Reim Settlement, Road]"
+  ],
+  "description": [
+    "A half-circle of steel-headed pikes surround each side of a guard encampment, the reinforcements left bloodied as they hang loosely bound by rusted wire.  Hunks of flesh and bone gather swarms of flies behind the barricades, the pieces contained within dented armor decorated with gore-splattered heraldry.  A single large vulture soars high overhead, heading further into the encampment."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      340,
+      935,
+      353,
+      948
+    ]
+  },
+  "exits": [
+    {
+      "to": 25051,
+      "kind": "go",
+      "cmd": "go encampment",
+      "cost": 0.2
+    },
+    {
+      "to": 25053,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

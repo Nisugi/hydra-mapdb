@@ -1,0 +1,102 @@
+{
+  "id": 16060,
+  "uid": [
+    304121
+  ],
+  "title": [
+    "[Maelstrom Bay, Underwater]"
+  ],
+  "description": [
+    "Light green water above, deep green water below, green water all around.  Thick knots of bladder rockweed grow in the rocky wall to the east, where it sways in rhythm to the surface swells.  The shimmering surface of the bay rolls sinuously overhead."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west, northwest, up, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      814,
+      1233,
+      824,
+      1243
+    ]
+  },
+  "exits": [
+    {
+      "to": 11451,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11458,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11461,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11466,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11469,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11472,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 31860,
+  "uid": [
+    8083072
+  ],
+  "title": [
+    "[Winterbriar Grove]"
+  ],
+  "description": [
+    "Unnaturally dark fruit trees reach crooked branches to the sky, forming the outer rim of a dense grove of spiky, ice-covered trees that crowds the rough cobblestone pathway cutting through it.  Several riverstone structures fight for space between the grasping, twisting trees, and moonlight casts sinister shadows across the stone walls.  A light dusting of snow covers the southernmost trees.",
+    "Unnaturally dark fruit trees reach crooked branches to the sky, forming the outer rim of a dense grove of spiky, ice-covered trees that crowds the rough cobblestone pathway cutting through it.  Several riverstone structures fight for space between the grasping, twisting trees, and a few rays of sunlight push their way through to cast sickly shadows that writhe on the ground.  A light dusting of snow covers the southernmost trees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "glacial",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1245,
+      127,
+      1266,
+      147
+    ]
+  },
+  "exits": [
+    {
+      "to": 31859,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31861,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33949,
+      "kind": "go",
+      "cmd": "go riverstone hut",
+      "cost": 0.2
+    }
+  ]
+}

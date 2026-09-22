@@ -1,0 +1,43 @@
+{
+  "id": 17987,
+  "uid": [
+    263004
+  ],
+  "title": [
+    "[Rogue Guild, Rooftop]"
+  ],
+  "description": [
+    "Although the roof tiles look disordered and broken a meticulous inspection shows them to be carefully arranged to give the appearance of deterioration.  The roof overlooks a grassy courtyard in which figures can be seen engaged in rigorous guild exercises.  A rope ladder leads down.  A rope bridge offers a route to the roof of the River's Rest Inn."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      307,
+      97,
+      336,
+      124
+    ]
+  },
+  "exits": [
+    {
+      "to": 17986,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 17988,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

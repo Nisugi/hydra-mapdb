@@ -1,0 +1,32 @@
+{
+  "id": 18728,
+  "uid": [
+    671031
+  ],
+  "title": [
+    "[Cleric Guild, Training Annex]"
+  ],
+  "description": [
+    "Twin sconces are set opposite one another on the north and south walls here, their dim flames casting long shadows down the hallway in both directions.  The floor is composed of carefully chiseled granite blocks, each one set against the next at a slight angle, and the walls are polished marble blocks from floor to ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 17104,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18602,
+      "kind": "go",
+      "cmd": "go annex",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 7467,
+  "uid": [
+    94010
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The irregular stone surfaces of the tunnel floor, walls and ceiling are smooth.  There are no jagged edges or sharp protrusions anywhere.  The floor of the tunnel seems as if it had been swept clean, there is no dirt or debris, no grit, no pebbles or loose rocks, large or small.  The only foreign substances you see anywhere are the occasional patches of glowing lichen that cast a pale, green light throughout the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      835,
+      961,
+      845,
+      971
+    ]
+  },
+  "exits": [
+    {
+      "to": 7465,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

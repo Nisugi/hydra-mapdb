@@ -1,0 +1,84 @@
+{
+  "id": 18068,
+  "uid": [
+    687039
+  ],
+  "title": [
+    "[Wizard Guild, Shaft Top]"
+  ],
+  "description": [
+    "The shaft reaches its highest point here, capped by a stone dome.  A narrow causeway is poised over open air, leading to a polished faenor door."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      352,
+      41,
+      419,
+      106
+    ]
+  },
+  "exits": [
+    {
+      "to": 18054,
+      "kind": "scripted",
+      "steps": [
+        {
+          "wait_until": {
+            "flag": "own_disk_here"
+          },
+          "when": {
+            "spell_active": "Floating Disk"
+          }
+        },
+        {
+          "wait_until": {
+            "spell_affordable": "Floating Disk"
+          },
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Floating Disk",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 18069,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

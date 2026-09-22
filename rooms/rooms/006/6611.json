@@ -1,0 +1,44 @@
+{
+  "id": 6611,
+  "uid": [
+    4285059
+  ],
+  "title": [
+    "[Stone Ledge]"
+  ],
+  "description": [
+    "The treacherous stairs have widened into a landing, yielding an opportunity to ponder the strange, underground tower that extends into the darkness beyond the crumbling edge of the parapet.  The stairs are cut into the stone walls and have no rail to guard against falling.  They follow the round walls, spiraling down into the depths."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      893,
+      616,
+      903,
+      626
+    ]
+  },
+  "exits": [
+    {
+      "to": 6610,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6612,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

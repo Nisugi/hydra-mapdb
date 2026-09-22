@@ -1,0 +1,36 @@
+{
+  "id": 27403,
+  "title": [
+    "[Carnival, Entrance]"
+  ],
+  "description": [
+    "Thick smoke and orange light rise into the starry sky from a ring of massive wagons that have been parked in a tight circle and lashed together, with an unhinged gate of black wrought iron guarding access.  Braziers atop the wagons cast flickering light on a sign above the gate proclaiming \"CARNIVAL OF FREAKS\" in stylized lettering.  Scents of sulfur and hot iron mix with earthy dust in the air.  Lanterns swing from wooden poles to create shifting shadows along the path lined with sparse bushes."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      587,
+      500,
+      614,
+      525
+    ]
+  },
+  "exits": [
+    {
+      "to": 27400,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27402,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

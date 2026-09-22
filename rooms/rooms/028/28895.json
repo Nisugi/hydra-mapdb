@@ -1,0 +1,109 @@
+{
+  "id": 28895,
+  "uid": [
+    7118230
+  ],
+  "title": [
+    "[Wandering Eye Market, Southwest]"
+  ],
+  "description": [
+    "Resembling silent sentinels, bright lanterns perch upon wrought iron posts along the edges of an open-air market filled with multi-colored tents and wagons, while painted cobblestones of black, azure, and cerulean form a clear border between the grey streets that stretch west and south.  A bright blue awning supported by sturdy oak posts stands open and inviting near the northeastern edges.  A small A-framed sign rests just off of its entry proclaiming its services.",
+    "Resembling silent sentinels, dormant lanterns perch upon wrought iron posts along the edges of an open-air market filled with multi-colored tents and wagons, while painted cobblestones of black, azure, and cerulean form a clear border between the grey streets that stretch west and south.  A bright blue awning supported by sturdy oak posts stands open and inviting near the northeastern edges.  A small A-framed sign rests just off of its entry proclaiming its services."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      338,
+      441,
+      354,
+      451
+    ]
+  },
+  "exits": [
+    {
+      "to": 28813,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28883,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28894,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28896,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28898,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28942,
+      "kind": "go",
+      "cmd": "go blue awning",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

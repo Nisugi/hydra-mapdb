@@ -1,0 +1,42 @@
+{
+  "id": 23720,
+  "title": [
+    "[Old Farmhouse, Garden]"
+  ],
+  "description": [
+    "Secreted away amidst towering cedars and firs, this quaint garden has a simple, wild charm.  Decorative hedges line a moss-lined cobbled walk as it winds its way towards a short flight of steps that lead up to a white clapboard house.  On either side of the walkway, a quartet of evenly spaced raised planting beds teem with wildflowers.  Cutting through the grid of abundant color, a faint footpath leads to a side yard."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Bloodriven Village",
+  "image": {
+    "file": "fest-duskruin-1503606263.png",
+    "rect": [
+      313,
+      943,
+      328,
+      958
+    ]
+  },
+  "exits": [
+    {
+      "to": 23719,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23721,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 23722,
+      "kind": "go",
+      "cmd": "go footpath",
+      "cost": 0.2
+    }
+  ]
+}

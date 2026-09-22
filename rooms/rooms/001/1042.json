@@ -1,0 +1,95 @@
+{
+  "id": 1042,
+  "uid": [
+    13001070
+  ],
+  "title": [
+    "[Glo'antern Moor]"
+  ],
+  "description": [
+    "Something has disturbed the grasses at this point in the trail, and although the way is obvious to the west, it is totally indiscernible in the other direction.  The heavy mists do not help matters, limiting vision to twenty yards at best, and the wet grass seems to be especially tall all around.  A dark obsidian boulder perhaps ten feet high sits nearby, its surface scarred and deeply gouged by implements unknown."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, damp",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "bright red cranberry",
+    "bright red teaberry",
+    "brostheras grass",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "fairy primrose",
+    "golden aster",
+    "ironfern root",
+    "luckbloom blossom",
+    "murdroot",
+    "pennyroyal stem",
+    "rainbow chard",
+    "sassafras leaf",
+    "soft mushroom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1172,
+      477,
+      1182,
+      487
+    ]
+  },
+  "exits": [
+    {
+      "to": 1041,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb boulder"
+        },
+        {
+          "ask": [
+            "look trail",
+            "the trail heads off to the "
+          ]
+        },
+        {
+          "move": "down"
+        },
+        {
+          "move": "{told}"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 1043,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1265,
+      "kind": "climb",
+      "cmd": "climb boulder",
+      "cost": 0.2
+    }
+  ]
+}

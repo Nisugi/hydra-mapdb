@@ -1,0 +1,203 @@
+{
+  "id": 2526,
+  "uid": [
+    4044111
+  ],
+  "title": [
+    "[Icemule Trace, Snowy Plains]"
+  ],
+  "description": [
+    "Massive boulders and rocks lie to the sides of the rough trail as it winds its way up into the majestic mountains.  The whistling wind has increased and even though you had not thought it possible, it has become colder."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "snowy, arctic",
+  "terrain": "rough",
+  "tags": [
+    "arctic moss",
+    "bright red teaberry",
+    "broken twig",
+    "edelweiss",
+    "ironfern root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      1012,
+      554,
+      1022,
+      564
+    ]
+  },
+  "exits": [
+    {
+      "to": 2525,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

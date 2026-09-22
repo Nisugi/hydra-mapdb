@@ -1,0 +1,92 @@
+{
+  "id": 23780,
+  "uid": [
+    8213015
+  ],
+  "title": [
+    "[Duskruin Arena, Sands Approach]"
+  ],
+  "description": [
+    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance.Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance.",
+    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.",
+    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance."
+  ],
+  "paths": [
+    "Obvious exits: south, down"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "tags": [
+    "arena",
+    "node"
+  ],
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:Duskruin"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1423,
+      258,
+      1444,
+      277
+    ]
+  },
+  "exits": [
+    {
+      "to": 23779,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24550,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 26387,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

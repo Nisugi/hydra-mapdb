@@ -1,0 +1,71 @@
+{
+  "id": 16846,
+  "uid": [
+    13010008
+  ],
+  "title": [
+    "[Zul Logoth, Clerk's Office]"
+  ],
+  "description": [
+    "Looking more like a forgotten nook in the tunnel than an office constructed for transacting government business, the clerk's cramped quarters is merely a fifteen-foot-square room with unpainted granite walls, floor and ceiling.  Exposed timbers shore up the ceiling timbers that bend precariously in the middle.  A warped desk with an unpadded metal chair behind it rests near a steel door.  Cabinets overflow with documents, and a post board near a steel door holds notices long outdated."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "debts",
+    "no forageables",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 16843,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

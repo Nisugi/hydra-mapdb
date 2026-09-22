@@ -1,0 +1,64 @@
+{
+  "id": 13717,
+  "uid": [
+    657004
+  ],
+  "title": [
+    "[Empath Guild, Cloister]"
+  ],
+  "description": [
+    "Shadowy ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and leafy vines with tightly furled flowers meander about the columns which open onto the darkened garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot.",
+    "Ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and flower-filled leafy vines meander about the columns which open onto the garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_empath_guild.png",
+    "rect": [
+      1007,
+      449,
+      1076,
+      513
+    ]
+  },
+  "exits": [
+    {
+      "to": 13716,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 13720,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13721,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18757,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "profession": "Empath"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

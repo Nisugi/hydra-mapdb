@@ -1,0 +1,48 @@
+{
+  "id": 20641,
+  "uid": [
+    336404
+  ],
+  "title": [
+    "[Begetting Besiegers, Basement]"
+  ],
+  "description": [
+    "Narrow wooden steps lead down from the trapdoor in the ceiling, ending in a wide underground chamber.  Old rusty sconces cast a dim glow along the earthen walls, creating thick pockets of shadows that partially conceal a flimsy wooden door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 19937,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 20627,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20642,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

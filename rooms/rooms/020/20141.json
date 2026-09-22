@@ -1,0 +1,42 @@
+{
+  "id": 20141,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "Bent and trampled grasses mix with fallen pine needles carpeting the conspicuous path.  A large black gum towers nearby, its foliage aflame with yellow and scarlet highlights.  The lower limbs have deteriorated, leaving vacant dens for squirrels, racoons, or other arboreal dwellers."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      421,
+      621,
+      435,
+      637
+    ]
+  },
+  "exits": [
+    {
+      "to": 20128,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20142,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 20143,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

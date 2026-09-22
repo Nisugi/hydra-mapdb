@@ -1,0 +1,76 @@
+{
+  "id": 3753,
+  "uid": [
+    4291040
+  ],
+  "title": [
+    "[Thanatoph, Eastern Slope]"
+  ],
+  "description": [
+    "Carefully stepping through the loose rubble of a recent rockslide, you take care not to make too much noise.  A wide ledge sits just out of reach above you, beckoning you with the promise of shelter."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, down"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      545,
+      973,
+      555,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 3731,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 3752,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3754,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ledge"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 14735,
+  "uid": [
+    732006
+  ],
+  "title": [
+    "[Warehouse, Erantok's Emporium]"
+  ],
+  "description": [
+    "Adjusting to the coolness and dim lighting of this cavernous warehouse, the vastness of the space isn't immediately apparent.  One long aisle stretches out to far back wall, and wooden partitions along its length segment the cave.  Directly to the west stands an open indigo thanot door leading into a small boxy office."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 1973,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 14736,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14784,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

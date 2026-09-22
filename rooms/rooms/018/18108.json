@@ -1,0 +1,43 @@
+{
+  "id": 18108,
+  "uid": [
+    682009
+  ],
+  "title": [
+    "[Wizard Guild, Observatory]"
+  ],
+  "description": [
+    "Most of the spacious chamber is taken up by a massive brass orrery, the various moons and planets crafted from enamelled metal.  A silver telescope is pointed upwards towards the heavens, its surface holding a pristine shine.  Detailed and precise paintings of the constellations adorn the walls.  A large fissure in the stone ceiling provides the telescope an unobstructed view of the heavens.  Steps descend into a very narrow cleft cut in the rock."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      267,
+      268,
+      333,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 18081,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 18109,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

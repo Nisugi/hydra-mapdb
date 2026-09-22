@@ -1,0 +1,57 @@
+{
+  "id": 16955,
+  "uid": [
+    685026
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library.  A few cushioned armchairs are scattered about the area, each paired with a small table.  A pair of deep niches are set into each wall, the tomes and scrolls heaped within them dappled by the multicolored sunlight streaming in through the arched stained glass windows.  In the corner, a narrow archway leads into a small alcove, while a pair of gilded columns marks an entrance to the central atrium to the northeast.",
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library.  A few cushioned armchairs are scattered about the area, each paired with a small table.  A pair of deep niches are set into each wall, the tomes and scrolls heaped within them streaked with wan beams of colored light from the arched stained glass windows.  In the corner, a narrow archway leads into a small alcove, while a pair of gilded columns marks an entrance to the central atrium to the northeast."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      15,
+      414,
+      41,
+      440
+    ]
+  },
+  "exits": [
+    {
+      "to": 16952,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16958,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 33828,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33829,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

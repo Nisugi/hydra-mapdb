@@ -1,0 +1,74 @@
+{
+  "id": 16470,
+  "uid": [
+    160010
+  ],
+  "title": [
+    "[Marble House, Consignment]"
+  ],
+  "description": [
+    "A large woven tapestry dominates the eastern wall, illustrating an elven mage clasping an intricately carved amulet.  Tucked into a corner is a sorting bin filled with sands of varying color and refinement."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 16363,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16471,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

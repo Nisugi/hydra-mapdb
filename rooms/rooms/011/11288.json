@@ -1,0 +1,50 @@
+{
+  "id": 11288,
+  "uid": [
+    377059
+  ],
+  "title": [
+    "[Zoo, Cage Area]"
+  ],
+  "description": [
+    "A mountain goat stares inquisitively at you from behind the bars of a cage to one side.  From the scraggly remnants of grass growing in the cage, you get the impression that maybe the goat is eyeing you for his next meal.  There are no signs of life from the cage on your other side."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      562,
+      761,
+      572,
+      771
+    ]
+  },
+  "exits": [
+    {
+      "to": 11274,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11286,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11289,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

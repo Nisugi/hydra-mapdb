@@ -1,0 +1,33 @@
+{
+  "id": 26557,
+  "title": [
+    "[Whip and Wight Inn, Hall]"
+  ],
+  "description": [
+    "The upward slope of the hall ends at the base of a set of curved stairs carved directly into the stone wall.  On the opposite wall is a recessed niche that stretches from the floor to a trefoil arch near the ceiling.  Within the depression, dark scenery emerges in earthy pigments blackened by time and moisture.  Wan light trickles down the stairs, along with the faint scent of sea brine and ale."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26485,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26558,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 26764,
+      "kind": "other",
+      "cmd": "whisper scene beneath the waves lies a darkness not yet seen.",
+      "cost": 5.0
+    }
+  ]
+}

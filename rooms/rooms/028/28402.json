@@ -1,0 +1,61 @@
+{
+  "id": 28402,
+  "title": [
+    "[Windfellow Tower, Second Floor]"
+  ],
+  "description": [
+    "Once again, the staircase ceases its rise and forms another flat platform.  Doors of various shapes and sizes litter the walls, and the floor in this area is heavily scratched, in direct contrast to the relatively smooth surfaces of the rest of the visible stone.  A blood red orb is perched on a metal stand against one wall, glowing just brightly enough to bathe the area in a sanguine hue.",
+    "The colorful staircase once again ceases its rise and forms another flat platform, this one oddly full of stuffed animals.  Doors of various shapes and sizes are blocked by the cotton and suede zoo, the floor littered by buttons and goose down in every nook and cranny.   A blood red orb is perched on a metal stand against one wall, glowing just brightly enough to bathe the area in a sanguine hue."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      451,
+      1182,
+      503,
+      1235
+    ]
+  },
+  "exits": [
+    {
+      "to": 28401,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 28403,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28412,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 28413,
+      "kind": "go",
+      "cmd": "go dingy door",
+      "cost": 0.2
+    },
+    {
+      "to": 28472,
+      "kind": "go",
+      "cmd": "go fel door",
+      "cost": 0.2
+    },
+    {
+      "to": 28803,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

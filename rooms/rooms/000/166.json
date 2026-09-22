@@ -1,0 +1,88 @@
+{
+  "id": 166,
+  "uid": [
+    13101001
+  ],
+  "title": [
+    "[Ta'Illistim, Kaerinar Wey]"
+  ],
+  "description": [
+    "A low, long stone building sits nestled amongst a grove of flowering trees.  Above the entrance, a relief depicting a healer ministering to the wounded is carved into the mica-flecked grey granite.  Neatly planted rows of herbs line the cobbled walk leading to the front door."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      338,
+      820,
+      359,
+      841
+    ]
+  },
+  "exits": [
+    {
+      "to": 165,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 167,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 640,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

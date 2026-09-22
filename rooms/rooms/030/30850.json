@@ -1,0 +1,52 @@
+{
+  "id": 30850,
+  "uid": [
+    7138115
+  ],
+  "title": [
+    "[Atoll, Inner Edge]"
+  ],
+  "description": [
+    "Ivory and obsidian stones alternate along a path leading up to a yellow barrier.  The air surrounding the barrier ripples and wavers, distorting the ruins just visible on the other side.  Hollowed out stones stained crimson line the barrier, each holding a humanoid skull as a warning to those who enter.",
+    "Ivory and obsidian stones alternate along a path leading up to a yellow barrier.  The air surrounding the barrier ripples and wavers, some type of ruins visible on the other side.  A line of humanoid skulls is nailed into the stones beneath them, a warning to those who enter."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Atoll",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "tags": [
+    "atoll barrier",
+    "blackened moss",
+    "murdroot",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "kf-atoll-1652294074.jpg",
+    "rect": [
+      287,
+      160,
+      318,
+      189
+    ]
+  },
+  "exits": [
+    {
+      "to": 30845,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30851,
+      "kind": "scripted",
+      "routine": {
+        "name": "colour_barrier"
+      },
+      "cost": 10.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 13348,
+  "uid": [
+    4900003
+  ],
+  "title": [
+    "[Eorgina's Temple, Great Hall]"
+  ],
+  "description": [
+    "A towering statue of a woman extends the full height of this open central turret, head tilted up as though gazing at the exposed heavens.  Forged skillfully, the metal robes gather in clothlike folds, the surface brushed to resemble a velvet-like texture.  Spiral staircases on both sides of the imposing figure wind their way up the adjoining turrets, entwined with brilliant trumpet vine flowers.  A large, carved ebonwood screen sits directly behind the statue and an arched portal leads out to the narthex."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 13324,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 14409,
+      "kind": "go",
+      "cmd": "go screen",
+      "cost": 0.2
+    },
+    {
+      "to": 14410,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14414,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

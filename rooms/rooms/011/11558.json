@@ -1,0 +1,52 @@
+{
+  "id": 11558,
+  "uid": [
+    420512
+  ],
+  "title": [
+    "[Krolvin Carrack, Forecastle]"
+  ],
+  "description": [
+    "Overhead the hatch covering the ceiling grating has sprung partially open, letting a few beams of moonlight filter in.  The room is a maze of rope hammocks slung fore-and-aft, all hanging aslant of the starboard-tilted deck.  A steep companionway leads down.",
+    "Overhead the hatch covering the ceiling grating has sprung partially open, letting a few rays of sunlight filter in.  The room is a maze of rope hammocks slung fore-and-aft, all hanging aslant of the starboard-tilted deck.  A steep companionway leads down."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      132,
+      1017,
+      142,
+      1027
+    ]
+  },
+  "exits": [
+    {
+      "to": 11557,
+      "kind": "go",
+      "cmd": "go hatchway",
+      "cost": 0.2
+    },
+    {
+      "to": 11559,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11560,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

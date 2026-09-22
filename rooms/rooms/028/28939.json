@@ -1,0 +1,69 @@
+{
+  "id": 28939,
+  "uid": [
+    7118358
+  ],
+  "title": [
+    "[The Intoxicating Flora, Clinic]"
+  ],
+  "description": [
+    "Bundles of dried, fragrant herbs are scattered across the room, the appendage-like pieces obscuring the more macabre animal bones littered in between.  A pool of heavy grey wool engulfs a tall figure standing between a rough canvas cot and small wrotwood table, the second covered in deeply carved grooves.  Overlapped hemp mats cover the floor, the pieces concealing the deep red stains that have seeped into the dirt."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "healer",
+    "npchealer",
+    "urchin guide healer",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28938,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

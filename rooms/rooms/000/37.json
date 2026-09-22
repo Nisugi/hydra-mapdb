@@ -1,0 +1,96 @@
+{
+  "id": 37,
+  "uid": [
+    13100001
+  ],
+  "title": [
+    "[Ta'Illistim, City Gate]"
+  ],
+  "description": [
+    "Quiet in the night air, the inner gateyard is home to only a few at this late hour.  The city guards converse amongst themselves, stopping occasionally to inspect the few travellers who journey into the city through the inner portcullis.  A lone wagon rests near one wall, apparently abandoned for the night by its owner.",
+    "Filled with raucous noise, the inner gateyard teems with activity.  The city guards converse amongst themselves or stand warily by, watching the populace as they pour into and out of the inner portcullis.  Wagons and carts are lined up to one side of the gateyard, as a trio of guards inspect their contents before allowing their owners to proceed into the city proper.",
+    "The inner gateyard is a circular chamber of silvery blue stone, its walls rising to a domed ceiling above.  The cobblestones are worn smooth, more so in the center of the chamber than around the walls.  A portcullis, raised halfway into a hidden compartment, reveals its teeth and a few feet of its gridded metal screen.",
+    "The inner gateyard is one in a series of circular chambers of silvery blue stone, its walls rising to a domed ceiling above.  The cobblestones are worn smooth, more so in the center of the chamber than around the walls.  A portcullis, raised upwards into a hidden compartment, reveals only its teeth."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "citygate",
+    "guard",
+    "stalk of bluebells",
+    "urchin guide citygate",
+    "urchin guide guard",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1616,
+      808,
+      1638,
+      828
+    ]
+  },
+  "exits": [
+    {
+      "to": 36,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 38,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 10836,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

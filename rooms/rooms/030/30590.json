@@ -1,0 +1,82 @@
+{
+  "id": 30590,
+  "uid": [
+    12009001
+  ],
+  "title": [
+    "[Yander's Farm, Barn]"
+  ],
+  "description": [
+    "Dust motes float lazily in the air amid the redolent aroma of fresh hay in the barn's interior.  Heavy oak rafters high overhead span this large open area suitable for several gnomish threshing machines.  A newly painted baker's door stands open along the western wall, providing egress to the attached stables."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "bur-clover root",
+    "curly garlic scapes",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "stable",
+    "urchin guide stable",
+    "urchin-access",
+    "wild rice",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 6021,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 32367,
+      "kind": "go",
+      "cmd": "go baker's door",
+      "cost": 0.2
+    }
+  ]
+}

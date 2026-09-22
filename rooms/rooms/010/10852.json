@@ -1,0 +1,143 @@
+{
+  "id": 10852,
+  "uid": [
+    2101004
+  ],
+  "title": [
+    "[River's Rest, Commons Circle]"
+  ],
+  "description": [
+    "Here, the dusty roadway splits and continues to the northeast and northwest.  The rush of River Road traffic to the south is faint in the air and the pace of life seems slower and calmer to the north.  Between the roads, a dusty pathway fades into a broad expanse of green lawn."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "bright red beet",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "ghost pepper",
+    "green garden cucumber",
+    "green guava",
+    "handful of oats",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "sagebrush root",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of thanot",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin-access",
+    "vanilla bean",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2290,
+      1006,
+      2326,
+      1040
+    ]
+  },
+  "exits": [
+    {
+      "to": 10840,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10853,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10859,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10861,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 28717,
+      "kind": "go",
+      "cmd": "go patched tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

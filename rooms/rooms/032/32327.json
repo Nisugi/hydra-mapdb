@@ -1,0 +1,91 @@
+{
+  "id": 32327,
+  "uid": [
+    4576023
+  ],
+  "title": [
+    "[Olbin Delta, Old Road]"
+  ],
+  "description": [
+    "Woods crowd in on the highland ridge, but the old hoarbeams and Ossian pines do not grow thick enough to conceal an ancient roadway that glides southward toward the hills bordering the southernmost reaches of the delta.  Despite the proximity of the ocean, nary a seabird cry can be heard.  A splintered signpost gestures in the road's direction, but whatever writing once graced its face is long gone."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Crawling Shore",
+  "climate": "cold, damp",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bearberries",
+    "blue trafel mushroom",
+    "bright red cranberry",
+    "bright red teaberry",
+    "brostheras grass",
+    "cloudberry",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "edelweiss",
+    "frostflower",
+    "golden aster",
+    "ironfern root",
+    "luckbloom blossom",
+    "murdroot",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "soft mushroom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "thorny wintersbite",
+    "tundra grass",
+    "valerian root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "winter rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "imt-Road_to_Moonsedge-1668377644.png",
+    "rect": [
+      913,
+      1056,
+      956,
+      1100
+    ]
+  },
+  "exits": [
+    {
+      "to": 32326,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32328,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32331,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go glade"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

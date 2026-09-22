@@ -1,0 +1,44 @@
+{
+  "id": 1839,
+  "uid": [
+    3001012
+  ],
+  "title": [
+    "[Rolaren Street, River Crossing]"
+  ],
+  "description": [
+    "A cobblestone road leads east into the commercial center of the town.  Leaning against a stone guardpost, a uniformed dwarf appraises those who pass.  You hear angry shouts from inside the building.  Streams of people cross the stone bridge to the west, which spans the River Muagh."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      952,
+      781,
+      982,
+      811
+    ]
+  },
+  "exits": [
+    {
+      "to": 1837,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1840,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

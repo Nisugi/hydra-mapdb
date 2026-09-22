@@ -1,0 +1,49 @@
+{
+  "id": 14226,
+  "uid": [
+    4900704
+  ],
+  "title": [
+    "[Temple, Right Hand Way]"
+  ],
+  "description": [
+    "A narrow slitted window rises high on the western wall, rays of sparkling sunlight filtering through to lend an ethereal glow to the room.  The gracefully arched wings of a genderless statue set in front of the window cast faint shadows across the brightly-lit chamber, and the figure's face bears no sign of emotion.  A pale granite arch opens in the east wall, while a small alcove to the south leads to a well-lit chamber.",
+    "A narrow slitted window rises high on the western wall, rays of pale moonlight filtering through to lend an ethereal glow to the room.  The gracefully arched wings of a genderless statue set in front of the window cast faint shadows across the brightly-lit chamber, and the figure's face bears no sign of emotion.  A pale granite arch opens in the east wall, while a small alcove to the south leads to a well-lit chamber."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 13318,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14161,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14383,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 14385,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

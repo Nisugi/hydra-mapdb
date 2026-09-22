@@ -1,0 +1,27 @@
+{
+  "id": 28451,
+  "title": [
+    "[Pebbles With Power]"
+  ],
+  "description": [
+    "Thin streams of water trickle down through claw-like marks that mar the cracked stone walls.  Bits of rotting debris and dust are scattered about a rotting wooden crate overflowing with bits of straw.  A single bronze sconce hangs crookedly from the wall, unlit and cold."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Mist Harbor",
+  "exits": [
+    {
+      "to": 28439,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28476,
+      "kind": "other",
+      "cmd": "pull sconce",
+      "cost": 0.2
+    }
+  ]
+}

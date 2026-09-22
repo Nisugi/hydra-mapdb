@@ -1,0 +1,51 @@
+{
+  "id": 14051,
+  "uid": [
+    4750050
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "On the ground you see thousands of sparkling glass bits.  Inside a wood framed building you see an odd-looking chair with long steel rails where the arms would be.  A rack with a dozen six-foot long blowpipes lies next to it.  You also see two large brick ovens that have fallen into disrepair.  To the southeast, you see a stout wooden door leading into a castle tower."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      761,
+      286,
+      769,
+      294
+    ]
+  },
+  "exits": [
+    {
+      "to": 14037,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14052,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14053,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 7460,
+  "uid": [
+    94003
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel twists and turns, undulating through the surrounding rock.  The floor, walls and low ceiling are irregular but smooth, as if something had passed this way many times to wear away any jagged edges.  The dim green light given off by patches of glowing lichen shrouds the tunnel in odd shadows that dance and waver before your eyes."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      807,
+      825,
+      817,
+      835
+    ]
+  },
+  "exits": [
+    {
+      "to": 7459,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7461,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

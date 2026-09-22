@@ -1,0 +1,44 @@
+{
+  "id": 18001,
+  "uid": [
+    263034
+  ],
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "Ornate brass oil lamps illuminate the long hallway.  The tiled floor is partly covered with simple rugs.  Heat emanates from the kitchen door.  The smell of garlic and roasting meats fill the hallway.  A framed painting hangs on one wall.  The hallway continues south."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild kitchen",
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      191,
+      307,
+      219,
+      331
+    ]
+  },
+  "exits": [
+    {
+      "to": 18000,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18002,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

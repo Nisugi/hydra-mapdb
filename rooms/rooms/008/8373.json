@@ -1,0 +1,46 @@
+{
+  "id": 8373,
+  "uid": [
+    4292042
+  ],
+  "title": [
+    "[Stronghold, Walk of the Shaman]"
+  ],
+  "description": [
+    "The coiled passageway culminates in a vast chamber, its farthest corners hidden in darkness and clouds of dust.  Flickers of static electricity light the clouds from within, sending arcane reflections arcing across the towering walls.  Overhead, a monstrous ring of stone hangs in the center of the chamber, its source of support invisible.  It hovers over a matching ring carved into the rock floor."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Stone Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      740,
+      250,
+      750,
+      260
+    ]
+  },
+  "exits": [
+    {
+      "to": 8372,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 8374,
+      "kind": "scripted",
+      "routine": {
+        "name": "ring_wedges"
+      },
+      "cost": 0.2
+    }
+  ]
+}

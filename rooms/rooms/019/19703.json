@@ -1,0 +1,59 @@
+{
+  "id": 19703,
+  "uid": [
+    11016
+  ],
+  "title": [
+    "[Cavernhold, Musterhall]"
+  ],
+  "description": [
+    "You are at the north end of a big cavern.  A natural platform of rock stands a full ten feet above the floor of the chamber.  The shape of the chamber is such that anyone standing on this platform can speak in a normal tone of voice and be heard quite clearly throughout the room."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, southwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      580,
+      675,
+      592,
+      688
+    ]
+  },
+  "exits": [
+    {
+      "to": 19702,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19704,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19715,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19718,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

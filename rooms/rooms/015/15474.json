@@ -1,0 +1,85 @@
+{
+  "id": 15474,
+  "uid": [
+    212012
+  ],
+  "title": [
+    "[Helden Hall, 1st Floor Balcony]"
+  ],
+  "description": [
+    "The stairs continue up to the second floor, while this passage leads east and west.  Laughter and loud boasting float up from the Great Hall below you."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      735,
+      731,
+      775,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 3880,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 24250,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 24746,
+      "kind": "go",
+      "cmd": "go cherrywood door",
+      "cost": 0.2
+    },
+    {
+      "to": 24747,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 24749,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 24764,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24769,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35986,
+      "kind": "go",
+      "cmd": "go sturdy door",
+      "cost": 0.2
+    },
+    {
+      "to": 35987,
+      "kind": "go",
+      "cmd": "go ashwood door",
+      "cost": 0.2
+    }
+  ]
+}

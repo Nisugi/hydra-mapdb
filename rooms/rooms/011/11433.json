@@ -1,0 +1,72 @@
+{
+  "id": 11433,
+  "uid": [
+    304010
+  ],
+  "title": [
+    "[Tempest River, North Fork]"
+  ],
+  "description": [
+    "A floating dock on the south bank creates a peaceful eddy between the river current pushing from the west and the current from the waves of Maelstrom Bay to the west.  The silky moonlight penetrates clear to the sandy bottom of the river.  High cliffs line the far bank.  The river widens to the west as it moves into the mouth of Maelstrom Bay.  To the east the current is too powerful and swift to swim against.  The dock leads to the veranda of the Stone Eye Inn."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "freshwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Maelstrom Bay",
+    "mapshortname:Maelstrom Bay",
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      837,
+      1341,
+      847,
+      1351
+    ]
+  },
+  "exits": [
+    {
+      "to": 11432,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb dock"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 11435,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

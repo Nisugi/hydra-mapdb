@@ -1,0 +1,50 @@
+{
+  "id": 17921,
+  "uid": [
+    268059
+  ],
+  "title": [
+    "[Rogue Guild, Dead End]"
+  ],
+  "description": [
+    "A wall of natural rock abruptly cuts off this short tunnel, its numerous jags and cracks cast in light and shadow by the abundant luminescent moss growing here.  Several pronounced fissures run along the edge of the dead end, and a faint draft can be felt from somewhere nearby."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "rogue guild plant"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      477,
+      1113,
+      516,
+      1149
+    ]
+  },
+  "exits": [
+    {
+      "to": 17913,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17924,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

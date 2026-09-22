@@ -1,0 +1,39 @@
+{
+  "id": 25076,
+  "uid": [
+    -7105127
+  ],
+  "title": [
+    "[Reim Settlement, Courtyard]"
+  ],
+  "description": [
+    "The cobblestone path stops suddenly; continuing in its place are solid golden tiles leading up to the castle.  A massive castle spans as far as the eye can see with a towering gate beckoning entry."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      309,
+      474,
+      321,
+      486
+    ]
+  },
+  "exits": [
+    {
+      "to": 25074,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25109,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

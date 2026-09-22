@@ -1,0 +1,48 @@
+{
+  "id": 5239,
+  "uid": [
+    4202150
+  ],
+  "title": [
+    "[Vornavian Coast, Beached Hulk]"
+  ],
+  "description": [
+    "A sturdy companionway ladder leads down into the water, and upward to the upper deck.  As the ladder leads underwater to lower decks of the ship, the tide washing through the hull is so strong that further progress in that direction is impossible.",
+    "A sturdy companionway ladder leads down into the water, and upward to the upper deck.  As the soot-stained ladder leads underwater to lower decks of the ship, the tide washing through the hull is so strong that further progress in that direction is impossible."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      123,
+      669,
+      131,
+      677
+    ]
+  },
+  "exits": [
+    {
+      "to": 5237,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5241,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 4683,
+  "uid": [
+    14051005
+  ],
+  "title": [
+    "[Urgaen's Pawnshop]"
+  ],
+  "description": [
+    "Melodic chimes dangle above the ash door, signaling the arrivals and departures from this cozy pawnshop.  Dangling above a polished white oak counter, a crooked plank has been decorated with a child's colorful beadwork that reads, \"Pawnshop.\"  A fringed curtain obscures an archway that leads to the rear of the shop."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "pawn",
+    "pawnshop",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4682,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17162,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

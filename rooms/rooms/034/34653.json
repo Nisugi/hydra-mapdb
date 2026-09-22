@@ -1,0 +1,46 @@
+{
+  "id": 34653,
+  "uid": [
+    4572038
+  ],
+  "title": [
+    "[Sablecross, Mute Row]"
+  ],
+  "description": [
+    "Blossoming flaeshorn vines climb the walls of a marble enchanter's atelier.  Intricate symbols have been carved into the dark stone, following the natural crimson veins that travel through the marble in a way that makes them difficult to follow with the eye.  Carved steps lead up to a heavy, reinforced door.  Windows of stained glass--bold cobalt, vibrant cardinal red, and rich burnt umber--give not a hint as to the workshop's interior, but their panes shine as if lit from within."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      521,
+      661,
+      554,
+      694
+    ]
+  },
+  "exits": [
+    {
+      "to": 34630,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34651,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34654,
+      "kind": "go",
+      "cmd": "go atelier",
+      "cost": 0.2
+    }
+  ]
+}

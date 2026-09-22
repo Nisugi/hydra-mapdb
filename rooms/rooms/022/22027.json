@@ -1,0 +1,51 @@
+{
+  "id": 22027,
+  "uid": [
+    109102
+  ],
+  "title": [
+    "[Silvergate, Jungle Room]"
+  ],
+  "description": [
+    "The warm humid air of this tropical retreat invites you to cast away your worries and cares.  Flowering vines creep up the carved posts of a four-poster bed which provides support for a canopy of rustling ferns.  Water trickles from a fountain, cunningly crafted to resemble a waterfall, and fills a small bathing pool near the fireplace.  Several colorful cushions are scattered on the floor near the hearth."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      833,
+      7,
+      890,
+      62
+    ]
+  },
+  "exits": [
+    {
+      "to": 14674,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlatch green door"
+        },
+        {
+          "put": "open green door"
+        },
+        {
+          "move": "go green door"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 22028,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    }
+  ]
+}

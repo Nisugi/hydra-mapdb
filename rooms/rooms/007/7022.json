@@ -1,0 +1,50 @@
+{
+  "id": 7022,
+  "uid": [
+    45152
+  ],
+  "title": [
+    "[Castle Darkstone, Guardtower]"
+  ],
+  "description": [
+    "You pick your way carefully around the edge of the top of the tower here, as most of it has plummeted down into the building below, filling the room below with rubble.  Some stone steps lead down to ground level from here, and the parapet extends along the tops of the walls to the north and east from here."
+  ],
+  "paths": [
+    "Obvious paths: north, east, down"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      305,
+      617,
+      315,
+      627
+    ]
+  },
+  "exits": [
+    {
+      "to": 7021,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7023,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7028,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

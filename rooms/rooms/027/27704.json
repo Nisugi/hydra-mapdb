@@ -1,0 +1,58 @@
+{
+  "id": 27704,
+  "uid": [
+    4050108
+  ],
+  "title": [
+    "[South Barbican, East Tower]"
+  ],
+  "description": [
+    "The brisk winds of the north flow through the numerous windows that line the circular, stone walls.  Tattered bits of leather and cloth sit beneath the narrow slits, the stains on them a telltale sign of the many battles fought from these heights.  A particularly wide window opens up to the east, and a length of thick rope is tied to a grommet at its base."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      522,
+      766,
+      557,
+      796
+    ]
+  },
+  "exits": [
+    {
+      "to": 27703,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27705,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

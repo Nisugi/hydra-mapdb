@@ -1,0 +1,58 @@
+{
+  "id": 22353,
+  "uid": [
+    13125002
+  ],
+  "title": [
+    "[Ta'Illistim, Linsandrych Var]"
+  ],
+  "description": [
+    "Curving around a carved pillar, the var is lined with lanterns.  The cobblestone road leads past a set of ornate gates, with a beautifully manicured lawn visible beyond.  Meandering to a white marble building, a stone walkway is bordered by green shrubs, their thick branches creating a natural barrier."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      963,
+      263,
+      1039,
+      340
+    ]
+  },
+  "exits": [
+    {
+      "to": 22352,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22354,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22358,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 22410,
+      "kind": "go",
+      "cmd": "go silver door",
+      "cost": 0.2
+    }
+  ]
+}

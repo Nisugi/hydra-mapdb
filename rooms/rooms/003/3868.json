@@ -1,0 +1,104 @@
+{
+  "id": 3868,
+  "uid": [
+    739401
+  ],
+  "title": [
+    "[Cobblestone Path]"
+  ],
+  "description": [
+    "Brightly painted cobblestones in red, blue, gold, and green transition into a sandy path to the north.  Jutting out into the pathway here and there, razor grass lines the path interspersed with stems of torch ginger, their blooms a brilliant red.  Obviously well traveled, the sandy part of the path is well packed into an almost rock-like surface.",
+    "Mullein torches have been set out to light the way and illuminate the brightly painted cobblestones.  Jutting out into the pathway here and there, razor grass lines the path interspersed with stems of torch ginger, their blooms a brilliant red.  Obviously well traveled, the sandy part of the path to the north is well packed into an almost rock-like surface."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "black peppercorn",
+    "blackened moss",
+    "bur-clover root",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "deep crimson plumeria",
+    "ghost pepper",
+    "green guava",
+    "hot pepper",
+    "ironfern root",
+    "jasmine floret",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "star anise",
+    "sweet potato",
+    "urchin-access",
+    "vanilla bean",
+    "wild rice",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3342,
+      1794,
+      3355,
+      1803
+    ]
+  },
+  "exits": [
+    {
+      "to": 3655,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 3869,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

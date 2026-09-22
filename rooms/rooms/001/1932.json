@@ -1,0 +1,103 @@
+{
+  "id": 1932,
+  "uid": [
+    3001025
+  ],
+  "title": [
+    "[Dragonspine and Krodera]"
+  ],
+  "description": [
+    "The street widens into a circular plaza several hundred feet across.  Dwarves and giantmen lounge on stone benches by a massive granite fountain in the center.  The burbling of the waters, the low mumblings of the dwarves and the booming laughter of the giants somehow blend together into a vibrant harmony."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "supernode",
+    "town",
+    "urchin guide statue",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Teras Isle",
+    "mapcategory:Towns",
+    "mapname:Teras Isle - Kharam-Dzu",
+    "mapshortname:Kharam-Dzu"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1036,
+      518,
+      1066,
+      548
+    ]
+  },
+  "exits": [
+    {
+      "to": 1898,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 3.0
+    },
+    {
+      "to": 1931,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 3.0
+    },
+    {
+      "to": 1933,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 3.0
+    },
+    {
+      "to": 1944,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 3.0
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

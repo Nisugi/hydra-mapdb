@@ -1,0 +1,70 @@
+{
+  "id": 1236,
+  "uid": [
+    2190019
+  ],
+  "title": [
+    "[Vipershroud, Brackish Stream]"
+  ],
+  "description": [
+    "A dark, brackish, slow-moving stream emerges from under some thick, dangerous-looking brambles and meanders off to the northeast.  Several stones, strategically placed, allow dry passage across the stream to the heavily shaded, moss-choked path running northwest and southwest.  Swarming insects, spawned from the standing pools, add a buzzing, biting layer of black fog to the already misty atmosphere."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Vipershroud",
+  "climate": "freshwater",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue water lily",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "bur-clover root",
+    "murdroot",
+    "reeds",
+    "stalk of cattail",
+    "strand of seaweed",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "white water lily",
+    "wild gooseberry",
+    "wingstem root",
+    "yellow water lily"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      154,
+      649,
+      164,
+      659
+    ]
+  },
+  "exits": [
+    {
+      "to": 1235,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1237,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go stream"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 9621,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

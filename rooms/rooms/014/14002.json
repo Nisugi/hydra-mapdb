@@ -1,0 +1,43 @@
+{
+  "id": 14002,
+  "uid": [
+    4384008
+  ],
+  "title": [
+    "[Silverwood Manor, Events Hall]"
+  ],
+  "description": [
+    "Decorating the walls of this passageway are a few tapestries depicting Silverwood events of the past.  One piece in particular seems dedicated to some kind of death-by-cookies game, while others are a simple representation of the sharing of knowledge.  An oak arch inlaid with silver scrollwork stands at the end of the hall, and a heavy pine door with a wrought iron handle interrupts the wall between a framed bit of aged parchment and a silver filigree-framed portrait."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 13532,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14003,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14004,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

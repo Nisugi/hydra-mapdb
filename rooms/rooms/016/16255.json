@@ -1,0 +1,30 @@
+{
+  "id": 16255,
+  "title": [
+    "[Karazja Jungle, Stone Ruins]"
+  ],
+  "description": [
+    "Looming out of the thick jungle are the ruins of a great stone hall.  Careful craftsmanship is apparent in the way the stones forming the walls have been joined together.  Though the roof is gone, the remaining three walls seem quite sturdy.  In the center of the structure is a fire pit surrounded by flat oblong rocks.  On one wall is a crude painting."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Karazja Jungle",
+  "tags": [
+    "no-auto-map"
+  ],
+  "exits": [
+    {
+      "to": 16254,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16256,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 31961,
+  "uid": [
+    8083092
+  ],
+  "title": [
+    "[Vigil's End, Legion Lane]"
+  ],
+  "description": [
+    "Smoke lingers in the air, thinly veiling clusters of charred homes with a grey haze.  Splintered wood boards up the windows, pale yellow light escaping from the cracks.  Threadbare banners adorn the eaves of a long slate-roofed house with a stone facade peaked by stepped gables.  Laden with decomposing burlap sacks, a toppled rickety cart sprawls before the porch, scattering rotten apricots across the mud-swept cobblestones."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1166,
+      334,
+      1189,
+      357
+    ]
+  },
+  "exits": [
+    {
+      "to": 31960,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31962,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33951,
+      "kind": "go",
+      "cmd": "go slate-roofed house",
+      "cost": 0.2
+    },
+    {
+      "to": 34860,
+      "kind": "go",
+      "cmd": "go rickety cart",
+      "cost": 0.2
+    }
+  ]
+}

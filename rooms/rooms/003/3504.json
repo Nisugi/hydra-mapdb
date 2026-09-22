@@ -1,0 +1,51 @@
+{
+  "id": 3504,
+  "uid": [
+    14100068
+  ],
+  "title": [
+    "[Ta'Vaalor, Rubicaene Wey]"
+  ],
+  "description": [
+    "The elegant facade of the Ta'Vaalor Theatre towers above, its ornate carvings and gargoyles reminiscent of the architectural style of the Illistim.  Grinning and leering statues perch atop the window embrasures and doorframes, and the waterspouts have been carved into stylized representations of plant life.  A large silver plaque is mounted beside the front doors."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      476,
+      553,
+      510,
+      589
+    ]
+  },
+  "exits": [
+    {
+      "to": 3503,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3508,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10435,
+      "kind": "go",
+      "cmd": "go theatre",
+      "cost": 0.2
+    }
+  ]
+}

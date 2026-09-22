@@ -1,0 +1,44 @@
+{
+  "id": 21324,
+  "uid": [
+    3215119
+  ],
+  "title": [
+    "[Annex, White Haven Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A white velvet pennant edged with icy blue hangs between a heavy, white muslin curtain and an embroidered blue muslin curtain.",
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A white velvet pennant edged with icy blue hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:white_haven:entrance_annex",
+    "che:white_haven:entrance_locker",
+    "locker annex:White Haven"
+  ],
+  "exits": [
+    {
+      "to": 12297,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 25998,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 33012,
+      "kind": "go",
+      "cmd": "go blue curtain",
+      "cost": 0.2
+    }
+  ]
+}

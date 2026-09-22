@@ -1,0 +1,48 @@
+{
+  "id": 31833,
+  "uid": [
+    8083413
+  ],
+  "title": [
+    "[Gleyminn Anni River, Lake]"
+  ],
+  "description": [
+    "The meandering river waters flow into a miniature lake, a silvery grey gem embedded in the surrounding hills.  In the mists over the dead calm surface, a small island appears, home to a tiny hut constructed from mud, sticks, and stones.  The hut is overshadowed by an immense snag, its cracked trunk filled with empty nests and its parched branches clawing over the ground toward the water's edge."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1447,
+      876,
+      1469,
+      899
+    ]
+  },
+  "exits": [
+    {
+      "to": 31832,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31834,
+      "kind": "go",
+      "cmd": "go island",
+      "cost": 0.2
+    }
+  ]
+}

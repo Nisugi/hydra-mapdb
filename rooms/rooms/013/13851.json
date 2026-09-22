@@ -1,0 +1,50 @@
+{
+  "id": 13851,
+  "uid": [
+    702072
+  ],
+  "title": [
+    "[Cavernfast, Mithril Overlook]"
+  ],
+  "description": [
+    "A small courtyard sits beside the river, giving a lovely panorama of the carved stones zigzagging across the confluence, and the starry host of twinkling braziers that follow the water's course through the caverns.  Groups of dwarves pass by, falling into single-file to cross the stones almost without breaking stride."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-homes-2-1264234799.png",
+    "rect": [
+      863,
+      1196,
+      883,
+      1216
+    ]
+  },
+  "exits": [
+    {
+      "to": 13850,
+      "kind": "go",
+      "cmd": "go stones",
+      "cost": 0.2
+    },
+    {
+      "to": 13880,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13881,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

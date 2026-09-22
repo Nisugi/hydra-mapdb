@@ -1,0 +1,45 @@
+{
+  "id": 23854,
+  "uid": [
+    4422220
+  ],
+  "title": [
+    "[Circle of Trees, Platform Level]"
+  ],
+  "description": [
+    "A massive circular platform surrounds the giant cedar tree in the center of the room.  Branches support the plank from below and also create a dome overhead of leafy green.  The scent of cedar is strong, emanating both from the tree and the platform itself.  Curtains of vines hamper travel in both directions, though rope bridges lie behind it, heading off to other platforms to the east and northwest."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      675,
+      345,
+      688,
+      360
+    ]
+  },
+  "exits": [
+    {
+      "to": 23841,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23847,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23855,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

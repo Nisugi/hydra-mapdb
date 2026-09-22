@@ -1,0 +1,290 @@
+{
+  "id": 3619,
+  "uid": [
+    3003
+  ],
+  "title": [
+    "[Wayside Inn, Dining Room]"
+  ],
+  "description": [
+    "This ramshackle hostel bears the signs of rough use by hard-bitten travellers and headstrong adventurers.  Several blade-scarred tables and low stools are lined up against the walls, while the central area is dominated by a large firepit around which is a low platform covered with a few ratty bearskins.  The clatter of clay tankards and the smell of humble victuals provide some small comfort to the steady stream of wayfarers who pause here to meet and greet one another."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "table",
+    "urchin guide wayside",
+    "urchin-access",
+    "wayside"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      658,
+      251,
+      668,
+      261
+    ]
+  },
+  "exits": [
+    {
+      "to": 221,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1777,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Crimson Crocus table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3620,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Indigo Iris table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3621,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Fragrant Freesia table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3625,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Aesthetic Aster table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3732,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dancing Daisy table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3760,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Esculent Echinacea table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3828,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Jeweled Jasmine table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3832,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Patient Peony table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3840,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Bleeding Heart table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3841,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go queen table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3908,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Maidenly Magnolia table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3911,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Lucid Lotus table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3978,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Hardy Heather table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9652,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14627,
+      "kind": "go",
+      "cmd": "go steep stair",
+      "cost": 0.2
+    },
+    {
+      "to": 18230,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Graceful Goldenrod table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18232,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Knotted Kerria table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18233,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Nocuous Nightshade table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21298,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Obscure Orris table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21299,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rustic Rose table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21300,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Scented Salvia table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21301,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tantalizing Tulip table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

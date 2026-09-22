@@ -1,0 +1,58 @@
+{
+  "id": 11888,
+  "uid": [
+    17003027
+  ],
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "An intersection of sorts occurs in this widened stretch of the flowing stream.  Glowing emerald water flows in from the north, swirls a bit as the tunnel widens, and then speeds up slightly as the tunnel constricts and heads off to the south.  Another tunnel extends off to the west, but the water in it is placid and unmoving.  On the east wall, a large hole leads off into darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "murdroot",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      1161,
+      991,
+      1171,
+      1001
+    ]
+  },
+  "exits": [
+    {
+      "to": 11881,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11889,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11891,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11893,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

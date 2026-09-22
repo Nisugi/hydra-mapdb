@@ -1,0 +1,39 @@
+{
+  "id": 25127,
+  "uid": [
+    -7105166
+  ],
+  "title": [
+    "[Reim Castle, East Wing]"
+  ],
+  "description": [
+    "The chamber narrows artistically along a gold-covered lattice rug.  A row of narrow skylights shine light upon support beams below, casting shadows in a matching latticework pattern to the rug.  Draped with curtains, a carved gold arch leads deeper into the visitor's wing.  A servants bell hangs from a simple hook on the inside of the arch."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      439,
+      276,
+      454,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 25126,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25128,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

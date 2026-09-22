@@ -1,0 +1,74 @@
+{
+  "id": 8230,
+  "uid": [
+    390009
+  ],
+  "title": [
+    "[Wolves' Den, Long Hall]"
+  ],
+  "description": [
+    "Along the northern wall of this long, dark hallway are a dented iron door, a corroded iron door, and a rusted iron door.  A rough stone arch and a pitted stone arch open in the south wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      212,
+      336,
+      222,
+      346
+    ]
+  },
+  "exits": [
+    {
+      "to": 8229,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8231,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8255,
+      "kind": "go",
+      "cmd": "go dented door",
+      "cost": 0.2
+    },
+    {
+      "to": 8257,
+      "kind": "go",
+      "cmd": "go corroded door",
+      "cost": 0.2
+    },
+    {
+      "to": 8258,
+      "kind": "go",
+      "cmd": "go rusted door",
+      "cost": 0.2
+    },
+    {
+      "to": 8259,
+      "kind": "go",
+      "cmd": "go rough arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8260,
+      "kind": "go",
+      "cmd": "go pitted arch",
+      "cost": 0.2
+    }
+  ]
+}

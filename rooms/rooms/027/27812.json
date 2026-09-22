@@ -1,0 +1,40 @@
+{
+  "id": 27812,
+  "uid": [
+    284029
+  ],
+  "title": [
+    "[Cholen's Temple, Wine Storage]"
+  ],
+  "description": [
+    "Huge redwood racks line the stone walls from floor to ceiling, each nearly full to capacity with colorful bottles.  Thin bands of icy blue rhimar are visible here and there on the racks, and a faint swirl of cool mist eddies around the chamber.  Sconces set at intervals along the wine racks support tiny globes of pale, steady light.  A heavy redwood door is set into the south wall, while a short stair on the east side of the room leads down to a similarly robust door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 25676,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 27815,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 18181,
+  "uid": [
+    52013
+  ],
+  "title": [
+    "[Melgorehn's Reach, Lift]"
+  ],
+  "description": [
+    "This is an open-air, wooden box which is suspended on a beam trellis that is precariously attached to the side of the mountain.  There are plenty of openings which afford a great view, but the cab itself is covered (probably to guard against falling rocks)."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 18180,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18182,
+      "kind": "scripted",
+      "steps": [
+        {
+          "pause": 200
+        },
+        {
+          "await": "ledge comes into view and the cab grinds to a clunky halt"
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 240.0
+    }
+  ]
+}

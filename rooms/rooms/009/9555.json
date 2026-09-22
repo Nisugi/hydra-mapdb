@@ -1,0 +1,65 @@
+{
+  "id": 9555,
+  "uid": [
+    688003
+  ],
+  "title": [
+    "[Wizard Guild, First Stratum]"
+  ],
+  "description": [
+    "Twin, narrow stairs spiral steeply downward, providing access to the lower levels of the guild.  Through the circular opening in the floor, the other strata are clearly visible.  A pair of agate-inset doors lies within the northwest wall, facing some quartz-inset doors to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul-wizard_guild-1648064027.png",
+    "rect": [
+      280,
+      153,
+      343,
+      215
+    ]
+  },
+  "exits": [
+    {
+      "to": 9431,
+      "kind": "go",
+      "cmd": "go quartz-inset doors",
+      "cost": 0.2
+    },
+    {
+      "to": 9554,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 9556,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 13128,
+      "kind": "go",
+      "cmd": "go agate-inset doors",
+      "cost": 0.2
+    }
+  ]
+}

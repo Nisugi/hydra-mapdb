@@ -1,0 +1,53 @@
+{
+  "id": 191,
+  "uid": [
+    13100081
+  ],
+  "title": [
+    "[Ta'Illistim, Fraendel Var]"
+  ],
+  "description": [
+    "Stray sunlight gleams off the polished granite buildings as townsfolk wander about on their daily tasks.  Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used.",
+    "Stray moonlight casts a muted, multicolored hue on the granite buildings as a few townsfolk complete their late night tasks along the var.  Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used.",
+    "Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used, as does the start of a pebbled walkway that branches off the main thoroughfare."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      828,
+      808,
+      850,
+      828
+    ]
+  },
+  "exits": [
+    {
+      "to": 174,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 192,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13047,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    }
+  ]
+}

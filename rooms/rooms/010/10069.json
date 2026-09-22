@@ -1,0 +1,53 @@
+{
+  "id": 10069,
+  "uid": [
+    13050009
+  ],
+  "title": [
+    "[Sylvarraend, Town Commons]"
+  ],
+  "description": [
+    "Facing the square sits a well-kept building, its walls made of stacked round river rock.  The structure's clay tiled roof glows with a dull red hue, the tiles chipped here and there from years of exposure to the elements.  Flowers spill over the sides of a wooden planter next to the front door, above which hangs a carved wooden sign.",
+    "Facing the square sits a well-kept building, its walls made of stacked round river rock.  The structure's clay tiled roof glows with a dull red hue, the tiles chipped here and there from years of exposure to the elements.  Golden yellow light is barely visible in the crevice between the front door and its sturdy frame, above which hangs a carved wooden sign."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      242,
+      797,
+      278,
+      833
+    ]
+  },
+  "exits": [
+    {
+      "to": 679,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 681,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10070,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

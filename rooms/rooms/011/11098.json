@@ -1,0 +1,56 @@
+{
+  "id": 11098,
+  "uid": [
+    26014
+  ],
+  "title": [
+    "[Krol Ship, Corridor]"
+  ],
+  "description": [
+    "This corridor extends fore and aft here, connecting the officers' quarters and the wardroom to the quarterdeck."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3967,
+      1368,
+      3989,
+      1391
+    ]
+  },
+  "exits": [
+    {
+      "to": 11096,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11099,
+      "kind": "go",
+      "cmd": "go starboard door",
+      "cost": 0.2
+    },
+    {
+      "to": 11100,
+      "kind": "go",
+      "cmd": "go port door",
+      "cost": 0.2
+    },
+    {
+      "to": 11101,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

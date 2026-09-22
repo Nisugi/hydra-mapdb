@@ -1,0 +1,50 @@
+{
+  "id": 5044,
+  "uid": [
+    4744020
+  ],
+  "title": [
+    "[Marshtown, Jag Hill]"
+  ],
+  "description": [
+    "This section of boardwalk is wide and appears newer than in other places in town.  Some of the planks have obviously been recently replaced and have not been faded and stained by the elements.  A storefront on the north side of the boardwalk sports several new boards and a large glaes-paned window, making it stand out from the buildings to either side of it.  A large hill rises out of the marsh to the northwest."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      787,
+      669,
+      797,
+      679
+    ]
+  },
+  "exits": [
+    {
+      "to": 5043,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5045,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5724,
+      "kind": "go",
+      "cmd": "go storefront",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 3565,
+  "uid": [
+    4291008
+  ],
+  "title": [
+    "[Thanatoph, Stone Valley]"
+  ],
+  "description": [
+    "The ground slopes gently down towards the twin peaks of Thanatoph.  A wispy tendril of smoke rises from a structure built into the mountain halfway up between the peaks.  You see a strange collection of fallen trees and underbrush in a pile to your southeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Stone Valley",
+  "climate": "hot, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "bloodwood twig",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "fresh catnip",
+    "green pear",
+    "haphip root",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "pothinir grass",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "trafel mushroom",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "withered mushroom",
+    "woth flower",
+    "yellow lemon",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      138,
+      752,
+      148,
+      762
+    ]
+  },
+  "exits": [
+    {
+      "to": 3564,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3566,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pile"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

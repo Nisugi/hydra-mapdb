@@ -1,0 +1,50 @@
+{
+  "id": 35521,
+  "uid": [
+    4410309
+  ],
+  "title": [
+    "[Tideswept Bazaar]"
+  ],
+  "description": [
+    "Pebbles blanket the cavern floor in smooth, rounded layers, broken by patches of swaying plants with slender stems and broad, textured leaves.  Tiny, luminescent fish glide through the water in quick, darting motions, slipping between coral branches and vanishing into crevices.  Vivid formations rise in clustered shapes of fans, spires, and ridges covered in living color.  Currents flow gently through the space, stirring sand and foliage in a slow, continuous rhythm."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "exits": [
+    {
+      "to": 35520,
+      "kind": "cardinal",
+      "cmd": "s",
+      "cost": 0.2
+    },
+    {
+      "to": 35522,
+      "kind": "cardinal",
+      "cmd": "nw",
+      "cost": 0.2
+    },
+    {
+      "to": 35557,
+      "kind": "go",
+      "cmd": "go cavern entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 35558,
+      "kind": "go",
+      "cmd": "go noticeable gap",
+      "cost": 0.2
+    },
+    {
+      "to": 35559,
+      "kind": "go",
+      "cmd": "go coral-lined arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 19632,
+  "title": [
+    "[Albatross, Upper Hallway]"
+  ],
+  "description": [
+    "Dark chestnut marble veined with alabaster and gold stretches the length of the hallway, and dark mahogany walls are elaborately carved in relief with aristocratic scenes of gambling, drinking, and hunting.  A darkened lounge is visible to the port side, and a sapphire-inlaid cherrywood arch to the starboard leads into the Let It Ride tables."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      433,
+      180,
+      467,
+      213
+    ]
+  },
+  "exits": [
+    {
+      "to": 19626,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19633,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19635,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

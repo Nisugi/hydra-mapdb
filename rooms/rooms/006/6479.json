@@ -1,0 +1,44 @@
+{
+  "id": 6479,
+  "uid": [
+    92102
+  ],
+  "title": [
+    "[Underground Lake, In The Water]"
+  ],
+  "description": [
+    "A broad underground lake fills this huge cavern that stretches out to the south and east.  The water that you are wading through is shallow, but the currents caused by the water falling just outside of the cavern opening pull and tug you in many directions.  High up on one wall of the cavern there is a broad ledge."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      640,
+      953,
+      650,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 6478,
+      "kind": "go",
+      "cmd": "go waterfall",
+      "cost": 0.2
+    },
+    {
+      "to": 6480,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

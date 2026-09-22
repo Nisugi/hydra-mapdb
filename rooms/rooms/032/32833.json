@@ -1,0 +1,52 @@
+{
+  "id": 32833,
+  "uid": [
+    4490013
+  ],
+  "title": [
+    "[Dead End]"
+  ],
+  "description": [
+    "It is so dark the immediate surroundings are impossible to see.  The walls are rough with the sharp jagged protrusions one would find in the beginning stages of a tunnel being dug.  However cobwebs and dust belie the age of the crude passage.  Feeling around the unfinished tunnel walls reveals no obvious exits."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 9408,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 32832,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 33598,
+  "uid": [
+    7101016
+  ],
+  "title": [
+    "[Academy, Topiary Entrance]"
+  ],
+  "description": [
+    "Overgrown and wild, the hedges that rise out of the ground to create an imposing wall seem oddly out of place in the middle of the plains.  Scraggly tendrils reach outward like the spectral hands of some long forgotten ancestor, while a wild profusion of green, orange, and yellow leaves dimples the expanse.  Nearly choked by the untamed mass of vegetation is a small iron gate, which provides entry to the grounds."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Vornavis",
+  "terrain": "grassland",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      502,
+      27,
+      548,
+      73
+    ]
+  },
+  "exits": [
+    {
+      "to": 33597,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33628,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

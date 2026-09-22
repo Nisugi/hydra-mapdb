@@ -1,0 +1,56 @@
+{
+  "id": 28692,
+  "uid": [
+    107113
+  ],
+  "title": [
+    "[House Brigatta, Upper Hallway]"
+  ],
+  "description": [
+    "Dark oak railings climb to and from the two-story stairway, leading to this long hallway carpeted with a cerulean blue runner.  Pale walls and a series of skylights keep the upper part of the house brightly illuminated with sunlight.  An illustrative copper panel bears stylized images of constellations mixed with magical sigils and leads out to an observatory perched on the roof, and a little further along, a pale haon door heralds the library.  At the far end is a dark mistwood door braced with hammered black iron fittings.",
+    "Dark oak railings climb the two-story stairway, leading to a long hallway carpeted with a cerulean blue runner.  Flickering oil-filled sconces mounted on the walls add a warmth of soft light to the upper part of the house.  An illustrative copper panel bears stylized images of constellations mixed with magical sigils and leads out to an observatory dome perched on the roof, and a little further along, a pale haon door heralds the library.  At the far end is a dark mistwood door braced with hammered black iron fittings."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Brigatta"
+  ],
+  "image": {
+    "file": "wl-Brigatta-1646274146.png",
+    "rect": [
+      48,
+      841,
+      72,
+      915
+    ]
+  },
+  "exits": [
+    {
+      "to": 21304,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 21322,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 28693,
+      "kind": "go",
+      "cmd": "go mistwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 28695,
+      "kind": "go",
+      "cmd": "go haon door",
+      "cost": 0.2
+    }
+  ]
+}

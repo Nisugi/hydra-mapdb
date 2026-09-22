@@ -1,0 +1,45 @@
+{
+  "id": 17819,
+  "uid": [
+    267122
+  ],
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "Doors have been removed from the smaller rooms surrounding the perimeter of this floor.  Training dummies peer out from several of the rooms, odd expressions painted upon their faces."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt",
+    "rogue guild dummies"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      179,
+      739,
+      216,
+      779
+    ]
+  },
+  "exits": [
+    {
+      "to": 17818,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17822,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

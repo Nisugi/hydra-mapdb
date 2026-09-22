@@ -1,0 +1,47 @@
+{
+  "id": 21445,
+  "title": [
+    "[On the Lighter Side]"
+  ],
+  "description": [
+    "Lengths of velvet hanging from the support beams above separate the large pavilion into several sections.  A make-shift floor of modwir tiles covers the ground creating an elegant patterned floor.  Large window openings in the walls allow sunlight in to brighten the area.  Draped in ivory silk, a large archway is flanked by a pair of tables.",
+    "Lengths of velvet hanging from the support beams above separate the large pavilion into several sections.  A make-shift floor of modwir tiles covers the ground, creating an elegant patterned floor.  Large window openings in the walls allow moonlight in to brighten the area.  Draped in ivory silk, a large archway is flanked by a pair of tables."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest, out"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20269,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21447,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21540,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21541,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22478,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

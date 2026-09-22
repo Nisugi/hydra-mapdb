@@ -1,0 +1,63 @@
+{
+  "id": 35400,
+  "uid": [
+    7142518
+  ],
+  "title": [
+    "[Bericsaba Market, Colonnade]"
+  ],
+  "description": [
+    "Lanternlight spills across the corridor, flickering as the wind stirs ribbons wrapped around nearby pillars.  To the west, a dirt clearing meets the road beyond, where the last travelers pass in quiet footsteps.  A vendor tends to a wooden stall stacked with bundles of dried herbs, their faint fragrance rising in the night air.  Eastward, marble and ceramic tiles meet in an open-air courtyard, where the steady trickle of water echoes softly, its rippling surface reflecting the glow of scattered firelight."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Isle of Ornath",
+  "image": {
+    "file": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
+    "rect": [
+      112,
+      637,
+      138,
+      662
+    ]
+  },
+  "exits": [
+    {
+      "to": 35395,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35397,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35399,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35402,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35412,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 35413,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    }
+  ]
+}

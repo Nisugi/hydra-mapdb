@@ -1,0 +1,42 @@
+{
+  "id": 21870,
+  "title": [
+    "[Talador, Silver Lane]"
+  ],
+  "description": [
+    "Local merchants have set up a number of carts along both sides of the road, shouting to citizens and tourists alike, trying to peddle their wares.  Townspeople move through the streets, talking amongst themselves."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      253,
+      270,
+      280,
+      297
+    ]
+  },
+  "exits": [
+    {
+      "to": 21858,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21871,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 21872,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 25694,
+  "uid": [
+    3223813
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Small, white-capped waves glide through the waterway as they seek the distant beaches of the harbor.  Floating up and down on their wake, a series of blown glass globes creates a barrier that prevents boats from invading the swimming area and subsequently the distant beach.  High above, thin clouds are bathed in silvery moonlight, which trickles down to decorate the waters in glistening shadows."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1121,
+      959,
+      1141,
+      979
+    ]
+  },
+  "exits": [
+    {
+      "to": 25693,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

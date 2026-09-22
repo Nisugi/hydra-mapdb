@@ -1,0 +1,34 @@
+{
+  "id": 24149,
+  "title": [
+    "[Necropolis, Underground Lake]"
+  ],
+  "description": [
+    "A graveyard of modwir gondolas has washed up on the shore of the underground lake.  The poor lighting offers no hint at how expansive the body of water could be, and the depth becomes too much to continue to wade through."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24148,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24151,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go gondolas"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

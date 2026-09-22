@@ -1,0 +1,82 @@
+{
+  "id": 1264,
+  "uid": [
+    5050
+  ],
+  "title": [
+    "[Frith's Inn, Front Desk]"
+  ],
+  "description": [
+    "The front room of this unassuming inn imparts a sense of warmth and comfort.  Serving wenches carrying trays of food and drink to rooms throughout the hostelry cast a welcoming glance at you as they pass.  Laughter and the sound of good fellowship reach your ears from the direction of some swinging doors.  At the mahogany front desk, the friendly proprietor stands ready to attend to your needs."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "friths",
+    "inn",
+    "node",
+    "urchin guide friths",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 242,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1263,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8812,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

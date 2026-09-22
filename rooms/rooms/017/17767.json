@@ -1,0 +1,50 @@
+{
+  "id": 17767,
+  "uid": [
+    250021
+  ],
+  "title": [
+    "[Guild Hall, Cavern Passageway]"
+  ],
+  "description": [
+    "A smooth stone along one wall forms a lip over a yawning hole crowned by a small carved arch.  To either side of the hole are two suits of armor, one crafted of steel, the other of brass."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild armor",
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      657,
+      267,
+      676,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 17760,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17768,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17785,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

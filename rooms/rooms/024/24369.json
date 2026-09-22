@@ -1,0 +1,52 @@
+{
+  "id": 24369,
+  "uid": [
+    278003
+  ],
+  "title": [
+    "[Ranger Guild, Reflecting Pool]"
+  ],
+  "description": [
+    "Multicolored flecks of sphene have been inlaid at the bottom of a circular reflecting pool.  Several animal companions lounge along the pool's low stone edge, and occasionally, one takes a refreshing drink of water."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southeast"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-rangerguild-v2.png",
+    "rect": [
+      69,
+      201,
+      86,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 24368,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24370,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 24371,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24373,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

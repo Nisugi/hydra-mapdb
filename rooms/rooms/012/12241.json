@@ -1,0 +1,49 @@
+{
+  "id": 12241,
+  "uid": [
+    4571017
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "A giant pair of stone hands clasped together forms the immense platform underfoot.  In the distance, a small white sun illuminates the rocky landscape, glistening off the silvery water of a magnificent cascade from a cliff to the east.  Cold vapor drifts from the base of the waterfall towards the hands, coating everything in a thin layer of ice as it settles.",
+    "A giant pair of stone hands clasped together forms the immense platform underfoot.  In the distance, a blazing red sun illuminates the rocky landscape, glistening off the crimson water of a magnificent cascade from a cliff to the east.  Hot steam drifts from the base of the waterfall towards the hands, coating everything in a thin layer of sweat-like mist."
+  ],
+  "paths": [
+    "Obvious exits: south, down",
+    "Obvious paths: south, down"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      571,
+      376,
+      597,
+      402
+    ]
+  },
+  "exits": [
+    {
+      "to": 12239,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    },
+    {
+      "to": 12242,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 12243,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

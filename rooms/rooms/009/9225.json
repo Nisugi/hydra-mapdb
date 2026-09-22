@@ -1,0 +1,50 @@
+{
+  "id": 9225,
+  "uid": [
+    7532019
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "The stone walkway comes to an abrupt end, swallowed by the sizeable black void in the northern wall.  A few low growls echo out from within the darkness, revealing that it may not be completely empty."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1252,
+      925,
+      1262,
+      935
+    ]
+  },
+  "exits": [
+    {
+      "to": 9217,
+      "kind": "go",
+      "cmd": "go void",
+      "cost": 0.2
+    },
+    {
+      "to": 9224,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9226,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

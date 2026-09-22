@@ -1,0 +1,52 @@
+{
+  "id": 20111,
+  "title": [
+    "[Feywrot Mire, Black Waters]"
+  ],
+  "description": [
+    "Although an attempt at creating a solid walkway across the shore is apparent in the wooden slats haphazardly arranged in one of the muddier areas, the project was obviously abandoned where the limestone base appears to take over the sludge.  Devoid of a front wall and door, a small shack appears ready to fall at any moment, saved only by the massive bald cypress that the rear wall leans against."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      224,
+      622,
+      238,
+      636
+    ]
+  },
+  "exits": [
+    {
+      "to": 20108,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20112,
+      "kind": "go",
+      "cmd": "go small shack",
+      "cost": 0.2
+    },
+    {
+      "to": 20117,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22573,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go shed"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

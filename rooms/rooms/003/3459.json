@@ -1,0 +1,44 @@
+{
+  "id": 3459,
+  "uid": [
+    4045200
+  ],
+  "title": [
+    "[Icemule Trace, Well]"
+  ],
+  "description": [
+    "A precarious ledge juts out from the wall and a few broken stones of the well shaft's lining, icy to the touch, serve as a handhold.  The pale circle of the well's mouth above outlines a rusted winch.  A fraying rope dangles past you into the shadows below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      202,
+      178,
+      212,
+      188
+    ]
+  },
+  "exits": [
+    {
+      "to": 3458,
+      "kind": "climb",
+      "cmd": "climb lip",
+      "cost": 0.2
+    },
+    {
+      "to": 3460,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

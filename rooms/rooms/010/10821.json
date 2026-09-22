@@ -1,0 +1,89 @@
+{
+  "id": 10821,
+  "uid": [
+    13032042
+  ],
+  "title": [
+    "[Under The Black Water]"
+  ],
+  "description": [
+    "Wet blackness envelops everything, and the mud grasps powerfully at feet and legs.  The lack of vision and the unsure footing in the muck below combine to confuse the senses, making direction a meaningless idea.  Even \"up\" is in question at times.  One can only swim and hope."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Gyldemar Road",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "en-gyldemar-1264234799.png",
+    "rect": [
+      782,
+      660,
+      790,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 10815,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_while": [
+            "swim",
+            {
+              "not": {
+                "any": [
+                  {
+                    "exit": "w"
+                  },
+                  {
+                    "exit": "e"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 10817,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_while": [
+            "swim",
+            {
+              "not": {
+                "any": [
+                  {
+                    "exit": "w"
+                  },
+                  {
+                    "exit": "e"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

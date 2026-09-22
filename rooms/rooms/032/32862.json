@@ -1,0 +1,35 @@
+{
+  "id": 32862,
+  "uid": [
+    14109106
+  ],
+  "title": [
+    "[Mana Sword Dahcre Chamber]"
+  ],
+  "description": [
+    "Framed by walls of polished basalt, this room's cool elegance is softened by silvery wool carpets woven with a deep blue geometric design.  Comfortable wing chairs upholstered with deep blue leather are drawn up around a silver-veined marble hearth, above which is set a silver-framed beveled glaes mirror.  Flanked by twin green banners, a silver-veined marble bar fills one corner.  Above the silver arch leading into this lounge, a blue quartz medallion gleams softly in the light."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 10413,
+      "kind": "go",
+      "cmd": "go silver arch",
+      "cost": 0.2
+    },
+    {
+      "to": 32863,
+      "kind": "other",
+      "cmd": "pull statue",
+      "cost": 0.2
+    }
+  ]
+}

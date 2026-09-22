@@ -1,0 +1,41 @@
+{
+  "id": 30634,
+  "uid": [
+    853009
+  ],
+  "title": [
+    "[Landing Hall, Second Floor]"
+  ],
+  "description": [
+    "This landing offers a bird's-eye view of the main lobby, a polished gold railing keeping the unwary spectator from plummeting down.  Soft music can be heard from some fancifully-carved grand oak double doors, mixing with the echoes that float up from the lobby.  The walls and floors are bathed in multicolored light, the effects of the stained glass in the dome much more apparent from this vantage."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 30633,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30635,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30642,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

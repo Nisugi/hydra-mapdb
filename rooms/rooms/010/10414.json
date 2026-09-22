@@ -1,0 +1,50 @@
+{
+  "id": 10414,
+  "uid": [
+    14109011
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "Pale, nearly colorless walls and floors serve to make a brilliantly colored tapestry the focal point of this section of corridor.  Hanging from a white oak rod finished with elaborately carved finials, the tapestry depicts a wyvern, its tail curling and re-curling around itself."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      1222,
+      773,
+      1363,
+      834
+    ]
+  },
+  "exits": [
+    {
+      "to": 10413,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10415,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24042,
+      "kind": "go",
+      "cmd": "go lysierian arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 31567,
+  "uid": [
+    8083006
+  ],
+  "title": [
+    "[Evermore Hollow, Jester's Court]"
+  ],
+  "description": [
+    "Crescent-shaped cobblestone pavers form concentric bands around a cracked fountain, the contents of which spill across the ground, creating tiny rivulets that cascade down declining stone steps to the north.  Rising out of the broken fountain bowl is a verdigris copper jester statue that pirouettes within vaalin ribbons, the matching sculpted design echoed by those that wrap around the nearby stained glass gate.  Verdant rose vines create shadows upon a twining pathway at one corner of the courtyard, while a dull green moss-covered stone arch slips southeast into darkness."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "node"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      451,
+      285,
+      473,
+      305
+    ]
+  },
+  "exits": [
+    {
+      "to": 31558,
+      "kind": "go",
+      "cmd": "go twining pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31560,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31568,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31582,
+      "kind": "go",
+      "cmd": "go stained gate",
+      "cost": 0.2
+    },
+    {
+      "to": 31583,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

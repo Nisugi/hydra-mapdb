@@ -1,0 +1,50 @@
+{
+  "id": 29903,
+  "uid": [
+    7503308
+  ],
+  "title": [
+    "[Ojandhaart, Smithy]"
+  ],
+  "description": [
+    "Smoke belches from the rounded chimney of a nearby smithy.  The stones comprising it are huge blackened blocks of ponderous weight.  Crossed axes and a round, notched shield hang over the high open doorway.  The quality of the work is exceptional, but the weapons and targe are too large to be wielded."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      1181,
+      1145,
+      1195,
+      1161
+    ]
+  },
+  "exits": [
+    {
+      "to": 29902,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29904,
+      "kind": "go",
+      "cmd": "go smithy",
+      "cost": 0.2
+    },
+    {
+      "to": 29906,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 18863,
+  "uid": [
+    108406
+  ],
+  "title": [
+    "[Twilight Hall, Rose Garden]"
+  ],
+  "description": [
+    "Roses in full-bloom entwine themselves around ornate trellises, their petals shifting softly in the whispering breeze.  The pathway spirals inward, its edges lined with countless bushes, each offering up a unique flower unlike any other in the garden.  Lilies, tulips, roses and daisies all combine to offer up a heady aroma that soothes the soul.  In the center of the garden stands a large gazebo, inviting you to stay a while."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "cultivated",
+  "tags": [
+    "small rose"
+  ],
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      586,
+      356,
+      670,
+      408
+    ]
+  },
+  "exits": [
+    {
+      "to": 18859,
+      "kind": "go",
+      "cmd": "go rose-covered trellis",
+      "cost": 0.2
+    },
+    {
+      "to": 18864,
+      "kind": "go",
+      "cmd": "go gazebo",
+      "cost": 0.2
+    }
+  ]
+}

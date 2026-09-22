@@ -1,0 +1,44 @@
+{
+  "id": 3307,
+  "uid": [
+    4130024
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "Several armed guards stand outside a hole in the wall, watching all who enter and exit Icemule Trace.  Halflings bundled against the cold wander in and out of the gate, some leading pack animals while others carry large packs on their back.  A trail leads off to the northeast, and although it's slick and icy, the halflings seem to pay no notice to the dangers."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Glacier",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1074,
+      983,
+      1084,
+      993
+    ]
+  },
+  "exits": [
+    {
+      "to": 2359,
+      "kind": "go",
+      "cmd": "go ice-encrusted gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3308,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

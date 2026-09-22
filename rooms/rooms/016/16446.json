@@ -1,0 +1,53 @@
+{
+  "id": 16446,
+  "uid": [
+    3209324
+  ],
+  "title": [
+    "[Firefly Villa, Corridor]"
+  ],
+  "description": [
+    "Copper lanterns hooded with wide bowl-shaped lids traverse the length of the hall.  The shadows of catfish, sunfish, and eels swim across the ceiling, their images created by the decorative cuts in the bodies of the lanterns that are strung in a straight line down the hall.  Porcelain vases housing exotic flowers stand upon either sides of a sturdy ebonwood door and an etched cherrywood door."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      720,
+      2160,
+      740,
+      2180
+    ]
+  },
+  "exits": [
+    {
+      "to": 12320,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12324,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 16426,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28597,
+      "kind": "go",
+      "cmd": "go cherrywood door",
+      "cost": 0.2
+    }
+  ]
+}

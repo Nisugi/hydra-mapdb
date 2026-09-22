@@ -1,0 +1,52 @@
+{
+  "id": 36096,
+  "uid": [
+    105003
+  ],
+  "title": [
+    "[House Arcane, Bar]"
+  ],
+  "description": [
+    "The house taproom is finished to rustic perfection with cherrywood-panelled walls, a stone floor covered by a huge bearskin rug, and a cherrywood bar fronted by a round table and several chairs.  The flickering light of hand-crafted oil lamps glints off the bottles, prompting an undeniably parched and thirsty feeling in your throat.  In the far corner, a set of steep stairs leads down to the basement."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      562,
+      983,
+      641,
+      1060
+    ]
+  },
+  "exits": [
+    {
+      "to": 36094,
+      "kind": "go",
+      "cmd": "go stone archway",
+      "cost": 0.2
+    },
+    {
+      "to": 36112,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36113,
+      "kind": "go",
+      "cmd": "go glass door",
+      "cost": 0.2
+    },
+    {
+      "to": 36122,
+      "kind": "go",
+      "cmd": "go steep stairs",
+      "cost": 0.2
+    }
+  ]
+}

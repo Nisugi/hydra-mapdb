@@ -1,0 +1,69 @@
+{
+  "id": 28972,
+  "uid": [
+    7121010
+  ],
+  "title": [
+    "[Office of Employment]"
+  ],
+  "description": [
+    "Bisecting the small office, a long oak counter with a swinging half-door in it keeps the business end of the office separated from the public end.  A bulletin board with job postings tacked all over it hangs to the right of the entry, while four large wrought iron lanterns dangle from rings affixed to the ceiling to provide light throughout the space.  Covered with flagons, inkwells, quills, and loose pages, a disorderly desk surrounded by chairs sits on the opposite side of the counter."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "osaguild",
+    "roles",
+    "urchin guide osaguild",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28958,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

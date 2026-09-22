@@ -1,0 +1,51 @@
+{
+  "id": 22349,
+  "uid": [
+    7357
+  ],
+  "title": [
+    "[Wehnimer's, A Very Dark Alley]"
+  ],
+  "description": [
+    "Cloaked in pervasive shades of black and grey, nebulous shadows conceal the features of this covert back street.  Any hint of sunlight is mercilessly smothered by the close-set buildings to either side.  Underfoot, the worn cobblestones remain perpetually slick as moisture seeps from the walls, coalescing into thin rivulets of slimy water that feed both moss and algae.  A single sputtering torch looks oddly out of place where its wan illumination dances on the stark brickwork at the alley's dead end."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 297,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 22444,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "brick-covered trapdoor!"
+            ]
+          }
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 20003,
+  "uid": [
+    11206
+  ],
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "The passage is fairly wide here, and a chilly draft seems to be coming from the south, carrying a faintly acrid odor.  Further to the north, the roof of the passage is low enough to cause even the shorter races of Elanthia to stoop while travelling this route."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1076,
+      821,
+      1087,
+      832
+    ]
+  },
+  "exits": [
+    {
+      "to": 20000,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20004,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

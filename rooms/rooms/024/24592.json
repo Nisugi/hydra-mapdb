@@ -1,0 +1,41 @@
+{
+  "id": 24592,
+  "title": [
+    "[A Winding Path]"
+  ],
+  "description": [
+    "Thick haon bushes, the silvery blue bark glowing in the summer sunlight, flank a pair of wrought iron gates.  Several nosegays of white flowers are tied to the ironwork with multicolored ribbons.  A wooden sign, painted gray and edged in deep blue, is affixed to one gate.",
+    "Thick haon bushes, the silvery blue bark barely visible in the light spilling from several nearby glaesine lanterns, flank a pair of wrought iron gates.  Several nosegays of white flowers are tied to the ironwork with multicolored ribbons.  A wooden sign, painted gray and edged in deep blue, is affixed to one gate."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Lumnea Meadow",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:fest-lumnea"
+  ],
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      180,
+      440,
+      200,
+      461
+    ]
+  },
+  "exits": [
+    {
+      "to": 645,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 24593,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    }
+  ]
+}

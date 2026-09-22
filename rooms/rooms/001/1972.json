@@ -1,0 +1,57 @@
+{
+  "id": 1972,
+  "uid": [
+    682005
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Collections of candles set in wrought iron sconces cast a warm amber glow across the towering bookshelves and impart an inviting atmosphere despite the absence of windows.  Wizards quietly study and confer around large, polished ash wood tables cluttered with all manner of books and scrolls.  The everpresent tang of brimstone seems fainter here, or perhaps it's simply less noticeable amidst the smells of aged parchment and mead."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      800,
+      534,
+      866,
+      598
+    ]
+  },
+  "exits": [
+    {
+      "to": 1971,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18083,
+      "kind": "go",
+      "cmd": "go bookcase",
+      "cost": 0.2
+    },
+    {
+      "to": 18085,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30549,
+      "kind": "other",
+      "cmd": "ask gaderok about train potions",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 19947,
+  "uid": [
+    28119
+  ],
+  "title": [
+    "[Museum, Hall of Technology]"
+  ],
+  "description": [
+    "Smooth white marble flooring stretches across this room, uninterrupted save for a large, gear-shaped silver inlay in the center of the room.  Matching gears in silver, gold, bronze, and steel adorn the walls, each one polished to a mirrored sheen.   A black sign in the corner, directly between the adjacent hallways, bears an explanation of the room.  Framed portraits hang between the varying gears, while a gold marble arch leads out."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      899,
+      1307,
+      1041,
+      1369
+    ]
+  },
+  "exits": [
+    {
+      "to": 14448,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19985,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19986,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 9163,
+  "uid": [
+    7531001
+  ],
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "As eclectic and bizarre as this keep might look, it still bears all of the standard protection that any fortress might provide its owner.  Passage to or from the outside of the structure is guarded by a sturdy glaes portcullis that has been colored in the wildest pink imaginable.  Numerous strands of colorful seashells that have been suspended from the ceiling are all that bar the path into the keep itself."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      767,
+      1021,
+      777,
+      1031
+    ]
+  },
+  "exits": [
+    {
+      "to": 9143,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 9164,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9173,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9174,
+      "kind": "go",
+      "cmd": "go seashells",
+      "cost": 0.2
+    }
+  ]
+}

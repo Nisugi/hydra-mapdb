@@ -1,0 +1,41 @@
+{
+  "id": 5602,
+  "uid": [
+    2120206
+  ],
+  "title": [
+    "[Storage Warehouse, Hallway]"
+  ],
+  "description": [
+    "To the north the hallway joins the warehouse's central chamber, and beyond a curtained opening in the east wall the hallway turns east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 5599,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5604,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35240,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

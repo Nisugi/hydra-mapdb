@@ -1,0 +1,179 @@
+{
+  "id": 284,
+  "uid": [
+    7046
+  ],
+  "title": [
+    "[Town Square, Southwest]"
+  ],
+  "description": [
+    "This corner of the square seems somewhat subdued.  Townsfolk pass through on their way to the shops, the bazaar, or the main well at the center of the square.  Others hurry past, anxious to get home or go on about their business."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport",
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      198,
+      877,
+      234,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 228,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 1.0
+    },
+    {
+      "to": 282,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 285,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 288,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 289,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 7983,
+      "kind": "go",
+      "cmd": "go cobblestone walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 8632,
+      "kind": "go",
+      "cmd": "go wood-sided shop",
+      "cost": 0.2
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "284"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "284"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 210,
+  "uid": [
+    13100097
+  ],
+  "title": [
+    "[Ta'Illistim, Glimaer Wey]"
+  ],
+  "description": [
+    "The facade of the Sylvarrglin Moving Company stands beside the cobbled wey, its grey-blue stone exterior worn smooth by the elements.  A city guardsman, ever watchful for signs of trouble, stands at attention on either side of the door.",
+    "The facade of the Sylvarrglin Moving Company stands beside the cobbled wey, its grey-blue stone exterior worn smooth by the elements.  Twin torches burn brightly at either side of the structure, casting dim circles of light on the wey.  A city guardsman, ever watchful for signs of trouble, stand at attention on either side of the door."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      552,
+      712,
+      574,
+      732
+    ]
+  },
+  "exits": [
+    {
+      "to": 209,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 211,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13250,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

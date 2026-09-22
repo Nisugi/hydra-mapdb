@@ -1,0 +1,34 @@
+{
+  "id": 33186,
+  "uid": [
+    2174065
+  ],
+  "title": [
+    "[Obsidian Tower Annex]"
+  ],
+  "description": [
+    "Polished panels of mottled dark grey marble have been set along the walls, the variegated colors illumined by the light and subsequent shadow coming from an ornate glaes brazier standing in one corner.  The wall to the left of the entry curtain is covered by an elaborate mural and a heavy slate blackboard, and against the wall opposite the mural sits a long-backed ironwood bench.  At one end of the bench sits a stylized red glaes urn.  The center of the room is occupied by a rough-hewn obsidian slab in a shallow pit of ash.  On the wall opposite the entry hangs a weathered bone tablet."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker annex:Obsidian Tower"
+  ],
+  "exits": [
+    {
+      "to": 32846,
+      "kind": "go",
+      "cmd": "go ash curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 33187,
+      "kind": "other",
+      "cmd": "pull bone tablet",
+      "cost": 0.2
+    }
+  ]
+}

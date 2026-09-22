@@ -1,0 +1,253 @@
+{
+  "id": 28904,
+  "uid": [
+    7118225
+  ],
+  "title": [
+    "[Kraken's Fall, South Arm Road]"
+  ],
+  "description": [
+    "Arranged in tidy rows, vegetable gardens housed in sunken planter boxes dominate the southern slope as it gradually dips to the rocky shoal below.  A narrow winding trail follows along a cultivated path that leads to a small fishing pier and shack, while across the cobblestone road a wide-windowed coral-hued villa is surrounded by wandering chickens and geese.  The distant sound of bleating and mooing can be heard from beyond the structure, though the actual source is obscured from sight."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "areca frond",
+    "bay leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "blue mermaid rose",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright pink protea",
+    "bright red beet",
+    "brown potato",
+    "brown-skinned kiwi",
+    "butterfly pea flower",
+    "cactacae spine",
+    "calamia fruit",
+    "canary yellow hibiscus",
+    "cantaloupe",
+    "cardamom",
+    "cerise queen protea",
+    "cherry peppers",
+    "coffee cherries",
+    "coral hibiscus",
+    "coral plumeria",
+    "cordyline leaf",
+    "crimson crane flower",
+    "crimson heliconia",
+    "crimson hibiscus",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark purple date",
+    "dill",
+    "ear of corn",
+    "ebon hibiscus",
+    "fire lily",
+    "flared king protea",
+    "flathead mushroom",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh cilantro",
+    "fresh oregano",
+    "garlic",
+    "ghost pepper",
+    "golden buttercup",
+    "golden heliconia",
+    "grapefruit",
+    "green beans",
+    "green cabbage",
+    "green garden cucumber",
+    "green olive",
+    "green pepper",
+    "green tea leaves",
+    "haphip root",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "horseradish root",
+    "hot pepper",
+    "Imaera's Lace",
+    "juicy plum",
+    "karuka nuts",
+    "large white gardenia",
+    "lavender heliconia",
+    "leopard-spotted heliconia",
+    "light blue hydrangea",
+    "lobster-claw heliconia",
+    "luckbloom blossom",
+    "mate leaves",
+    "mermaid's-scale rose",
+    "mezereon bark",
+    "monstera frond",
+    "motherwort",
+    "nutmeg",
+    "off-white protea",
+    "onion skin",
+    "orange crane flower",
+    "orange pepper",
+    "orris root",
+    "pale blue hibiscus",
+    "pale green honeydew",
+    "pandanus twig",
+    "pea pods",
+    "pearl onions",
+    "peppermint leaves",
+    "periwinkle blue hibiscus",
+    "pin cushion protea",
+    "pink hydrangea",
+    "pink ostrich plume",
+    "pink peppercorn",
+    "pink protea",
+    "plump black mulberries",
+    "purple cabbage",
+    "purple crocus",
+    "purple hydrangea",
+    "purple potato",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "raspberries",
+    "red cherries",
+    "red onion",
+    "red ostrich plume",
+    "red pepper",
+    "rose-marrow root",
+    "round yuzu",
+    "scarlet heliconia",
+    "small apple",
+    "small banana",
+    "small daisy",
+    "small flower",
+    "small peapod",
+    "small pumpkin",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "soft mushroom",
+    "sovyn clove",
+    "spear-headed heliconia",
+    "sprig of hellebore",
+    "sprig of lavender",
+    "sprig of rosemary",
+    "sprig of wild phlox",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "star anise",
+    "stem of freesia flowers",
+    "sun-wilted tea leaves",
+    "sunflower seeds",
+    "sweet onion",
+    "sweet potato",
+    "tangerine hibiscus",
+    "tea leaves",
+    "tendril of vinca",
+    "thyme",
+    "tobacco leaves",
+    "trumpet vine tendril",
+    "urchin-access",
+    "vanilla bean",
+    "vert globe artichoke",
+    "viburnum twig",
+    "violet hibiscus",
+    "wavepetal blossom",
+    "white hydrangea",
+    "white lily",
+    "white tea leaves",
+    "wide pandanus fronds",
+    "wild pansy blossom",
+    "wild rice",
+    "withered mushroom",
+    "yellow lemon",
+    "yellow ostrich plume",
+    "yellow pepper",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      669,
+      373,
+      684,
+      386
+    ]
+  },
+  "exits": [
+    {
+      "to": 28903,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28905,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28991,
+      "kind": "go",
+      "cmd": "go villa",
+      "cost": 0.2
+    },
+    {
+      "to": 29135,
+      "kind": "go",
+      "cmd": "go winding trail",
+      "cost": 0.2
+    },
+    {
+      "to": 29554,
+      "kind": "go",
+      "cmd": "go cultivated path",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

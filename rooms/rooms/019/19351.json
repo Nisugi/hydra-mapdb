@@ -1,0 +1,57 @@
+{
+  "id": 19351,
+  "uid": [
+    3223021
+  ],
+  "title": [
+    "[Eastern Harbor, Alley]"
+  ],
+  "description": [
+    "Dark despite the time of day, the alley is crowded with boxes, barrels, and rope-tied cloth bags.  Doors line the brick walls of the buildings that rise on either side of the cobblestoned path, their faces unmarked and plain.  A lone lantern stands next to a small black entryway, its flickering flame casting long shadows in the confined space.",
+    "Dark despite the faint glow of moonlight, the alley is crowded with boxes, barrels, and rope-tied cloth bags.  Doors line the brick walls of the buildings that rise on either side of the cobblestoned path, their faces unmarked and plain.  A lone lantern stands next to a small black entryway, its flickering flame casting long shadows in the confined space."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      4032,
+      1605,
+      4064,
+      1629
+    ]
+  },
+  "exits": [
+    {
+      "to": 19350,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19352,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21135,
+      "kind": "go",
+      "cmd": "go entryway",
+      "cost": 0.2
+    },
+    {
+      "to": 22071,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

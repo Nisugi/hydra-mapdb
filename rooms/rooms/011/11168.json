@@ -1,0 +1,50 @@
+{
+  "id": 11168,
+  "uid": [
+    2100002
+  ],
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "A large, rusting chunk of the portcullis, broken away by some great force, lies on the ground.  Scrapes and gouges mar the walls and floors, accompanied by splotches and dark stains."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      598,
+      497,
+      608,
+      507
+    ]
+  },
+  "exits": [
+    {
+      "to": 11167,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 11169,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11170,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

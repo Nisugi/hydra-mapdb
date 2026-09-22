@@ -1,0 +1,61 @@
+{
+  "id": 16188,
+  "uid": [
+    216020
+  ],
+  "title": [
+    "[Beacon Hall, Mentoring Room]"
+  ],
+  "description": [
+    "Latticed windows open out over the bay, providing an inspiring view.  A small table and a few comfortable chairs offer a quiet and intimate setting for personal instruction.  A shelf along one wall contains a variety of bound guides and treatises, and a large slate hangs on the wall opposite."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      908,
+      465,
+      954,
+      510
+    ]
+  },
+  "exits": [
+    {
+      "to": 16184,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16190,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22224,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

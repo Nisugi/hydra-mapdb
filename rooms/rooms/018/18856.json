@@ -1,0 +1,55 @@
+{
+  "id": 18856,
+  "uid": [
+    108007
+  ],
+  "title": [
+    "[Twilight Hall, Founder's Hall]"
+  ],
+  "description": [
+    "The hallway is panelled in a rich, dark wood and illuminated at one end, drawing your eyes to an exquisite painting.  A spiral staircase leads both upstairs and downstairs."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      153,
+      253,
+      239,
+      303
+    ]
+  },
+  "exits": [
+    {
+      "to": 18850,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18857,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 18858,
+      "kind": "go",
+      "cmd": "go rune-marked door",
+      "cost": 0.2
+    },
+    {
+      "to": 18875,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

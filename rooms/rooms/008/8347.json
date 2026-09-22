@@ -1,0 +1,44 @@
+{
+  "id": 8347,
+  "uid": [
+    13018
+  ],
+  "title": [
+    "[Spider Temple, Leg of Acolytes]"
+  ],
+  "description": [
+    "You are at the end of a narrow hallway."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      354,
+      800,
+      364,
+      810
+    ]
+  },
+  "exits": [
+    {
+      "to": 8345,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8348,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

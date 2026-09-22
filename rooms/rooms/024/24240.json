@@ -1,0 +1,33 @@
+{
+  "id": 24240,
+  "title": [
+    "[Feywrot Caverns, Glowing Pool]"
+  ],
+  "description": [
+    "Glowing with a pale, luminescent light, a large pool practically gleams in the dark area.  Rock walls hug the vicinity, the ceiling low and dripping with tiny drops of greenish water.  Streaks of a bronze-colored mineral zigzag from a naturally formed arch to a length of rope hanging from a series of spikes set into the walls.  An oddly twisted door handle is nailed into the floor."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24234,
+      "kind": "other",
+      "cmd": "pull handle",
+      "cost": 0.2
+    },
+    {
+      "to": 24241,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24243,
+      "kind": "go",
+      "cmd": "go sturdy ladder",
+      "cost": 0.2
+    }
+  ]
+}

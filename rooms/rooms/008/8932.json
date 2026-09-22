@@ -1,0 +1,54 @@
+{
+  "id": 8932,
+  "uid": [
+    680011
+  ],
+  "title": [
+    "[Wizard Guild, Stair]"
+  ],
+  "description": [
+    "A warm draft curls up from below as the temperature becomes chilly.  A solid zorchar rod extends from well below the stairway and reaches up into the observatory above.  Viridian and cerulean stained glass windows lining the narrow tower reflect the dim sunlight from outside, making the stairway brighter and casting an amorphous light on the carvings engraved along the polished stone walls.",
+    "A warm draft curls up from below as the temperature becomes chilly.  A solid zorchar rod extends from well below the stairway and reaches up into the observatory above.  Viridian and cerulean stained glass windows lining the narrow tower reflect the light from a few torches hanging from the stairway, casting an amorphous light on the carvings engraved along the polished stone walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, up, down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      3,
+      210,
+      52,
+      257
+    ]
+  },
+  "exits": [
+    {
+      "to": 8922,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 8933,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8939,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8940,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

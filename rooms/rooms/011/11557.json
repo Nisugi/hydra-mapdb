@@ -1,0 +1,61 @@
+{
+  "id": 11557,
+  "uid": [
+    420501
+  ],
+  "title": [
+    "[Krolvin Carrack, Main Deck]"
+  ],
+  "description": [
+    "The deck slants to starboard, making footing awkward.  The mainmast, shattered just above the deckline, angles downward through a splintered bulwark toward the reef below.  Rigging, useless now, lies coiled and scattered around the deck.  The oaken hatchway into the forecastle has been torn partially from its hinges."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      131,
+      932,
+      141,
+      942
+    ]
+  },
+  "exits": [
+    {
+      "to": 11556,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb mainmast"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 11558,
+      "kind": "go",
+      "cmd": "go hatchway",
+      "cost": 0.2
+    },
+    {
+      "to": 11591,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

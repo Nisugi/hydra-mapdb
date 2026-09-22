@@ -1,0 +1,38 @@
+{
+  "id": 36280,
+  "uid": [
+    2008402
+  ],
+  "title": [
+    "[Shadowlight Gallery, Visual Art]"
+  ],
+  "description": [
+    "Polished, blonde bamboo floors stretch across the room connecting the various parts of the building with a unified appearance.  Creating artistic splashes in the slate grey walls, narrow floor-to-ceiling alcoves are fitted with decorative stained glass images, each illuminated by recessed glowing frosted orbs.  Upon the opposite wall, a series of framed artwork pieces are arranged in a variety of shapes and sizes around a keyhole archway fitted with a matching door."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 36279,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36281,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36283,
+      "kind": "go",
+      "cmd": "go key door",
+      "cost": 0.2
+    }
+  ]
+}

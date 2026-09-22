@@ -1,0 +1,55 @@
+{
+  "id": 17995,
+  "uid": [
+    263011
+  ],
+  "title": [
+    "[Rogue Guild, Canteen]"
+  ],
+  "description": [
+    "This small, congenial room has been set aside as a haven for guild members weary from training.  A small bar angles out from the wall.  A soft breeze, redolent with the scent of blackberries, wafts in through the open window.  An angry-looking parrot hops about inside a large bamboo cage hanging from the ceiling.  A simple monir sideboard holds refreshments."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild bar"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      364,
+      150,
+      395,
+      175
+    ]
+  },
+  "exits": [
+    {
+      "to": 17988,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17996,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 17997,
+      "kind": "go",
+      "cmd": "go snuggery",
+      "cost": 0.2
+    },
+    {
+      "to": 17998,
+      "kind": "go",
+      "cmd": "go nook",
+      "cost": 0.2
+    }
+  ]
+}

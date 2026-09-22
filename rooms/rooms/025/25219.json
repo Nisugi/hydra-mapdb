@@ -1,0 +1,53 @@
+{
+  "id": 25219,
+  "uid": [
+    4216110
+  ],
+  "title": [
+    "[Sea of Fire, Lost Outpost]"
+  ],
+  "description": [
+    "A crumbling watchtower breaches up through the red-orange expanse of the desert like a broken finger.  Unremitting onslaughts from the sands and wind have dwindled the stone building down to a grey and pockmarked nub, and transformed its windows to dark and haunted eyes overlooking an insatiable and all-consuming landscape.  A doorway, little more than a gaping chasm, yawns from the base of the ruin."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "cold, dry",
+  "terrain": "sandy",
+  "tags": [
+    "some acantha leaf",
+    "some bur-clover root",
+    "some strigae cactus",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      360,
+      922,
+      385,
+      947
+    ]
+  },
+  "exits": [
+    {
+      "to": 25149,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25220,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25221,
+      "kind": "go",
+      "cmd": "go wide doorway",
+      "cost": 0.2
+    }
+  ]
+}

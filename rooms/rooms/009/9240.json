@@ -1,0 +1,50 @@
+{
+  "id": 9240,
+  "uid": [
+    7532035
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Three huge cages dominate this room, two of which are empty.  The third, made of sturdy iron, imprisons a dangerous looking beast.  A smoke-spewing metal contraption rattles nearby, and although its purpose isn't clear, it's quite obviously doing something."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1087,
+      651,
+      1097,
+      661
+    ]
+  },
+  "exits": [
+    {
+      "to": 3781,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 9237,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9239,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 11109,
+  "uid": [
+    26021
+  ],
+  "title": [
+    "[Krol Ship, Companionway]"
+  ],
+  "description": [
+    "This hallway connects to the Purser's office and the arms locker off to the south.  An elegantly crafted set of double doors is the entrance to the captain's quarters.  Even the area outside the cabin is neat and tidy, with not a splotch of dirt to be seen."
+  ],
+  "paths": [
+    "Obvious exits: south, up, down"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3802,
+      1466,
+      3824,
+      1489
+    ]
+  },
+  "exits": [
+    {
+      "to": 11096,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 11107,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11110,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 11111,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

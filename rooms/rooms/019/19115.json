@@ -1,0 +1,36 @@
+{
+  "id": 19115,
+  "title": [
+    "[Garthlan's Wares, Entry]"
+  ],
+  "description": [
+    "Plain wooden planks form the bulkheads of this room.  Several crates are piled up in the corners with any stray markings scratched or burned off hastily.  Oily smoke from a pair of lanterns provides dim lighting and more than a few shadows.  To the east and west small cramped corridors lined with boxes and bales lead away."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19114,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 19151,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19154,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

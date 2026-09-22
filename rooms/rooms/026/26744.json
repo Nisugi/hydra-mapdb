@@ -1,0 +1,27 @@
+{
+  "id": 26744,
+  "title": [
+    "[Hideaway Cavern, Passage]"
+  ],
+  "description": [
+    "Damp and somewhat humid, with a small vent occasionally spurting out grey mist, the area is narrow.  More like a passageway than a proper room, it stretches a goodly length, with a slope leading steeply downward at the far end.  Black ropes are suspended against both of the longer cavern walls, one hung with varied daggers, the other supporting assorted small sheaths.  Fending off complete darkness, funnel-shaped glass lanterns droop down from above at unevenly spaced intervals."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26743,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26745,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    }
+  ]
+}

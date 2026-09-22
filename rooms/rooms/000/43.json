@@ -1,0 +1,52 @@
+{
+  "id": 43,
+  "uid": [
+    13017095
+  ],
+  "title": [
+    "[Whistler's Pass, Road]"
+  ],
+  "description": [
+    "The walls of the pass open up and fade into the sides of the hills.  The road continues its ascent through the darkness towards what appears to be a large gate.",
+    "The walls of the pass open up and fade into the sides of the hills.  The road continues its ascent towards what appears to be a large gate."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Whistler's Pass",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sapphire-1658723758.png",
+    "rect": [
+      1143,
+      163,
+      1153,
+      173
+    ]
+  },
+  "exits": [
+    {
+      "to": 42,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 44,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13177,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

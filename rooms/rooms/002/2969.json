@@ -1,0 +1,52 @@
+{
+  "id": 2969,
+  "uid": [
+    4132046
+  ],
+  "title": [
+    "[Abbey Chapel, Vaulted Aisle]"
+  ],
+  "description": [
+    "Vaulted aisles extend to the far end of the chapel, lit by sunlight streaming through narrow lancet windows in alternating niches along the walls.  Pews beneath the arcading are well worn, but just as well maintained.  At a break in the seating along the northern wall, a recessed niche features a heavy oaken panel trimmed with painted mournblooms and bleeding heart blossoms.",
+    "The vaulted aisles extend to the far end of the chapel.  Narrow lancet windows alternate with niches along the walls.  Stone benches beneath the arcading provide rest for the weary."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "nedum vereri",
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      941,
+      307,
+      996,
+      362
+    ]
+  },
+  "exits": [
+    {
+      "to": 2967,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2970,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2973,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 21699,
+  "title": [
+    "[Shadowguard, Central Courtyard]"
+  ],
+  "description": [
+    "The imposing facade of a once grand cathedral dominates the northern edge of this courtyard.  Formal gardens languish, overgrown and rotting, in a mockery of their former beauty.  Pebbled paths follow along the building's front, leading east and west."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 21690,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21693,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21695,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21700,
+      "kind": "go",
+      "cmd": "go cathedral",
+      "cost": 0.2
+    }
+  ]
+}

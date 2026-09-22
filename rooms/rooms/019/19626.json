@@ -1,0 +1,48 @@
+{
+  "id": 19626,
+  "title": [
+    "[Albatross, Captain's Taproom]"
+  ],
+  "description": [
+    "Leaded crystal windows line the fore and starboard walls, and a lacquered rosewood bar stands at a diagonal in one corner, its gilted carvings sparkling in the daylight.  A pair of crystal doors leads to a small starboard balcony, and there is an arch in the portside wall.  Darkly hued chestnut marble covers the floor, its alabaster and gold veins forming an albatross at the center."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      366,
+      179,
+      400,
+      213
+    ]
+  },
+  "exits": [
+    {
+      "to": 19619,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19627,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19631,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19632,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

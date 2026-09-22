@@ -1,0 +1,89 @@
+{
+  "id": 11688,
+  "uid": [
+    376012
+  ],
+  "title": [
+    "[Millah's Fen, Cold Stream]"
+  ],
+  "description": [
+    "A ruined cobbled road rises from the waters of the cold stream and ascends a nearby stream bank.  The tall reeds give way to smaller reeds and grasses that overwhelm the stream and prevent any further passage north.  A gnarled sycamore bends over the stream with pale white limbs draped in hanging moss."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "blue water lily",
+    "murdroot",
+    "pink water lily",
+    "stalk of cattail",
+    "strand of seaweed",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "white water lily",
+    "wild gooseberry",
+    "yellow water lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      278,
+      967,
+      288,
+      977
+    ]
+  },
+  "exits": [
+    {
+      "to": 11687,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 11689,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    }
+  ]
+}

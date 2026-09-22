@@ -1,0 +1,36 @@
+{
+  "id": 26251,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "Grisly zombies meander along the road, bits of flesh dangling loose from their pallid skin.  A black crow squawks from the edge of a broken wagon."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      317,
+      265,
+      344,
+      291
+    ]
+  },
+  "exits": [
+    {
+      "to": 26250,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26252,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

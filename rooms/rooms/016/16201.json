@@ -1,0 +1,48 @@
+{
+  "id": 16201,
+  "uid": [
+    216021
+  ],
+  "title": [
+    "[Beacon Hall, Staircase]"
+  ],
+  "description": [
+    "This long, cramped, wooden staircase connects the kitchen with the rooms above.  The servants use it to transport meals, dishes, linens and other assorted odds and ends between the two floors so as not to be seen on the main staircase.  The construction is rather shoddy, and several of the boards creak loudly with the passing of footsteps."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      714,
+      463,
+      765,
+      512
+    ]
+  },
+  "exits": [
+    {
+      "to": 16200,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16203,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

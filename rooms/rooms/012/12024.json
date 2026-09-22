@@ -1,0 +1,56 @@
+{
+  "id": 12024,
+  "uid": [
+    17004049
+  ],
+  "title": [
+    "[Old Ta'Faendryl, Amphitheatre]"
+  ],
+  "description": [
+    "Broken stone slabs sliding down a steep incline is all that remains of the tiered benches that once ran along the eastern side of a wide field.  A narrow platform along the edge of a retaining wall leads to the northwest and south."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      1049,
+      501,
+      1059,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 12021,
+      "kind": "climb",
+      "cmd": "climb slab",
+      "cost": 0.2
+    },
+    {
+      "to": 12023,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12025,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12045,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

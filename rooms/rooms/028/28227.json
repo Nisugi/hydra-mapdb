@@ -1,0 +1,36 @@
+{
+  "id": 28227,
+  "uid": [
+    336212
+  ],
+  "title": [
+    "[Town Barracks, Archery Field]"
+  ],
+  "description": [
+    "At the far end of the courtyard lies the archery range, where dozens of well-worn targets have been set into a section of the stone wall.  Near the practice area are a number of racks containing various bows and crossbows, and a small table holding a plethora of arrows and bolts.  Casting a long shadow across part of the area is a huge stone tower."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 21688,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28228,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

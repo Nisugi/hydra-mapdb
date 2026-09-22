@@ -1,0 +1,43 @@
+{
+  "id": 17357,
+  "uid": [
+    253041
+  ],
+  "title": [
+    "[Warrior Guild, Basement]"
+  ],
+  "description": [
+    "Rows of weapons too damaged for further use await reforging, their edges gleaming dimly in fitful torchlight.  A door set flush with the wall to the north appears to be coated with pitch, and the limestone walls on either side of it sweat beads of moisture."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild cleaning supplies"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      882,
+      823,
+      902,
+      843
+    ]
+  },
+  "exits": [
+    {
+      "to": 17355,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17358,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

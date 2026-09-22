@@ -1,0 +1,58 @@
+{
+  "id": 27711,
+  "uid": [
+    4050105
+  ],
+  "title": [
+    "[South Barbican, West Tower]"
+  ],
+  "description": [
+    "The shallow steps of the winding stairway taper off at a round room marked by a group of narrow slitted windows.  Pale starlight shines through the narrow gaps in the stone, shimmering wanly against the bits of ice formed along their edges.  A steel grommet fixed beneath one of the wider windows holds a long length of rope."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      410,
+      764,
+      442,
+      795
+    ]
+  },
+  "exits": [
+    {
+      "to": 27710,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27712,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

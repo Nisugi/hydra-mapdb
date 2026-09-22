@@ -1,0 +1,50 @@
+{
+  "id": 9170,
+  "uid": [
+    7531005
+  ],
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "Leaning up against one of the walls is a long slender plank.  The wood is cracked from top to bottom and it doesn't look particularly sturdy.  Near this makeshift ladder, one of the roundish stones used in the wall has been scrawled on with some crude graffiti.  It's difficult to make out, but it looks as if it might be a picture or drawing of some sort."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      847,
+      572,
+      857,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 9169,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9171,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9190,
+      "kind": "climb",
+      "cmd": "climb plank",
+      "cost": 0.2
+    }
+  ]
+}

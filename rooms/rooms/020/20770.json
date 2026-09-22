@@ -1,0 +1,87 @@
+{
+  "id": 20770,
+  "uid": [
+    4002305
+  ],
+  "title": [
+    "[Mistral Hall, Lounge]"
+  ],
+  "description": [
+    "Only comprised of half of this upper floor, the space is semi-circular, and a watercolor painting hangs a smidge off-center on the flat wall beside a narrow white archway that leads to the next room.  Curtains of beads flutter in the open windows along the curved wall, their faint clicking mixing with the sounds of the water below in a rhythmic harmony.  Several wicker sofas with plush cushions rest around a sky blue rug in the center of the floor, and a tall white bookshelf displays a few tomes and sea glass knick-knacks.  A set of spiral steps leads down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "premium supernode",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      3968,
+      853,
+      4091,
+      905
+    ]
+  },
+  "exits": [
+    {
+      "to": 20767,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 20771,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

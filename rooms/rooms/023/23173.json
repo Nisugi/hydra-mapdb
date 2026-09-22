@@ -1,0 +1,34 @@
+{
+  "id": 23173,
+  "title": [
+    "[Halfway Midway, Fairway]"
+  ],
+  "description": [
+    "Small boulders mark the pathway that leads into the area, their grey faces lost beneath yellow-tinged moss and the dust of frequent footsteps.  Where the path's end opens into a clearing, a tall wyrmwood tree stretches upward, and within its branches are small, hollow-reed windchimes that add flat, discordent accents to the out of tune melody from the painted wooden carousel nearby.  A creeping mist silvered by ambient light haunts the ground, and its grey fingers reach into the air as it is stirred by churning breezes."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 21413,
+      "kind": "go",
+      "cmd": "go wooden gate",
+      "cost": 0.2
+    },
+    {
+      "to": 23165,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go painted carousel"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 16227,
+  "uid": [
+    854013
+  ],
+  "title": [
+    "[River's Rest Hall, Passageway]"
+  ],
+  "description": [
+    "A long glass display case full of fishing equipment takes up most of one wall.  Artificial bait, hooks, and fishing weights line the shelves and dangle from fishing line creatively draped from hooks within the case."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 15331,
+      "kind": "go",
+      "cmd": "go iron-banded door",
+      "cost": 0.2
+    },
+    {
+      "to": 16020,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16228,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 16230,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

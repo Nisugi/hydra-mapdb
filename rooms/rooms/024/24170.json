@@ -1,0 +1,27 @@
+{
+  "id": 24170,
+  "title": [
+    "[Phantasmal Forest, Castle Gate]"
+  ],
+  "description": [
+    "The forest comes to an end at a massive black ora portcullis.  Fresh blood stains the stone walls of the castle entrance, and skeletal remains line the threshold of the courtyard, and whatever lies within."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24169,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24171,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

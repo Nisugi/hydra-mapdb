@@ -1,0 +1,50 @@
+{
+  "id": 1940,
+  "uid": [
+    3003254
+  ],
+  "title": [
+    "[Adventurers Rest, Long Hall]"
+  ],
+  "description": [
+    "A long, crystalized seam in the wall glints beneath torches set in elaborate, wrought iron sconces."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1485,
+      286,
+      1630,
+      352
+    ]
+  },
+  "exits": [
+    {
+      "to": 1939,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1941,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33213,
+      "kind": "go",
+      "cmd": "go dreamstone arch",
+      "cost": 0.2
+    }
+  ]
+}

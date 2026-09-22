@@ -1,0 +1,56 @@
+{
+  "id": 32446,
+  "uid": [
+    4577119
+  ],
+  "title": [
+    "[Moonsedge Castle, Ward]"
+  ],
+  "description": [
+    "The flagstones split into two distinct paths, one bending north toward the mouth of a small training yard sheltered by the castle walls.  Overgrown with grasses and weeds, the pathway is uncertain.  A clearer trail toward the castle's entrance leads past a dark tower stationed along the curtain wall."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      926,
+      827,
+      947,
+      847
+    ]
+  },
+  "exits": [
+    {
+      "to": 32447,
+      "kind": "go",
+      "cmd": "go dark tower",
+      "cost": 0.2
+    },
+    {
+      "to": 32448,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32453,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32520,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

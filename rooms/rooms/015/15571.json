@@ -1,0 +1,115 @@
+{
+  "id": 15571,
+  "uid": [
+    685008
+  ],
+  "title": [
+    "[Wizard Guild, Nexus of Elements]"
+  ],
+  "description": [
+    "The half-translucent surroundings of crystal are marked with a variety of flowing runes, their wavy forms casting four distinct hues of light across the wide, cavernous surroundings.  A single black tome sits atop a dark onyx podium, its pages rustling ever so slightly with brief drafts of air flowing in from the east.  A small marble staircase leads into the upper sections of the tower, the faint hums of power from above reverberating around the room."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west, down"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      457,
+      186,
+      509,
+      238
+    ]
+  },
+  "exits": [
+    {
+      "to": 15569,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 16962,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16963,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16965,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16968,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17721,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "workshop_pillars"
+      },
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "all": [
+                {
+                  "spell_known": "Hand of Tonis"
+                },
+                {
+                  "spell_known": "Sandstorm"
+                },
+                {
+                  "spell_known": "Call Wind"
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "spell_known": "Major Fire"
+                },
+                {
+                  "spell_known": "Immolation"
+                },
+                {
+                  "spell_known": "Minor Fire"
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "spell_known": "Mage Armor"
+                },
+                {
+                  "spell_known": "Hurl Boulder"
+                },
+                {
+                  "spell_known": "Tremors"
+                }
+              ]
+            }
+          ]
+        },
+        "then": 10.4
+      }
+    }
+  ]
+}

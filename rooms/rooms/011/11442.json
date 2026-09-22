@@ -1,0 +1,133 @@
+{
+  "id": 11442,
+  "uid": [
+    304034
+  ],
+  "title": [
+    "[Maelstrom Bay, Surface]"
+  ],
+  "description": [
+    "The cliffs of the headland curve away to the north.  Powerful currents swirl and spiral crazily, making any movement to the north or west impossible.  A low dip in the headland reveals a tall, pale tower, which has a ghostly gleam in the moonlight.",
+    "The cliffs of the headland curve away to the north.  Powerful currents swirl and spiral crazily, making any movement to the north or west impossible.  A low dip in the headland reveals a tall, pale tower, which gleams whitely in the sunlight."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "restricted:11485:skill:climbing:15"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      675,
+      1153,
+      685,
+      1163
+    ]
+  },
+  "exits": [
+    {
+      "to": 11441,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11443,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11453,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11479,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11485,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb pathway"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "not": {
+            "skill_under": [
+              "climbing",
+              15
+            ]
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

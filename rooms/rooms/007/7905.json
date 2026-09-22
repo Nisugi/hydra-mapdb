@@ -1,0 +1,51 @@
+{
+  "id": 7905,
+  "uid": [
+    35013
+  ],
+  "title": [
+    "[Glatoph, Vent Hole]"
+  ],
+  "description": [
+    "This shallow tunnel stops at a dead end.  If you examine the far wall, you will notice that the tunnel used to go through -- it looks like fresh lava came bubbling up to this point, then hardened.  Towards the ground is a small crack.  You look around, wondering exactly how stable this mountain is."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Glatoph",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      132,
+      357,
+      142,
+      367
+    ]
+  },
+  "exits": [
+    {
+      "to": 4124,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8141,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "crawl crack"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

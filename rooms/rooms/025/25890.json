@@ -1,0 +1,48 @@
+{
+  "id": 25890,
+  "uid": [
+    386073
+  ],
+  "title": [
+    "[Shrine of Leya, Secret Passage]"
+  ],
+  "description": [
+    "Clay and shale walls glisten with a slight, damp trickle from the verdant forest above, sproutings of tangled roots run along the sides like skeletal fingers.  The gently sloping dirt floor leads down a torch-lit passage towards a flickering light glowing brightly at the far end.  Along the east wall, a long tapestry has been draped, illumination showing through where the edges warp and bow out."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the distant forest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8148,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull chain"
+        },
+        {
+          "move": "go staircase"
+        }
+      ],
+      "cost": 0.3
+    },
+    {
+      "to": 25889,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 25891,
+      "kind": "go",
+      "cmd": "go tapestry",
+      "cost": 0.2
+    }
+  ]
+}

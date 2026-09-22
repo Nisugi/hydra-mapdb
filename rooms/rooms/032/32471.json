@@ -1,0 +1,44 @@
+{
+  "id": 32471,
+  "uid": [
+    4577243
+  ],
+  "title": [
+    "[Moonsedge Castle, Upper Hallway]"
+  ],
+  "description": [
+    "Comical grotesques cavort in every other arched nook along the walls, each holding a burning candle aloft.  Combined, the flames lend a honeyed, inconstant glow to the hallway, which comes to an end in a dark-stained pine door carved with falling sweetbriar petals and tangled thorns.  A trio of jagged gouges defaces one of the empty nooks and has dislodged a few of the stones used in their construction."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1047,
+      348,
+      1066,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 32466,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32472,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    }
+  ]
+}

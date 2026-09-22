@@ -1,0 +1,53 @@
+{
+  "id": 17629,
+  "uid": [
+    3207023
+  ],
+  "title": [
+    "[Silken Mist, Hallway]"
+  ],
+  "description": [
+    "The hallway is much wider than one would expect on a ship, and polished steel rails set along the walls allow for safety should the sea get rough.  Small oil portraits of colorful fish have been hung on either side to add a touch of decor to the passage."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Silken Mist on Four Winds Isle",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      481,
+      1595,
+      495,
+      1606
+    ]
+  },
+  "exits": [
+    {
+      "to": 17628,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17630,
+      "kind": "go",
+      "cmd": "go brass-trimmed door",
+      "cost": 0.2
+    },
+    {
+      "to": 17631,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 17632,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

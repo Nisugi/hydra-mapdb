@@ -1,0 +1,50 @@
+{
+  "id": 6190,
+  "uid": [
+    2167040
+  ],
+  "title": [
+    "[Hidden Plateau, Ruins]"
+  ],
+  "description": [
+    "Two massive chairs rest on a small dais to the east, one splintered and shoved aside to reveal a large trapdoor behind the pair.  Large purple and gold banners hang from the ceiling and walls, moldy and torn.  A small balcony extends from the eastern wall, offering a view of the slopes of the Upper Krag."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      543,
+      459,
+      577,
+      493
+    ]
+  },
+  "exits": [
+    {
+      "to": 6181,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6188,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6191,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

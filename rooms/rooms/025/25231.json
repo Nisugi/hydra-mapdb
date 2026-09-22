@@ -1,0 +1,51 @@
+{
+  "id": 25231,
+  "uid": [
+    4216057
+  ],
+  "title": [
+    "[Subterrain, Pit]"
+  ],
+  "description": [
+    "Delving into the bowels of the earth, the pit is a stinking morass of unidentifiable muck that reeks like a herd of dead roltons, drenched in fish guts, rotting in the sun.  The walls of the pit are jagged and uneven, providing plentiful handholds that are firm, if a bit moist.  Fresh air swirling down through a wide hole above is the only thing leavening the incredible stench."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "sanctum"
+  ],
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      121,
+      563,
+      145,
+      588
+    ]
+  },
+  "exits": [
+    {
+      "to": 25172,
+      "kind": "scripted",
+      "steps": [
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb wide hole"
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

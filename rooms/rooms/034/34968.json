@@ -1,0 +1,31 @@
+{
+  "id": 34968,
+  "uid": [
+    12101101
+  ],
+  "title": [
+    "[The White Wyrm, Gangway]"
+  ],
+  "description": [
+    "Bulkheads press in unforgivingly to either side of the narrow gangway that allows egress from the ship.  Threaded through the pale imflass paneling are thin veniom filaments, the bluish metal agleam with glints of silver.  Above the escape hatch, a fanciful metal placard depicts a cold wyrm with its wings spread and snout at a defiant upward tilt."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34966,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 34985,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

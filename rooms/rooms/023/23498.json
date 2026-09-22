@@ -1,0 +1,33 @@
+{
+  "id": 23498,
+  "title": [
+    "[Furrfoot's, Black Drake]"
+  ],
+  "description": [
+    "Behind a prominent banner, small lanterns hang from the ceiling, illuminating a handful of tables topped with green felt.  An assortment of dealers are scattered between the tables, each carefully watching both the patrons and the dice rolls.  Amid the buzz of conversation and concentration, the clink of silvers is constant.  Several fishing nets are suspended on either side of a heavy azure curtain, their fishy scent clashing with the heady aromas of liquor, smoke, and the sweaty dwarf who stands guard."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the bay",
+  "exits": [
+    {
+      "to": 23497,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23499,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23502,
+      "kind": "go",
+      "cmd": "go azure curtain",
+      "cost": 0.2
+    }
+  ]
+}

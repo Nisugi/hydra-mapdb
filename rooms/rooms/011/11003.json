@@ -1,0 +1,75 @@
+{
+  "id": 11003,
+  "uid": [
+    160003
+  ],
+  "title": [
+    "[Lomara's, Consignment]"
+  ],
+  "description": [
+    "The bungalow extends into a smaller area which houses a large maoral counter.  The wooden floor to the front of it remains clean and clear, while the area behind the counter is stacked with a number of storage bins varying in size and color."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "no forageables",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 11002,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11004,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

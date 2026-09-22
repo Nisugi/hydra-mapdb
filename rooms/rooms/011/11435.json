@@ -1,0 +1,78 @@
+{
+  "id": 11435,
+  "uid": [
+    304011
+  ],
+  "title": [
+    "[Tempest River, North Fork]"
+  ],
+  "description": [
+    "The current hugs the northern bank of the wide river.  Towering above the rocky bank is a sheer, unclimbable cliff.  The top of the cliff is lost in the moonlight.  Despite the dark, the sandy bottom of the riverbed is visible through the clear water.  To the west the river widens into the mouth of Maelstrom Bay",
+    "The current hugs the northern bank of the wide river.  Towering above the rocky bank is a sheer, unclimbable cliff.  The top of the cliff is lost in the moonlight.  Despite the dark, the sandy bottom of the riverbed is visible through the clear water.  To the west the river widens into the mouth of Maelstrom Bay."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "freshwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      810,
+      1341,
+      820,
+      1351
+    ]
+  },
+  "exits": [
+    {
+      "to": 11433,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11436,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

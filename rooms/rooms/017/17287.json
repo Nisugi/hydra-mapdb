@@ -1,0 +1,50 @@
+{
+  "id": 17287,
+  "uid": [
+    252045
+  ],
+  "title": [
+    "[Warrior Guild, Palaestra]"
+  ],
+  "description": [
+    "This section of the courtyard has been devoted to rows of workout wheels.  Surrounding the courtyards is a covered walkway, its roof supported by colonnades.  A few splatterings of gray bird droppings have dried to an almost porcelain hardness upon the meticulous brickwork."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild masters",
+    "warrior guild wheel"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1210,
+      800,
+      1232,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 17286,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17288,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30532,
+      "kind": "other",
+      "cmd": "ask cavour about training berserk",
+      "cost": 0.2
+    }
+  ]
+}

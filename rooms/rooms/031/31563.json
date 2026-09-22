@@ -1,0 +1,74 @@
+{
+  "id": 31563,
+  "uid": [
+    8083018
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Facing the Fallen Court across a stretch of cobbled street, the constabulary hunches amid the encroaching brush and foliage of the Bittermere Woods to the southeast and the thick iron fencing that disappears to the northwest.  Partially dilapidated homes dot the lane, their vacant windows reflecting the violet sheen of the twilight-kissed sky.  Silvery blue pampas grass grows in thick masses between the northern buildings, its feather heads swaying and rustling despite the lack of breeze."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      663,
+      254,
+      685,
+      275
+    ]
+  },
+  "exits": [
+    {
+      "to": 31561,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31632,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31633,
+      "kind": "go",
+      "cmd": "go constabulary",
+      "cost": 0.2
+    },
+    {
+      "to": 31635,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31856,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 32290,
+      "kind": "go",
+      "cmd": "go ramshackle cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 33955,
+      "kind": "go",
+      "cmd": "go ebonwood cottage",
+      "cost": 0.2
+    }
+  ]
+}

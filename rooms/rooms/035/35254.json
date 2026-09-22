@@ -1,0 +1,131 @@
+{
+  "id": 35254,
+  "uid": [
+    7142028
+  ],
+  "title": [
+    "[Sleeping Drake Harbor, Docks]"
+  ],
+  "description": [
+    "Supported by stark white travertine pillars, the boardwalk runs along the shores of Ornath, connecting the various piers with the mainland.  Below them, protected by the structures' elevated supports, small tide pools offer a peek at starfish and crabs in their natural environs.  Slightly acrid, the air is filled with the scent of salt and seaweed."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest, west"
+  ],
+  "location": "the Isle of Ornath",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "bract of sea spurge",
+    "portmaster",
+    "silver-cost:10838:25000",
+    "silver-cost:11754:25000",
+    "silver-cost:11756:25000",
+    "silver-cost:1870:25000",
+    "silver-cost:250:35000",
+    "silver-cost:29033:25000",
+    "silver-cost:31493:25000",
+    "silver-cost:32372:25000",
+    "silver-cost:32928:25000",
+    "urchin guide docks",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 11756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32372,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 35255,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35267,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35272,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35449,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

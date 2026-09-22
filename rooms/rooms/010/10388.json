@@ -1,0 +1,135 @@
+{
+  "id": 10388,
+  "uid": [
+    14102010
+  ],
+  "title": [
+    "[Malwith Inn, Dining Room]"
+  ],
+  "description": [
+    "A few small tables fill the room, while a string of chandeliers occupy the ceiling above.  Chairs surround the tables, leaving just enough room between tables to allow people to pass between.  An elaborate wood hat and coat stand stands near the entrance."
+  ],
+  "paths": [
+    "Obvious exits: west",
+    "Obvious exits: south, west"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10387,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21223,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28261,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Lantern table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28262,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Circling Dragon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28263,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sleeping Dragon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28264,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rampant Dragon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28265,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Watchful Dragon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28283,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go candle table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

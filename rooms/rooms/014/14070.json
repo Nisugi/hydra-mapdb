@@ -1,0 +1,51 @@
+{
+  "id": 14070,
+  "uid": [
+    4750040
+  ],
+  "title": [
+    "[Castle Tower, Northwest]"
+  ],
+  "description": [
+    "The remnants of a small table and several chairs lie strewn about the stone floor.  A wooden weapons rack has been torn from the wall and now lies shattered against it.  Weaving amongst the debris are many sets of muddied boot prints."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Castle Varunar",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      585,
+      225,
+      595,
+      235
+    ]
+  },
+  "exits": [
+    {
+      "to": 14069,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 15991,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

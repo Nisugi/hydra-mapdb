@@ -1,0 +1,56 @@
+{
+  "id": 36452,
+  "uid": [
+    59039
+  ],
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "The cool breeze off the mountains in the east offers little respite from the sticky air as you travel along the bank.  The east wing of the castle complex can be discerned, and the pall of the menacing edifice is ever across your path, the jagged gaps atop the ruined outer walls casting sharp, fang-like shadows.  The breeze suddenly shifts, bringing the lapping sounds and rotting water weed smell of the moat to you.  A tall, gaunt structure atop the small hummock due east diverts your attention.",
+    "A cool breeze off the mountains to the east offers little respite from the sticky air as you travel along the bank.  Occasionally though, the wind shifts, bringing with it uncomfortable heat and the rotting stench of the castle moat.  The castle stands broken, yet still forbidding in your sight. The jagged gaps atop the ruined outer walls cast sharp, fang-like shadows across your path.  Due east, stands a tall, gaunt structure atop a small hummock."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "grassland",
+  "tags": [
+    "sprig of lavender"
+  ],
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      840,
+      440,
+      880,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 36451,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36453,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36458,
+      "kind": "climb",
+      "cmd": "climb hummock",
+      "cost": 0.2
+    },
+    {
+      "to": 36465,
+      "kind": "go",
+      "cmd": "go moat",
+      "cost": 0.2
+    }
+  ]
+}

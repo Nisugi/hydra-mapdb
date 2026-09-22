@@ -1,0 +1,48 @@
+{
+  "id": 32072,
+  "uid": [
+    8083419
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The river washes up on a muddy shore beneath a pair of colossal banyan trees, their vine-draped branches creating a thick canopy overhead.  A lone firefly flits along the treeline, its rhythmic blinking illuminating the gnarled limbs and casting eerie shadows.  A deep, black moss carpets the soft ground beyond the river."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1750,
+      762,
+      1772,
+      783
+    ]
+  },
+  "exits": [
+    {
+      "to": 32071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 32073,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    }
+  ]
+}

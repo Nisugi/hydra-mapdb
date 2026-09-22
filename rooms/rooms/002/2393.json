@@ -1,0 +1,61 @@
+{
+  "id": 2393,
+  "uid": [
+    4042203
+  ],
+  "title": [
+    "[Tavern Burrow, Bitters Bend]",
+    "[Tavern Burrow, Pilsner Avenue]",
+    "[Tavern Burrow, Bend]"
+  ],
+  "description": [
+    "Near the shadow of the town walls, a stone-walled mill marks the southwestern corner of Icemule Trace.  Pilsner Avenue heads northward along the western wall, while Honeybeer Road leads eastward toward the South Gate, passing by a quaint neighborhood down a neat cobblestone path.  Bakers' apprentices pushing wheelbarrows full of grain or flour hustle to and from the mill tower.",
+    "A stone windmill marks the southwest corner of Icemule Trace.  From here, Pilsner Avenue heads northward along the western wall.  Honeybeer Road leads eastward towards the South Gate.  Bakers' apprentices pushing wheelbarrows full of grain or flour hustle to and from the mill tower.",
+    "A stone windmill marks the southwest corner of Icemule Trace.  From here, Pilsner Avenue heads northward along the western wall.  Honeybeer Road leads eastward towards the South Gate.",
+    "Near the night-blackened shadow of the town walls, a stone windmill marks the southwestern corner of Icemule Trace.  Pilsner Avenue heads northward along the western wall, while Honeybeer Road leads eastward toward the South Gate.  The mill tower is quiet and dark, a silhouette against the starlight."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      139,
+      1230,
+      175,
+      1266
+    ]
+  },
+  "exits": [
+    {
+      "to": 2392,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2394,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3452,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 9001,
+      "kind": "go",
+      "cmd": "go stone-walled mill",
+      "cost": 0.2
+    }
+  ]
+}

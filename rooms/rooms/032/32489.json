@@ -1,0 +1,44 @@
+{
+  "id": 32489,
+  "uid": [
+    4577113
+  ],
+  "title": [
+    "[Moonsedge Castle, Service Door]"
+  ],
+  "description": [
+    "Guarded by an abandoned watch post, an unimpressive servant's entrance occupies a bend in the castle's walls.  Crates and barrels, some emitting powerful aromas of rot and fetor, sit by a pair of double doors that lead into the castle.  One barrel has begun to leak, exuding a sappy black substance that stinks intensely of death."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      927,
+      586,
+      944,
+      607
+    ]
+  },
+  "exits": [
+    {
+      "to": 32488,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 32491,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

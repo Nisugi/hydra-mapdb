@@ -1,0 +1,40 @@
+{
+  "id": 17985,
+  "uid": [
+    263002
+  ],
+  "title": [
+    "[Inn, Cubbyhole]"
+  ],
+  "description": [
+    "This narrow area is lined with unfinished cedar.  Motes of dust drift down an air shaft.  An agile person might be able to shinny up the air shaft."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      423,
+      99,
+      451,
+      124
+    ]
+  },
+  "exits": [
+    {
+      "to": 17984,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17986,
+      "kind": "climb",
+      "cmd": "climb shaft",
+      "cost": 0.2
+    }
+  ]
+}

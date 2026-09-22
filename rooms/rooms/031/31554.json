@@ -1,0 +1,35 @@
+{
+  "id": 31554,
+  "uid": [
+    3201210
+  ],
+  "title": [
+    "[The Lighthouse, Tower]"
+  ],
+  "description": [
+    "Looking down the stairwell from this height can be dizzying.  The low drone of the gear-and-pulley lens from above sends a wave of vibrations down through the tower.  The stairs end at a hatch leading into the lighthouse's glass dome."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31552,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 31555,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

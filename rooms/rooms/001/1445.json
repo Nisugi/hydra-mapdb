@@ -1,0 +1,56 @@
+{
+  "id": 1445,
+  "uid": [
+    4209020
+  ],
+  "title": [
+    "[Solhaven, Latirus Lane]"
+  ],
+  "description": [
+    "A charming ivy-covered cottage is built up against the hillside.  A small garden nestles beside the cottage, brimming with colorful roses.  A small number of townsfolk travel eastward, towards a cottage nestled at the end of Latirus Lane."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1125,
+      450,
+      1149,
+      474
+    ]
+  },
+  "exits": [
+    {
+      "to": 1444,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1446,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1447,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12800,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 14071,
+  "uid": [
+    4750041
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "A large stone building sits along the western wall.  Atop the rectangular structure, several old banner poles sway slightly in the wind, their cloth standards long since gone.  A set of massive double doors stands open leading to the building's interior."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      652,
+      254,
+      662,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 14058,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14069,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14072,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

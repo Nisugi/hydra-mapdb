@@ -1,0 +1,52 @@
+{
+  "id": 618,
+  "uid": [
+    13101043
+  ],
+  "title": [
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "An imposing grey building huddles in the shelter of the city wall.  An engraved mithglin sign has been set into the dark granite beside a rounded archway that leads inside.  Above the archway, a large panel of granite has been embedded with an enormous mosaic formed of various gemstones.  Four round towers, each topped with a sapphire blue and silver pennant, mark the corners of the square building."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      876,
+      84,
+      897,
+      107
+    ]
+  },
+  "exits": [
+    {
+      "to": 617,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 619,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4026,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

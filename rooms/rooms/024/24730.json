@@ -1,0 +1,95 @@
+{
+  "id": 24730,
+  "uid": [
+    480246,
+    17006246
+  ],
+  "title": [
+    "[Red Forest, Deep Woods]"
+  ],
+  "description": [
+    "Rows upon rows of oak trees, towering just around twenty feet tall, expand along the stretch of land here.  The trees are oddly all bent, as if a powerful wind or force has pulled them inward, demanding their reverence."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      435,
+      473,
+      448,
+      486
+    ]
+  },
+  "exits": [
+    {
+      "to": 24729,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24731,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24734,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

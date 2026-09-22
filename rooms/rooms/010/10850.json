@@ -1,0 +1,63 @@
+{
+  "id": 10850,
+  "uid": [
+    2101010
+  ],
+  "title": [
+    "[River's Rest, Merchants' Walk]"
+  ],
+  "description": [
+    "The roadway ends here at the edge of a noisy bazaar.  Filled with tiled rooftops and colorful awnings, an occasional minaret can be seen reaching up into the sky.  Townsfolk seem to take no note however, as they hurry to safeguard their hard-earned silver at a small, but sturdily built bank, which is guarded by the river and the walls of the bazaar.  Many others seem bent on spending their wealth, judging from the packages they carry from a small store located to the north."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2688,
+      1163,
+      2725,
+      1199
+    ]
+  },
+  "exits": [
+    {
+      "to": 10846,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10898,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 10911,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 10916,
+      "kind": "go",
+      "cmd": "go store",
+      "cost": 0.2
+    },
+    {
+      "to": 10917,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    }
+  ]
+}

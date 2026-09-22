@@ -1,0 +1,50 @@
+{
+  "id": 1901,
+  "uid": [
+    3001022
+  ],
+  "title": [
+    "[Mithril and Dragonswing]"
+  ],
+  "description": [
+    "The walls of the canyon tower over your head, reaching hundreds of feet toward the sky.  The street does not stop at the rock, but continues right on inside.  Dwarves bustle in and out of the tunnel.  One fat old fellow, obviously fond of his ale, bellows out an old song.  The crowd gives him a wide berth."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1217,
+      609,
+      1247,
+      639
+    ]
+  },
+  "exits": [
+    {
+      "to": 1899,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1902,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 1921,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

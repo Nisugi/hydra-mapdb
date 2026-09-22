@@ -1,0 +1,52 @@
+{
+  "id": 36358,
+  "uid": [
+    55028
+  ],
+  "title": [
+    "[Black Swan Castle, Courtyard]"
+  ],
+  "description": [
+    "Seared grass, carbonized twigs, and trampled dirt indicate that invaders had breached the walls and mounted an assault on the east flank of the keep.  The burned-out shed here is little more than a blackened frame, with poles forming a peaked roof to which cling charred tufts of thatch."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      520,
+      360,
+      560,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36359,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36375,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36376,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36378,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    }
+  ]
+}

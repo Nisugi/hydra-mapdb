@@ -1,0 +1,36 @@
+{
+  "id": 26258,
+  "title": [
+    "[Banshee Tower, Second Floor]"
+  ],
+  "description": [
+    "Ethereal images swirl about the room, fading in and out of existence as the undead replay their dying moments.  A chill lingers in the area, as beads of water drip down the crystal walls."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      126,
+      524,
+      152,
+      550
+    ]
+  },
+  "exits": [
+    {
+      "to": 26257,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 26259,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

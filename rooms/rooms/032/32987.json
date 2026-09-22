@@ -1,0 +1,35 @@
+{
+  "id": 32987,
+  "uid": [
+    5001078
+  ],
+  "title": [
+    "[House Brigatta Annex]"
+  ],
+  "description": [
+    "The floor, made of unglazed octagonal tiles, is partly covered with a thick carpet.  A window, screened with intricately carved wood, is set high on the wall.  Set beneath the window is a heavy terra cotta urn containing an angular stone and a flowering plant."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_annex",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 23198,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 32988,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

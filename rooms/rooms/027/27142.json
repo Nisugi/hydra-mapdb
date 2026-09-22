@@ -1,0 +1,40 @@
+{
+  "id": 27142,
+  "uid": [
+    13202037
+  ],
+  "title": [
+    "[Lumnea Meadow, Baerl Mystiaem]"
+  ],
+  "description": [
+    "Moonlight shimmers as it illuminates the surface of crystal droplets and covers the wide expanse of green with a silvery sheen.  A large area of the clearing, surrounded by beds thick with lavender, has been sectioned off for dancing.  A vine-covered white oak arch leads back out to the center of the meadow."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      513,
+      438,
+      525,
+      450
+    ]
+  },
+  "exits": [
+    {
+      "to": 27137,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 27143,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

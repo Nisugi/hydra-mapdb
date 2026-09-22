@@ -1,0 +1,55 @@
+{
+  "id": 18245,
+  "title": [
+    "[Feywrot Mire, Duckweed Haven]"
+  ],
+  "description": [
+    "A partially beached shanty boat is anchored to the shoreline with sturdy hemp lines.  Its painted facade is a patchwork of faded mint green and exposed metal.  The floating plantlife surrounding it appears to have not been disturbed for quite some time, with tiny shoots and runners wending their way into crevices near the vessel's waterline.  The available light reveals at least a dozen pairs of eyes within the floating duckweed.  Heading south, a rickety bridge heads toward an ebon gate.",
+    "A partially beached shanty boat is anchored to the shoreline with sturdy hemp lines.  Its painted facade is a patchwork of faded mint green and exposed metal.  The floating plantlife surrounding it appears to have not been disturbed for quite some time, with tiny shoots and runners wending their way into crevices near the vessel's waterline.  The tops of armor-like, reptilian backs can be seen protruding motionlessly from within the floating duckweed.  Heading south, a rickety bridge heads toward an ebon gate."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      619,
+      919,
+      634,
+      933
+    ]
+  },
+  "exits": [
+    {
+      "to": 18243,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 20263,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 20321,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20322,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24070,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": 0.2
+    }
+  ]
+}

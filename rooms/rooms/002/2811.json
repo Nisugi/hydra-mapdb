@@ -1,0 +1,79 @@
+{
+  "id": 2811,
+  "uid": [
+    4563026
+  ],
+  "title": [
+    "[Northern Slopes, Rocky Incline]"
+  ],
+  "description": [
+    "The precarious path down the steep face of the bluff levels off briefly, forming a small ledge with dangerously unstable edges.  Wind whips by, buffeting the precipice with sleet and snow.  Lodged pitifully in a pile of boulders next to the sheer rock face lies the carcass of an antelope.  Its limbs are broken across the granite, and little more than a pile of hide and protruding bones remains of the graceful creature, mute testament to the brutality of the region."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      431,
+      1184,
+      441,
+      1194
+    ]
+  },
+  "exits": [
+    {
+      "to": 2810,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rocks"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2812,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 291,
+  "uid": [
+    7006
+  ],
+  "title": [
+    "[Wehnimer's, West Ring Rd.]"
+  ],
+  "description": [
+    "Traffic is almost nonexistent at night on this portion of West Ring Road.  Most of the people still out in the streets seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
+    "Traffic is light on this portion of West Ring Road.  Most people seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
+    "Glistening black veins run along the ground, tearing up the cobblestone road.  The stench of death and decay hang like a thick cloud."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "urchin guide westgate",
+    "urchin-access",
+    "vanilla bean",
+    "westgate",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      48,
+      736,
+      84,
+      773
+    ]
+  },
+  "exits": [
+    {
+      "to": 290,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 292,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 420,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 13245,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

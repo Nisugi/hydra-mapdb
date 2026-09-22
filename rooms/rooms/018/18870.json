@@ -1,0 +1,86 @@
+{
+  "id": 18870,
+  "uid": [
+    108410
+  ],
+  "title": [
+    "[Twilight, Lower Environs]"
+  ],
+  "description": [
+    "Illuminated by eight freestanding copper fire pits, these environs are meticulously clean and dry.  Light from the pits dances about the area, providing a warm, almost cheerful, glow.  The faint sound of flowing water echoes through the cavern, although no obvious source exists.  Carved into the bedrock are numerous chambers, many carefully fitted with secure frames and doors for privacy.  In the center of the cavern, a wide column rises up to the ceiling and beyond, a spiral staircase carved into its bulk."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      992,
+      441,
+      1077,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 8623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go ladder"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18861,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18871,
+      "kind": "go",
+      "cmd": "go polished door",
+      "cost": 0.2
+    },
+    {
+      "to": 18872,
+      "kind": "go",
+      "cmd": "go cherrywood door",
+      "cost": 0.2
+    },
+    {
+      "to": 18873,
+      "kind": "go",
+      "cmd": "go granite door",
+      "cost": 0.2
+    },
+    {
+      "to": 18874,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 24575,
+      "kind": "go",
+      "cmd": "go hidden opening",
+      "cost": 0.2
+    },
+    {
+      "to": 33226,
+      "kind": "go",
+      "cmd": "go cedar door",
+      "cost": 0.2
+    }
+  ]
+}

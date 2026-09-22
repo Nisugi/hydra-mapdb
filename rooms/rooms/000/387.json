@@ -1,0 +1,128 @@
+{
+  "id": 387,
+  "uid": [
+    2021
+  ],
+  "title": [
+    "[Moot Hall, Great Lobby]"
+  ],
+  "description": [
+    "This is the great lobby of the Moot Hall.  Hushed voices discussing urgent town matters echo off the high ceiling.  The walls are draped in rich tapestries framing niches that hold marble busts of local dignitaries.  Ahead of you is a double door, and to your left, a mahogany door bearing a silver plaque.",
+    "The great lobby is quite spacious, with an oak bannister wrapping around a staircase leading to the second story of Moot Hall.  The wall are draped in rich tapestries framing niches that hold marble busts of local dignitaries.  To the north is a double door, and to the west, a mahogany door bearing a silver plaque.  A carpeted pathway leads toward the Debt Collector's Office."
+  ],
+  "paths": [
+    "Obvious exits: east, out",
+    "Obvious exits: east, south, out",
+    "Obvious exits: north, east, south, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "moothall",
+    "urchin guide moothall",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Moot Hall",
+    "mapshortname:Moot Hall",
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-moot_hall-1486755929.png",
+    "rect": [
+      533,
+      1120,
+      674,
+      1179
+    ]
+  },
+  "exits": [
+    {
+      "to": 229,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 388,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 395,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 7564,
+      "kind": "go",
+      "cmd": "go double door",
+      "cost": 0.2
+    },
+    {
+      "to": 7969,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    },
+    {
+      "to": 7972,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 19275,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21367,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

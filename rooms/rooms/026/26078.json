@@ -1,0 +1,43 @@
+{
+  "id": 26078,
+  "uid": [
+    679010
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Dimpled craters stretch across the white stone floor which is rounded and slightly inclined at the center, while twin orbs, bearing the same indentation as the floor, rise out of the walls.   Occupying the entire expanse between the two pitted objects, one of which holds a red pigment and the other black, is a large mural crafted of glass tiles.  Sharing a wall, the downward stairs disappear into darkness, while a sanguine light spills down the well of the upward stairs."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26077,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26079,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

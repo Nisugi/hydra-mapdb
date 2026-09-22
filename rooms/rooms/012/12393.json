@@ -1,0 +1,56 @@
+{
+  "id": 12393,
+  "uid": [
+    3001039
+  ],
+  "title": [
+    "[Golvern Street]"
+  ],
+  "description": [
+    "The street is drilled into the walls of the canyon.  Just outside the great tunnel leading into the rock, several small homes skirt the street.  They are all freshly-whitewashed, and some have small shrubberies planted out front."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1213,
+      342,
+      1243,
+      372
+    ]
+  },
+  "exits": [
+    {
+      "to": 12392,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12394,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26859,
+      "kind": "go",
+      "cmd": "go ironwork gate",
+      "cost": 0.2
+    },
+    {
+      "to": 30589,
+      "kind": "go",
+      "cmd": "go copper arch",
+      "cost": 0.2
+    }
+  ]
+}

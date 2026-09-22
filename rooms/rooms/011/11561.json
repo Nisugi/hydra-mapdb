@@ -1,0 +1,50 @@
+{
+  "id": 11561,
+  "uid": [
+    420516
+  ],
+  "title": [
+    "[Branding Room]"
+  ],
+  "description": [
+    "An iron brazier is upended against the starboard bulkhead, spilling chunks of pitch-soaked wood.  Hung on the bulkhead is a rack containing a variety of smoke-blackened branding irons.  A low chest is made fast against the wall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      109,
+      1184,
+      119,
+      1194
+    ]
+  },
+  "exits": [
+    {
+      "to": 11560,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11562,
+      "kind": "go",
+      "cmd": "go portside door",
+      "cost": 0.2
+    },
+    {
+      "to": 34798,
+      "kind": "go",
+      "cmd": "go starboard door",
+      "cost": 0.2
+    }
+  ]
+}

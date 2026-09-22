@@ -1,0 +1,50 @@
+{
+  "id": 31585,
+  "uid": [
+    8083032
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Parted slightly, the enormous wrought iron gates that provide entry to the graveyard via a well-trod dirt path cast long shadows on the cobblestone street.  A short wall built partly of wrought iron and partly of stone rises to the north while curving to the northwest on the opposite side."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      359,
+      315,
+      382,
+      335
+    ]
+  },
+  "exits": [
+    {
+      "to": 31577,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31583,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31586,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

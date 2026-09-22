@@ -1,0 +1,57 @@
+{
+  "id": 8924,
+  "uid": [
+    680007
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Well-stuffed blue velvet chairs scattered throughout the spacious library provide comfortable seating for lounging wizards.  Bookcases that rise well above the reach of even the tallest giantman line the walls in orderly ranks starkly contrasting with the clutter of scrolls and quills heaped on numerous tables.  A large fireplace dominates the east wall, illuminating the chamber and the portrait hanging above it."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      212,
+      488,
+      262,
+      535
+    ]
+  },
+  "exits": [
+    {
+      "to": 8923,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8925,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8931,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30547,
+      "kind": "other",
+      "cmd": "ask carn about train potions",
+      "cost": 0.2
+    }
+  ]
+}

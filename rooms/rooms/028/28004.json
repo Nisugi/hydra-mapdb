@@ -1,0 +1,89 @@
+{
+  "id": 28004,
+  "uid": [
+    8208812
+  ],
+  "title": [
+    "[Aspen Tavern, Commons]"
+  ],
+  "description": [
+    "Pleated and heavy, voluminous canvas walls of alternating azure and plum panels are held aloft by a thick frame of welded wrought iron.  Small nooks with tables and chairs are sheltered by painted screens of rice paper and bamboo and tucked against the edges of a large teak and linden floor.  Candles burn within glass jars that are suspended from the rafters, while dozens of pot-bellied ceramic stoves fill the space with cozy warmth."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "hard, flat",
+  "tags": [
+    "loci",
+    "locus",
+    "node",
+    "table",
+    "tables",
+    "traveler"
+  ],
+  "exits": [
+    {
+      "to": 28003,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28005,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 33506,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Plum Tree table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33507,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Cocobolo table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33508,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Summit table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33509,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Wolf table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33510,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rolton table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

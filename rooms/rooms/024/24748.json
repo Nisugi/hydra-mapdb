@@ -1,0 +1,52 @@
+{
+  "id": 24748,
+  "uid": [
+    4031021
+  ],
+  "title": [
+    "[Krolvin Warship, Second Deck]"
+  ],
+  "description": [
+    "Salt, rust, and grime cover most of the portside wall's solitary porthole, although one spot has been smudged to relative cleanness to allow a small band of light to filter into the dusty companionway.  Rags litter the deck just beneath the porthole, some blackened with tar that has hardened to thumb-sized nodules."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      585,
+      174,
+      607,
+      189
+    ]
+  },
+  "exits": [
+    {
+      "to": 18709,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18710,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24464,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33291,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

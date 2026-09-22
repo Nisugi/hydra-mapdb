@@ -1,0 +1,54 @@
+{
+  "id": 27638,
+  "uid": [
+    1304304
+  ],
+  "title": [
+    "[Peregrine Tavern, Exiled Armory]"
+  ],
+  "description": [
+    "The armory is brightly lit with cast iron braziers placed in each corner.  A wide variety of weapons and armor kept in good working condition are hung across each wall with the sole exception of one.  A barren lor wall stands out and has a single ko'nag door.  Flanked to the right side of the door is an encased illthorn armor stand, whilst the left side holds a matching illthorn weapon rack.  The middle of the spacious armory is open, leaving room to spar or exercise on the polished ironwood floor."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Peregrine Tavern, outside the elven city of Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "private property"
+  ],
+  "image": {
+    "file": "pp-eastern-spine-1543903046.png",
+    "rect": [
+      511,
+      722,
+      609,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 27637,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 27639,
+      "kind": "scripted",
+      "steps": [
+        {
+          "moves_from_setting": "peregrine"
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting_is_set": "peregrine"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

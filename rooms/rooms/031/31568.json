@@ -1,0 +1,74 @@
+{
+  "id": 31568,
+  "uid": [
+    8083002
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Leaning like an aging uncle, a monstrous mansion rises above the cramped streets with slanted windows and crooked pillars that support a sprawling, if ill-repaired porch.  Burgundy, chocolate, and black cherry roses weave through long trellises that decorate the facade, their creeping vines spreading to eclipse a dull green moss-covered stone arch.  Looping over the canal, and opposite a pathway leading southwest, a cobbled bridge provides egress to the town's infamous inn."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      420,
+      375,
+      443,
+      396
+    ]
+  },
+  "exits": [
+    {
+      "to": 31560,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31567,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31569,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 31571,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31577,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31580,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33980,
+      "kind": "go",
+      "cmd": "go mansion",
+      "cost": 0.2
+    }
+  ]
+}

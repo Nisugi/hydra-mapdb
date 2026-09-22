@@ -1,0 +1,108 @@
+{
+  "id": 5296,
+  "uid": [
+    4214311
+  ],
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "A rocky hillock of pine trees stands to the east of the path from here, the top of which just barely breaks the fog.  Unseen currents cause the fog to wash over the hillock in waves, as if the fog were trying to swallow up the stubborn formation."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "birch bark",
+    "blood orange",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coffee cherries",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "grapefruit",
+    "handful of pinenuts",
+    "haphip root",
+    "ironfern root",
+    "kylan berry",
+    "oxblood lily",
+    "pine cone",
+    "pine needles",
+    "pink rain lily",
+    "red vornalite mushroom",
+    "round yuzu",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "sunburst blossom",
+    "tanik twig",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "white baneberry",
+    "white lily",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      982,
+      581,
+      992,
+      591
+    ]
+  },
+  "exits": [
+    {
+      "to": 5295,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5297,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb hillock"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5298,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

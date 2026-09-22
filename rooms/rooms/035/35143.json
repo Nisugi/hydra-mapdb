@@ -1,0 +1,32 @@
+{
+  "id": 35143,
+  "uid": [
+    4426659
+  ],
+  "title": [
+    "[Quartermaster's, Jail]"
+  ],
+  "description": [
+    "Banners hang from the walls of the jail, but their bright colors fail to bring much life to the corridors of dark stone, which are windowless and lit only by smoky, flickering torches.  Along one wall, a cell door is only the first of a dozen or so proceeding down the length of the building.  Shouts and sobs echo down the long hallway, which smells of moldering straw."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Glaoveln",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 35119,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35144,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

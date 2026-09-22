@@ -1,0 +1,46 @@
+{
+  "id": 34695,
+  "uid": [
+    4572025
+  ],
+  "title": [
+    "[Sablecross, Warden Terrace]"
+  ],
+  "description": [
+    "A strange chancel of blue-black glaes stretches high, its shadow spreading monstrously across the flagstones of the terrace.  Alien in structure and chaotic in form, it looks to have sprouted from the tortured earth of the hillside behind it.  Sunlight refracts violently off of the glaesine construction, scattering in vivid shards of indigo light across the ground.  A jagged-edged gash leads into the structure at its base, looking for all the world like a tortured maw."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      373,
+      283,
+      404,
+      318
+    ]
+  },
+  "exits": [
+    {
+      "to": 34617,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34693,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34696,
+      "kind": "go",
+      "cmd": "go chancel",
+      "cost": 0.2
+    }
+  ]
+}

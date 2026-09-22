@@ -1,0 +1,44 @@
+{
+  "id": 3274,
+  "uid": [
+    4127008
+  ],
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The tunnel is cramped as years of ice have accumulated around the somewhat cylindrical walls.  Although slippery and dangerous, the passage is still passable and leads deeper under the hill."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      316,
+      353,
+      326,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 3264,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3275,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

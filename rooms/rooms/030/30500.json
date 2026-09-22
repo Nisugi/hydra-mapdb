@@ -1,0 +1,94 @@
+{
+  "id": 30500,
+  "uid": [
+    14117002
+  ],
+  "title": [
+    "[Mistydeep, Swimming Hole]"
+  ],
+  "description": [
+    "Jagged cliffs melt into old-growth forest to the west, where tumbled boulders line the shore and jut their smooth-worn heads above the surface of the water.  The bank drops off sharply towards the east, where the swimming hole is at its broadest and deepest.  Not to be contained, the Mistydeep River spills out of its rocky confines, gamboling over natural stone terraces to flow in a southerly direction.  From nearby, the thunder of a waterfall can be heard."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south, southwest"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1083,
+      571,
+      1100,
+      588
+    ]
+  },
+  "exits": [
+    {
+      "to": 13960,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go floating dock"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25622,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "swim south"
+        },
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "swim southwest"
+        },
+        {
+          "move": "swim southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30501,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 0.2
+    },
+    {
+      "to": 30502,
+      "kind": "other",
+      "cmd": "swim northeast",
+      "cost": 0.2
+    }
+  ]
+}

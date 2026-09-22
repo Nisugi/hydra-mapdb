@@ -1,0 +1,81 @@
+{
+  "id": 29622,
+  "uid": [
+    18050001
+  ],
+  "title": [
+    "[Estate, Approach]"
+  ],
+  "description": [
+    "Half-timbered walls painted white and black in repeating patterns rise up to an elegant gray slate roof.  Tucked amongst the slate are several airy gables and five red brick chimneys, thrusting upward from the estate like the fingers of a massive hand.  A cobbled carriage path leads from the street to five salt-and-pepper granite steps on which is centered a pair of massive monir doors banded with iron straps and decorated with rose head nails.  The western side of the estate appears to have been reduced to rubble."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "mho-hand_of_the_arkati-1652309586.png",
+    "rect": [
+      371,
+      502,
+      452,
+      578
+    ]
+  },
+  "exits": [
+    {
+      "to": 28913,
+      "kind": "go",
+      "cmd": "go carriage path",
+      "cost": 0.2
+    },
+    {
+      "to": 29623,
+      "kind": "go",
+      "cmd": "go massive doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

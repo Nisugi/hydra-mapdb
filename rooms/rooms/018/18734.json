@@ -1,0 +1,47 @@
+{
+  "id": 18734,
+  "uid": [
+    667006
+  ],
+  "title": [
+    "[Sorcerer Guild, Winding Passage]"
+  ],
+  "description": [
+    "The dry rivercourse narrows here, forced into a channel between two granite intrusions.  The old riverbed descends steeply as it rounds the corner, falling away to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      625,
+      466,
+      663,
+      506
+    ]
+  },
+  "exits": [
+    {
+      "to": 18733,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 18740,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18744,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

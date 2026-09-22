@@ -1,0 +1,50 @@
+{
+  "id": 20990,
+  "uid": [
+    568007
+  ],
+  "title": [
+    "[Outpost, Landing]"
+  ],
+  "description": [
+    "Positioned beneath a domed ceiling, a circular golden linden staircase winds its circular path downward towards the lower levels.  Smooth walls, left plain and white, are interrupted only where arches provide egress.  The central arch emits a faint scent of tropical flowers."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 20987,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20989,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 20991,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20992,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20993,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

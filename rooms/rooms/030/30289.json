@@ -1,0 +1,69 @@
+{
+  "id": 30289,
+  "uid": [
+    14053006
+  ],
+  "title": [
+    "[Cysaegir, Words on the Wind]"
+  ],
+  "description": [
+    "Several hanging baskets of wildflowers fill the room with rich floral scents.  A large ebony counter dominates the center, its surface covered with piles of journals and parchment.  The back wall is lined with rows of small cubby holes stuffed with various envelopes and papers.  Wooden crates are stacked beneath the mail slots, each filled with a variety of packages and parcels."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mail",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 17132,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

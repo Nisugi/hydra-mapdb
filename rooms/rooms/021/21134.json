@@ -1,0 +1,47 @@
+{
+  "id": 21134,
+  "uid": [
+    265001
+  ],
+  "title": [
+    "[Rogue Guild, Access Points]"
+  ],
+  "description": [
+    "Narrowing quickly, the huge tunnel deadends in a thick metal grate that completely covers one end.  Bits of paper and various other waste cling to the cross bars of the grate indicating that, at times, there is considerably more water here than now.  A rusty iron ladder leads up to a manhole above."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "image": {
+    "file": "ifw-rogue_guild-1.png",
+    "rect": [
+      537,
+      273,
+      551,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 19347,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21132,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21166,
+      "kind": "go",
+      "cmd": "go grate",
+      "cost": 0.2
+    }
+  ]
+}

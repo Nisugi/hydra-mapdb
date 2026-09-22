@@ -1,0 +1,46 @@
+{
+  "id": 18712,
+  "uid": [
+    4031014
+  ],
+  "title": [
+    "[Krolvin Warship, Second Deck]"
+  ],
+  "description": [
+    "Warped planks give this section of the deck an uneven cant that is echoed in the fitted wooden boards of the bulkheads.  Tacked to the forward bulkhead by seven iron spikes is an enormous spotted walrus skin.  In one corner of the compartment, a large knot in the wood has been burrowed out by claw and fang to create a small rodent nest."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      427,
+      219,
+      449,
+      236
+    ]
+  },
+  "exits": [
+    {
+      "to": 18711,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18713,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 20493,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

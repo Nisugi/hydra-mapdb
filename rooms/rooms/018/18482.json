@@ -1,0 +1,39 @@
+{
+  "id": 18482,
+  "title": [
+    "[Grawood Farmstead, Maze]"
+  ],
+  "description": [
+    "A slender hay rake leans precariously against some tall haystacks that lead somewhere deep inside the maze.  Or they could lead right back to the beginning, it is hard to get one's bearings in a place like this.  The only thing that is certain is that there is a lot of corn and hay as far as one can see."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18468,
+      "kind": "go",
+      "cmd": "go haystacks",
+      "cost": 0.2
+    },
+    {
+      "to": 18481,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18483,
+      "kind": "go",
+      "cmd": "go niche",
+      "cost": 0.2
+    }
+  ]
+}

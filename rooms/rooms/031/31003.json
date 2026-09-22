@@ -1,0 +1,80 @@
+{
+  "id": 31003,
+  "uid": [
+    7110351
+  ],
+  "title": [
+    "[The Impressed Olive, Entry]"
+  ],
+  "description": [
+    "Lowered to maintain warmth, the satin walls of the pavilion are bright white.  Brass lanterns with decorative red, orange, and green windows shed bright light throughout the space, banishing the shadows and aiding the workers in maintaining a cheery space.  Display cases, wire racks, and a couple of brass trays range about the entry, offering treats for those seeking solace at the nearby tables."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Needle of Pentas",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "laurel twig",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 30969,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31004,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Pandemonium table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31005,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Structured table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31006,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Essentials table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31007,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Ethos table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31008,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Interdimensional table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

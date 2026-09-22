@@ -1,0 +1,40 @@
+{
+  "id": 19559,
+  "uid": [
+    659002
+  ],
+  "title": [
+    "[Empath Guild, Infirmary]"
+  ],
+  "description": [
+    "Colorful mosaics depicting tropical fauna have been laid out in a large square.  One half of the square has been made into an examination and rest area, with hammock-like beds stretched from surrounding palm trees to the central pole.  The other half holds supplies on bamboo shelving units, each item labeled and neatly arranged.  Silk rectangles run from the surrounding palms to the central pole, shading the area.  Set off in a corner is a small closet containing cleaning paraphernalia."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "cultivated",
+  "image": {
+    "file": "ifw-empath_guild-1310232949.png",
+    "rect": [
+      276,
+      710,
+      328,
+      757
+    ]
+  },
+  "exits": [
+    {
+      "to": 19558,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19560,
+      "kind": "go",
+      "cmd": "go closet",
+      "cost": 0.2
+    }
+  ]
+}

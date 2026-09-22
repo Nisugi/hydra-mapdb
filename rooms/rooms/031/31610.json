@@ -1,0 +1,45 @@
+{
+  "id": 31610,
+  "uid": [
+    8084044
+  ],
+  "title": [
+    "[Second Floor, Landing]"
+  ],
+  "description": [
+    "A wrought iron chandelier hangs from the ceiling above, the half-melted tapers surrounded by a variety of metal cages enclosing stuffed birds glancing down through glass eyes.  Sculptures of chiseled green marble are displayed across from the blackened railing adorned in faenor roses, each decoration veiled in a thin layer of greyish dust.  A square-framed mahogany door stands a short distance from a set of wide stairs, decorated with a burnt velvet runner fringed in silken tassels."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31609,
+      "kind": "go",
+      "cmd": "go wide stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 31644,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 31645,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31650,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

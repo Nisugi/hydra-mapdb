@@ -1,0 +1,37 @@
+{
+  "id": 25885,
+  "uid": [
+    3215109
+  ],
+  "title": [
+    "[Annex, House Sovyn Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A green velvet pennant edged with silver hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sovyn:entrance_annex",
+    "che:sovyn:entrance_locker",
+    "locker annex:House Sovyn"
+  ],
+  "exits": [
+    {
+      "to": 12296,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 29572,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    }
+  ]
+}

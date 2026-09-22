@@ -1,0 +1,50 @@
+{
+  "id": 6870,
+  "uid": [
+    21114
+  ],
+  "title": [
+    "[Abandoned Inn, Common Room]"
+  ],
+  "description": [
+    "The circular hearth in the center of the room burns merrily, shedding warmth and cheerful light.  Benches, chairs and other places to ease tired feet line the walls, promising comfort and rest to weary travellers.  A small archway opens to the west, giving a glimpse of a cozy tavern, while a green brocade curtain leads back into the front hall."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      799,
+      995,
+      809,
+      1005
+    ]
+  },
+  "exits": [
+    {
+      "to": 6854,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 6871,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6873,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

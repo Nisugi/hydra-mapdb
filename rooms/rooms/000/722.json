@@ -1,0 +1,64 @@
+{
+  "id": 722,
+  "uid": [
+    13100037
+  ],
+  "title": [
+    "[Ta'Illistim, Aaendarein Gaer]"
+  ],
+  "description": [
+    "The gaer narrows as it approaches the edge of the cliffs, the cobblestoned surface barely wide enough to permit walking single file.  A lone maoral tree, its branches providing leafy shade above the path, has gained foothold in the rocky soil.  The starry night seems to melt into the edge of the nearby cliffs.",
+    "The gaer narrows as it approaches the edge of the cliffs, the cobblestoned surface barely wide enough to permit walking single file.  A lone maoral tree, its branches providing leafy shade above the path, has gained foothold in the rocky soil.  The vista of the Yegharren Plains can barely be seen in the distance past the edge of the cliffs."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1507,
+      462,
+      1530,
+      485
+    ]
+  },
+  "exits": [
+    {
+      "to": 720,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 723,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 724,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3555,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 3556,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

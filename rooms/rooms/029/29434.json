@@ -1,0 +1,48 @@
+{
+  "id": 29434,
+  "title": [
+    "[Briarmoon Cove, Bazaar]"
+  ],
+  "description": [
+    "Divided into two lanes of commerce that face each other in mirrored exuberance, the pathway tapers slightly and follows a subtle bend that closer approaches the craggy hillsides beyond.  Overflowing tables and shipping crates are stacked besides the storefronts, just behind the more eye-catching displays that are attractively arranged for passing customers."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      649,
+      289,
+      671,
+      309
+    ]
+  },
+  "exits": [
+    {
+      "to": 29433,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29435,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29446,
+      "kind": "go",
+      "cmd": "go golden tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29448,
+      "kind": "go",
+      "cmd": "go wooden wagon",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 4686,
+  "uid": [
+    14051015
+  ],
+  "title": [
+    "[Cysaegir Bank]"
+  ],
+  "description": [
+    "Simple wooden teller windows fitted with glaes panes stand open to service the many Aelotoi men and women bustling about.  A domed skylight allows sunshine to stream in, glinting off the silver coins being transferred, withdrawn, and deposited.  Vivid butterflies have been painted flitting across the pale pink and blue-tinted stone walls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bank",
+    "fire lily",
+    "urchin guide bank",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4639,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 9667,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

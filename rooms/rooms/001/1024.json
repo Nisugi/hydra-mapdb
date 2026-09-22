@@ -1,0 +1,61 @@
+{
+  "id": 1024,
+  "uid": [
+    13002008
+  ],
+  "title": [
+    "[Western DragonSpine, Slope]"
+  ],
+  "description": [
+    "A thick mist envelopes the mountainside just below this narrow ledge.  Wisps of the mist rise up on the steady breeze, drifting slowly through the air before dissipating.  The dry air pushes gritty, loose dirt across the now smooth, rocky mountainside."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Khazar's Hold",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1294,
+      322,
+      1304,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 1023,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1025,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ledge"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

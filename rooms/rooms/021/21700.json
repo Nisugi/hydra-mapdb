@@ -1,0 +1,42 @@
+{
+  "id": 21700,
+  "title": [
+    "[ShadowGuard, Cathedral Entryway]"
+  ],
+  "description": [
+    "Graceful arches soar overhead, supporting a vaulted ceiling covered in badly faded frescoes depicting random scenes from the history of House Vaalor.  Matching arches open to the east and west, leading from this large foyer to long dark hallways.  Fallen from their hinges, two massive doors hang askew, the opening between them leading back out to the courtyard."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up, out"
+  ],
+  "location": "Ta'Vaalor",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 21699,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21721,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 21722,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21727,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

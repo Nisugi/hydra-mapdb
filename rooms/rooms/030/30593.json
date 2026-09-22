@@ -1,0 +1,111 @@
+{
+  "id": 30593,
+  "uid": [
+    12003001
+  ],
+  "title": [
+    "[Vornavis Caravansary, Corral]"
+  ],
+  "description": [
+    "Thick oak posts are securely anchored into the ground and linked with wooden rails to form a sturdy perimeter.  Hard packed dirt and gravel makes up the surface of the inner yard.  A wooden stable stands at the eastern end of the corral, where a pair of doors stand open to allow easy access."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stable",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin guide stable",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "exits": [
+    {
+      "to": 5578,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30594,
+      "kind": "go",
+      "cmd": "go wooden stable",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

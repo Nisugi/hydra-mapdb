@@ -1,0 +1,51 @@
+{
+  "id": 3636,
+  "uid": [
+    3201033
+  ],
+  "title": [
+    "[Honeysuckle Avenue]"
+  ],
+  "description": [
+    "Nighttime has settled in on the Isle of the Four Winds, and a crisp coolness is in the air.  Accented by silvery moonlight, a small pale yellow-hued boutique appears to have a golden glow to it.  The shadows of the mannequins, lit from behind by the flickering candlelight inside the boutique, move across the street in an eerie dance.",
+    "A boutique has been nestled in amongst the various shops along Honeysuckle Avenue.  In contrast to the surrounding shops, the small cottage housing the boutique has been painted a soft yellow with a lighter shade for the trim.  Ladies pause, now and again, to admire the latest fashions modeled by the mannequins in the window."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2635,
+      1185,
+      2665,
+      1215
+    ]
+  },
+  "exits": [
+    {
+      "to": 3635,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3637,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16346,
+      "kind": "go",
+      "cmd": "go boutique",
+      "cost": 0.2
+    }
+  ]
+}

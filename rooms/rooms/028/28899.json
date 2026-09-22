@@ -1,0 +1,108 @@
+{
+  "id": 28899,
+  "uid": [
+    7118232
+  ],
+  "title": [
+    "[Wandering Eye Market, Southeast]"
+  ],
+  "description": [
+    "Clothier stalls with bright green and yellow awnings dominate this section of the market, each complete with loud hawkers proclaiming their wares as the best.  Nestled amongst the louder offerings, a modest slate blue tent framed by placard-covered oak posts stands open for business, its interior dark and cool in the bright sunlight.  A small welcome mat sits at its entry, the sun-bleached rushes a stark contrast to the painted cobblestones beneath."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west, northwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      472,
+      440,
+      485,
+      451
+    ]
+  },
+  "exits": [
+    {
+      "to": 28813,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28898,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28900,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28901,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28907,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28933,
+      "kind": "go",
+      "cmd": "go slate tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

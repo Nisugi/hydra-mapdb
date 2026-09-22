@@ -1,0 +1,57 @@
+{
+  "id": 15991,
+  "uid": [
+    4750052
+  ],
+  "title": [
+    "[Hidden Tunnel]"
+  ],
+  "description": [
+    "You find yourself in a small roughly hewn stone room.  Moss and lichen carpet the walls and floor, giving the area a musty scent.  In the south corner of the room you see some moss covered stairs heading down into the gloom, the sound of dripping water echoing up to you.  A rusty iron ladder leads up through the ceiling into darkness."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Castle Varunar",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      512,
+      225,
+      522,
+      235
+    ]
+  },
+  "exits": [
+    {
+      "to": 14070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 15992,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 16807,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 17582,
+  "uid": [
+    3216003
+  ],
+  "title": [
+    "[Western Harbor, Entry]"
+  ],
+  "description": [
+    "Sunlight glints upon the cobbles of the street as it narrows slightly into a winding pathway that leads through the dunes.  Here and there persistent sea grass breaks through the stones in an attempt to reclaim their birthright.  An enormous ivory arch, crafted from the jawbone of a seathrak, houses an oak sign at its peak.",
+    "Moonlight and dew glisten upon the cobbles of the street as it narrows slightly into a winding pathway that leads through the dunes.  Here and there persistent sea grass breaks through the stones in an attempt to reclaim their birthright.  An enormous ivory arch, crafted from the jawbone of a seathrak, houses an oak sign at its peak."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1792,
+      1464,
+      1827,
+      1494
+    ]
+  },
+  "exits": [
+    {
+      "to": 17581,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17583,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35513,
+      "kind": "go",
+      "cmd": "go shanty",
+      "cost": 0.2
+    }
+  ]
+}

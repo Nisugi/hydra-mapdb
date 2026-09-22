@@ -1,0 +1,42 @@
+{
+  "id": 35836,
+  "uid": [
+    8084546
+  ],
+  "title": [
+    "[Scales and Shadows, Foyer]"
+  ],
+  "description": [
+    "A thin mist drifts over cracked obsidian tiles, curling toward a warped archway framing the exit opposite a sturdy door leading toward the back office.  A splintered lectern leans against the far wall, flanked by sagging banners covered in soot and dust.  Overhead, a crooked chain suspends a lantern with a cold, blue-green flame casting shadows upon a broken trunk turned askew."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "exits": [
+    {
+      "to": 31960,
+      "kind": "go",
+      "cmd": "go warped archway",
+      "cost": 0.2
+    },
+    {
+      "to": 35837,
+      "kind": "go",
+      "cmd": "go sturdy door",
+      "cost": 0.2
+    },
+    {
+      "to": 35838,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35839,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

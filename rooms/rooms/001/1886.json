@@ -1,0 +1,76 @@
+{
+  "id": 1886,
+  "uid": [
+    3003022
+  ],
+  "title": [
+    "[Company Store, Pelts & Mandible]",
+    "[Company Store, Pelt & Mandible]"
+  ],
+  "description": [
+    "Pelts and skins from several creatures are tacked to the walls.  Several creatures have been stuffed and mounted.  Looking behind you, you see over the red archway a huge bone that looks like a giant rib.  It spans from the floor, over the archway and back to the floor again.  The counter before you is haphazardly covered with several hides, as the proprietor has yet to remove them from the counter.",
+    "Several creatures have been stuffed and mounted around the room, while the pelts and skins of others are tacked to the walls.  Spanning the red archway is a huge bone that looks like a giant rib.  The counter before you is haphazardly covered with several hides, apparently awaiting proper storage.  A rickety staircase leads down toward the source of some very powerful odors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "furrier",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1884,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 12982,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

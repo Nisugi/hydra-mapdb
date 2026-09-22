@@ -1,0 +1,55 @@
+{
+  "id": 21317,
+  "uid": [
+    107103
+  ],
+  "title": [
+    "[House Brigatta, Hallway]"
+  ],
+  "description": [
+    "This small hallway leads from the Common Room to the interior of the house.  A luxurious wool carpet runner muffles the cold stone flooring and several doors lead to other rooms."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Brigatta"
+  ],
+  "image": {
+    "file": "wl-Brigatta-1646274146.png",
+    "rect": [
+      459,
+      565,
+      576,
+      591
+    ]
+  },
+  "exits": [
+    {
+      "to": 21310,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21313,
+      "kind": "go",
+      "cmd": "go oaken door",
+      "cost": 0.2
+    },
+    {
+      "to": 21318,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 21319,
+      "kind": "go",
+      "cmd": "go carved door",
+      "cost": 0.2
+    }
+  ]
+}

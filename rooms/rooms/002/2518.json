@@ -1,0 +1,230 @@
+{
+  "id": 2518,
+  "uid": [
+    4044119
+  ],
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "If it were not for the rough sides of the narrow pass, you would surely lose your way in the blinding snow that swirls around you.  You grope your way forward, fervently praying you will live long enough to look back on this perilous journey."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      1135,
+      502,
+      1145,
+      512
+    ]
+  },
+  "exits": [
+    {
+      "to": 2517,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2519,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

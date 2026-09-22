@@ -1,0 +1,50 @@
+{
+  "id": 34358,
+  "uid": [
+    13150413
+  ],
+  "title": [
+    "[Titan's Crown, Tempest Isle]"
+  ],
+  "description": [
+    "Lightning flashes cast an eerie glow across the landscape, each strike accompanied by thunderous rumbles that vibrate the very air with its sound.  And within those moments of light, the truly massive scale of the zorchar-veined obsidian spires of the large ring at the center of the island can be appreciated."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Stormpeak",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1095,
+      410,
+      1113,
+      430
+    ]
+  },
+  "exits": [
+    {
+      "to": 34353,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34354,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    },
+    {
+      "to": 34359,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 30561,
+  "uid": [
+    652028
+  ],
+  "title": [
+    "[Empath Guild, Alchemic Nexus]"
+  ],
+  "description": [
+    "This octagonal stone chamber is lit by eight flickering torches, one positioned at each corner.  A tunnel in the eastern wall leads upward toward the main training area.  A faint aroma wafts from each of six doorways, an unusual combination of ale and herbs."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, south, southwest, west, northwest, down, out"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "teras-empath_guild.jpg",
+    "rect": [
+      123,
+      147,
+      182,
+      206
+    ]
+  },
+  "exits": [
+    {
+      "to": 30558,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 30560,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30564,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30565,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30566,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30567,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30568,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30569,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30570,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

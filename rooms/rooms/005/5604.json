@@ -1,0 +1,41 @@
+{
+  "id": 5604,
+  "uid": [
+    2120205
+  ],
+  "title": [
+    "[Storage Warehouse, Hallway]"
+  ],
+  "description": [
+    "Lit only by what light manages to leak around the corner to the east, this short length of hallway turns north at its eastern end, but otherwise runs west.  A curtained opening is set into the north wall."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 5602,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5603,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35241,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 12802,
+  "uid": [
+    15002003
+  ],
+  "title": [
+    "[Lyeonia Hall, Corridor]"
+  ],
+  "description": [
+    "Several carved mahogany chairs are positioned against the walls of the corridor in an impromptu seating arrangement that is divided by slender tables topped in linen.  Treats and morsels are set upon trays, and a carafe of wine with glasses rests beside them.  Twin oak doors framed by brass wall sconces are set to either side of the corridor, and display slender plaques as to their purpose.  To the north, the corridor ends in a steel-banded door, while to the south the corridor leads back to the reception area."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      1630,
+      950,
+      1698,
+      1018
+    ]
+  },
+  "exits": [
+    {
+      "to": 12801,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12803,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12806,
+      "kind": "go",
+      "cmd": "go polished door",
+      "cost": 0.2
+    },
+    {
+      "to": 12807,
+      "kind": "go",
+      "cmd": "go worn door",
+      "cost": 0.2
+    }
+  ]
+}

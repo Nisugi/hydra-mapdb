@@ -1,0 +1,43 @@
+{
+  "id": 25353,
+  "uid": [
+    8100106
+  ],
+  "title": [
+    "[Delirium Manor, Side Lawn]"
+  ],
+  "description": [
+    "A red and white candy-striped giftshop sits in the shade of a large, spreading oak tree, and a white-pebbled walkway leads toward an open door.  Tucked discreetly behind it down a gentle slope is a pink-bordered privy.  Surrounding both are painted flower boxes, though few blooms remain on the drying stems within."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "plain dirt",
+  "exits": [
+    {
+      "to": 25352,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25355,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34000,
+      "kind": "go",
+      "cmd": "go giftshop",
+      "cost": 0.2
+    },
+    {
+      "to": 34013,
+      "kind": "go",
+      "cmd": "go priv",
+      "cost": 0.2
+    }
+  ]
+}

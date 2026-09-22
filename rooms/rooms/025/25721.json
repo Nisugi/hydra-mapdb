@@ -1,0 +1,44 @@
+{
+  "id": 25721,
+  "uid": [
+    3223931
+  ],
+  "title": [
+    "[Isle of Species, Dock]"
+  ],
+  "description": [
+    "Brightly colored pennants are woven through the high, white fence that holds the wild foliage of the island at bay, their ends rising and falling with the gentle breath of the seaborne wind.  Several whitewashed pedal boats are anchored to the dock and bob up and down with the rhythmic pulsing of the waves.  Encrusted with sea shells, the path to the south leads toward a flagstone patio."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      159,
+      2100,
+      200,
+      2140
+    ]
+  },
+  "exits": [
+    {
+      "to": 25706,
+      "kind": "go",
+      "cmd": "go boats",
+      "cost": 0.2
+    },
+    {
+      "to": 25722,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

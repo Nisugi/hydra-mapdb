@@ -1,0 +1,163 @@
+{
+  "id": 7,
+  "uid": [
+    13101017
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues across the puddles of water accumulated amongst the cobblestones of the court.  The building's mica-flecked granite exterior, worn smooth with age and elements, stands testament to the city's rich and storied history.",
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the starlight, casting tiny rainbows of shimmering hues from off their stained glass panes.",
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues from off their stained glass panes.  Surrounding the colorful windows, the building's silvery blue granite exterior is worn smooth from age and the elements.  Against the clean, new looking marbles of the structures nearby, the Inn shows its years."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide moonglae",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      529,
+      450,
+      551,
+      475
+    ]
+  },
+  "exits": [
+    {
+      "to": 6,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 8,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 155,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 196,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "7"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "7"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 29804,
+  "uid": [
+    4043702
+  ],
+  "title": [
+    "[Willow Lodge, Great Room]"
+  ],
+  "description": [
+    "Candles flicker in a tiered antler chandelier hanging from the rafters in this large, open room.  Smooth black walnut floors give way to an imposing dark stone fireplace opposite a pair of black willow doors.  A wide pine bench piled high with plush furs stretches beneath an expansive window along the western wall, providing a cozy respite and a magnificent view of the ice plains beyond.  To the east, a verdant woven silk tapestry hangs upon the wall between matching bone-carved sconces."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:willow_hall:entrance_locker",
+    "locker annex:Willow Hall"
+  ],
+  "exits": [
+    {
+      "to": 29802,
+      "kind": "go",
+      "cmd": "go black doors",
+      "cost": 0.2
+    },
+    {
+      "to": 29805,
+      "kind": "go",
+      "cmd": "go woven tapestry",
+      "cost": 0.2
+    }
+  ]
+}

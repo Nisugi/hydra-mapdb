@@ -1,0 +1,158 @@
+{
+  "id": 16061,
+  "uid": [
+    3216017
+  ],
+  "title": [
+    "[Western Harbor, Trident Way]"
+  ],
+  "description": [
+    "Surrounded on either side by dunes covered in sea grass, the cobblestone street culminates in a ramshackle tavern covered with tar-splattered shingles.  Dangling from the lintel on either side of the entry is a pair of copper lanterns, their glass sides reflecting the sunlight in rainbow pools upon the ground.  Beyond the building, gulls dip and swoop, their raucous calls loud and shrill as they attempt to attempt to steal bits of debris from a dilapidated wooden shack."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Western Harbor",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "bay leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "butterfly pea flower",
+    "cardamom",
+    "cherry peppers",
+    "coffee cherries",
+    "creamy ivory plumeria",
+    "cumin seeds",
+    "curly garlic scapes",
+    "deep crimson plumeria",
+    "dill",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh cilantro",
+    "fresh oregano",
+    "garlic",
+    "ghost pepper",
+    "grapefruit",
+    "green beans",
+    "green cabbage",
+    "green guava",
+    "green pepper",
+    "green soybean pod",
+    "green tea leaves",
+    "hot pepper",
+    "jasmine floret",
+    "luckbloom blossom",
+    "mate leaves",
+    "nutmeg",
+    "onion skin",
+    "orange pepper",
+    "orange-yellow starfruit",
+    "pale apricot rose",
+    "pea pods",
+    "peach-blushed rose",
+    "pearl onions",
+    "peppermint leaves",
+    "pink peppercorn",
+    "purple cabbage",
+    "purple passion fruit",
+    "purple tea leaves",
+    "red cherries",
+    "red lychee",
+    "red onion",
+    "red pepper",
+    "red-green mango",
+    "rose-marrow root",
+    "round yuzu",
+    "small watermelon",
+    "stalk of celery",
+    "star anise",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "tobacco leaves",
+    "urchin-access",
+    "vanilla bean",
+    "wavepetal blossom",
+    "white tea leaves",
+    "wild rice",
+    "wild spinach",
+    "yellow lemon",
+    "yellow papaya",
+    "yellow pepper",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1369,
+      1319,
+      1411,
+      1359
+    ]
+  },
+  "exits": [
+    {
+      "to": 16088,
+      "kind": "go",
+      "cmd": "go shack",
+      "cost": 0.2
+    },
+    {
+      "to": 17587,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17600,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": 28071,
+  "uid": [
+    8208729
+  ],
+  "title": [
+    "[Rumor Woods, Canine Track]",
+    "[Rumor Woods, Equid Track]"
+  ],
+  "description": [
+    "Roughly carved poles stand high above the stables, each one strung with a wolf-sewn pennant of crimson and ebon hues.  The hay-strewn path leads up to a wide door, the entrance surrounded by worn-out saddles, dulled lances, and other equipment switched out between contests.",
+    "Roughly carved poles stand high above the stables, each one strung with a stag-sewn pennant of gold and green hues.  The hay-strewn path leads up to a wide door, the entrance surrounded by worn-out saddles, dulled lances, and other equipment switched out between contests.",
+    "Roughly carved poles stand high above the stables, each one strung with a phoenix-sewn pennant of vermilion and black.  The hay-strewn path leads up to a wide door, the entrance surrounded by worn-out saddles, dulled lances, and other equipment switched out between contests."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, west, northwest"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1100,
+      610,
+      1123,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 28068,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28072,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28076,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28080,
+      "kind": "go",
+      "cmd": "go canvas lean-to",
+      "cost": 0.2
+    },
+    {
+      "to": 28083,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28095,
+      "kind": "go",
+      "cmd": "go wide door",
+      "cost": 0.2
+    },
+    {
+      "to": 29668,
+      "kind": "go",
+      "cmd": "go golden tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29669,
+      "kind": "go",
+      "cmd": "go green-on-brown tent",
+      "cost": 0.2
+    }
+  ]
+}

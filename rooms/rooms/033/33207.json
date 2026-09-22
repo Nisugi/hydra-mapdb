@@ -1,0 +1,36 @@
+{
+  "id": 33207,
+  "uid": [
+    13010152
+  ],
+  "title": [
+    "[Rone Academy Annex]"
+  ],
+  "description": [
+    "Two huge toadstools in large stone pots illuminate a large, comfortable room.  Dusky brown granite benches line two of the marble walls, facing each other across the sapphire carpet.  On one wall, a brass arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:rone_academy:entrance_annex",
+    "che:rone_academy:entrance_locker",
+    "locker annex:Rone Academy"
+  ],
+  "exits": [
+    {
+      "to": 28675,
+      "kind": "go",
+      "cmd": "go brass arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36087,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

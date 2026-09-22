@@ -1,0 +1,52 @@
+{
+  "id": 29611,
+  "uid": [
+    686042
+  ],
+  "title": [
+    "[Water Tower, Third Floor]"
+  ],
+  "description": [
+    "Next to the arch to the northwest, a gnomish contraption rests as a shrine.  A yard-wide wheel has been filled with sand and water, while gears keep the wheel in constant back-and-forth motion.  The blue-dyed water and pristine white sand intermingle, creating a miniature storm within the wheel's confines.  Sitting unobtrusively to the north and west are two bridges offering access to the other towers."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      433,
+      483,
+      463,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 29589,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29610,
+      "kind": "go",
+      "cmd": "go north bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29612,
+      "kind": "go",
+      "cmd": "go west bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29613,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

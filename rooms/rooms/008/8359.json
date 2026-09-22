@@ -1,0 +1,57 @@
+{
+  "id": 8359,
+  "uid": [
+    13025
+  ],
+  "title": [
+    "[Spider Temple, Cell]"
+  ],
+  "description": [
+    "A small cot, shoved hastily in the corner, provides the captive's only refuge:  slumber.  Several pairs of well-tended manacles are chained from the basalt walls, which are hard and unforgiving, enduring in their silent torture longer than the mercurial will of the gods."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      498,
+      644,
+      508,
+      654
+    ]
+  },
+  "exits": [
+    {
+      "to": 8354,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25497,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "the opening of an escape tunnel",
+              "nothing other than the tunnel"
+            ]
+          }
+        },
+        {
+          "move": "go tunnel"
+        }
+      ],
+      "cost": 4.0
+    }
+  ]
+}

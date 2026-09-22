@@ -1,0 +1,43 @@
+{
+  "id": 17911,
+  "uid": [
+    268019
+  ],
+  "title": [
+    "[Rogue Guild, Workshop Entrance]"
+  ],
+  "description": [
+    "Shiny steel racks and hooks are laden with a wide assortment of locksmithing tools, meticulously arranged by size.  To the west, erected glaes walls partition off a series of individual workshops for guild members to practice their craft."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild workshop"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      789,
+      400,
+      827,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 17908,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33258,
+      "kind": "go",
+      "cmd": "go toolbenches",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 20192,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "A collection of shrub-like water ash lining the pathway lends a distinctive pungency to the area.  Small, wafer-like, winged samaras litter the ground where they have dropped from the branches, having failed in their mission to be carried on the wind to populate elsewhere."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      322,
+      358,
+      336,
+      372
+    ]
+  },
+  "exits": [
+    {
+      "to": 20140,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20190,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21475,
+      "kind": "go",
+      "cmd": "go black tent",
+      "cost": 0.2
+    }
+  ]
+}

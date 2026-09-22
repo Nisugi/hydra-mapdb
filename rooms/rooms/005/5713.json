@@ -1,0 +1,92 @@
+{
+  "id": 5713,
+  "uid": [
+    4740019
+  ],
+  "title": [
+    "[Solhaven Inn, Main Hall]"
+  ],
+  "description": [
+    "Royal blue wall hangings and marble sheathed walls lend an air of elegance to the main hall of the Inn.  Black, white, and rose marble is placed in an elaborate pattern covering the floor.  Several vultite inlaid modwir tables are ranged around the edge of the room, each with a pair of heavy carved modwir chairs in attendance.  The centerpiece of the room is an immense crystal and candle chandelier, which sends sparks of soft light throughout the room."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest, out"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "inn",
+    "no forageables",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1455,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 5714,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5715,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5716,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 13243,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

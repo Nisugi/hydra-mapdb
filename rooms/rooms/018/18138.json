@@ -1,0 +1,63 @@
+{
+  "id": 18138,
+  "uid": [
+    13102005
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Pewter Salon]"
+  ],
+  "description": [
+    "Well-lit and spacious, the salon is a busy hub of activity.  Elves and visitors to the city go about their business down the various hallways.  An immense ogee arch leads back to the entrance, while along a different wall a guard protects a mistwood door.  Several benches are placed about the area with various topiary set between.  The ceiling is accented with lacy fan vaulting, the pieces overlapping above in a feathered pattern of argent stone."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west",
+    "Obvious exits: north, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      484,
+      1002,
+      508,
+      1022
+    ]
+  },
+  "exits": [
+    {
+      "to": 17841,
+      "kind": "go",
+      "cmd": "go ogee arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18136,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18139,
+      "kind": "go",
+      "cmd": "go mistwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 18141,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32534,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

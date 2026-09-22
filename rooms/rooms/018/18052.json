@@ -1,0 +1,146 @@
+{
+  "id": 18052,
+  "uid": [
+    687019
+  ],
+  "title": [
+    "[Wizard Guild, Shaft]"
+  ],
+  "description": [
+    "Vaalorn sconces cast a steady, bluish light over this circular room.  A wide walkway rings a shaft bored clean through the granite of the tower, allowing access to any of the Guild towers at this level."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west, up, down"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      352,
+      535,
+      418,
+      597
+    ]
+  },
+  "exits": [
+    {
+      "to": 18043,
+      "kind": "scripted",
+      "steps": [
+        {
+          "wait_until": {
+            "flag": "own_disk_here"
+          },
+          "when": {
+            "spell_active": "Floating Disk"
+          }
+        },
+        {
+          "wait_until": {
+            "spell_affordable": "Floating Disk"
+          },
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Floating Disk",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 18048,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 3.0
+    },
+    {
+      "to": 18053,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 18054,
+      "kind": "scripted",
+      "steps": [
+        {
+          "wait_until": {
+            "flag": "own_disk_here"
+          },
+          "when": {
+            "spell_active": "Floating Disk"
+          }
+        },
+        {
+          "wait_until": {
+            "spell_affordable": "Floating Disk"
+          },
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Floating Disk",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 18056,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

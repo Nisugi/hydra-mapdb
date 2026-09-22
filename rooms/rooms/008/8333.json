@@ -1,0 +1,44 @@
+{
+  "id": 8333,
+  "uid": [
+    13005
+  ],
+  "title": [
+    "[Spider Temple, Leg of Drevthrel]"
+  ],
+  "description": [
+    "Velvet hangings drape lavishly along the long walls, interrupted occasionally by fine crystal sculpture.  Near a curtained off area to the east are a gilt full length mirror, two soft chairs, and a low table of polished modwir."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      632,
+      981,
+      642,
+      991
+    ]
+  },
+  "exits": [
+    {
+      "to": 8332,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8334,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

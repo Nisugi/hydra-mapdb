@@ -1,0 +1,45 @@
+{
+  "id": 27660,
+  "title": [
+    "[Clovertooth, Second Floor Hall]"
+  ],
+  "description": [
+    "Your attention here is immediately drawn to an ostentatious gallery entrance with a sizeable platinum plaque placed high above it, its surface reflecting brightly in the ambient torchlight.  Guests mill their way into, out of, and around the cultural attraction, and their voices are muted by countless alternating, multicolored velvet and silk drapes tied back with shimmering golden cords that frame the ingress."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      1279,
+      317,
+      1382,
+      385
+    ]
+  },
+  "exits": [
+    {
+      "to": 27657,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 27661,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27667,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

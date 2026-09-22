@@ -1,0 +1,110 @@
+{
+  "id": 10438,
+  "uid": [
+    287001
+  ],
+  "title": [
+    "[Bard Guild, Entry]"
+  ],
+  "description": [
+    "Slender oak columns frame this grand entry hall, whose pale granite walls rise the full two stories of the building.  The columns support a second floor gallery, reached by a sweeping staircase and bordered by a heavily carved balustrade from which are hung dozens of banners bearing crests of ancient elven families.  The east and west walls are pierced by tall, lancet-topped leaded glass windows, through which dappled sunlight pours into the hall.",
+    "Slender oak columns frame this grand entry hall, whose pale granite walls rise the full two stories of the building.  The columns support a second floor gallery, reached by a sweeping staircase and bordered by a heavily carved balustrade from which are hung dozens of banners bearing crests of ancient elven families.  A trio of gracefully wrought vaalorn chandeliers fills the hall with warm, steady light."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide bardguild",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-vaalor-bard-guild.png",
+    "rect": [
+      269,
+      441,
+      290,
+      459
+    ]
+  },
+  "exits": [
+    {
+      "to": 3508,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10761,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 13538,
+      "kind": "go",
+      "cmd": "go gateway",
+      "cost": 0.2
+    },
+    {
+      "to": 13539,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28335,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

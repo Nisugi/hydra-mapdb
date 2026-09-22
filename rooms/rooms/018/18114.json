@@ -1,0 +1,52 @@
+{
+  "id": 18114,
+  "uid": [
+    661008
+  ],
+  "title": [
+    "[Sorcerer Guild, Library]"
+  ],
+  "description": [
+    "Musty old tomes and ancient writings compete with newer works and essays for space on the shelves of this library.  Ten shelves rise from floor to ceiling in each dark walnut bookcase, and ladders provide access to the higher shelves.  The crimson carpet carries the feel of extra padding, totally muffling the passing footsteps.  Brass candelabra grace each walnut desk, illuminating private places for study and contemplation, while a stern-looking librarian presides over this repository of knowledge."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Coastal Cliffs",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-sorcerer_guild-1405076623.png",
+    "rect": [
+      343,
+      619,
+      384,
+      659
+    ]
+  },
+  "exits": [
+    {
+      "to": 18112,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18115,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 18116,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 18117,
+      "kind": "climb",
+      "cmd": "climb ramp",
+      "cost": 0.2
+    }
+  ]
+}

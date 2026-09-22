@@ -1,0 +1,65 @@
+{
+  "id": 9557,
+  "uid": [
+    688009
+  ],
+  "title": [
+    "[Wizard Guild, Third Stratum]"
+  ],
+  "description": [
+    "Polished blocks of marble give way to natural rock in the structure of the third stratum.  A shallow alcove lies across the way from a well-lit tunnel to the northwest.  Roughly hewn into the wall to the east is a large opening, allowing passage below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, up"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul-wizard_guild-1648064027.png",
+    "rect": [
+      281,
+      532,
+      342,
+      593
+    ]
+  },
+  "exits": [
+    {
+      "to": 9556,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9558,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9559,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9561,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    }
+  ]
+}

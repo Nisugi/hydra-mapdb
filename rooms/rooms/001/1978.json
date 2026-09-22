@@ -1,0 +1,83 @@
+{
+  "id": 1978,
+  "uid": [
+    3001011
+  ],
+  "title": [
+    "[Vaalin Street, Temple District]"
+  ],
+  "description": [
+    "This quiet street ends at a gate set into the canyon wall.  The gate is carved of white marble, polished and gleaming with reflected moonlight.  Dwarves in clerical garb wander in and out, and the low, rhythmic sounds of chanting carry to you from inside.",
+    "This quiet street ends at a gate set into the canyon wall.  The gate is carved of white marble, polished and gleaming with reflected light.  Dwarves in clerical garb wander in and out, and the low, rhythmic sounds of chanting carry to you from inside."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide weddinghall",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1122,
+      875,
+      1152,
+      905
+    ]
+  },
+  "exits": [
+    {
+      "to": 1962,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1979,
+      "kind": "go",
+      "cmd": "go marble gate",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

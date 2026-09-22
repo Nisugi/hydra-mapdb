@@ -1,0 +1,59 @@
+{
+  "id": 19614,
+  "title": [
+    "[Albatross, Main Deck]"
+  ],
+  "description": [
+    "Sunlight glints off the polished rosewood and mahogany decks.  A heavy dark mahogany door banded with ornate gold filigree leads inside the riverboat, while the deck wraps about it all.  To the northwest, a large foredeck is visible, and to the aft, the large paddlewheel can be seen.  Carefully piled silk rope sits next to a gaily beribboned mahogany gangplank leading off the boat, an iron ring peeking through the layers."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:fest-albatross"
+  ],
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      232,
+      546,
+      266,
+      580
+    ]
+  },
+  "exits": [
+    {
+      "to": 8889,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 19618,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19621,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19637,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

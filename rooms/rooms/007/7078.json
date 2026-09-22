@@ -1,0 +1,50 @@
+{
+  "id": 7078,
+  "uid": [
+    44013
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A small clay pot is set high on the wall in the corner.  The pot glows with a dim, flickering light, illuminating the north and east branches of the corridor for a few paces in each direction, and leaves many wavering shadows where monsters may be lurking."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      841,
+      1091,
+      851,
+      1101
+    ]
+  },
+  "exits": [
+    {
+      "to": 7071,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7079,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7116,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 2659,
+  "uid": [
+    4562015
+  ],
+  "title": [
+    "[Platform of Ice]"
+  ],
+  "description": [
+    "To the northwest, a flight of steps leads up, so icy that climbing their hazardous incline seems an impossible feat.  Above the course of steps, a dais is visible below a ridge.  Strange flickers of reflected light bounce off the icy walls above and around the dais, as if the low light were rebounding off water.  To the south, the huge, sculpted mountain of ice exudes a constant wave of brutal cold, as if it was exhaling the wilderness of rime encasing the ancient edifice."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, west"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      390,
+      513,
+      400,
+      523
+    ]
+  },
+  "exits": [
+    {
+      "to": 2658,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 2660,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2668,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2669,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

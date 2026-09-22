@@ -1,0 +1,54 @@
+{
+  "id": 33283,
+  "uid": [
+    4201108
+  ],
+  "title": [
+    "[Vornavis, Gate of the Tradesmen]"
+  ],
+  "description": [
+    "Known colloquially as the Tradesmen's Gates, a wide stone structure juts out from the copper-faced doors that interrupt the tall Vornavis-Solhaven wall.  Cobbled stairs to the south and north ascend to the bustling warehouse district of the imperial city, where refracted light bounces off of lanterns that are strung up on the avenue below.  Fuchsia-footed wandering sailor, a local ivy, climbs the walls, finding purchase in the ancient mortar between the stacked stone blocks.",
+    "Known colloquially as the Tradesmen's Gates, a wide stone structure juts out from the copper-faced doors that interrupt the tall Vornavis-Solhaven wall.  Cobbled stairs to the south and north ascend to the bustling warehouse district of the imperial city, where pinpoints of lantern light glow from where they are strung up on the avenue below.  Fuchsia-footed wandering sailor, a local ivy, climbs the walls, finding purchase in the ancient mortar between the stacked stone blocks."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Vornavis Proper",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "citizenship:Solhaven"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1661,
+      579,
+      1683,
+      601
+    ]
+  },
+  "exits": [
+    {
+      "to": 1457,
+      "kind": "go",
+      "cmd": "go copper-faced doors",
+      "cost": 0.2
+    },
+    {
+      "to": 33282,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33302,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": 30266,
+  "uid": [
+    7120001,
+    7120013,
+    7120025,
+    7120037,
+    7120049,
+    7120061,
+    7120073
+  ],
+  "title": [
+    "[Enemy Ship, Main Deck]"
+  ],
+  "description": [
+    "A flock of seagulls whirls high above a mastoverhead, one occasionally diving towards the water below.  A constant breeze ripples both the sea and the fabric of a sail, the riggings moving rhythmically back and forth above some cannons on either side of the deck.  An overturned bucket serving as a makeshift stool sits in front of a fishing pole abandoned against some debris."
+  ],
+  "paths": [
+    "Obvious paths: east, west, up, down"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy carrack"
+  ],
+  "meta": [
+    "exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      804,
+      571,
+      819,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 29038,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30119,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30130,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30142,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30166,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30176,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gang"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30267,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30269,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30270,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30271,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

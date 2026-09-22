@@ -1,0 +1,46 @@
+{
+  "id": 30331,
+  "uid": [
+    8214704
+  ],
+  "title": [
+    "[Caligae of the Colossus, Deck]"
+  ],
+  "description": [
+    "Rising from the icy slope of the wood decking, a curving staircase ascends to the forecastle where railings topped with holly-adorned copper lanterns.  High railings, each nearly a solid wall that is designed to prevent falls into the frozen waters beyond, are dotted with round shields protected by thick furs.  Pennants of madder red, gorse yellow, and lapis blue drape from the low roof created by the forecastle deck, the fabric strung between icicles formed across the hempen rope strung from wall to wall."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      361,
+      582,
+      389,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 30330,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30332,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30346,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

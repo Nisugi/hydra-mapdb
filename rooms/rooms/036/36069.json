@@ -1,0 +1,47 @@
+{
+  "id": 36069,
+  "uid": [
+    106203
+  ],
+  "title": [
+    "[Cairnfang Manor, Under the Pond]"
+  ],
+  "description": [
+    "Well-lit, this sprawling circular chamber is filled with numerous couches, stools and chairs placed haphazardly about.  A massive glass ceiling allows a clear and transparent view into the pond directly above.  The faint sound of rushing water can be heard, although the exact source is unclear.  Looking almost out of place is a carved linden wardrobe that rests next to a slightly singed purple door, which adds to the unusual decor.  Placed in the center is a square driftwood table allowing for any number of conferences, debates and clandestine meetings."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      371,
+      413,
+      383,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 36068,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36070,
+      "kind": "go",
+      "cmd": "go singed door",
+      "cost": 0.2
+    },
+    {
+      "to": 36071,
+      "kind": "go",
+      "cmd": "go glowing archway",
+      "cost": 0.2
+    }
+  ]
+}

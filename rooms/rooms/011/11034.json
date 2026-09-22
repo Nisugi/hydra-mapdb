@@ -1,0 +1,90 @@
+{
+  "id": 11034,
+  "uid": [
+    2104023
+  ],
+  "title": [
+    "[Tempest Falls, Landing]"
+  ],
+  "description": [
+    "The steps pause at a landing of sorts behind the waterfall.  Only inches from the edge of the landing, the water falls rather noisily from above.  Any further progress up the steps is impossible, as the rushing water blocks your way."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the South River Road",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "sunburst blossom",
+    "urchin guide weddinghall",
+    "urchin-access",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2713,
+      1416,
+      2737,
+      1437
+    ]
+  },
+  "exits": [
+    {
+      "to": 11033,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11035,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 23960,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 21859,
+  "title": [
+    "[Talador, Pine Avenue]"
+  ],
+  "description": [
+    "A worn cobblestone road bends west, passing by a number of old stone shops and covered wagons.  Workers move about, hauling grain, metal, and lumber."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      196,
+      327,
+      223,
+      354
+    ]
+  },
+  "exits": [
+    {
+      "to": 21858,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21860,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21861,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 21862,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

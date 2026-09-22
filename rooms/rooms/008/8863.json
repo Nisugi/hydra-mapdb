@@ -1,0 +1,35 @@
+{
+  "id": 8863,
+  "uid": [
+    4048
+  ],
+  "title": [
+    "[Local Warehouse, Stowage]"
+  ],
+  "description": [
+    "This chamber's high ceilings accommodate an array of equipment designed for loading merchandise between ships and the dock."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8862,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8865,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

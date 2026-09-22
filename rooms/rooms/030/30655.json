@@ -1,0 +1,57 @@
+{
+  "id": 30655,
+  "uid": [
+    856004
+  ],
+  "title": [
+    "[Zul Logoth Hall, Tunnel]"
+  ],
+  "description": [
+    "A half-dozen torches, some extinguished, line the tunnel walls.  Shadows dance and play along the path in a silent game of tag.  On each side of the tunnel stands a curtained arch, one draped in red and the other in grey."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 30654,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30656,
+      "kind": "go",
+      "cmd": "go grey arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30657,
+      "kind": "go",
+      "cmd": "go red arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30659,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 11297,
+  "uid": [
+    377108
+  ],
+  "title": [
+    "[Alchemist, Library]"
+  ],
+  "description": [
+    "Every one of the ancient bookshelves has fallen, and they slump against one another like drunken soldiers.  The northernmost bookshelf broke in two after its collision with the wall, and its bulk mostly blocks access to the large fireplace.  It appears that extra damage was done to the tomes after the library's collapse, for crumpled pages ripped from their bindings litter the floor, evidence of an intruder's presence."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      833,
+      866,
+      843,
+      876
+    ]
+  },
+  "exits": [
+    {
+      "to": 11296,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 11298,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11300,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

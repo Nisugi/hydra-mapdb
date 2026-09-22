@@ -1,0 +1,49 @@
+{
+  "id": 28174,
+  "title": [
+    "[Valley of Gold, Bazaar]"
+  ],
+  "description": [
+    "Centered in this part of the clearing, a large oak tree reaches up to the sky and spreads its branches over the bazaar, a ring of wooden benches surrounding the wide trunk.  Bright sunlight trickles down from above, dabbing the ground with spots of warmth.  Newly planted beds of rose bushes add brilliant crimson color to the area.",
+    "Centered in this part of the clearing, a large oak tree reaches up to the sky and spreads its branches over the bazaar, a ring of wooden benches surrounding the wide trunk.  Cool moonlight trickles down from above, dabbing the ground with spots of pale light.  Newly planted beds of rose bushes add brilliant crimson color to the area."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
+  "image": {
+    "file": "fest-valley_of_gold-1561138415.png",
+    "rect": [
+      87,
+      247,
+      103,
+      266
+    ]
+  },
+  "exits": [
+    {
+      "to": 28163,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28171,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28175,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 28176,
+      "kind": "go",
+      "cmd": "go structure",
+      "cost": 0.2
+    }
+  ]
+}

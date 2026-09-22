@@ -1,0 +1,48 @@
+{
+  "id": 21887,
+  "title": [
+    "[Talador, East Circle]"
+  ],
+  "description": [
+    "A pair of bridled oxen move down the lane, hauling a dark-haired teamster and a wagon full of bricks.  Town guards stroll about casually, watching the visitors and townspeople as they pass."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      425,
+      214,
+      451,
+      242
+    ]
+  },
+  "exits": [
+    {
+      "to": 21884,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21888,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21889,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21890,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

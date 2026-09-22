@@ -1,0 +1,59 @@
+{
+  "id": 6221,
+  "uid": [
+    2167067
+  ],
+  "title": [
+    "[Labyrinth]"
+  ],
+  "description": [
+    "A large, open room stretches outward from the doorway, its contents dilapidated and dust-covered."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest",
+    "Obvious exits: southwest, west"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      1144,
+      401,
+      1178,
+      435
+    ]
+  },
+  "exits": [
+    {
+      "to": 6200,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6222,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_by_any_exit_but": "west"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

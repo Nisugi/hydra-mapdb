@@ -1,0 +1,60 @@
+{
+  "id": 16203,
+  "uid": [
+    216022
+  ],
+  "title": [
+    "[Beacon Hall, Lofty Room]"
+  ],
+  "description": [
+    "A vaulted ceiling rises high above this large, unfurnished room.  A number of crates and barrels, most still sealed, are stacked about the room.  They bear labels indicating their contents to be books, scrolls, maps, and assorted scholarly paraphernalia, obviously intended for the Archive library but not yet unpacked.  The few open containers give off a satisfying smell of leather and parchment, and literary riches can be glimpsed within."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1212,
+      465,
+      1257,
+      510
+    ]
+  },
+  "exits": [
+    {
+      "to": 16189,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16201,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16204,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16205,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1876,
+  "uid": [
+    3002028
+  ],
+  "title": [
+    "[Kharam-Dzu, Poor Quarter]"
+  ],
+  "description": [
+    "The road ends here in the shadow of a burnt-out manor.  The residents of Kharam-Dzu never set foot here, speaking of it only in whispers, and gazing up at the ruins you shudder a moment.  The charred shell was once a grand and elegant home, leaving you wondering what brought its downfall."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      114,
+      744,
+      150,
+      780
+    ]
+  },
+  "exits": [
+    {
+      "to": 1875,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12414,
+      "kind": "go",
+      "cmd": "go manor",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 27798,
+  "uid": [
+    285008
+  ],
+  "title": [
+    "[Bard Guild, Courtyard]"
+  ],
+  "description": [
+    "Large well-trimmed green hedges mark the entrance to a maze-like garden, the pale white stones that mark the entrance swept with tiny chips of violet feystone.  A dark spiraled iron gate runs through the large hedges, its intricate twists and loops mirrored by the patterns cut meticulously into the living walls of green.  A few chairs and small tables are scattered across the area, offering a comfortable place for quiet discussion."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 27796,
+      "kind": "go",
+      "cmd": "go glimaerstone door",
+      "cost": 0.2
+    },
+    {
+      "to": 27801,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34420,
+      "kind": "go",
+      "cmd": "go spiraled gate",
+      "cost": 0.2
+    }
+  ]
+}

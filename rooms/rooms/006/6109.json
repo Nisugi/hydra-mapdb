@@ -1,0 +1,70 @@
+{
+  "id": 6109,
+  "uid": [
+    8030
+  ],
+  "title": [
+    "[A Mountain Trail]"
+  ],
+  "description": [
+    "The trail here is barely passable, probably due to the avalanche that occurred here many years ago."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      305,
+      1201,
+      315,
+      1211
+    ]
+  },
+  "exits": [
+    {
+      "to": 6108,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 6110,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ravine"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7922,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

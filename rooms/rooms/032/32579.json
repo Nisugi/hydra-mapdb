@@ -1,0 +1,52 @@
+{
+  "id": 32579,
+  "uid": [
+    336670
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "In every direction the murky blue waters of Darkstone Bay spread out all around you.  Small waves rise and fall, sending ripples of foam and bits of kelp floating along the surface.  The silver glow of the moon cascades down, causing patches of the sea to almost gleam like metal."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "saltwater",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "bolmara lichen",
+    "broken twig",
+    "murdroot",
+    "pearly green vine",
+    "strand of seaweed",
+    "wavepetal blossom"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "exits": [
+    {
+      "to": 32576,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

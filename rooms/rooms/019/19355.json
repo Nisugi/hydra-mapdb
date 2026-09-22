@@ -1,0 +1,48 @@
+{
+  "id": 19355,
+  "uid": [
+    3223105
+  ],
+  "title": [
+    "[Shear Delight, Beach Room]"
+  ],
+  "description": [
+    "Viridian-hued tapestries adorn the walls of this opulent salon, each depicting a humanoid figure in various states of repose.  A woven rug of green, gold, and blue wool runs the length of the floor, toward a pale driftwood hallway flanked by twin interior bronze arches leading to adjacent rooms.  Potted exotic plants line the walls between the tapestries, their green and purple leaves an inviting splash of color, while a tall oak podium stands near the front of the room.",
+    "Viridian-hued tapestries adorn the walls of this opulent salon, each depicting a humanoid figure in various states of repose.  A woven rug of green, gold, and blue wool runs the length of the floor, toward the twin interior bronze arches leading to adjacent rooms.  Potted exotic plants line the walls between the tapestries, their green and purple leaves an inviting splash of color, while a tall oak podium stands near the front of the room."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 19354,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19405,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19406,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27689,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    }
+  ]
+}

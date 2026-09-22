@@ -1,0 +1,40 @@
+{
+  "id": 24147,
+  "title": [
+    "[Necropolis, Narrow Ledge]"
+  ],
+  "description": [
+    "The deafening sound of a waterfall can be heard to the north.  The ledge ends abruptly, and the only way to continue is to leap into the depths below."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24146,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24148,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 0.2
+    },
+    {
+      "to": 24168,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get rope"
+        },
+        {
+          "move": "push rope"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

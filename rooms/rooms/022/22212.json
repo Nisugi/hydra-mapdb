@@ -1,0 +1,59 @@
+{
+  "id": 22212,
+  "uid": [
+    14119022
+  ],
+  "title": [
+    "[Guardian Keep, East Hallway]"
+  ],
+  "description": [
+    "Sword aloft, a hulking Vaalor elf is remembered in statue at the end of the low-ceiling chamber.  Runners of golden and crimson velvet soften the tiled floors below, the hues reflecting in the burnished marble of the ceiling.  A lustrous mosaic-tiled arch gleams from the southern wall at the hallway's midpoint.  Near the corridor's end, the simple entrance to the armory and a swinging oak door heading into the kitchens stand opposite one another."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "citizenship:Ta'Vaalor"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-1260914757.png",
+    "rect": [
+      1577,
+      673,
+      1617,
+      709
+    ]
+  },
+  "exits": [
+    {
+      "to": 22207,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22213,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 22214,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 22215,
+      "kind": "go",
+      "cmd": "go armory",
+      "cost": 0.2
+    }
+  ]
+}

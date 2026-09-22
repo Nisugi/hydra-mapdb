@@ -1,0 +1,44 @@
+{
+  "id": 25687,
+  "uid": [
+    107307
+  ],
+  "title": [
+    "[House Brigatta, Secret Tunnel]"
+  ],
+  "description": [
+    "The tunnel is quite dry and has a hard dirt floor.  It ends against a blank wall with no way to get out.  At the other end is a curtained opening."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 21323,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "knock wall"
+        },
+        {
+          "put": "knock wall"
+        },
+        {
+          "move": "knock wall"
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 25688,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

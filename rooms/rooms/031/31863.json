@@ -1,0 +1,68 @@
+{
+  "id": 31863,
+  "uid": [
+    8083074
+  ],
+  "title": [
+    "[Icebriar Lake, Lake's Edge]"
+  ],
+  "description": [
+    "Several lake houses cluster near the snow-covered banks of Icebriar Lake, while others nestle between clusters of trees set to the other side of the cobblestone path that winds along the length of the lake.  Several snowmen loom atop large drifts of snow, many wielding weapons where stick hands would normally be found.  While most of the lake's shore is inaccessible, a single icy bank appears relatively safe, albeit guarded by a squat snowman with a claidhmore."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "glacial",
+  "terrain": "icy glacier",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1166,
+      165,
+      1189,
+      187
+    ]
+  },
+  "exits": [
+    {
+      "to": 31862,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31864,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 31865,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31883,
+      "kind": "go",
+      "cmd": "go veranda",
+      "cost": 0.2
+    },
+    {
+      "to": 35816,
+      "kind": "go",
+      "cmd": "go jacinthe door",
+      "cost": 0.2
+    },
+    {
+      "to": 35818,
+      "kind": "go",
+      "cmd": "go oak porch",
+      "cost": 0.2
+    }
+  ]
+}

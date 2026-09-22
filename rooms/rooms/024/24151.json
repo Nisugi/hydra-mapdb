@@ -1,0 +1,31 @@
+{
+  "id": 24151,
+  "title": [
+    "[Necropolis, Underground Lake]"
+  ],
+  "description": [
+    "The area is pitch dark with only a few glowing toadstools dotting the shoreline.  The vast lake stretches into an abyss of murky swamp water."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24149,
+      "kind": "go",
+      "cmd": "go shoreline",
+      "cost": 0.2
+    },
+    {
+      "to": 24152,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

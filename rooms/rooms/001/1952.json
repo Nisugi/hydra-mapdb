@@ -1,0 +1,76 @@
+{
+  "id": 1952,
+  "uid": [
+    858002
+  ],
+  "title": [
+    "[Kharam Dzu Hall, Entrance]"
+  ],
+  "description": [
+    "Six glowing orbs light a concave wall of pure white drakar speckled with red that encompasses this well-lit antechamber.  The floor is crafted from hardened lava, leveled and polished smooth.  A thick bronze seal is set deeply into the floor, facing an obsidian archway that leads to the tunnels of Kharam Dzu.  Opposing the archway, a flagstone stairway curves in wide, angular sections as it descends."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mho hall",
+    "mho hall board",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1951,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30667,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

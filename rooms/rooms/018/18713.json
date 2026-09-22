@@ -1,0 +1,52 @@
+{
+  "id": 18713,
+  "uid": [
+    4031010
+  ],
+  "title": [
+    "[Krolvin Warship]"
+  ],
+  "description": [
+    "Faded green paint peels from the wooden housing protecting the rough, square-shaped hatch that leads below deck, by way of some wooden stairs.  Tepid water forms a small puddle in the hatch cover, which lies discarded against the hemp stays of the main mast."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      340,
+      48,
+      361,
+      65
+    ]
+  },
+  "exits": [
+    {
+      "to": 18712,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 18714,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23591,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24325,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 2464,
+  "uid": [
+    4043353
+  ],
+  "title": [
+    "[Pawnshop, Interior]"
+  ],
+  "description": [
+    "Stark wooden floorboards creak under the weight of stacks of bundled weapons and leather.  Perched atop the tall bundles is a halfling clerk who looks none too eager to help you.  In a place of honor on the wall opposite the door is a portrait of Sniffberry, the pawnshop proprietor."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "pawn",
+    "pawnshop",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      938,
+      1142,
+      974,
+      1178
+    ]
+  },
+  "exits": [
+    {
+      "to": 2463,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

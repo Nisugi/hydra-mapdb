@@ -1,0 +1,64 @@
+{
+  "id": 7319,
+  "uid": [
+    2150002
+  ],
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "The walls open wide and high forming a small valley forgotten by the waking world.  Covering the entire range is a low layer of thick white mist, lending the land an eerie glow.  Near the base of the wall, you see a crevice leading down into darkness."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "blue whortleberry",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "ironfern root",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      985,
+      333,
+      995,
+      343
+    ]
+  },
+  "exits": [
+    {
+      "to": 7318,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 7320,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7321,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

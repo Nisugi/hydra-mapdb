@@ -1,0 +1,41 @@
+{
+  "id": 33292,
+  "uid": [
+    4031053
+  ],
+  "title": [
+    "[Great Western Sea]"
+  ],
+  "description": [
+    "The nearby schooner offers some protection from the choppy water of the Northern Waves.  The great hull of the nearby krolvin warship is dangerously close, threatening to crush you between the two ships.  A long rope ladder descends from the schooner above, allowing ease of access to the vessel for those overboard."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      53,
+      109,
+      71,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 20016,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 33291,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

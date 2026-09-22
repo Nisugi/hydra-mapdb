@@ -1,0 +1,49 @@
+{
+  "id": 18223,
+  "title": [
+    "[Forest Path]"
+  ],
+  "description": [
+    "A moss-covered stone building stands nestled in a grove of wyrmwood trees, which displays a dilapidated wooden sign just above the stone grey arch.  Positioned in a sweeping arc, several benches rest, offering a scenic view of the swamp ahead."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest",
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      651,
+      985,
+      667,
+      1000
+    ]
+  },
+  "exits": [
+    {
+      "to": 17410,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18235,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 18243,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21421,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

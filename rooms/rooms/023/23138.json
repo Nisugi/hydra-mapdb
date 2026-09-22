@@ -1,0 +1,47 @@
+{
+  "id": 23138,
+  "uid": [
+    3215107
+  ],
+  "title": [
+    "[Paupers, Annex Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A royal blue velvet pennant edged in silver hangs near a heavy, white muslin curtain.",
+    "Rattan stools flank an ebonwood-topped driftwood bar resting on a large mat of pressed banana leaves, and a wide cushioned wicker armchair invites relaxation while enjoying libation.  Bright blue woven mats are placed before a dark gold flyrsilk curtain and a pale lapis muslin-covered opening."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "pauperslockers"
+  ],
+  "meta": [
+    "che:paupers:entrance_annex",
+    "che:paupers:entrance_locker",
+    "locker annex:House of Paupers"
+  ],
+  "exits": [
+    {
+      "to": 12295,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23144,
+      "kind": "go",
+      "cmd": "go flyrsilk curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 32852,
+      "kind": "go",
+      "cmd": "go muslin-covered opening",
+      "cost": 0.2
+    }
+  ]
+}

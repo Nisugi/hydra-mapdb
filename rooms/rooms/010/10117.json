@@ -1,0 +1,65 @@
+{
+  "id": 10117,
+  "uid": [
+    13049050
+  ],
+  "title": [
+    "[Lake of Fear, North Dock]"
+  ],
+  "description": [
+    "Finely-carved modwir posts support the weight of the fel boards that form the floor of the dock.  The boards are fastened securely to the posts with a thick rope twined between each board.  The gentle sway of the dock causes a light creaking sound as the waves brush against the posts.  A cobblestone path leads away from the dock back towards the village."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Sylvarraend Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      1028,
+      1124,
+      1038,
+      1134
+    ]
+  },
+  "exits": [
+    {
+      "to": 10115,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 10119,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go gangplank"
+        },
+        {
+          "await": "An elven crewmember scrambles back onto the boat and lowers the gangplank.",
+          "when": "still_here"
+        },
+        {
+          "move": "go gangplank",
+          "when": "still_here"
+        },
+        {
+          "await": "An elven crewmember scrambles back onto the boat and lowers the gangplank."
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 300.0
+    }
+  ]
+}

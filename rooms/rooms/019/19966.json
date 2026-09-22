@@ -1,0 +1,60 @@
+{
+  "id": 19966,
+  "uid": [
+    28143
+  ],
+  "title": [
+    "[Hall of Knowledge, Laboratory]"
+  ],
+  "description": [
+    "The room is dim, a faint luminescence emanating from a single shelf mounted on the wall that houses several glowing potions under a glass case.  There are small plaques on the shelf in front of each potion, their metal surfaces gleaming in the half-light of the room.  Centrally located, a simmering cast iron cauldron over a magical blue flame sits adjacent to a mortar and pestle that rest on a small pedestal.  A gnarled ebonwood arch leads to the northwest, while an onyx arch leads southwest."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      1537,
+      440,
+      1680,
+      501
+    ]
+  },
+  "exits": [
+    {
+      "to": 19951,
+      "kind": "go",
+      "cmd": "go onyx arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19968,
+      "kind": "go",
+      "cmd": "go ebonwood arch",
+      "cost": 0.2
+    },
+    {
+      "to": 20060,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb stone stairs"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

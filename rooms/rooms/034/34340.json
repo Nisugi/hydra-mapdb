@@ -1,0 +1,46 @@
+{
+  "id": 34340,
+  "uid": [
+    13150404
+  ],
+  "title": [
+    "[Titan's Deluge, West Bank]"
+  ],
+  "description": [
+    "A massive stone bridge spans the crest of the waterfall, built from the same stone as the cliffs that soar around it.  Frequent bolts of lightning launched from the sky strike the water nearby, causing the formation of dense steam that floats and curls around the structure."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Stormpeak",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "sunburst blossom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1044,
+      611,
+      1063,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 34339,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 34343,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 29166,
+  "uid": [
+    3023103
+  ],
+  "title": [
+    "[Basalt Cliff, Face]"
+  ],
+  "description": [
+    "Halfway up the cliff face is a ledge wide enough to pause on safely.  It extends further east though the footing is treacherous.  The view from here is breathtaking, with Kharam Dzu appearing like a toy town below were it not for the tiny inhabitants moving about their daily routines."
+  ],
+  "paths": [
+    "Obvious paths: east, down"
+  ],
+  "location": "the volcanic flats",
+  "climate": "arid",
+  "terrain": "mountainous",
+  "tags": [
+    "butterfly pea flower",
+    "lemon balm",
+    "lemon verbena",
+    "mate leaves",
+    "pepperthorn root",
+    "sprig of rooibos",
+    "spring onion",
+    "stalk of drakefern",
+    "white cotton boll",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "ti-feyrie-1599500894.png",
+    "rect": [
+      101,
+      310,
+      125,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 29165,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29167,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29168,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb cliff face"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

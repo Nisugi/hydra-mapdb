@@ -1,0 +1,51 @@
+{
+  "id": 36662,
+  "uid": [
+    8400005
+  ],
+  "title": [
+    "[Nyessem, Ring Loop Entrance]"
+  ],
+  "description": [
+    "Meticulously carved from pearlescent white stone, the walls here suggest the area was hollowed and then detailed to accent the stone's innate glow.  Shapes of jewel-studded flowers, animals, and geometric patterns have all been artistically etched into the walls.  In particular, a wide gem and stone relief of two individuals holding orbs stands out, dominating a prominent section opposite a tall sapphire-lined tunnel.  Beneath the relief and from alongside the installation, a marble fountain flows liberally into a shallow marble pool.  In the room's middle, a wood and stone sign covered in metal letters offers instructions."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      852,
+      683,
+      868,
+      699
+    ]
+  },
+  "exits": [
+    {
+      "to": 36661,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 36663,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36677,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36678,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

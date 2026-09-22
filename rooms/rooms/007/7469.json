@@ -1,0 +1,99 @@
+{
+  "id": 7469,
+  "uid": [
+    94012
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel is small and cramped.  It is wider than it is tall, and the floor, walls and ceiling are fairly smooth.  The area is dotted with patches of lichen which give off an eerie, dim light, casting a green hue over everything.  A subdued, slightly bitter odor nags at your senses.  Though the smell is not strong, it is pervasive and seems to irritate your eyes and nose."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      861,
+      961,
+      871,
+      971
+    ]
+  },
+  "exits": [
+    {
+      "to": 7468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7470,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

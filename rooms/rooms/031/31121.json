@@ -1,0 +1,67 @@
+{
+  "id": 31121,
+  "uid": [
+    102602
+  ],
+  "title": [
+    "[House Aspis, Foyer]"
+  ],
+  "description": [
+    "Panelled in dark, aromatic hardwoods, this arched hallway conveys so well the authority and strength of Wehnimer's most ancient House.  Its marble floor is inlaid with tiles reflecting all the professions and races of Elanthia.  Muted candelabra lend an air of soft stateliness, and twin staircases spiral upwards to the next floor.  In the center of the room, a marble fountain effervesces with the gentle music of dancing water, and beyond it reposes an impressive oil painting of Aspis' founding members."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      443,
+      777,
+      577,
+      845
+    ]
+  },
+  "exits": [
+    {
+      "to": 31122,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31123,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31125,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 31126,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 31143,
+      "kind": "go",
+      "cmd": "go entryway door",
+      "cost": 0.2
+    },
+    {
+      "to": 33434,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    }
+  ]
+}

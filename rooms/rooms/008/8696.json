@@ -1,0 +1,80 @@
+{
+  "id": 8696,
+  "uid": [
+    4384002
+  ],
+  "title": [
+    "[Silverwood Manor, Courtyard]"
+  ],
+  "description": [
+    "Painted a pristine shade of white, a short stone wall lines the entire expanse of the courtyard.  Leading towards the carved haonwood door of the manor, some short boxwood hedges line the multicolored stone path.  Verdant grass provides a suitable place to sit and listen to a lesson, and a small tree to the back of the courtyard lends shade if needed.  Azalea bushes with resplendent pink blossoms edge the wall, adding a touch of color to the area.",
+    "A low stone fence, capped with a domed layer of fresh snow, separates the manor from the street.  Lining the rest of the courtyard, some short boxwood hedges grow hardily, adding a bright spot of green to the environs.  A cobblestone walkway leads through a large expanse of smooth snow to the front entrance.  The carved haonwood door is sheltered by a red-painted roof that juts out over the stoop and is lined with a glistening row of tapering icicles.",
+    "A low stone fence, capped with a domed layer of fresh snow, separates the manor from the street.  Lining the rest of the courtyard are some carefully pruned juniper bushes, adding a bit of verdant green to the white, wintry surroundings.  A shoveled walkway leads through a pristine expanse of snow to the carved haon door.  A large gilded plaque is affixed to the wall of the rather imposing manor, and partially hidden behind a snowbank is a donation bin."
+  ],
+  "paths": [
+    "Obvious paths: east",
+    "Obvious paths: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "arctic brambles",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright red cranberry",
+    "coldleaf tobacco",
+    "frostflower",
+    "ice tulip",
+    "luckbloom blossom",
+    "mentors",
+    "moonflower",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "silverwood",
+    "snow pansy",
+    "soft mushroom",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "winter rose",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      494,
+      698,
+      530,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 2369,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13532,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "remember": [
+            "silverwood_town",
+            "imt"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

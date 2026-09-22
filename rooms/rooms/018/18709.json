@@ -1,0 +1,52 @@
+{
+  "id": 18709,
+  "uid": [
+    4031022
+  ],
+  "title": [
+    "[Krolvin Warship, Second Deck]"
+  ],
+  "description": [
+    "Moist air laden with a mixture of rust, rot, and salt fills this section of the companionway.  A wide brush slathered with pitch lies on the floor next to a bucket of glossy black tar.  The ends of tar-soaked strips of oakum protrude from the hull where they have been crammed between planks, while even more gaps remain to be caulked."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      585,
+      218,
+      606,
+      235
+    ]
+  },
+  "exits": [
+    {
+      "to": 18708,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 18710,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24748,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24752,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

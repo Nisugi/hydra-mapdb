@@ -1,0 +1,64 @@
+{
+  "id": 1239,
+  "uid": [
+    2190032
+  ],
+  "title": [
+    "[Vipershroud, Brackish Stream]"
+  ],
+  "description": [
+    "The air is thick with moisture, and water dripping from the trees delivers a hot, unsatisfying rain.  The moist moss squishes loudly underfoot, and clouds of biting insects buzz around hungrily, attempting to feast on some fresh blood.  The trail, coming from the northwest, ends abruptly at a shallow, brackish stream.  To the northeast, the stream disappears under a thick clump of brambles, but to the southwest it is passable, if one doesn't mind tromping through heavy mud."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Vipershroud",
+  "climate": "freshwater",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue water lily",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "bur-clover root",
+    "murdroot",
+    "reeds",
+    "stalk of cattail",
+    "strand of seaweed",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "white water lily",
+    "wild gooseberry",
+    "wingstem root",
+    "yellow water lily"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      188,
+      598,
+      198,
+      608
+    ]
+  },
+  "exits": [
+    {
+      "to": 1238,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go stream"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 1240,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

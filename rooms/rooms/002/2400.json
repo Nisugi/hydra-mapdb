@@ -1,0 +1,98 @@
+{
+  "id": 2400,
+  "uid": [
+    4042214
+  ],
+  "title": [
+    "[Tavern Burrow, Ale Street]"
+  ],
+  "description": [
+    "A stucco well has attracted a small group of children, who drop stones into its depths and hoot with glee at each muffled splash.  Across the cobblestone street, an enterprising group of young toughs has erected a hoarbeam trestle table.  They work industriously at picking the chests and coffers of local adventurers, one lad sitting atop an old oak beer barrel.  Lighter cobbles on the road form the outline of a frothing tankard, and the nearest lamp posts have bases wrought in the shapes of dancing revelers.",
+    "Stucco seems the preferred building material of the Tavern Burrow residents.  The street has been newly cobbled, and the rough edges cause several people to nearly trip as they hurry along.  A stucco well attracts a group of children, who drop stones into it, then hoot with glee at the muffled splash."
+  ],
+  "paths": [
+    "Obvious paths: north, south, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "locksmith pool",
+    "locksmithpool",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access"
+  ],
+  "meta": [
+    "boxpool:npc:wry halfling trickster",
+    "boxpool:table:hoarbeam trestle table",
+    "trashcan:old oak beer barrel"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      403,
+      964,
+      439,
+      1000
+    ]
+  },
+  "exits": [
+    {
+      "to": 2399,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 2.4
+    },
+    {
+      "to": 2401,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 2.4
+    },
+    {
+      "to": 2407,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 2.4
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

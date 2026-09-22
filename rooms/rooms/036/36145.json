@@ -1,0 +1,34 @@
+{
+  "id": 36145,
+  "uid": [
+    3003110
+  ],
+  "title": [
+    "[Diamond Lounge, Cubbyhole]"
+  ],
+  "description": [
+    "This narrow, cramped space ends abruptly at a curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 36144,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 36146,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

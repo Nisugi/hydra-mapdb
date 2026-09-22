@@ -1,0 +1,35 @@
+{
+  "id": 33014,
+  "uid": [
+    5001266
+  ],
+  "title": [
+    "[White Haven, Cubby]"
+  ],
+  "description": [
+    "This small antechamber to the locker area is lighted by a simple brass oil lamp.  The walls, crafted from smooth panels of yew wood, are bare of any adornment.  A plain cotton rug muffles your footsteps."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:white_haven:entrance_locker",
+    "locker annex:White Haven"
+  ],
+  "exits": [
+    {
+      "to": 33013,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33015,
+      "kind": "go",
+      "cmd": "go beaded curtain",
+      "cost": 0.2
+    }
+  ]
+}

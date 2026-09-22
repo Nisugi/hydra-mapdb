@@ -1,0 +1,45 @@
+{
+  "id": 32601,
+  "uid": [
+    336411
+  ],
+  "title": [
+    "[Landing Bazaar, Lawn]"
+  ],
+  "description": [
+    "The center of the bazaar opens into a wide grassy range, free of clutter and booths, the lush verdant meadow warmed by the moonlight above.  Townspeople gather nearby, some quiet and others boisterous as they travel between nearby shops and booths.  A cobblestone boulevard stretches to the north, bordered by several other roads and merchant structures.  Three large ironwood trees ascend at the edge of the yard, blanketing half of the area in darkness."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-bazaar-1671674653.png",
+    "rect": [
+      393,
+      453,
+      443,
+      505
+    ]
+  },
+  "exits": [
+    {
+      "to": 304,
+      "kind": "go",
+      "cmd": "go dark gate",
+      "cost": 0.2
+    },
+    {
+      "to": 32602,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

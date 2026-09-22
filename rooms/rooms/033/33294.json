@@ -1,0 +1,34 @@
+{
+  "id": 33294,
+  "uid": [
+    4201115
+  ],
+  "title": [
+    "[Vornavis, Guard House]"
+  ],
+  "description": [
+    "Arrow loops dominate the southern wall of the narrow corridor that provides egress through the thick inner bailey walls, the expanse culminating in an iron-reinforced ironwood portcullis to the west and a pair of iron-fortified gates in the east.  Frosted orbs in the ceiling illuminate the space, each generating arcs of magical energy that pass between them with small hisses of sound.  Ropes for the portcullis are protected by a metal shield before disappearing into housings on either side of the corridor's walls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Vornavis Proper",
+  "terrain": "hard, flat",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 33285,
+      "kind": "go",
+      "cmd": "go ironwood portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 33295,
+      "kind": "go",
+      "cmd": "go iron-fortified gates",
+      "cost": 0.2
+    }
+  ]
+}

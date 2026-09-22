@@ -1,0 +1,49 @@
+{
+  "id": 20661,
+  "uid": [
+    258037
+  ],
+  "title": [
+    "[Warrior Guild, Courtyard]"
+  ],
+  "description": [
+    "A pair of giant luminescent toadstools mark the trail leading to a drab stone shed, set far back from the beauty and bustle of the training courtyard.  Silvery green moss dangles off the eaves of the roof, though several large clumps have fallen off and now currently lie on the ground.  Deep ruts indicate the heavy use of the path by carts laden with material."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "warrior guild leaves"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      712,
+      375,
+      729,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 20655,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20662,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    },
+    {
+      "to": 20672,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

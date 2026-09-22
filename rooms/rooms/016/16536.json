@@ -1,0 +1,46 @@
+{
+  "id": 16536,
+  "uid": [
+    261031
+  ],
+  "title": [
+    "[Rogue Guild, Rooftop]"
+  ],
+  "description": [
+    "Smells of cooking and other less appetizing things waft up from the street below.  The deserted rooftop is swept clean but for a few wooden crates arranged near the stone rampart that overlooks the street."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      598,
+      247,
+      626,
+      275
+    ]
+  },
+  "exits": [
+    {
+      "to": 16534,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 16548,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16569,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

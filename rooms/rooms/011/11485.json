@@ -1,0 +1,91 @@
+{
+  "id": 11485,
+  "uid": [
+    305055
+  ],
+  "title": [
+    "[Ruined Tower, Exterior]"
+  ],
+  "description": [
+    "Deep grass extends all the way to the stony reef to the south.  Waves crash into the reef, sending up a white plume of salt spray.  The magnificent, white-capped expanse of Maelstrom Bay is spread out before you.  The reef extends to the southwest, beyond which can be seen a portion of the forested mainland and a sliver of the island of River's Rest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Ruined Tower",
+  "climate": "temperate",
+  "terrain": "barren scrub",
+  "tags": [
+    "blueberries",
+    "branch of acacia",
+    "bright red teaberry",
+    "broken twig",
+    "cactacae spine",
+    "elderberries",
+    "fire lily",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "hot pepper",
+    "Imaera's Lace",
+    "ironfern root",
+    "mistweed",
+    "murkweed",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "sagebrush root",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      675,
+      1058,
+      685,
+      1068
+    ]
+  },
+  "exits": [
+    {
+      "to": 11442,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb pathway"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 11486,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11487,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 27818,
+  "uid": [
+    284023
+  ],
+  "title": [
+    "[Cholen's Temple, West Hall]"
+  ],
+  "description": [
+    "The corridor is wide and slightly curved, terminating at a large open arch that allows a glimpse of the circular narthex beyond.  Brass lanterns line the walls, spilling golden light in pools across the long crimson rug that traverses the length of the hall.  Soft voices keep up a constant chatter from beyond a doorway of golden oak in the west wall, opposite a wide arch of ornately carved gold-veined marble."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 27817,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 27820,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 27823,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27826,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

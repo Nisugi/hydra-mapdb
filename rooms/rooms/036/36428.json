@@ -1,0 +1,47 @@
+{
+  "id": 36428,
+  "uid": [
+    58039
+  ],
+  "title": [
+    "[Dungeon, Chamber]"
+  ],
+  "description": [
+    "You are in a small round chamber.  A dark iron grate is attached to the ceiling and slender chains hang down at odd intervals, ending in various types of tiny, sharp hooks.  Several of the hooks have been adorned with the bodies of rats and other helpless rodents.  They turn slowly in the air as you pass, faces frozen in death.  You also see a great stone slab which seems to be blocking any further progress to the west."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2120,
+      440,
+      2160,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 36427,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36429,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36430,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

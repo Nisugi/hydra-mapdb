@@ -1,0 +1,68 @@
+{
+  "id": 32674,
+  "uid": [
+    13051031
+  ],
+  "title": [
+    "[Woodland Market]"
+  ],
+  "description": [
+    "Various bins, counters, and shelves overflowing with grocery staples line the white oak walls and pale blue tiled floors of the bright and airy market.  A sizable ceramic-topped cupboard is centered along the back, its shelves bursting with fresh baked goods.  Large glaesineth orbs hanging from the raftered ceiling fill the spacious room with warm light."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "grocer",
+    "urchin guide grocer",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 678,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

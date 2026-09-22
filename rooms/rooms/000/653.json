@@ -1,0 +1,52 @@
+{
+  "id": 653,
+  "uid": [
+    13049009
+  ],
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "This section of the roadway has fallen into a bit of disrepair.  The stones are cracked and worn, with some of them missing entirely, and the wagon grooves are deeper than what you've seen in other sections, as if their drivers tried to pass through this part of the road as quickly as possible.  The brush has grown tall along the northeast side of the road, but not enough to entirely conceal a narrow path leading northward.  The pathway is barely visible and doesn't seem to have been used much."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sylvarraend Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      346,
+      577,
+      356,
+      587
+    ]
+  },
+  "exits": [
+    {
+      "to": 652,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 654,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1835,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

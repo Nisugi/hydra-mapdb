@@ -1,0 +1,44 @@
+{
+  "id": 4035,
+  "uid": [
+    13109006
+  ],
+  "title": [
+    "[Hall of Patrons, Corridor]"
+  ],
+  "description": [
+    "The walls of the corridor are unadorned except for a pair of brass wall sconces, used to illuminate the area.  Arches flank the eastern and western ends of the corridor and silver-veined marble covers the floor."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      244,
+      2012,
+      302,
+      2070
+    ]
+  },
+  "exits": [
+    {
+      "to": 745,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24518,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

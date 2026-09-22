@@ -1,0 +1,38 @@
+{
+  "id": 35516,
+  "uid": [
+    4410304
+  ],
+  "title": [
+    "[Craggy Rock Approach]"
+  ],
+  "description": [
+    "Carved from sea rock, the underwater passage is enclosed in rough walls covered in patches of encrusting corals, sponges, and algae.  Branching sea fans extend from crevices, their flexible forms swaying with the water's movement.  Small anemones cling to a jagged archway, their tentacles reaching outward.  Tiny fish weave about, seeking shelter in the tangled growth, while crabs and other crustaceans scurry along, navigating the cracks and ledges."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "exits": [
+    {
+      "to": 35515,
+      "kind": "cardinal",
+      "cmd": "s",
+      "cost": 0.2
+    },
+    {
+      "to": 35517,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 35580,
+      "kind": "go",
+      "cmd": "go colossal nautilus",
+      "cost": 0.2
+    }
+  ]
+}

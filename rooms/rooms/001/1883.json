@@ -1,0 +1,44 @@
+{
+  "id": 1883,
+  "uid": [
+    3001016
+  ],
+  "title": [
+    "[Ora Street]"
+  ],
+  "description": [
+    "The Borthuum Company Store towers over you, a massive block of solid stone.  Its windowless bulk is broken only by a wide set of mithril double-doors.  Dwarves and other folk crowd through, many carrying sacks or bags.  Beyond the store to the west, a heavily laden cog sits low in the water of the River Muagh."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      944,
+      692,
+      980,
+      728
+    ]
+  },
+  "exits": [
+    {
+      "to": 1882,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1884,
+      "kind": "go",
+      "cmd": "go store",
+      "cost": 0.2
+    }
+  ]
+}

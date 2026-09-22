@@ -1,0 +1,42 @@
+{
+  "id": 25904,
+  "title": [
+    "[Sylinar's Spire, Great Hall]"
+  ],
+  "description": [
+    "The threshold of the tower leads into a circular room with a spiraling stone staircase as its centerpiece.  Behind an iron railing that follows the circumference of the chamber, the interior wall is lined from floor to ceiling with bookshelves, broken only by an arched heavy wooden door.  Tall iron candelabras form a semi-circle around the stairs, their candles filling the area with a warm glow."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Summit Academy",
+  "image": {
+    "file": "Spire_Grounds_5117.png",
+    "rect": [
+      937,
+      634,
+      988,
+      684
+    ]
+  },
+  "exits": [
+    {
+      "to": 25902,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25905,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25907,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

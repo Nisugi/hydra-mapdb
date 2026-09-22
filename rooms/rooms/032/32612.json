@@ -1,0 +1,49 @@
+{
+  "id": 32612,
+  "uid": [
+    336432
+  ],
+  "title": [
+    "[Blended Brew, Sitting Room]"
+  ],
+  "description": [
+    "Cushioned loveseats and decorative chairs in a color spectrum of green hues litter the open, airy floor plan.  Hand-painted silk walls depict abstract herbs and flowers cascading from ceiling to floor in a repetitive pattern.  Beams of moonlight stream through an arched window, the gossamer curtains lightly moving with the slightest hint of air as patrons walk by.  A white ash sideboard curves around an antique pewter stove topped with a gilt-foiled white ceramic kettle."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 32611,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "knock ash door"
+        },
+        {
+          "put": "knock ash door"
+        },
+        {
+          "put": "knock ash door"
+        },
+        {
+          "move": "go ash door"
+        }
+      ],
+      "cost": 2.2
+    }
+  ]
+}

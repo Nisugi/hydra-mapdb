@@ -1,0 +1,85 @@
+{
+  "id": 22356,
+  "uid": [
+    13125015
+  ],
+  "title": [
+    "[Faendryl Embassy, Assemblage]"
+  ],
+  "description": [
+    "Covered with a rich, cinereal wool carpet, the marbled alabaster floor melds smoothly with the walls, veins of crimson contrasting with their immaculate surface.  A large ebon marble fireplace dominates the room, a basket of sticks resting at its base.  A number of small meeting tables are set along the perimeter, and a dark sideboard has been placed to the side, its surface covered with various bowls and platters."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      608,
+      500,
+      671,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 22355,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22365,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Clerisy table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22366,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Agrestis table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22367,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Emporion table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22368,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Armata table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22369,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rachis table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

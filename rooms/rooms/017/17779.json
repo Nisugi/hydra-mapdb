@@ -1,0 +1,40 @@
+{
+  "id": 17779,
+  "uid": [
+    250050
+  ],
+  "title": [
+    "[Guild Hall, Arena]"
+  ],
+  "description": [
+    "The ground in this cavern chamber fans out in a semicircle and slopes down in even steps to the level area at the bottom.  Long wooden benches have been bolted onto each step, providing comfortable seating for those viewing the action in the ring below."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      574,
+      103,
+      593,
+      122
+    ]
+  },
+  "exits": [
+    {
+      "to": 17776,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17780,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    }
+  ]
+}

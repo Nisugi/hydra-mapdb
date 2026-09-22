@@ -1,0 +1,43 @@
+{
+  "id": 22149,
+  "uid": [
+    106015
+  ],
+  "title": [
+    "[Cairnfang Manor, Library]"
+  ],
+  "description": [
+    "Deep armchairs covered in midnight blue velvet are scattered about, creating a striking contrast to the paneled walls of golden oak.  A matching couch, flanked by a pair of end tables, sits before a large riverstone fireplace, a basket of sticks placed nearby.  Filled with wildflowers, a painted ceramic urn rests between two etched glass windows, their frames draped in sheer white silk.  Pewter sconces provide light for reading, and shelves filled with a variety of books line the back wall interrupted by a beveled glass door."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      178,
+      210,
+      191,
+      221
+    ]
+  },
+  "exits": [
+    {
+      "to": 22118,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22150,
+      "kind": "go",
+      "cmd": "go glass door",
+      "cost": 0.2
+    }
+  ]
+}

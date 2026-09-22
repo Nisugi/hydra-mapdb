@@ -1,0 +1,56 @@
+{
+  "id": 19301,
+  "uid": [
+    218005
+  ],
+  "title": [
+    "[Willow Hall, Glen Room]"
+  ],
+  "description": [
+    "A pile of boulders stands high against the room's far wall, their assembly ingeniously designed to mimic nature's random beauty.  A pool ripples at the stones' feet, fed by a spray of water arching from the top of the slope, and then cascading down its rocky face.  The surface of the pool roils and steams, its source apparently from the heated depths, and it sends clouds of steam drifting up through the boughs of three willows growing around its perimeter."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Willow Hall",
+  "climate": "hot, damp",
+  "terrain": "plain dirt",
+  "meta": [
+    "che:Willow Hall"
+  ],
+  "image": {
+    "file": "wl-willow_hall-1308424874.png",
+    "rect": [
+      236,
+      627,
+      278,
+      673
+    ]
+  },
+  "exits": [
+    {
+      "to": 19298,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19302,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    },
+    {
+      "to": 19303,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 19304,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

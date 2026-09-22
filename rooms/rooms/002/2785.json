@@ -1,0 +1,50 @@
+{
+  "id": 2785,
+  "uid": [
+    4564013
+  ],
+  "title": [
+    "[Pinefar, Narrow Hall]"
+  ],
+  "description": [
+    "The narrow hall dead-ends at a wall hung with a painting flanked by two doorways.  Small lanterns cast a soft, golden light on the portrait and spark reflections off brass plaques attached to the doors, one reading 'Jeweler' and the other 'Depository'."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-PinefarTradingPost-1615312810.png",
+    "rect": [
+      540,
+      27,
+      633,
+      84
+    ]
+  },
+  "exits": [
+    {
+      "to": 2783,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2786,
+      "kind": "go",
+      "cmd": "go cedar door",
+      "cost": 0.2
+    },
+    {
+      "to": 2787,
+      "kind": "go",
+      "cmd": "go maple door",
+      "cost": 0.2
+    }
+  ]
+}

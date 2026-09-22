@@ -1,0 +1,44 @@
+{
+  "id": 11249,
+  "uid": [
+    377221
+  ],
+  "title": [
+    "[Infirmary, Glassworks]"
+  ],
+  "description": [
+    "The moth-eaten remains of a large, decayed rug covers the floor.  A shelf-backed table stands against one wall.  Shards of reflective glass litter the floor beneath a full length mirror frame.  A brass oil lamp hangs from the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      63,
+      547,
+      73,
+      557
+    ]
+  },
+  "exits": [
+    {
+      "to": 11248,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11254,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    }
+  ]
+}

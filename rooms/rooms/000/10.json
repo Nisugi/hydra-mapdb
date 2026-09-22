@@ -1,0 +1,54 @@
+{
+  "id": 10,
+  "uid": [
+    13101023
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "Set well back from the court stands a small stonework building, its marble doorpost and window embrasures heavily carved with fan-tailed peacocks.  A tarnished mithglin plaque swings from a rod mounted beside the building's thick door.  A single lantern mounted on a nearby post casts a diffuse blue glow across the area.",
+    "Set well back from the court stands a small stonework building, its grey granite doorpost and window embrasures heavily carved with grinning gargoyles.  A dark mithglin plaque swings from a rod mounted beside the building's thick ironwood door.",
+    "Set well back from the court stands a small stonework building, its grey granite doorpost and window embrasures heavily carved with grinning gargoyles.  A dark mithglin plaque swings from a rod mounted beside the building's thick ironwood door.  A single lantern mounted on a nearby post casts a dull yellow glow across the area.",
+    "Set well back from the court stands a small stonework building, its marble doorpost and window embrasures heavily carved with fan-tailed peacocks.  A tarnished mithglin plaque swings from a rod mounted beside the building's thick door."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      480,
+      297,
+      504,
+      319
+    ]
+  },
+  "exits": [
+    {
+      "to": 206,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 644,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

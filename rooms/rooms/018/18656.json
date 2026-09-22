@@ -1,0 +1,64 @@
+{
+  "id": 18656,
+  "uid": [
+    670019
+  ],
+  "title": [
+    "[Cleric Guild, Training Foyer]"
+  ],
+  "description": [
+    "Rippled walls of ice, the surface as clear as a flawless diamond, enclose the grand hallway that ushers one into the training annex.  Nature's hand has shaped the walls, as minute changes of temperature alternately let the water of the walls flow and refreeze to create the abstract patterns on display."
+  ],
+  "paths": [
+    "Obvious exits: south, west, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "cleric alchemy administrator",
+    "cleric guild administrator"
+  ],
+  "image": {
+    "file": "imt-cleric_guild-1275420218.png",
+    "rect": [
+      189,
+      198,
+      235,
+      244
+    ]
+  },
+  "exits": [
+    {
+      "to": 18601,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18650,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "out"
+        },
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 18666,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18667,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

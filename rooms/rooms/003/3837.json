@@ -1,0 +1,61 @@
+{
+  "id": 3837,
+  "uid": [
+    4291050
+  ],
+  "title": [
+    "[Thanatoph, Narrow Crevice]"
+  ],
+  "description": [
+    "Darkness huddles around, but provides no comfort as you find yourself at the bottom of a narrow crevice.  The crevice walls reach hundreds of feet above you, blotting out any light.  A massive landslide has blocked further passage through the crevice at this point."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Stone Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "ironfern root",
+    "wingstem root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      288,
+      621,
+      298,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 3831,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "go fissure"
+            ],
+            {
+              "exit": "e"
+            }
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 3836,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

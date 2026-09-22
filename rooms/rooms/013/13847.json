@@ -1,0 +1,56 @@
+{
+  "id": 13847,
+  "uid": [
+    702052
+  ],
+  "title": [
+    "[Cavernfast, Grotto]"
+  ],
+  "description": [
+    "A squat cavern is ringed with carved granite beasts, which consist of a wolf, a lion, and a bear, that sit between the mouths of tunnels leading away into the underground gloom like silent sentries.  The fantastic statues are exquisite examples of stone cutting, each one displaying a lifelike demeanor.  Almost below a level of hearing, the low susurrus of rushing water provides an undercurrent of sound in accompaniment to flickering mithril braziers along the stone walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-homes-2-1264234799.png",
+    "rect": [
+      827,
+      1309,
+      845,
+      1327
+    ]
+  },
+  "exits": [
+    {
+      "to": 13846,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13848,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 13849,
+      "kind": "go",
+      "cmd": "go mithril door",
+      "cost": 0.2
+    },
+    {
+      "to": 13850,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

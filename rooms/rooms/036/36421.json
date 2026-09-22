@@ -1,0 +1,41 @@
+{
+  "id": 36421,
+  "uid": [
+    58032
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "This corridor is dark and smells musty.  A light layer of dirt and grime coats the walls and the floor, threatening to dirty anything it touches.  Set into the west wall is an odd, trapezoid-shaped door."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1880,
+      520,
+      1920,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 36416,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36420,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

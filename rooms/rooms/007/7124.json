@@ -1,0 +1,52 @@
+{
+  "id": 7124,
+  "uid": [
+    41045
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Timbers are set up every few feet near this corner, propping up the ceiling.  Large chunks of stone are piled around next to the walls, and corresponding gaps in the ceiling show where they came from.  A couple of timbers lie fallen on the floor, and you wonder just how steady the roof might be without their support."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "kiramon defender",
+    "kiramon worker",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1028,
+      388,
+      1038,
+      398
+    ]
+  },
+  "exits": [
+    {
+      "to": 7123,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7125,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7136,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

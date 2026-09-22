@@ -1,0 +1,51 @@
+{
+  "id": 17274,
+  "uid": [
+    252057
+  ],
+  "title": [
+    "[Warrior Guild, Hippodrome]"
+  ],
+  "description": [
+    "Here in the far side of the garden, a small shed sits next to a wall of ivy and shrubbery.  Adjacent to the shed is a stockpile of stripped branches."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "cultivated",
+  "tags": [
+    "warrior guild branches",
+    "warrior guild leaves",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1293,
+      677,
+      1315,
+      699
+    ]
+  },
+  "exits": [
+    {
+      "to": 17273,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17275,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    },
+    {
+      "to": 17278,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

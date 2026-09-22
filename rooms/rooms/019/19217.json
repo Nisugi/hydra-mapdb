@@ -1,0 +1,39 @@
+{
+  "id": 19217,
+  "uid": [
+    264037
+  ],
+  "title": [
+    "[A Dank Tunnel]"
+  ],
+  "description": [
+    "The tunnel seems to dead end here.  The sounds of someone moving can be heard overhead.  A large stack of empty crates has been piled against the wall.  In the ceiling above the stacked crates is a rusty grating."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      117,
+      368,
+      148,
+      395
+    ]
+  },
+  "exits": [
+    {
+      "to": 19216,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19218,
+      "kind": "go",
+      "cmd": "go grating",
+      "cost": 0.2
+    }
+  ]
+}

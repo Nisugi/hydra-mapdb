@@ -1,0 +1,45 @@
+{
+  "id": 2440,
+  "title": [
+    "[Clovertooth Hall, Lockers]"
+  ],
+  "description": [
+    "A bright blue curtain hangs on the south wall, masking the entrance to a locker booth.  More lockers are visible off to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      1050,
+      817,
+      1152,
+      885
+    ]
+  },
+  "exits": [
+    {
+      "to": 2439,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2441,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2485,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

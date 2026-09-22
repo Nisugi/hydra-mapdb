@@ -1,0 +1,71 @@
+{
+  "id": 18267,
+  "uid": [
+    3210404
+  ],
+  "title": [
+    "[Saewehna Jungle, Lagoon]"
+  ],
+  "description": [
+    "Moonlight barely illuminates the murky depths of a vast lagoon stretching out before the tumble of water rushing down from the plateaus above.  The nocturnal melody of the jungle serves as a striking companion to the surprisingly quiet sound of the bi-level falls cascading from the lowest outcropping to feed the pool.  Deep shadows help to almost completely conceal the presence of a cave hidden behind the ripple of the liquid curtain.",
+    "A vast lagoon of brilliant blue depths stretches out before the tumble of water rushing down from the plateaus above.  The bi-level falls are surprisingly quiet as the water cascades from its lowest outcropping to feed the pool, and the ripple of the liquid curtain only partially conceals the shadows of a cave beneath the ledge.  Plumes of mist rise into the air constantly, casting glistening dew upon everything within close proximity."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-saewehna_lagoon-1525325794.png",
+    "rect": [
+      1989,
+      626,
+      2039,
+      674
+    ]
+  },
+  "exits": [
+    {
+      "to": 18266,
+      "kind": "go",
+      "cmd": "go footpath",
+      "cost": 0.2
+    },
+    {
+      "to": 18268,
+      "kind": "go",
+      "cmd": "go cave",
+      "cost": 0.2
+    },
+    {
+      "to": 18269,
+      "kind": "go",
+      "cmd": "go lagoon",
+      "cost": 0.2
+    },
+    {
+      "to": 18270,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18317,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18319,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

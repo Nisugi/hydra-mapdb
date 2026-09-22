@@ -1,0 +1,46 @@
+{
+  "id": 26488,
+  "title": [
+    "[Siren's Call, Mezzanine]"
+  ],
+  "description": [
+    "Open to the tavern's interior on one side and the downward slope of the mountain on the other, the mezzanine is buffeted by cool, soft breaths of air stirred by waves breaking on the shore far below.  Half of the sheltering overhang is an outcropping of rock, while the rest is a retractable oilcloth canopy in a deep shade of blue.  Each of the canopy's supports are moored in sculpted stone planters carved out from the rocky floor.  A narrow stairway leads down to the bar."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26487,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 26489,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26490,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26746,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

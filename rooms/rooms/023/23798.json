@@ -1,0 +1,70 @@
+{
+  "id": 23798,
+  "uid": [
+    8213021
+  ],
+  "title": [
+    "[Duskruin Arena, Stygian Annex]"
+  ],
+  "description": [
+    "Long rows of shelves covered in various wares, weapons and equipment, line the entirety of the back wall behind a long polished granite countertop.  A large chandelier hangs from a coiled chain at the center of the room, its tongs holding glass orbs that glow with a white arcane light."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1284,
+      319,
+      1304,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 23782,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

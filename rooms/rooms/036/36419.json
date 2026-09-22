@@ -1,0 +1,77 @@
+{
+  "id": 36419,
+  "uid": [
+    58030
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "This bit of corridor is an intersection leading off in several different directions.  They look practically identical to one another and there are no markings in this area to let you know which section you may already have traveled through.  A single misstep and it could be quite easy to get lost."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1880,
+      680,
+      1920,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36418,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36420,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36422,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36440,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "west",
+            "north",
+            "pull statue",
+            "turn statue",
+            "south",
+            "east"
+          ],
+          "when": {
+            "not": {
+              "sees": "opening"
+            }
+          }
+        },
+        {
+          "wait_until": {
+            "sees": "opening"
+          }
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 34821,
+  "uid": [
+    8083284
+  ],
+  "title": [
+    "[Bittermere Woods]"
+  ],
+  "description": [
+    "Pale, silvery light spills across a twining path that follows the meandering curves of buttress roots whose ribbon-like structures form a wall along the eastern edges of Bittermere Woods.  Chill air invades the swampy space as the ground transition from mud and dirt to a faint cobbled road with stones that are cast about like a child's toys by the pervasive growth of bramble and vine.  Spider tendrils, feelers for nearby vines, clog the walk, avoiding a wide wooden gate leading into the northwestern woods."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1306,
+      416,
+      1327,
+      439
+    ]
+  },
+  "exits": [
+    {
+      "to": 34820,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34862,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

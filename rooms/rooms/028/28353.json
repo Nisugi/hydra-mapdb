@@ -1,0 +1,42 @@
+{
+  "id": 28353,
+  "title": [
+    "[Moonstone Abbey, Great Hall]"
+  ],
+  "description": [
+    "A polished onyx floor inset with brilliant opaline moonstones stretches out of sight to either side of an enormous central area.  Wrought silver candelabras set at regular intervals cast pools of softly flickering light, creating prisms in the moonstones beneath your feet.  Directly opposite the entrance, a tall marble archway leads into a spacious auditorium."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 9891,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28354,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28355,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28361,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

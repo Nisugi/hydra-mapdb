@@ -1,0 +1,39 @@
+{
+  "id": 4513,
+  "title": [
+    "[Crystal Level, Hall]"
+  ],
+  "description": [
+    "The curving passageway is filled with crates and sacks, most filled with gear or supplies.  A bit of grain spills out from one of the large canvas bags, a small hole at the bottom likely caused by vermin of some sort.  A swarm of insects are taking advantage of the unlikely feast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4503,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4514,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 4519,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

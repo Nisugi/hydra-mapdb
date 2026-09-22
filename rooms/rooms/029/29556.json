@@ -1,0 +1,73 @@
+{
+  "id": 29556,
+  "uid": [
+    850001
+  ],
+  "title": [
+    "[Kraken's Fall Hall, Vestibule]"
+  ],
+  "description": [
+    "Rows of rust-hued brick line the walls of the repurposed entryway.  The spacious room is illuminated by several brass lanterns.  Set into the floor is a beautiful mosaic of colorful shells.  A silver filigree plaque hangs between a pair of small, dusty windows.  Placed just inside the room next to a curtained stone archway is a large notice board."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "mho hall",
+    "mho hall board",
+    "stalk of bluebells",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 28924,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

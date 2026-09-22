@@ -1,0 +1,56 @@
+{
+  "id": 31607,
+  "uid": [
+    8083015
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Illuminated stained glass windows splatter the glistening cobblestones of the lane in a variety of hues as light spills forth from an eclectic curios shop that sits perched upon one corner.  Other shops with amber-lit windows gaze upon the cobbled streets, their shutters canted at angles to their whorled panes.  A railing of wrought iron lines the quiet canal, a banded wooden bench perched at its edge with a tumble of knotted vines decorating its backing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      633,
+      404,
+      655,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 31562,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31592,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31603,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31608,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

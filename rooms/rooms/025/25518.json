@@ -1,0 +1,41 @@
+{
+  "id": 25518,
+  "uid": [
+    12101024
+  ],
+  "title": [
+    "[The Firebird, Orlop Deck]"
+  ],
+  "description": [
+    "Most of the narrow passageway is blocked by a heavy red brass ladder that proceeds up toward the main deck.  Veniom wires are inlaid into the wooden planks of the hull, pulsing occasionally with waves of sky blue light.  The steady pulses illuminate coiled lines and crates of cargo slumbering in the shadows."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Aboard an Airship",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25517,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 25521,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25522,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 16953,
+  "uid": [
+    685032
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Colored light streams in through several arched stained glass windows set high in the walls, painting vibrant highlights across the faces of the wizards who gather here.  A pair of gilded columns marks an entrance to the central atrium to the southeast.",
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Faint beams of tinted light from the arched stained glass windows paint the wizards who gather here even at this hour in muted color.  A pair of gilded columns marks an entrance to the central atrium to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage",
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      16,
+      334,
+      40,
+      358
+    ]
+  },
+  "exits": [
+    {
+      "to": 16952,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16959,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30544,
+      "kind": "other",
+      "cmd": "ask lilliandra about train alchemy",
+      "cost": 0.2
+    },
+    {
+      "to": 33829,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

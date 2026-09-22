@@ -1,0 +1,39 @@
+{
+  "id": 18526,
+  "title": [
+    "[Country Cottage, Kitchen]"
+  ],
+  "description": [
+    "The smell of baked goods and cinnamon pervades this small room.  Honey-hued wood-paneled walls with several red-curtained windows rise from the black and white tiled floor.  A large oak table sits in the middle of the room, while a wood stove burns in the corner.  Various baked goods, a clear glass candy jar and a spacious wicker basket rest on an antique white counter.  A whitewashed wooden door leads back outside, while a wicker door leads deeper into the cottage."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18525,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 18527,
+      "kind": "go",
+      "cmd": "go wicker door",
+      "cost": 0.2
+    },
+    {
+      "to": 18572,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

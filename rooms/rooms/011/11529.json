@@ -1,0 +1,57 @@
+{
+  "id": 11529,
+  "uid": [
+    305001
+  ],
+  "title": [
+    "[Reef, Submerged Passageway]"
+  ],
+  "description": [
+    "Several inches of water cover the floor of this tall, narrow grotto formed in the coral reef.  The moon filters through cracks overhead and reflects off the water, casting strange shadows that dance on the water as it ebbs and flows.  Small fish flash among the pink and orange coral like living darts.  The grotto extends north.",
+    "Several inches of water cover the floor of this tall, narrow grotto formed in the coral reef.  The sun filters through cracks overhead and reflects off the water, casting strange shadows that dance on the water as it ebbs and flows.  Small fish flash among the pink and orange coral like living darts.  The grotto extends north."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ruined Tower",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "broken twig",
+    "murdroot",
+    "orange heliconia",
+    "strand of seaweed",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      900,
+      1090,
+      910,
+      1100
+    ]
+  },
+  "exits": [
+    {
+      "to": 11477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 11528,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 5432,
+  "uid": [
+    319130
+  ],
+  "title": [
+    "[Bonespear Tower, Upper Hallway]"
+  ],
+  "description": [
+    "The remains of an iron door are doing a very poor job of barring the passage, but based on the splotches of discoloration covering it, it's rather easy to see why.  The metal of the door looks as if some powerful acid must have splashed it from top to bottom, and what isn't corroded and melted is barely hanging on to the hinge."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      924,
+      903,
+      934,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 5430,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5434,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13029,
+      "kind": "go",
+      "cmd": "go iron door",
+      "cost": 0.2
+    }
+  ]
+}

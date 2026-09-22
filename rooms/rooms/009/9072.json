@@ -1,0 +1,53 @@
+{
+  "id": 9072,
+  "uid": [
+    4045101
+  ],
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The nondescript tunnel runs off into the darkness.  A dull thudding reverberates through the tunnel, shaking dirt clods loose from the ceiling which explode on the floor in syncopated time.  A thick cloud of dust obscures your vision."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "ironfern root",
+    "pine twig",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1113,
+      171,
+      1123,
+      181
+    ]
+  },
+  "exits": [
+    {
+      "to": 9071,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9073,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 9074,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 6983,
+  "uid": [
+    43014
+  ],
+  "title": [
+    "[Gorge, Stairway Top]"
+  ],
+  "description": [
+    "You stand at the top of an ancient stairway, carved into the natural rock by a long forgotten hand in another age.  Although wet and moss-covered like the canyon walls, it is quite wide and seems safe enough to travel.  The stairs lead down to a ledge of rock which juts out from the side of the cliff just above the shallow waters of the once violently raging river.  A narrow path also leads around the rocks beside you, at the rim of the gorge."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      51,
+      411,
+      61,
+      421
+    ]
+  },
+  "exits": [
+    {
+      "to": 6982,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 6984,
+      "kind": "go",
+      "cmd": "go narrow path",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 27614,
+  "uid": [
+    4043705
+  ],
+  "title": [
+    "[Twilight Cavern, Approach]"
+  ],
+  "description": [
+    "Built into the southeast side of a hill, a massive earthworks structure looks out over the expanse of darkness.  A rounded scarlet maoral door lit by a small copper lamp in the center of the facade provides entrance to the building.  Cascades of icicles are illuminated by a small copper sconce above a mahogany cedar door set into the face of a hill nearby.  Past a pearlescent granite full moon, a well-cleared path curves up and around the hill.",
+    "Built into the western face of an icy hill, a glaes-faced earthworks structure with a rounded scarlet maoral door looks over the expansive plains.  A cascade of icicles forms a canopy above a mahogany cedar door set into the face of the hill near a gnarly mesille tree.  Curving back to the knoll above, an icy path serves as a questionable egress.  A pearlescent granite full moon is set upon the ground at a respectful distance from the glaes-faced cavern."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "frostflower",
+    "frostweed",
+    "handful of pinenuts",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "moonflowers",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "pine twig",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "slender twig",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "spruce twig",
+    "sticks",
+    "sweetfern stalk",
+    "thorny wintersbite",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white crallisberry",
+    "winter rose",
+    "wintercrisp apple",
+    "wintergreen leaf"
+  ],
+  "meta": [
+    "che:twilight_hall:entrance_annex",
+    "locker annex:Twilight Hall",
+    "mapcategory:CHE",
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Twilight Hall Annex",
+    "mapshortname:Twilight Hall Annex (Icemule Trace)"
+  ],
+  "image": {
+    "file": "imt_Twilight_Cavern.png",
+    "rect": [
+      270,
+      507,
+      331,
+      569
+    ]
+  },
+  "exits": [
+    {
+      "to": 3166,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go path"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27615,
+      "kind": "go",
+      "cmd": "go scarlet door",
+      "cost": 0.2
+    },
+    {
+      "to": 27630,
+      "kind": "go",
+      "cmd": "go cedar door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": 9808,
+  "uid": [
+    13022025
+  ],
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Some sections of the larger roots have broken from their rough brown skins to display pale shafts.  The cool, damp scent of moisture permeates the air and the moisture-laden air has softened the tunnel floor.  A few impressions in the soft root-embedded floor lay scattered about."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest"
+  ],
+  "location": "the Maaghara Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      1257,
+      545,
+      1267,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 9734,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go root"
+        },
+        {
+          "wait_until": {
+            "at": 9734
+          },
+          "when": {
+            "not": "still_here"
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "southwest",
+            "southwest",
+            "east",
+            "southwest",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "at": 9823
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "southwest",
+            "west",
+            "west",
+            "northeast",
+            "northeast",
+            "northwest"
+          ],
+          "when": {
+            "at": 9818
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "east",
+            "east",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "at": 9808
+          }
+        },
+        {
+          "moves": [
+            "southwest",
+            "southeast",
+            "southwest"
+          ],
+          "when": {
+            "at": 9788
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "south",
+            "northeast",
+            "north",
+            "west",
+            "west",
+            "west"
+          ],
+          "when": {
+            "at": 9784
+          }
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 100.0
+    },
+    {
+      "to": 9805,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9807,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9809,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

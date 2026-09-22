@@ -1,0 +1,47 @@
+{
+  "id": 18953,
+  "uid": [
+    660009
+  ],
+  "title": [
+    "[Sorcerer Guild, Tub Room]"
+  ],
+  "description": [
+    "Condensation drips from the ceiling and runs down the ironwood walls to disappear into a wide drain grate in the far corner, leaving the floor slick with moisture.  A spacious brass tub has been set into the ironwood plank floor, and hot water swirls and foams within.  A metal vat is securely bolted against the wall with a pipe and a chain hanging down just above the tub."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      921,
+      464,
+      960,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 18954,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    },
+    {
+      "to": 18956,
+      "kind": "go",
+      "cmd": "go grate",
+      "cost": 0.2
+    },
+    {
+      "to": 18957,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

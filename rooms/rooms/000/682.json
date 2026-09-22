@@ -1,0 +1,78 @@
+{
+  "id": 682,
+  "uid": [
+    13050012
+  ],
+  "title": [
+    "[Sylvarraend, Mistglin Wey]"
+  ],
+  "description": [
+    "Three paths come together in this small clearing, ringed by a small but thick stand of modwir trees.  The peaceful silence in this tiny glade is only occasionally interrupted by the forest life as birds, squirrels and other tiny creatures go about their busy lives.  A single lantern illuminates the center of the clearing, providing just enough light to navigate the trails.",
+    "Three paths come together in this small clearing, ringed by a small but thick stand of modwir trees.  The peaceful silence in this tiny glade is only occasionally interrupted by the forest life as birds, squirrels and other tiny creatures go about their busy lives.  Sunlight peeks through the leafy canopy above, spreading a dappled golden hue on all it touches."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, south, southwest"
+  ],
+  "location": "the town of Sylvarraend",
+  "unique_loot": [
+    "twisted stone arch"
+  ],
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      245,
+      936,
+      281,
+      972
+    ]
+  },
+  "exits": [
+    {
+      "to": 681,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 683,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10073,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go arch"
+        },
+        {
+          "remember": [
+            "talondown_origin",
+            "682"
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 30160,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 34609,
+  "uid": [
+    4572044
+  ],
+  "title": [
+    "[Sablecross, Oblation Way]"
+  ],
+  "description": [
+    "The western wall of a mossy stone library looms over the quiet stretch of cobblestone road.  High and steepled, the stately edifice's corrugated bronze roof is graced with an even patina of verdigris.  The gate into the sedate garden encircling the library is a severe confection of wrought iron.  At its zenith, a slit-pupiled eye is formed by fire opal and obsidian tesserae that stand out against a field of grey moonstones."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      371,
+      743,
+      401,
+      771
+    ]
+  },
+  "exits": [
+    {
+      "to": 34607,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34610,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34724,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 34725,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

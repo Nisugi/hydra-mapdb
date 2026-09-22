@@ -1,0 +1,48 @@
+{
+  "id": 30294,
+  "title": [
+    "[Yuvi Qorit, Sandy Path]"
+  ],
+  "description": [
+    "Shops dominate the small clearing cut into the foliage, lining either side of the path.  Backdropped by a sinuous ridgeline, a canvas draped pavilion nestles under several spiky yucca trees that lean over the walkway to the east.  A sapphire mohair wool tent stands opposite, sheltered beneath the intertwining leaves and fronds of tall date palms and a gnarled elephant tree."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Sea of Fire",
+  "image": {
+    "file": "fest-yuvi_qorit-1643758946.jpg",
+    "rect": [
+      372,
+      140,
+      406,
+      170
+    ]
+  },
+  "exits": [
+    {
+      "to": 30293,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30295,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30300,
+      "kind": "go",
+      "cmd": "go mohair tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30301,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

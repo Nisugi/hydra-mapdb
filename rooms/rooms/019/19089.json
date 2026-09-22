@@ -1,0 +1,66 @@
+{
+  "id": 19089,
+  "title": [
+    "[Spitfire, Cargo Hold]"
+  ],
+  "description": [
+    "The hold is primarily taken up by cargo stacked meticulously to the ceiling.  Aisles leading east and west circle the central blockade created by stacks of barrels and crates.  Along the Spitfire's sloping hull, brass lanterns are mounted, shedding puddles of warm light across the deck."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      1287,
+      522,
+      1324,
+      559
+    ]
+  },
+  "exits": [
+    {
+      "to": 19086,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19091,
+      "kind": "go",
+      "cmd": "go mahogany arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19095,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19098,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19144,
+      "kind": "go",
+      "cmd": "go silver hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23424,
+      "kind": "go",
+      "cmd": "go dimly-lit alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 23426,
+      "kind": "go",
+      "cmd": "go glaes hatch",
+      "cost": 0.2
+    }
+  ]
+}

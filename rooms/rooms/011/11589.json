@@ -1,0 +1,51 @@
+{
+  "id": 11589,
+  "uid": [
+    420503
+  ],
+  "title": [
+    "[Krolvin Carrack, Quarterdeck]"
+  ],
+  "description": [
+    "Looking forward from the quarterdeck rail you can see the shattered mainmast lying across the main deck and the splintered starboard bulwark.  The masthead reaches down to the reef below.  A hatchway leads into the officer's quarters.  A short flight of steps leads up to the poopdeck and a narrow companionway ladder leads down to the main deck."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      235,
+      933,
+      245,
+      943
+    ]
+  },
+  "exits": [
+    {
+      "to": 11582,
+      "kind": "go",
+      "cmd": "go hatchway",
+      "cost": 0.2
+    },
+    {
+      "to": 11590,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 11591,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

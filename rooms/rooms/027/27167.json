@@ -1,0 +1,39 @@
+{
+  "id": 27167,
+  "title": [
+    "[Den of the Poisoned Heretics]"
+  ],
+  "description": [
+    "Packed dirt walls are supported by thick wooden posts that lend the large root cellar a hickory scent that is at odds with the choking scent of brimstone that rises from a central brazier.  Draped upon one wall is a bright blue banner, which is in far better shape than the garish rugs thrown upon the floors.  Three of the four corners open up into archways that lead deeper into the den, while the final corner houses a long rough oak table covered in wares."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, northwest"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 27166,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 27168,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27169,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27170,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

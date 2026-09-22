@@ -1,0 +1,49 @@
+{
+  "id": 22121,
+  "uid": [
+    106501
+  ],
+  "title": [
+    "[Cairnfang Manor, Art Gallery]"
+  ],
+  "description": [
+    "Set upon an indigo background, the ebon feather-patterned damask that decorates the walls provides a complimentary backdrop to the many portraits that decorate the space.  Lacquered rafters form the bones of the vaulted ceiling and support the various lanterns that provide light for viewing.  Soft carpeting, in matching hues, stretches across the floor towards a wide opened arch that leads into a quiet garden."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      71,
+      186,
+      83,
+      200
+    ]
+  },
+  "exits": [
+    {
+      "to": 22120,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22122,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22124,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

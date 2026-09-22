@@ -1,0 +1,128 @@
+{
+  "id": 3646,
+  "uid": [
+    3201051
+  ],
+  "title": [
+    "[Cobblestone Path]"
+  ],
+  "description": [
+    "Verdant vines, laden with passionflowers, surrounding an ivy-draped white lattice archway, gently nod their heads as an errant ocean breeze passes through the area.  Moths and fireflies drift through along the cobblestone path, the former seeking flowers and the latter flickering with erratic abandon through the foliage.  Tall grasses along the northwestern edge of the path surround a wooden gate that leads into the stone-lined streets of a neighborhood.",
+    "Beneath a moonlit sky full of twinkling stars lies a field of wheat dusted with wildflower blossoms.  A breeze blows across it, bending the stalks of grain and giving them a faint golden shimmer as the silver moonlight dances across them.  Fireflies dart to and fro playing their endless game of tag across the rolling hills.",
+    "A gentle breeze blows across the rolling hills of golden wheat and colorful wildflowers, causing them to bend nearly in half and then rise upward once again.  The cobblestone path appears less kept to the northeast as it lazily winds up a small slope.  A pair of butterflies, caught up in their dizzying play, flutter across the wheat in a blur of color.",
+    "Verdant vines, laden with passionflowers, gently nod their heads as an errant ocean breeze passes through the area.  Butterflies and dragonflies drift through along the cobblestone path, the former seeking flowers and the latter snatching at gnats that seem to find the area pleasing.  Tall grasses along the northwestern edge of the path surround a wooden gate that leads into the stone-lined streets of a neighborhood.",
+    "Verdant vines, laden with passionflowers, gently nod their heads as an errant ocean breeze passes through the area.  Moths and fireflies drift through along the cobblestone path, the former seeking flowers and the latter flickering with erratic abandon through the foliage.  Tall grasses along the northwestern edge of the path surround a wooden gate that leads into the stone-lined streets of a neighborhood."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hilly",
+  "tags": [
+    "black tea leaves",
+    "bloodwood twig",
+    "bolmara lichen",
+    "brostheras grass",
+    "butterfly pea flower",
+    "cherry peppers",
+    "ebony twig",
+    "fresh catnip",
+    "fresh cilantro",
+    "fresh lemongrass",
+    "green pear",
+    "green tea leaves",
+    "ironfern root",
+    "luckbloom blossom",
+    "mate leaves",
+    "nightbloom blossom",
+    "oak twig",
+    "peppermint leaves",
+    "purple tea leaves",
+    "red cherries",
+    "rose-marrow root",
+    "slender twig",
+    "small watermelon",
+    "sprig of rooibos",
+    "stalk of celery",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "tea leaves",
+    "twisted twig",
+    "urchin-access",
+    "white tea leaves",
+    "wild rice",
+    "yew twig"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3470,
+      621,
+      3506,
+      656
+    ]
+  },
+  "exits": [
+    {
+      "to": 3645,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3647,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12307,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 35770,
+      "kind": "go",
+      "cmd": "go white archway",
+      "cost": 0.2
+    }
+  ]
+}

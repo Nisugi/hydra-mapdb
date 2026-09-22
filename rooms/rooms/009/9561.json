@@ -1,0 +1,60 @@
+{
+  "id": 9561,
+  "uid": [
+    688012
+  ],
+  "title": [
+    "[Wizard Guild, Cavern of Lava]"
+  ],
+  "description": [
+    "A reddish glow washes over the rocky walls and stalactites, emanating from a fissure that bisects the cavern from north to south.  High above the river of molten rock, a pair of sturdy glaes bridges adjoins the two sides of the cavern.  Several of the larger stalagmites situated in a rough circle have been carved into monoliths bearing giant engraved runes of the elements."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Zul Logoth",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom",
+    "wizard alchemy administrator",
+    "wizard guild administrator"
+  ],
+  "image": {
+    "file": "en-zul-wizard_guild-1648064027.png",
+    "rect": [
+      153,
+      533,
+      214,
+      593
+    ]
+  },
+  "exits": [
+    {
+      "to": 9557,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 13163,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 16920,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16922,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

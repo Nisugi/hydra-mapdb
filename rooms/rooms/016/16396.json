@@ -1,0 +1,40 @@
+{
+  "id": 16396,
+  "uid": [
+    261010
+  ],
+  "title": [
+    "[Rogue Guild, Upstairs Hallway]"
+  ],
+  "description": [
+    "The narrow hall is dimly lit by torches set into brass sconces on the walls, and carpeted with a thick woven rug that muffles your footsteps.  Several portraits are set in rich wooden frames and mounted on the walls.  Their eyes seem to follow you as you move, in what is probably just a strange trick of the light."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      522,
+      359,
+      550,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 16395,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 16449,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 23208,
+  "uid": [
+    5001058
+  ],
+  "title": [
+    "[Timor's, House Annex Hallway]"
+  ],
+  "description": [
+    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1072,
+      1082,
+      1111,
+      1122
+    ]
+  },
+  "exits": [
+    {
+      "to": 17682,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 23206,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23207,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

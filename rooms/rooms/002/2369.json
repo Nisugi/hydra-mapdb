@@ -1,0 +1,59 @@
+{
+  "id": 2369,
+  "uid": [
+    4042117
+  ],
+  "title": [
+    "[Magical Burrow, Sage Bend]",
+    "[Magical Burrow, Cursed Street]",
+    "[Magical Burrow, Sages' Bend]"
+  ],
+  "description": [
+    "A mural stretches along the face of a low stone fence separating a nearby manor from the street.  Depicted in vivid paint is a battle between ten small, dark figures with stretching shadows and a brave force of adventurers.  The leader of the tenebrous coterie is wreathed in twisting flames.  An ironwork gate opens out of the center of the fence, offering access to a welcoming if wintry courtyard beyond.",
+    "A few empty houses line the road here, probably vacated due to all the noise coming from the other burrows to the south and southeast."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      495,
+      698,
+      531,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 2301,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2368,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3233,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8696,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

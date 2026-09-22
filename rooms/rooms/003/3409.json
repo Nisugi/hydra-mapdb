@@ -1,0 +1,51 @@
+{
+  "id": 3409,
+  "uid": [
+    213001
+  ],
+  "title": [
+    "[White Haven, Outside Facade]"
+  ],
+  "description": [
+    "A crystalline tower streaked with gold rises above an outer wall of white stone, radiating warmth and light against the chill surroundings.  A finely detailed ice sculpture stands guard at each side of a white modwir gate bearing the words \"White Haven\" in gold leaf."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "White Haven",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "che:white_haven:entrance_che",
+    "mapcategory:CHE",
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - House White Haven (Map #1)",
+    "mapshortname:House White Haven (Map #1)"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      201,
+      803,
+      277,
+      880
+    ]
+  },
+  "exits": [
+    {
+      "to": 2411,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 3410,
+      "kind": "go",
+      "cmd": "go modwir gate",
+      "cost": 0.2
+    }
+  ]
+}

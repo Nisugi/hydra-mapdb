@@ -1,0 +1,83 @@
+{
+  "id": 3370,
+  "uid": [
+    4043301
+  ],
+  "title": [
+    "[Icemule Trace, Bank]"
+  ],
+  "description": [
+    "A row of highly polished brass teller windows lines the back wall of the bank.  Staggered in height from short to tall, their ledges comfortably accommodate travellers of all sizes.  Suspended from the ceiling is a gilded silver sign."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "bank",
+    "no forageables",
+    "urchin guide bank",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      671,
+      787,
+      707,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 2426,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3371,
+      "kind": "go",
+      "cmd": "go booth",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 20044,
+  "uid": [
+    672022
+  ],
+  "title": [
+    "[Cleric Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kharam-Dzu",
+  "check_location": true,
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-Cleric_Guild-1267238976.jpg",
+    "rect": [
+      4,
+      105,
+      39,
+      140
+    ]
+  },
+  "exits": [
+    {
+      "to": 20042,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20045,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

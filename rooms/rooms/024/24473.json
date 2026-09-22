@@ -1,0 +1,111 @@
+{
+  "id": 24473,
+  "uid": [
+    217006
+  ],
+  "title": [
+    "[Rone Academy, Elanthian Library]"
+  ],
+  "description": [
+    "Ornately carved pillars punctuate each corner of this spacious library.  Students wander amongst the bookshelf-lined walls, their footsteps muffled by worn tapestry rugs covering the wood floor.  Moonlight filters in through a domed skylight in the ceiling, illuminating large antique tables.  Wrought iron railing borders a wide descending staircase in the center of the room.  On the north wall, an open doorway is flanked by an antique fel bookcase and a marble pedestal displaying a dark leather volume.",
+    "Ornately carved pillars punctuate each corner of this spacious library.  Students wander amongst the bookshelf-lined walls, their footsteps muffled by worn tapestry rugs covering the wood floor.  Sunlight filters in through a domed skylight in the ceiling, illuminating large antique tables.  Wrought iron railing borders a wide descending staircase in the center of the room.  On the north wall, an open doorway is flanked by an antique fel bookcase and a marble pedestal displaying a dark leather volume."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Rone Academy",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "roneacademy",
+    "stalk of bluebells",
+    "supernode",
+    "table"
+  ],
+  "image": {
+    "file": "wl-rone_academy-1619899949.png",
+    "rect": [
+      657,
+      211,
+      681,
+      235
+    ]
+  },
+  "exits": [
+    {
+      "to": 24407,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24474,
+      "kind": "go",
+      "cmd": "go open doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 24475,
+      "kind": "go",
+      "cmd": "go descending staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 24482,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Merchants table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29615,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Enlightenment table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29616,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Professions table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Wanderer's table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29618,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Contemplation table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36081,
+      "kind": "other",
+      "cmd": "pull leather volume",
+      "cost": 0.2
+    }
+  ]
+}

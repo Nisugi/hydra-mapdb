@@ -1,0 +1,52 @@
+{
+  "id": 31836,
+  "uid": [
+    8083415
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The placid river seems to be barely moving along this stretch, the drab, tree-lined scenery unchanging.  Tall reeds poke up out of the water along the riverbanks, the aquatic grasses normally home to any number of mammals, but this bed is devoid of life.  Two relatively large boulders have been rolled close to the water's edge, one painted with an illegible rune."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1370,
+      721,
+      1390,
+      743
+    ]
+  },
+  "exits": [
+    {
+      "to": 31835,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31837,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

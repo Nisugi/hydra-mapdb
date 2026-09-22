@@ -1,0 +1,42 @@
+{
+  "id": 19937,
+  "uid": [
+    336402
+  ],
+  "title": [
+    "[Begetting Besiegers, Backroom]"
+  ],
+  "description": [
+    "Windowless and dim, it's a wonder how the artisan gets any detailed work done.  A small leather-padded stool rests between two paint-stained tables, easily affording the craftsman an ample amount of space.  Short shelves and stands hold an assortment of half-finished miniatures, many still colorless or missing limbs.  Tart crumbs are scattered about the floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 19928,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 20641,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

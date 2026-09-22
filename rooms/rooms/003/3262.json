@@ -1,0 +1,256 @@
+{
+  "id": 3262,
+  "uid": [
+    7502012
+  ],
+  "title": [
+    "[A Frozen Battlefield, Trench]"
+  ],
+  "description": [
+    "The thudding and pounding above have been replaced by thin scratching sounds.  An occasional rattle fills the air, a familiar yet unnerving noise, perhaps steel on bone.  Footing is treacherous among the frozen puddles that cover the trench basin and threaten to turn an ankle or cause a nasty spill."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Ice Plains",
+  "climate": "cold, damp",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "angelica root",
+    "arctic brambles",
+    "bearberries",
+    "blue whortleberry",
+    "bright red cranberry",
+    "buckthorn berry",
+    "calamintha flower",
+    "cuctucae berry",
+    "frostflower",
+    "ironfern root",
+    "murdroot",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "pine twig",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "winter rose",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      69,
+      326,
+      79,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 3248,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb south wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3257,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb north wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3261,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 4.0
+    },
+    {
+      "to": 3263,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 4.0
+    }
+  ]
+}

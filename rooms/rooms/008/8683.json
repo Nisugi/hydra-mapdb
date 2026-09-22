@@ -1,0 +1,55 @@
+{
+  "id": 8683,
+  "uid": [
+    1053
+  ],
+  "title": [
+    "[Wehnimer's, Narrow Alleyway]"
+  ],
+  "description": [
+    "This narrow, dead-end alleyway runs from town square to the south, up to a bare wall at the north end.  To the west, partially hidden behind teetering stacks of boxes, you see a weatherbeaten door with paint peeling off of it."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      355,
+      262,
+      391,
+      298
+    ]
+  },
+  "exits": [
+    {
+      "to": 276,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19943,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go long rope"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

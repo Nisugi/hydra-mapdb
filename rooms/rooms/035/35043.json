@@ -1,0 +1,47 @@
+{
+  "id": 35043,
+  "uid": [
+    4426318
+  ],
+  "title": [
+    "[Glaoveln Road, Conquerors' Gate]"
+  ],
+  "description": [
+    "Framed and inlaid with scrimshawed whalebone, a reinforced gate of black spruce guards the entrance into the city.  High watchtowers loom over the entry, their crenellated crowns occupied by krolvin sentries armed with heavy arbalests.  Traffic flows through the gates in a clattering press of wagons and aurochs-drawn carts, perfuming the air with a bewildering melange of exotic spices, musk, and road dust."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Glaoveln",
+  "climate": "arid",
+  "terrain": "rough",
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      644,
+      499,
+      665,
+      520
+    ]
+  },
+  "exits": [
+    {
+      "to": 35042,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35044,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 35045,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

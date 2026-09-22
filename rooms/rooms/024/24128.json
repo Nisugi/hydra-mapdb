@@ -1,0 +1,27 @@
+{
+  "id": 24128,
+  "title": [
+    "[Necropolis, Dark Passages]"
+  ],
+  "description": [
+    "An iron-hinged ebonwood door guards the northern end of the long hallway.  A cool draft pours into the area from somewhere close by -- the gust of air circulating the scent of sulfur into the passages."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24127,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24132,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    }
+  ]
+}

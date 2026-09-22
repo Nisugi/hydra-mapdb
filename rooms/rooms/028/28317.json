@@ -1,0 +1,187 @@
+{
+  "id": 28317,
+  "uid": [
+    12007001
+  ],
+  "title": [
+    "[Erenad Courtyard]"
+  ],
+  "description": [
+    "Surrounded by a pale grey stone wall, the cobblestone courtyard of the carriage house fans out in semi-circular pattern with the focal point leading to a white paneled house.  To the other side of the building is an archway that leads into the stable.  Pots of blooming flowers are set about decorating the area with their bright colors."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "arbutus berry",
+    "barley grass",
+    "birch bark",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "chives",
+    "crimson dragonstalk",
+    "crystal-like sylthiel",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dwarf bilberry",
+    "ear of corn",
+    "fennel bulb",
+    "fig",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden aster",
+    "golden buttercup",
+    "green cabbage",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "huckleberries",
+    "Imaera's Lace",
+    "ironfern root",
+    "juicy plum",
+    "large sunflower",
+    "leek",
+    "luckbloom blossom",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "mustard seeds",
+    "nettle leaf",
+    "nightbloom blossom",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "rye grass",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small apple",
+    "small daisy",
+    "small dandelion",
+    "small flower",
+    "small rose",
+    "small violet",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of columbine",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stable",
+    "stalk of burdock",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "sweet onion",
+    "thin hemp",
+    "thistle seeds",
+    "trollfear mushroom",
+    "urchin guide stable",
+    "urchin-access",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "white ramie",
+    "wild chokecherry",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rice",
+    "wild rose",
+    "wild sage",
+    "wild strawberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolfsbane root",
+    "wood violet",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "exits": [
+    {
+      "to": 751,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28318,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

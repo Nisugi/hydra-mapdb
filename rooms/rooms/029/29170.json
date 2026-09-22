@@ -1,0 +1,59 @@
+{
+  "id": 29170,
+  "uid": [
+    3023116
+  ],
+  "title": [
+    "[The F'Eyrie, Crater Rim]"
+  ],
+  "description": [
+    "This area of the crater rim is flat enough to traverse upon reliably, though the footing is deep with volcanic ash.  Progress can be made west or northeast as well as back down a cliff face to the volcanic slopes far below.  Sulfuric gasses billow from the crater to the north and to the south is an unfettered view of Kharam Dzu and the waters of the ocean surrounding Teras Isle."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the volcanic flats",
+  "climate": "arid",
+  "terrain": "mountainous",
+  "tags": [
+    "butterfly pea flower",
+    "lemon balm",
+    "lemon verbena",
+    "mate leaves",
+    "pepperthorn root",
+    "sprig of rooibos",
+    "spring onion",
+    "stalk of drakefern",
+    "white cotton boll",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "ti-feyrie-1599500894.png",
+    "rect": [
+      380,
+      312,
+      402,
+      335
+    ]
+  },
+  "exits": [
+    {
+      "to": 29169,
+      "kind": "go",
+      "cmd": "go cliff face",
+      "cost": 0.2
+    },
+    {
+      "to": 29171,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29177,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

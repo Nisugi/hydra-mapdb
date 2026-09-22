@@ -1,0 +1,71 @@
+{
+  "id": 33092,
+  "uid": [
+    7134067
+  ],
+  "title": [
+    "[Seafarers' Shops]"
+  ],
+  "description": [
+    "Expansive in both width and length, the battered teak dock has several slips for visiting ships, each with several salt-stained buoys.  Several deep scratches mar the deck in unusual, circular patterns, as if a giant tentacle had smacked the deck multiple times in succession."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      120,
+      233,
+      136,
+      246
+    ]
+  },
+  "exits": [
+    {
+      "to": 33091,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33093,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36766,
+      "kind": "go",
+      "cmd": "go sloop",
+      "cost": 0.2
+    },
+    {
+      "to": 36767,
+      "kind": "go",
+      "cmd": "go ship",
+      "cost": 0.2
+    },
+    {
+      "to": 36769,
+      "kind": "go",
+      "cmd": "go oaken sloop",
+      "cost": 0.2
+    },
+    {
+      "to": 36771,
+      "kind": "go",
+      "cmd": "go canopy sloop",
+      "cost": 0.2
+    },
+    {
+      "to": 36772,
+      "kind": "go",
+      "cmd": "go vessel",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 34336,
+  "uid": [
+    13150317
+  ],
+  "title": [
+    "[Thunder Plateau, Ascent]"
+  ],
+  "description": [
+    "Clearly visible from this vantage point, a breach in the mountain's precipice provides a much needed egress for the overabundant storm water that escapes with fierce urgency as it plummets to the base.  Ascending to the topmost point of the area is a precipitous acclivity, taunting all who dare to conquer its challenge."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Stormpeak",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "cabbage rose",
+    "golden mushroom",
+    "virescent rose",
+    "wild chokecherry"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1144,
+      711,
+      1164,
+      730
+    ]
+  },
+  "exits": [
+    {
+      "to": 34335,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 34337,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb acclivity"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": 1448,
+  "uid": [
+    4209023
+  ],
+  "title": [
+    "[Solhaven, North Market NE]"
+  ],
+  "description": [
+    "The northeast corner of the market is somewhat quieter than the bustling center.  A steady stream of customers flows through the door of an elegant stone building.  Windowboxes burst with bright red begonias.  A gleaming brass plaque is affixed to the bright blue front door."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, southwest, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1002,
+      513,
+      1026,
+      537
+    ]
+  },
+  "exits": [
+    {
+      "to": 1436,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1437,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1438,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1449,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1453,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 5719,
+      "kind": "go",
+      "cmd": "go front door",
+      "cost": 0.2
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "1448"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "1448"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

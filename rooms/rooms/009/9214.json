@@ -1,0 +1,50 @@
+{
+  "id": 9214,
+  "uid": [
+    7532016
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "A thick rope of braided palm fronds knotted around a sturdy iron loop leads downward into the pit.  Parts of the rope look chewed on and frayed, but it still seems to be in serviceable condition."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1252,
+      703,
+      1262,
+      713
+    ]
+  },
+  "exits": [
+    {
+      "to": 9213,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9215,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9239,
+      "kind": "climb",
+      "cmd": "climb rope",
+      "cost": 0.2
+    }
+  ]
+}

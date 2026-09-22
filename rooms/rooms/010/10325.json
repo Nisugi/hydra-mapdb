@@ -1,0 +1,68 @@
+{
+  "id": 10325,
+  "uid": [
+    14106002
+  ],
+  "title": [
+    "[United Bank of City-States]"
+  ],
+  "description": [
+    "Thick aubergine carpeting and heavy dark green velvet drapes help to muffle sound inside the bank, but the faint *clink* of coins can still be heard filtering from behind the bank's teller, who sits patiently waiting to help the next patron.  A small but elegant wrought iron chandelier hangs from the ceiling above, its amber glaesine globes casting a warm hue across the room."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bank",
+    "no forageables",
+    "urchin guide bank",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10324,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

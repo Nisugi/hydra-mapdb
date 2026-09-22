@@ -1,0 +1,50 @@
+{
+  "id": 11387,
+  "uid": [
+    377329
+  ],
+  "title": [
+    "[Citadel, Battlement]"
+  ],
+  "description": [
+    "The floor in the corner of the battlement drops away into a spiraling stone staircase that vanishes below.  On either side of the staircase, the crenellated walls of the battlement run to the west and to the east, periodically marked by rusting flagpoles absent any streaming banners."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      569,
+      1302,
+      579,
+      1312
+    ]
+  },
+  "exits": [
+    {
+      "to": 11386,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 11388,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11402,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 14066,
+  "uid": [
+    4750036
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "A stout wooden structure lies just to the north.  Judging from the soot-stained chimney and rusted iron ingots stacked just outside the door, it was likely the castle smithy at one time."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      704,
+      226,
+      712,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 14064,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14067,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14068,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

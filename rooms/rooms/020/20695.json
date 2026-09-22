@@ -1,0 +1,91 @@
+{
+  "id": 20695,
+  "uid": [
+    4002407
+  ],
+  "title": [
+    "[Solano Hall, Night Sky Landing]"
+  ],
+  "description": [
+    "Particles of mica in the black walls gleam softly in the ambient light of several toadstools, representing the stars in this rock-bound galaxy.  Thin veins of gold and silver ore resemble comet trails in the stone, and occasional pieces of quartz look like larger cosmic bodies.  Stone benches placed in secluded areas allow peaceful contemplation of the faux night sky.  In the center of the room, a roughly hewn fire pit allows for firelight to illuminate the walls to create a brightly glittering, starry night sky."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "ayana leaf",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "premium supernode",
+    "soft mushroom",
+    "supernode",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      2489,
+      755,
+      2630,
+      814
+    ]
+  },
+  "exits": [
+    {
+      "to": 20694,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

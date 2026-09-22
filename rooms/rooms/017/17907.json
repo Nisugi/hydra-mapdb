@@ -1,0 +1,46 @@
+{
+  "id": 17907,
+  "uid": [
+    268008
+  ],
+  "title": [
+    "[Rogue Guild, East Hall]"
+  ],
+  "description": [
+    "Smooth marble walls speckled with mica that glimmers slightly in the ambient light form a sharp curve in this section of the hallway.  Situated in the corner are several heavy pots filled with lichen and toadstools, creating a tiny subterranean garden that is luminescent in varying shades of blue and green.  A shadowed alcove harbors the small landing to a dark, descending stairway."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      560,
+      133,
+      597,
+      170
+    ]
+  },
+  "exits": [
+    {
+      "to": 17903,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17908,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17909,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

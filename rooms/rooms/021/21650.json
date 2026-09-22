@@ -1,0 +1,52 @@
+{
+  "id": 21650,
+  "uid": [
+    14116054
+  ],
+  "title": [
+    "[Third Floor, Main Hall East]"
+  ],
+  "description": [
+    "Braided rugs cover the hardwood floor, although some signs of weathering can be seen where the wood remains uncovered.  A golden-framed painting shines from the crimson-papered wall beside a ladder that leads to a trapdoor in the roof."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "near Fearling Pass",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      708,
+      145,
+      720,
+      158
+    ]
+  },
+  "exits": [
+    {
+      "to": 21645,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21651,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21652,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

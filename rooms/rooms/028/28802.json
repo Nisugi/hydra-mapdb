@@ -1,0 +1,50 @@
+{
+  "id": 28802,
+  "uid": [
+    4903603
+  ],
+  "title": [
+    "[Talondown Arena, Gate]"
+  ],
+  "description": [
+    "Standing beneath the low-hanging and outstretched talons of a firebird sculpture, the wooden gate leading to the stands is a splintered confection of warped wood and rusted nails.  The deck underfoot is paneled in mismatched blond and dark wood planks."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location_unknowable": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "exits": [
+    {
+      "to": 23281,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25509,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go burnt door"
+        },
+        {
+          "remember": [
+            "marksofthebeast_origin",
+            "28802"
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 32299,
+      "kind": "go",
+      "cmd": "go wooden gate",
+      "cost": 0.2
+    }
+  ]
+}

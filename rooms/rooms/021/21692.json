@@ -1,0 +1,48 @@
+{
+  "id": 21692,
+  "title": [
+    "[Griffin's Landing, Plaza]"
+  ],
+  "description": [
+    "Surrounded by thick wooden walls, a tall black obelisk marks the entrance to this small outpost.  At the center of the camp stands the King's Bane Saloon, overlooking a small, glistening pond.  To the east several flags on a pole dance in the wind above the Onyx Griffin Trading Post near a wide war wagon.  The eastern area is dominated by a series of tall stables."
+  ],
+  "paths": [
+    "Obvious paths: north, east, out"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 672,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21734,
+      "kind": "go",
+      "cmd": "go post",
+      "cost": 0.2
+    },
+    {
+      "to": 21735,
+      "kind": "go",
+      "cmd": "go saloon",
+      "cost": 0.2
+    },
+    {
+      "to": 21736,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21738,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

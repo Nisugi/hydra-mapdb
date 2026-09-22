@@ -1,0 +1,55 @@
+{
+  "id": 21077,
+  "uid": [
+    3217016
+  ],
+  "title": [
+    "[Alhan'naht River, South Wilds]"
+  ],
+  "description": [
+    "Flanked by congested trees upon the eastern shores, the river ambles through the thick jungle vegetation and murmurs softly as it passes.  Giant water lilies cling to the western banks, their amethyst hues reflected in the water."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1580,
+      2639,
+      1599,
+      2660
+    ]
+  },
+  "exits": [
+    {
+      "to": 21076,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push n"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21078,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push s"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

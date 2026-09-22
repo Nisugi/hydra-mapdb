@@ -1,0 +1,62 @@
+{
+  "id": 25755,
+  "uid": [
+    3223822
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Slipping between two verdant islands, the waters of the harbor grow choppy and erratic.  Tiny whirlpools, created as the waters bounce off of the shoals of both landmasses, swirl in the channel and suck nearby debris into the briny depths below."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1920,
+      1119,
+      1940,
+      1138
+    ]
+  },
+  "exits": [
+    {
+      "to": 25754,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25760,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25761,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

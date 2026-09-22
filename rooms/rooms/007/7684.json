@@ -1,0 +1,57 @@
+{
+  "id": 7684,
+  "uid": [
+    68009
+  ],
+  "title": [
+    "[Underground Ruin, Dining Hall]"
+  ],
+  "description": [
+    "This huge room seems to have been meant for grand entertainment.  There is a large fireplace, now caved in, on the south wall.  Sconces designed to hold torches line the walls but were obviously never used.  Oddly, there is no evidence of furnishings here."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      375,
+      1151,
+      385,
+      1161
+    ]
+  },
+  "exits": [
+    {
+      "to": 7683,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7685,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7700,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull sconce"
+        },
+        {
+          "move": "go chute"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

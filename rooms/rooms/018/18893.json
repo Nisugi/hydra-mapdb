@@ -1,0 +1,39 @@
+{
+  "id": 18893,
+  "uid": [
+    13113002
+  ],
+  "title": [
+    "[Cavern, Altar]"
+  ],
+  "description": [
+    "An old, dusty altar is set in the center of this small raised area.  The wall behind the altar is bare except for a row of five rickety levers connected to a thick rope that leads upward.  Each lever has been painted a different color: yellow, blue, brown, red, and green.  The torch light flickers ominously across the walls and pillars that brace the heavy stone ceiling."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "meta": [
+    "sign of darkness",
+    "society:Council of Light"
+  ],
+  "exits": [
+    {
+      "to": 13441,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "altar_levers"
+      },
+      "cost": 5.0
+    },
+    {
+      "to": 18891,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 1581,
+  "uid": [
+    4902124
+  ],
+  "title": [
+    "[Solhaven, Salters' Road]",
+    "[Solhaven, Trader and Salters']"
+  ],
+  "description": [
+    "With a single gateway at the corner of Salters' Road and Trade Row, a plank walled workyard fills the northeast corner of the intersection.  A tin-roofed warehouse rises above the wall at the back of the yard.",
+    "Bordered to the west by the crushing surf of Solhaven Bay, the intersection of Salters' Road and Trade Row is an expansive street lined with even cobbles.  A plank-walled workyard fills the northeast corner of the intersection, festooned with garlands of rose and lily that do little to mask the briny smell cloaking it.  A tin-roofed warehouse rises above the wall at the back of the yard."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      636,
+      1521,
+      660,
+      1545
+    ]
+  },
+  "exits": [
+    {
+      "to": 1574,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1585,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1587,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13435,
+      "kind": "go",
+      "cmd": "go workyard",
+      "cost": 0.2
+    }
+  ]
+}

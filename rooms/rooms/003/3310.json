@@ -1,0 +1,44 @@
+{
+  "id": 3310,
+  "uid": [
+    4130001
+  ],
+  "title": [
+    "[In The Crevice]"
+  ],
+  "description": [
+    "The crevice walls press close together, giving you a sense of claustrophobia.  A crack in the wall of ice provides the only exit to the outside, and the ice slopes downward opposite the fissure, leading into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Glacier",
+  "climate": "glacial",
+  "terrain": "icy glacier",
+  "tags": [
+    "blue iceblossom"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1233,
+      926,
+      1243,
+      936
+    ]
+  },
+  "exits": [
+    {
+      "to": 3308,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    },
+    {
+      "to": 3311,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

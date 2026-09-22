@@ -1,0 +1,54 @@
+{
+  "id": 18843,
+  "title": [
+    "duplicate of 18841"
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest, west, northwest, down"
+  ],
+  "tags": [
+    "some aloeas stem"
+  ],
+  "exits": [
+    {
+      "to": 18823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18842,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25616,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row west"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

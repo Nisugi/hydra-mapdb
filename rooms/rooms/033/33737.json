@@ -1,0 +1,43 @@
+{
+  "id": 33737,
+  "uid": [
+    3003128
+  ],
+  "title": [
+    "[Aquamarine Lounge]"
+  ],
+  "description": [
+    "Carved from granite, the floor is smooth and warm from underground heat currents.  A slate blackboard hangs from the wall opposite an arch that leads back to the hallway.  A large mistwood bookcase covers another wall, its shelves full of a variety of tomes and books.  Several iron sconces hang above an overstuffed couch."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_annex"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1797,
+      595,
+      1912,
+      637
+    ]
+  },
+  "exits": [
+    {
+      "to": 1939,
+      "kind": "go",
+      "cmd": "go mistwood arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33738,
+      "kind": "other",
+      "cmd": "pull dwarvish tome in mistwood bookcase",
+      "cost": 0.2
+    }
+  ]
+}

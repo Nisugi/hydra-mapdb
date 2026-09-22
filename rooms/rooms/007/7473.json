@@ -1,0 +1,39 @@
+{
+  "id": 7473,
+  "uid": [
+    94100
+  ],
+  "title": [
+    "[Deep Pit]"
+  ],
+  "description": [
+    "A deep layer of old bones forms the floor of this deep pit. The high straight walls are rough and irregular, riddled with cracks and sharp protrusions of stone."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1028,
+      934,
+      1038,
+      944
+    ]
+  },
+  "exits": [
+    {
+      "to": 7472,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb walls"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

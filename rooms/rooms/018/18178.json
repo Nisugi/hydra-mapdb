@@ -1,0 +1,53 @@
+{
+  "id": 18178,
+  "uid": [
+    52010
+  ],
+  "title": [
+    "[Melgorehn's Reach, Staircase]"
+  ],
+  "description": [
+    "The trail up the mountain ends here at the base of a sheer, 50-foot cliff face.  In front of this is a series of four stone pillars that seems to be some sort of unusual staircase.  There are also some strange markings on the mountain wall."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "exits": [
+    {
+      "to": 18177,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18179,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "rune_staircase"
+      },
+      "cost": 11.0
+    }
+  ]
+}

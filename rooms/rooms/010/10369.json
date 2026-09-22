@@ -1,0 +1,79 @@
+{
+  "id": 10369,
+  "uid": [
+    14110001
+  ],
+  "title": [
+    "[Hall of the Arkati, Entry]"
+  ],
+  "description": [
+    "Fluted white marble columns hold up a high-arched, plastered ceiling.  Exquisite frescoes are painted across the expanse of plaster, reflecting the night sky of Elanith with her myriad moons and constellations.  Several mithglin lanterns line the edges of the rooms, each containing a small white votive that sheds just enough light to illuminate the artwork."
+  ],
+  "paths": [
+    "Obvious exits: south, west, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3539,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10370,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10371,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

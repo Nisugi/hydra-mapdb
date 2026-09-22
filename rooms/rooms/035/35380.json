@@ -1,0 +1,44 @@
+{
+  "id": 35380,
+  "uid": [
+    7142119
+  ],
+  "title": [
+    "[Spine of Koar, Head]"
+  ],
+  "description": [
+    "From this vantage point, a vast panorama of the island's terraces and distant horizons spreads out for all to see.  Curved and serpentine, the floor resembles the shape of an enormous dragon's head.  Stone steps, meticulously carved into the dragon's neck, wind their way downwards to the distant harbor and an ornate staircase ascends to the cliff's apex.  Ornate iron railings, adorned with intricate dragon motifs, feature lanterns whose colorful glass panes decorate the area in their prismatic light."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Isle of Ornath",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "bract of sea spurge"
+  ],
+  "image": {
+    "file": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
+    "rect": [
+      691,
+      115,
+      720,
+      141
+    ]
+  },
+  "exits": [
+    {
+      "to": 35379,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 35381,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

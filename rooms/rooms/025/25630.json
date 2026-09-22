@@ -1,0 +1,35 @@
+{
+  "id": 25630,
+  "uid": [
+    14115016
+  ],
+  "title": [
+    "[Annatto Bridge Tunnel, Ladder]"
+  ],
+  "description": [
+    "This small landing provides storage and a rallying point above the ladder shaft.  Dark and small, a tunnel leads off to the northwest.  A ladder, running down a narrow, rounded hole, descends into inky darkness.  Stacks of rag-wrapped torches, their heads dipped into tar, are stored in piles around the perimeter of the landing."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 25629,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25631,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

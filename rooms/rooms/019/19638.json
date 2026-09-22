@@ -1,0 +1,43 @@
+{
+  "id": 19638,
+  "title": [
+    "[Albatross, Belowdecks]"
+  ],
+  "description": [
+    "Primarily used for storage, the narrow room is cluttered with various items.  Rolled-up documents and maps are haphazardly placed along the shelves that line the wall, which are hard to make out with the poor lighting.  A linen-covered driftwood crate rests against the back wall, while a jewel-studded ironwood chest is pushed up against a large pile of old canvas rags."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      332,
+      613,
+      367,
+      647
+    ]
+  },
+  "exits": [
+    {
+      "to": 19637,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19639,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go hatch"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 34509,
+  "uid": [
+    474204
+  ],
+  "title": [
+    "[Bleaklands, Storm Plains]"
+  ],
+  "description": [
+    "A rumbling of fuliginous clouds billow in the distance, brief flashes of gold light illuminating their edges.   Momentarily, the ground seems to expand before returning to its lifeless state."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Bleaklands",
+  "climate": "arid",
+  "terrain": "rough",
+  "tags": [
+    "banana leaf",
+    "broken twig",
+    "cactus flower",
+    "ghost pepper",
+    "heath aster",
+    "hot pepper",
+    "moonlight cactus-bloom",
+    "pepperthorn root",
+    "stalk of chicory",
+    "wild rose",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      185,
+      424,
+      196,
+      435
+    ]
+  },
+  "exits": [
+    {
+      "to": 7927,
+      "kind": "scripted",
+      "routine": {
+        "name": "search_rooms",
+        "rooms": [
+          474204,
+          474205,
+          474206,
+          474207,
+          474208,
+          474209,
+          474210,
+          474211,
+          474212,
+          474213,
+          474214,
+          474215,
+          474216,
+          474218,
+          474219,
+          474220,
+          474221,
+          474222,
+          474224,
+          474225,
+          474226,
+          474227,
+          474228,
+          474229,
+          474200,
+          474201,
+          474202,
+          474203
+        ],
+        "by_uid": true,
+        "sees": "rippling ethereal green portal",
+        "enter": "go ethereal portal"
+      },
+      "cost": 1.0
+    },
+    {
+      "to": 34508,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34510,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

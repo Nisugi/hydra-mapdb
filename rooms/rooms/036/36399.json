@@ -1,0 +1,66 @@
+{
+  "id": 36399,
+  "uid": [
+    58005
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "This corridor is massive in size, the ceilings reaching high overhead in a curving arc.  The floor is unblemished and smooth save for some scattered pitted holes and debris.  Occasionally small chunks of rock fall loose from uneven portions of the ceiling to smash down into the floor with loud sounds that echo all over the corridor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1560,
+      680,
+      1600,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36398,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36400,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36414,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "dig opening"
+        },
+        {
+          "put": "dig opening"
+        },
+        {
+          "put": "dig opening"
+        },
+        {
+          "put": "dig opening"
+        },
+        {
+          "put": "dig opening"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

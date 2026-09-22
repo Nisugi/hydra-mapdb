@@ -1,0 +1,50 @@
+{
+  "id": 23699,
+  "uid": [
+    255007
+  ],
+  "title": [
+    "[Tanglevine Hall, Ice Tubs]"
+  ],
+  "description": [
+    "Dark wooden walls keep out all light helping the air to keep its chilled edge.  Filled to the top with chunks of ice, rows of ceramic tubs line the opposite wall from the arch.  Layered over the smooth stone floor, shredded woodchips crunch under feet, absorbing any moisture that drips to the ground."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild icetub"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      570,
+      447,
+      595,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 23683,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23698,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 32789,
+      "kind": "go",
+      "cmd": "go tubs",
+      "cost": 0.2
+    }
+  ]
+}

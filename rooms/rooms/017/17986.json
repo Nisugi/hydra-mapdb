@@ -1,0 +1,43 @@
+{
+  "id": 17986,
+  "uid": [
+    263003
+  ],
+  "title": [
+    "[Inn, Rooftop]"
+  ],
+  "description": [
+    "You stand at the very edge of the roof at the back of the inn.  Red glazed, barrel tiles make the footing risky.  Moonlight glints off the spire of a minaret to the northwest.  A breeze carries the slightly tangy smell of the distant bay.  To the east, entirely surrounded by thick brambles, is a dingy, stucco building that appears long abandoned.  For the stalwart, a rope bridge leads over the brambles to the roof of the abandoned building.  A narrow air shaft leads down."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      364,
+      97,
+      393,
+      123
+    ]
+  },
+  "exits": [
+    {
+      "to": 17985,
+      "kind": "climb",
+      "cmd": "climb shaft",
+      "cost": 0.2
+    },
+    {
+      "to": 17987,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

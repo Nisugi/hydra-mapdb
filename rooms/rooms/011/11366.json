@@ -1,0 +1,56 @@
+{
+  "id": 11366,
+  "uid": [
+    377021
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The forces of time seem to have left the smooth granite of this hallway untouched as no cracks show in the walls."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      177,
+      1224,
+      187,
+      1234
+    ]
+  },
+  "exits": [
+    {
+      "to": 11363,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11367,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11368,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17706,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

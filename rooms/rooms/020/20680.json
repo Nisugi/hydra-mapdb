@@ -1,0 +1,49 @@
+{
+  "id": 20680,
+  "uid": [
+    258010
+  ],
+  "title": [
+    "[Warrior Guild, Edifice East]"
+  ],
+  "description": [
+    "Thin streams of smoke drift out of a pair of marble double doors set into the eastern wall, smelling strongly of cloves.  The polished marble floor has been buffed to a mirror-like sheen, with the tiny flecks of silver within each tile glimmering under the illumation of giant toadstools.  A trio of eostones have been inlaid into the ornate lintel over the doorway to the Guildmaster's Office."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      615,
+      309,
+      632,
+      325
+    ]
+  },
+  "exits": [
+    {
+      "to": 20678,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20679,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20681,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 3041,
+  "uid": [
+    4129200
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "A chill wind blows down from beyond the glacier, rustling the sparse clumps of grass along the ground.  The high walls of Icemule Trace tower overhead, muffling the noises of the town beyond."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard2",
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      171,
+      1053,
+      181,
+      1063
+    ]
+  },
+  "exits": [
+    {
+      "to": 3033,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3042,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3047,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3234,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

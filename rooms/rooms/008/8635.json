@@ -1,0 +1,156 @@
+{
+  "id": 8635,
+  "uid": [
+    112014
+  ],
+  "title": [
+    "[Wehnimer's Shop, Waiting Area]"
+  ],
+  "description": [
+    "Cushioned ladder-backed chairs surround a plush, snow white bear rug.  Affixed in the eye sockets are a pair of brilliant dragonsbreath sapphires and long, slightly yellowed pieces of ivory serve as the fangs.  Edged in gold braiding, the tapestry on the back wall depicts several males encircling a kneeling individual as they work together to wrestle an object from his grasp."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "travel waiting room"
+  ],
+  "exits": [
+    {
+      "to": 8634,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8916,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "wl,imt"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:imt,wl"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "wl,imt"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 4.4
+          }
+        ]
+      }
+    },
+    {
+      "to": 14360,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "wl,sol"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:sol,wl"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "wl,sol"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 4.4
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 15794,
+  "uid": [
+    4048002
+  ],
+  "title": [
+    "[Icewall Penitentiary, Ledge]"
+  ],
+  "description": [
+    "The guards at the top of an imflass-chain ladder stamp their feet in a vain attempt to fight off the biting cold.  A single torch set in an unadorned iron sconce provides only scarce light, causing shadows to flitter about the area.  Near the torch, a thick imflass door has been fixed securely into the ice and bears a prominent mithril plaque.  To the west, a suspended rope bridge crosses a narrow chasm."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Penitentiary_Map-51200829.png",
+    "rect": [
+      455,
+      175,
+      499,
+      217
+    ]
+  },
+  "exits": [
+    {
+      "to": 3309,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 15795,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 15797,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

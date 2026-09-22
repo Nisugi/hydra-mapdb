@@ -1,0 +1,61 @@
+{
+  "id": 36436,
+  "uid": [
+    58047
+  ],
+  "title": [
+    "[Cavern, Wobbly Disk]"
+  ],
+  "description": [
+    "You intensely clutch the thick, cold chain which extends from the wobbly disk platform on which you stand to the cavern ceiling above.  Below you is a seemingly endless drop.  As the disk swaps back and forth, it alternately teases you with being near enough to jump to the disks to the east or west."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2000,
+      200,
+      2040,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 36435,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_any": [
+            "You swing near the disk to the west",
+            "The disk to the west swings near"
+          ]
+        },
+        {
+          "move": "jump west disk"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36437,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_any": [
+            "You swing near the disk to the east",
+            "The disk to the east swings near"
+          ]
+        },
+        {
+          "move": "jump east disk"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 20126,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "A proliferation of fiddlehead ferns flourishes here, each nestled snuggly against its neighbor.  Near the pathway most are small, their curling tops barely reaching ankle height of those making their way through the growth.  To each side, ferns of greater maturity are fully unfurled, reaching heights that would tower above the average gnome.",
+    "A proliferation of fiddlehead ferns flourishes here, each nestled snugly against its neighbor.  Near the pathway most are small, their curling tops barely reaching ankle height of those making their way through the growth.  To each side, ferns of greater maturity are fully unfurled, reaching heights that would tower above the average gnome."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      388,
+      755,
+      403,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 20125,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20127,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 20185,
+      "kind": "go",
+      "cmd": "go wooden wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 20269,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

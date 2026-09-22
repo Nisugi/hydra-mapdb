@@ -1,0 +1,41 @@
+{
+  "id": 36384,
+  "uid": [
+    55057
+  ],
+  "title": [
+    "[Black Swan Castle, Ramparts]"
+  ],
+  "description": [
+    "The tallest tower of the fortress provides the highest point for detecting enemy onslaughts.  The thin and elegant stone structure seems to stretch and crane over the landscape, like some vigilant bird poised to take flight at the first sign of attack.  Two windows, now like lifeless eye sockets, are sunk into the western and southern curves of the tower."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      320,
+      680,
+      360,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36374,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 36383,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

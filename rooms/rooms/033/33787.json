@@ -1,0 +1,46 @@
+{
+  "id": 33787,
+  "uid": [
+    170940
+  ],
+  "title": [
+    "[The Ember Vale, Outer Ring]"
+  ],
+  "description": [
+    "Dozens of stone homes and buildings are positioned about, some with brick chimneys filling the air with smoke and heat.  Beds of flowers line rough granite walkways, each one meandering through clusters of sturdy rock structures.  Huge blue-grey earthen walls encircle the area."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      634,
+      562,
+      650,
+      576
+    ]
+  },
+  "exits": [
+    {
+      "to": 33782,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 33788,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33796,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

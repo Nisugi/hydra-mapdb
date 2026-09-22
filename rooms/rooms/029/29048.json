@@ -1,0 +1,78 @@
+{
+  "id": 29048,
+  "uid": [
+    3023101
+  ],
+  "title": [
+    "[Basalt Cliff, Approach]"
+  ],
+  "description": [
+    "Towering above, a wide cliff face of exposed grey basalt columns stretches upwards to the blue sky, the top of which is barely visible.  While completely vertical, ample hand and footholds can be found for even the most novice of climbers.  Hexagonal blocks of basalt lay on the ground at the base, having fallen from the face over time.",
+    "This long barren slope of the volcano rises above the island, surrounded by a deep blue ocean.  The terrain is rocky and devoid of plant life, with the occasional boulder standing sentinel along the arduous climb.  Grooves in the earth from rainwater and lava flows branch out down the slope to meet the vegetation at the edge of the jungle below."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the volcanic flats",
+  "climate": "arid",
+  "terrain": "mountainous",
+  "tags": [
+    "butterfly pea flower",
+    "lemon balm",
+    "lemon verbena",
+    "mate leaves",
+    "pepperthorn root",
+    "sprig of rooibos",
+    "spring onion",
+    "stalk of drakefern",
+    "white cotton boll",
+    "yellow primrose"
+  ],
+  "meta": [
+    "mapcategory:Teras Isle",
+    "mapname:Teras Isle - F'Eyrie",
+    "mapshortname:F'Eyrie"
+  ],
+  "image": {
+    "file": "ti-feyrie-1599500894.png",
+    "rect": [
+      102,
+      431,
+      125,
+      456
+    ]
+  },
+  "exits": [
+    {
+      "to": 12580,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb rockslide"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29165,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

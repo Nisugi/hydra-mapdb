@@ -1,0 +1,56 @@
+{
+  "id": 3287,
+  "uid": [
+    4127022
+  ],
+  "title": [
+    "[Ice Plains, Worker Burrows]"
+  ],
+  "description": [
+    "The tunnel leads you back into a small room with many exits.  This appears to be a central area where the inhabitants gather to prepare and eat their meals.  A ring of stones surrounds a large fire with several cooking utensils resting against one of the stones.  Two long tables surrounded by several stools show many stains from previous meals.  A third table is set about ten feet from the fire and has several items on it."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      443,
+      352,
+      453,
+      362
+    ]
+  },
+  "exits": [
+    {
+      "to": 3280,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3288,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3289,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3290,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

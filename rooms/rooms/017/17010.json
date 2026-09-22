@@ -1,0 +1,63 @@
+{
+  "id": 17010,
+  "uid": [
+    254031
+  ],
+  "title": [
+    "[Warrior Guild Roof, SE Corner]"
+  ],
+  "description": [
+    "The town hall stands proudly to the southeast, her mighty door sheltering politicians and official clerks of the city.  Beyond that the town jail holds some of the worst trash in all the realms."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest, down"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild masters",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1498,
+      174,
+      1519,
+      195
+    ]
+  },
+  "exits": [
+    {
+      "to": 17009,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 17014,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17017,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17018,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30527,
+      "kind": "other",
+      "cmd": "ask alakrios about train berserk",
+      "cost": 10.0
+    }
+  ]
+}

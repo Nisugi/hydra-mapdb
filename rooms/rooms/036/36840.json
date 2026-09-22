@@ -1,0 +1,42 @@
+{
+  "id": 36840,
+  "uid": [
+    741051
+  ],
+  "title": [
+    "[Sutana's Designs, Entry]"
+  ],
+  "description": [
+    "Interwoven woods in geometric patterns form a marquetry floor that radiates outward from a low, brass-edged pedestal at the center of the room.  Exposed beams and carved zydris trim define the broad, open space with a subtle decagonal outline.  Along one wall, a spiral-columned archway leads into the office, while evenly spaced floor braziers cast a steady glow upward, highlighting the woodwork and illuminating the surrounding walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Cysaegir",
+  "exits": [
+    {
+      "to": 36839,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 36841,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36842,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36851,
+      "kind": "go",
+      "cmd": "go spiral-columned archway",
+      "cost": 0.2
+    }
+  ]
+}

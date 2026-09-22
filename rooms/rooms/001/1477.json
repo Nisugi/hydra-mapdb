@@ -1,0 +1,117 @@
+{
+  "id": 1477,
+  "uid": [
+    4209046
+  ],
+  "title": [
+    "[Solhaven, Bayside Road]"
+  ],
+  "description": [
+    "A capacious, whitewashed warehouse faces North 'Haven Quay across Bayside Road.  The constant flow of longshoremen to and from the quay is often at odds with the traffic on Bayside."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south, southwest, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      758,
+      702,
+      782,
+      726
+    ]
+  },
+  "exits": [
+    {
+      "to": 1476,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1478,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1481,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1482,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1483,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5689,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    },
+    {
+      "to": 20698,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

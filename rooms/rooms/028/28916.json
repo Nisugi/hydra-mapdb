@@ -1,0 +1,93 @@
+{
+  "id": 28916,
+  "uid": [
+    7118205
+  ],
+  "title": [
+    "[Kraken's Fall, North Arm Lane]"
+  ],
+  "description": [
+    "Single-story cottages, their windows framed by dark shutters, spread across the lane, each with a small side garden and high grassy lawn encircled by picket fences.  Bamboo torches dot the cobblestone lane, the brightly burning sentinels standing guard over the seashell pathways that lead to each domicile.  A small glade of manicured grass with picnic tables encircles a crumbling stucco bar painted with a colorful keg-shaped sign.",
+    "Single-story cottages, their windows framed by dark shutters, spread across the lane, each with a small side garden and high grassy lawn encircled by picket fences.  Bamboo torches dot the cobblestone lane, the dormant sentinels standing guard over the seashell pathways that lead to each domicile.  A small glade of manicured grass with picnic tables encircles a crumbling stucco bar painted with a colorful keg-shaped sign."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      670,
+      242,
+      683,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 28914,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28917,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29091,
+      "kind": "go",
+      "cmd": "go stucco bar",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

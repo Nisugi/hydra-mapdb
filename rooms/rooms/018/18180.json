@@ -1,0 +1,66 @@
+{
+  "id": 18180,
+  "uid": [
+    52012
+  ],
+  "title": [
+    "[Melgorehn's Reach, Stream]"
+  ],
+  "description": [
+    "The mountain trail ends here, opening into a wide area that provides a good place to rest.  Progress to the west ends with an exposure of several thousand feet.  You notice a wooden beam trellis which runs from this point up the side of the mountain to quite a distance above you.  On one side, a freshwater mountain stream tumbles out of an opening into a pool."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "sunburst blossom",
+    "wingstem root"
+  ],
+  "exits": [
+    {
+      "to": 18179,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18181,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "close dam",
+          "when": {
+            "not": {
+              "sees": "wooden cab"
+            }
+          }
+        },
+        {
+          "await": "riding on the trellis",
+          "when": {
+            "not": {
+              "sees": "wooden cab"
+            }
+          }
+        },
+        {
+          "put": "open dam"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "move": "go cab"
+        }
+      ],
+      "cost": 240.0
+    }
+  ]
+}

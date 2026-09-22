@@ -1,0 +1,56 @@
+{
+  "id": 7917,
+  "uid": [
+    484013
+  ],
+  "title": [
+    "[Twin Canyons, Rockface Slope]"
+  ],
+  "description": [
+    "Atop the rubble, the western wall contains several cracks and crevices that could easily be used as foot and handholds.  About two hundred feet above, a natural ledge juts out from the wall, a small stream of water flowing over the edge and shimmering like liquid silver as it rains down nearby.  To the northeast the jagged top of the rock outcrop can be seen as well as the rim of the eastern canyon.",
+    "Atop the rubble, the western wall contains several cracks and crevices that could easily be used as foot and handholds.  About two hundred feet above, a natural ledge juts out from the wall, a small stream of water flowing over the edge and raining down nearby.  To the northeast the jagged top of the rock outcrop can be seen as well as the rim of the eastern canyon.  The rubble pile appears to be rather stable and the wall appears to be worn from use, not jagged with fresh cracks."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Wehntoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "restricted:7918:skill:climbing:100",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      207,
+      1358,
+      217,
+      1368
+    ]
+  },
+  "exits": [
+    {
+      "to": 6116,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 7918,
+      "kind": "climb",
+      "cmd": "climb wall",
+      "cost": {
+        "when": {
+          "not": {
+            "skill_under": [
+              "climbing",
+              100
+            ]
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

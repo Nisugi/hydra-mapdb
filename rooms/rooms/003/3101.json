@@ -1,0 +1,45 @@
+{
+  "id": 3101,
+  "uid": [
+    4124024
+  ],
+  "title": [
+    "[Abandoned Farm, Cellar]"
+  ],
+  "description": [
+    "The narrow windows near the ceiling of the cellar are translucent with grime.  Jagged pieces of blue and green glass litter the ground and crunch under your feet."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "zombie"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      779,
+      673,
+      789,
+      683
+    ]
+  },
+  "exits": [
+    {
+      "to": 3100,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 3102,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 690,
+  "uid": [
+    13101030
+  ],
+  "title": [
+    "[Ta'Illistim, Weyr Var]"
+  ],
+  "description": [
+    "The impenetrable stone facade of a guild hall looms above, dwarfed only by BriarStone Keep to the west and the spire of a belltower soaring above the rooftops to the north.  A small moat encircles the hall, a short wooden bridge spanning its breadth with ease.  A mithglin sign is posted nearby."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      527,
+      202,
+      552,
+      224
+    ]
+  },
+  "exits": [
+    {
+      "to": 206,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 207,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13307,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 25625,
+  "uid": [
+    14115021
+  ],
+  "title": [
+    "[Annatto Arch, Stairway]"
+  ],
+  "description": [
+    "This cramped space is hardly big enough to allow two elves to pass each other on their way to and from the small chamber to the southwest.  A layer of black mold has imbedded itself in the limestone blocks of the walls and ceiling, adding to the dimness of the space."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25624,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25626,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

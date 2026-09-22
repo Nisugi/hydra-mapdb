@@ -1,0 +1,47 @@
+{
+  "id": 24932,
+  "uid": [
+    -7105020
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "Across from a tall stone building with no windows, the forge fires have gone out in a blacksmith's stall.  Rusty horseshoes are nailed above the work shed, and a thick, green scum lines a shallow water trough near the anvil.  Weapons and armor in need of repair are stacked haphazardly in a cart out front."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      604,
+      836,
+      618,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 24931,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24966,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25300,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

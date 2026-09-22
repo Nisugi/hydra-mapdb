@@ -1,0 +1,55 @@
+{
+  "id": 7214,
+  "uid": [
+    2162112
+  ],
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "A chill breeze bearing a faint odor of decay wafts through the huge stone arch that dominates the eastern end of the tunnel.  The arch is worn by dark rivulets of water dripping from somewhere above, the acidic liquid etching deep streaks in the ancient grey stone and nearly obliterating the many symbols of dark gods carved into its pockmarked surface."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      531,
+      185,
+      541,
+      195
+    ]
+  },
+  "exits": [
+    {
+      "to": 7213,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7215,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 7246,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

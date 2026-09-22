@@ -1,0 +1,127 @@
+{
+  "id": 25623,
+  "uid": [
+    14117005
+  ],
+  "title": [
+    "[Mistydeep, Upper Reaches]"
+  ],
+  "description": [
+    "The water here is a pleasant dichotomy of quiet stillness and swirling agitation as a row of rocks dams the majority of the river's flow.  A few surging rivulets manage to break free, streaming in to fill this kidney-shaped depression.  A stone shelf beneath the rocky barrier allows those who perch there to experience leisurely water-massages."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1043,
+      611,
+      1061,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 25621,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25622,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row east",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30500,
+      "kind": "other",
+      "cmd": "swim northeast",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30504,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

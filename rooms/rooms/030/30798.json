@@ -1,0 +1,102 @@
+{
+  "id": 30798,
+  "uid": [
+    7120001,
+    7120013,
+    7120025,
+    7120037,
+    7120049,
+    7120061,
+    7120073
+  ],
+  "title": [
+    "[Enemy Ship, Main Deck]"
+  ],
+  "description": [
+    "The main deck is outfitted with some cannons on either side.  Ratlines ascend upwards to the crows nest attached to a mast, a pennant fluttering above a sail.  An opening in the wide-planked deck leads to the cargo hold below, the faint aroma of mildew and livestock mingling with the sea breeze near the hatch."
+  ],
+  "paths": [
+    "Obvious paths: east, west, up, down"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy galleon"
+  ],
+  "meta": [
+    "exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      804,
+      724,
+      819,
+      737
+    ]
+  },
+  "exits": [
+    {
+      "to": 29038,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30119,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30130,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30142,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30166,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30176,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30799,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30801,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30802,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30803,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

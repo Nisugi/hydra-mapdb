@@ -1,0 +1,49 @@
+{
+  "id": 15618,
+  "uid": [
+    685036
+  ],
+  "title": [
+    "[Wizard Guild, Branch]"
+  ],
+  "description": [
+    "Three passages meet in this branching hallway.  To the northeast stands a slender archway of pink-flecked granite that flickers occasionally with a hazy reddish aura.  A white marble arch is set into the northwest wall, ornately carved and shot through with meandering veins of gold.  The corridor continues to the south, framed by polished oak paneled walls."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      55,
+      581,
+      81,
+      607
+    ]
+  },
+  "exits": [
+    {
+      "to": 692,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    },
+    {
+      "to": 15599,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16937,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

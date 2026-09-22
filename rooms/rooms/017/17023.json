@@ -1,0 +1,40 @@
+{
+  "id": 17023,
+  "uid": [
+    254024
+  ],
+  "title": [
+    "[Warrior Guild, Gymnasium]"
+  ],
+  "description": [
+    "The well-equipped gymnasium carries the salty taste of sweat to your nose.  Long lifting benches line one wall, while tumbling mats are neatly stacked in the far corner.  Large lifting stones, as well as more sophisticated contraptions of stamina seem to be well worn and crafted.  A large pugilism ring for combatants to test their agility and strength dominates the center of the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1149,
+      133,
+      1169,
+      153
+    ]
+  },
+  "exits": [
+    {
+      "to": 17022,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17024,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    }
+  ]
+}

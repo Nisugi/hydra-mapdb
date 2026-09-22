@@ -1,0 +1,44 @@
+{
+  "id": 7032,
+  "uid": [
+    45121
+  ],
+  "title": [
+    "[Castle Darkstone, Gatehouse]"
+  ],
+  "description": [
+    "A short passage here lies between the door and a finely-wrought portcullis of gleaming, coal-black mein.  Some intense heat seems to have been present here at one time, as the walls of the passage are sooty and charred, but the portcullis looks sturdy, and relatively new."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      571,
+      563,
+      581,
+      573
+    ]
+  },
+  "exits": [
+    {
+      "to": 7031,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7033,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 21174,
+  "uid": [
+    265409
+  ],
+  "title": [
+    "[Beneath Gardenia Commons]"
+  ],
+  "description": [
+    "Thin copper pipes rise out of the floor at the center of each of the walls of the nexus, their opposite ends fitted to glass lanterns that house blue-hearted orange flames.  Thick blocks of cement support an elaborate gear system that is surrounded by a circular scaffold system, while complex pipes, some clear and others steel, disappear into both the ceiling and the floor.  A moat of crystal clear water surrounds the entire contraption, but can be crossed where a small bridge leads from the cobblestones to the cement."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "go",
+      "cmd": "go scaffold",
+      "cost": 0.2
+    },
+    {
+      "to": 21173,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21175,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21193,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21194,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

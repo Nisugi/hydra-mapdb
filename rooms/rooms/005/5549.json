@@ -1,0 +1,64 @@
+{
+  "id": 5549,
+  "uid": [
+    4215133
+  ],
+  "title": [
+    "[Manor House, West Entryway]"
+  ],
+  "description": [
+    "Moonlight washes over the once-beautiful tiles that cover the floor of the entryway in front of the oak entry door, but the boards beneath have warped, causing the tiles to crack and buckle.  Hallways lead from here to the north and south wings of the house, and a third corridor with several doors off it runs due east.  Pieces of broken wood beneath the window by the entry door are all that remain of a small table and chair.  A curving stairway leads up to an overlooking landing on the second floor.",
+    "Once-beautiful tiles cover the floor of the entryway in front of the oak entry door, but the boards beneath have warped, causing the tiles to crack and buckle.  Hallways lead from here to the north and south wings of the house, and a third corridor with several rooms off it runs due east.  Pieces of broken wood beneath the window by the entry door are all that remain of a small table and chair.  A curving stairway leads up to an overlooking landing on the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1047,
+      629,
+      1057,
+      639
+    ]
+  },
+  "exits": [
+    {
+      "to": 5522,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 5548,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5552,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5553,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14597,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

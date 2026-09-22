@@ -1,0 +1,49 @@
+{
+  "id": 17188,
+  "uid": [
+    256301
+  ],
+  "title": [
+    "[Warrior Guild, Second Floor]"
+  ],
+  "description": [
+    "The polished floor, elegant in its simplicity, leads along paneled walls appointed with framed artwork depicting Ta'Illistim landmarks and historical battle scenes.  Well-spaced sconces provide additional illumination when needed."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      819,
+      787,
+      844,
+      814
+    ]
+  },
+  "exits": [
+    {
+      "to": 17115,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17189,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17190,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

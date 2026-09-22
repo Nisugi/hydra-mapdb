@@ -1,0 +1,56 @@
+{
+  "id": 11050,
+  "uid": [
+    706113
+  ],
+  "title": [
+    "[Port Valley, Stone Path]"
+  ],
+  "description": [
+    "The Gladberry Farms Winery sits amidst an expanse of grass and willow trees.  The two story structure is delicate, almost graceful in design, every wooden surface stained a light shade.  The eaves and windowsills are intricately carved.  People wander in and out with grins on their faces and glasses in hand."
+  ],
+  "paths": [
+    "Obvious paths: north, west, up"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      1010,
+      1235,
+      1030,
+      1255
+    ]
+  },
+  "exits": [
+    {
+      "to": 11049,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11051,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11058,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 16027,
+      "kind": "go",
+      "cmd": "go winery",
+      "cost": 0.2
+    }
+  ]
+}

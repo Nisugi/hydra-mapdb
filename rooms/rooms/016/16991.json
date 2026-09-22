@@ -1,0 +1,44 @@
+{
+  "id": 16991,
+  "uid": [
+    251100
+  ],
+  "title": [
+    "[Guild Hall, Basement]"
+  ],
+  "description": [
+    "You stand at the bottom of a narrow stairwell, in the dank, musty and dark basement of the Guild Hall.  A doorway leads west, though the door itself seems to have been removed from its hinges."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild cleaning supplies",
+    "warrior guild tool rack"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      419,
+      780,
+      441,
+      802
+    ]
+  },
+  "exits": [
+    {
+      "to": 16990,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 16996,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

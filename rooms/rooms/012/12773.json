@@ -1,0 +1,59 @@
+{
+  "id": 12773,
+  "uid": [
+    3061008
+  ],
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "A lava flow blocks the passage to the southwest, yet you can see the cavern continues further on the other side.  The pouring stream of fresh lava builds a wall of heat that would turn back all but those of great resolve.  The ash shifts beneath your feet the closer you edge towards the lava flow."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "hot, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "trafel mushroom",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      688,
+      735,
+      696,
+      743
+    ]
+  },
+  "exits": [
+    {
+      "to": 2207,
+      "kind": "other",
+      "cmd": "jump flow",
+      "cost": 2.0
+    },
+    {
+      "to": 12771,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12772,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

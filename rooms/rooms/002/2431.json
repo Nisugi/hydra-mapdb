@@ -1,0 +1,52 @@
+{
+  "id": 2431,
+  "title": [
+    "[Icemule Trace Clerks Suite]"
+  ],
+  "description": [
+    "The wide hallway leading from the east branches north and south as it continues to the west.  Two white marble benches covered with blackworked cushions sit low to the floor on either side of a large painting that hangs on the south wall."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, northwest",
+    "Obvious exits: east, south, southwest, northwest"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      518,
+      815,
+      620,
+      885
+    ]
+  },
+  "exits": [
+    {
+      "to": 2430,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2432,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2433,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2437,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 32840,
+  "uid": [
+    14053308
+  ],
+  "title": [
+    "[Rhyaesdid Hall, Hallway]"
+  ],
+  "description": [
+    "Ivory walls, paired with the pale gold and green carpeting, create a beautiful contrast in color and design.  A silver flyrsilk curtain weighted with a quartet of silver moon medallions hangs across from a midnight black velvet curtain adorned with an image of a swaying willow tree.  Suspended between the portals is a trio of crystal globes.  Fanciful shadows dance along the walls created by the flickering flames housed inside the lamps."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 32838,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32842,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32846,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33128,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    }
+  ]
+}

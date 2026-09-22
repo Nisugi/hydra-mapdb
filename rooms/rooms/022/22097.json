@@ -1,0 +1,55 @@
+{
+  "id": 22097,
+  "uid": [
+    280009
+  ],
+  "title": [
+    "[Bard Guild, Lower Hallway]"
+  ],
+  "description": [
+    "A short, low-lit hallway is lined with doors and openings, with heavy velvet drapes to the north that shield the corridor from the Feast Hall's din.  The walls of the corridor are paneled in dark wood, and a row of rectangular lanterns standing on either side of the aisle sheds soft light.  Each door is labeled.  A brass sign on an oak door reads 'Practice Room,' to the east is the 'Music Room,' and to the south is the 'Music Library.'"
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, up"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 22096,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22098,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 22099,
+      "kind": "go",
+      "cmd": "go paneled door",
+      "cost": 0.2
+    },
+    {
+      "to": 22100,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 22103,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22104,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

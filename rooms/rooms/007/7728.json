@@ -1,0 +1,65 @@
+{
+  "id": 7728,
+  "uid": [
+    2163626
+  ],
+  "title": [
+    "[Caverns, Chamber]"
+  ],
+  "description": [
+    "A low, darkened tunnel branches off the main cavern to the west, its jagged opening almost resembling a gaping maw.  A few fragile stalactites have broken away from their brethren, lying broken in a damp puddle that collects at the tunnel's opening."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "murdroot",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      272,
+      1281,
+      282,
+      1291
+    ]
+  },
+  "exits": [
+    {
+      "to": 7725,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7727,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7729,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7730,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

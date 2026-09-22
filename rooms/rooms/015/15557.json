@@ -1,0 +1,35 @@
+{
+  "id": 15557,
+  "uid": [
+    5055
+  ],
+  "title": [
+    "[Beldrin's Game Hall, Storeroom]"
+  ],
+  "description": [
+    "You are perched precariously atop a stack of casks.  You see the floor of the storeroom beneath you.  The ceiling is so close you can touch it and the open window is within your reach."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 15556,
+      "kind": "go",
+      "cmd": "go window",
+      "cost": 0.2
+    },
+    {
+      "to": 15558,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

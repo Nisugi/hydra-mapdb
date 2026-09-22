@@ -1,0 +1,69 @@
+{
+  "id": 26143,
+  "uid": [
+    7107074,
+    7107124,
+    7107174,
+    7107224,
+    7107274,
+    7107324,
+    7107374,
+    7107424,
+    7107474,
+    7107524,
+    7107574,
+    7107624,
+    7107674,
+    7107724,
+    7107774,
+    7107824
+  ],
+  "title": [
+    "[Reim Fortress, South Corridor]"
+  ],
+  "description": [
+    "Wisps of viridian mist swirl through the air down this long north-south passageway and seem to grow more faint as they drift idly toward the south.  Crumbled stones lie in disarray along the floor, and wide shackles dangle from heavy chains draped along the walls.  An iron-braced door is set into the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south",
+    "Obvious paths: north, south"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      552,
+      376,
+      587,
+      412
+    ]
+  },
+  "exits": [
+    {
+      "to": 26142,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 26144,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26151,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

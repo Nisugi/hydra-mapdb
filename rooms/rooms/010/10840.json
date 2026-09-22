@@ -1,0 +1,145 @@
+{
+  "id": 10840,
+  "uid": [
+    2101001
+  ],
+  "title": [
+    "[River's Rest, River Road]"
+  ],
+  "description": [
+    "As safe as a gate, the river runs swiftly east to west, secure against intrusion when the well-built drawbridge to the mainland is raised.  Along the riverfront, comfortable benches are interspersed with odd three sided structures, large enough to hold a giant man comfortably, but their use not readily apparent.  A fresh breeze carries the sounds of a nearby marketplace from the east, and an occasional hint of roasting meat from somewhere to the north."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "alchemy sea water",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "bright red beet",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "ghost pepper",
+    "green garden cucumber",
+    "green guava",
+    "handful of oats",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "sagebrush root",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of thanot",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin guide drawbridge",
+    "urchin-access",
+    "vanilla bean",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2288,
+      1160,
+      2328,
+      1200
+    ]
+  },
+  "exits": [
+    {
+      "to": 10838,
+      "kind": "go",
+      "cmd": "go weeds",
+      "cost": 0.2
+    },
+    {
+      "to": 10841,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10846,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10852,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11006,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

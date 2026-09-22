@@ -1,0 +1,55 @@
+{
+  "id": 20793,
+  "uid": [
+    210050
+  ],
+  "title": [
+    "[House Sovyn, Hallway]"
+  ],
+  "description": [
+    "A plush, dark brown carpet runs the length of this hallway to a pair of statues which stand flanking the staircases.  The walls are paneled in oak and lightly stained so the grain is still visible."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sovyn"
+  ],
+  "image": {
+    "file": "wl-house_sovyn-11481362649.png",
+    "rect": [
+      1285,
+      976,
+      1451,
+      1090
+    ]
+  },
+  "exits": [
+    {
+      "to": 20788,
+      "kind": "go",
+      "cmd": "go granite staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20811,
+      "kind": "go",
+      "cmd": "go mithril staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20812,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20813,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

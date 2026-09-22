@@ -1,0 +1,50 @@
+{
+  "id": 17827,
+  "uid": [
+    267150
+  ],
+  "title": [
+    "[Workshop]"
+  ],
+  "description": [
+    "The interior of this sizeable workshop is tidy and organized, mostly due to the pair of guild apprentices cleaning up the place.  A row of cluttered toolbenches awaits those wishing to get a bit of work done."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild workshop"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      1120,
+      529,
+      1159,
+      567
+    ]
+  },
+  "exits": [
+    {
+      "to": 17826,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17828,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24050,
+      "kind": "go",
+      "cmd": "go toolbenches",
+      "cost": 0.2
+    }
+  ]
+}

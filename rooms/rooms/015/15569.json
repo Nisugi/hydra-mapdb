@@ -1,0 +1,61 @@
+{
+  "id": 15569,
+  "uid": [
+    685004
+  ],
+  "title": [
+    "[Wizard Guild, Chamber]"
+  ],
+  "description": [
+    "Crimson eahnor is worked in intricate designs upon the dark grey marble floor, the gleaming metal's surface set afire by the numerous orbs of warm amber light hovering in mid-air.  A small arched door, a dark onyx door, and a dark steel door break up the monotony of the north wall, while the southern end of the chamber leads to a spiral staircase that ascends further up into the tower's reach."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      350,
+      540,
+      402,
+      592
+    ]
+  },
+  "exits": [
+    {
+      "to": 15566,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 15571,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 15572,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 15574,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 15598,
+      "kind": "go",
+      "cmd": "go arched door",
+      "cost": 0.2
+    }
+  ]
+}

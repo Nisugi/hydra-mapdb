@@ -1,0 +1,73 @@
+{
+  "id": 6200,
+  "uid": [
+    2167066
+  ],
+  "title": [
+    "[Labyrinth, Crossroads]"
+  ],
+  "description": [
+    "Dimly glowing firepits rest along the base of the wall with increased regularity, vastly improving area visibility.  The path opens at a large granite archway carved into the stone walls, though what lies beyond is shrouded in darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "foe:minotaur warrior",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      943,
+      401,
+      979,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 6199,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6201,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6211,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6221,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6247,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

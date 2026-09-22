@@ -1,0 +1,106 @@
+{
+  "id": 29623,
+  "uid": [
+    18050002
+  ],
+  "title": [
+    "[Estate, Greatroom]"
+  ],
+  "description": [
+    "The greatroom boasts square mahogany paneling that climbs gracefully to hand-hewn beams pegged with thick treenails.  At the center of the room, a variety of trophies surmount a mantel, three thickly tufted couches arcing about its carved granite fireplace.  A burnished brass and oak sideboard stretches along the rear wall beneath arched windows with leaded diamond panes that suffuse the room with sunlight.  The hallway to the west terminates in a pile of rubble."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Kraken's Fall",
+    "mapcategory:MHO",
+    "mapname:Kraken's Fall - Hand of the Arkati",
+    "mapshortname:Hand of the Arkati",
+    "mho:Hand of the Arkati"
+  ],
+  "image": {
+    "file": "mho-hand_of_the_arkati-1652309586.png",
+    "rect": [
+      371,
+      341,
+      451,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 29622,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 29624,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29625,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29632,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 29633,
+      "kind": "go",
+      "cmd": "go recessed panel",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 8934,
+  "uid": [
+    680051
+  ],
+  "title": [
+    "[Wizard Guild, Balcony]"
+  ],
+  "description": [
+    "Writhing tendrils of white-limned purple and viridian light tangle together and separate forming intricate designs in an endless, complicated dance.  Fingers of light crash together in eye-searing, silent lightning strikes while others crawl up and down the length of the zorchar rod that projects through the center of the tower."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      214,
+      109,
+      263,
+      155
+    ]
+  },
+  "exits": [
+    {
+      "to": 8933,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8935,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15908,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

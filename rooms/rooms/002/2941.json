@@ -1,0 +1,45 @@
+{
+  "id": 2941,
+  "uid": [
+    4132015
+  ],
+  "title": [
+    "[Abbey, Stables]"
+  ],
+  "description": [
+    "The intense smell of horse wafting from the nearby stables is leavened by the sweetness of distant blossoms and honey on the breeze.  The small building verges on one side against a series of gigantic granite blocks that form the abbey courtyard's retaining well.  Old runes are carved into the granite."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast",
+    "Obvious paths: southeast"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      604,
+      852,
+      658,
+      901
+    ]
+  },
+  "exits": [
+    {
+      "to": 2940,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2942,
+      "kind": "go",
+      "cmd": "go stables",
+      "cost": 0.2
+    }
+  ]
+}

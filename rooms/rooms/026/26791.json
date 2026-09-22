@@ -1,0 +1,47 @@
+{
+  "id": 26791,
+  "uid": [
+    4126021
+  ],
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The walls of this section of the tunnel are unusually damp.  The supports show severe signs of decay and they creak and groan under the weight of the ceiling.  Shallow pools of water have formed around the room with no evidence of their origin."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, down"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      980,
+      1225,
+      990,
+      1234
+    ]
+  },
+  "exits": [
+    {
+      "to": 26778,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 26792,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26793,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

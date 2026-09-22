@@ -1,0 +1,209 @@
+{
+  "id": 16733,
+  "uid": [
+    17005006
+  ],
+  "title": [
+    "[Aradhul Road, Precipice]"
+  ],
+  "description": [
+    "Two stone columns stand side by side on the edge of a precipice, marking the termination of a broken road through the grassy area.  From between the two columns, a stone bridge extends outward only a few feet before ending abruptly into an empty space, offering only a view of deep gorge with a thin blue ribbon of a river at the bottom.  Tied to the base of one column is a thick hemp rope leading downward, which disappears over the edge of the precipice."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "arbutus berry",
+    "barley grass",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "bleeding heart rose",
+    "blue trafel mushroom",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "cherry peppers",
+    "chives",
+    "crimson dragonstalk",
+    "crystal-like sylthiel",
+    "curly garlic scapes",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "ear of corn",
+    "fennel bulb",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden buttercup",
+    "green cabbage",
+    "green soybean pod",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "huckleberries",
+    "Imaera's Lace",
+    "ironfern root",
+    "juicy plum",
+    "large sunflower",
+    "leek",
+    "luckbloom blossom",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "mustard seeds",
+    "nettle leaf",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rose-marrow root",
+    "rye grass",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of amaranth",
+    "sprig of columbine",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "sweet onion",
+    "thistle seeds",
+    "tobacco leaves",
+    "trollear mushroom",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "white ramie",
+    "wild chokecherry",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rice",
+    "wild rose",
+    "wild sage",
+    "wild strawberry",
+    "wintergreen leaf",
+    "wiregrass",
+    "withered mushroom",
+    "woad leaves",
+    "wolfsbane root",
+    "wood violet",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      752,
+      159,
+      774,
+      180
+    ]
+  },
+  "exits": [
+    {
+      "to": 16732,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 16734,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18755,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "jump bridge"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

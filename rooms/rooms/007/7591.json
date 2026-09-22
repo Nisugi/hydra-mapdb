@@ -1,0 +1,64 @@
+{
+  "id": 7591,
+  "uid": [
+    47032
+  ],
+  "title": [
+    "[Ant Nest, Tunnels]"
+  ],
+  "description": [
+    "This niche in the tunnel is dark.  Though your eyes adjust to the faint glow of the lichen to the south, no water drips into this dry, raised alcove, and the smooth stone is bare.  The continual clicking echoes louder here from the rock walls, though the crevice that forms a large opening between two slabs of rock seems oddly silent."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the dark caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "golden yellow shadesbane",
+    "macadamia nuts",
+    "murdroot",
+    "pothinir grass",
+    "round grumbleberry",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      82,
+      1048,
+      92,
+      1058
+    ]
+  },
+  "exits": [
+    {
+      "to": 7585,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7590,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7596,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7600,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

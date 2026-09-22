@@ -1,0 +1,51 @@
+{
+  "id": 27617,
+  "uid": [
+    4043709
+  ],
+  "title": [
+    "[Twilight Cavern, Lockers]"
+  ],
+  "description": [
+    "A pair of sconces decorate the richly stained cedar plank walls, affording a modicum of visual warmth to the otherwise chilly room.  A full-length mirror with a carved frame stands opposite an oversized oxblood leather tuffet, while the far wall is occupied by a long counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall",
+    "che:twilight_hall:locker",
+    "locker"
+  ],
+  "image": {
+    "file": "imt_Twilight_Cavern.png",
+    "rect": [
+      272,
+      129,
+      331,
+      190
+    ]
+  },
+  "exits": [
+    {
+      "to": 27616,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go cedar door"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go cedar door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

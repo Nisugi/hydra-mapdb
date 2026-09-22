@@ -1,0 +1,50 @@
+{
+  "id": 8352,
+  "uid": [
+    13020
+  ],
+  "title": [
+    "[Spider Temple, Leg of Victim]"
+  ],
+  "description": [
+    "A long hallway with thick stone walls presses northwest from here."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      552,
+      724,
+      562,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 8349,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 8353,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8357,
+      "kind": "go",
+      "cmd": "go ironbound door",
+      "cost": 0.2
+    }
+  ]
+}

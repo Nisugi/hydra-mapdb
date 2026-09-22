@@ -1,0 +1,52 @@
+{
+  "id": 29610,
+  "uid": [
+    686043
+  ],
+  "title": [
+    "[Earth Tower, Third Floor]"
+  ],
+  "description": [
+    "Abstract tapestries in shades of green and brown line the granite walls of the chamber.  The floor is covered in scattered lion skin rugs.  An odd little shrine, devoid of decoration, stands next to the arched exit to the southwest.  It is composed of a single slab of highly polished basalt.  On either side of the strange shrine are two bridges, each offering a path to reach an adjacent tower."
+  ],
+  "paths": [
+    "Obvious exits: southwest, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      433,
+      237,
+      463,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 29588,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29611,
+      "kind": "go",
+      "cmd": "go south bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29613,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29614,
+      "kind": "go",
+      "cmd": "go west bridge",
+      "cost": 0.2
+    }
+  ]
+}

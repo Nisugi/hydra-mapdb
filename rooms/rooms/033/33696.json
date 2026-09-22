@@ -1,0 +1,46 @@
+{
+  "id": 33696,
+  "uid": [
+    7101239
+  ],
+  "title": [
+    "[Keep Tower, Imperial Halls]"
+  ],
+  "description": [
+    "Tattered banners hang from the rafters of the ceiling, their colors faded and their lengths so mutilated that it is difficult to discern what they may once have had emblazoned on their silky faces.  Dust and mold lay heavy upon the warped and broken furnishings of the room and the heavy, cloying aroma of ammonia fills the air."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1259,
+      34,
+      1294,
+      66
+    ]
+  },
+  "exits": [
+    {
+      "to": 33656,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33697,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33698,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 6349,
+  "uid": [
+    681007
+  ],
+  "title": [
+    "[Wizard Guild, Meeting Hall]"
+  ],
+  "description": [
+    "The hall is so large that the lanterns along the walls and chandeliers hanging from the vaulted ceiling only manage to cast the room in a dim light.  Despite this, a gilt lectern on the far side of the room glimmers in the faint light and almost seems to shine.  Countless rows of benches and chairs arrayed about the hall are like huddled shapes in the dark bowing down before the light of the lectern upon the raised floor.",
+    "Countless rows of cushioned benches and chairs line this meeting hall that stretches beyond even the northernmost battlements.  A raised floor on the far side of the hall holds a wide lectern and a few stately chairs aligned across the back.  Light streams in through stained glass windows above, casting the near walls in a colorful tapestry of light."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      315,
+      310,
+      366,
+      357
+    ]
+  },
+  "exits": [
+    {
+      "to": 6330,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 6348,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6350,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

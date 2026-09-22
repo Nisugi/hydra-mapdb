@@ -1,0 +1,48 @@
+{
+  "id": 3193,
+  "uid": [
+    4128064
+  ],
+  "title": [
+    "[Mausoleum, Grand Chamber]"
+  ],
+  "description": [
+    "The chamber is large, but quite simple, evidently designed to hold the large tomb resting upon the darkened soil of the floor.  Great care was evidently put into the craftsmanship of the tomb, its form elegant and worthy of a hero."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the southern snowfields",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dark apparition",
+    "no forageables",
+    "phantom",
+    "skeleton",
+    "white vysan"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      770,
+      1143,
+      780,
+      1153
+    ]
+  },
+  "exits": [
+    {
+      "to": 3190,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3194,
+      "kind": "go",
+      "cmd": "go tomb",
+      "cost": 0.2
+    }
+  ]
+}

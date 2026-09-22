@@ -1,0 +1,41 @@
+{
+  "id": 12492,
+  "uid": [
+    3003061
+  ],
+  "title": [
+    "[Brewery, Burlitok's Showcase]"
+  ],
+  "description": [
+    "Innumerable shelves full of flagons, steins, mugs and glasses of every possible description ring the room, ascending from floor to vaulted ceiling in a mezmerizing myriad of shape and color.  The sweet acrid smell of cooking ale twinges your nose, coaxing you seductively from your trance and beckoning you further into the building."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1985,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 12493,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12495,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

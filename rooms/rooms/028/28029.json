@@ -1,0 +1,70 @@
+{
+  "id": 28029,
+  "uid": [
+    8208739
+  ],
+  "title": [
+    "[Rumor Woods, Anvil Strip]"
+  ],
+  "description": [
+    "Straw has been scattered over the worst of the muddy road, and a few planks tossed down to provide footing through the deepest puddles.  Behind the viewing stands, merchants hawk their wares from haphazardly constructed stalls, their shouts barely heard over the ringing anvil to the northeast.  An overturned wagon filled with cooking supplies sits abandoned at the roadside."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southwest"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "rough",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      992,
+      340,
+      1016,
+      365
+    ]
+  },
+  "exits": [
+    {
+      "to": 28016,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28026,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28030,
+      "kind": "go",
+      "cmd": "go white-striped awning",
+      "cost": 0.2
+    },
+    {
+      "to": 28031,
+      "kind": "go",
+      "cmd": "go horse tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28033,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29684,
+      "kind": "go",
+      "cmd": "go gauzy pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 33511,
+      "kind": "go",
+      "cmd": "go wood-planked shop",
+      "cost": 0.2
+    }
+  ]
+}

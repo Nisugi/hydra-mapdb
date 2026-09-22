@@ -1,0 +1,109 @@
+{
+  "id": 12159,
+  "uid": [
+    4570003
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Blood pours in from the corridor to the northeast.  Unlike the blood you are used to seeing, this blood is blue, the color of suffocation and death.  Indeed suffocation is a good metaphor, for the walls close in on you in regular constrictions, only to move back out and repeat the process.  The azure slime is forced southward, turning a deep violet as it moves."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west",
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "black mawflower",
+    "discolored fleshbinder bud",
+    "fleshbinder bud",
+    "fleshsore bulb",
+    "grave blossom",
+    "green fleshbulb",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      938,
+      1191,
+      946,
+      1199
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 6.8
+    },
+    {
+      "to": 12165,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12210,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12211,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

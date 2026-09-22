@@ -1,0 +1,89 @@
+{
+  "id": 18755,
+  "uid": [
+    17005010
+  ],
+  "title": [
+    "[Aradhul Road, Bridge]"
+  ],
+  "description": [
+    "Thick limestone blocks form the middle section of a bridge that once stretched across the ravine below.  Wide, deep cracks, as well as numerous gaps where the stone has completely disintegrated, mar its surface.  Though still sturdy, large sections of the support columns have broken off and now litter the ravine floor below.  Each end of the bridge is completely missing, leaving jumping to either the north side or the south side of the ravine as your only option."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      379,
+      558,
+      400,
+      576
+    ]
+  },
+  "exits": [
+    {
+      "to": 16723,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "jump north side"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 16733,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "jump south side"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

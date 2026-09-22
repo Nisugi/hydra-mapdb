@@ -1,0 +1,65 @@
+{
+  "id": 20069,
+  "title": [
+    "[Feymist Cemetery, Fetid Sink]"
+  ],
+  "description": [
+    "The fetid odor that fills the air is visible as green wisps of smoke that pour out from the muck.  It is difficult to find stable enough ground to stand on, as the mud engulfs everything in the area.  To the north, a trio of torches burn cerulean blue flames and are affixed to the front wall of a sunken mausoleum.  Enshrouding most of the mausoleum is a tangled mess of vines."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest",
+    "Obvious paths: northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "the Feymist Cemetery",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      219,
+      976,
+      227,
+      984
+    ]
+  },
+  "exits": [
+    {
+      "to": 20065,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20068,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mausoleum"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20073,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21588,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21590,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

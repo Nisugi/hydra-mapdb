@@ -1,0 +1,82 @@
+{
+  "id": 2834,
+  "uid": [
+    4563011
+  ],
+  "title": [
+    "[Northern Slopes, Snowy Drifts]"
+  ],
+  "description": [
+    "The trail dwindles to nothing, engulfed by the gentle swells of deep snow drifts that surround the trunks of the conifers like a stark, frozen ocean.  Here and there, animal tracks mar the snow's surface, leaving deep indentations.  They create an erratic pattern that circles and backtracks, then meanders away through the drifts as if following an invisible path."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      456,
+      1384,
+      468,
+      1396
+    ]
+  },
+  "exits": [
+    {
+      "to": 2826,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2835,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go snowy path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

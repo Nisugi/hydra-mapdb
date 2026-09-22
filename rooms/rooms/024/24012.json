@@ -1,0 +1,42 @@
+{
+  "id": 24012,
+  "title": [
+    "[Inner Walkway, Bonfire]"
+  ],
+  "description": [
+    "Traffic flows around a row of stone benches that surrounds an expansive fire pit, while a large open-air pavilion sits snug against the walls of a limestone coliseum along the southern edge of the flagstone walkway.  Mature flowering plum trees line the northern edge of the walk, adding a soft fragrance and ample shade to the area."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "image": {
+    "file": "fest-Festival_of_the_Fallen-1442606479.png",
+    "rect": [
+      618,
+      276,
+      668,
+      326
+    ]
+  },
+  "exits": [
+    {
+      "to": 23993,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24013,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 24014,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

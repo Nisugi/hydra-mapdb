@@ -1,0 +1,47 @@
+{
+  "id": 5544,
+  "uid": [
+    2152029
+  ],
+  "title": [
+    "[Destroyed Temple]"
+  ],
+  "description": [
+    "The temple is filled with dirt, brush, and worse.  Something lives here, and it is certainly not civilized.  Shed lizard skins line the walls, as do bones and rotting bits of flesh.  Large tracks lead into a hole in the south wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      807,
+      642,
+      817,
+      652
+    ]
+  },
+  "exits": [
+    {
+      "to": 5543,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 5545,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

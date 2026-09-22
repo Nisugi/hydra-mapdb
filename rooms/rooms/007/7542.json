@@ -1,0 +1,52 @@
+{
+  "id": 7542,
+  "uid": [
+    46027
+  ],
+  "title": [
+    "[Catacombs, Secret Workshop]"
+  ],
+  "description": [
+    "This seems to be a secret workshop of some sort.  Weapons in various states of completion are held in locked vises atop a large wooden workbench.  Shelves filled with finely made tools line the walls.  Against one corner leans a huge broadsword, the hugest you have ever seen."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "node"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      421,
+      1208,
+      431,
+      1218
+    ]
+  },
+  "exits": [
+    {
+      "to": 404,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull huge broadsword"
+        },
+        {
+          "move": "go depression"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 7540,
+      "kind": "other",
+      "cmd": "pull cresset",
+      "cost": 0.2
+    }
+  ]
+}

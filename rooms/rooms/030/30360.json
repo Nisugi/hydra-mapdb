@@ -1,0 +1,69 @@
+{
+  "id": 30360,
+  "uid": [
+    3015
+  ],
+  "title": [
+    "[Scrivener's, Mail Room]"
+  ],
+  "description": [
+    "The entire back wall of this utilitarian room is covered with wooden shelving to form a latticework of pigeonholes for mail.  Each of the side walls holds a similar set of shelves, though the openings are larger, some almost ample enough to accommodate an average-sized dwarf.  Separating the sparsely furnished reception area from the bustling activity of the mail center is a tall slate-topped counter.  Smaller display cases topped with thick glass bracket the entryway."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mail",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 20588,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

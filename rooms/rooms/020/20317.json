@@ -1,0 +1,42 @@
+{
+  "id": 20317,
+  "title": [
+    "[Feywrot Mire, Misty Shore]"
+  ],
+  "description": [
+    "A steady stream of bubbles breaks the water's surface here, only occasionally interrupted by a violent frothing as something below thrashes frenziedly.  Like strands of dead hair drifting from pond cypresses, long tendrils of moss hang down in massive curtains, their tangled masses wavering back and forth of their own accord and blocking any clear view deeper into the swampland."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      949,
+      787,
+      964,
+      801
+    ]
+  },
+  "exits": [
+    {
+      "to": 20316,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20318,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21398,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    }
+  ]
+}

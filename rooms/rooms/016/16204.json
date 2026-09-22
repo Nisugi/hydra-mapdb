@@ -1,0 +1,55 @@
+{
+  "id": 16204,
+  "uid": [
+    216023
+  ],
+  "title": [
+    "[Beacon Hall, Waiting Room]"
+  ],
+  "description": [
+    "A panoramic mural of Maelstrom Bay covers the walls of this long hallway.  Beneath the mural sit soft leather benches dyed a deep burgundy.  Plush velvet draperies frame the north entrance to this hallway, and proudly displayed at the opposite end is a silver shield bearing the coat of arms of the Beacon Hall Archives."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1212,
+      566,
+      1257,
+      611
+    ]
+  },
+  "exits": [
+    {
+      "to": 16203,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18888,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push shield"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

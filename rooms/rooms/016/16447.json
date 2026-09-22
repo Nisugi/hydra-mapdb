@@ -1,0 +1,46 @@
+{
+  "id": 16447,
+  "uid": [
+    261047
+  ],
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The low tunnel, barely high enough for a dwarf to stand in here, seems to open into more spacious passages to the east and northwest--though it is impossible to see very far in the darkness.  The faint glimmers of some light in the distance illuminate the passage just enough to see its direction."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      243,
+      583,
+      271,
+      611
+    ]
+  },
+  "exits": [
+    {
+      "to": 16443,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 16590,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16617,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 10115,
+  "uid": [
+    13049049
+  ],
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "The cobblestones of the path widen out to the edges of the large fel dock, which stands upon the sandy beach just ahead.  A small, twisted path leads towards the darkness below the dock, where the waves crash upon the supports."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Sylvarraend Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      962,
+      1124,
+      972,
+      1134
+    ]
+  },
+  "exits": [
+    {
+      "to": 3545,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10116,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 10117,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    }
+  ]
+}

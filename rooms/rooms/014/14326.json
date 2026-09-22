@@ -1,0 +1,41 @@
+{
+  "id": 14326,
+  "uid": [
+    4901098
+  ],
+  "title": [
+    "[The Krawling Kraken]"
+  ],
+  "description": [
+    "An impressive chandelier made of spun glass hangs from the ceiling, highlighting a long winding staircase leading up to the second floor.  Plush red carpeting with dark oak runners line the mahogany paneled hallway as it stretches north.  Faint laughter and the sounds of off-key singing can be heard from the commons down the southeastern corridor."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14325,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14327,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14350,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

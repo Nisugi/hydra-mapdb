@@ -1,0 +1,58 @@
+{
+  "id": 7318,
+  "uid": [
+    2150001
+  ],
+  "title": [
+    "[Dark Crevice]"
+  ],
+  "description": [
+    "You strain to keep clear of the rough outcroppings of rock in this dark space.  The floor continues its steep incline causing you to lean severely to remain upright.  In the dim light, you can just make out a trail of flowing mist moving slowly downward from a small opening above."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1087,
+      333,
+      1097,
+      343
+    ]
+  },
+  "exits": [
+    {
+      "to": 7317,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 7319,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb opening"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

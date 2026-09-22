@@ -1,0 +1,109 @@
+{
+  "id": 12207,
+  "uid": [
+    4570001
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The corridor is narrow, difficult for anyone taller than the average human to make their way through.  Very little light filters in to illuminate your path.  Your feet splash with each footstep, and the floor is slick, made not of stone or soil, or anything else you have likely encountered before.  A low pulsing sound fills your ears, rhythmic and oddly familiar."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, west",
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "black mawflower",
+    "discolored fleshbinder bud",
+    "fleshbinder bud",
+    "fleshsore bulb",
+    "grave blossom",
+    "green fleshbulb",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      829,
+      1190,
+      839,
+      1200
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 6.8
+    },
+    {
+      "to": 12162,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12165,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12170,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

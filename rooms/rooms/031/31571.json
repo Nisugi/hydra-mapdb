@@ -1,0 +1,71 @@
+{
+  "id": 31571,
+  "uid": [
+    8083008
+  ],
+  "title": [
+    "[Evermore Hollow, Nature's Glade]"
+  ],
+  "description": [
+    "Framed by the shelter of viridian hedges, a well-trodden cobblestone pathway is interrupted by the sprawling presence of a cushioned blue-green lawn that spreads outward in a perfect circle.  Silver-white sheets hide the backs of the shops and houses that abut the space to create a buffer between the noise of the inner ring, though the expanse is interrupted briefly by an arching arbor.  Fragrant lilac trees dapple the space, their ornamental canopies carefully sculpted and laden with lacelike flowers."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "downy skullcap",
+    "evermore rosehip",
+    "jagged boneset leaf",
+    "marigold blossoms",
+    "no forageables",
+    "orange milkweed flowers",
+    "orange-yellow chamomile",
+    "pineapple sage",
+    "red reishi mushroom",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      421,
+      436,
+      444,
+      457
+    ]
+  },
+  "exits": [
+    {
+      "to": 31568,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31572,
+      "kind": "go",
+      "cmd": "go arbor",
+      "cost": 0.2
+    },
+    {
+      "to": 31580,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31587,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31859,
+      "kind": "go",
+      "cmd": "go lilac tunnel",
+      "cost": 0.2
+    }
+  ]
+}

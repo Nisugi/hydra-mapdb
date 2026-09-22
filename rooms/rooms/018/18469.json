@@ -1,0 +1,33 @@
+{
+  "id": 18469,
+  "title": [
+    "[Grawood Farmstead, Maze]"
+  ],
+  "description": [
+    "Streamers of brightly colored paper hang from the top of the festive archway to stalks of corn forming the boundaries of the maze.  The pale green corn stalks line the pathway leading into the maze."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18468,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 18470,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

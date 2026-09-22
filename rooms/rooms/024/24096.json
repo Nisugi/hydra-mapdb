@@ -1,0 +1,39 @@
+{
+  "id": 24096,
+  "title": [
+    "[Necropolis, Narthex]"
+  ],
+  "description": [
+    "Spiderwebs fill the corners of this room and cobwebs dangle over a crumbling stone archway, waving gently in the slightest breeze.  A large stone sarcophagus, its lid slightly askew, rests in the center of the room.  Faint scratching noises emanate from the sarcophagus, but the source of the sound is safely hidden in the deep shadows."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24095,
+      "kind": "go",
+      "cmd": "go stone archway",
+      "cost": 0.2
+    },
+    {
+      "to": 24097,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24098,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24099,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

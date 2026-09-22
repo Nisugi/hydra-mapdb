@@ -1,0 +1,24 @@
+[package]
+name = "cena-map-combine"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+# The second offline tool (ported from Cena's `plan/21` §3a). The converter
+# breaks the upstream map into one JSON file per room; this one combines
+# those files into the single binary the client loads. It is what this
+# repo's combine workflow runs, and it knows nothing about upstream -- it
+# reads `cena_map::Room` records and nothing else.
+[dependencies]
+cena-map.workspace = true
+serde_json.workspace = true
+
+# Dev-only: the end-to-end test runs the converter's output through this tool,
+# because "the combiner reads what the converter writes" is the contract and a
+# test that hand-writes its own input would not hold either side to it.
+# `layering.rs` asserts this edge stays out of the shipped graph.
+[dev-dependencies]
+cena-mapdb-convert = { path = "../mapdb-convert" }
+
+[lints]
+workspace = true

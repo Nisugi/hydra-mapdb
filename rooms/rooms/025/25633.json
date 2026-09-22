@@ -1,0 +1,35 @@
+{
+  "id": 25633,
+  "uid": [
+    14115019
+  ],
+  "title": [
+    "[Annatto Bridge Shaft, Ladder]"
+  ],
+  "description": [
+    "Faint blue luminescence reflects off the stone, emanating from a chamber just visible through an opening in the stone walls below.  The glow illuminates the iron rungs of the ladder, and shows the rust stains on the stone where the ladder is bolted into it."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25631,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 25632,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

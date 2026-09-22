@@ -1,0 +1,49 @@
+{
+  "id": 28161,
+  "title": [
+    "[Valley of Gold, Bazaar]"
+  ],
+  "description": [
+    "Cleared of vegetation and lined with rocks, the path meanders through the field.  Flowering bushes give a burst of color to area.  Bright crimson banners emblazoned with a golden sunburst fly from varnished oak poles.  Their dazzling colors shimmer in the brilliant sunlight.",
+    "Cleared of vegetation and lined with rocks, the path meanders through the field.  Flowering bushes give a burst of color to area.  Bright crimson banners emblazoned with a golden sunburst fly from varnished oak poles.  Their dazzling colors shimmer in the pale moonlight."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
+  "image": {
+    "file": "fest-valley_of_gold-1561138415.png",
+    "rect": [
+      161,
+      96,
+      177,
+      112
+    ]
+  },
+  "exits": [
+    {
+      "to": 28159,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28162,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28163,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28212,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 12511,
+  "uid": [
+    15001001
+  ],
+  "title": [
+    "[Adventurer's Guild, Lobby]"
+  ],
+  "description": [
+    "Thick and windowless marble walls enclose this rather spacious lobby, which is liberally decorated with the mounted heads of both exotic and mundane beasts.  The floor is covered with fine bearskin rugs and various specimens of antique dwarven stone furniture.  Overhead, a massive candle-lit chandelier adequately illuminates the area and provides for the impressive shadows cast by the various stuffed beasts arrayed about the room."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "fire lily",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      1598,
+      1912,
+      1667,
+      1977
+    ]
+  },
+  "exits": [
+    {
+      "to": 1955,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12512,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12513,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

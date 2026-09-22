@@ -1,0 +1,49 @@
+{
+  "id": 24672,
+  "uid": [
+    18017002
+  ],
+  "title": [
+    "[Lily Manor, Foyer]"
+  ],
+  "description": [
+    "An ebony-edged plum carpet runner extends across the grey marble flooring to the base of a grand staircase.  Silver sconces cast flickering candlelight upon the varnished ebonwood walls enclosing the large foyer, and moonlight streams through the arched windows framing the doors.  Shadows play across an expansive multi-hued tapestry serving as a backdrop to some ivory silk-covered chairs, and a linen-covered table rests near a tall archway to the west."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 24644,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 24674,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 25181,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25182,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

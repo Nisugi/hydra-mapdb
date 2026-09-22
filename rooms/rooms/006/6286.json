@@ -1,0 +1,56 @@
+{
+  "id": 6286,
+  "uid": [
+    372004
+  ],
+  "title": [
+    "[Dirt Mines, Dark Opening]"
+  ],
+  "description": [
+    "A long dark tunnel opens onto the mine's main vertical shaft.  A huge bucket swings lazily in the void, striking the opening every so often.  A musty breeze blows out from the tunnel, carrying the frighteningly seductive odor of warm loam."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "golden yellow shadesbane",
+    "macadamia nuts",
+    "murdroot",
+    "pothinir grass",
+    "round grumbleberry",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      230,
+      254,
+      240,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 6285,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb bucket"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6287,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

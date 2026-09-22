@@ -1,0 +1,40 @@
+{
+  "id": 36104,
+  "uid": [
+    105309
+  ],
+  "title": [
+    "[House Arcane, Landing]"
+  ],
+  "description": [
+    "Here, at the top of the steep, wooden staircase, you look down a corridor whose white plaster walls have been covered with maps of distant lands and lacquered with a thin, smooth glaze.  Farther down the hallway, a number of doors guard the private rooms of House members."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      241,
+      180,
+      322,
+      261
+    ]
+  },
+  "exits": [
+    {
+      "to": 36100,
+      "kind": "go",
+      "cmd": "go wooden staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 36105,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

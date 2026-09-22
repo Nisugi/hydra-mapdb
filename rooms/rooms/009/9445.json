@@ -1,0 +1,78 @@
+{
+  "id": 9445,
+  "uid": [
+    13014109
+  ],
+  "title": [
+    "[Zaratek Hall, Alcove]"
+  ],
+  "description": [
+    "Pale stone walls enclose this alcove on three sides, flecked randomly with glossy mica.  Corkboards and bulletins are occupied by an abundance of scrolls delineating tasks and requested services of the guild.  The lone piece of furniture, a sturdy iron-worked stand, supports a thick leather-bound logbook."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "no forageables",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      198,
+      2592,
+      259,
+      2653
+    ]
+  },
+  "exits": [
+    {
+      "to": 9442,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

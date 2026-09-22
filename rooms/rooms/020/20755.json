@@ -1,0 +1,58 @@
+{
+  "id": 20755,
+  "uid": [
+    4002014
+  ],
+  "title": [
+    "[Iceland Rink]"
+  ],
+  "description": [
+    "The smell of warm tarts and hot popcorn fills the air, and bright cheery music sets the pace for any skaters in the area.  The floor is solid ice and surrounded by a safety railing.  Up above, a mezzanine overlooks the entire area, where onlookers can relax on sofas near wood-burning stoves."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      1132,
+      1835,
+      1259,
+      1889
+    ]
+  },
+  "exits": [
+    {
+      "to": 20753,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23428,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25187,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

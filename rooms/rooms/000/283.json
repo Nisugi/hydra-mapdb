@@ -1,0 +1,142 @@
+{
+  "id": 283,
+  "uid": [
+    7050
+  ],
+  "title": [
+    "[Wehnimer's, Parsnips St.]"
+  ],
+  "description": [
+    "This broad conduit leading between the south wall and the square stands nearly deserted after dark, only a few footsteps echoing on the lamplit cobblestones.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner.",
+    "This broad conduit leading between the south wall and the square hums with the activities of those passing through.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "urchin guide weddinghall",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      356,
+      965,
+      392,
+      1001
+    ]
+  },
+  "exits": [
+    {
+      "to": 282,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 299,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20588,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 34425,
+      "kind": "go",
+      "cmd": "go heavy doors",
+      "cost": 0.2
+    }
+  ]
+}

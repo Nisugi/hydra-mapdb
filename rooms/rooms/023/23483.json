@@ -1,0 +1,50 @@
+{
+  "id": 23483,
+  "uid": [
+    336801
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "Cold waters splash around you, catching you in the midst of waves that slosh about in the Darkstone Bay.  Grizzled workers move along the docks of Wehnimer's Landing, loading and unloading ships lined up along the water's edge."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 250,
+      "kind": "go",
+      "cmd": "go docks",
+      "cost": 0.2
+    },
+    {
+      "to": 23490,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

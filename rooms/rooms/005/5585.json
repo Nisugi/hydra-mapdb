@@ -1,0 +1,50 @@
+{
+  "id": 5585,
+  "uid": [
+    2120055
+  ],
+  "title": [
+    "[Vornavis Caravansary, The Row]"
+  ],
+  "description": [
+    "A sprawling building built of rough-cut logs, chinked with mud, and roofed with red tiles stands half-buried beneath the ground here.  The peak of the roof rises to waist level, and a wide timber stairway set into the turf descends to an equally wide doorway.  A wooden sign depicting a cluster of barrels, crates, and grainsacks hangs above the door."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      345,
+      1052,
+      355,
+      1062
+    ]
+  },
+  "exits": [
+    {
+      "to": 5583,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5586,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5588,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    }
+  ]
+}

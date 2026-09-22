@@ -1,0 +1,43 @@
+{
+  "id": 24017,
+  "title": [
+    "[Inner Walkway]"
+  ],
+  "description": [
+    "A red and white tent sits proudly along the southern edge of the flagstone walkway.  Faint streaks stain the stones leading away from the tent's entrance toward a massive limestone coliseum to the east.  A row of flowering plum trees lines the northern edge of the walk, creating a civilized barrier against the wildness of the Siren's Wood beyond.",
+    "Brightly burning torches light the way to a red and white tent that sits proudly along the southern edge of the flagstone walkway.  Faint streaks stain the stones leading away from the tent's entrance toward a massive limestone coliseum to the east.  A row of flowering plum trees lines the northern edge of the walk, creating a civilized barrier against the wildness of the Siren's Wood beyond."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "image": {
+    "file": "fest-Festival_of_the_Fallen-1442606479.png",
+    "rect": [
+      425,
+      274,
+      475,
+      324
+    ]
+  },
+  "exits": [
+    {
+      "to": 24014,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24018,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 24019,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

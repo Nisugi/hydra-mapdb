@@ -1,0 +1,51 @@
+{
+  "id": 1946,
+  "uid": [
+    3001033
+  ],
+  "title": [
+    "[Imflass Street]"
+  ],
+  "description": [
+    "The street is drilled into the canyon wall here.  The dwarves wandering out of the tunnel blink in the moonlight.  Some children are playing by some bushes planted just south of the road.  They run about frantically, searching for something.",
+    "The street is drilled into the canyon wall here.  The dwarves wandering out of the tunnel blink and squint in the light.  Some children are playing by some bushes planted just south of the road.  They run about frantically, searching for something."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1216,
+      434,
+      1246,
+      464
+    ]
+  },
+  "exits": [
+    {
+      "to": 1945,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1947,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33825,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

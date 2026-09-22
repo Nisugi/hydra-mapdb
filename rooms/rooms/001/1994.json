@@ -1,0 +1,44 @@
+{
+  "id": 1994,
+  "uid": [
+    3001049
+  ],
+  "title": [
+    "[Cobblestone Road]"
+  ],
+  "description": [
+    "The road is lined with tree stumps, shrubs and weeds.  It runs toward the base of a canyon, which opens to the south.  A great mountain dominates the horizon beyond the canyon.  The peak is ringed with dark storm clouds.  The outer walls of a good-sized town are barely visible within the canyon."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      391,
+      430,
+      401,
+      440
+    ]
+  },
+  "exits": [
+    {
+      "to": 1993,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1995,
+      "kind": "go",
+      "cmd": "go road",
+      "cost": 0.2
+    }
+  ]
+}

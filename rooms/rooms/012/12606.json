@@ -1,0 +1,81 @@
+{
+  "id": 12606,
+  "uid": [
+    3041004
+  ],
+  "title": [
+    "[Luukos' Gullet, Outcropping]"
+  ],
+  "description": [
+    "Miraculously, a jagged bit of rock extends out into the abyss forming a wide, if somewhat curved and rough, shelf.  Searing wind, steam, and the odd chunk of molten rock hurtle upward on three sides of this hellish oasis.  Even with the bit of shelter the outcropping provides, there are few solid handholds here, and the only beings likely to want to stand here would have to be immortal, fire-proof, or suicidal."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
+  "climate": "hot, damp",
+  "terrain": "rough",
+  "tags": [
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      772,
+      679,
+      782,
+      689
+    ]
+  },
+  "exits": [
+    {
+      "to": 12607,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "round_until": {
+            "commands": [
+              "search",
+              "get crack"
+            ],
+            "until": [
+              "You reach out"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb face"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 3.4
+    }
+  ]
+}

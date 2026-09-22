@@ -1,0 +1,57 @@
+{
+  "id": 20588,
+  "uid": [
+    3014
+  ],
+  "title": [
+    "[Scribe, Front Room]"
+  ],
+  "description": [
+    "The walls of Jenkin the Scrivener's office are honeycombed with scroll and book shelves, all empty.  A thin layer of dust covers the room.  An elegantly penned note hangs from the upper edge of a writing desk in the middle of the room.  Through the archway north, a very large screw-like contraption can be seen."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 283,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20589,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20590,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30360,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

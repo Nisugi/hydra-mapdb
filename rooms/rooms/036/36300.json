@@ -1,0 +1,45 @@
+{
+  "id": 36300,
+  "uid": [
+    777303
+  ],
+  "title": [
+    "[Albatross, Aft]"
+  ],
+  "description": [
+    "The mahogany decking wraps around the back of the riverboat, coming to a halt around a narrow hatchway leading toward the paddlewheel.  Sunlight shines upon the polished brass railings that sweep the sides of the Albatross."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "albatross-1342665555.png",
+    "rect": [
+      353,
+      91,
+      371,
+      111
+    ]
+  },
+  "exits": [
+    {
+      "to": 36299,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36301,
+      "kind": "go",
+      "cmd": "go narrow hatchway",
+      "cost": 0.2
+    }
+  ]
+}

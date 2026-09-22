@@ -1,0 +1,33 @@
+{
+  "id": 24199,
+  "title": [
+    "[Barroom Brawl, Entry]"
+  ],
+  "description": [
+    "Dust-covered tables and broken chairs litter the room, along with some overturned crates, discarded peanut shells, and bits of broken glass that crunch underfoot.  Displayed on a long mahogany bartop is a small collection of weapons.  A ripped canvas curtain is draped behind the bar, and muddy boot marks lead up to a rough-framed opening in the far wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20329,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24200,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 24201,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

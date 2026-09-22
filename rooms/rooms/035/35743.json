@@ -1,0 +1,45 @@
+{
+  "id": 35743,
+  "uid": [
+    7150532
+  ],
+  "title": [
+    "[The Tonbury, Forward Hold]"
+  ],
+  "description": [
+    "A faint rotten egg tang lingers on the heavy air of the hold, which has largely been denuded of its cargo, ill-secured by its entry hatch.  Empty ring bolts gape from waterlogged oak beams where crates and barrels once clustered.  The grooves between drowned planks are lined with barnacles and pale tunicates, while shards of shell and bits of frayed rope drift in shallow pools."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1000,
+      3240,
+      1080,
+      3320
+    ]
+  },
+  "exits": [
+    {
+      "to": 35742,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 35744,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

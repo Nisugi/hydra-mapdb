@@ -1,0 +1,36 @@
+{
+  "id": 33145,
+  "uid": [
+    2174030
+  ],
+  "title": [
+    "[House Brigatta Annex]"
+  ],
+  "description": [
+    "From the center of this scaled-down rotunda, knotted oak floor planks radiate outward.  In the middle, a miniature whispering willow grows in a soil-filled depression, musically watered from a pipe extending out near the ceiling, nourishing the permanent guest.  A skylight inset with a kaleidoscope of stained glass dragonflies crowns the space directly above the tree.  Hugging half the wall of the rounded room is a semi-circular bench next to a silver-embroidered cerulean curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_annex",
+    "che:brigatta:entrance_locker",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 32846,
+      "kind": "go",
+      "cmd": "go mistwood arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33146,
+      "kind": "go",
+      "cmd": "go cerulean curtain",
+      "cost": 0.2
+    }
+  ]
+}

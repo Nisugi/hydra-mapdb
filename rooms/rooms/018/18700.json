@@ -1,0 +1,70 @@
+{
+  "id": 18700,
+  "uid": [
+    4031027
+  ],
+  "title": [
+    "[Krolvin Warship, Brig]"
+  ],
+  "description": [
+    "Tucked between two of the cells, and well out of reach, is a copper-chained pump system mounted into a bucket-like sump in the floor.  A long, cast-iron lever stands motionless despite the sound of gurgling water that occasionally sloshes up out of the sump to wet the pitch-slathered deck.  A slight warping in the wooden planks and watermarks on the oaken bulkheads bear testament to the ravages of water within the area at some point in the past."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      585,
+      447,
+      603,
+      464
+    ]
+  },
+  "exits": [
+    {
+      "to": 18249,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put_until": {
+            "command": "batter door",
+            "until": [
+              "destroyed",
+              "ineffective"
+            ]
+          },
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18706,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24853,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

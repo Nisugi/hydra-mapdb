@@ -1,0 +1,50 @@
+{
+  "id": 23380,
+  "uid": [
+    13018088
+  ],
+  "title": [
+    "[Li'aerion, Solarium]"
+  ],
+  "description": [
+    "Elaborately carved columns reach up to support a seamless, perfectly domed glass ceiling.  Sunlight spills freely into the large space, illuminating several intimate seating areas of soft chairs and couches.  A pair of heavy red silk curtains hang from ebonwood hooks on the eastern wall.  The western wall is covered in a vivid mural, and the north end of the sunroom is a small grey marble staircase."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      550,
+      102,
+      568,
+      114
+    ]
+  },
+  "exits": [
+    {
+      "to": 23375,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23381,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23382,
+      "kind": "go",
+      "cmd": "go grey staircase",
+      "cost": 0.2
+    }
+  ]
+}

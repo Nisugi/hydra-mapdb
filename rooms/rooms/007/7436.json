@@ -1,0 +1,56 @@
+{
+  "id": 7436,
+  "uid": [
+    306011
+  ],
+  "title": [
+    "[The Broken Lands, Cavern]"
+  ],
+  "description": [
+    "The ceiling and floor of this small cavern are dotted with stalactites and stalagmites of various sizes.  Near one wall of the cavern, a particularly large stalactite dips down from the ceiling of the cavern, almost touching the tip of a matching stalagmite that rises from the cavern floor."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      502,
+      899,
+      512,
+      909
+    ]
+  },
+  "exits": [
+    {
+      "to": 6626,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "turn stalactite",
+            "turn stalagmite"
+          ],
+          "when": {
+            "not": {
+              "sees": "stairs"
+            }
+          }
+        },
+        {
+          "move": "go stair"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7437,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

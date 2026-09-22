@@ -1,0 +1,33 @@
+{
+  "id": 20568,
+  "title": [
+    "[Stone Keep, Courtyard]"
+  ],
+  "description": [
+    "Stone rubble from the wall above lays in scattered chunks around the courtyard, the rocks layered with a solid coat of ice.  A frayed rope leads back up to the keep's perimeter."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20543,
+      "kind": "climb",
+      "cmd": "climb rope",
+      "cost": 0.2
+    },
+    {
+      "to": 20569,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20570,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

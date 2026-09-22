@@ -1,0 +1,43 @@
+{
+  "id": 24088,
+  "title": [
+    "[Necropolis, Hall of the Dead]"
+  ],
+  "description": [
+    "Upon the moss-covered limestone walls, shallow niches house a number of sarcophagi.  Iron sconces give off a pale green illumination, giving the hall an eerie presence.  Smeared trails of blood and gore lead in every direction.  Lengths of tattered cloth are scattered across the floor."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24089,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24091,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24092,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get my egg-eater"
+        },
+        {
+          "put": "put egg-eater in stone door"
+        },
+        {
+          "move": "go stone door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

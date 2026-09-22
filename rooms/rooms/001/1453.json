@@ -1,0 +1,103 @@
+{
+  "id": 1453,
+  "uid": [
+    4209031
+  ],
+  "title": [
+    "[Solhaven, North Market East]"
+  ],
+  "description": [
+    "A brown awning stretches across the front of the large stone building here.  Hanging above the entrance is a metal breastplate, rusted from exposure to the salty sea air.  Two giantmen, deeply engrossed in conversation, lean casually against the building."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "trash",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:green and white oak barrel"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1002,
+      576,
+      1026,
+      600
+    ]
+  },
+  "exits": [
+    {
+      "to": 1438,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1448,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1454,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1460,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12813,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

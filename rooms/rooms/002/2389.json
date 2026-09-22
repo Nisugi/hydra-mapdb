@@ -1,0 +1,83 @@
+{
+  "id": 2389,
+  "uid": [
+    4043214
+  ],
+  "title": [
+    "[The Nightowl Pub, Entry]"
+  ],
+  "description": [
+    "Upon entering the dimly lit room, you are startled by the row of round eyes staring at you from above.  As your vision adjusts to the darkness, you realize that you are merely being watched by the many owl statues lining a plate rail high on the wall.  It appears that each pair of eyes is formed by different gems, backlit by candles."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "nightowl",
+    "no forageables",
+    "urchin guide nightowl",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      139,
+      877,
+      175,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 2387,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3424,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

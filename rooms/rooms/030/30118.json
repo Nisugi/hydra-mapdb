@@ -1,0 +1,69 @@
+{
+  "id": 30118,
+  "uid": [
+    2101033
+  ],
+  "title": [
+    "[Post Office, Finn's Office]"
+  ],
+  "description": [
+    "A heavily scarred desk is situated opposite of the entrance to the room, and behind it stands a grizzled half-elven clerk.  Strung along the walls is a length of thick rope hung with an odd assortment of items.  Leaning against the desk, in easy handreach of the clerk, is a large, armed crossbow.  The occassional squawk of a river bird passes through the poorly constructed walls of the room, along with the scent of wet earth.",
+    "A heavily scarred desk is situated opposite of the entrance to the room, and behind it stands a grizzled half-elven clerk.  Strung along the walls is a length of thick rope hung with an odd assortment of items.  Leaning against the desk, in easy handreach of the clerk, is a large, armed crossbow.  The occasional squawk of a river bird passes through the poorly constructed walls of the room, along with the scent of wet earth."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "mail",
+    "no forageables",
+    "postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 30117,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

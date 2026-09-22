@@ -1,0 +1,64 @@
+name: combine
+
+# Turn the committed per-room JSON (written by `convert.yml`) into the single
+# binary Hydra loads, and publish it where the client can fetch it: a
+# `latest` release, replaced each run, plus every push kept as a build
+# artifact for a few days.
+#
+# Separate from `convert.yml` on purpose (`plan/21`'s "two tools, each
+# knowing as little as it can", carried into two workflows): a person may
+# want to look at a converted diff before it becomes the binary players
+# download, and a combine with no upstream change (e.g. after editing a
+# hand-fixed room file directly) should not have to re-run a 42 MB download.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'rooms/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Combine the committed room files into one binary
+        run: cargo run --release -p cena-map-combine -- rooms hydra.map
+
+      - name: Record what this binary was built from
+        run: |
+          {
+            echo "upstream updated_at: $(cat rooms/upstream_updated_at 2>/dev/null || echo unknown)"
+            echo "combined:            $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "commit:              ${{ github.sha }}"
+          } > hydra.map.txt
+          cat hydra.map.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hydra-map
+          path: |
+            hydra.map
+            hydra.map.txt
+          retention-days: 30
+
+      # `latest` is replaced each run rather than accumulating a release per
+      # commit: the client always wants the newest map, not a specific
+      # historical one, and `plan/21` records no case yet where a player
+      # needs to pin an older map.
+      - name: Publish as the "latest" release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest map
+          body_path: hydra.map.txt
+          files: |
+            hydra.map
+            hydra.map.txt
+          make_latest: true

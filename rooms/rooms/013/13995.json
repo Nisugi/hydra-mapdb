@@ -1,0 +1,39 @@
+{
+  "id": 13995,
+  "uid": [
+    14114009
+  ],
+  "title": [
+    "[Stockade, Dead End Corridor]",
+    "[Bastille, Dead End Corridor]"
+  ],
+  "description": [
+    "A strong draft blows down the hallway, extending its dank fingers into a gloom disturbed only by flickering torchlight to the east.  A haphazard stone wall has been erected at the end of the hallway.  The stones lay at odd angles from each other, as if the mason was either in a hurry or not a master of his craft.  Wafting through a gaping hole in the wall, the strong smell of decay is accompanied by sounds of bone-splitting cracks and low moans."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 13993,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13996,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

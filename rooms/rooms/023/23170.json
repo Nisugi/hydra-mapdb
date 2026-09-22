@@ -1,0 +1,34 @@
+{
+  "id": 23170,
+  "title": [
+    "[Darkness, Pit]"
+  ],
+  "description": [
+    "Large chunks of a stone bridge clutter the ground, as they must have fallen from above where the necropolis was blocked off.  Skeletal remains are piled up high, some still having flesh on the bone.  The rocky walls climb further than the eye can see."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24072,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24324,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go narrow pathway"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

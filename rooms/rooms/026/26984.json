@@ -1,0 +1,53 @@
+{
+  "id": 26984,
+  "uid": [
+    7114001
+  ],
+  "title": [
+    "[Liabo, Vorago of Kaas]"
+  ],
+  "description": [
+    "High walls cast the lunar basin largely in shadow, its only true light coming from the greyish-black glow of the energy shield that preserves the gold-tiled area.  White moon rocks, their ivory faces reflective and smooth, dimple the landscape but are heavily pockmarked by thousands of craters formed by the meteorites that seem to constantly bombard this area of Liabo.  In the distance, the soft sound of impact tremors can be heard and nearly overpower the gentle hum of the nearby teleportation disk."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the surface of Liabo",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "rol:chaos"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "fest-Rings of Lumnis 2022-1649952041.png",
+    "rect": [
+      1613,
+      1391,
+      1627,
+      1407
+    ]
+  },
+  "exits": [
+    {
+      "to": 26983,
+      "kind": "go",
+      "cmd": "go teleportation disk",
+      "cost": 0.2
+    },
+    {
+      "to": 26985,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26986,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

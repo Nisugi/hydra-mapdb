@@ -1,0 +1,97 @@
+{
+  "id": 31390,
+  "uid": [
+    171032
+  ],
+  "title": [
+    "[Wyrdeep Forest]"
+  ],
+  "description": [
+    "Thorn-covered vines wind their way across the ground and up each tree, strangling the forest in an unforgiving grasp.  Complex cobwebs decorate each branch, their skilled weavers veiled in dark shadows.  A smidge of light sneaks through an opening overhead, but is quickly snuffed by the shifting forest, leaving the area in near darkness."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "alder bark",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ginger root",
+    "golden buttercup",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "oak twig",
+    "pink rain lily",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "walnuts",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "yew twig"
+  ],
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 31389,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31391,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get vine"
+        },
+        {
+          "move": "push vine"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

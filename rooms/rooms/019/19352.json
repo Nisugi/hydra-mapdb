@@ -1,0 +1,56 @@
+{
+  "id": 19352,
+  "uid": [
+    3223010
+  ],
+  "title": [
+    "[Eastern Harbor, Pelican Lane]"
+  ],
+  "description": [
+    "Thick, wrought iron fencing crafted of gracefully twisted poles surrounds the pristine courtyard of the town theatre.  Loops and whirls rise above the elegantly appointed gate and support a sign fashioned in the image of theatre masks.  Disappearing to the north, a small alley positioned alongside a large building connects Pelican Lane to Crane Lane."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      4032,
+      1743,
+      4065,
+      1776
+    ]
+  },
+  "exits": [
+    {
+      "to": 19351,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 19364,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19372,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21141,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 26072,
+  "uid": [
+    679014
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Positioned each within the middle of the eastern, western, and southern walls are three murals illuminated by a cluster of candles that are neatly arranged upon a central bench.  Twin staircases lead away from the chamber, one leading up and the the other leading down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26067,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

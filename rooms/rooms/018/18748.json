@@ -1,0 +1,44 @@
+{
+  "id": 18748,
+  "uid": [
+    667094
+  ],
+  "title": [
+    "[A Shadowy Corner]"
+  ],
+  "description": [
+    "The darkness here is almost tangible, muffling sound and sight.  No breath of wind disturbs the heaviness.  The floor is clean-swept, and a pair of square, stone panels, one of basalt and the other of chalcedony, are mounted on the rough boards of the barn's wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      345,
+      885,
+      383,
+      926
+    ]
+  },
+  "exits": [
+    {
+      "to": 6016,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18747,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "eye_spy_runes"
+      },
+      "cost": 7.0
+    }
+  ]
+}

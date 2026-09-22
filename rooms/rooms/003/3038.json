@@ -1,0 +1,51 @@
+{
+  "id": 3038,
+  "uid": [
+    4050306
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "To the south, the glow of lamps backlights the protective town walls, providing assurance that civilization is nearby.  Continuing northward, the snowy path climbs a small hill before disappearing into the darkness created by a stand of trees.  In the quiet of the night, the soft strain of tavern music drifts on the wind.",
+    "To the south, a comforting glimpse of the town wall assures that civilization is nearby and within easy reach.  Continuing northward, the snowy path climbs a small hill before disappearing back into the trees."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      255,
+      577,
+      263,
+      585
+    ]
+  },
+  "exits": [
+    {
+      "to": 3039,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 3069,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3225,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

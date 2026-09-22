@@ -1,0 +1,47 @@
+{
+  "id": 30323,
+  "uid": [
+    8214737
+  ],
+  "title": [
+    "[Locksmehr River, Encampment]"
+  ],
+  "description": [
+    "Lashed frames rest upon either side of the small pathway that leads in and out of the area, their interiors strung with elk or caribou hides in various stages of tanning.  Barrels filled with noxious substances flank the entrance to a tilted driftwood lean-to, while to the east of its entrance a chalky, white substance stains the leaves of low-rising bushes, likely the result of discarded alum.",
+    "Lashed frames rest upon either side of the small pathway that leads in and out of the area, their interiors strung with elk or caribou hides dusted in snow..  Barrels filled with semi-frozen substances flank the entrance to a domed sinew and hide tent, while to the east of its entrance a chalky, white substance stains the muddy slush and half-dead bushes, likely the result of discarded alum."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      361,
+      1163,
+      390,
+      1193
+    ]
+  },
+  "exits": [
+    {
+      "to": 26879,
+      "kind": "go",
+      "cmd": "go lean-to",
+      "cost": 0.2
+    },
+    {
+      "to": 30320,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30326,
+      "kind": "go",
+      "cmd": "go sinew tent",
+      "cost": 0.2
+    }
+  ]
+}

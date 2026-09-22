@@ -1,0 +1,52 @@
+{
+  "id": 23693,
+  "uid": [
+    255041
+  ],
+  "title": [
+    "[Tanglevine Hall, Office]"
+  ],
+  "description": [
+    "An ancient suit of vultite armor stands on the floor as sentry beside the arch to the office.  A wooden desk dominates the room, piled high with papers and scrolls, a sword laying across the top of it all.  A banner hangs from the back wall bearing the Warrior Guild Crest.  Set into the wall at the back of the room, two large alcoves house wooden stage doors in one and metal stage doors in the other, leading off to other rooms."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "none",
+  "tags": [
+    "warrior guild armor",
+    "warrior guild floor",
+    "warrior guild metal stage doors",
+    "warrior guild wooden stage doors"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      336,
+      328,
+      359,
+      351
+    ]
+  },
+  "exits": [
+    {
+      "to": 23664,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23694,
+      "kind": "go",
+      "cmd": "go metal doors",
+      "cost": 0.2
+    },
+    {
+      "to": 23695,
+      "kind": "go",
+      "cmd": "go wooden doors",
+      "cost": 0.2
+    }
+  ]
+}

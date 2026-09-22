@@ -1,0 +1,65 @@
+{
+  "id": 3656,
+  "uid": [
+    3201020
+  ],
+  "title": [
+    "[Wisteria Lane]"
+  ],
+  "description": [
+    "Light pours from the bakeshop windows and illuminates the cobblestone street as the baker works diligently on the morning dough.  Very little moonlight makes its way through all of the tents and awnings that line both sides of the streets, leaving everything shadowed in pitch.",
+    "The warm smell of freshly baked bread wafts through the air, originating from the nearby bakeshop.  A large wooden loaf of pumpernickel acts as the sign for the shop, its body painted to appear half-eaten.  Though the storefronts all appear the same here, huddled together nearly on top of one another, each one retains its own unique character.",
+    "Light pours from the bakeshop windows illuminating the baker as he works diligently on the morning dough, while only a single candle burns in the window of the yarn shop.  Very little moonlight makes its way through all of the shops and signs that line both sides of the streets, leaving everything shadowed in pitch.",
+    "The warm smell of freshly baked bread wafts through the air, originating from the nearby bakeshop.  Sandwiched against the side of the bakery is another shop, which is flanked by yet another.  Though the storefronts all appear the same here, huddled together nearly on top of one another, each one retains its own unique characters and signs."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2910,
+      1599,
+      2951,
+      1641
+    ]
+  },
+  "exits": [
+    {
+      "to": 3655,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3661,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12283,
+      "kind": "go",
+      "cmd": "go bakeshop",
+      "cost": 0.2
+    },
+    {
+      "to": 16335,
+      "kind": "go",
+      "cmd": "go white shop",
+      "cost": 0.2
+    },
+    {
+      "to": 25307,
+      "kind": "go",
+      "cmd": "go plank wagon",
+      "cost": 0.2
+    }
+  ]
+}

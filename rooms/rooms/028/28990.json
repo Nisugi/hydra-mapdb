@@ -1,0 +1,74 @@
+{
+  "id": 28990,
+  "uid": [
+    7118515
+  ],
+  "title": [
+    "[Molskroen Hall, Garden Patio]"
+  ],
+  "description": [
+    "Glazed and bright, terra cotta tiles of lapis and white form a checkered pattern across the garden patio that stretches to the encircling flower beds.  Clustered together, some hummingbird feeders reflect the starlight in dazzling patterns upon the white stucco walls of the villa, as well as on the nearby wicker armchairs and glass-topped tables.  A set of double glass doors leads inside beneath an overhang of colorful roofing tiles."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "premium supernode",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "exits": [
+    {
+      "to": 28981,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

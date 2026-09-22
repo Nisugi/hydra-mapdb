@@ -1,0 +1,27 @@
+{
+  "id": 24121,
+  "title": [
+    "[Necropolis, Dark Passages]"
+  ],
+  "description": [
+    "A single torch sputters in its rusted sconce, providing just enough light to make way through this narrow corridor.  Thick, spongy moss clings to the limestone walls, muffling any sound.  A narrow ledge can be seen along the western wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24120,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 0.2
+    },
+    {
+      "to": 24122,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

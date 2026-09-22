@@ -1,0 +1,58 @@
+{
+  "id": 17221,
+  "uid": [
+    257008
+  ],
+  "title": [
+    "[Warrior Guild, Southern Grove]"
+  ],
+  "description": [
+    "The turf is scarred badly here, perhaps the result of practice gone awry.  One of the groundskeepers is nearby, but somebody will have to wake her before anything gets done.  She looks to be snoozing quite comfortably under the shade of one of the larger trees.",
+    "A nearby owl disturbs the silence of the evening, its song a never ending quest.  Sentries wander by from time to time, most heading in the direction of the Citadel."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "deciduous forest",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild metal stage doors",
+    "warrior guild wooden stage doors"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      143,
+      248,
+      163,
+      267
+    ]
+  },
+  "exits": [
+    {
+      "to": 17220,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17229,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18761,
+      "kind": "go",
+      "cmd": "go thick doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18764,
+      "kind": "go",
+      "cmd": "go sturdy doors",
+      "cost": 0.2
+    }
+  ]
+}

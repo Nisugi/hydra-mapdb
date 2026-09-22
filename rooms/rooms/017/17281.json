@@ -1,0 +1,55 @@
+{
+  "id": 17281,
+  "uid": [
+    252071
+  ],
+  "title": [
+    "[Guild Hall, West Wing]"
+  ],
+  "description": [
+    "Running north and south, the marble tiled floors and luxurious decorations reflect the affluence of the guild.  An arched entrance flanked by marble columns leads to the Guild Master sanctum, while the hallway terminates at a pair of gilded mithril gates to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1293,
+      883,
+      1313,
+      903
+    ]
+  },
+  "exits": [
+    {
+      "to": 17260,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17282,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 17284,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17285,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

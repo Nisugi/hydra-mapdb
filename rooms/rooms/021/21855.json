@@ -1,0 +1,36 @@
+{
+  "id": 21855,
+  "title": [
+    "[Talador, Woodlands]"
+  ],
+  "description": [
+    "A wall of dense trees blocks further travel into the forest, but a faint set of narrow footprints seems to disappear beyond the woodland barrier.  A strange wooden symbol hangs from a branch high above."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      388,
+      601,
+      401,
+      614
+    ]
+  },
+  "exits": [
+    {
+      "to": 21854,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21987,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

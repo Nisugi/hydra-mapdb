@@ -1,0 +1,48 @@
+{
+  "id": 31826,
+  "uid": [
+    8083405
+  ],
+  "title": [
+    "[Gleyminn Anni River, Cavern]"
+  ],
+  "description": [
+    "The low ceiling of the cavern has partially caved in, obstructing further exploration of a narrow, water-filled tunnel to the south.  A cache of branded oak barrels and a tangle of discarded fishing nets are caught amid the rubble that bumps up against the muddy shore."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1138,
+      915,
+      1158,
+      937
+    ]
+  },
+  "exits": [
+    {
+      "to": 31825,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 32074,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    }
+  ]
+}

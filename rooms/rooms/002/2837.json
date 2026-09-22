@@ -1,0 +1,85 @@
+{
+  "id": 2837,
+  "uid": [
+    4565003
+  ],
+  "title": [
+    "[Northern Slopes, Timberline]"
+  ],
+  "description": [
+    "A beautiful frozen waterfall formed from once-melted snow runs over a rocky cliff and forms an ice-covered pool. A few hardy, twisted trees struggle to keep purchase in their rocky soil, having fought the brutal elements to a standstill."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      300,
+      1385,
+      310,
+      1395
+    ]
+  },
+  "exits": [
+    {
+      "to": 2836,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb cliff"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

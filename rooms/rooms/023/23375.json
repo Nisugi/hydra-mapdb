@@ -1,0 +1,56 @@
+{
+  "id": 23375,
+  "uid": [
+    13018083
+  ],
+  "title": [
+    "[Li'aerion, Upper Landing]"
+  ],
+  "description": [
+    "Sleek grey marble floors are covered at intervals with rugs in rich jewel tones.  Just to either side of the staircase, the spaces between intricately carved columns are draped with lengths of scarlet-swept ebon gossamer.  Recessed spaces on either side of the main corridor shelter a heavy grey velvet curtain and an onyx arch.  Enormous silver-dipped bone candelabrum hold blood-red candles that cast dancing lights over the floors and walls."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      552,
+      161,
+      567,
+      176
+    ]
+  },
+  "exits": [
+    {
+      "to": 23362,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 23376,
+      "kind": "go",
+      "cmd": "go grey curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 23378,
+      "kind": "go",
+      "cmd": "go onyx arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23380,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

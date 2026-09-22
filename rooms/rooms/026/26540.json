@@ -1,0 +1,40 @@
+{
+  "id": 26540,
+  "title": [
+    "[The Old One-Two, Entry]"
+  ],
+  "description": [
+    "Whitewashed walls of polished oak encircle the tiny room, the north and south panels are interrupted by an unadorned exit and a curtained archway.  Silvery moonlight brightens the entries and creates a soft nimbus upon the brown rug and dark oak table that rest at the center of the space.  Brightly illuminated glass globes are hung within each corner, their cheery flames casting shadows upon the ceiling.",
+    "Whitewashed walls of polished oak encircle the tiny room, the north and south panels are interrupted by an unadorned exit and a curtained archway.  Sunlight streams through the openings and spills in circles upon the brown rug and dark oak table that occupy the center of the space.  At each corner, frosted glass globes lay dormant and forgotten."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26537,
+      "kind": "go",
+      "cmd": "go exit",
+      "cost": 0.2
+    },
+    {
+      "to": 26544,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26545,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26641,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 19055,
+  "title": [
+    "[Spitfire, Main Deck Portside]"
+  ],
+  "description": [
+    "The forward deckhouse sits just behind the foremast, two lifeboats lashed topside-down on its roof.  Raucous laughter can occasionally be heard from the crew's quarters inside the deckhouse, mixing with the melody played by a group of minstrels strolling the wharf below the Spitfire's rail.  Sitting forward of the mast, a forehatch gives access to cargo areas below deck.  A narrow flight of stairs leads up to the forecastle deck, and there is a narrow door leading into the forward deckhouse."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      16,
+      239,
+      54,
+      276
+    ]
+  },
+  "exits": [
+    {
+      "to": 19045,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19056,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19057,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 19068,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

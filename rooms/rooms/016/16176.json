@@ -1,0 +1,50 @@
+{
+  "id": 16176,
+  "uid": [
+    34227
+  ],
+  "title": [
+    "[Bamboo Cottage, Orders]"
+  ],
+  "description": [
+    "Though most of the floor is covered in compacted dirt, some areas have been worn away by the wind and reveal splintering planks underneath.  Standing on one side of the room and supported by several wrapped bamboo stalks is a long counter with a wooden top.  A clerk stands behind the counter, casually watching the customers come and go."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-dyers_tent-1512165849.png",
+    "rect": [
+      1658,
+      664,
+      1798,
+      736
+    ]
+  },
+  "exits": [
+    {
+      "to": 16175,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16177,
+      "kind": "climb",
+      "cmd": "climb planks",
+      "cost": 0.2
+    },
+    {
+      "to": 16178,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    }
+  ]
+}

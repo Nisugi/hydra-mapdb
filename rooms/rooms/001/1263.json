@@ -1,0 +1,80 @@
+{
+  "id": 1263,
+  "uid": [
+    5052
+  ],
+  "title": [
+    "[Frith's Inn, Main Saloon]"
+  ],
+  "description": [
+    "Drawn by the aroma of good food and strong drink, you enter the main saloon.  The innkeeper presides merrily, ensuring everyone gets a share of attention from the pretty serving wenches and the handsome lad behind the bar.  Long benches and rectangular tables seat high-spirited patrons."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1262,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1264,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8816,
+      "kind": "go",
+      "cmd": "go booth",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

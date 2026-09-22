@@ -1,0 +1,99 @@
+{
+  "id": 7470,
+  "uid": [
+    94013
+  ],
+  "title": [
+    "[Dark Grotto, Cavern]"
+  ],
+  "description": [
+    "A sour, fetid odor fills this cavern, stinging your eyes and making breathing difficult.  A strange, gritty substance covers the floor of the cavern which crunches when it is walked upon.  At first sight it appeared to be simply a layer of dirt, but closer examination shows it to be some kind of finely pulverized stone.  The grey-white caps of mushrooms poke up in small clusters dotted around on the surface of the grit."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      889,
+      988,
+      899,
+      998
+    ]
+  },
+  "exits": [
+    {
+      "to": 7469,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": 25544,
+  "uid": [
+    14117021
+  ],
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Tumbled from craggy hillsides now overgrown with trees, chunks of fractured shale and sandstone lie in jagged clumps along the west bank of the river.  A line of smaller rocks leads from the shore to one very large boulder that overlooks a particularly deep and clear section of river where large fish seem content to dwell.  As if to confirm the popularity of the site, fresh bear tracks and a few partially-eaten fish dot the surface of this particularly well-placed rock slab."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1241,
+      888,
+      1261,
+      910
+    ]
+  },
+  "exits": [
+    {
+      "to": 23526,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row east",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23528,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25543,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row north",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25614,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row south",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25615,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30513,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

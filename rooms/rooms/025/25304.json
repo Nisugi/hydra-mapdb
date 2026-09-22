@@ -1,0 +1,68 @@
+{
+  "id": 25304,
+  "uid": [
+    3209308
+  ],
+  "title": [
+    "[Oleander's Defenses]"
+  ],
+  "description": [
+    "Slightly crowded, the shop is filled with armor-adorned mannequins that display the various wares sold here.  A short, low counter bisects the shop at the back, while a series of wide windows, each wrapped in silk, occupy two of the four walls and allow the island's breezes to cool the otherwise warm room."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "armorshop",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3638,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

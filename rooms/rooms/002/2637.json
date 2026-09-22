@@ -1,0 +1,56 @@
+{
+  "id": 2637,
+  "uid": [
+    4562034
+  ],
+  "title": [
+    "[Heated Sands, Cavern of Ages]"
+  ],
+  "description": [
+    "After the bitter, numbing cold of outside, the luxuriousness of warm air is all encompassing.  Then the surroundings creep upon one's consciousness, like a panoramic view emerging as fog lifts.  Red stone walls arch in ridges overhead, reminiscent of an immense rib cage.  The cavern's higher regions are remote and dark, however, soft light radiates from a fine, ivory-colored carpet of sand that stretches from wall to wall.  Heat rises from the sand as well, lending a shimmering quality to the air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "hot, damp",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "node"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      114,
+      174,
+      122,
+      182
+    ]
+  },
+  "exits": [
+    {
+      "to": 2635,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2638,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2639,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go lake"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

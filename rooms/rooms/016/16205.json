@@ -1,0 +1,54 @@
+{
+  "id": 16205,
+  "uid": [
+    216024
+  ],
+  "title": [
+    "[Beacon Hall, Archives]"
+  ],
+  "description": [
+    "Bookcases cover all the walls of this room and even extend outward from the walls in several places.  All are full of massive tomes, registers, books, pamphlets, ledgers, and all other manner of written record.  The carpet here is a plush burgundy, muffling the footsteps of those who tread among the volumes.  Several tables lit by small reading lanterns nestle among the bookcases.  Toward the back of the room, a heavy glaes door stands out in contrast to the warm hues of carpet and wood shelving."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1314,
+      466,
+      1361,
+      510
+    ]
+  },
+  "exits": [
+    {
+      "to": 16203,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16206,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19042,
+      "kind": "go",
+      "cmd": "go glaes door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 6670,
+  "uid": [
+    487030
+  ],
+  "title": [
+    "[Elder's Chambers, Anteroom]"
+  ],
+  "description": [
+    "A musty odor of old, damp fiber rises from the plush carpeting beneath your feet.  Carefully arranged groupings of chairs and couches, richly upholstered in crimson and black brocade, are arranged around ornate tables of black vaalin and carved wood.  Heavy, dusty tapestries along the walls muffle any sound."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      522,
+      1181,
+      529,
+      1190
+    ]
+  },
+  "exits": [
+    {
+      "to": 6669,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6671,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 6673,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

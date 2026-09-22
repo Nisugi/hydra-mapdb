@@ -1,0 +1,28 @@
+{
+  "id": 21378,
+  "title": [
+    "[Linen or Leather]"
+  ],
+  "description": [
+    "Battered wooden boards line the floor of the wagon, covered in part by a mud-spattered green rug.  A sturdy monir rack hangs along one wall, while a dark mahogany wardrobe and a stained oak cabinet sit against the opposite wall.  A dented bronze hatch leads into the rear of the wagon."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20143,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21462,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

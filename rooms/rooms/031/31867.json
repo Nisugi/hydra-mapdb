@@ -1,0 +1,75 @@
+{
+  "id": 31867,
+  "uid": [
+    8083081
+  ],
+  "title": [
+    "[Darkbriar Woods, Umbral Path]"
+  ],
+  "description": [
+    "Dark roots shatter a cobblestone pathway running through a dark briar arch, and thick ice coats everything except a shadowed, windy path running east to west surrounded by dense trees and briars that arch overhead, nearly blocking the sky.  Tucked between vine-wrapped oak, ash, and rowan are several smaller buildings, and narrow trails wander off the main path, disappearing in snow drifts, looming trees, and thorny bushes."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1091,
+      243,
+      1111,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31866,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31875,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31876,
+      "kind": "go",
+      "cmd": "go thatched hut",
+      "cost": 0.2
+    },
+    {
+      "to": 31878,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31904,
+      "kind": "go",
+      "cmd": "go tiny hut",
+      "cost": 0.2
+    },
+    {
+      "to": 33963,
+      "kind": "go",
+      "cmd": "go bramble-caught shanty",
+      "cost": 0.2
+    },
+    {
+      "to": 35820,
+      "kind": "go",
+      "cmd": "go stone hovel",
+      "cost": 0.2
+    }
+  ]
+}

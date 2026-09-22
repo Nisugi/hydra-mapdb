@@ -1,0 +1,48 @@
+{
+  "id": 25441,
+  "title": [
+    "[Briarmoon Cove, Promenade]"
+  ],
+  "description": [
+    "The moon bridge descends directly into the heart of the inland port, bordering a vast red cedar dock established over an ample portion of the sea, adjoining firths, and rocky shoreline.  Aqueous particles linger heavily in the atmosphere, haloing each iron lantern in delicate, bubble-like glow that illuminates the walkway with golden light.  A frosty mist is pulled in from the outlying waters, adding a salty brine to the delicate scent of pine perfuming the air."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      457,
+      647,
+      480,
+      670
+    ]
+  },
+  "exits": [
+    {
+      "to": 25440,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 25986,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26936,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29346,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

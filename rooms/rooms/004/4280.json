@@ -1,0 +1,93 @@
+{
+  "id": 4280,
+  "uid": [
+    386063
+  ],
+  "title": [
+    "[Wooded Path]"
+  ],
+  "description": [
+    "At the verdant feet of an incredibly large growth of the ferns, the dwindling path abruptly ends.  The pines have withdrawn a few paces, growing in a symmetrical ring that creates an intimate glade.  Rich mosses and clover provide a soft carpet dotted here and there with tiny white blossoms."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the distant forest",
+  "climate": "moist",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "bright red cranberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "walnuts",
+    "white passionflower",
+    "wild chokecherry",
+    "wild orchid",
+    "willow twig",
+    "withered mushroom",
+    "woth flower",
+    "yellow passionflower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1253,
+      139,
+      1263,
+      149
+    ]
+  },
+  "exits": [
+    {
+      "to": 4279,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8142,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

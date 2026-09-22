@@ -1,0 +1,44 @@
+{
+  "id": 11725,
+  "uid": [
+    376082
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Landing]"
+  ],
+  "description": [
+    "A dark gloom greets the end of the great stone stairwell as it comes to a stop at broad landing.  Pierced only by the light of a single flickering torch, the gloom gives way to a hallway leading to the east, the same direction from which flows a damp breeze thick with the smell of decay.  Footprints cover the surrounding floor in a haphazard pattern of chaotic activity, many possessing clawed toes and heels."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      666,
+      437,
+      676,
+      447
+    ]
+  },
+  "exits": [
+    {
+      "to": 11717,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 11726,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 30553,
+  "uid": [
+    652003
+  ],
+  "title": [
+    "[Hub]"
+  ],
+  "description": [
+    "A placid dark lake extends to the south.  A sheltered island sits in the center of the lake, and a bridge arches over the lake's waters to reach the island.  Well-maintained paths of white stone wind through a stark landscape of crushed volcanic rock and strategically placed volcanic boulders.  Tiny grey lizards peek out from under some of the boulders while others scamper over the rocks in search of an insect meal.  A stairway rises to the north, and a stone building resides to the east.",
+    "A placid, crystal blue lake extends to the south.  A sheltered island sits in the center of the lake, and a bridge arches over the lake's waters to reach the island.  Well-maintained paths of white stone wind through a stark landscape of crushed volcanic rock and strategically placed volcanic boulders.  Tiny grey lizards sun themselves on some of the boulders while others scamper over the rocks in search of an insect meal.  A stairway rises to the north, and a stone building resides to the east."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "teras-empath_guild.jpg",
+    "rect": [
+      614,
+      270,
+      676,
+      328
+    ]
+  },
+  "exits": [
+    {
+      "to": 30552,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30554,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30557,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 30574,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30575,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

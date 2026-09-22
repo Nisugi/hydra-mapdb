@@ -1,0 +1,44 @@
+{
+  "id": 18926,
+  "uid": [
+    661014
+  ],
+  "title": [
+    "[Sorcerer's Guild, Guild Shop]"
+  ],
+  "description": [
+    "The elegant decor of the foyer extends here, as does the use of the black candles that light the room.  Crimson carpeting spreads from wall to wall and softly cushions each footstep.  The north wall, paneled in dark walnut like the others, holds a large banner.  A young clerk stands discreetly in a small alcove off to one side, behind the mannequin displaying wares for purchase.  Upon a shelf set into the southern wall an array of wands, rods and other small items awaits your inspection."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Coastal Cliffs",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild shop"
+  ],
+  "image": {
+    "file": "wl-sorcerer_guild-1405076623.png",
+    "rect": [
+      343,
+      759,
+      384,
+      799
+    ]
+  },
+  "exits": [
+    {
+      "to": 18112,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "banner"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

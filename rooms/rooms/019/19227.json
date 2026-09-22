@@ -1,0 +1,40 @@
+{
+  "id": 19227,
+  "uid": [
+    263044
+  ],
+  "title": [
+    "[A Small Passageway]"
+  ],
+  "description": [
+    "This is a small room, featureless except for a note tacked to the wall.  Some narrow steps lead down."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      195,
+      205,
+      219,
+      227
+    ]
+  },
+  "exits": [
+    {
+      "to": 17994,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 19228,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

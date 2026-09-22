@@ -1,0 +1,44 @@
+{
+  "id": 13219,
+  "uid": [
+    13108009
+  ],
+  "title": [
+    "[Shimmarglin Inn, East Hall]"
+  ],
+  "description": [
+    "Plush red carpeting runs east to west through the hallway, its crimson hue highlighted by the steady glow of glass orbs set within silver sconces on the walls.  Silence fills the passage, the activities of guests masked behind the sturdy oak doors leading to private rooms."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Shimmarglin Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 13218,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13220,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 13221,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 15668,
+      "kind": "go",
+      "cmd": "go bronze-inlaid door",
+      "cost": 0.2
+    }
+  ]
+}

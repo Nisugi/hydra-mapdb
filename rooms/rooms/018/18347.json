@@ -1,0 +1,41 @@
+{
+  "id": 18347,
+  "uid": [
+    267128
+  ],
+  "title": [
+    "[Channel]"
+  ],
+  "description": [
+    "The passage slowly curves and leads to a rusted iron ladder that leads back up.  Something heavy must have fallen from above, as the cobblestones at the base of the ladder are cracked badly."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      388,
+      297,
+      428,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 17833,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 18346,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 10860,
+  "uid": [
+    2101013
+  ],
+  "title": [
+    "[River's Rest, Targon's Square]"
+  ],
+  "description": [
+    "This large, welcoming square is set away from the center of town and paved with large stone blocks.  The crowds that gather here do not seem to crowd the openness of the square, but to make it feel warm and welcoming.  Set off to one side, a small tavern seems to attract many in the crowd, and each time its doors open, sounds of revelry spill out into the open to attract even more.  The River's Rest Inn stands nestled back in the brambles that guard the eastern side of the tavern."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2685,
+      925,
+      2725,
+      964
+    ]
+  },
+  "exits": [
+    {
+      "to": 10859,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10866,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10951,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 10956,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 16009,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

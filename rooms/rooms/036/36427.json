@@ -1,0 +1,41 @@
+{
+  "id": 36427,
+  "uid": [
+    58038
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "Thin tendrils of silky spiderwebs constantly tease at your skin as you travel this corridor, billowing up and settling back down with every tiny movement you make.  The spiders themselves industriously labor on with the business of making more webs, blissfully ignoring your presence save to move out of your way as you pass.  A portal on the wall, although unusual in design, appears as if it can be opened without too much trouble."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2120,
+      360,
+      2160,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36425,
+      "kind": "other",
+      "cmd": "open portal\ngo portal\n",
+      "cost": 0.2
+    },
+    {
+      "to": 36428,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

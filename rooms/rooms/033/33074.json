@@ -1,0 +1,50 @@
+{
+  "id": 33074,
+  "uid": [
+    7134054
+  ],
+  "title": [
+    "[The Great Piratical Flotilla]"
+  ],
+  "description": [
+    "The main deck of the flotilla is expansive, its sturdy flooring intentionally scuffed to reduce falling accidents, and the outer edges are built up in a protective composite of ships, sails, metalwork, and weaponry.  A giant opening at the center of the flotilla drops into the ocean below, a rickety railing with a series of painted buoys serving as a very slight deterrent to taking a plunge."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "town"
+  ],
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      323,
+      368,
+      333,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 33051,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 33075,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33076,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

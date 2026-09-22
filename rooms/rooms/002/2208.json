@@ -1,0 +1,57 @@
+{
+  "id": 2208,
+  "uid": [
+    3061015
+  ],
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "This small alcove provides a little protection from the hot air and steam that constantly plague the area below.  Beads of sweat roll down your face and hands as you try and decide if you want to again venture downward back into the chaos."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      768,
+      773,
+      778,
+      783
+    ]
+  },
+  "exits": [
+    {
+      "to": 2205,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 2209,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "keep_moving": "climb fissure"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 29552,
+  "uid": [
+    7121208
+  ],
+  "title": [
+    "[Inking Den, Annex Hallway]"
+  ],
+  "description": [
+    "Frosted globes nestled within decorative wall sconces provide a steady glow of welcoming light down the long corridor.  The walls are hidden behind bright ivory white silk drapery, the soft ends of which pool upon the thick cerulean and azure carpet.  Built into opposing walls, a lacquered beige door and a lacquered white door part the drapery and have a trio of brightly glowing globes directly above their pointed, cinquefoil frames."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "peer door =~ /Willow Hall|Rone Academy/"
+  ],
+  "image": {
+    "file": "kf-inking_den-1615857364.png",
+    "rect": [
+      824,
+      224,
+      856,
+      249
+    ]
+  },
+  "exits": [
+    {
+      "to": 27683,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29745,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33132,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 33215,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    }
+  ]
+}

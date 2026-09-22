@@ -1,0 +1,36 @@
+{
+  "id": 26612,
+  "title": [
+    "[Caligos Isle, Chamber of Echos]"
+  ],
+  "description": [
+    "The cavern opens up into a larger area, the humidity ever present despite its size.  A striated drapery formation dominates the fissure-covered floor, the dark-colored rock reaching with finger-like protrusions to the ground below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      561,
+      187,
+      574,
+      199
+    ]
+  },
+  "exits": [
+    {
+      "to": 26597,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 26613,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

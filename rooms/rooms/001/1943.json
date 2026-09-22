@@ -1,0 +1,62 @@
+{
+  "id": 1943,
+  "uid": [
+    3001030
+  ],
+  "title": [
+    "[Imflass and Dragonseye]"
+  ],
+  "description": [
+    "It is peaceful here by the River Muagh.  Small birds hop and skitter on the mud banks, their chirps blending with the bazaar's distant hum from the opposite shore.  On the south side of the street is the burned-out shell of a small wood and stone building.  It looks out of place, surrounded by verdant grass, flowers and trees on all sides.  Few dwarves wander by here, and those that do seem strangely hushed."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      948,
+      430,
+      978,
+      460
+    ]
+  },
+  "exits": [
+    {
+      "to": 1933,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1944,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12396,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12532,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 31250,
+      "kind": "go",
+      "cmd": "go stone building",
+      "cost": 0.2
+    }
+  ]
+}

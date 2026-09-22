@@ -1,0 +1,68 @@
+{
+  "id": 8327,
+  "uid": [
+    13001
+  ],
+  "title": [
+    "[Spider Temple, Central Chamber]"
+  ],
+  "description": [
+    "The flickering, shifting light of candles fills this imposing central chamber with moving shadows.  Overhead a web-patterned tracery of red glaes supports the high domed ceiling, which rises tens of feet over the altar that lies at the center of the chamber.  Candle sconces flank each of the doors that lead to the \"legs\" of this shrine to the spider goddess.  Your eyes are drawn to the grotesque arrangement of inlaid floor tiles which depict scenes of death by poison."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      707,
+      798,
+      717,
+      808
+    ]
+  },
+  "exits": [
+    {
+      "to": 8326,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8328,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 8330,
+      "kind": "go",
+      "cmd": "go bejeweled door",
+      "cost": 0.2
+    },
+    {
+      "to": 8332,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8349,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8361,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    }
+  ]
+}

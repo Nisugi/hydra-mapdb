@@ -1,0 +1,38 @@
+{
+  "id": 28293,
+  "uid": [
+    857009
+  ],
+  "title": [
+    "[Ta'Vaalor Hall, West Hallway]"
+  ],
+  "description": [
+    "A large mural has been painted on one wall, and deep red carpet continues down the corridor to the far corner at the end.  A serving table has been set up against the other wall, within easy reach of all who pass by.  To the west is a polished maoral door with a brass doorknob."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28287,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28292,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28294,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 36400,
+  "uid": [
+    58006
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "You are at the south end of a long, dark corridor.  The passage turns west here."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1560,
+      760,
+      1600,
+      800
+    ]
+  },
+  "exits": [
+    {
+      "to": 36399,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36404,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

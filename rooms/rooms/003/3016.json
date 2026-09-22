@@ -1,0 +1,51 @@
+{
+  "id": 3016,
+  "uid": [
+    4129101
+  ],
+  "title": [
+    "[Snow Fort, Tunnel]"
+  ],
+  "description": [
+    "This round tunnel through the ice twists and turns towards an upward slope.  The shimmering ice crystals are nearly blinding in their beauty, their light dancing across the remains of a fallen statue lying near one wall.  The statue may have been beautiful in its day, but now lies scattered in pieces on the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, up"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "snow spectre"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      434,
+      847,
+      444,
+      857
+    ]
+  },
+  "exits": [
+    {
+      "to": 3015,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3017,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 3024,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

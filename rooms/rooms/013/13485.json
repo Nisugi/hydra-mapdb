@@ -1,0 +1,81 @@
+{
+  "id": 13485,
+  "uid": [
+    284001
+  ],
+  "title": [
+    "[Bard Guild, Covered Walkway]"
+  ],
+  "description": [
+    "Cedar arches stand in a row, spanning a tiled walkway that ends before an imposing teak door.  Vines covered with fragrant blooms cling to trellises on the sides of the arches and send foliage-covered tendrils climbing over the curved tops.  On each side of the walk, large terracotta urns are planted with bougainvillea and jasmine, which spill over the edges of the containers in cascades of blossoms."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "no forageables",
+    "urchin guide bardguild",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 13174,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 25676,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

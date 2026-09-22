@@ -1,0 +1,40 @@
+{
+  "id": 8820,
+  "uid": [
+    5059
+  ],
+  "title": [
+    "[Beldrin's Game Hall, Office]"
+  ],
+  "description": [
+    "This is Beldrin's office.  Though alone, the uneasy feeling that your movements do not go undetected persists.  A portrait of Beldrin hangs over a desk, depicting him flatteringly in the style of the Elanith masters.  A decanter of traesharm berry liqueur and two accounting ledgers, both labeled with identical dates, are atop the desk."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8817,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16393,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": {
+        "when": {
+          "profession": "Rogue"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

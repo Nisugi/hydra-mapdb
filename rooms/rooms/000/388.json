@@ -1,0 +1,47 @@
+{
+  "id": 388,
+  "uid": [
+    54001
+  ],
+  "title": [
+    "[Moot Hall, Storage Facility]"
+  ],
+  "description": [
+    "You are in the anteroom of the public storage locker facility.  This area is busy with clerks going over paperwork.  A hallway leads east to the locker booths."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-moot_hall-1486755929.png",
+    "rect": [
+      698,
+      1121,
+      841,
+      1182
+    ]
+  },
+  "exits": [
+    {
+      "to": 387,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 389,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

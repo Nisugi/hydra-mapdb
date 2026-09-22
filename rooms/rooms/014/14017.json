@@ -1,0 +1,44 @@
+{
+  "id": 14017,
+  "uid": [
+    4384034
+  ],
+  "title": [
+    "[Silverwood Manor, Atrium]"
+  ],
+  "description": [
+    "Pearly moonlight streams in through the glass walls and ceiling, picking pale blossoms out of the shadows formed by the lush vegetation.  The rich fragrance of tropical blooms rises in the night air, along with thin wisps of mist from the wide oval pool.  Occasionally, the chirping or clicking of a nocturnal insect adds music to the quiet setting.  Barely visible in the corner is a spiraling silver staircase, and a pair of glass double doors lead outside to the grounds.",
+    "Thriving in the direct sunlight, lush vegetation and a myriad of exotic blooms bedeck the solarium in tropical elegance.  In the center of the room is a wide oval pool.  A panoramic view of the manor grounds lies beyond the glass walls of the space, and a spiraling silver staircase is partially hidden behind a cluster of palm fronds in the corner.  Framed by an arch of ivy bearing crimson trumpet blossoms, a pair of glass double doors leads outside."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "cultivated",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 13534,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14018,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 14021,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

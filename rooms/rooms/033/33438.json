@@ -1,0 +1,43 @@
+{
+  "id": 33438,
+  "uid": [
+    102800
+  ],
+  "title": [
+    "[House Aspis, Lower Storeroom]"
+  ],
+  "description": [
+    "Well-stocked racks and shelves fill this room.  It is cool and dry, the perfect environment for supplies destined to last a long time.  Inventory lists dating back several decades hang from the walls, and a narrow stair leads down in one corner."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      732,
+      1244,
+      867,
+      1315
+    ]
+  },
+  "exits": [
+    {
+      "to": 33435,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33442,
+      "kind": "go",
+      "cmd": "go narrow stair",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 3809,
+  "uid": [
+    4101
+  ],
+  "title": [
+    "[Helga's Tavern, Barroom]"
+  ],
+  "description": [
+    "The blended odors of ale, sweat, leather, perfume and hearty stew fill the stifling air of the tavern.  Disheveled regulars and road-weary travelers rub elbows at the wooden bar, which looks recently varnished but already bears a variety of stains and grime.  Helga, the ancient, obese proprietor, moves behind the bar, wiping glasses with a dirty towel as she keeps a beady eye on the patrons.  A small fireplace in one corner burns feebly, adding little light or warmth to the room."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "advguard2",
+    "no forageables",
+    "urchin guide helgas",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 271,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8858,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8859,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8861,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

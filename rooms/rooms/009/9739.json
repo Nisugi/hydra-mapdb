@@ -1,0 +1,45 @@
+{
+  "id": 9739,
+  "uid": [
+    13021006
+  ],
+  "title": [
+    "[Maaghara Tower, Landing]"
+  ],
+  "description": [
+    "This small, open landing is supported at the center of a complex nexus of structural growths attached to the walls.  Looking over the edge you can see down through the hollow tree to the levels below, but the fog and mist obscure most details.  Above, a steep staircase climbs to another landing overhead with twin spiral stairs stretching farther up the inside of the tree wall."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      714,
+      589,
+      724,
+      599
+    ]
+  },
+  "exits": [
+    {
+      "to": 9738,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 9740,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

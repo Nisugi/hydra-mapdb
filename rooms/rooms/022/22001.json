@@ -1,0 +1,27 @@
+{
+  "id": 22001,
+  "title": [
+    "[The Murkwoods, Old Path]"
+  ],
+  "description": [
+    "Not far beyond the edge of the dense path, a clearing opens to reveal what appears to be a small cabin.  A decrepit fence surrounds the structure which, at first glance, seems abandoned."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Talador",
+  "exits": [
+    {
+      "to": 22002,
+      "kind": "go",
+      "cmd": "go clearing",
+      "cost": 0.2
+    },
+    {
+      "to": 22003,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

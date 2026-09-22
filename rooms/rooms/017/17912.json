@@ -1,0 +1,46 @@
+{
+  "id": 17912,
+  "uid": [
+    268016
+  ],
+  "title": [
+    "[Rogue Guild, Lower Hall]"
+  ],
+  "description": [
+    "Several tiny crystal charms dangle from the speckled cap of a nearby luminescent toadstool, glimmering in the soft white light.  A trio of onyx orbs have been suspended above the small landing to a wide black marble stairway.  The distant sounds of training can be heard originating from the grand, descending passage."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      893,
+      539,
+      933,
+      577
+    ]
+  },
+  "exits": [
+    {
+      "to": 17893,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17908,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17913,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    }
+  ]
+}

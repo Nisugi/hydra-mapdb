@@ -1,0 +1,39 @@
+{
+  "id": 13799,
+  "title": [
+    "[Lyson's Outfitting]",
+    "[Lyson's Combat Gear]",
+    "[Lyson's Weaponry]",
+    "[Lyson's General Store]"
+  ],
+  "description": [
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A white marble shelf sits in one corner while a worn rug rests on the wooden floor.",
+    "Plain wooden walls rise from an unfinished wooden floor.  Just above a worn rug hangs a tattered merchant permit, and an uneven wooden ceiling completes the picture.  A white marble shelf stands in the middle of the room."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "meta": [
+    "playershop"
+  ],
+  "exits": [
+    {
+      "to": 9021,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13841,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13842,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

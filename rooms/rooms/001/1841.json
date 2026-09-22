@@ -1,0 +1,70 @@
+{
+  "id": 1841,
+  "uid": [
+    3001003
+  ],
+  "title": [
+    "[Ghorsa Isle, Plaza Northwest]"
+  ],
+  "description": [
+    "You elbow your way through a throng of people headed to and from the western bridge.  Most are dwarves, but you also see giantmen, humans and even the odd elf or halfling.  Before you stands the Golden Helm Inn, a prosperous-looking establishment with a uniformed dwarf at the door.",
+    "The area is fairly quiet.  Only the occasional dwarf passes by, with the occasional giantman, elf, or halfling moving through as well.  The Inn, a prosperous-looking establishment, stands proudly with  at the door.",
+    "The area is fairly quiet.  Only the occasional dwarf passes by, with the occasional giantman, elf, or halfling moving through as well.  The Inn, a prosperous-looking establishment, stands proudly with a uniformed dwarf at the door."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, down"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      680,
+      659,
+      716,
+      695
+    ]
+  },
+  "exits": [
+    {
+      "to": 1840,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1842,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 1843,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1845,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1846,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 1847,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

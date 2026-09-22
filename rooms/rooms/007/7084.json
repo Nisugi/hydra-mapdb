@@ -1,0 +1,50 @@
+{
+  "id": 7084,
+  "uid": [
+    44020
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A section of ceiling is crumbled all over the floor, and the northern wall is definitely leaning toward you.  There's a rather largish crack in the southern wall, with rats scurrying in and out.  The floor, what isn't covered by pieces of ceiling, looks decidedly uneven."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      867,
+      896,
+      877,
+      906
+    ]
+  },
+  "exits": [
+    {
+      "to": 7082,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7085,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    },
+    {
+      "to": 7086,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 23698,
+  "uid": [
+    255005
+  ],
+  "title": [
+    "[Tanglevine Hall, Cold Storage]"
+  ],
+  "description": [
+    "Layers of sawdust cover the floor and blocks of ice are stacked about the room, helping to keep them frozen in the chill underground.  Several frozen chunks of ice lay on the ground, having dropped away from the rest.  Sloping up to the arch, the north end of the room moves back towards ground level."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild iceblocks"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      647,
+      447,
+      671,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 23699,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23700,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

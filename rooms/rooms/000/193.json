@@ -1,0 +1,89 @@
+{
+  "id": 193,
+  "uid": [
+    13100079
+  ],
+  "title": [
+    "[Ta'Illistim, Fraendel Court]"
+  ],
+  "description": [
+    "The entire southeast corner of the Court is occupied by a large stone structure featuring an intricately worked iron door that contains a remarkably large bolt.  The door is flanked on either side by capable looking guardsmen who scan the crowd with a steady gaze.",
+    "The entire southeast corner of the Court is occupied by a large stone structure featuring an intricately worked iron door that contains a remarkably large bolt.  The door is flanked on either side by capable looking guardsmen who scan the court with a steady gaze."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      791,
+      736,
+      814,
+      758
+    ]
+  },
+  "exits": [
+    {
+      "to": 192,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 194,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13255,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

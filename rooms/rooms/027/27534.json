@@ -1,0 +1,27 @@
+{
+  "id": 27534,
+  "title": [
+    "[A Dark and Damp Grotto]"
+  ],
+  "description": [
+    "At the base of the slope, a moat-like trench encircles this claustrophobic chamber to collect the rivulets of watery sand that flow ever-downward from the head of the incline.  The stone floor at the center rises above the dregs, and it has been carved with a sigil composed of sinuous, coiling lines and a variety of indistinct symbols.  Concave niches chiseled out of the walls hold glowing violet orbs that shed modest light, but no heat throughout the space, and a narrow ward-carved crevice mars the rear wall."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 27533,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 27589,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

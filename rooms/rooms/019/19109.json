@@ -1,0 +1,54 @@
+{
+  "id": 19109,
+  "title": [
+    "[Spitfire, Cargo Hold]"
+  ],
+  "description": [
+    "Water barrels, wine barrels, bales of cotton -- all sorts of cargo make up the walls of the aisle.  From supporting timbers spaced at regular intervals, lanterns sway gently in response to the calm waters of the harbor."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      1361,
+      232,
+      1397,
+      269
+    ]
+  },
+  "exits": [
+    {
+      "to": 19107,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19110,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 19112,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19114,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23459,
+      "kind": "go",
+      "cmd": "go clearing",
+      "cost": 0.2
+    }
+  ]
+}

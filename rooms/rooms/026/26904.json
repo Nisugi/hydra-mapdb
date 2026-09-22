@@ -1,0 +1,65 @@
+{
+  "id": 26904,
+  "uid": [
+    8214502
+  ],
+  "title": [
+    "[Bloodriven Village, Exterior]"
+  ],
+  "description": [
+    "Mingled scents of tanik and cedar fill the air as dense fir trees crowd the remains of the cobblestone and dirt road, which ends abruptly at the dark waters of a wide river.  A wooden dock stretches into the river where a sailing vessel bobs in the rushing waters, while nearby a few benches sit near the stone wall amidst the remnants of an abandoned card game.",
+    "Mingled scents of tanik and cedar fill the air as dense fir trees crowd the remains of the cobblestone and dirt road, which ends abruptly at the dark waters of a wide river.  A dilapidated wooden dock appears to have rotted away almost entirely, while nearby a few benches sit near the stone wall amidst the remnants of an abandoned card game.",
+    "Mingled scents of woodsmoke and ozone fill the air as bare tree skeletons crowd the remains of the cobblestone and dirt road, which ends abruptly at the dark frozen waters of a wide river.  A wooden dock stretches into the river where a sailing vessel sits trapped in the unmoving waters, while nearby a few benches sit near the stone wall amidst the remnants of a lopsided snowman."
+  ],
+  "paths": [
+    "Obvious paths: northeast, down"
+  ],
+  "location": "Bloodriven Village",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "locus",
+    "traveler"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      631,
+      1042,
+      661,
+      1072
+    ]
+  },
+  "exits": [
+    {
+      "to": 23719,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 26903,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26905,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29859,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 33319,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    }
+  ]
+}

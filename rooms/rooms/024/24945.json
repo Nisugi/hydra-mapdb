@@ -1,0 +1,53 @@
+{
+  "id": 24945,
+  "uid": [
+    -7105018
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "From a towering gate in the north, rows of houses crowd both sides of a dirt road leading up to the village square.  The cobblestones at this end of the square are a faded yellow, though tiny flecks of gold suggest that it once was a dazzling, golden thoroughfare.  A small garden, filled with a few scraggly bushes and a timeworn stone slab, marks the entrance to the village plaza."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      702,
+      803,
+      717,
+      818
+    ]
+  },
+  "exits": [
+    {
+      "to": 24912,
+      "kind": "go",
+      "cmd": "go plaza",
+      "cost": 0.2
+    },
+    {
+      "to": 24946,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24952,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24953,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

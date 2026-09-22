@@ -1,0 +1,69 @@
+{
+  "id": 12350,
+  "uid": [
+    14103001
+  ],
+  "title": [
+    "[The Ta'Vaalor Armory]"
+  ],
+  "description": [
+    "Standing in the center of the highly polished checkered-marble floors, is a life-sized crystal replica of an antique forge.  This masterfully created structure serves as the counter in this distinguished armory.  An impressive display of well-maintained ancient suits of armor, encased in rectangular shaped frosted-glass cabinets, stands in the far corner.  Various scenes from days of yore are depicted on a black-velvet tapestry with raised silver stitching, which covers the back wall of the shop."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "armorshop",
+    "no forageables",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3516,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

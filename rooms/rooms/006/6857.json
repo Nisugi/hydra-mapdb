@@ -1,0 +1,50 @@
+{
+  "id": 6857,
+  "uid": [
+    21119
+  ],
+  "title": [
+    "[Abandoned Inn, Suite]"
+  ],
+  "description": [
+    "An overstuffed couch done in a bright, leafy pattern sits against the wall, looking outside through the thick windows.  Upon a table by the windowsill stands a small vase, filled with fresh wildflowers likely picked this morning.  Simple open arches lead off to the north and south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      725,
+      1204,
+      735,
+      1214
+    ]
+  },
+  "exits": [
+    {
+      "to": 6856,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6858,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6859,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

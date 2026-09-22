@@ -1,0 +1,63 @@
+{
+  "id": 3913,
+  "uid": [
+    4292060
+  ],
+  "title": [
+    "[Stronghold, Stone Grove]"
+  ],
+  "description": [
+    "The crevice threads its way through a series of rock columns.  Each is carved in the image of a tree trunk, with finely rendered bark, branches and an impossibly complex pattern of leaves overhead.  To the south, the boles grow dense and close, their carved boles almost menacing in their frozen stance."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "Stone Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      747,
+      568,
+      757,
+      578
+    ]
+  },
+  "exits": [
+    {
+      "to": 3912,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3914,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crevice"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3915,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3916,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

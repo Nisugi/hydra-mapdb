@@ -1,0 +1,61 @@
+{
+  "id": 3239,
+  "uid": [
+    4127001
+  ],
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "A small path leads towards the foothill and forks sharply here with another path heading north and a well-worn, wider path headed east.  A massive rolaren gate blocks the path to the east with solid, snow-covered stone walls on both sides of the gate."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "frostflower",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sweetfern stalk",
+    "valerian root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      149,
+      586,
+      159,
+      596
+    ]
+  },
+  "exits": [
+    {
+      "to": 3238,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 3240,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3264,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "rolaren_gate"
+      },
+      "cost": 1.0
+    }
+  ]
+}

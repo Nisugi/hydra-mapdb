@@ -1,0 +1,58 @@
+{
+  "id": 34716,
+  "uid": [
+    4572048
+  ],
+  "title": [
+    "[Sablecross, Vesper Crescent]"
+  ],
+  "description": [
+    "Shaded by a stand of bloodwood trees that crowd the hillocks to either side of the road, an elaborate temple of jade-hued sandstone shares a wall with a ziggurat of red basalt.  Metal disks inlaid into the wall form a pattern of scales, the ornamentation starting in bronze and transitioning gradually to ruddy copper near the squared arch leading into the ziggurat's yard.  The temple has a sinuous gate crowned by a striking serpent's head, and glittering emeralds wink from deep within its shadowed maw."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      219,
+      509,
+      255,
+      546
+    ]
+  },
+  "exits": [
+    {
+      "to": 34611,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34612,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34717,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 34720,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 34734,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

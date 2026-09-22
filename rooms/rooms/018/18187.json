@@ -1,0 +1,64 @@
+{
+  "id": 18187,
+  "uid": [
+    52019
+  ],
+  "title": [
+    "[Melgorehn's Reach, Water Tunnel Racecourse]"
+  ],
+  "description": [
+    ""
+  ],
+  "paths": [
+    ""
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 451,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lay"
+        },
+        {
+          "await": "one on the left and one on the right"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "branches off to the left just ahead"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "Another tunnel branches off to the left just ahead"
+        },
+        {
+          "await": "Suddenly the tunnel turns into a nearly vertical drop"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "Obvious paths: southwest"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 21835,
+  "title": [
+    "[Doggoroth Keep]"
+  ],
+  "description": [
+    "Plumes of heavy black smoke billow out of the three chimneys of the keep's forge.  Rising up next to the smithery is an enormous tower."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      816,
+      171,
+      831,
+      186
+    ]
+  },
+  "exits": [
+    {
+      "to": 21833,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21836,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 21837,
+      "kind": "go",
+      "cmd": "go forge",
+      "cost": 0.2
+    }
+  ]
+}

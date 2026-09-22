@@ -1,0 +1,50 @@
+{
+  "id": 7240,
+  "uid": [
+    18104
+  ],
+  "title": [
+    "[Under Barrow, Throne Room]"
+  ],
+  "description": [
+    "This high chamber is a madman's travesty of a throne room in purgatory.  On a dais sits an eldritch throne inlaid with the ivory of human bones.  The walls are carved with gut-wrenching scenes of sub-human figures dancing and gibbering with hellish glee under constellations you have never seen.  Behind the throne is a tapestry whose subject turns your stomach."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      647,
+      588,
+      657,
+      598
+    ]
+  },
+  "exits": [
+    {
+      "to": 7239,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7241,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7242,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

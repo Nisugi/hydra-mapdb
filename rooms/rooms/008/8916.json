@@ -1,0 +1,83 @@
+{
+  "id": 8916,
+  "uid": [
+    112036
+  ],
+  "title": [
+    "[Loci Workshop, Antechamber]"
+  ],
+  "description": [
+    "A granite worktable, clearly a relic of the workshop's past, stands immovably at the center of the room.  Positioned behind the massive slab of granite and blocking the passageway that leads further into the shop is a bulky, heavily robed figure.  Freshly strewn rushes spotted with dried lavender and rosemary cover the floor, their scent failing to combat the lingering, acrid odor of smoke.  The aroma is not aided by the pungent smell of fish oil burning in the lamps suspended from the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "no forageables",
+    "urchin guide chronomages",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      137,
+      520,
+      173,
+      556
+    ]
+  },
+  "exits": [
+    {
+      "to": 3350,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 15619,
+      "kind": "go",
+      "cmd": "go corridor",
+      "cost": 5.0
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

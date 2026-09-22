@@ -1,0 +1,47 @@
+{
+  "id": 12749,
+  "uid": [
+    3031088
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Daylight streams in through a window along the northern wall, revealing dark scorch marks along the stone walls.  The floor is completely submerged below nearly a foot of water, and several large pieces of rotted wood float about haphazardly."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      405,
+      236,
+      441,
+      272
+    ]
+  },
+  "exits": [
+    {
+      "to": 12708,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 12750,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

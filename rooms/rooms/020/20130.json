@@ -1,0 +1,39 @@
+{
+  "id": 20130,
+  "title": [
+    "[Black Banyan, Trunk]"
+  ],
+  "description": [
+    "The airy, open chamber is multi-leveled, arising organically out of a wind-carved pocket within the monumental trunk of the tree.  A similar pocket leads out from the room, and several of the heavy boughs are wide enough to act as paths in their own rights.  A single burning lantern hangs from the ceiling, illuminating a staircase leading further up into the canopy and a spiraling ramp leading downwards towards the base of the tree."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20129,
+      "kind": "climb",
+      "cmd": "climb ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 20131,
+      "kind": "go",
+      "cmd": "go limb",
+      "cost": 0.2
+    },
+    {
+      "to": 20361,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20362,
+      "kind": "go",
+      "cmd": "go pocket",
+      "cost": 0.2
+    }
+  ]
+}

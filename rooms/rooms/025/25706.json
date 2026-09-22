@@ -1,0 +1,72 @@
+{
+  "id": 25706,
+  "uid": [
+    3223880
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Stretching into the gently lapping waves, a long wooden dock allows access to the nearby highland.  Barnacles, their white faces tinged with grey, cling to the supporting poles of the dock, while long strands of seaweed are knotted into the buoys that surround it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1920,
+      1918,
+      1941,
+      1938
+    ]
+  },
+  "exits": [
+    {
+      "to": 25705,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25707,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25708,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25721,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

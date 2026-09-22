@@ -1,0 +1,61 @@
+{
+  "id": 17654,
+  "uid": [
+    5009008
+  ],
+  "title": [
+    "[Smuggler's Tunnels, Tunnel]"
+  ],
+  "description": [
+    "The light of a single torch illuminates the small chamber, in contrast to a larger room visible through a tunnel entrance to the north, with a visible shaft of light extending down from its ceiling.  Two passageways break off from the chamber, one continuing south and a larger one to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "River's Rest",
+  "climate": "moist",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      677,
+      1082,
+      717,
+      1123
+    ]
+  },
+  "exits": [
+    {
+      "to": 17653,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 17677,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17681,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

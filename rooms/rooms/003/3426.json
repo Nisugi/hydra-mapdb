@@ -1,0 +1,56 @@
+{
+  "id": 3426,
+  "uid": [
+    4043211
+  ],
+  "title": [
+    "[The Thirsty Penguin, Bar]"
+  ],
+  "description": [
+    "Practical, as are most halfling institutions, the entry leads straight into the bar of the Thirsty Penguin Tavern.  A glittering bead curtain hangs off to one side, swinging lazily each time someone passes through it.  The entire wall behind the bar is studded with small, polished bronze mirrors."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      406,
+      877,
+      442,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 2407,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3427,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3428,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15620,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

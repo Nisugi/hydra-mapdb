@@ -1,0 +1,45 @@
+{
+  "id": 4520,
+  "title": [
+    "[Works of War, Entry]"
+  ],
+  "description": [
+    "Several large mithril hooks hang from the reinforced oak beams, which support the ceiling of this large mineshaft, while piles of old rushes are strewn randomly across the bare stone floor.  Some dark wooden benches run along the smoke-stained walls under the brightly burning torches, which light the area.  The tunnel branches off and continues on to the southeast and southwest, while recessed in an alcove on the far wall a heavy oak door reinforced with steel bands leads off to the south."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, out"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4519,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4521,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 4522,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4524,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 29866,
+  "uid": [
+    7503207
+  ],
+  "title": [
+    "[Cold River, Dock]"
+  ],
+  "description": [
+    "A grim black dock pokes out into the Issenflow, its warped planks glinting with ice in the aurora's light.  Two shipping boats and a dilapidated barge are tied to the dock poles.  The sound of the water slapping their hulls provides sullen percussion, accompanied only by the taunting babble of the river's sluggish flow."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "riparian",
+  "tags": [
+    "advguild",
+    "arctic moss",
+    "bright red teaberry",
+    "frostweed",
+    "ironfern root",
+    "murdroot",
+    "talneo root",
+    "urchin guide bounty",
+    "urchin-access",
+    "wavepetal blossom",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      419,
+      1025,
+      433,
+      1039
+    ]
+  },
+  "exits": [
+    {
+      "to": 29871,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30115,
+      "kind": "go",
+      "cmd": "go river",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

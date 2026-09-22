@@ -1,0 +1,52 @@
+{
+  "id": 26046,
+  "uid": [
+    3223871
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Bright tropical blossoms paint a picturesque scene as they spread across the coastal cliffs of the island that rises to the northeast.  Strong and persistent, foam-topped waves rush against the tall slate face and explode in a fine mist that rains down upon everything within its reach."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2239,
+      1759,
+      2261,
+      1779
+    ]
+  },
+  "exits": [
+    {
+      "to": 25743,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25786,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 1195,
+  "uid": [
+    1016
+  ],
+  "title": [
+    "[Raging Thrak Inn, Barroom]"
+  ],
+  "description": [
+    "A long and polished wooden bar occupies the whole north wall of the tavern here in The Raging Thrak, which is named for the fiery proprietor.  Hard wooden chairs, tables and benches are spaced liberally throughout the room.  The tavern does good business, and seems to be at least half full, no matter what time of day."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide thrak",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      208,
+      365,
+      218,
+      375
+    ]
+  },
+  "exits": [
+    {
+      "to": 227,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1194,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1259,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8670,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 8671,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 18935,
+  "uid": [
+    664008
+  ],
+  "title": [
+    "[Sorcerer Guild, Magic Workshop]"
+  ],
+  "description": [
+    "Something has badly battered this burled oak panelled room.  Many of the wall and ceiling boards are smashed and twisted, showing signs of massive impact and allowing moonlight to stream into the room.  In other spots short boards have been nailed over holes or used to secure the broken panelling.  The limestone floor is pitted and scarred, and here and there pieces of metal are imbedded in the stone.  In stark contrast to its damaged surroundings, a shiny iron chest squats near the center of the room."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild workshop",
+    "workshop"
+  ],
+  "image": {
+    "file": "vo-sorcerer_guild-1405076623.png",
+    "rect": [
+      179,
+      321,
+      220,
+      361
+    ]
+  },
+  "exits": [
+    {
+      "to": 18932,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18936,
+      "kind": "go",
+      "cmd": "go chest",
+      "cost": 0.2
+    },
+    {
+      "to": 18950,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

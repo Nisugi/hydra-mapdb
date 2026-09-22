@@ -1,0 +1,142 @@
+{
+  "id": 31428,
+  "uid": [
+    730127
+  ],
+  "title": [
+    "[Shivergale, Antechamber]"
+  ],
+  "description": [
+    "Cool light lazes down through clouded panels of bluish crystal set into the high ceiling of the antechamber.  The source of the radiance is obscured, but it dances and ripples like sunlight warped by the surface of a windblown pond.  Near to the door sits an umbrella stand stand worked of modwir and heavy bronze and a wall-anchored ice crystal chime.  Underfoot, a carpet runner depicts puckish frostlings engaged in a riot of mischievous activities from trickery to theft."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 31427,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pine door",
+          "when": {
+            "any": [
+              {
+                "wearing_noun": "key"
+              },
+              {
+                "wearing_noun": "keyring"
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "put": "get my key from my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "go pine door",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "put": "put my key in my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            },
+            {
+              "setting_is_set": "key_sack"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 31429,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

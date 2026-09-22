@@ -1,0 +1,58 @@
+{
+  "id": 28853,
+  "uid": [
+    4132239
+  ],
+  "title": [
+    "[Temple of Rot, Narthex]"
+  ],
+  "description": [
+    "Suspended from the illuminated ceiling, a chandelier takes the form of interlocking bodies, its bronze construction salaciously emulating supple, preternaturally beautiful forms.  All of its candles burn a blanched yellow-green, casting their dancing light upon a sculpted stone arch that leads further into the temple.  The narthex continues to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Abbey",
+  "climate": "hot, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "trafel mushroom",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "imt-Den of Rot Map-51200901.png",
+    "rect": [
+      582,
+      422,
+      623,
+      462
+    ]
+  },
+  "exits": [
+    {
+      "to": 28852,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28854,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28855,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

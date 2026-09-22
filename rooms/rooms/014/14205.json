@@ -1,0 +1,41 @@
+{
+  "id": 14205,
+  "uid": [
+    4742050
+  ],
+  "title": [
+    "[Clergy Hall, Common Room]"
+  ],
+  "description": [
+    "Priestesses and monks exchange greetings and mingle in the residence hall's common room.  A pair of long tables with attached benches run most of the width of the room, serving as dining or work tables as the needs of the clergy dictate."
+  ],
+  "paths": [
+    "Obvious exits: southeast, out"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14204,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 14206,
+      "kind": "go",
+      "cmd": "go storeroom door",
+      "cost": 0.2
+    },
+    {
+      "to": 14207,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

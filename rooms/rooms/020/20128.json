@@ -1,0 +1,61 @@
+{
+  "id": 20128,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "A large copper still is perched upon a stand of iron grating near a cleared and rock-lined fire circle.  Wooden buckets filled with rainwater have capped off spigots near their bases and rest on three flat, low-cut stumps nearby.  Coils of hammered copper tubing encircle the still's base and a stack of firewood awaits the next brewing.  Beyond the apparatus is a seedy-looking tavern, and to the east is an enormous ancient banyan.",
+    "A large copper still is perched upon a stand of iron grating near a cleared and rock-lined fire circle.  Wooden buckets filled with rainwater have capped off spigots near their bases and rest on three flat, low-cut stumps nearby.  Coils of hammered copper tubing encircle the still's base and a stack of firewood awaits the next brewing.  Beyond the apparatus is a seedy-looking tavern, and to the east is a diseased banyan."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      421,
+      523,
+      435,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 20109,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20136,
+      "kind": "go",
+      "cmd": "go seedy-looking tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 20141,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20145,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21386,
+      "kind": "go",
+      "cmd": "go banyan",
+      "cost": 0.2
+    },
+    {
+      "to": 21443,
+      "kind": "go",
+      "cmd": "go dark-paneled wagon",
+      "cost": 0.2
+    }
+  ]
+}

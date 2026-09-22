@@ -1,0 +1,77 @@
+{
+  "id": 26841,
+  "uid": [
+    8214601
+  ],
+  "title": [
+    "[The Viridian Coil, Tavern]"
+  ],
+  "description": [
+    "The air hangs thick with the smell of booze and sweat and mingles with the dull roar of rowdy patrons.  A long black oak bar stretches one wall that is covered in colorful glass bottles below a large emerald-studded serpent and the railing of a loft.  Several stained tables and chairs are clustered about the room before a low stage, while others appear to have been pulled into the darker corners for dicing or privacy.  Behind the bar, a small pair of swinging doors leads to the kitchen."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "supernode"
+  ],
+  "exits": [
+    {
+      "to": 26840,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26842,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 26843,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 7116,
+  "uid": [
+    44011
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You have the feeling that you're being watched.  The corridors to the west and south look empty, and you don't hear anything, but there's a feeling between your shoulder blades as though someone were about to stick a knife there."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      868,
+      1090,
+      878,
+      1100
+    ]
+  },
+  "exits": [
+    {
+      "to": 7078,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7117,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7152,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

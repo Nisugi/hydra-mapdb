@@ -1,0 +1,43 @@
+{
+  "id": 22443,
+  "title": [
+    "[Deadfall Forest, Blood Hill]"
+  ],
+  "description": [
+    "Black, misshapen trees sprout out of the hillside in pockets, glistening apples hanging from their skeletal branches.  The very ground is covered in pools of blood, still fresh and seemingly shifting ever so slightly.  From the vantage point of the hill, the wide base of the Zeltoph Mountain can be seen."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-deadfall-1405626247.png",
+    "rect": [
+      325,
+      252,
+      340,
+      267
+    ]
+  },
+  "exits": [
+    {
+      "to": 1293,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go blood-soaked trail"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22442,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

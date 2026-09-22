@@ -1,0 +1,36 @@
+{
+  "id": 28366,
+  "title": [
+    "[Moonstone Abbey, Cellar]"
+  ],
+  "description": [
+    "None of the elegant splendor present in the rest of the abbey exists in this dank cellar.  Greenish-grey lichen flourishes on the damp fieldstone walls, barely visible in the light provided by a single sputtering oil lamp set in the south wall between a mithril barred door and a cracked modwir door.  A set of granite stairs curves upwards along the western wall, warm candlelight filtering down from above."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 28355,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 28367,
+      "kind": "go",
+      "cmd": "go cracked door",
+      "cost": 0.2
+    },
+    {
+      "to": 28368,
+      "kind": "go",
+      "cmd": "go mithril door",
+      "cost": 0.2
+    }
+  ]
+}

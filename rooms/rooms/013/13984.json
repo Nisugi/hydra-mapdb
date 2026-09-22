@@ -1,0 +1,45 @@
+{
+  "id": 13984,
+  "uid": [
+    4750002
+  ],
+  "title": [
+    "[Castle, Outer Drawbridge]"
+  ],
+  "description": [
+    "You are on an iron banded, fel wood drawbridge.  Looking east and west you see the defensive ditch that surrounds the castle.  In the ditch you see remnants of broken siege engines, rusted shields, and the occasional bit of sun-bleached bone.  To the north you see the barbican."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      656,
+      539,
+      664,
+      547
+    ]
+  },
+  "exits": [
+    {
+      "to": 13983,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 13985,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

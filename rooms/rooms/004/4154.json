@@ -1,0 +1,62 @@
+{
+  "id": 4154,
+  "uid": [
+    2138018
+  ],
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "As the light of the room flickers something is different, the wall carvings have become very shallow.  They are so shallow that bodies have been turned on their side to save work in carving the holes.  In fact, most are held to the wall pockets by simple restraining straps, some of which have rotted, allowing the bodies to tumble from their resting place."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      940,
+      733,
+      950,
+      743
+    ]
+  },
+  "exits": [
+    {
+      "to": 4153,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4159,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4168,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go stairway"
+        },
+        {
+          "put": "turn torch",
+          "when": "still_here"
+        },
+        {
+          "move": "go stairway",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

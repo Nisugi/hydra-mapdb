@@ -1,0 +1,64 @@
+{
+  "id": 1552,
+  "uid": [
+    4902080
+  ],
+  "title": [
+    "[Solhaven, South Market North]"
+  ],
+  "description": [
+    "A narrow storefront with a blue-shingled bay window occupies the center of the row of shops along this side of the market.  A variety of gadgets and navigational instruments fill the velvet lined display behind the window's many panes.",
+    "A storefront with a blue-shingled bay window occupies the center of the row of shops along this side of the market, a narrow lane tucked between it and the yellow-awninged shop to its east.  A variety of gadgets and navigational instruments fill the velvet lined display behind the window's many panes."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      636,
+      1332,
+      660,
+      1356
+    ]
+  },
+  "exits": [
+    {
+      "to": 1551,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1553,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1554,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1572,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10300,
+      "kind": "go",
+      "cmd": "go storefront",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": 11438,
+  "uid": [
+    304016
+  ],
+  "title": [
+    "[Maelstrom Bay, Surface]"
+  ],
+  "description": [
+    "The sea swells break lazily against the stony base of the cliff wall, creating a dull and muted sussuration.  The cliff towers overhead, unwelcoming and unclimbable.  The waters of Maelstrom Bay, made a deep, bluish green by the moonlight, stretch out to the west.",
+    "The sea swells break lazily against the stony base of the cliff wall, creating a dull and muted susurration.  The cliff towers overhead, unwelcoming and unclimbable.  The green waters of Maelstrom Bay, bright in the sunlight, stretch out to the west."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, south, west, northwest, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      729,
+      1287,
+      739,
+      1297
+    ]
+  },
+  "exits": [
+    {
+      "to": 11437,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "spell_active": "Water Walking"
+          }
+        },
+        "then": 2.0,
+        "else": 0.2
+      }
+    },
+    {
+      "to": 11439,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11447,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11448,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11450,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11457,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

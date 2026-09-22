@@ -1,0 +1,50 @@
+{
+  "id": 17972,
+  "uid": [
+    260007
+  ],
+  "title": [
+    "[Rogue Guild, Offices]"
+  ],
+  "description": [
+    "A single elaborately carved brass oil lamp on the east wall illuminates the hall with a soft glow.  The richly colored tapestries that cover the walls are broken by an opening in the west wall draped with a heavy grey silk curtain.  A pleasing scent of incense and spice wafts in from the arch at the north end of the hall."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "imt-rogue_guild-1305438533.png",
+    "rect": [
+      225,
+      288,
+      255,
+      313
+    ]
+  },
+  "exits": [
+    {
+      "to": 17966,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17973,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17975,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

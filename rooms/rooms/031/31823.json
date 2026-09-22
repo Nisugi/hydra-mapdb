@@ -1,0 +1,62 @@
+{
+  "id": 31823,
+  "uid": [
+    8083403
+  ],
+  "title": [
+    "[Gleyminn Anni River, Cavern]"
+  ],
+  "description": [
+    "The cavern ceiling dips quite low, the icicle-like stalactites overhead almost skimming the surface of the river in some sections.  The air seems stale with no discernable breeze from any direction.  Spiders skitter to and fro on the rocky walls, their intricate webs glistening in the lackluster glow from the scattered lanterns."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1136,
+      839,
+      1158,
+      860
+    ]
+  },
+  "exits": [
+    {
+      "to": 31822,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 31824,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31825,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

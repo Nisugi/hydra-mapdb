@@ -1,0 +1,37 @@
+{
+  "id": 24963,
+  "uid": [
+    2133500
+  ],
+  "title": [
+    "[Underground River]"
+  ],
+  "description": [
+    "The water is fast moving and ice cold, bringing a chill to your bones.  You try but cannot feel the bottom and the current is forcing you to struggle to stay afloat.  It is too dark to make out your immediate surroundings."
+  ],
+  "paths": [
+    ""
+  ],
+  "location": "the catacombs",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 7602,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "swim downstream"
+        }
+      ],
+      "cost": 60.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 2370,
+  "uid": [
+    4042113
+  ],
+  "title": [
+    "[Magical Burrow, Demons Run]",
+    "[Magical Burrow, Demons Lane]"
+  ],
+  "description": [
+    "Behind a tall mithril gate, a flagstone path winds toward a rushing stream, threading in the direction of a stately fieldstone building mostly obscured by intervening drifts of snow.  Figures in colorful robes wander through the entry, some supported by ornate staves of pine or even silvery hoarbeam.  Houses and storefronts give the estate a wide berth, mostly cleaving to the opposite side of the road.",
+    "Behind a tall, mithril gate lies a flagstone path that winds past a small stream as it moves in the direction of a stately fieldstone building at the opposite end of the estate.  Dark robed figures move purposefully in and out of the building, or wander the grounds in silent contemplation, at all hours of the day and night."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      495,
+      519,
+      531,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 2361,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2368,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3352,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

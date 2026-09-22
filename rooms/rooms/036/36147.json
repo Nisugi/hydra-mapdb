@@ -1,0 +1,35 @@
+{
+  "id": 36147,
+  "uid": [
+    2174020
+  ],
+  "title": [
+    "[House Arcane, Cysaegir Lounge]"
+  ],
+  "description": [
+    "Dark, hardwood flooring is polished to a brilliant shine.  In one corner, a few tables and chairs are placed about a grey stone fireplace with a large iron log holder by its side.  On the other side of the room is a jade-inlaid ebonwood arch to the right and a jade velvet curtain that leads deeper into the annex."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_annex",
+    "che:arcane_masters:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 32843,
+      "kind": "go",
+      "cmd": "go ebonwood arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36148,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    }
+  ]
+}

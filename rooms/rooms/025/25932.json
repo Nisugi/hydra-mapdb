@@ -1,0 +1,50 @@
+{
+  "id": 25932,
+  "uid": [
+    8211332
+  ],
+  "title": [
+    "[Summit Academy, Lake Sasalis]"
+  ],
+  "description": [
+    "Firs, cedars, pines, and spruce trees converge at the edge of the woods, sentries before the brilliant Lake Sasalis.  Its frozen surface is preternaturally smooth, affording a perfect reflected image of the surrounding mountains.  The snow is crisp with a crystalline coating of ice, marred only by a line of large pawprints near the treeline."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Summit Academy",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "tags": [
+    "foxhunt"
+  ],
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      565,
+      288,
+      590,
+      312
+    ]
+  },
+  "exits": [
+    {
+      "to": 25931,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28001,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 28111,
+      "kind": "go",
+      "cmd": "go cabin",
+      "cost": 0.2
+    }
+  ]
+}

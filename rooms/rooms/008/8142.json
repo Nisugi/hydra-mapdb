@@ -1,0 +1,93 @@
+{
+  "id": 8142,
+  "uid": [
+    386064
+  ],
+  "title": [
+    "[Clearing]"
+  ],
+  "description": [
+    "Pines ringing the clearing deepen the night's shadows, their boughs heavy with long, fragrant needles.  Although the trees stand back, seemingly respectful of the circle's perimeter, the invasive ferns have surrendered little ground.  They dance around the pines' feet, lacing among an embankment of boulders blanketing a rise that borders the clearing on one side."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the distant forest",
+  "climate": "moist",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "bright red cranberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "walnuts",
+    "white passionflower",
+    "wild chokecherry",
+    "wild orchid",
+    "willow twig",
+    "withered mushroom",
+    "woth flower",
+    "yellow passionflower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1252,
+      84,
+      1262,
+      94
+    ]
+  },
+  "exits": [
+    {
+      "to": 4280,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb path"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 8143,
+      "kind": "climb",
+      "cmd": "climb boulder",
+      "cost": 0.2
+    }
+  ]
+}

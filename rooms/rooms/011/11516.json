@@ -1,0 +1,50 @@
+{
+  "id": 11516,
+  "uid": [
+    305014
+  ],
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "The rough-hewn stone corridor proceeds into darkness to the southeast, and faint grey light can be seen to the northwest.  An old cell door stands open in the northeast wall, at once beckoning and menacing.  Faint dark streaks can be seen on the floor coming from the doorway, though it is obvious that they have faded over time."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, northwest"
+  ],
+  "location": "the Ruined Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      927,
+      1009,
+      937,
+      1019
+    ]
+  },
+  "exits": [
+    {
+      "to": 11515,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11517,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11518,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

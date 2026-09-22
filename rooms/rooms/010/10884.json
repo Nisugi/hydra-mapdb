@@ -1,0 +1,136 @@
+{
+  "id": 10884,
+  "uid": [
+    2101104
+  ],
+  "title": [
+    "[River's Rest, Land's End Beach]"
+  ],
+  "description": [
+    "Here at the mouth of the river, the rocky beach has given way to sand, only one large boulder marring the warm, golden glow.  It stands as a sentinel, overlooking the river and bay and a narrow sandy point that extends to the west.  Dark shadows behind the boulder seem eerie in the moonlight.  A path leads into the woods.  The distant sound of water birds and the whispering winds fill the air with a joyous song.",
+    "Here at the mouth of the river, the rocky beach has given way to sand, only one large boulder marring the warm, golden glow.  It stands as a sentinel, overlooking the river and bay and a narrow sandy point that extends to the west.  Dark shadows behind the boulder seem to promise relief when the sun's warmth grows too strong.  A path leads into the woods.  The distant sound of water birds and the whispering winds fill the air with a joyous song."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "humid",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright orange",
+    "bright red teaberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "handful of currants",
+    "Imaera's Lace",
+    "mistweed",
+    "murdroot",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "round yuzu",
+    "small green quenepas",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "striped heart mushroom",
+    "talneo root",
+    "urchin-access",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yabathilium fruit",
+    "yellow clover blossom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1891,
+      609,
+      1931,
+      648
+    ]
+  },
+  "exits": [
+    {
+      "to": 10883,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10885,
+      "kind": "go",
+      "cmd": "go point",
+      "cost": 0.2
+    },
+    {
+      "to": 10886,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 11123,
+      "kind": "go",
+      "cmd": "go boulder",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

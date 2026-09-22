@@ -1,0 +1,63 @@
+{
+  "id": 5562,
+  "uid": [
+    4215168
+  ],
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Whatever may once have occupied this chamber has long since been removed.  Only an iron trapdoor set into the chamber's floor remains."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      976,
+      326,
+      986,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 5524,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5563,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5564,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5565,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14598,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

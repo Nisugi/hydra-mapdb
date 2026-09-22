@@ -1,0 +1,42 @@
+{
+  "id": 20190,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "Water ash ranging from small shrubs to grown specimens twenty feet tall dominate this stretch of ground.  Small sections of bark have been cleanly incised from the trunks, in too calculated a pattern to have been done by area creatures.  A small muddy canvas tent stands open beneath the trees.  Kettles of boiled potions rest beside a rock-lined firepit, wisps of steam occasionally escaping from beneath their heavy lids."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      388,
+      291,
+      402,
+      306
+    ]
+  },
+  "exits": [
+    {
+      "to": 20189,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20191,
+      "kind": "go",
+      "cmd": "go muddy tent",
+      "cost": 0.2
+    },
+    {
+      "to": 20192,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 14325,
+  "uid": [
+    4901093
+  ],
+  "title": [
+    "[The Krawling Kraken, Commons]"
+  ],
+  "description": [
+    "The room is a bit quieter than the main bar serving area, though noisy cheers and raucous laughter can be heard coming from the bar to the southwest.  Long benches and rectangular tables seat high-spirited patrons intent on serious drinking and various card games of chance.  The clatter of clay tankards and the smell of good ale provide some small comfort to the steady stream of wayfarers who pause here to meet and greet one another."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14309,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14326,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14329,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 15409,
+      "kind": "go",
+      "cmd": "go sloshed table",
+      "cost": 0.2
+    },
+    {
+      "to": 25864,
+      "kind": "go",
+      "cmd": "go savage table",
+      "cost": 0.2
+    },
+    {
+      "to": 28685,
+      "kind": "go",
+      "cmd": "go tangled table",
+      "cost": 0.2
+    },
+    {
+      "to": 28686,
+      "kind": "go",
+      "cmd": "go tipsy table",
+      "cost": 0.2
+    }
+  ]
+}

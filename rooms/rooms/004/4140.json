@@ -1,0 +1,153 @@
+{
+  "id": 4140,
+  "uid": [
+    18002
+  ],
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "A massive bronze gate spans the path, blocking the way north.  On either side are high stone walls surmounted with jagged rocks.  Now green and pitted, the gate is still locked shut by a rusted chain fastened with an ancient padlock.  A cast likeness of the goddess Lorminstra, Keeper of the Gates of Oblivion, her Staff of Doom in hand, and a grotesque statue of the Empress Gosaena are the main motifs of the elaborately decorated portal."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "blue whortleberry",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "ironfern root",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      227,
+      947,
+      237,
+      957
+    ]
+  },
+  "exits": [
+    {
+      "to": 4139,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 4141,
+      "kind": "scripted",
+      "routine": {
+        "name": "bronze_gate",
+        "batter": false
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "any": [
+                {
+                  "spell_known": "Unlock"
+                },
+                {
+                  "spell_known": "Consecrate"
+                },
+                {
+                  "spell_known": "Bless Item"
+                },
+                {
+                  "spell_known": "Force Projection"
+                }
+              ]
+            },
+            "then": 0.6
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "not": {
+                    "skill_under": [
+                      "climbing",
+                      12
+                    ]
+                  }
+                },
+                {
+                  "skill_carries_load": [
+                    "climbing",
+                    4,
+                    5
+                  ]
+                }
+              ]
+            },
+            "then": 120.0
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "profession": "Warrior"
+                },
+                {
+                  "level_at_least": 15
+                }
+              ]
+            },
+            "then": 5.2
+          }
+        ],
+        "else": 30.0
+      }
+    },
+    {
+      "to": 16392,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb gate"
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "not": {
+                "skill_under": [
+                  "climbing",
+                  12
+                ]
+              }
+            },
+            {
+              "skill_carries_load": [
+                "climbing",
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "then": 3.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 6632,
+  "uid": [
+    487012
+  ],
+  "title": [
+    "[Broken Lands, Passage]"
+  ],
+  "description": [
+    "Incandescent globes hang at set intervals along the passage, casting an eerie light over it.  A symphony of shadows is played out along the walls, giving the impression that this passage is not as empty as it appears."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      304,
+      1073,
+      314,
+      1083
+    ]
+  },
+  "exits": [
+    {
+      "to": 6631,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "concealed door"
+            ]
+          }
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6633,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6635,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

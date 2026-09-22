@@ -1,0 +1,55 @@
+{
+  "id": 17441,
+  "uid": [
+    7801050
+  ],
+  "title": [
+    "[Volstrun's Whetter, Barroom]"
+  ],
+  "description": [
+    "Mismatched barstools showing signs of disrepair face a stained and badly damaged bar, which stands at the back of the taproom.  Hanging on a peg behind the bar is a loaded heavy crossbow, and a quiver filled with bolts leans against the wall.  Soot streaks blacken the walls where torches that provide some illumination to the room are chained.  A narrow staircase leads to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, out"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "exits": [
+    {
+      "to": 17440,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17442,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17500,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17501,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17502,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

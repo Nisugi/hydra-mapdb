@@ -1,0 +1,37 @@
+{
+  "id": 34843,
+  "uid": [
+    8089045
+  ],
+  "title": [
+    "[Tanglemist Mansion, Aviary]"
+  ],
+  "description": [
+    "Dozens of iron-bound birdcages creak loudly upon the rusted poles scattered throughout the garden, the warped doors barely clinging to the latches.  A haphazard labryinth of dark-colored grasses leads up to the beast-carved door, the entry flanked by a duo of moss-draped gargoyles looming from tall pillars.  Set at the far corner of the grounds is a solitary marble statue, the androgynous form standing before discarded piles of dirt-caked feathers and shredded ribbons of embroidered silk."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Evermore Hollow",
+  "terrain": "cultivated",
+  "exits": [
+    {
+      "to": 34842,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34844,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34846,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

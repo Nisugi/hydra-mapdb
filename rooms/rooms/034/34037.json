@@ -1,0 +1,40 @@
+{
+  "id": 34037,
+  "uid": [
+    4427007,
+    4427051
+  ],
+  "title": [
+    "[Crystalmount, Cavern]"
+  ],
+  "description": [
+    "The faintest hint of starlight filters through a vast yawning breach in the western wall of the cavern, but the tenuous curtain of radiance does little to throw back the surrounding gloom.  It gleams feebly off of puddles of snowmelt near to the entrance, but they proceed into deeper shadow and are consumed by darkness.  Reflected ripples off of the water do not reach the cavern's distant ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "subterranean",
+  "tags": [
+    "bolmara lichen",
+    "glassfern frond",
+    "ironfern root",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "exits": [
+    {
+      "to": 34036,
+      "kind": "go",
+      "cmd": "go breach",
+      "cost": 0.2
+    },
+    {
+      "to": 34038,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

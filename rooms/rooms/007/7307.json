@@ -1,0 +1,55 @@
+{
+  "id": 7307,
+  "uid": [
+    18030
+  ],
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "Your eyes adjust to the semi-darkness as a pale shaft of light filters through the tiny natural chimney in the domed roof of the curved chamber.  You see no signs of life yet low, unearthly murmurings, vague rustlings and flickers of faint lights swirl about you.  The only reality you are sure of is the dull thud of your footsteps on the earthern floor, echoing off the packed dirt walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      696,
+      333,
+      706,
+      343
+    ]
+  },
+  "exits": [
+    {
+      "to": 7206,
+      "kind": "climb",
+      "cmd": "climb chimney",
+      "cost": 0.2
+    },
+    {
+      "to": 7306,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7308,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

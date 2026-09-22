@@ -1,0 +1,94 @@
+{
+  "id": 18849,
+  "uid": [
+    108200
+  ],
+  "title": [
+    "[Twilight Hall, Back Porch]"
+  ],
+  "description": [
+    "The polished black marble floor reflects the dim glow of several orbs of light that look like faint suns suspended in the black night sky.  Several tables have been arranged around the room, covered with black silk tablecloths.  The chairs are made of black-stained tanik wood cushioned with jet black velvet, which would be hard to see if not for the candles placed on some of the tables.",
+    "The polished black marble floor reflects the dim glow of several orbs of light that look like faint suns suspended in the black night sky.  Several tables have been arranged around the room, covered with black silk tablecloths.  The chairs are made of black-stained tanik wood cushioned with jet black velvet, which would be hard to see if not for the candles placed on some of the tables.  Across from the tables is a coraesine door, next to which is a scribed kakore dart board depicting an elaborate summoning circle that has been set into the wall above a copper owl decoy."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      589,
+      145,
+      676,
+      202
+    ]
+  },
+  "exits": [
+    {
+      "to": 18848,
+      "kind": "go",
+      "cmd": "go coraesine door",
+      "cost": 0.2
+    },
+    {
+      "to": 18859,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18882,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go half moon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18884,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go golden star table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18885,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go ronan table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18886,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go black sword table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18887,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go sheru table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

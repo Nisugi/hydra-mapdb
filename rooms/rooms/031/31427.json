@@ -1,0 +1,151 @@
+{
+  "id": 31427,
+  "uid": [
+    730126
+  ],
+  "title": [
+    "[Shivergale, Landing]"
+  ],
+  "description": [
+    "Climbing out of the shop below, the airy steel of a spiraling staircase rises to the second story of the structure.  It opens onto a spacious landing shielded from the frigid wind by a sheltering wall that holds boxes of hardy iceblossoms and beds of wintersbite.  Standing guard before an arched double door of darkly stained Ossian pine is an ice crystal statue painstakingly carved to resemble a wide-bodied dog frozen in a vigilant posture."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Shivergale, outside the glacier-locked town of Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 31426,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 31428,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pine door",
+          "when": {
+            "any": [
+              {
+                "wearing_noun": "key"
+              },
+              {
+                "wearing_noun": "keyring"
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "put": "get my key from my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "go pine door",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "put": "put my key in my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "wearing_noun": "keyring"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "any": [
+                    {
+                      "wearing_noun": "key"
+                    },
+                    {
+                      "wearing_noun": "keyring"
+                    }
+                  ]
+                },
+                {
+                  "setting_is_set": "key_sack"
+                }
+              ]
+            },
+            {
+              "setting_is_set": "Shivergale"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

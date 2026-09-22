@@ -1,0 +1,35 @@
+{
+  "id": 33742,
+  "uid": [
+    7121218
+  ],
+  "title": [
+    "[House Annex, Cairnfang Manor]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted royal blue and dominated by a mural depicting an open gem-infused hand, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush royal blue carpeting dappled with white threads lends the otherwise austere space a coziness that is enhanced by the presence of an opalescent white organza settee.  A lacquered white door leads to the hallway, while a white-edged royal blue silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_annex",
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 2437,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 33743,
+      "kind": "go",
+      "cmd": "go royal curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 34805,
+  "uid": [
+    3213302
+  ],
+  "title": [
+    "[Dabbings Manor, Foyer]"
+  ],
+  "description": [
+    "A crystal chandelier hangs over the foyer of the manse, casting shards of light over a silver seal set into the pale marble floor.  The leaping mule etched into the metal is repeated in relief on the front doors, which are framed with windows that look out onto a snowy walk.  Opposite the entry, a grand staircase with banisters twined in fir garlands sweeps up to the second story.  Hallways branch to the west and east, proceeding beneath trefoil arches accented with ornately carved maplewood."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 34804,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 34806,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 34807,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34811,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

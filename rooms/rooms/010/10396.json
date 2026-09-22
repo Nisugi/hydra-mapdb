@@ -1,0 +1,77 @@
+{
+  "id": 10396,
+  "uid": [
+    14103400
+  ],
+  "title": [
+    "[Saphrie's Herbs and Tinctures]",
+    "[Ta'Vaalor, Triage Station]"
+  ],
+  "description": [
+    "Soft aquamarine curtains frame the glaesine-paned windows of the herb shop.  Whitewashed haon shelves line the walls, each shelf carefully stocked with a variety of glaes bottles.  A long monir counter, well worn and apparently used as a worktable, rests in the center of the shop.",
+    "Whitewashed haon shelves line the walls of this room, each shelf carefully stocked with a variety of glaes bottles, bandages, herbs, and other healing supplies.  Elven nurses flow around and behind a long monir counter, well-worn and apparently used as a worktable, that rests in the center of the room.  An open doorway to the west leads to the infirmary, and a black-inked sign rests upon the far wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "herbalist",
+    "maraene",
+    "no forageables",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3513,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10397,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

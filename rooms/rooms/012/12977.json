@@ -1,0 +1,44 @@
+{
+  "id": 12977,
+  "uid": [
+    17003150
+  ],
+  "title": [
+    "[Cavern Home, Outlet]"
+  ],
+  "description": [
+    "Granite forms the walls, floor and ceiling of this small room, but the granite has been sculpted so that there are no flat surfaces or right angles in any of it.  A gelatinous trail creeps along the ceiling from the northeast, stopping just short of the misshapen panel on the southwest wall, and bursts of energy travel up and down the trail, crackling loudly and casting an electric blue glow around the room."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      382,
+      300,
+      391,
+      307
+    ]
+  },
+  "exits": [
+    {
+      "to": 11998,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 13210,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

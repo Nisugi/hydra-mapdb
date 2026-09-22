@@ -1,0 +1,44 @@
+{
+  "id": 17288,
+  "uid": [
+    252050
+  ],
+  "title": [
+    "[Warrior Guild, Palaestra]"
+  ],
+  "description": [
+    "This section of the courtyard houses the guild pugilist arena.  Surrounding the courtyards is a covered walkway, its roof supported by colonnades.  A few stray weeds struggle to emerge from the cracks between the bricks."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild metal stage doors",
+    "warrior guild wooden stage doors"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1210,
+      759,
+      1232,
+      781
+    ]
+  },
+  "exits": [
+    {
+      "to": 17287,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30769,
+      "kind": "go",
+      "cmd": "go arena",
+      "cost": 0.2
+    }
+  ]
+}

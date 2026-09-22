@@ -1,0 +1,58 @@
+{
+  "id": 27732,
+  "uid": [
+    4050121
+  ],
+  "title": [
+    "[West Barbican, North Tower]"
+  ],
+  "description": [
+    "A few simple tokens hang above each narrow slitted window, each marred by some faint scar, dent, or tear.  Dark planks harboring black stains in the wood make up the floor, their short railings ensuring that none will take a rather nasty plunge to the floor far below.  A length of knotted rope is gathered beneath a grommet set into the wall beneath one of the wider windows to allow access to the west wall."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      218,
+      460,
+      249,
+      491
+    ]
+  },
+  "exits": [
+    {
+      "to": 27731,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27733,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

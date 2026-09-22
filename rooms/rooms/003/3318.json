@@ -1,0 +1,50 @@
+{
+  "id": 3318,
+  "uid": [
+    4130009
+  ],
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "The ice forms a small natural cavern here.  Within the walls, you can see the flattened remains of several houses, crushed to bits by the flow of the glacier.  The rubble is still in good relative condition, as if frozen in time.  A hole opens in the ice to the south."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Glacier",
+  "climate": "glacial",
+  "terrain": "icy glacier",
+  "tags": [
+    "blue iceblossom"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1338,
+      944,
+      1348,
+      954
+    ]
+  },
+  "exits": [
+    {
+      "to": 3317,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 3319,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3329,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

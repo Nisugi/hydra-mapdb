@@ -1,0 +1,51 @@
+{
+  "id": 27868,
+  "title": [
+    "[Master Bedroom]"
+  ],
+  "description": [
+    "White lambswool rugs cover most of the fel floor in this room.  A mahogany bed and matching mahogany nightstand are located against the inner wall.  At the foot of the bed is a plush heavy cotton pillow.  One corner is blocked off by a lacquered privacy screen.  Pushed to another corner are an ornate wardrobe and an antique locker box.  A cozy leather armchair is positioned to view the distant falls through a large window.  A heavy cedar door leads to a rope bridge and back to the gazebo."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 27865,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock heavy door"
+        },
+        {
+          "put": "open heavy door"
+        },
+        {
+          "move": "go heavy door"
+        },
+        {
+          "put": "close heavy door"
+        },
+        {
+          "put": "lock heavy door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    }
+  ]
+}

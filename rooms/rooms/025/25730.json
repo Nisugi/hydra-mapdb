@@ -1,0 +1,62 @@
+{
+  "id": 25730,
+  "uid": [
+    3223869
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Pungent and arid, the tang of the salty sea fills the air, which is moist and humid.  Rolling waves created by the swift pull of the current slosh about the harbor and carry small tropical blossoms toward distant shores."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1920,
+      1760,
+      1941,
+      1779
+    ]
+  },
+  "exits": [
+    {
+      "to": 25705,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25731,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25785,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

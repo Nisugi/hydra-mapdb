@@ -1,0 +1,75 @@
+{
+  "id": 3684,
+  "uid": [
+    312027
+  ],
+  "title": [
+    "[Hall of Brotherhood]"
+  ],
+  "description": [
+    "Members of the order walk along the stone floor under the graceful arch of the ceiling in hushed conversation, their footsteps echoing as they pass by.  Tapestries depicting key events in the order cover the walls extending eastward."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      204,
+      442,
+      217,
+      454
+    ]
+  },
+  "exits": [
+    {
+      "to": 3683,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3685,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": {
+        "when": {
+          "society_rank_at_least": 26
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 18212,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18213,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 18214,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 18215,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

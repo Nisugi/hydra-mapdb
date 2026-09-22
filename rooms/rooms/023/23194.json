@@ -1,0 +1,39 @@
+{
+  "id": 23194,
+  "uid": [
+    5001070
+  ],
+  "title": [
+    "[Paupers, Cubby]"
+  ],
+  "description": [
+    "This small antechamber to the locker area is lighted by a simple brass oil lamp.  The walls, crafted from smooth panels of yew wood, are bare of any adornment.  A plain cotton rug muffles your footsteps."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "che:paupers:entrance_locker",
+    "locker annex:House of Paupers"
+  ],
+  "exits": [
+    {
+      "to": 16132,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32849,
+      "kind": "go",
+      "cmd": "go beaded curtain",
+      "cost": 0.2
+    }
+  ]
+}

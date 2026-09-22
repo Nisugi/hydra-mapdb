@@ -1,0 +1,44 @@
+{
+  "id": 8335,
+  "uid": [
+    13007
+  ],
+  "title": [
+    "[Spider Temple, Kitchen]"
+  ],
+  "description": [
+    "A large open fireplace dominates this busy main chamber of one of the legs.  A large stone oven, wooden worktables and a dining table with several chairs around it manage to fill much of the other space.  A small alcove lies east."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      579,
+      984,
+      589,
+      994
+    ]
+  },
+  "exits": [
+    {
+      "to": 8332,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8336,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

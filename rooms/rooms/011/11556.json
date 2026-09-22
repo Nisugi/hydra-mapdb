@@ -1,0 +1,101 @@
+{
+  "id": 11556,
+  "uid": [
+    420001
+  ],
+  "title": [
+    "[Maelstrom Bay, Rocky Beach]"
+  ],
+  "description": [
+    "The narrow inlet is sheltered from the large swells and waves of Maelstrom Bay by a rocky reef.  The beach is comprised of small black and grey stones.  The gentle action of the waves washing up on the beach creates a continuous rattle as the stones abrade each other.  Moonlight glints off the stony beach, making it seem to sparkle.  Tall bluffs and cliffs rise to the east.  A much-battered ship...a carrack of krolvin design...is careened awkwardly on the beach.",
+    "The narrow inlet is sheltered from the large swells and waves of Maelstrom Bay by a rocky reef.  The beach is comprised of small black and grey stones.  The gentle action of the waves washing up on the beach creates a continuous rattle as the stones abrade each other.  The sun glints off the stony beach, making it seem to sparkle.  Tall bluffs and cliffs rise to the east.  A much-battered ship...a carrack of krolvin design...is careened awkwardly on the beach."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright orange",
+    "bright red teaberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "kylan berry",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "round yuzu",
+    "small coconut",
+    "small green quenepas",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yellow clover blossom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      131,
+      829,
+      141,
+      839
+    ]
+  },
+  "exits": [
+    {
+      "to": 11555,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11557,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb mast"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

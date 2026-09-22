@@ -1,0 +1,39 @@
+{
+  "id": 4468,
+  "title": [
+    "[Zigiluk's Helms, Main Cavern]"
+  ],
+  "description": [
+    "Illuminated by dozens of low-burning torches, the granite walls of this wide cavern are so finely smoothed and polished that it is difficult to believe that they were carved by mortal hands.  Two tunnels exit this main chamber, to the northeast and the northwest, each wide corridor circling around a massive blue stone stalagmite rising from the cavern's center.  Several large crates and boxes are piled up against one wall, all bound with mithril chains and secured with very intricate-looking locks."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4463,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4469,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4471,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

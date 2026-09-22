@@ -1,0 +1,36 @@
+{
+  "id": 26252,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A bald and lumpy ghoul moves along the row of corpses, his mottled fingers riffling through the pockets of the dead.  Every time he finds a silver coin, his dark eyes light up and he cackles wildly."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      318,
+      228,
+      344,
+      254
+    ]
+  },
+  "exits": [
+    {
+      "to": 26251,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26253,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 36463,
+  "uid": [
+    55021
+  ],
+  "title": [
+    "[Black Swan Castle, Moat]"
+  ],
+  "description": [
+    "Here the moat laps up fast against the steep vertical outer wall of the castle.  The dark stones are slick and slimy with algae, and too smooth to afford any hand-  or footholds."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      440,
+      120,
+      480,
+      160
+    ]
+  },
+  "exits": [
+    {
+      "to": 36450,
+      "kind": "other",
+      "cmd": "swim shore",
+      "cost": 0.2
+    },
+    {
+      "to": 36462,
+      "kind": "other",
+      "cmd": "swim west",
+      "cost": 0.2
+    },
+    {
+      "to": 36464,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 0.2
+    }
+  ]
+}

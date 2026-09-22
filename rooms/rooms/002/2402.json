@@ -1,0 +1,57 @@
+{
+  "id": 2402,
+  "uid": [
+    4042222
+  ],
+  "title": [
+    "[Tavern Burrow, Lager Road]"
+  ],
+  "description": [
+    "A twisting staircase with slender wrought iron rails spirals precariously up the back of the Nightowl Pub.  The stairs climb to a small grated ledge just below an open window on the second story of the ramshackle building.  Empty hogsheads, still smelling of the beer they once contained, are stacked beneath the staircase, as if to provide a splintery cushion for anyone who might fall.",
+    "A twisting staircase with slender, wrought-iron rails hangs precariously from the backside of the Nightowl Pub.  The top of the staircase ends just below an open window on the second story.  Empty barrels are stacked in the space beneath the staircase, providing a rather splintery cushion for anyone who might fall."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      227,
+      874,
+      263,
+      910
+    ]
+  },
+  "exits": [
+    {
+      "to": 2387,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2401,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2403,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3425,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 34628,
+  "uid": [
+    4572035
+  ],
+  "title": [
+    "[Sablecross, Hollow Bend]"
+  ],
+  "description": [
+    "Most of the businesses along the lush green stretch of the bend are of the scholarly variety, ranging from several stores selling academic texts to an alchemist's workshop with its windows open to display brightly colored bottles.  A gently burbling brook spills from a crack in a nearby hillock's crown to meander alongside the cobblestone road.  Its music fills the silence, crystalline and sweet, unaccompanied save for the occasional footsteps of passersby."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      677,
+      591,
+      708,
+      620
+    ]
+  },
+  "exits": [
+    {
+      "to": 34627,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34629,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34658,
+      "kind": "go",
+      "cmd": "go workshop",
+      "cost": 0.2
+    }
+  ]
+}

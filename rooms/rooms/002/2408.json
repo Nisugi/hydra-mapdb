@@ -1,0 +1,103 @@
+{
+  "id": 2408,
+  "uid": [
+    4042212
+  ],
+  "title": [
+    "[Tavern Burrow, Stout Street]"
+  ],
+  "description": [
+    "A jumble of boxes is piled at the base of a tall evergreen hedge where Stout Street meets Barley Lane.  Soft mewing from one of the boxes is almost obscured by the muffled drumbeats, soft arpeggios, and muted voices lifted in song at nearby taverns.  A gap in the hedge leads through a split-rail fence into the courtyard beyond.  The fence and hedge end at the corner of the property, where an easily overlooked side door serves as a side entrance to a nondescript building.",
+    "A jumble of boxes is piled against a tall evergreen hedge where Stout Street ends at Barley Lane.  Soft mewing from one of the boxes mingles with the sound of muffled drumbeats, soft arpeggios, and muted voices lifted in song.  A gap in the hedge leads through the split-rail fence into the courtyard beyond.  The fence and hedge end at the corner of the property, where an easily-overlooked door leads into the side of a non-descript low building."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "stalk of bluebells",
+    "urchin guide bardguild",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      494,
+      874,
+      530,
+      910
+    ]
+  },
+  "exits": [
+    {
+      "to": 2302,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2407,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3429,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3461,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    },
+    {
+      "to": 22105,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

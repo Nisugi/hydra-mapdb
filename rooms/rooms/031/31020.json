@@ -1,0 +1,46 @@
+{
+  "id": 31020,
+  "uid": [
+    4219392
+  ],
+  "title": [
+    "[Lockers, Antechamber]"
+  ],
+  "description": [
+    "A simple wooden chair and a short square table are the only furnishings in this bare room.  The open ceiling shows the warehouse roof high above.  The sounds of workers moving crates in the warehouse below can be easily heard through the thin floors."
+  ],
+  "paths": [
+    "Obvious exits: north",
+    "Obvious exits: north, out"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "brigatta locker"
+  ],
+  "meta": [
+    "che:brigatta:entrance_annex",
+    "che:brigatta:entrance_locker",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 30743,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31021,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31022,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 28938,
+  "uid": [
+    7118357
+  ],
+  "title": [
+    "[The Intoxicating Flora]"
+  ],
+  "description": [
+    "Tendrils of pale white smoke snake through the dense jungle of plants occupying most of the available shop, leaving the faintest whisper of dark amber to resonate throughout.  A resin-stained workbench sits entangled in vines along the back wall, the top covered in dusty tomes alongside a worn marble mortar and pestle.  A faint hiss and rattle echo within the walls, its origin obscured by leaves and blossoms."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "herbalist",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28872,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28939,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

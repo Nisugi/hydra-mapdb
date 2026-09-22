@@ -1,0 +1,46 @@
+{
+  "id": 17913,
+  "uid": [
+    268030
+  ],
+  "title": [
+    "[Rogue Guild, Descent]"
+  ],
+  "description": [
+    "Sloping downward in two different directions, the passageway walls are draped in fuzzy blue-green moss, lighting the way with their luminescence.  A massive, rusted iron safe with its door pried open sits in the corner and currently is home to some tiny, glowing toadstools.  A clamor can be heard from beyond the tunnel to the west."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      477,
+      1007,
+      517,
+      1044
+    ]
+  },
+  "exits": [
+    {
+      "to": 17912,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17914,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17921,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

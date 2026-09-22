@@ -1,0 +1,46 @@
+{
+  "id": 34618,
+  "uid": [
+    4572021
+  ],
+  "title": [
+    "[Sablecross, Gauntlet Row]"
+  ],
+  "description": [
+    "Smoke belches, black and thick, from the limestone chimney of a smithy hunching beneath the outer wall of the town.  Framed by a pair of old weeping willows with round lanterns hung from their branches, the shop stands at the end of a neat lane that winds beneath the stooped trees.  Several carts of dark metal ingots rest outside the smithy's arched entrance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      371,
+      127,
+      407,
+      162
+    ]
+  },
+  "exits": [
+    {
+      "to": 34617,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34619,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34690,
+      "kind": "go",
+      "cmd": "go smithy",
+      "cost": 0.2
+    }
+  ]
+}

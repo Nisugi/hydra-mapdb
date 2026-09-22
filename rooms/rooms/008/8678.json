@@ -1,0 +1,35 @@
+{
+  "id": 8678,
+  "title": [
+    "[Cholgar's Bathhouse, Entryway]"
+  ],
+  "description": [
+    "You are in the entrance hall of the reportedly \"therapeutic\" and mostly scandalous Cholgar's Bathhouse.  Rich, red carpeting covers the wooden floors and the walls are hidden behind many draperies, tapestries and assorted sculpture of a questionable nature.  Rooms lie down a thickly carpeted hall to the north, where most any patron's fancy comes to life."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "tags": [
+    "gone"
+  ],
+  "exits": [
+    {
+      "to": 226,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 8679,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8682,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

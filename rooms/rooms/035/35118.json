@@ -1,0 +1,56 @@
+{
+  "id": 35118,
+  "uid": [
+    4426542
+  ],
+  "title": [
+    "[Glaeve, Bloodfang Crescent]"
+  ],
+  "description": [
+    "Flying cerulean standards whip in the breeze over the quartermaster's office, sporting a sigil of a horned crab and dagger in crimson.  The building is almost a palace in its own right, and its windows offer glimpses of fine furnishings and lush curtains.  In somber contrast stands the ramshackle jail attached to the office, a single-story hall with barred windows with no glass to shield occupants from the unrelenting cold.  Hulking enforcers stand guard outside with cudgels in easy reach."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, northwest"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      393,
+      399,
+      413,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 35115,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35119,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    },
+    {
+      "to": 35120,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35122,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

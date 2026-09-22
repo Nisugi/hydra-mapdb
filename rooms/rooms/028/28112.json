@@ -1,0 +1,47 @@
+{
+  "id": 28112,
+  "uid": [
+    8208611
+  ],
+  "title": [
+    "[Rumor Woods]"
+  ],
+  "description": [
+    "The trees begin their gradual creep up the mountainside at this branch of the forest.  The path north is twisted and rocky, bending out of sight behind a wall of crooked, snow-laden spruces.  To the west, fresh paw prints mark a gently downhill sloping trail away from the mountain and deeper into the woods."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location_unknowable": true,
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-foxhunt-1654928999.jpg",
+    "rect": [
+      672,
+      653,
+      697,
+      678
+    ]
+  },
+  "exits": [
+    {
+      "to": 28109,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28113,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28125,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

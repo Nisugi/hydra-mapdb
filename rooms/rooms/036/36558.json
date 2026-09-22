@@ -1,0 +1,36 @@
+{
+  "id": 36558,
+  "uid": [
+    12102074
+  ],
+  "title": [
+    "[Skyship, Living Corridor]"
+  ],
+  "description": [
+    "The air is humid and rank with the smell of blood and decay down a cluttered corridor that has been repurposed into a series of hastily built fortifications.  Sleeping alcoves to either side of the area have been emptied, their contents stacked haphazardly along the way forward as piles of trunks, overturned empty crates, and varied loose debris.  Some humanoid remains are scattered across the area, half-buried under debris and stuck with dried blood."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 36554,
+      "kind": "go",
+      "cmd": "go lift",
+      "cost": 0.2
+    },
+    {
+      "to": 36557,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36559,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

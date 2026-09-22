@@ -1,0 +1,52 @@
+{
+  "id": 29588,
+  "uid": [
+    686024
+  ],
+  "title": [
+    "[Earth Tower, Second Floor]"
+  ],
+  "description": [
+    "Numerous round tables with place settings for a dozen crowd the chamber, the chairs around them tucked neatly under their tablecloths.  A rustic-looking sideboard with extra linens and flatware stands out of the way of the entrances to the dining room.  Atop each table sits a small potted plant.  The western bridge stands to one side, while behind it another bridge stretches to the south."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      433,
+      685,
+      463,
+      715
+    ]
+  },
+  "exits": [
+    {
+      "to": 29580,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29586,
+      "kind": "go",
+      "cmd": "go western bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29589,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29610,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

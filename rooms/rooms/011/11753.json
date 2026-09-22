@@ -1,0 +1,85 @@
+{
+  "id": 11753,
+  "uid": [
+    4744011
+  ],
+  "title": [
+    "[Marshtown, Glok's Pier]"
+  ],
+  "description": [
+    "This pier is crowded with merchants and sailors alike, all moving from ship to ship, and some from ship to shore.  Dozens of small sea craft anchor here, tied off by thick but worn ropes.  Taller mooring posts designed for ships and galleys are on the southern part of the pier.  A number of barrels litter the pier at various places, and a cast iron fish is fastened securely at its center."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "black peppercorn",
+    "blades of cordgrass",
+    "blue trafel mushroom",
+    "blue-green marshgrass",
+    "bolmara lichen",
+    "broken twig",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "feathery mannagrass",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden mushroom",
+    "golden yellow shadesbane",
+    "haphip root",
+    "murdroot",
+    "nutmeg",
+    "orange heliconia",
+    "pink heliconia",
+    "pink passionflower",
+    "pink peppercorn",
+    "purple passionflower",
+    "red heliconia",
+    "red passionflower",
+    "saltmeadow cordgrass",
+    "soft mushroom",
+    "stalk of cattail",
+    "star anise",
+    "talneo root",
+    "vanilla bean",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow heliconia",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      838,
+      801,
+      848,
+      811
+    ]
+  },
+  "exits": [
+    {
+      "to": 5731,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 350.0
+    },
+    {
+      "to": 11749,
+      "kind": "scripted",
+      "routine": {
+        "name": "errand",
+        "errand": "cutter_from_marshtown"
+      },
+      "cost": 300.0
+    }
+  ]
+}

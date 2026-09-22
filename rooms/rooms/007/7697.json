@@ -1,0 +1,49 @@
+{
+  "id": 7697,
+  "uid": [
+    68006
+  ],
+  "title": [
+    "[Underground Ruin, Antechamber]"
+  ],
+  "description": [
+    "This room is completely finished off.  The walls are smooth and polished.  The floor is covered with fitted stone.  The remains of rich tapestries and banners hang from hooks on the walls.  Ornate torch holders still cling to the walls.  Furniture is scattered around the room, some of it smashed, other pieces in good shape."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Coastal Cliffs",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      403,
+      1177,
+      413,
+      1187
+    ]
+  },
+  "exits": [
+    {
+      "to": 7690,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7698,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7699,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

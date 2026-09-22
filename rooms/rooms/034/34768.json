@@ -1,0 +1,44 @@
+{
+  "id": 34768,
+  "uid": [
+    4572385
+  ],
+  "title": [
+    "[Shadowsilk Shrine, Webwall]"
+  ],
+  "description": [
+    "A dense wall of inky webs occludes a sprawling mural limned across the face of the southwestern wall, but glints of sanguine enamel wink through like rubies.  Coruscating in the light of a dancing torch, the black bodies of multitudinous spiders skitter along the webs, engaged in tireless industry.  The sconce holding the torch is wrought of black alum and studded with red cabochon gems."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Sablecross",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 34767,
+      "kind": "go",
+      "cmd": "go webs",
+      "cost": 0.2
+    },
+    {
+      "to": 34769,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34770,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34772,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

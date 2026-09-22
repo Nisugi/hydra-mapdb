@@ -1,0 +1,42 @@
+{
+  "id": 25332,
+  "title": [
+    "[Blacksmith, Entry]"
+  ],
+  "description": [
+    "Grisly zombies march by, dragging slabs of metal on the ground as they grind with screeching sounds.  Faint smoke fills the area."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      916,
+      822,
+      942,
+      848
+    ]
+  },
+  "exits": [
+    {
+      "to": 25331,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25502,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25533,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

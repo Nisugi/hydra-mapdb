@@ -1,0 +1,48 @@
+{
+  "id": 17554,
+  "title": [
+    "[Feymist Cemetery, Gated Entry]"
+  ],
+  "description": [
+    "Tall iron fencing, which is covered in bramble and dried-out vines, stands before the southern border of the cemetery.  The only means to travel between the fencing is a rusted-out iron gate.  Murky puddles of water have been filled into the recently dug holes, each puddle reeking of sewage."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "the Feymist Cemetery",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      219,
+      1064,
+      227,
+      1073
+    ]
+  },
+  "exits": [
+    {
+      "to": 17526,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 20061,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20064,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20065,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

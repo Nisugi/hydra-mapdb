@@ -1,0 +1,45 @@
+{
+  "id": 5524,
+  "uid": [
+    4215164
+  ],
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "This is the tower's antechamber and was designed to be a death trap to invaders.  Only a single narrow doorway allows access to the tower's interior, and kill holes pierce the chamber's ceiling from the floor above.  An iron chute above the inner doorway still bears a dust-covered coating of oil, and the chamber's walls are fire-blackened."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      976,
+      353,
+      986,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 5521,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 5562,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

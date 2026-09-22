@@ -1,0 +1,62 @@
+{
+  "id": 8337,
+  "uid": [
+    13033
+  ],
+  "title": [
+    "[Spider Temple, Central Chamber]"
+  ],
+  "description": [
+    "A shiver runs down your spine as you notice white marble carvings of webbed and cocooned creatures suspended among the web-patterned tracery overhead.  The floor tiles here depict scenes of death by arachnids.  To the east, the altar lies between you and the door out of the shrine."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      558,
+      798,
+      568,
+      808
+    ]
+  },
+  "exits": [
+    {
+      "to": 8332,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8338,
+      "kind": "go",
+      "cmd": "go basalt door",
+      "cost": 0.2
+    },
+    {
+      "to": 8340,
+      "kind": "go",
+      "cmd": "go marble door",
+      "cost": 0.2
+    },
+    {
+      "to": 8349,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8361,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    }
+  ]
+}

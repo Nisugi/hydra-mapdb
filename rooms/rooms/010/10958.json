@@ -1,0 +1,129 @@
+{
+  "id": 10958,
+  "uid": [
+    2101966
+  ],
+  "title": [
+    "[River's Rest, Dining Room]"
+  ],
+  "description": [
+    "Fresh cooked meats and herbs beckon you to have a seat at one of the many tables here and enjoy some of the towns finest meals.  A servant passes you with a smile as she continues to a nearby table to deliver a feast for some of the hungry customers.  From a door to the south you hear an occasional rattle of pots and pans."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10957,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 17070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Long River table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Bent Creek table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Wide River table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17074,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Running Creek table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17076,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Clear River table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17082,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sleepy River table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

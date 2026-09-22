@@ -1,0 +1,56 @@
+{
+  "id": 21323,
+  "uid": [
+    107308
+  ],
+  "title": [
+    "[House Brigatta, Shed]"
+  ],
+  "description": [
+    "The dirt floor of the shed is packed solid.  Hanging from several hooks on the walls are various tools used to maintain the splendor of the garden.  In one corner are several large sacks that, judging from the smell, contain fertilizer.  On shelves running along two of the walls are many bins containing small packets of seed.  There is a shallow rut from the door that ends at the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Brigatta"
+  ],
+  "image": {
+    "file": "wl-Brigatta-1646274146.png",
+    "rect": [
+      11,
+      176,
+      83,
+      278
+    ]
+  },
+  "exits": [
+    {
+      "to": 21321,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25687,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lean wall"
+        },
+        {
+          "put": "knock wall"
+        },
+        {
+          "put": "knock wall"
+        },
+        {
+          "move": "knock wall"
+        }
+      ],
+      "cost": 0.8
+    }
+  ]
+}

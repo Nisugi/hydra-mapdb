@@ -1,0 +1,65 @@
+{
+  "id": 20848,
+  "uid": [
+    214008
+  ],
+  "title": [
+    "[Obsidian Tower, Foyer]"
+  ],
+  "description": [
+    "Black obsidian walls, polished to a sheen that nearly matches that of the tall silver mirror that stands at the west end of the foyer, rise to the vaulted ceiling thirty feet above.  A gracefully curved staircase of black marble winds along the walls, leading upwards into the higher reaches of the tower.  Dark banners emblazoned with symbols of the Dhe'nari castes hang high on the walls, and a set of double doors carved of black ora opens to the south."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "meta": [
+    "che:Obsidian Tower",
+    "mapcategory:CHE",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Obsidian Tower - Wehnimer's Landing",
+    "mapshortname:Obsidian Tower"
+  ],
+  "image": {
+    "file": "wo-obsidian-tower-1626034546.png",
+    "rect": [
+      588,
+      778,
+      643,
+      831
+    ]
+  },
+  "exits": [
+    {
+      "to": 20847,
+      "kind": "go",
+      "cmd": "go ora door",
+      "cost": 0.2
+    },
+    {
+      "to": 20849,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20855,
+      "kind": "go",
+      "cmd": "go mirror",
+      "cost": 0.2
+    },
+    {
+      "to": 20856,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20859,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

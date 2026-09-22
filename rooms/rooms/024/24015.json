@@ -1,0 +1,39 @@
+{
+  "id": 24015,
+  "title": [
+    "[Coliseum Colonnade, Entry]"
+  ],
+  "description": [
+    "Large limestone columns flank the entrance to this grand venue, and rows of identical pillars march off in either direction to form a colonnade.  Inset into the smooth, perfectly polished white marble flooring is the crest of House Ta'Vaalor in opposing black marble.  Off to one side, a torch-lit limestone passage leads deep below the coliseum.  A crimson pennon hangs above a massive iron gate that leads into the main combat arena."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, out"
+  ],
+  "location": "Ta'Vaalor",
+  "exits": [
+    {
+      "to": 24014,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24016,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 24023,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24026,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

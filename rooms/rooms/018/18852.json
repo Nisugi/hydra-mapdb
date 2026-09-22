@@ -1,0 +1,61 @@
+{
+  "id": 18852,
+  "uid": [
+    108015
+  ],
+  "title": [
+    "[Twilight Hall, The Weaving Room]"
+  ],
+  "description": [
+    "Mystic patterns form in the air before you, whispering to you of secret places and powers untold.  Stepping further into the room, tendrils of mana seem to form before you, each ringing with a tone of magic.  Reaching out with your senses, you feel compelled to weave the tendrils together into something greater, something that defines you.  A spiral staircase leads both upstairs and downstairs."
+  ],
+  "paths": [
+    "Obvious exits: east, up, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      148,
+      653,
+      236,
+      709
+    ]
+  },
+  "exits": [
+    {
+      "to": 18850,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18853,
+      "kind": "go",
+      "cmd": "go slate arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18854,
+      "kind": "go",
+      "cmd": "go swinging doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18855,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18877,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

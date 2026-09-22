@@ -1,0 +1,41 @@
+{
+  "id": 19117,
+  "title": [
+    "[Chortel's Chuckles]"
+  ],
+  "description": [
+    "Garishly painted in a nightmare of orange and yellow, this cluttered and claustrophobic closet of a room is filled with an amazing conglomeration of puzzles, tricks and novelties.  A dented tin tub dangles from the ceiling, a badly frayed rope the only thing keeping it from plummeting to the floor.  On one wall, a small wooden shelf hangs between two flickering oil lanterns, each gathering filmy cobwebs that have turned grey with many layers of collected dust.",
+    "Garishly painted in a nightmare of orange and yellow, this cluttered and claustrophobic closet of a room is filled with an amazing conglomeration of puzzles, tricks, and novelties.  A dented tin tub dangles from the ceiling, a badly frayed rope the only thing keeping it from plummeting to the floor.  On one wall, a small wooden shelf hangs between two flickering oil lanterns, each gathering filmy cobwebs that have turned grey with many layers of collected dust."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "exits": [
+    {
+      "to": 19114,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19150,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23456,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go wooden trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 12744,
+  "uid": [
+    3031064
+  ],
+  "title": [
+    "[Ruined Temple, Third Floor]"
+  ],
+  "description": [
+    "Standing between a pair of columns is a marble statue of a graceful woman.  Her billowing robes have been blackened by flame and a stump remains where her right arm broke off.  Tiny shards of colored glass lay at her feet, blown in from further along the corridor judging by the irregular pattern they form."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      945,
+      101,
+      981,
+      137
+    ]
+  },
+  "exits": [
+    {
+      "to": 12700,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 12743,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12745,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

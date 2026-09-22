@@ -1,0 +1,57 @@
+{
+  "id": 16770,
+  "uid": [
+    13300046
+  ],
+  "title": [
+    "[Temple Wyneb, Effluentorium]"
+  ],
+  "description": [
+    "Water streams out of a clay jug that forms part of a larger carving in the marble wall.  It collects in an oval basin, but instead of pouring gracefully down from there, the liquid trickles unevenly off the broken spout and clings shyly to the yellow-streaked stone as it descends."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      690,
+      572,
+      700,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 16769,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16771,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16781,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get jug"
+        },
+        {
+          "move": "go archway"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

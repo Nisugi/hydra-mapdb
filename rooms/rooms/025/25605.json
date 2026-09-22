@@ -1,0 +1,37 @@
+{
+  "id": 25605,
+  "uid": [
+    283008
+  ],
+  "title": [
+    "[Bard Guild, Winding Stairwell]"
+  ],
+  "description": [
+    "The curving stairwell widens at the foot of a window, its view partially obstructed by heavily carved wooden screens.  Beyond the screens lies a panoramic vista of quaint rooftops and minarets, and in the distance, the sparkle of moonlight on water.  An arched doorway is discretely set in a small alcove produced by the stairway's turn, and from inside, the clink of glass and delicious aromas extend an invitation to come within."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25602,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 25606,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 25607,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    }
+  ]
+}

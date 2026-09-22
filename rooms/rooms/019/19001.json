@@ -1,0 +1,44 @@
+{
+  "id": 19001,
+  "uid": [
+    668008
+  ],
+  "title": [
+    "[Sorcerer Guild, Guild Shop]"
+  ],
+  "description": [
+    "A profusion of luminescent green and blue moss clings to the rocky ceiling, a vibrant sea of light that brightly illuminates every nook and cranny.  Tidy reinforced steel racks and shelves hold an abundance of sorcery materials available to guild members for the right price.  In a bare corner of the shop, a vibrant wall scroll has been nailed up alongside a painted sign."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "sorcerer guild shop"
+  ],
+  "image": {
+    "file": "en-zul-sorcerer_guild-1405076623.png",
+    "rect": [
+      901,
+      461,
+      942,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 18995,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "scroll"
+          ]
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

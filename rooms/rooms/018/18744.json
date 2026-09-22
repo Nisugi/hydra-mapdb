@@ -1,0 +1,54 @@
+{
+  "id": 18744,
+  "uid": [
+    667007
+  ],
+  "title": [
+    "[Sorcerer Guild, Winding Passage]"
+  ],
+  "description": [
+    "The old riverbed widens here, and as the room widens, so too does the sandstone ceiling lower until the dry channel becomes far too short for anyone to follow its southward course.  A streak of milky quartz cuts through the pale orange stone, its pale whiteness glowing dimly with an unnatural light."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      766,
+      608,
+      804,
+      645
+    ]
+  },
+  "exits": [
+    {
+      "to": 18734,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18745,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 19032,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "rock"
+          ]
+        }
+      ],
+      "cost": 5.5
+    }
+  ]
+}

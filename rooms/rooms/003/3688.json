@@ -1,0 +1,50 @@
+{
+  "id": 3688,
+  "uid": [
+    42013
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A reinforced, iron door appears to have been ripped from its hinges by a remarkable force.  It hangs by fragile, twisted bits of metal from its frame, revealing the utter darkness within the cell beyond."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      176,
+      1152,
+      186,
+      1162
+    ]
+  },
+  "exits": [
+    {
+      "to": 3687,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3689,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3802,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

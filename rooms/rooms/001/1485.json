@@ -1,0 +1,57 @@
+{
+  "id": 1485,
+  "uid": [
+    4209068
+  ],
+  "title": [
+    "[Solhaven, Bayside Road]",
+    "[Solhaven, Bayside and Baron's]"
+  ],
+  "description": [
+    "Bayside Road either begins or ends here on the north bank of the Vornavis Canal, depending on whether you're heading northeast or south, and gulls hover constantly, scanning the pavement and the waters for anything edible.  South of here Baron's Bridge arcs over the canal, tying North 'Haven to South and rising high enough to let galleys and barges pass beneath on their way to and from the docks beneath Vornavis.  A deserted quay juts into the water of the bay to the northwest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      636,
+      828,
+      660,
+      852
+    ]
+  },
+  "exits": [
+    {
+      "to": 1482,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1486,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1487,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6102,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

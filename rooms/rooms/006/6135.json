@@ -1,0 +1,103 @@
+{
+  "id": 6135,
+  "uid": [
+    495017
+  ],
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "The shrieking wind races across the frozen ground and slams against the rugged wall which rises sharply to the south.  To one side a sizeable stone chest lies on its side, firmly imbedded in the lava that spilled over it years ago."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Krag slopes",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      1243,
+      959,
+      1279,
+      995
+    ]
+  },
+  "exits": [
+    {
+      "to": 6134,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6136,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "round_until": {
+            "commands": [
+              "north",
+              "south",
+              "search"
+            ],
+            "until": [
+              "you discover a narrow crevice"
+            ]
+          }
+        },
+        {
+          "put": "point crevice",
+          "when": {
+            "flag": "leading_group"
+          }
+        },
+        {
+          "move": "go crevice"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

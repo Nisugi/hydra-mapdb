@@ -1,0 +1,96 @@
+{
+  "id": 17587,
+  "uid": [
+    3216007
+  ],
+  "title": [
+    "[Western Harbor, Seathrak Way]"
+  ],
+  "description": [
+    "Cobblestones laid in concentric bands spread across the plaza from the four avenues that meet here and wrap around an enormous sandstone fountain.  Glass-sided lanterns hang from wrought iron posts at each intersection, their glaesine panes sparkling in the ambient light.",
+    "Cobblestones laid in concentric bands spread across the plaza from the four avenues that meet here and wrap around an enormous sandstone fountain.  Glass-sided lanterns burn brightly from their position on wrought iron posts set at each intersection, their pleasant glow cheerily illuminating the area."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1511,
+      1180,
+      1550,
+      1220
+    ]
+  },
+  "exits": [
+    {
+      "to": 16061,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17583,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17588,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17602,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

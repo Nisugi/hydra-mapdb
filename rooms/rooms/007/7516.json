@@ -1,0 +1,44 @@
+{
+  "id": 7516,
+  "uid": [
+    46015
+  ],
+  "title": [
+    "[Catacombs, Blank Passage]"
+  ],
+  "description": [
+    "The eastern passage opens out into a large, rather barren square room here.  Except for the western wall, which seems relatively new, the walls have begun to crumble in places where water has seeped in through the bricks.  Picks and other tools lie strewn about the room, obviously unused for quite some time.  Some of them have long since turned into unrecognizable piles of rust with partially petrified handles."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      661,
+      1041,
+      671,
+      1051
+    ]
+  },
+  "exits": [
+    {
+      "to": 7515,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7517,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

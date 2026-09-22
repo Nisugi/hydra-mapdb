@@ -1,0 +1,47 @@
+{
+  "id": 18888,
+  "uid": [
+    216028
+  ],
+  "title": [
+    "[Beacon Hall, Locker Entrance]"
+  ],
+  "description": [
+    "This small, austere room is the entry point for the Beacon Hall lockers.  Two curtains are drawn over the openings to the storage area."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Maelstrom Bay",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1212,
+      668,
+      1258,
+      714
+    ]
+  },
+  "exits": [
+    {
+      "to": 16204,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18889,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

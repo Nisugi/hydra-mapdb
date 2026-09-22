@@ -1,0 +1,69 @@
+{
+  "id": 6119,
+  "uid": [
+    495001
+  ],
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "Poised on the very edge of a canyon wall, you look upon the brink of a seemingly bottomless pit, your feet threatening to slip out from beneath you and plunge you into the dark depths below.  The distance across the chasm is not too great, and you ponder the wisdom of trying to cross it."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Krag slopes",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Wehntoph",
+    "mapshortname:Wehntoph"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      1577,
+      26,
+      1613,
+      62
+    ]
+  },
+  "exits": [
+    {
+      "to": 6110,
+      "kind": "climb",
+      "cmd": "climb wall",
+      "cost": 0.2
+    },
+    {
+      "to": 6120,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "jump chasm"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

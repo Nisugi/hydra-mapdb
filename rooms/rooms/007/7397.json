@@ -1,0 +1,53 @@
+{
+  "id": 7397,
+  "uid": [
+    2158001
+  ],
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Rubble and dirt cover the ground at this junction of tunnels, marking the site with the telltale signs of a cave-in.  The low ceiling makes you nervous and causes you to involuntarily stoop beneath it.  Westward, the paths dip as they progress deeper underground."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blackgrove root",
+    "blue moss",
+    "cave moss",
+    "shadowlace moss"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1390,
+      165,
+      1398,
+      173
+    ]
+  },
+  "exits": [
+    {
+      "to": 7396,
+      "kind": "go",
+      "cmd": "go rubble",
+      "cost": 0.2
+    },
+    {
+      "to": 7398,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7399,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

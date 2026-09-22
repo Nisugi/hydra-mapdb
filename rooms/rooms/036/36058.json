@@ -1,0 +1,45 @@
+{
+  "id": 36058,
+  "uid": [
+    8022011
+  ],
+  "title": [
+    "[Halan Lea, Eastern Track]"
+  ],
+  "description": [
+    "Dark trees line the village's eastern edge, their trunks rising in close ranks where the mist from the northern lake drifts through the undergrowth and clings in low sheets along the forest floor.  Resting with its back to the mist and woods, a pristine white felt ger is a bright contrast to the shadowed timber beyond.  Around its base, mats of stonecrop spread across the rocky ground, their small star-shaped yellow blooms clustering in tight patches.  A door painted in warm saffron faces the village."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Northern Steppes",
+  "image": {
+    "file": "fest-white_star-1765071445.png",
+    "rect": [
+      711,
+      193,
+      757,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 36057,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36059,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36062,
+      "kind": "go",
+      "cmd": "go white ger",
+      "cost": 0.2
+    }
+  ]
+}

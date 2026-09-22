@@ -1,0 +1,53 @@
+{
+  "id": 8920,
+  "uid": [
+    680003
+  ],
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "The rippling and faintly bluish light that fills the foyer seems to have no visible source, but is bright enough to reveal the vivid colors of the mosaics that line the curving walls.  A confluence of warm air from the hall to the east and a chill breeze from the arch to the west leaves the flagstones damp with condensation.  A curtained passage opens to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      213,
+      698,
+      265,
+      746
+    ]
+  },
+  "exits": [
+    {
+      "to": 8918,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8921,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8927,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8928,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

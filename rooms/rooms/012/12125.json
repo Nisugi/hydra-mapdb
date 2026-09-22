@@ -1,0 +1,208 @@
+{
+  "id": 12125,
+  "uid": [
+    4569012
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The chapel walls are lined with statues, one for each of the Lords of Liabo and Lornon.  The statues seem to have been carved from wax, detailed to the long eyelashes of Ivas and the polished claws of Andelas.  It is impossible to see the detail of the Gods of Light, for the wax has melted, turning them into misshapen and twisted replicas of what they once were."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest",
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "mass of congealed slime",
+    "slime-covered grave blossom",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      596,
+      1208,
+      604,
+      1216
+    ]
+  },
+  "exits": [
+    {
+      "to": 12141,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12145,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12207,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12235,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12095,
+          12096,
+          12156,
+          12097,
+          12098,
+          null,
+          12151,
+          12133,
+          12152,
+          12248,
+          12139,
+          12106,
+          null,
+          null,
+          12138,
+          12146,
+          12153,
+          12122,
+          12157,
+          12145,
+          12125,
+          12141,
+          12140,
+          12119,
+          12252,
+          12103
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "west",
+          "northwest",
+          "southeast",
+          "southwest",
+          "northwest",
+          "northeast",
+          "west",
+          "southwest",
+          "southeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southwest",
+          "southeast",
+          "southeast",
+          "east",
+          "northeast",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    }
+  ]
+}

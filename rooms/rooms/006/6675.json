@@ -1,0 +1,77 @@
+{
+  "id": 6675,
+  "uid": [
+    487059
+  ],
+  "title": [
+    "[Monastery, Training Arena]"
+  ],
+  "description": [
+    "At first glance, this massive room looks like an open air courtyard found in many strongholds.  After a few moments, however, subtle differences can be seen.  The light illuminating this room comes from dozens of large globes suspended from the ceiling two stories above your head.  The floor is covered with dirt and grass, with a few spots worn away to reveal the stone underneath.  Three doors lead west, and a curtain hangs on the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, south, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      277,
+      1302,
+      287,
+      1312
+    ]
+  },
+  "exits": [
+    {
+      "to": 6674,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6676,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6677,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6678,
+      "kind": "go",
+      "cmd": "go #-8705",
+      "cost": 0.2
+    },
+    {
+      "to": 6679,
+      "kind": "go",
+      "cmd": "go #-8704",
+      "cost": 0.2
+    },
+    {
+      "to": 6680,
+      "kind": "go",
+      "cmd": "go #-8706",
+      "cost": 0.2
+    },
+    {
+      "to": 6681,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 6683,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

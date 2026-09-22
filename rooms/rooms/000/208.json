@@ -1,0 +1,122 @@
+{
+  "id": 208,
+  "uid": [
+    13101016
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "Ringed by stone buildings, the view afforded is one of the bustling heart of Ta'Illistim.  The center of the court is a bustle of activity, as throngs of citizenry and travellers pass through the western center of the city on their way to various destinations.",
+    "Ringed by stone and marble buildings, the view afforded is one of the bustling heart of Ta'Illistim.  The center of the court is marked by a towering obelisk, its base white stone and its high square-sided pyramid sheathed in coraesine and illuminated with blue light.  Around the monument is a small circle of grass, which is itself bounded by curved benches.  The concentric effect of rings within rings carries throughout the courtyard, as even the cobblestones are laid down to make circles on the ground.",
+    "Ringed by stone and marble buildings, the view afforded is one of the bustling heart of Ta'Illistim.  The center of the court is marked by a towering obelisk, its base white stone and its high square-sided pyramid sheathed in coraesine.  Around the monument is a small circle of grass, which is itself bounded by curved benches.  The concentric effect of rings within rings carries throughout the courtyard, as even the cobblestones are laid down to make circles on the ground."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "trash",
+    "urchin guide messageboard",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      470,
+      392,
+      517,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 7,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 3.0
+    },
+    {
+      "to": 8,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 3.0
+    },
+    {
+      "to": 10,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 3.0
+    },
+    {
+      "to": 155,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 3.0
+    },
+    {
+      "to": 156,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 3.0
+    },
+    {
+      "to": 157,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 3.0
+    },
+    {
+      "to": 196,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 3.0
+    },
+    {
+      "to": 638,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 3.0
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

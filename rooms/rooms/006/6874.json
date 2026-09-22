@@ -1,0 +1,44 @@
+{
+  "id": 6874,
+  "uid": [
+    21111
+  ],
+  "title": [
+    "[Abandoned Inn, North Hall]"
+  ],
+  "description": [
+    "The hall ends here with a single swinging door to the east.  Mouthwatering smells waft out each time a member of the wait staff swings the portal open, coaxing a reflexive growl from your stomach.  A loud, energetic bellowing voice echoes through the corridor, issuing instructions for food preparation and presentation that rival the orders of any military commander.  To the west opens a graceful archway, framed in engraved wood."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      835,
+      965,
+      845,
+      975
+    ]
+  },
+  "exits": [
+    {
+      "to": 6873,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6875,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

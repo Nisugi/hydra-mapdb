@@ -1,0 +1,43 @@
+{
+  "id": 34987,
+  "uid": [
+    12101103
+  ],
+  "title": [
+    "[The White Wyrm, Main Deck]"
+  ],
+  "description": [
+    "Toward the fore of the ship, the main deck widens.  Crates and supplies are stacked along the bulkheads, secured to them by hooks and sturdy hempen ropes, save around the base of a pale metal ladder that leads to the upper deck.  They leave sufficient space to access crew quarters through a narrow archway in the eastern wall.  Heavily reinforced with golvern, a riveted imflass hatch leads toward the ship's bridge."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34985,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34988,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 34989,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 34990,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 27677,
+  "title": [
+    "[Clovertooth, Second Floor Hall]"
+  ],
+  "description": [
+    "In this relatively quiet space, the hallway bends sharply to the northeast and northwest.  Opposite the passages, a steel-reinforced door and a stark white arch each lead into the offices of town officials.  Between the two entries, an antique silver coffer rests open on a marble stand, its interior lined with cerulean satin.  A single mint silver coin is held in place by some spell or mystical force, hovering just above the coffer's center.  Three bright ice blue motes trapped in crystal placed on the walls illuminate the area."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      486,
+      406,
+      588,
+      473
+    ]
+  },
+  "exits": [
+    {
+      "to": 27674,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27678,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27685,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 27686,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

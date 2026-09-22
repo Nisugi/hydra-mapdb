@@ -1,0 +1,117 @@
+{
+  "id": 27865,
+  "title": [
+    "[Suspended Gazebo]"
+  ],
+  "description": [
+    "Large ropes suspend the gazebo over a clearing in the forest below.  A massive iron brazier is hung at deck level from the center of the ceiling.  Cushioned, low back cedar chairs and small side tables are arranged about the deck.  Some paper lanterns are suspended from the ceiling for nighttime entertaining.  In the distance, the chromatic spray of Rainbow Falls can be seen through the trees.  Branching off in separate directions are rope bridges, each terminating in one of the doors to the different tree houses."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 27864,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock stained door"
+        },
+        {
+          "put": "open stained door"
+        },
+        {
+          "move": "go stained door"
+        },
+        {
+          "put": "close stained door"
+        },
+        {
+          "put": "lock stained door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    },
+    {
+      "to": 27866,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock sturdy door"
+        },
+        {
+          "put": "open sturdy door"
+        },
+        {
+          "move": "go sturdy door"
+        },
+        {
+          "put": "close sturdy door"
+        },
+        {
+          "put": "lock sturdy door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    },
+    {
+      "to": 27868,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock heavy door"
+        },
+        {
+          "put": "open heavy door"
+        },
+        {
+          "move": "go heavy door"
+        },
+        {
+          "put": "close heavy door"
+        },
+        {
+          "put": "lock heavy door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    }
+  ]
+}

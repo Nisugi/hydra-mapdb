@@ -1,0 +1,57 @@
+{
+  "id": 17662,
+  "uid": [
+    5009034
+  ],
+  "title": [
+    "[The Warren, River Walk]"
+  ],
+  "description": [
+    "Docks extend out from the river walk, offering safe mooring for numerous river craft away from the turbulent current of the north fork of the Tempest.  Built upon one particular dock is a wooden structure, from which emerge rich aromas of fried seafood.  The river walk is paved with uneven cobblestones scarred by deep set ruts.  Large wood buildings line the street with wide, open loading bays offering glimpses of stacked crates and barrels inside, while dangerous-looking men stand sentry outside."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      283,
+      53,
+      321,
+      92
+    ]
+  },
+  "exits": [
+    {
+      "to": 17661,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17663,
+      "kind": "go",
+      "cmd": "go structure",
+      "cost": 0.2
+    },
+    {
+      "to": 17664,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 17674,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

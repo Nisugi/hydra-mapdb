@@ -1,0 +1,44 @@
+{
+  "id": 32442,
+  "uid": [
+    4577106
+  ],
+  "title": [
+    "[Moonsedge, Castle Approach]"
+  ],
+  "description": [
+    "The walls of the castle are high and crenellated, vaulting far overhead.  Cut and carved from dark basalt, they are etched with a bas-relief moon and briar emblem over a heavy steel portcullis that appears to be the primary means of entering the castle grounds.  Banners in scarlet and charcoal fabric bear the same device, flapping forlornly overhead on the cold highland breeze."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      503,
+      768,
+      521,
+      787
+    ]
+  },
+  "exits": [
+    {
+      "to": 32440,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32443,
+      "kind": "go",
+      "cmd": "go steel portcullis",
+      "cost": 0.2
+    }
+  ]
+}

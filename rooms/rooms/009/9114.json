@@ -1,0 +1,57 @@
+{
+  "id": 9114,
+  "uid": [
+    4045225
+  ],
+  "title": [
+    "[Great Cavern, Bog]"
+  ],
+  "description": [
+    "There must be a stone floor beneath the mist here, but it is covered by thick, oozing mud.  You might step down into it to find out how deep it goes, but a little voice tells you that you are better off keeping to the firmer spots.  Odd sounds reverberate through the dark mist, continuing too long to be echos."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west, up"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "orchil lichen"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      198,
+      729,
+      208,
+      739
+    ]
+  },
+  "exits": [
+    {
+      "to": 9110,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9115,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9117,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9119,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

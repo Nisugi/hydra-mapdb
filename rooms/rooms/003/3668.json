@@ -1,0 +1,106 @@
+{
+  "id": 3668,
+  "uid": [
+    3201029
+  ],
+  "title": [
+    "[Gardenia Commons]"
+  ],
+  "description": [
+    "The soft, soothing sound of the carved marble fountain that dominates Gardenia Commons breaks the omnipresent silence of night.  Bright moonlight dapples the area in a silvery glow and reflects off the water pouring into the fountain, causing ripples of ethereal light to dance across the mist that clings to the cobblestone street.  A light, thin layer of dew glistens on the wrought iron benches that encircle the fountain.",
+    "The soft, soothing sound of the carved marble fountain that dominates Gardenia Commons breaks the silence of day.  Bright sunlight dapples the area in a warm glow and reflects off the water pouring into the fountain, causing rainbows of ethereal light to dance across the mist that clings to the cobblestone street.  A light, thin layer of dew glistens on the wrought iron benches that encircle the fountain."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "commons",
+    "no forageables",
+    "node",
+    "supernode",
+    "town",
+    "urchin guide commons",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Isle of the Four Winds",
+    "mapcategory:Premium",
+    "mapcategory:Towns",
+    "mapname:Isle of the Four Winds - Mist Harbor",
+    "mapshortname:Mist Harbor"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2750,
+      1301,
+      2830,
+      1382
+    ]
+  },
+  "exits": [
+    {
+      "to": 3637,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.8
+    },
+    {
+      "to": 3649,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.8
+    },
+    {
+      "to": 3657,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.8
+    },
+    {
+      "to": 3669,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.8
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

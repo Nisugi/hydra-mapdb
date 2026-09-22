@@ -1,0 +1,45 @@
+{
+  "id": 35742,
+  "uid": [
+    7150531
+  ],
+  "title": [
+    "[The Tonbury, Belowdecks]"
+  ],
+  "description": [
+    "Mold-covered beams of warped oak sag over a narrow corridor made moreso by stacked crates half-submerged in murky seawater.  A few barrels have mostly rotted away, leaving behind rusted iron hoops resembling grate corroded bracelets.  Rimmed with jagged barnacles, a black steel hatch stands open, nearly torn from its tortured hinges."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      840,
+      3240,
+      920,
+      3320
+    ]
+  },
+  "exits": [
+    {
+      "to": 35741,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35743,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

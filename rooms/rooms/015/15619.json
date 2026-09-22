@@ -1,0 +1,156 @@
+{
+  "id": 15619,
+  "uid": [
+    112037
+  ],
+  "title": [
+    "[Loci Workshop, Confluence]"
+  ],
+  "description": [
+    "Small and square, the stone walls of this chamber are oriented so that each corner is at a cardinal direction.  Four pillars occupy the ground midway between the center of the room and each corner, each balancing on the merest point, standing on a base formed of an inverted, four-sided pyramid.  A dim, green-tinged white glow emanates from the semi-translucent base of each pillar, as if the pyramids were formed of some kind of luminescent crystal."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "travel waiting room"
+  ],
+  "exits": [
+    {
+      "to": 8634,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "imt,wl"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:imt,wl"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "imt,wl"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 8.8
+          }
+        ]
+      }
+    },
+    {
+      "to": 8916,
+      "kind": "go",
+      "cmd": "go corridor",
+      "cost": 0.2
+    },
+    {
+      "to": 14360,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "imt,sol"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:imt,sol"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "imt,sol"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 8.8
+          }
+        ]
+      }
+    }
+  ]
+}

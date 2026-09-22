@@ -1,0 +1,58 @@
+{
+  "id": 12690,
+  "uid": [
+    3031104
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The remains of a large mosaic remain inset into sections of the wall, including portions that have deteriorated and fallen to the north, blocking access.  An elaborately carved stone causeway descends to the west, forming a stable path to the balcony below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      878,
+      438,
+      914,
+      474
+    ]
+  },
+  "exits": [
+    {
+      "to": 12684,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12685,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12689,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12701,
+      "kind": "go",
+      "cmd": "go causeway",
+      "cost": 0.2
+    }
+  ]
+}

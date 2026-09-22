@@ -1,0 +1,49 @@
+{
+  "id": 22190,
+  "uid": [
+    14119001
+  ],
+  "title": [
+    "[Guardian Keep, Courtyard]"
+  ],
+  "description": [
+    "A wide cobblestone walkway leads across a cultivated green lawn directly to the doors of Guardian Keep.  Flanking the walkway on either side are rows of meticulously trimmed hedges, expertly shaped to resemble a variety of creatures.  The keep itself soars three stories high, its crenellated granite walls anchored by an immense tower at its northwest corner.  To the east and west, a path leads to row upon row of dazzlingly colorful flowerbeds.  A massive iron portcullis exits to the gatehouse."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "citizenship:Ta'Vaalor"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      934,
+      422,
+      952,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 22089,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 22217,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 31838,
+  "uid": [
+    8083417
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "A snake slithers out of the dark underbrush, down the muddy embankment and disappears into the murky waters of the river.  A fallen hardwood featuring a hollow trunk teems with insects across its cracked grey bark, an infernal buzzing filling the air.  The trees close in on either side as the channel narrows and bends."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1445,
+      683,
+      1466,
+      705
+    ]
+  },
+  "exits": [
+    {
+      "to": 31837,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 31839,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

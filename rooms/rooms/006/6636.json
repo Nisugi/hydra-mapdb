@@ -1,0 +1,47 @@
+{
+  "id": 6636,
+  "uid": [
+    487016
+  ],
+  "title": [
+    "[Broken Lands, Hallway]"
+  ],
+  "description": [
+    "The corridor ends at an ornate black marble arch leading to what appears to be a large, open area to the south.  Two small wooden doors stand across from each other on the eastern and western walls.  A crimson vaalin sconce holding a lit torch is mounted on the wall to either side of the arch."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      276,
+      1127,
+      286,
+      1137
+    ]
+  },
+  "exits": [
+    {
+      "to": 6634,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6635,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6637,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 14115,
+  "uid": [
+    4219341
+  ],
+  "title": [
+    "[Warehouse, First Floor]"
+  ],
+  "description": [
+    "The floor of the warehouse creaks and groans underfoot.  A thin layer of dust coats everything, and packing straw collects in almost every corner, nook, and crack.  The boxes and crates part to allow passage to the north and west from here."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-warehouse_lockers-1485119080.png",
+    "rect": [
+      715,
+      1417,
+      818,
+      1471
+    ]
+  },
+  "exits": [
+    {
+      "to": 5689,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14116,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 30734,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 23205,
+  "uid": [
+    5001056
+  ],
+  "title": [
+    "[Timor's, House Annex Hallway]"
+  ],
+  "description": [
+    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "unique_loot": [
+    "bronze curtain with the sigil of Helden Hall"
+  ],
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 15417,
+      "kind": "go",
+      "cmd": "go bronze curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 23199,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23206,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32974,
+      "kind": "go",
+      "cmd": "go green curtain",
+      "cost": 0.2
+    }
+  ]
+}

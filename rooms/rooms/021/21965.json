@@ -1,0 +1,65 @@
+{
+  "id": 21965,
+  "title": [
+    "[Talador Mines, Cavern Ascent]"
+  ],
+  "description": [
+    "A small jagged outcropping juts from the wall, darkness all around.  Tiny, glowing white worms slowly inch up the sides of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      900,
+      361,
+      913,
+      374
+    ]
+  },
+  "exits": [
+    {
+      "to": 21964,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 21966,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21967,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

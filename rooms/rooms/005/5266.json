@@ -1,0 +1,109 @@
+{
+  "id": 5266,
+  "uid": [
+    4214114
+  ],
+  "title": [
+    "[Vornavian Coast, Pine Forest]"
+  ],
+  "description": [
+    "High above, the green canopy of pine grows thin, allowing light to stream through the woods and brighten the path here.  The soft glow illuminates the woods, and moonlight leaks through to shine on rocks and bushes off to the side of the path.  Toads lounge on larger rocks, flicking out tongues to catch the occasional insect buzzing past.",
+    "High above, the green canopy of pine grows thin, allowing bright light to stream through the woods and brighten the path here.  The green glow warms the woods, and direct sunlight leaks through to shine on rocks and bushes off to the side of the path.  Lizards sun themselves on larger rocks, flicking out tongues to catch the occasional insect buzzing past."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "birch bark",
+    "blood orange",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coffee cherries",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "grapefruit",
+    "handful of pinenuts",
+    "haphip root",
+    "ironfern root",
+    "kylan berry",
+    "oxblood lily",
+    "pine cone",
+    "pine needles",
+    "pink rain lily",
+    "red vornalite mushroom",
+    "round yuzu",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "sunburst blossom",
+    "tanik twig",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "white baneberry",
+    "white lily",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      471,
+      554,
+      479,
+      562
+    ]
+  },
+  "exits": [
+    {
+      "to": 5265,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5267,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb rockslide"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 12993,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

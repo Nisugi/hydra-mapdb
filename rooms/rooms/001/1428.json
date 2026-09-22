@@ -1,0 +1,51 @@
+{
+  "id": 1428,
+  "uid": [
+    4209004
+  ],
+  "title": [
+    "[Solhaven, Tumbledown Lane]"
+  ],
+  "description": [
+    "The cobbled street twists southward, snaking its way down the cliffside.  Several stone cottages line the street to one side, while on the other lie the roofs of the next.  Two well-dressed merchants, deep in conversation, stand in front of the largest cottage."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1307,
+      198,
+      1331,
+      222
+    ]
+  },
+  "exits": [
+    {
+      "to": 1427,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 1429,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13974,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    }
+  ]
+}

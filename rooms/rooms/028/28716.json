@@ -1,0 +1,31 @@
+{
+  "id": 28716,
+  "uid": [
+    3003105
+  ],
+  "title": [
+    "[Company Lockers]"
+  ],
+  "description": [
+    "You are standing in a tiny room whose facing wall is an array of small, locked doors.  One of the lockers has been removed for you and is sitting in a small counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "peer opening =~ /^Obvious exits: east, west$/"
+  ],
+  "meta": [
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 13059,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

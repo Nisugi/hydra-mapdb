@@ -1,0 +1,83 @@
+{
+  "id": 13926,
+  "uid": [
+    14201100
+  ],
+  "title": [
+    "[Lilly's Tavern]"
+  ],
+  "description": [
+    "Silvery hoarbeam panels cover the walls of this large central room.  A few tables sit across from the bar, lit with small chandeliers suspended from the ceiling.  Above the bar, a large painting hangs directly opposite an archway.  The clanking of tankards and the sometimes loud conversation of patrons make this tavern a lively place."
+  ],
+  "paths": [
+    "Obvious exits: north, out",
+    "Obvious exits: out"
+  ],
+  "location": "the hamlet of Ravelin",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 13925,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13927,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 13963,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23977,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go king table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23981,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go queen table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23983,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go knight table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23985,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go jester table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

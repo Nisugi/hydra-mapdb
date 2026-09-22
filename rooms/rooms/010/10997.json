@@ -1,0 +1,60 @@
+{
+  "id": 10997,
+  "uid": [
+    2101706
+  ],
+  "title": [
+    "[Museum, Entrance Hall]"
+  ],
+  "description": [
+    "A gigantic mosaic forms the floor of the entrance hall.  Exhibit rooms branch off in the cardinal directions.  The circular stairway at the back of the hall is blocked off by a velvet rope barrier.  A small sign stands beside the graceful arched doorway leading out."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 10870,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go doorway"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 10998,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10999,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11000,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11001,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

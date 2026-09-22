@@ -1,0 +1,44 @@
+{
+  "id": 10391,
+  "uid": [
+    14102051
+  ],
+  "title": [
+    "[Malwith Inn, Hallway]"
+  ],
+  "description": [
+    "Crystal lanterns, filled with a pale red oil, illuminate the room with a golden glow.  A tall, mahogany door with a brass doorknob dominates the northern wall.  An identical twin made from pine occupies the southern wall.  A silver plaque, centered perfectly, adorns each door."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 10389,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10392,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15563,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 17323,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 2485,
+  "title": [
+    "[Clovertooth Hall, Locker Booth]"
+  ],
+  "description": [
+    "You are standing in a cramped room filled with short stacks of lockers.  One of these lockers has been removed for you and placed on a tiny wooden counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "tags": [
+    "gone",
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 2440,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go curtain"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go curtain",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

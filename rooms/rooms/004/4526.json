@@ -1,0 +1,39 @@
+{
+  "id": 4526,
+  "title": [
+    "[Crystal Level, Hall]"
+  ],
+  "description": [
+    "A wheelbarrow filled with ore separates two miners engaged in a heated debate.  Their faces are covered with soot, and their beards are so full of the dark silt that one good shake would create a dust storm.  The argument is in the dwarven tongue, but the word \"elf\" is repeated often, and not in a very pleasant tone."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4519,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4527,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 4531,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

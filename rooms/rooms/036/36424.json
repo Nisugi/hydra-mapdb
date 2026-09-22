@@ -1,0 +1,53 @@
+{
+  "id": 36424,
+  "uid": [
+    58035
+  ],
+  "title": [
+    "[Dungeon, Anteroom]"
+  ],
+  "description": [
+    "The small anteroom, made of standard stonework and wooden beams, is mostly bare and empty, sending eerie, hollow echoes into the adjacent rooms.  A red tapestry, faded and old, is the only adornment in the room, but whatever design was once proudly displayed there has been lost to time.  An open portal leads into a larger chamber to the west."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1880,
+      360,
+      1920,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36423,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 36425,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36426,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36432,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

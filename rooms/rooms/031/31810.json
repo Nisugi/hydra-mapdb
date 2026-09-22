@@ -1,0 +1,68 @@
+{
+  "id": 31810,
+  "uid": [
+    8083422
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "Monstrous, deformed trees grow out of the grey-green river, their twisted limbs acting as route markers pointing in the directions of the diverging currents.  A fallen bough floats on the surface of the deep water beneath the vine-draped branches.  To the southeast, a small waterfall carries a handful of skeletal leaves on a sluggish current towards a heavily wooded terrain."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1633,
+      647,
+      1656,
+      669
+    ]
+  },
+  "exits": [
+    {
+      "to": 31602,
+      "kind": "go",
+      "cmd": "go stones",
+      "cost": 0.2
+    },
+    {
+      "to": 31839,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31840,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 32070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

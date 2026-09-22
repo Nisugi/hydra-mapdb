@@ -1,0 +1,44 @@
+{
+  "id": 25803,
+  "uid": [
+    3223748
+  ],
+  "title": [
+    "[Dawe's Home, Water Tunnel]"
+  ],
+  "description": [
+    "The noise in this long glass hallway is almost deafening from the endless water crashing onto the domed glass ceiling.  The view through the walls is distorted by the waterfall splashing down on all sides, but deep green foliage and dark grey rock is blurrily visible.  At the far end of the hallway is a glass door."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2120,
+      380,
+      2160,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 25798,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25804,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

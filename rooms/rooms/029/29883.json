@@ -1,0 +1,51 @@
+{
+  "id": 29883,
+  "uid": [
+    7503104
+  ],
+  "title": [
+    "[Hinterwilds, Issenflow Banks]"
+  ],
+  "description": [
+    "The woodland thins along the banks of the Issenflow.  Icy water gurgles along, driven by the river's sluggish currents.  In places, it has worn away the dark earth of the bank to reveal the spreading roots of the surrounding trees, and the blanched wood looks like exposed bone protruding from a wound."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "glacial",
+  "terrain": "riparian",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      724,
+      1147,
+      739,
+      1163
+    ]
+  },
+  "exits": [
+    {
+      "to": 29882,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29885,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30115,
+      "kind": "go",
+      "cmd": "go river",
+      "cost": 0.2
+    }
+  ]
+}

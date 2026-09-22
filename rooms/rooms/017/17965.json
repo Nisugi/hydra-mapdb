@@ -1,0 +1,57 @@
+{
+  "id": 17965,
+  "uid": [
+    260005
+  ],
+  "title": [
+    "[Rogue Guild, West Courtyard]"
+  ],
+  "description": [
+    "The courtyard widens into an irregularly-shaped ground, bounded by the uneven back walls of the buildings to the north and south.  The ground is soft, and covered with a layer of snow and mud and the tracks of hundreds of passing boots.  The building to the west, unlike the others, seems to have been built facing in on the courtyard, and its small door is guarded by a pair of neatly-trimmed fir trees."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt",
+    "rogue guild footpads",
+    "rogue guild mannequin",
+    "rogue guild mannequins",
+    "rogue guild masters",
+    "rogue guild plant",
+    "rogue guild trainer",
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "imt-rogue_guild-1305438533.png",
+    "rect": [
+      288,
+      343,
+      317,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 17966,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17967,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30768,
+      "kind": "other",
+      "cmd": "ask duchel about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 9208,
+  "uid": [
+    7532003
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "The walkway vanishes into a swirling mist to the south, and it is totally impossible to see anything past the impenetrable fog.  A few sparkles of light dance within the haze, changing colors as they move within the spiralling substance."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1146,
+      786,
+      1156,
+      796
+    ]
+  },
+  "exits": [
+    {
+      "to": 9207,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9209,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9221,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

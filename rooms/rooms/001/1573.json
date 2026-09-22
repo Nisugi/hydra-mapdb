@@ -1,0 +1,64 @@
+{
+  "id": 1573,
+  "uid": [
+    4902111
+  ],
+  "title": [
+    "[Solhaven, South Market SE]"
+  ],
+  "description": [
+    "Puffin Street, leading out of the market to the east, is torn up and impassable.  Piles of rotted planks alongside stacks of new ones lie beside the gaping hole that was once a roadway.  Dim light bathes the ground infront of the candle-laddened windows of a haon and fel shop.",
+    "Puffin Street, leading out of the market to the east, is torn up and impassable.  Piles of rotted planks alongside stacks of new ones lie beside the gaping hole that was once a roadway.  Despite the disruption, a shop of alternating haon and fel planks, and windows filled with brightly colored and sculpted candles, has a regular stream of customers coming and going from its open doorway."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      697,
+      1458,
+      721,
+      1482
+    ]
+  },
+  "exits": [
+    {
+      "to": 1571,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1572,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1574,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13473,
+      "kind": "go",
+      "cmd": "go haon shop",
+      "cost": 0.2
+    },
+    {
+      "to": 34382,
+      "kind": "go",
+      "cmd": "go knotty shop",
+      "cost": 0.2
+    }
+  ]
+}

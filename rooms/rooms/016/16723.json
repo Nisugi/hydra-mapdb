@@ -1,0 +1,133 @@
+{
+  "id": 16723,
+  "uid": [
+    17005015
+  ],
+  "title": [
+    "[Aradhul Road, Precipice]"
+  ],
+  "description": [
+    "Wrapped securely around the base of a weathered a stone column is a thick rope leading downward, which disappears over the precipice edge and out of sight.  Directly opposite the column is the shattered remains of another, the pair of stone sentinels guarding the entrance to a broken bridge that ends abruptly after only a few feet.  Further ahead and in the ravine, a broken section of the stone bridge stands alone, reachable only by flying creatures or those who wish to attempt a dangerous leap."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "bolmara lichen",
+    "crimson dragonstalk",
+    "deep purple shockroot",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "hop flowers",
+    "ironfern root",
+    "juicy plum",
+    "leek",
+    "mountain dryad",
+    "pepperthorn root",
+    "red thanot berry",
+    "rhubarb",
+    "shallot",
+    "small apple",
+    "small dandelion",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "thanot thorn",
+    "thin hemp",
+    "viburnum twig",
+    "violet shining rose",
+    "wild pink geranium",
+    "wild sage",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      329,
+      559,
+      348,
+      576
+    ]
+  },
+  "exits": [
+    {
+      "to": 16722,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 16724,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb thick rope"
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 18755,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "jump bridge"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

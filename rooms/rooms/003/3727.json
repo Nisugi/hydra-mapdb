@@ -1,0 +1,143 @@
+{
+  "id": 3727,
+  "uid": [
+    14100003
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Gate]"
+  ],
+  "description": [
+    "The towering city gate looms above, its massive edifice built from thick blocks of pale ivory limestone.  Intricate carvings adorn the blocks, each depicting various scenes of battle and occasionally a representation of Koar or Eonak.  City guardsmen flank the gate's opening, inspecting each entrant into the city's vast interior.",
+    "The towering city gate looms above.  Oily burning torches cast flickering light across the carvings, making them appear to writhe against the pale stone.  City guardsmen flank the gate's opening, inspecting each entrant into the city's vast interior.",
+    "The towering city gate looms above, its massive edifice built from thick blocks of pale ivory limestone.  Intricate carvings adorn the blocks, each depicting various scenes of battle and occasionally a representation of Koar or Eonak.  Oily burning torches cast flickering light across the carvings, making them appear to writhe against the pale stone.  City guardsmen flank the gate's opening, inspecting each entrant into the city's vast interior."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "guard",
+    "stalk of bluebells",
+    "urchin guide guard",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "teleport"
+  ],
+  "image": {
+    "file": "en-fearling-1632908688.png",
+    "rect": [
+      1002,
+      889,
+      1012,
+      899
+    ]
+  },
+  "exits": [
+    {
+      "to": 3483,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unhide",
+          "when": {
+            "flag": "invisible"
+          }
+        },
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6104,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "3727"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "3727"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

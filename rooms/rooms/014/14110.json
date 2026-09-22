@@ -1,0 +1,41 @@
+{
+  "id": 14110,
+  "uid": [
+    4740113
+  ],
+  "title": [
+    "[Captain's Rest, Upstairs Hall]"
+  ],
+  "description": [
+    "Polished mithril lamps shed light along the green rug leading to a fel door at the end of the hall.  Across the hall from a linden door, on a small stand, is a twin-masted sailing ship in a clear bottle.  The loving care that went into building this model is evident in all the tiny detail."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 5640,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14111,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 14112,
+      "kind": "go",
+      "cmd": "go fel door",
+      "cost": 0.2
+    }
+  ]
+}

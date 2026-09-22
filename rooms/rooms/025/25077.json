@@ -1,0 +1,45 @@
+{
+  "id": 25077,
+  "uid": [
+    -7105107
+  ],
+  "title": [
+    "[Reim Settlement, Courtyard]"
+  ],
+  "description": [
+    "Looming overhead, a stone barracks crested by an iron-framed wooden sign fills the courtyard.  On either side of the barracks, racks are filled with assorted armaments and shields sloppily painted with faces.  The cobblestone path curves south towards a long flight of stairs."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      407,
+      539,
+      420,
+      554
+    ]
+  },
+  "exits": [
+    {
+      "to": 25075,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25078,
+      "kind": "go",
+      "cmd": "go barracks",
+      "cost": 0.2
+    },
+    {
+      "to": 25079,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

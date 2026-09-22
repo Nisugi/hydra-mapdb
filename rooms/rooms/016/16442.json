@@ -1,0 +1,40 @@
+{
+  "id": 16442,
+  "uid": [
+    261037
+  ],
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "A chill draft blows up from the narrow stairwell at the end of the hallway.  A lone torch set in a brass sconce near the stairs illuminates the bare stone of the walls, which are uncovered by insulating tapestries here."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      336,
+      359,
+      364,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 16439,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16443,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    }
+  ]
+}

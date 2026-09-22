@@ -1,0 +1,49 @@
+{
+  "id": 8165,
+  "uid": [
+    24013
+  ],
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The passage narrows and the floor falls away to reveal a wide crevice over a dark pit.  The passage appears to continue on the other side of the crevice that is bridged by an old, rotted plank that was once a shoring timber."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the crystal caves",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      832,
+      575,
+      842,
+      585
+    ]
+  },
+  "exits": [
+    {
+      "to": 8164,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8166,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    }
+  ]
+}

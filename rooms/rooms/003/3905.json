@@ -1,0 +1,83 @@
+{
+  "id": 3905,
+  "uid": [
+    4744101
+  ],
+  "title": [
+    "[Market Bridge]"
+  ],
+  "description": [
+    "This section of the market bridge slopes strongly upward toward the center of the bridge high above the Cairnfang delta, and down into Marshtown to the north.  The timbers that make up the bridge are reinforced with thick ropes and iron bands.  Long spikes hold planks firmly in place."
+  ],
+  "paths": [
+    "Obvious paths: northwest, up"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "marketbridge",
+    "stalk of bluebells",
+    "urchin guide marketbridge",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      636,
+      198,
+      660,
+      222
+    ]
+  },
+  "exits": [
+    {
+      "to": 3904,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3906,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

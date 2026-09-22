@@ -1,0 +1,59 @@
+{
+  "id": 24919,
+  "uid": [
+    -7105012
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "Empty wooden crates and upside down barrels litter the yard of a whitewashed stone tavern with shuttered windows.  At the edge of the lane, long, withered vines cling to an arched trellis over a walkway leading to a bakeshop.  To the east, a plaza spreads out in the middle of the square."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      670,
+      836,
+      684,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 24904,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24912,
+      "kind": "go",
+      "cmd": "go plaza",
+      "cost": 0.2
+    },
+    {
+      "to": 24930,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 24931,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24946,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

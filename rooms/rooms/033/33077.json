@@ -1,0 +1,47 @@
+{
+  "id": 33077,
+  "uid": [
+    7134058
+  ],
+  "title": [
+    "[Flotilla, Mermaid's Plunge]"
+  ],
+  "description": [
+    "Ocean water churns below, taking up a large portion of the flotilla's core.  A rope strung between two unsteady-looking poles is all that separates the denizens of the deck from a plunge, and a series of painted buoys has been wrapped around one pole for rescue purposes.  The deck here has deep score marks that look a bit too uneven to be from moving crates and are deepest right next to the edge of the pool."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      256,
+      300,
+      267,
+      310
+    ]
+  },
+  "exits": [
+    {
+      "to": 33075,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33078,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33080,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

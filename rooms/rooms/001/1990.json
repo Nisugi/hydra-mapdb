@@ -1,0 +1,62 @@
+{
+  "id": 1990,
+  "uid": [
+    3002010
+  ],
+  "title": [
+    "[Kharam-Dzu, Bazaar Central]"
+  ],
+  "description": [
+    "The cobblestones give way here to the kinder spring of wood--wide, smooth planks fashioned into a large square and sealed with amber resin.  Benches and jute-seated sling-backs scatter across the area, most occupied by adventurers and townspeople who have stopped to rest their weary bones.  Sounds of laughter and mirth roll in from the east, pulling your gaze toward a canopied bar.  You notice right away that there are a few empty stools."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      468,
+      304,
+      504,
+      340
+    ]
+  },
+  "exits": [
+    {
+      "to": 1853,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1854,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1855,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1857,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14819,
+      "kind": "go",
+      "cmd": "go bar",
+      "cost": 0.2
+    }
+  ]
+}

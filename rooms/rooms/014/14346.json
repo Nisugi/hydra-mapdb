@@ -1,0 +1,41 @@
+{
+  "id": 14346,
+  "uid": [
+    4901107
+  ],
+  "title": [
+    "[The Krawling Kraken, Upstairs]"
+  ],
+  "description": [
+    "A staircase can be seen off to the south end of the polished mahogany hallway.  Sporadic bursts of laughter and raucous singing can be heard coming from somewhere below.  A quick glance over the oak railing shows a few people wandering aimlessly from place to place.  A wide oak door has been set into the west wall where the hallway makes a turn to the northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14327,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14344,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14347,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

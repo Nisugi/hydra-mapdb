@@ -1,0 +1,60 @@
+{
+  "id": 440,
+  "uid": [
+    9016
+  ],
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "You are standing on the western shore of the Locksmehr river.  From here you can see the southern water entrance to the town of Wehnimer's Landing.  It is through this entrance that the boats returning from their upstream sojourns to the south have access to the town.  A rough trail descends a rocky slope toward a stand of willow trees."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "blue water lily",
+    "murdroot",
+    "stalk of cattail",
+    "strand of seaweed",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "white water lily",
+    "wild gooseberry",
+    "yellow water lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      711,
+      438,
+      721,
+      448
+    ]
+  },
+  "exits": [
+    {
+      "to": 439,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3608,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 13033,
+      "kind": "climb",
+      "cmd": "climb trail",
+      "cost": 0.2
+    }
+  ]
+}

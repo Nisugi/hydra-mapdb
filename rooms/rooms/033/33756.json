@@ -1,0 +1,46 @@
+{
+  "id": 33756,
+  "uid": [
+    170909
+  ],
+  "title": [
+    "[Luinne Bheinn, Granite Edge]"
+  ],
+  "description": [
+    "Wind-scarred walls of rugged granite form a high natural barrier around a deep valley nestled among the mountain range below.  Several rocks have been chiseled away into the shape of crude ramparts, giving the very peaks a castle-like appearance."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Talador",
+  "terrain": "mountainous",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      178,
+      457,
+      195,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 33755,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33757,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33765,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    }
+  ]
+}

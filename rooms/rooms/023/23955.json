@@ -1,0 +1,48 @@
+{
+  "id": 23955,
+  "title": [
+    "[River's Rest, Festival Grounds]"
+  ],
+  "description": [
+    "Strung between nearby poles, small flags sway back and forth in the breezes that waft off the river, making a quiet flapping sounds as they move.  Below, the wagons and stalls are sparse here, leaving thick tufts of grass to grow up into a soft carpet of green."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "River's Rest",
+  "image": {
+    "file": "fest-picklefest-1439662135.png",
+    "rect": [
+      280,
+      87,
+      306,
+      112
+    ]
+  },
+  "exits": [
+    {
+      "to": 23948,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23953,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23972,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 24583,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    }
+  ]
+}

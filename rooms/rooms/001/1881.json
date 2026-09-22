@@ -1,0 +1,73 @@
+{
+  "id": 1881,
+  "uid": [
+    3003066
+  ],
+  "title": [
+    "[Locks Picked & Lockpicks]"
+  ],
+  "description": [
+    "Darkness seems to be the theme for this room as it has no lighting save for what washes in from the entrance.  Before you is a short wooden counter with an odd-looking tree of keys resting on it.  You notice a small note just under the tree.  Behind the counter, a slit-eyed halfling watches you with a practice-wary gaze.",
+    "Darkness seems to be the theme for this room as it has no lighting save for what washes in from the entrance.  Before you is a short wooden counter with an odd-looking tree of keys resting on it, beneath which is a small note.  A dusty wooden crate sits in a shadowed corner.  Behind the counter, a slit-eyed halfling watches you with a practice-wary gaze."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "locksmith",
+    "locksmith shop",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:dusty wooden crate"
+  ],
+  "exits": [
+    {
+      "to": 1880,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

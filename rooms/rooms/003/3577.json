@@ -1,0 +1,76 @@
+{
+  "id": 3577,
+  "uid": [
+    4291028
+  ],
+  "title": [
+    "[Thanatoph, Lower Landing]"
+  ],
+  "description": [
+    "The mountain levels off here, opening into an enormous landing.  Worn smooth by the passage of many years and many feet, the landing spreads out far enough to hold hundreds of people.  Dominating the landing, enormous ancient stone stairs carved into the mountain form a jagged, meandering spine winding up the side of Thanatoph.  Rough-hewn and oversized, the stairs appear hard to climb."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      405,
+      912,
+      415,
+      922
+    ]
+  },
+  "exits": [
+    {
+      "to": 3576,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3578,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb stair"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3729,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3730,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

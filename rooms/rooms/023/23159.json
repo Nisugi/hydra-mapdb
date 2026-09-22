@@ -1,0 +1,28 @@
+{
+  "id": 23159,
+  "title": [
+    "[Treasure Trove]"
+  ],
+  "description": [
+    "Glittering mica in the walls reflects the glow from the candlelabra that dot the surface, creating a shimmering rainbow of color.  The stone floor is rough but level, providing a suitable surface on which to walk.  A section of the wall is carved out to make a shelf, and recessed lighting provided by small lanterns illuminates the contents.  Mostly hidden by the curvature of the walls, a jagged crack looms in one corner like a darkened maw, while the cave opening offers random gusts of fresh air from outside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20348,
+      "kind": "go",
+      "cmd": "go cave opening",
+      "cost": 0.2
+    },
+    {
+      "to": 23160,
+      "kind": "go",
+      "cmd": "go jagged crack",
+      "cost": 0.2
+    }
+  ]
+}

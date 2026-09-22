@@ -1,0 +1,46 @@
+{
+  "id": 21638,
+  "uid": [
+    14116042
+  ],
+  "title": [
+    "[Library, Reading Room]"
+  ],
+  "description": [
+    "Several rows of shelving are bracketed at either end with small desks.  The north end of the room has a variety of chairs, desks, and couches set up for perusing the materials on the shelves.  An abstract sculpture stands at the center of the reading area and a large sign has been posted next to the set of double doors that lead back to the main hall."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "near Fearling Pass",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      643,
+      277,
+      656,
+      290
+    ]
+  },
+  "exits": [
+    {
+      "to": 21637,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 21644,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

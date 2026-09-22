@@ -1,0 +1,49 @@
+{
+  "id": 22115,
+  "uid": [
+    106409
+  ],
+  "title": [
+    "[Cairnfang Manor, Upper Landing]"
+  ],
+  "description": [
+    "Resting between a pair of miniature orange trees, an elegant brocade silk divan is the perfect contrast to the terra cotta pots.  Hanging above, a large painting framed in linden shows a beautiful watercolor of the Cascade of Tears.  The polished floor is graced by a narrow, fringed runner and gleams in the light of a cut-crystal chandelier.  A sweeping staircase descends to the foyer below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      610,
+      597,
+      622,
+      606
+    ]
+  },
+  "exits": [
+    {
+      "to": 22111,
+      "kind": "go",
+      "cmd": "go sweeping staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 22125,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22129,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

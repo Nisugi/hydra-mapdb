@@ -1,0 +1,46 @@
+{
+  "id": 19538,
+  "uid": [
+    655016
+  ],
+  "title": [
+    "[Empath Guild]"
+  ],
+  "description": [
+    "A single winding stairway with rose-carved alabaster banisters rises to the peak of the hall's highest tower.  A velvety blue sapphire runner spills like a waterfall down the steps, pooling to a crescent-shaped landing."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      589,
+      178,
+      644,
+      235
+    ]
+  },
+  "exits": [
+    {
+      "to": 19537,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19539,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 19540,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

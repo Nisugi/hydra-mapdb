@@ -1,0 +1,41 @@
+{
+  "id": 14333,
+  "uid": [
+    4901099
+  ],
+  "title": [
+    "[The Krawling Kraken]"
+  ],
+  "description": [
+    "The hall stretches north, carpeted in richly hued crimson along the floor and set with evenly spaced, engraved wall sconces made from polished brass.  Lighting from the candles illuminates the long winding staircase leading up to the second floor.  Smells of richly cooked food waft through the area each time a passing patron walks in from the dinning room."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14330,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14334,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14335,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

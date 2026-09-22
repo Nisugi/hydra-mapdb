@@ -1,0 +1,27 @@
+{
+  "id": 20385,
+  "title": [
+    "[The Bearded Dome]"
+  ],
+  "description": [
+    "Thick green moss blankets most of the boulders and smaller rocks in the nearby vicinity.  The path terminates at a small thatched-roof hut that is partially obscured by a tall shrubs and leafy trees.  A roughly carved totem depicting a bearded humanoid stands guard over the structure."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20384,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20386,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    }
+  ]
+}

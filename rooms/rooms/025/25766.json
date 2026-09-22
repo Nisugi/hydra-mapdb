@@ -1,0 +1,72 @@
+{
+  "id": 25766,
+  "uid": [
+    3223831
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Parting the waters to either side of it, a long wooden dock stretches outward from the island to the northeast and is ringed by buoys and boats.  High above, the clouds stretch from the eastern horizon and briefly obscure the pale glow of the moon."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1761,
+      1279,
+      1780,
+      1299
+    ]
+  },
+  "exits": [
+    {
+      "to": 25765,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25768,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25772,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 33238,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

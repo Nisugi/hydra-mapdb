@@ -1,0 +1,65 @@
+{
+  "id": 32569,
+  "uid": [
+    336813
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "The waters of Darkstone Bay are cold, made worse by the winds pushing against you.  The rocky walls of the coastal cliffs rise up to the west, as the murky waters continue endlessly to the north, connecting to the horizon."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 32568,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 32570,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

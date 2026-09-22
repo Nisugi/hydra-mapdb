@@ -1,0 +1,35 @@
+{
+  "id": 33740,
+  "uid": [
+    13010156
+  ],
+  "title": [
+    "[Cairnfang Manor Annex]"
+  ],
+  "description": [
+    "Two huge spotted pale green toadstools growing in a pair of stone pots illuminate the large, comfortable room with a pale tinted light.  A small granite table is centered on a woven sapphire blue carpet with several dark granite benches positioned about it.  Tucked behind one of the potted fungi is a wastebasket carved from solid rock.  On one wall a brass arch allows exit to the corridor outside, while on another a small blackboard hangs next to a wool curtain that leads to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_annex",
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 28676,
+      "kind": "go",
+      "cmd": "go brass arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33741,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

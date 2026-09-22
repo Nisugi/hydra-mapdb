@@ -1,0 +1,54 @@
+{
+  "id": 2647,
+  "uid": [
+    4562020
+  ],
+  "title": [
+    "[Altar of the Elder]"
+  ],
+  "description": [
+    "The ledge is more generous than it appeared from the lower stone platform, which now looks extremely narrow and far below.  The view from here of the monumental ice sculpture reveals its top to be as superbly detailed as its other aspects.   Incongruously, a pool of clear, sapphire-colored water lies between the ledge and an immense statue of a sleeping drake, its recumbent body curled around a large throne on the pool's northern edge."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      363,
+      357,
+      371,
+      365
+    ]
+  },
+  "exits": [
+    {
+      "to": 2646,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pool"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2648,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 2658,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

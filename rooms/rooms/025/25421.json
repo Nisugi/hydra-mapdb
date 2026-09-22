@@ -1,0 +1,50 @@
+{
+  "id": 25421,
+  "uid": [
+    336329
+  ],
+  "title": [
+    "[Outpost, Inner Courtyard]"
+  ],
+  "description": [
+    "The thick aroma of grilled fish lingers in the air of the inner courtyard near a separate stone building immediately adjacent to the tower.  A covered well is placed in the center of the space and is accompanied by stores for food, such as sacks of oats, and other supplies constructed to hug the inner stone wall's surface.  Hendoran auxiliaries come and go carrying food into the keep or bringing back used plates and containers."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-hendoran_outpost-1669182273.png",
+    "rect": [
+      688,
+      117,
+      724,
+      153
+    ]
+  },
+  "exits": [
+    {
+      "to": 25417,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25418,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26102,
+      "kind": "go",
+      "cmd": "go stone building",
+      "cost": 0.2
+    }
+  ]
+}

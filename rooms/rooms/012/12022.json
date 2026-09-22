@@ -1,0 +1,50 @@
+{
+  "id": 12022,
+  "uid": [
+    17004065
+  ],
+  "title": [
+    "[Old Ta'Faendryl, Amphitheatre]"
+  ],
+  "description": [
+    "The long woody branches of a vine creep up the southern wall of the amphitheatre then descend across the tiered benches toward the ground below in a thick curtain of green.  A thick, sweet fragrance rises from the tubular orange blossoms clustered along the stems of the vine."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      958,
+      647,
+      968,
+      657
+    ]
+  },
+  "exits": [
+    {
+      "to": 12015,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12017,
+      "kind": "climb",
+      "cmd": "climb benches",
+      "cost": 0.2
+    },
+    {
+      "to": 12023,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

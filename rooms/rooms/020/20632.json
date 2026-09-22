@@ -1,0 +1,62 @@
+{
+  "id": 20632,
+  "uid": [
+    336724
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Part of the tunnel has collapsed here, as evident by the pile of boulders blocking part of the path.  From beneath the rubble, the bony fingers of a skeletal hand can be seen."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      1143,
+      123,
+      1181,
+      161
+    ]
+  },
+  "exits": [
+    {
+      "to": 20631,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30940,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

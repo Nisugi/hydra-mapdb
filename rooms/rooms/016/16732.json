@@ -1,0 +1,118 @@
+{
+  "id": 16732,
+  "uid": [
+    17005007
+  ],
+  "title": [
+    "[Wall of the Ravine]"
+  ],
+  "description": [
+    "Wind, strong enough to tug at clothing, whistles as it gusts through the deep ravine.  Apart from the small ledge upon which you perch, the stone wall offers little purchase to all but the hardiest plants.  A thick hemp rope leading upward disappears over the ledge above, while a thin hemp rope leading downward stretches towards the ravine floor.  Not far below, birds of prey float serenely on the rising winds, framed against the further depths of the gorge and the flowing river at its bottom."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "bolmara lichen",
+    "cherry peppers",
+    "crimson dragonstalk",
+    "fresh catnip",
+    "hop flowers",
+    "ironfern root",
+    "juicy plum",
+    "leek",
+    "mountain dryad",
+    "peppermint leaves",
+    "pepperthorn root",
+    "red thanot berry",
+    "shallot",
+    "small apple",
+    "small watermelon",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "spring onion",
+    "stalk of bluebells",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "thanot thorn",
+    "viburnum twig",
+    "wild pink geranium",
+    "wild sage",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      427,
+      606,
+      450,
+      627
+    ]
+  },
+  "exits": [
+    {
+      "to": 16731,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb thin rope"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 16733,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb thick rope"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

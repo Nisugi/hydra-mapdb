@@ -1,0 +1,96 @@
+{
+  "id": 19368,
+  "uid": [
+    3223172
+  ],
+  "title": [
+    "[Harbor Bistro, Dining Room]"
+  ],
+  "description": [
+    "Sunlight streams in from the two large windows, brightly illuminating this cheery room.  Painted a sunny yellow, the walls sport several ebonwood-framed landscapes done in oil paint or watercolor.  Smooth, oak floorboards of varying hues lay catercorner to each other in a lovely mosaic design.  Several tables lay host to patrons, while a wooden door leads deeper into the cafe.  Delicious scents linger in the air, as food is being served to the various tables by sure-footed serving staff.",
+    "Candlelight flickers from strategically placed golden candelabras, shedding their glow on this cozy room.  Painted a sunny yellow, the walls sport several ebonwood-framed landscapes done in oil paint or watercolor.  Smooth, oak floorboards of varying hues lay catercorner to each other in a lovely mosaic design.  Several tables lay host to patrons, while a wooden door leads deeper into the cafe.  Delicious scents linger in the air, as food is being served to the various tables by sure-footed serving staff."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 19367,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19369,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28498,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go bee-eater table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28499,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go toucan table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28500,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go macaw table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28501,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go broadbill table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28502,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go parrot table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28503,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go turtle table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

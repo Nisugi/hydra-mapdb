@@ -1,0 +1,44 @@
+{
+  "id": 1847,
+  "uid": [
+    3002020
+  ],
+  "title": [
+    "[Garnet Street, River Crossing]"
+  ],
+  "description": [
+    "Throngs of people stream over the stone bridge, half bound for the residential west side, the rest for the dwarven quarter on the river's opposite shore.  Through the mob, you notice a gnarled old woman sitting alone, out of the traffic, a brilliant, fascinated smile spreading across her wrinkled face."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      471,
+      657,
+      507,
+      693
+    ]
+  },
+  "exits": [
+    {
+      "to": 1841,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 1848,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 7237,
+  "uid": [
+    18108
+  ],
+  "title": [
+    "[Under Barrow, Shaft]"
+  ],
+  "description": [
+    "You find yourself teetering precariously on the lip of a deep shaft.  The faint whisper of a freezing wind makes you shiver slightly.  There are rough handholds dug into the walls that you can get to if you lean way out over the unseen depths.  The shaft goes down a long ways, to judge from the length of time you can hear echoes from a small pebble that you knocked into the darkness below.  Above you is a warped wooden grating."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      718,
+      520,
+      728,
+      530
+    ]
+  },
+  "exits": [
+    {
+      "to": 7236,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 7238,
+      "kind": "go",
+      "cmd": "go grating",
+      "cost": 0.2
+    }
+  ]
+}

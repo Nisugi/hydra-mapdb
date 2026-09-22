@@ -1,0 +1,91 @@
+{
+  "id": 11017,
+  "uid": [
+    253001
+  ],
+  "title": [
+    "[Warrior Guild, Entryway]"
+  ],
+  "description": [
+    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance.",
+    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance, their wide branches providing plentiful shade.  A grassy courtyard can be glimpsed through the wide bars of the gate."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2398,
+      1865,
+      2420,
+      1887
+    ]
+  },
+  "exits": [
+    {
+      "to": 11016,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17348,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

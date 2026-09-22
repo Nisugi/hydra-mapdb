@@ -1,0 +1,56 @@
+{
+  "id": 20735,
+  "uid": [
+    4002114
+  ],
+  "title": [
+    "[Zephyr Hall, Hallway]"
+  ],
+  "description": [
+    "Completely paneled in polished pine planking, the walls hold elaborate antler sconces.  Several doors lead off to the east, and the nearest one rests ajar, revealing shelves of linens and cleaning supplies.  A carved pine door leads to a dimly lit room, while a faint glow emanates from a curved mottled green doorway.  The granite floor is polished to a gleam, its mica flecks sparkling as the candles gutter and flare."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      1926,
+      839,
+      2048,
+      892
+    ]
+  },
+  "exits": [
+    {
+      "to": 20734,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20736,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 20737,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 20744,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

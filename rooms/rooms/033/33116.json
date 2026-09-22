@@ -1,0 +1,41 @@
+{
+  "id": 33116,
+  "uid": [
+    7134160
+  ],
+  "title": [
+    "[Steerage, Stern]"
+  ],
+  "description": [
+    "Rope-coiled rungs driven into the aft boards form a ladder of sorts, allowing quick travel to the upper decks.  Rows of casks line the walls, some clearly marked as alcohol, while others have more questionable symbols.  Bales of tobacco line the wall opposite a thick metal hatch, and large sacks of rice are piled up around a brass-handled door."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "the Flotilla",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 33112,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33114,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33117,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

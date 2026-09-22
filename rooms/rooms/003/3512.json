@@ -1,0 +1,59 @@
+{
+  "id": 3512,
+  "uid": [
+    14100057
+  ],
+  "title": [
+    "[Ta'Vaalor, Aethenireas Wey]"
+  ],
+  "description": [
+    "The chiming sounds of cymbals interspersed with the lilting sounds of a merrily fluted tune wafts from a nearby cottage.  Bright blue shutters frame the windows, and the cottage's blue door stands partially open.  An engraved silver sign hangs on the doorpost.",
+    "The room is starkly silent, and the boarded up windows allow no peeking into the interior of the cottage.  On the front lawn, a large tube of metal has been carelessly flung. Closer inspection reveals it to have a leather handle rolled tightly into its interior.  An engraved silver sign barely hangs on the doorpost.  Elven workers, supervised by some soldiers, work through the area, cleaning up the debris and doing various repairs.",
+    "A wide break in the shrubberies leads from the wey down a short path to a cottage with a bright blue door.  An engraved silver sign hangs on the doorpost.  Passing guardsmen stare suspiciously at all passersby as they swiftly proceed about their business."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      626,
+      704,
+      661,
+      738
+    ]
+  },
+  "exits": [
+    {
+      "to": 3511,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3513,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10395,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 33264,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    }
+  ]
+}

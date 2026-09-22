@@ -1,0 +1,49 @@
+{
+  "id": 17043,
+  "uid": [
+    254039
+  ],
+  "title": [
+    "[Warrior Guild Basement]"
+  ],
+  "description": [
+    "A draft comes from somewhere, chilling the air to the point where breath might be seen.  Huge metal tubs, each large enough to easily cover a brawny giantman completely, line the walls.  Each tub is filled almost to the brim with freezing cold water, from which chunks of ice poke up, cracking and shifting as they melt."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "tags": [
+    "warrior guild icetub"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1499,
+      348,
+      1519,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 17026,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17044,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32792,
+      "kind": "go",
+      "cmd": "go tubs",
+      "cost": 0.2
+    }
+  ]
+}

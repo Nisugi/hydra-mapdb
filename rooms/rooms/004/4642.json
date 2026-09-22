@@ -1,0 +1,52 @@
+{
+  "id": 4642,
+  "uid": [
+    14050031
+  ],
+  "title": [
+    "[Cysaegir, Treetop Platform]"
+  ],
+  "description": [
+    "The platform follows the contour of a tanik tree to the south and butts up against its rough bark.  The north side has a stout wood-beamed railing to prevent a drop down to the forest floor.  The only break in the beams is for a rope ladder leading down to the ground.  Carved into the bark is a pair of initials surrounded by a crude heart."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      375,
+      327,
+      395,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 4640,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4643,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 4644,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

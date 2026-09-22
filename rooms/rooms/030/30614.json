@@ -1,0 +1,44 @@
+{
+  "id": 30614,
+  "uid": [
+    7119453
+  ],
+  "title": [
+    "[Penitent Pass, Corridor]"
+  ],
+  "description": [
+    "Round area rugs with bright orange and yellow designs against a cobalt blue backdrop are scattered across the chamber's floor.  Above, frosted globes provide a warm glow that is reminiscent of sunlight.  Built into the southern wall, a set of double doors offer entry to a small barracks, while a peaked archway carved into the western wall leads to a small kitchen.  Several chairs encircle a round oak table that dominates the space."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Widowmaker's Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 30613,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30615,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30616,
+      "kind": "go",
+      "cmd": "go peaked archway",
+      "cost": 0.2
+    }
+  ]
+}

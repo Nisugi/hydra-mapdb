@@ -1,0 +1,62 @@
+{
+  "id": 1906,
+  "uid": [
+    703160
+  ],
+  "title": [
+    "[Mud Baths, Rock Basin]"
+  ],
+  "description": [
+    "An expansive rock basin sits in this partially walled structure, home to the local mudbaths.  Heat rises off the thick, dark, bubbling mud, the bursting air pockets splattering ooze in large arcs.  A set of steps on the east side leads down into the therapeutic liquid."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      588,
+      532,
+      606,
+      550
+    ]
+  },
+  "exits": [
+    {
+      "to": 1905,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1907,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1917,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12540,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14798,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

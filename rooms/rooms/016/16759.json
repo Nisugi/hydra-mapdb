@@ -1,0 +1,50 @@
+{
+  "id": 16759,
+  "uid": [
+    13300075
+  ],
+  "title": [
+    "[Temple Wyneb, Effluentorium]"
+  ],
+  "description": [
+    "Thick streams enter this room from both the east and the west, meeting in the center where they tumble into a deep sinkhole set against the southern wall.  You cannot see any bottom to the pool, though the roiling water makes it difficult to see much of anything."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      662,
+      681,
+      672,
+      691
+    ]
+  },
+  "exits": [
+    {
+      "to": 16758,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    },
+    {
+      "to": 16764,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16765,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

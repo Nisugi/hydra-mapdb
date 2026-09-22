@@ -1,0 +1,55 @@
+{
+  "id": 24976,
+  "title": [
+    "[Ruined Catacombs]"
+  ],
+  "description": [
+    "Clearly in a state of distintegration, the catacomb's northern bank of tombs has completely crumpled, a veritable cave-in having crushed any skeletal remains.  Filling the other walls are sets of thirty-six shelf tombs, save for the western wall, which instead only has seventeen.  A collection of urns, some intact but most nothing more than broken shards, lie in a jumbled pile beneath the watchful eyes of a statue with the body of a mutilated human and the distorted head of a serpent.  Tinged with the odor of mold and decay, the air here is cold and dry, yet somehow also stuffy."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "missing"
+  ],
+  "exits": [
+    {
+      "to": 24975,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24979,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie tomb"
+        },
+        {
+          "put": "sleep"
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "wait_until": {
+            "otherwise": {
+              "flag": "stunned"
+            }
+          }
+        },
+        {
+          "put": "stand",
+          "when": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

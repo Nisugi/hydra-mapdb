@@ -1,0 +1,58 @@
+{
+  "id": 7128,
+  "uid": [
+    41036
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The floor is slimy under your feet, and very slippery.  Water seems to be running in trickles down the corridor from the east.  Scuttling noises fill the air, but with all the echoes in this intersection, you can't tell where they're coming from."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "kiramon defender",
+    "kiramon worker",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1083,
+      364,
+      1093,
+      374
+    ]
+  },
+  "exits": [
+    {
+      "to": 7127,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7129,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7130,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7132,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

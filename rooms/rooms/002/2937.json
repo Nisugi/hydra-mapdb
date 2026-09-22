@@ -1,0 +1,63 @@
+{
+  "id": 2937,
+  "uid": [
+    4132011
+  ],
+  "title": [
+    "[The Abbey]",
+    "[Abbey, Entry Hall]"
+  ],
+  "description": [
+    "A rose-veined white marble arch stands at the entryway to a resplendent chamber with a high, dome-shaped ceiling.  Though the wide, tall entrance allows in daylight and a spectacular vista of snow-swept mountains and shining sky, the cold does not come with it.  The walls slant to the northeast, following the curve of the mountain face outside.  Glowing golden in the light of a hundred-candle chandelier hanging high above, a pair of honey maple double doors opens onto a lush courtyard."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, out",
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Abbey",
+    "mapshortname:Abbey"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      715,
+      1076,
+      768,
+      1129
+    ]
+  },
+  "exits": [
+    {
+      "to": 2936,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 2938,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2939,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2940,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 18525,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Storefronts and houses line the street's edge, their porches and railings decorated with flowered wreaths and colorful ribbons.  Banners hang in sweeping scallops from a roof's edge here and there, and multihued lanterns hang from tall wooden posts, casting a spray of colored light across the ground as small candles flicker within.",
+    "Storefronts and houses line the street's edge, their porches and railings decorated with flowered wreaths and colorful ribbons.  Banners hang in sweeping scallops from a roof's edge here and there, and multihued lanterns hang from tall wooden posts, unlit."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18524,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18526,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 18528,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18552,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

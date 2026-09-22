@@ -1,0 +1,82 @@
+{
+  "id": 18053,
+  "uid": [
+    687014
+  ],
+  "title": [
+    "[Wizard Guild, Alchemy Wing]"
+  ],
+  "description": [
+    "Pungent, noisome odors and the soft bubbling of viscous potions fill the air.  Radiating in all direction from this central platform, stairs descend to stone workbenches strategically positioned near narrow slit windows around the room's perimeter, each equipped with various alchemical devices.  Several large training cauldrons are placed in the center of the platform."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      760,
+      602,
+      823,
+      664
+    ]
+  },
+  "exits": [
+    {
+      "to": 18052,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 18058,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18059,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18061,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18062,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18063,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18064,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18067,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18716,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

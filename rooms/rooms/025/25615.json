@@ -1,0 +1,172 @@
+{
+  "id": 25615,
+  "uid": [
+    14117018
+  ],
+  "title": [
+    "[Mistydeep, Sorcerer's Isle]"
+  ],
+  "description": [
+    "A mysterious monolithic tower of granite rises above the foliage of this large island at its axis.  The structure's apex, bulbous in shape, tapers to a point like an up-ended onion, while angular turrets are strategically placed at uneven elevations on each of its six sheer outer walls.  Tall trees obscure the base of the tower and any sign of entry.  Radiating outward, forest soon gives way to smaller brush and vines, while bulrushes sway in the current at the water's edge."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1203,
+      852,
+      1221,
+      870
+    ]
+  },
+  "exits": [
+    {
+      "to": 18823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25543,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row east",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25544,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25616,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30511,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

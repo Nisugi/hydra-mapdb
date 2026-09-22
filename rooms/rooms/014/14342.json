@@ -1,0 +1,41 @@
+{
+  "id": 14342,
+  "uid": [
+    4901111
+  ],
+  "title": [
+    "[The Krawling Kraken, Upstairs]"
+  ],
+  "description": [
+    "Twin hallways meet at an odd intersection of sorts, mirroring each other almost perfectly as they both head off at right angles to each other leading south.  Where the two hallways join together an iron-banded oak door sits almost hidden inside a shadowed archway."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14340,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14343,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14344,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

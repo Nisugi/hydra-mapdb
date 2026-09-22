@@ -1,0 +1,52 @@
+{
+  "id": 31821,
+  "uid": [
+    8083401
+  ],
+  "title": [
+    "[Gleyminn Anni River, Cliff Face]"
+  ],
+  "description": [
+    "The river runs straight into a wall of grey stone piled up into lofty cliffs, which from upstream may have appeared as a dark mass of clouds, before vanishing into a subterranean passageway.  Lianas blanket most of the cliff face, covering the rough fissures and deep crevices."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1097,
+      761,
+      1119,
+      783
+    ]
+  },
+  "exits": [
+    {
+      "to": 31820,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31822,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

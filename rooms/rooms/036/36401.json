@@ -1,0 +1,41 @@
+{
+  "id": 36401,
+  "uid": [
+    58007
+  ],
+  "title": [
+    "[Dungeon, Landing]"
+  ],
+  "description": [
+    "A dark haze obscures a large opening in the wall near the bottom of a spiral stairwell, preventing you from seeing through it clearly.  The whole room is dimly lit and unadorned save for a tattered and faded grey banner that hangs forlornly on the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1400,
+      520,
+      1440,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 36396,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 36402,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    }
+  ]
+}

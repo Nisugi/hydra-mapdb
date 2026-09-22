@@ -1,0 +1,37 @@
+{
+  "id": 26451,
+  "title": [
+    "[Caligos Peak, Twisting Inclines]"
+  ],
+  "description": [
+    "Rollicking mists, limned in silver moonlight, pour over granite shards that encircling the landing and pool in shadowed crevices that pockmark a gloom-filled landscape.  Wind howls through the area as it races past a rickety iron-bound staircase on its way to the inky black depths below.",
+    "Shards of blackened granite rise upon either side of an uneven landing, their glossy faces aiding the rollicking mist in shrouding a view of the world below.  Sunlight is stronger at this height, though the shadows run deeper as the golden light is unable to penetrate the various crevices of the pockmarked landscape.  Disappearing into the depths below is a rickety iron-bound staircase."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      330,
+      551,
+      343,
+      564
+    ]
+  },
+  "exits": [
+    {
+      "to": 26450,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26547,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

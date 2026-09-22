@@ -1,0 +1,203 @@
+{
+  "id": 7046,
+  "uid": [
+    45132
+  ],
+  "title": [
+    "[Iron Maiden]"
+  ],
+  "description": [
+    "This exceptionally small space is made to seem even smaller by the menacingly sharp and disturbingly stained spikes, which poke at you from all directions.  A strap allows you to open and close the door, but that would seem to be exceedingly dangerous."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      583,
+      675,
+      593,
+      685
+    ]
+  },
+  "exits": [
+    {
+      "to": 3705,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "turn bent spike"
+            ],
+            {
+              "exits_are": [
+                "out"
+              ]
+            }
+          ]
+        },
+        {
+          "wait_until": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7045,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 7047,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "turn bent spike"
+            ],
+            {
+              "exits_are": [
+                "out"
+              ]
+            }
+          ]
+        },
+        {
+          "wait_until": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "turn bent spike"
+            ],
+            {
+              "exits_are": [
+                "out"
+              ]
+            }
+          ]
+        },
+        {
+          "wait_until": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7099,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "turn bent spike"
+            ],
+            {
+              "exits_are": [
+                "out"
+              ]
+            }
+          ]
+        },
+        {
+          "wait_until": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7144,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "turn bent spike"
+            ],
+            {
+              "exits_are": [
+                "out"
+              ]
+            }
+          ]
+        },
+        {
+          "wait_until": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

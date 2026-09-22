@@ -1,0 +1,43 @@
+{
+  "id": 26616,
+  "title": [
+    "[Caligos Isle, Narrow Chamber]"
+  ],
+  "description": [
+    "The scent of an extinguished torch permeates the humid chamber, the tilted walls crowding the available space along the fissure-covered ground.  The outline of a large hole dominates the center of the cramped area, one side clamped with a rust-flaked iron hook."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      594,
+      220,
+      608,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26615,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 26623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go rope"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

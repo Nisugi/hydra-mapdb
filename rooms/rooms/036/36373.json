@@ -1,0 +1,41 @@
+{
+  "id": 36373,
+  "uid": [
+    55045
+  ],
+  "title": [
+    "[Black Swan Castle, Tower]"
+  ],
+  "description": [
+    "The floor of the tower is filled with rubble and debris, leaving barely any room to squeeze through the chunks of stone and fallen timber.  Mounds of dirt and sand make it almost impossible to reach the remains of a black marble spiral stair that ascends to the lookout point above."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      280,
+      600,
+      320,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 36356,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 36374,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    }
+  ]
+}

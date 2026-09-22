@@ -1,0 +1,32 @@
+{
+  "id": 32247,
+  "uid": [
+    8088039
+  ],
+  "title": [
+    "[Sonreeva, Cistern]"
+  ],
+  "description": [
+    "Dark liquid, now waist high to the average halfling, collects at the bottom of the tunnel.  Corpses float on the surface, while animated hands of the dead grasp at anything submerged in the pool."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Naidem",
+  "climate": "freshwater",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 32246,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 32248,
+      "kind": "other",
+      "cmd": "swim",
+      "cost": 0.2
+    }
+  ]
+}

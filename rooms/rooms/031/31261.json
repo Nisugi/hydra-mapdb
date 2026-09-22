@@ -1,0 +1,35 @@
+{
+  "id": 31261,
+  "uid": [
+    3027004
+  ],
+  "title": [
+    "[Asylum, Dining Room]"
+  ],
+  "description": [
+    "The vaulted stone ceiling is decorated with hanging iron chandeliers that cast a soft glow across the room.  A massive dining table covered with a dark cloth dominates the heart of the room with seemingly countless chairs surrounding it.  Uniformed workers come and go from a winding metal staircase that leads down to the kitchen."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31250,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31262,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

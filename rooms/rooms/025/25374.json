@@ -1,0 +1,40 @@
+{
+  "id": 25374,
+  "uid": [
+    8100030
+  ],
+  "title": [
+    "[Delirium Manor, Upstairs]"
+  ],
+  "description": [
+    "A large, rectangular oil painting, framed in gold-leafed dried noodles, dominates the wall space at the top of the stairs.  Creaky floorboards sound an alert with the passing of each resident or guest.  A long, carpeted hallway extends off to the north and a shorter one leads to the south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25361,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 25375,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25377,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

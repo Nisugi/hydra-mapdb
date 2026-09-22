@@ -1,0 +1,43 @@
+{
+  "id": 17050,
+  "uid": [
+    683007
+  ],
+  "title": [
+    "[Wizard Guild, Catwalk]"
+  ],
+  "description": [
+    "The sturdy stone floor narrows suddenly, becoming not much more than a slender bridge between the library to the west and a massive steel door to the east.  It is unclear whether the chasm is the product of design or nature, but neither option is comfortable to contemplate as you move along the walkway.  Improbably slender railings only seem to emphasize the echoing depths of the abyss beneath you."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-wizard_guild.png",
+    "rect": [
+      526,
+      402,
+      584,
+      457
+    ]
+  },
+  "exits": [
+    {
+      "to": 16232,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17051,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 25062,
+  "uid": [
+    -7105084
+  ],
+  "title": [
+    "[Reim Settlement, Road]"
+  ],
+  "description": [
+    "A duo of wrought iron gargoyles stand watch high above a towering gate, their onyx-inset eyes glinting alongside the fiery torches set beneath them, engulfing the pair in red-orange flames.  Steel-headed pikes and shattered arrows lay broken along the fortified stone walls, piled high alongside several yellowed skulls of various origins.  A faded oriflamme lays shredded across the metal gate, the elaborate embroidery stained in black and red."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      406,
+      836,
+      419,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 25061,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25063,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25065,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

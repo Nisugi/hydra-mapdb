@@ -1,0 +1,57 @@
+{
+  "id": 19350,
+  "uid": [
+    3223004
+  ],
+  "title": [
+    "[Eastern Harbor, Crane Lane]"
+  ],
+  "description": [
+    "Sunlight slants across the cobblestone street and illuminates the windows of the edifice that has an elegant painted sign dangling over its entry.  Lost in the shadows of the large building, a small alley stretches to the south and offers a glimpse of the street below.  Entwined with sunset-hued plumerias and lined with benches, a white picket fence creates a protective barrier that prevents pedestrians from falling down the sheer cliff on the other side.",
+    "Silvery moonlight slants across the cobblestone street and illuminates the windows of the edifice that has an elegant painted sign dangling over its entry.  Lost in the shadows of the large building, a small alley stretches to the south and offers a glimpse of the street below.  Entwined with sunset-hued plumerias and lined with benches, a white picket fence creates a protective barrier that prevents pedestrians from falling down the sheer cliff on the other side."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      4032,
+      1466,
+      4066,
+      1488
+    ]
+  },
+  "exits": [
+    {
+      "to": 19348,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19351,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 19353,
+      "kind": "go",
+      "cmd": "go edifice",
+      "cost": 0.2
+    },
+    {
+      "to": 19354,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

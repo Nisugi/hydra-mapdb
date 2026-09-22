@@ -1,0 +1,45 @@
+{
+  "id": 3094,
+  "uid": [
+    4124018
+  ],
+  "title": [
+    "[Abandoned Farm, Parlor]"
+  ],
+  "description": [
+    "The bannisters are missing from the stairway leading upstairs from the parlor.  As elsewhere in this house, everything is either broken or crushed.  Tattered cloths droop from warped curtain rods over the arched windows."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "cold, dry",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "zombie"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      862,
+      593,
+      872,
+      603
+    ]
+  },
+  "exits": [
+    {
+      "to": 3093,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3095,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

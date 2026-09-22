@@ -1,0 +1,67 @@
+{
+  "id": 3660,
+  "uid": [
+    3201026
+  ],
+  "title": [
+    "[Oleander and Rose Avenue]"
+  ],
+  "description": [
+    "Long garlands of mixed foliage have been strung over the street in a criss-cross pattern.  The decoration wraps around the poles of the tall, wrought iron lanterns that line the lane and drapes along the awnings of each storefront, stretching across their lengths.  Cool silver moonlight mixed with the warm yellow tones of the lantern's glow lights the cobblestone street.",
+    "Long garlands of mixed foliage have been strung over the street in a criss-cross pattern.  The decoration wraps around the poles of the tall, wrought iron lanterns that line the lane and drapes along the awnings of each storefront, stretching across their lengths.  The bright sun warms the air and helps to take the chill from the cool cobblestones of the road."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3049,
+      1459,
+      3090,
+      1500
+    ]
+  },
+  "exits": [
+    {
+      "to": 3658,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3661,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3673,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go stone doorframe"
+        },
+        {
+          "remember": [
+            "talondown_origin",
+            "3660"
+          ]
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

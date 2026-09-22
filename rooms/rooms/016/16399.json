@@ -1,0 +1,57 @@
+{
+  "id": 16399,
+  "uid": [
+    -570006
+  ],
+  "title": [
+    "[Warcamp, Outside]"
+  ],
+  "description": [
+    "A great hut stands within a clearing unto itself in the encampment of the Grimswarm.  Twin red and black banner poles flank its entrance, while bodies lashed to the walls with cords of leather decorate its exterior.  Pale grey curls of smoke drift from the top of the hut, spiraling towards the smoke haze above the warcamp.  Next to the hut, suspended upside down on a wood rack is the rotting corpse of a troll, pierced through the heart with a massive boar spear."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, south, southwest"
+  ],
+  "location": "Warcamp",
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      228,
+      138,
+      264,
+      174
+    ]
+  },
+  "exits": [
+    {
+      "to": 16357,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16481,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    },
+    {
+      "to": 16496,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16709,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16710,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

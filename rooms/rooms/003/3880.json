@@ -1,0 +1,79 @@
+{
+  "id": 3880,
+  "uid": [
+    212006
+  ],
+  "title": [
+    "[Helden Hall, Great Hall]"
+  ],
+  "description": [
+    "Rushes are strewn across the floor of this enormous room with a lofty ceiling, and elaborate tapestries adorn the walls.  Opposite the entrance is a raised dais dominated by a massive table overlooking scores of smaller tables.  In the center of the Hall lies a large hearth providing warmth and light, and a few comfortable leather chairs are scattered about.  A display case rests against the east wall, flanked by trophies of conquered beasts.  Stairs lead up the north wall to a railed balcony."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      361,
+      919,
+      401,
+      955
+    ]
+  },
+  "exits": [
+    {
+      "to": 3881,
+      "kind": "go",
+      "cmd": "go oaken doors",
+      "cost": 0.2
+    },
+    {
+      "to": 4664,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 15473,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 15474,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 15481,
+      "kind": "go",
+      "cmd": "go commons",
+      "cost": 0.2
+    },
+    {
+      "to": 15482,
+      "kind": "go",
+      "cmd": "go grey door",
+      "cost": 0.2
+    },
+    {
+      "to": 22034,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 22036,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

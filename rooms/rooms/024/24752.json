@@ -1,0 +1,80 @@
+{
+  "id": 24752,
+  "uid": [
+    4031023
+  ],
+  "title": [
+    "[Krolvin Warship, Crew Quarters]"
+  ],
+  "description": [
+    "Several hammocks hang from rusted hooks in the overhead beams, their sides collasped to allow for free movement between the large framing posts.  Each post bears marks of mistreatment, from deep cuts that have taken out sections of wood to ragged claw slashes down the sides.  Deep marks also mar the aft bulkhead where a series of charcoal hashmarks decorate the tar-caulked surface."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      586,
+      268,
+      604,
+      283
+    ]
+  },
+  "exits": [
+    {
+      "to": 18709,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18710,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20423,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        },
+        {
+          "move": "west"
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "put": "rub blood"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "east"
+        },
+        {
+          "move": "east"
+        },
+        {
+          "put": "rub hatch"
+        },
+        {
+          "move": "go hatch"
+        }
+      ],
+      "cost": 1.6
+    },
+    {
+      "to": 24462,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

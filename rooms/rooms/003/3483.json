@@ -1,0 +1,99 @@
+{
+  "id": 3483,
+  "uid": [
+    14100004
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Wey]"
+  ],
+  "description": [
+    "The crush of passersby makes this busy intersection difficult to navigate.  Above all, the towering gate looms, casting the entire area into deep shadow despite the brightness of day.  A group of guardsmen stands to one side, casually watching the crowd.",
+    "Few people wander through the area at this hour.  The towering gate looms above, blocking any view of the moons and stars and leaving the area only dimly lit by several ironwork torches placed along the wey.  A group of guardsmen stands to one side, casually watching the crowd."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advpickup",
+    "amaranthgate",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide amaranthgate",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      699,
+      255,
+      736,
+      288
+    ]
+  },
+  "exits": [
+    {
+      "to": 3484,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3496,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3727,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 25590,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

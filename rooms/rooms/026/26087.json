@@ -1,0 +1,43 @@
+{
+  "id": 26087,
+  "uid": [
+    679003
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Vaulted ceilings disappear into darkness, their heights unfathomable by the dim light used to illuminate the landing.  The smooth floor transitions into textured walls that have had interwoven patterns of elliptical scrollwork carved into them.  Evenly spaced among the walls are tiled murals, the first starting near the set of upward spiraling stairs and the last near the downward ones."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26086,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26088,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

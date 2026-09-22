@@ -1,0 +1,42 @@
+{
+  "id": 20256,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "One of the few heavy, stone structures in the area has been erected in a well tended clearing.  Its mortared exterior of stacked grey stone holds equispaced niches across the front and sides.  Set within the niches are blocky, stone statues of various dieties casting chiseled and sightless stares upon those passing by."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      554,
+      754,
+      567,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 20165,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20257,
+      "kind": "go",
+      "cmd": "go heavy structure",
+      "cost": 0.2
+    },
+    {
+      "to": 20260,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

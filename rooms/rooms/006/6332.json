@@ -1,0 +1,50 @@
+{
+  "id": 6332,
+  "uid": [
+    681004
+  ],
+  "title": [
+    "[Wizard Guild, Study Room]"
+  ],
+  "description": [
+    "Set within the southwestern tower, the rounded walls of this spacious study are obscured by several tapestries.  The large banners depict images of wizards clad in grandiose garb casting several spells of a classical elemental nature.  The soft sounds of the tapestries fluttering and the occasional quiet shuffling sounds of a student's feet mingle with each other, creating a peaceful background for contemplation.  A few chairs and tables stand scattered throughout the room."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      214,
+      514,
+      262,
+      562
+    ]
+  },
+  "exits": [
+    {
+      "to": 6329,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6331,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6355,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 27553,
+  "title": [
+    "[Caligos Isle, Village Center]"
+  ],
+  "description": [
+    "Roughly cobbled stones form a concentric circle around the crumpled remains of an old well, which issues a wide variety of gurgling and splashing sounds.  Dark sands and crushed shells are scattered upon the ground, which is riddled with tufts of grass, dried seaweed, and partially rotted fish carcasses.  At the edges of the small village center, broken timber and ancient beams lay forgotten in the new growth.",
+    "Roughly cobbled stones form a concentric circle around the crumpled remains of an old well, which issues a wide variety of gurgling and splashing sounds.  Dark sands and crushed shells are scattered upon the ground, which is riddled with tufts of grass and dried seaweed.  At the edge of the small village center, a modest abode is surrounded by newly cultivated gardens.",
+    "Flat stones, painted in a variety of oceanic hues, form a concentric circle around an old well, which issues a wide variety of gurgling and splashing sounds.  Tall tufts of willowy grass lay sporadically along the well-worn ground, the cover providing camouflage for a small group of children playing games and giggling loud enough to reverberate across the stone foundations.  At the edges of the village center, small tables and booths are occupied by merchants selling produce and wares."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      472,
+      74,
+      482,
+      83
+    ]
+  },
+  "exits": [
+    {
+      "to": 27551,
+      "kind": "other",
+      "cmd": "sout",
+      "cost": 0.2
+    },
+    {
+      "to": 27552,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27554,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27556,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28566,
+      "kind": "go",
+      "cmd": "go abode",
+      "cost": 0.2
+    }
+  ]
+}

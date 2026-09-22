@@ -1,0 +1,70 @@
+{
+  "id": 1851,
+  "uid": [
+    3003056
+  ],
+  "title": [
+    "[The Healer's Tent]"
+  ],
+  "description": [
+    "Rough leather cots line the circular wall, separated by small tripods spaced evenly between each pair.  A brusque dwarf eyes you with a steady glare, his lip curled into a snarl of deepening impatience."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "herbalist",
+    "npchealer",
+    "urchin guide healer",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1850,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

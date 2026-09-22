@@ -1,0 +1,99 @@
+{
+  "id": 1837,
+  "uid": [
+    3001013
+  ],
+  "title": [
+    "[Dragonspine and Rolaren]"
+  ],
+  "description": [
+    "Dragonspine Avenue is the main street of Kharam-Dzu.  Most of the people you see are well-to-do dwarves, nattily dressed and apparently in a rush.  The buildings all look new.  Even the cobblestone streets are immaculately clean.  A sturdy set of glaes-banded mithril doors leads into a low stone structure.  The two guards outside clench their pikes tightly, peering closely at all who approach."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1035,
+      786,
+      1065,
+      816
+    ]
+  },
+  "exits": [
+    {
+      "to": 1838,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 1839,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1882,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1962,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12388,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

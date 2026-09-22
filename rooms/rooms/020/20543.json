@@ -1,0 +1,34 @@
+{
+  "id": 20543,
+  "title": [
+    "[Stone Keep, Outer Wall]"
+  ],
+  "description": [
+    "The stone wall has completely collapsed here making any further travel around the keep impossible.  A fraying rope hangs down the side of the wall and lowers into the open courtyard below."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20542,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20568,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get rope"
+        },
+        {
+          "move": "push rope"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

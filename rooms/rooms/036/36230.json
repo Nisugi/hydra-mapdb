@@ -1,0 +1,36 @@
+{
+  "id": 36230,
+  "uid": [
+    9181010
+  ],
+  "title": [
+    "[The Wasteland, Catacombs]"
+  ],
+  "description": [
+    "Fungus-covered stone walls make up the catacombs' interior, their mossy green hue offering very little luminance to the area.  Along the top of the tunnels, a trapdoor can be reached.  Filthy blackened liquid runs along the ground, the smell almost nauseating."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Elanthia",
+  "exits": [
+    {
+      "to": 36227,
+      "kind": "cardinal",
+      "cmd": "e",
+      "cost": 0.2
+    },
+    {
+      "to": 36231,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 36277,
+      "kind": "cardinal",
+      "cmd": "e",
+      "cost": 0.2
+    }
+  ]
+}

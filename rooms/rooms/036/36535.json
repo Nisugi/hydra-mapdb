@@ -1,0 +1,38 @@
+{
+  "id": 36535,
+  "uid": [
+    8211006
+  ],
+  "title": [
+    "[Sylinar's Spire, Fifth Floor]"
+  ],
+  "description": [
+    "At rest, a dusty suit of platemail stands balanced against the greatsword it holds point-down before it, its surface kept clean and free of dust.  Across from the armor, a faint chill lingers around an open door, cool air slipping quietly into the space.  Nearby, a spiraling stone staircase winds both upward and downward, continuing toward the sixth level while fading into shadow below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 36533,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 36536,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36537,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

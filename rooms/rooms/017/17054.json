@@ -1,0 +1,48 @@
+{
+  "id": 17054,
+  "uid": [
+    4749002
+  ],
+  "title": [
+    "[Temple of Ronan, Courtyard]"
+  ],
+  "description": [
+    "Huge trees loom over silver-trimmed ebonwood benches that are placed here and there in pairs, with their thick foliage blocking all but faint slivers of moonlight from touching the ground.  A peaked obsidian arch flanked by two guards gives entrance to the temple itself, and a stone-walled koi pond sits in one corner."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 17049,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17053,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17055,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17056,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

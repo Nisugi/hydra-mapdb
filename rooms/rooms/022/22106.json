@@ -1,0 +1,51 @@
+{
+  "id": 22106,
+  "uid": [
+    106001
+  ],
+  "title": [
+    "[Cairnfang Manor, Pathway]"
+  ],
+  "description": [
+    "Winding away from the bustle of the busy Freeport, the stone walkway disappears under a driftwood gate.  A polished pewter-framed plaque is attached to one side of the entrance while a blackboard is hung on the other.  A vine-draped stone wall surrounds the garden beyond.  Tall verdant trees rise up from behind the barrier framing a beautiful manor house, the elegant greenery contrasting the stone and white washed facade."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "che:cairnfang_manor:entrance_che",
+    "mapcategory:CHE",
+    "mapcategory:Vornavis",
+    "mapname:Vornavis - Cairnfang Manor",
+    "mapshortname:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      179,
+      494,
+      190,
+      506
+    ]
+  },
+  "exits": [
+    {
+      "to": 150,
+      "kind": "go",
+      "cmd": "go stone walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 22107,
+      "kind": "go",
+      "cmd": "go driftwood gate",
+      "cost": 0.2
+    }
+  ]
+}

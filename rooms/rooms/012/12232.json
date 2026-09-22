@@ -1,0 +1,109 @@
+{
+  "id": 12232,
+  "uid": [
+    4571001
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Stalactites of blue-white ice glisten dangerously overhead, reflected clearly in the mirror-like floor.  Someone or something flits around the formations with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, encrusted with silvery rime.",
+    "Dull, grey stone is slick with dampness underfoot.  Someone or something flits around in the distant shadows, with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, singed black."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up, down",
+    "Obvious paths: southwest, up, down"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      294,
+      154,
+      318,
+      178
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12230,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12235,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 12240,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 28394,
+  "title": [
+    "[Windfellow's Retreat, Courtyard]"
+  ],
+  "description": [
+    "The courtyard stretches from east to west through this area with a number of stalls set up to house visiting merchants.  The construction is a bit shabby though attention seems to have been paid to the decorations, as there are any number of bright-painted tapestries adorning both the walls of the stalls and the inner walls of the keep itself.  The straw underfoot is thicker in this area but the added layers do nothing to hide the rather pungent aroma."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      564,
+      1688,
+      617,
+      1742
+    ]
+  },
+  "exits": [
+    {
+      "to": 28393,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28395,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28455,
+      "kind": "go",
+      "cmd": "go violet tent",
+      "cost": 0.2
+    }
+  ]
+}

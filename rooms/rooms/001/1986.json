@@ -1,0 +1,90 @@
+{
+  "id": 1986,
+  "uid": [
+    252001
+  ],
+  "title": [
+    "[Warrior Guild, Main Entrance]"
+  ],
+  "description": [
+    "The tall granite walls frame large, ornately carved doors bound with krodera and mithril.  Upon their center is a large seal bearing the regal emblem of the Warrior Guild.  Beyond the walls, the domed roof of the white marbled guild complex can be seen looming over the guild proper.  In the soft light of the moon, the surface of the dome glows dimly as if it were made of solid gold.",
+    "The tall granite walls frame large, ornately carved doors bound with krodera and mithril.  Upon their center is a large seal bearing the regal emblem of the Warrior Guild.  Beyond the walls, the domed roof of the white marbled guild complex can be seen looming over the guild proper.  In the light of day, the surface of the dome glints as if it were made of solid gold."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      468,
+      39,
+      504,
+      75
+    ]
+  },
+  "exits": [
+    {
+      "to": 1985,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17253,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

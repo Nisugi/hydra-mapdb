@@ -1,0 +1,56 @@
+{
+  "id": 1578,
+  "uid": [
+    4902077
+  ],
+  "title": [
+    "[Solhaven, Fishmarket Pier]"
+  ],
+  "description": [
+    "A group of sailors wanders past, holding steaming fishcakes that they consume as they walk.  A small wooden shack rests on the quay, and through the open door comes the strong odor of frying fish."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      453,
+      1332,
+      477,
+      1356
+    ]
+  },
+  "exits": [
+    {
+      "to": 1577,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1579,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1580,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9310,
+      "kind": "go",
+      "cmd": "go shack",
+      "cost": 0.2
+    }
+  ]
+}

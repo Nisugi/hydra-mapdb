@@ -1,0 +1,60 @@
+{
+  "id": 28401,
+  "title": [
+    "[Windfellow Tower, First Floor]"
+  ],
+  "description": [
+    "The staircase flattens out here, winding almost completely around before climbing once more.  A large claw-footed brazier stands off to one side, though it is not lit.  The area is filled with ambient light whose source is unclear, and every noise echoes off the surrounding stone, reverberating around the area."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      449,
+      1294,
+      504,
+      1348
+    ]
+  },
+  "exits": [
+    {
+      "to": 28400,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 28402,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28415,
+      "kind": "go",
+      "cmd": "go narrow door",
+      "cost": 0.2
+    },
+    {
+      "to": 28418,
+      "kind": "go",
+      "cmd": "go stone archway",
+      "cost": 0.2
+    },
+    {
+      "to": 28419,
+      "kind": "go",
+      "cmd": "go stained door",
+      "cost": 0.2
+    },
+    {
+      "to": 28805,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

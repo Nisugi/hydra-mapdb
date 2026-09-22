@@ -1,0 +1,39 @@
+{
+  "id": 20342,
+  "title": [
+    "[Rods Springs N' Blades]"
+  ],
+  "description": [
+    "Brightly colored safety ropes surround a central trapdoor, attempting to prevent the less wary from falling through it.  Polished modwir planks form the walls, floor and ceiling of the boarding cabin.  Coils of ropes and a pile of harnesses fill a corner of the sparse room, and a sturdy steel door leads into another area of the craft.  An iron-edged modwir sign rests against a nearby wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20177,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 20343,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 20365,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20366,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 11207,
+  "uid": [
+    2100115
+  ],
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The hallway is littered with splintered wood and small bits of metal.  Twisted iron hinges creak mournfully against the empty doorway on the northern wall.  A foul smell wafts toward you from an opening in the southern wall."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      278,
+      206,
+      288,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 11206,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11208,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11209,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11215,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

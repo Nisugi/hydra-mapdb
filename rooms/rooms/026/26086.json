@@ -1,0 +1,43 @@
+{
+  "id": 26086,
+  "uid": [
+    679004
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Labyrinthine patterns stretch across the walls, their deeply incised lines illuminated by the potted toadstools that are arranged in a single line down the center of the corridor.  Tile-framed murals, their pigments bright and vibrant, interrupt the strange, scrolling designs at even intervals, though some appear to have sustained enough damage to make their scenes impossible to decipher.   At either end of the wide room are stone stairs, one leading up and the other leading down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26085,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26087,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

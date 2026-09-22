@@ -1,0 +1,57 @@
+{
+  "id": 5572,
+  "uid": [
+    4215178
+  ],
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Unwilling to disrupt the symmetrical spacing of the arrow slits along the tower's west wall just to provide access to the tower's roof, the builders constructed a narrow, freestanding set of steps that rise from near the wall of the inner chamber and end little more than a pace from the outer wall.  Empty quarrel bins and an empty barrel, of a size to hold cloth yard shafts, are lined up along the wall between the arrow slits."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      950,
+      157,
+      960,
+      167
+    ]
+  },
+  "exits": [
+    {
+      "to": 5571,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5574,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5575,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14601,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

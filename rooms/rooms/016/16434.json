@@ -1,0 +1,53 @@
+{
+  "id": 16434,
+  "uid": [
+    3209328
+  ],
+  "title": [
+    "[Firefly Villa, Corridor]"
+  ],
+  "description": [
+    "The shadows of damselflies, fireflies, and dragonflies dance across the ceiling, their images created by the decorative cuts in the bodies of the lanterns that are strung in a straight line down the hall.  Large vases, housing exotic flowers, stand upon either sides of a paneled white birch door and an ornate haon door, while a rich plum carpet muffles all sound and keeps the passage quiet."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      243,
+      2165,
+      259,
+      2174
+    ]
+  },
+  "exits": [
+    {
+      "to": 16432,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16435,
+      "kind": "go",
+      "cmd": "go haon door",
+      "cost": 0.2
+    },
+    {
+      "to": 16437,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 16451,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

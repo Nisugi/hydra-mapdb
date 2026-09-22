@@ -1,0 +1,359 @@
+{
+  "id": 3669,
+  "uid": [
+    3201030
+  ],
+  "title": [
+    "[Gardenia Lane]"
+  ],
+  "description": [
+    "A pair of tall, beribboned stone columns flanks the entrance to the Four Winds National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be a cool silvery purple hue as the moonlight reflects off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure.",
+    "A pair of tall, beribboned stone columns flanks the entrance to the Mist Harbor National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be a cool silvery purple hue as the moonlight reflects off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure.",
+    "A pair of tall, beribboned stone columns flanks the entrance to the Four Winds National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be on fire, as sun glints off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "meta": [
+    "teleport"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2910,
+      1320,
+      2951,
+      1361
+    ]
+  },
+  "exits": [
+    {
+      "to": 7,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "7"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 284,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "284"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 1448,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "1448"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 1944,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "1944"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 2426,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "2426"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 3521,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "3521"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 3668,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.8
+    },
+    {
+      "to": 3670,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 3673,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4651,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "4651"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 9410,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "9410"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 10862,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "10862"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "3669"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 28908,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "28908"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 29869,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "29869"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "3669"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    },
+    {
+      "to": 32885,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "32885"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 33863,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "33863"
+          ]
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 35593,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "remembered": [
+            "fwi_return_room",
+            "35593"
+          ]
+        },
+        "then": 15.0
+      }
+    }
+  ]
+}

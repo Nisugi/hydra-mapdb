@@ -1,0 +1,59 @@
+{
+  "id": 17446,
+  "uid": [
+    7800007
+  ],
+  "title": [
+    "[Jirkirl's Hilltop, Fairground]"
+  ],
+  "description": [
+    "Slumped against metal poles, straw-stuffed figures wearing hats that are slightly askew are erected way out in the middle of a pumpkin patch.  Catching the wind, cloaks draped around the scarecrows flutter wildly on the current of air.  Every so often, the hump of some furry broad-backed critter ambles idly in the field before falling out of sight."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "image": {
+    "file": "fest-highman_games-1265497377.png",
+    "rect": [
+      508,
+      498,
+      556,
+      546
+    ]
+  },
+  "exits": [
+    {
+      "to": 17445,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17447,
+      "kind": "go",
+      "cmd": "go fur-draped tent",
+      "cost": 0.2
+    },
+    {
+      "to": 17460,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34112,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    }
+  ]
+}

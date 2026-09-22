@@ -1,0 +1,35 @@
+{
+  "id": 15558,
+  "uid": [
+    5061
+  ],
+  "title": [
+    "[Beldrin's Game Hall, Larder]"
+  ],
+  "description": [
+    "This is the larder where food and drink served in the gaming hall are stored.  An open window near the ceiling reveals a patch of sky, but it is too high for you to reach from where you now stand.  Casks of wine and ale are stacked almost to the rafters, leaving you little room to maneuver.  A stairway leads down."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8818,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 15557,
+      "kind": "climb",
+      "cmd": "climb casks",
+      "cost": 0.2
+    }
+  ]
+}

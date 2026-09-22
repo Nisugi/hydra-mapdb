@@ -1,0 +1,70 @@
+{
+  "id": 7203,
+  "uid": [
+    18052
+  ],
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The land sinks down into a bowl-shaped depression to the side of the route.  The trail in that direction has become muddy and indistinct, ending in a watery conclusion.  The brown, foul water that just covers the surface of the ground within the depression seems to hide a multitude of traps and treasures."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "moist",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "black peppercorn",
+    "blue whortleberry",
+    "bright red cranberry",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cinnamon bark",
+    "cumin seeds",
+    "macadamia nuts",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pink peppercorn",
+    "star anise",
+    "vanilla bean",
+    "wild chokecherry",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      209,
+      647,
+      219,
+      657
+    ]
+  },
+  "exits": [
+    {
+      "to": 7202,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7204,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7251,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    }
+  ]
+}

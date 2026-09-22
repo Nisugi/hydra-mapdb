@@ -1,0 +1,39 @@
+{
+  "id": 18409,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Here at the edge of town, the road widens and its grass borders have grown taller.  Meadows stretch out behind the fence that runs parallel to the trail, disappearing against the horizon in a haze of green and cool pastels.  Grapevine wreaths streaming ribbons and boasting a colorful array of flowers hang from each of the fence posts, and greenery drapes the rails."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18389,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18407,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18410,
+      "kind": "go",
+      "cmd": "go barn",
+      "cost": 0.2
+    }
+  ]
+}

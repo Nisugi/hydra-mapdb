@@ -1,0 +1,41 @@
+{
+  "id": 10465,
+  "uid": [
+    738050
+  ],
+  "title": [
+    "[Warehouse Entry]"
+  ],
+  "description": [
+    "This chamber's high ceilings can easily accommodate a wide array of various sized goods, allowing for easy transportation.  Several merchants scurry about, moving pieces around the warehouse as orders are placed and shipments arrive."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 10442,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10466,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10475,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

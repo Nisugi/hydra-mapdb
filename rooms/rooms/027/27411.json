@@ -1,0 +1,48 @@
+{
+  "id": 27411,
+  "title": [
+    "[Carnival, Weirdo Way]"
+  ],
+  "description": [
+    "The crowds thin out here away from the carnival entry, the walkway headed north and south along the tightly parked wagons to the west.  A tower of discarded wooden chairs of all types prevents passage through the gap between the wagons.  The raging bonfire to the east can be glimpsed between the tents and stalls along this part of the walkway."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      476,
+      288,
+      525,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 27404,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27410,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27416,
+      "kind": "go",
+      "cmd": "go ebonwood shack",
+      "cost": 0.2
+    }
+  ]
+}

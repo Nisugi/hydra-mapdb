@@ -1,0 +1,92 @@
+{
+  "id": 18011,
+  "uid": [
+    5001101,
+    5001102,
+    5001103,
+    5001104,
+    5001105,
+    5001106,
+    5001107,
+    5001108,
+    5001109,
+    5001110,
+    5001111,
+    5001112,
+    5001113,
+    5001114,
+    5001115,
+    5001116,
+    5001117,
+    5001118,
+    5001119,
+    5001120,
+    5001121,
+    5001122,
+    5001123,
+    5001124,
+    5001125,
+    5001126,
+    5001127,
+    5001128,
+    5001129,
+    5001130,
+    5001131,
+    5001132,
+    5001133,
+    5001134,
+    5001135,
+    5001136,
+    5001137,
+    5001138,
+    5001139,
+    5001140,
+    5001141,
+    5001142,
+    5001143,
+    5001144,
+    5001145,
+    5001146,
+    5001147,
+    5001148,
+    5001149,
+    5001150
+  ],
+  "title": [
+    "[Public Lockers]"
+  ],
+  "description": [
+    "You are standing in a small stall whose facing wall is filled with an array of small, secured lockers.  One of the lockers has been removed for you and is sitting on the counter in front of you."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "exit:go opening:previous",
+    "locker",
+    "map:multi-uid"
+  ],
+  "exits": [
+    {
+      "to": 10953,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 22.2
+    }
+  ]
+}

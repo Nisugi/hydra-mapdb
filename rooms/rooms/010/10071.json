@@ -1,0 +1,86 @@
+{
+  "id": 10071,
+  "uid": [
+    13051003
+  ],
+  "title": [
+    "[Hagatha's Brew and Barley]"
+  ],
+  "description": [
+    "Wooden planks worn smooth by years of constant use line the floor of the tavern, strewn with fresh rushes and smelling slightly of ale.  Several elves are crowded around an ornately carved bar that runs the length of one wall, drinking and conversing quietly.  A few tables, each decorated with a lone candle as centerpiece, are scattered about the tavern."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 680,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 15607,
+      "kind": "go",
+      "cmd": "go bar",
+      "cost": 0.2
+    },
+    {
+      "to": 18590,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mermaid table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18592,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mystic table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18593,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pegleg table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18594,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Ant Hill table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18595,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Jeweled Dagger table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

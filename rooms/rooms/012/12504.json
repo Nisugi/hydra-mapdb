@@ -1,0 +1,47 @@
+{
+  "id": 12504,
+  "uid": [
+    3003260
+  ],
+  "title": [
+    "[Golden Helm, Long Corridor]"
+  ],
+  "description": [
+    "The hallway appears brighter and wider than you expect, due to the high vaulted ceiling.  Three heavy wood wheels, heaped with candles of varying heights, are suspended from the ceiling by blackened iron chains.  A complete suit of mithril armor stands guard beside the steps."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1842,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12505,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 12506,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 12507,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

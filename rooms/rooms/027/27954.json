@@ -1,0 +1,49 @@
+{
+  "id": 27954,
+  "uid": [
+    3204126
+  ],
+  "title": [
+    "[Atrium, Booth]"
+  ],
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "unique_loot": [
+    "morning glory-embroidered curtain"
+  ],
+  "terrain": "hard, flat",
+  "tags": [
+    "locker:public"
+  ],
+  "meta": [
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 16310,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go curtain"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go curtain",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 8207,
+  "uid": [
+    391016
+  ],
+  "title": [
+    "[Sea Caverns, Small Chamber]"
+  ],
+  "description": [
+    "This small space is unremarkable except for the hideous stench of the refuse.  Peeking out of an impressive pile heaped against the south wall are various bones and ragged pelts, obviously unpalatable even to goblins.  To the southeast, a shimmer of light can be discerned. To the northeast, the darkness thickens."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the sea caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      526,
+      209,
+      536,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 8204,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8208,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8222,
+      "kind": "go",
+      "cmd": "go wall",
+      "cost": 0.2
+    }
+  ]
+}

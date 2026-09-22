@@ -1,0 +1,69 @@
+{
+  "id": 32947,
+  "uid": [
+    7140501
+  ],
+  "title": [
+    "[Harbormaster's Office]"
+  ],
+  "description": [
+    "A sizeable wooden wheel is displayed against the wall of the office, the helm's surface carved in elaborate nautical imagery and coated in dark lacquer.  Several gold-framed maps line the planked walls, each one depicting various trade routes through the surrounding waters of the Great Western Sea and beyond.  A worn leather-backed chair sits behind a kraken-carved desk of driftwood, the surface cluttered with various bottles glinting as the moonlight peeks through the tall windows."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Seareach",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "dock handler",
+    "handler",
+    "no forageables",
+    "urchin guide osatask",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 32899,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 34400,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": 730,
+  "uid": [
+    737002
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "Blue-grey granite cottages neatly line the cobblestone lane, splashed with the vibrant hues of carefully tended beds of clematis, lady's slippers, and verbena.  The smaller stonework dwellings give way to somewhat larger buildings to the north, shaded by lush trees."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1493,
+      667,
+      1510,
+      683
+    ]
+  },
+  "exits": [
+    {
+      "to": 641,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 731,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18088,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    },
+    {
+      "to": 18680,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 24259,
+      "kind": "go",
+      "cmd": "go store",
+      "cost": 0.2
+    }
+  ]
+}

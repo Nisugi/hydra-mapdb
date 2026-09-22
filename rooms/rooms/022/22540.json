@@ -1,0 +1,43 @@
+{
+  "id": 22540,
+  "uid": [
+    9086301
+  ],
+  "title": [
+    "[Fitzwobbin's Figures, Show Room]"
+  ],
+  "description": [
+    "Some steel racks line the interior walls of the wagon, leaving little space for anything else.  Small wooden cabinets support a fold out countertop against the back wall, while a few iron rungs lead upwards to a circular steel hatch in the ceiling near the wagon's front."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20198,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 22541,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23155,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

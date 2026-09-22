@@ -1,0 +1,64 @@
+{
+  "id": 27136,
+  "uid": [
+    13202033
+  ],
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Several tables skirted in various colors and festooned with multicolored ribbons fill the large clearing.  Wooden trays heaped with food cover a central stand.  Ribbons of silvery moonlight filter through the thick verdant canopy of several large oak trees growing tall along the edge of the meadow."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      475,
+      525,
+      488,
+      538
+    ]
+  },
+  "exits": [
+    {
+      "to": 27135,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27137,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27141,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31238,
+      "kind": "go",
+      "cmd": "go dark wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 31239,
+      "kind": "go",
+      "cmd": "go azure tent",
+      "cost": 0.2
+    },
+    {
+      "to": 31240,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    }
+  ]
+}

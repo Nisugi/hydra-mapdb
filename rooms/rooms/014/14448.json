@@ -1,0 +1,85 @@
+{
+  "id": 14448,
+  "uid": [
+    28101
+  ],
+  "title": [
+    "[Wehnimer's Museum, Grand Foyer]",
+    "[Wehnimer's Museum, Grand Lobby]"
+  ],
+  "description": [
+    "White marble columns, set halfway into the walls, serve as both decoration and structural support for the high ceiling.  Set between them are some colorful velvet settees that offer respite for weary patrons.  The cool marble floor is interrupted by a pale gold carpet that leads up an expansive staircase.  In the center of the western wall is a green marble arch, while the eastern wall sports a white marble arch.  Across the room from a gold marble arch, a large platinum plaque and a rectangular white sign are displayed beside the oaken double doors that lead outside.",
+    "You are in the grand entry hall of the Wehnimer's Museum.  This building houses much ancient and historical lore, artifacts and antiquities.  The museum complex consists of galleries bedecked in fine works of art, wings devoted to historical artifacts, a library of rare manuscripts, a wing devoted to the natural history of Elanthia, and a Hall of Magic and Technology."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: north, east, south, west, out",
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Museum",
+    "mapshortname:Museum",
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      898,
+      1494,
+      1040,
+      1556
+    ]
+  },
+  "exits": [
+    {
+      "to": 235,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 14643,
+      "kind": "go",
+      "cmd": "go white arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14647,
+      "kind": "go",
+      "cmd": "go green arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19947,
+      "kind": "go",
+      "cmd": "go gold arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19950,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20054,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb steps"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

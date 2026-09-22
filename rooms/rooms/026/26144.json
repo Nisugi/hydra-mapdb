@@ -1,0 +1,69 @@
+{
+  "id": 26144,
+  "uid": [
+    7107075,
+    7107125,
+    7107175,
+    7107225,
+    7107275,
+    7107325,
+    7107375,
+    7107425,
+    7107475,
+    7107525,
+    7107575,
+    7107625,
+    7107675,
+    7107725,
+    7107775,
+    7107825
+  ],
+  "title": [
+    "[Reim Fortress, South Gate]"
+  ],
+  "description": [
+    "Guttering torches illuminate the narrow passage, their flames striving to maintain their girth and glow in the whipping winds that howl through the stones.  Charred scars mar the oak planks of what remains of the ceiling, though the oily stains upon its flooring are from something darker.  The pungent oils of the torches' flames and some other substance lend the passage a cloying and choking heaviness."
+  ],
+  "paths": [
+    "Obvious exits: north, up",
+    "Obvious paths: north, up"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      552,
+      457,
+      586,
+      490
+    ]
+  },
+  "exits": [
+    {
+      "to": 26143,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26145,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26146,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

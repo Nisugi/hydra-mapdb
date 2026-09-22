@@ -1,0 +1,51 @@
+{
+  "id": 3654,
+  "uid": [
+    3201018
+  ],
+  "title": [
+    "[Wisteria Lane]"
+  ],
+  "description": [
+    "A thin layer of dew covers the flowers planted in the windowboxes along the street.  In the area, only a single shop remains open, its warm candlelight glowing in the windows breaking the eerie darkness as it flickers across the cobblestones.  The sign above its door, as well as the various hides left hanging outside, indicates that it is the furrier's shop.",
+    "A plethora of wildflowers, in prismatic shades, overflows from the freshly painted windowboxes on each cottage windowfront.  People bustle here and there, visiting the shops along the avenue.  Outside of a yellow-trimmed cottage is a small, hand-painted sign in the shape of a bear.  That, in conjunction with the numerous skins and hides left hanging outside the shop to dry, indicates that it is the local furrier's shop."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2632,
+      1605,
+      2667,
+      1637
+    ]
+  },
+  "exits": [
+    {
+      "to": 3653,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3655,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12285,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

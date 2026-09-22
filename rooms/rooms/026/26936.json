@@ -1,0 +1,42 @@
+{
+  "id": 26936,
+  "title": [
+    "[Briarmoon Cove, Eastern Dock]"
+  ],
+  "description": [
+    "The watchful moons wax and wane in the halcyon skies, allowing only the far-flung crystalline stars to pierce the weighty darkness alongside their presence.  Just enough light is present in the west to delineate the opaque silhouettes of numerous seaworthy vessels that sail upon distant waters, staggered at varying spots in the briny deep.  Granular beads of rime speckle the slender arm of a curving blonde oak pier that embraces the nearest shoulder of the beach."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      553,
+      646,
+      575,
+      671
+    ]
+  },
+  "exits": [
+    {
+      "to": 25441,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28557,
+      "kind": "go",
+      "cmd": "go pier",
+      "cost": 0.2
+    },
+    {
+      "to": 29342,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    }
+  ]
+}

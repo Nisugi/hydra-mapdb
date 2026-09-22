@@ -1,0 +1,34 @@
+{
+  "id": 26891,
+  "title": [
+    "[Bloodriven Village, Pewter Road]"
+  ],
+  "description": [
+    "Opening slightly to the south, the narrow street transitions with great difficulty from dingy alley to an actual road.  Debris and refuse spill beyond the confines of the alley onto the crowded path, though someone has made an attempt at containing a portion of the mess by building a small dam of cobblestones in the middle of the street."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the sewers of Bloodriven Village",
+  "check_location": true,
+  "exits": [
+    {
+      "to": 26887,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26892,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27653,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

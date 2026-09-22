@@ -1,0 +1,60 @@
+{
+  "id": 19945,
+  "uid": [
+    336028
+  ],
+  "title": [
+    "[Theatre, Backstage]"
+  ],
+  "description": [
+    "The area behind the stage is in disarray, with wooden props scattered about the floor while fanciful costumes are overflowing from iron-bound chests.  Bins of old paint rest near a few discolored wooden sets, their transformation still incomplete.  A few stools rest before a row of vanities, and a dim passageway leads back to the theatre's auditorium."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      1147,
+      405,
+      1288,
+      467
+    ]
+  },
+  "exits": [
+    {
+      "to": 8683,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 10.0
+    },
+    {
+      "to": 19944,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 19946,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

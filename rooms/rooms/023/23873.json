@@ -1,0 +1,57 @@
+{
+  "id": 23873,
+  "uid": [
+    4422207
+  ],
+  "title": [
+    "[Circle of Trees, Ground Level]"
+  ],
+  "description": [
+    "The sky is completely eclipsed by the leafy canopy above that creates a cool shade down on the forest floor.  The aerial prop roots of the great banyan tree that occupies this space have grown indistinguishable from the main trunk, rising well above head level.  Several deep grooves in the roots seem to be sturdy enough to support weight and would serve as a hand and toe trail up the face of the trunk."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      675,
+      445,
+      687,
+      457
+    ]
+  },
+  "exits": [
+    {
+      "to": 23871,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23874,
+      "kind": "go",
+      "cmd": "go grooves",
+      "cost": 0.2
+    },
+    {
+      "to": 23875,
+      "kind": "go",
+      "cmd": "go lashed hut",
+      "cost": 0.2
+    },
+    {
+      "to": 23877,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27357,
+      "kind": "go",
+      "cmd": "go indented root",
+      "cost": 0.2
+    }
+  ]
+}

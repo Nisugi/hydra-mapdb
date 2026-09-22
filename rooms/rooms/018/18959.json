@@ -1,0 +1,53 @@
+{
+  "id": 18959,
+  "uid": [
+    660004
+  ],
+  "title": [
+    "[Sorcerer Guild, Meeting Cavern]"
+  ],
+  "description": [
+    "Sharp stalactites hang menacingly from above in this enormous basalt cavern, and twisted nooks and recesses in the walls form mysterious dark passages.  Large pipes extend from floor to ceiling in four areas of the cavern.  A raised white marble dais occupies the north wall beneath a huge banner, and torches burn brightly along the smoother portions of the surrounding walls.  Covered by white polar bear fur, the floor supports rows of benches in tiers rising from the dais to the back of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Icemule Trace",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      642,
+      605,
+      680,
+      642
+    ]
+  },
+  "exits": [
+    {
+      "to": 18957,
+      "kind": "climb",
+      "cmd": "climb east staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18960,
+      "kind": "climb",
+      "cmd": "climb west staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18976,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "banner"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

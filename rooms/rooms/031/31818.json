@@ -1,0 +1,54 @@
+{
+  "id": 31818,
+  "uid": [
+    8083398
+  ],
+  "title": [
+    "[Gleyminn Anni River, Shrine]"
+  ],
+  "description": [
+    "The flow of the river is splintered by a small islet camouflaged in a dense thicket of white alders.  To the southwest, the current runs swift, forming muddy swirls and foaming eddies before disappearing into a thick brume.  A small shrine at the water's edge is marked with illegible runes."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1021,
+      645,
+      1044,
+      667
+    ]
+  },
+  "exits": [
+    {
+      "to": 31817,
+      "kind": "other",
+      "cmd": "push sw",
+      "cost": 0.2
+    },
+    {
+      "to": 31819,
+      "kind": "other",
+      "cmd": "push se",
+      "cost": 0.2
+    },
+    {
+      "to": 32077,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

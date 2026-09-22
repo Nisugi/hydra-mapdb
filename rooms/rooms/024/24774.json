@@ -1,0 +1,49 @@
+{
+  "id": 24774,
+  "uid": [
+    212035
+  ],
+  "title": [
+    "[Helden Hall, Rooftop]"
+  ],
+  "description": [
+    "The view from the top of the castle is breathtaking.  As you step out onto the half-enclosed roof, you get the feeling of being on top of the world.  A Wehnimer's flag flutters in the breeze atop the east towers, and a large cannon stands at the ready, its barrel pointed toward the sea.  A large wooden tub sits in the center of the rooftop, filled to the brim with bubbling water.  Obviously the guards who man this post enjoy their comfort during peaceful times."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      735,
+      413,
+      773,
+      451
+    ]
+  },
+  "exits": [
+    {
+      "to": 24749,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 24781,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    },
+    {
+      "to": 24784,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

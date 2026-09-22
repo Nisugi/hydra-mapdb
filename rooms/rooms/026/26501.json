@@ -1,0 +1,54 @@
+{
+  "id": 26501,
+  "title": [
+    "[Caligos Isle, High Promontory]"
+  ],
+  "description": [
+    "In those rare moments when the fog lifts from the area, the view of the western sea is nothing short of spectacular from this promontory outcropping of basalt.  Peering down, however, is ill-advised for the faint of heart, as the drop-off is steep and the surface of the churning water is a long way down.  A long length of knotted hemp rope dissappears over the side of the cliff, and a plank and chain ladder vanishes upwards, all but lost in the thick, grey mist rolling down from the higher peaks."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      131,
+      319,
+      146,
+      333
+    ]
+  },
+  "exits": [
+    {
+      "to": 26493,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26502,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 26509,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27492,
+      "kind": "go",
+      "cmd": "go striped tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29314,
+      "kind": "go",
+      "cmd": "go grey tent",
+      "cost": 0.2
+    }
+  ]
+}

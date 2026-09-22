@@ -1,0 +1,35 @@
+{
+  "id": 35514,
+  "uid": [
+    4410302
+  ],
+  "title": [
+    "[Craggy Rock Approach]"
+  ],
+  "description": [
+    "Carving through craggy rock, the rough walls of the tunnel are etched with deep grooves, jagged edges, and uneven outcrops broken by a rough stone archway leading up to the surface.  Patches of encrusting algae, barnacles, and sponges cling to the stone, filling crevices and cracks.  Small fish dart in and out of narrow gaps, sheltering in the ledges and recesses.  The floor is strewn with loose rock fragments and sediment, shifting slightly with the movement of the water."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "exit"
+  ],
+  "exits": [
+    {
+      "to": 17605,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 35515,
+      "kind": "cardinal",
+      "cmd": "n",
+      "cost": 0.2
+    }
+  ]
+}

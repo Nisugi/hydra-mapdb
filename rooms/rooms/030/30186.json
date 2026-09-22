@@ -1,0 +1,75 @@
+{
+  "id": 30186,
+  "uid": [
+    4043004
+  ],
+  "title": [
+    "[Northern Post, Mail Room]"
+  ],
+  "description": [
+    "Framed by windows of frosted glass, the front door of the post office allows wintry air to cut through the warmth of the close room.  Beeswax candles sit along the window sills, but they lend more light than heat and perfume the air gently with their honeyed smell.  The real heat source is a blazing coal stove behind the polished pine counter."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "mail",
+    "no forageables",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3233,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30187,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

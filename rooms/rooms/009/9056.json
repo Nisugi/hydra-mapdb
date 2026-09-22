@@ -1,0 +1,99 @@
+{
+  "id": 9056,
+  "uid": [
+    254001
+  ],
+  "title": [
+    "[Warrior Guild Entryway]"
+  ],
+  "description": [
+    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of sunlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm.",
+    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of moonlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Guilds",
+    "mapcategory:Icemule Trace",
+    "mapcategory:River's Rest",
+    "mapcategory:Teras Isle",
+    "mapcategory:Vornavis",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Warrior Guilds"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1047,
+      349,
+      1067,
+      370
+    ]
+  },
+  "exits": [
+    {
+      "to": 1459,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 17001,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

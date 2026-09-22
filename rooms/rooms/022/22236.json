@@ -1,0 +1,43 @@
+{
+  "id": 22236,
+  "title": [
+    "[The Swale, Outskirts]"
+  ],
+  "description": [
+    "Caravans of wagons, and travelers on foot, trudge down a steep mountainside, their packs and carts full of wares to be sold at the market in town.  The formidable mountains stretch into the distance, blanketing the thinning landscape."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      543,
+      249,
+      558,
+      263
+    ]
+  },
+  "exits": [
+    {
+      "to": 299,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go fog"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22243,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

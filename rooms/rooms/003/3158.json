@@ -1,0 +1,98 @@
+{
+  "id": 3158,
+  "uid": [
+    4160003
+  ],
+  "title": [
+    "[Frozen Garden, Pond]"
+  ],
+  "description": [
+    "Small groves of evergreen trees grow at the edge of a small, frozen pond.  A thin ribbon of ice leads from the pond and marks what was once a shallow stream.  Snow drifts climb above the edges of the stream creating a narrow gully for it to wind its way through."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "the Frozen Garden",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "frostflower",
+    "frostweed",
+    "handful of pinenuts",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "pine twig",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "slender twig",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "spruce twig",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "thorny wintersbite",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white crallisberry",
+    "winter rose",
+    "wintercrisp apple",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      101,
+      655,
+      111,
+      665
+    ]
+  },
+  "exits": [
+    {
+      "to": 3157,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3159,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go portal"
+        },
+        {
+          "remember": [
+            "talondown_origin",
+            "3158"
+          ]
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

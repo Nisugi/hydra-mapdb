@@ -1,0 +1,44 @@
+{
+  "id": 15795,
+  "uid": [
+    4048004
+  ],
+  "title": [
+    "[Icewall Penitentiary, Bridge]"
+  ],
+  "description": [
+    "Four sections of iron-shod rope, each consisting of several lengths wound around another, offer dire passage over an ensured death below.  From an icy ledge to the east, the plankless bridge extends over the chasm and has been securely tethered to both sides of a circular opening to the west.  Hooded iron sconces offer limited torchlight on either end of the bridge."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Penitentiary_Map-51200829.png",
+    "rect": [
+      359,
+      176,
+      407,
+      222
+    ]
+  },
+  "exits": [
+    {
+      "to": 15794,
+      "kind": "go",
+      "cmd": "go ledge",
+      "cost": 0.2
+    },
+    {
+      "to": 15796,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

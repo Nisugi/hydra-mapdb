@@ -1,0 +1,72 @@
+{
+  "id": 18331,
+  "uid": [
+    3210481
+  ],
+  "title": [
+    "[Saewehna Lagoon]"
+  ],
+  "description": [
+    "Moonlight filters in through the branches of nearby trees on the shoreline, breaking apart the shadows that drift across the black surface of the lagoon.  The occasional vague shape shifts beneath the water, too dark to be properly seen as it makes its way through the lagoon's depths.",
+    "Sunlight filters in through the branches of nearby trees on the shoreline, broken into brilliant shafts that illuminate the vivid blue surface of the lagoon.  A few stray flowers float in the water, drifting around aimlessly as the current shifts them to and fro, and the occasional silvery fish nibbles at the underside."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ifw-saewehna_lagoon-1525325794.png",
+    "rect": [
+      1959,
+      841,
+      1989,
+      868
+    ]
+  },
+  "exits": [
+    {
+      "to": 18318,
+      "kind": "other",
+      "cmd": "swim north",
+      "cost": 5.0
+    },
+    {
+      "to": 18328,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 5.0
+    },
+    {
+      "to": 18329,
+      "kind": "other",
+      "cmd": "swim northeast",
+      "cost": 5.0
+    },
+    {
+      "to": 18330,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 5.0
+    },
+    {
+      "to": 18332,
+      "kind": "go",
+      "cmd": "go shoreline",
+      "cost": 0.2
+    },
+    {
+      "to": 18333,
+      "kind": "other",
+      "cmd": "swim southeast",
+      "cost": 5.0
+    }
+  ]
+}

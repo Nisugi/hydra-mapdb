@@ -1,0 +1,36 @@
+{
+  "id": 26280,
+  "title": [
+    "[Darkness With Inn, Front Desk]"
+  ],
+  "description": [
+    "A blood-stained wooden desk sits to the side of the staircase and bears a placard carved into the likeness of a red-eyed lich, a crown of finger bones upon his head.  Moldering zombies stagger about the area, some wandering mindlessly up and down the staircase rising to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      478,
+      562,
+      505,
+      589
+    ]
+  },
+  "exits": [
+    {
+      "to": 26273,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26281,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

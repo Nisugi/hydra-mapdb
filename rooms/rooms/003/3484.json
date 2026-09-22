@@ -1,0 +1,64 @@
+{
+  "id": 3484,
+  "uid": [
+    14100005
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Wey]"
+  ],
+  "description": [
+    "The wey branches off in several directions, the bustling crowd splitting as they pursue their various courses.  Haon bushes line the edges of the limestone cobbles, their neatly trimmed branches forming a tight phalanx to keep passersby on the road.  A large limestone building stands off to the side, with a constant flow of travelers heading in and out.  Two city guardsmen stand next to a mithril gate, eyeing everyone suspiciously."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      776,
+      255,
+      811,
+      291
+    ]
+  },
+  "exits": [
+    {
+      "to": 3483,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3485,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3494,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10302,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 27919,
+      "kind": "go",
+      "cmd": "go mithril gate",
+      "cost": 0.2
+    }
+  ]
+}

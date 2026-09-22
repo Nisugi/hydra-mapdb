@@ -1,0 +1,53 @@
+{
+  "id": 18757,
+  "uid": [
+    657011
+  ],
+  "title": [
+    "[Empath Guild, Foyer]"
+  ],
+  "description": [
+    "Frescoes in a healing motif cast moonlit shadows over the foyer's pale limestone walls.  Semicircular in nature, the foyer boasts a slightly domed ceiling and two large glaesine skylights.  Small beds and tubs of healing herbs and flowers touched by starlight line the pale wood floor, and a large vine-limned archway leads west to a hallway.",
+    "Frescoes in a healing motif reside over the foyer's pale limestone walls.  Semicircular in nature, the foyer boasts a slightly domed ceiling and two large glaesine skylights.  Small beds and tubs of healing herbs and flowers line the pale wood floor, basking in the sun's light, and a large vine-limned archway leads west to a hallway."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_empath_guild.png",
+    "rect": [
+      873,
+      451,
+      939,
+      515
+    ]
+  },
+  "exits": [
+    {
+      "to": 13717,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18758,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18773,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18774,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

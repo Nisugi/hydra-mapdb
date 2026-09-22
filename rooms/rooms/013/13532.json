@@ -1,0 +1,139 @@
+{
+  "id": 13532,
+  "uid": [
+    4384004
+  ],
+  "title": [
+    "[Silverwood Manor, Vestibule]"
+  ],
+  "description": [
+    "The polished mahogany of the high, arching ceilings in this chamber is a stark contrast to the alabaster stone of the reinforcing ribbed vaults.  Dangling from the center vault is a gleaming chain of silver links, suspending a softly glowing globe of crackled glass.  A silver-threaded tapestry hangs next to a spindly black willow table that is pushed against the wall.  Opposite the entry door, the area widens considerably to allow space for a dramatic staircase of silver-flecked white marble."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 8695,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "forget": "silverwood_town"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "silverwood_town",
+            "wl"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 8696,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "forget": "silverwood_town"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "silverwood_town",
+            "imt"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 13533,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14002,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14005,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14659,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "forget": "silverwood_town"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "silverwood_town",
+            "va"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 32873,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "forget": "silverwood_town"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "silverwood_town",
+            "zul"
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

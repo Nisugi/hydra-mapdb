@@ -1,0 +1,35 @@
+{
+  "id": 14185,
+  "uid": [
+    4742024
+  ],
+  "title": [
+    "[Temple of Lorminstra, Hallway]"
+  ],
+  "description": [
+    "Even more dimly lit than the temple's main hallway, this narrow passageway is clearly not intended for use by the public."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14183,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14199,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

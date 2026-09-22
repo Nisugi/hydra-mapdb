@@ -1,0 +1,49 @@
+{
+  "id": 20213,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "Small, boarded-up sheds serve as makeshift barns along this relatively cleared stretch of ground.  The sounds and smells of domestic animals filter from within the ramshackle structures.  A wire-enclosed chicken coop is perched high up on stilted supports, offering some protection from the wildlife marauders.  Eyes peer out occasionally from the branches of some spreading oaks, marking the positions of predators hoping to secure a nighttime meal.",
+    "Small, boarded-up sheds serve as makeshift barns along this relatively cleared stretch of ground.  The sounds and smells of domestic animals filter from within the ramshackle structures.  A wire-enclosed chicken coop is perched high up on stilted supports, offering some protection from the wildlife marauders.  Some spreading oaks offer some shade, but provide little respite from the humid air and stench."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      735,
+      704,
+      749,
+      717
+    ]
+  },
+  "exits": [
+    {
+      "to": 20210,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20255,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21408,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 21486,
+      "kind": "go",
+      "cmd": "go green shack",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 31830,
+  "uid": [
+    8083410
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The languid river flows between steep banks, its steel grey waters offering no reflection of the skies overhead.  A dented helm has been discarded in the mud along the shore and nearby a hatchet is sunk into a fallen timber.  Smoke can be seen in the distance drifting upwards in random patterns."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1330,
+      838,
+      1352,
+      859
+    ]
+  },
+  "exits": [
+    {
+      "to": 31829,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31831,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 3498,
+  "uid": [
+    14100061
+  ],
+  "title": [
+    "[Ta'Vaalor, Shimeraern Var]"
+  ],
+  "description": [
+    "The cobbled var provides a distant view of the city's airships dock several blocks to the west, the sound of the vessels only occasionally drifting in on a puff of wind.  Raucous laughter pours from the open windows of a tavern on the corner, filling the var with the sounds of merriment.",
+    "The cobbled var provides a distant view of the city's airship dock several blocks to the west, the sound of the vessels only occasionally drifting in on a puff of wind.  The murmur of conversation drifts from the tavern as somber-looking patrons come and go, while a couple of young boys scrub at the soot-stained walls with buckets of soapy water.",
+    "The cobbled var provides a distant view of the city's airship dock several blocks to the west, the sound of the vessels only occasionally drifting in on a puff of wind.  The murmur of conversation drifts from the tavern as somber-looking patrons come and go.",
+    "Shadows flicker across the cobbled var, backlit from the open windows of the tavern on the corner.  Barely seen is A maoral sign set above the door from which music and laughter pour forth.  Guardsmen stand watch a few feet away, keeping a keen eye on drunken revelers as they stumble out and toward their homes.",
+    "The cobbled var provides a distant view of the city's airships dock several blocks to the west, the sound of the vessels only occasionally drifting in on a puff of wind.  Music and laughter pour from the open windows of a tavern on the corner, filling the var with the sounds of revelry.  A maoral sign is set above the door of the tavern."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide helgreths",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      625,
+      404,
+      661,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 3497,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3500,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3501,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10424,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 26016,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

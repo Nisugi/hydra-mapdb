@@ -1,0 +1,59 @@
+{
+  "id": 2954,
+  "uid": [
+    4132035
+  ],
+  "title": [
+    "[Abbey, Grand Stair Landing]",
+    "[Abbey Grand Stair Landing]"
+  ],
+  "description": [
+    "The broad landing of the grand stair is oval, with its wooden floor painted dark green.  A semi-circular railing surrounds the landing and continues up the final five steps to the upper gallery."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, down",
+    "Obvious exits: southwest, down",
+    "Obvious exits: up, down"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      268,
+      531,
+      322,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 2953,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 2955,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 2991,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31063,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

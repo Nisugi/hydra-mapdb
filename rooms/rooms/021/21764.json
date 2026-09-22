@@ -1,0 +1,48 @@
+{
+  "id": 21764,
+  "uid": [
+    103105
+  ],
+  "title": [
+    "[House Phoenix, Alcove]"
+  ],
+  "description": [
+    "This alcove is plushly floored with thick carpeting that extends up the treads of a spiral stair to the next level."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Rising Phoenix"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      1674,
+      747,
+      1794,
+      824
+    ]
+  },
+  "exits": [
+    {
+      "to": 21750,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21765,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    }
+  ]
+}

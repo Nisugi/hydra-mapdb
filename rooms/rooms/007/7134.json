@@ -1,0 +1,46 @@
+{
+  "id": 7134,
+  "uid": [
+    41040
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The floor slopes down to the east at quite a steep angle.  The air gets damper and the walls moldier the farther to the east you look.  It looks much drier up to the west."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "kiramon defender",
+    "kiramon worker",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1109,
+      416,
+      1119,
+      426
+    ]
+  },
+  "exits": [
+    {
+      "to": 7133,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7135,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 29168,
+  "uid": [
+    3023105
+  ],
+  "title": [
+    "[Basalt Cliff, Face]"
+  ],
+  "description": [
+    "Near the top of the cliff there are no footholds that allow progress upwards.  One may only climb the cliff face back down or perhaps try their luck and shimmy to the east across the basalt in search of a way up.  The wind here is relentless against the exposed rock and anything unlucky enough to be clinging to it."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the volcanic flats",
+  "climate": "arid",
+  "terrain": "mountainous",
+  "tags": [
+    "butterfly pea flower",
+    "lemon balm",
+    "lemon verbena",
+    "mate leaves",
+    "pepperthorn root",
+    "sprig of rooibos",
+    "spring onion",
+    "stalk of drakefern",
+    "white cotton boll",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "ti-feyrie-1599500894.png",
+    "rect": [
+      376,
+      431,
+      403,
+      455
+    ]
+  },
+  "exits": [
+    {
+      "to": 29166,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb cliff face"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29169,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb exposed basalt"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

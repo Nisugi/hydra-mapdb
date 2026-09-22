@@ -1,0 +1,62 @@
+{
+  "id": 25833,
+  "uid": [
+    3223852
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Sheer and formidable, the cliffs of the nearby island fall in a sheer drop to the ocean floor.  White-capped waves insistently spend their strength against their smooth faces, but the sturdy structure stoically ignores the mutable attempts of the bright blue water.  Just beneath the southern edge of the cliffs, a small dock can be seen stretching out into the water."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1121,
+      1599,
+      1141,
+      1619
+    ]
+  },
+  "exits": [
+    {
+      "to": 25832,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25834,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25848,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

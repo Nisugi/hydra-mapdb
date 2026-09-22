@@ -1,0 +1,52 @@
+{
+  "id": 32080,
+  "uid": [
+    8083387
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The murky waters of the river reflect no ambient light as they flow along smoothly, the exact depth unknown.  On the eastern bank, a wooden boat bobs forgotten, tethered by rotting ropes to a dead tree trunk.  On the opposite shore, a fairy ring of reddish brown mushrooms springs up from the verdant ground."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      944,
+      489,
+      967,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 32079,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32081,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

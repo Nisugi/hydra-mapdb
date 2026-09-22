@@ -1,0 +1,172 @@
+{
+  "id": 25618,
+  "uid": [
+    14117013
+  ],
+  "title": [
+    "[Mistydeep, South of Ravelin]"
+  ],
+  "description": [
+    "To the northwest, a sprinkling of homes can be spotted among the assorted hardwoods, but here, the river glides past patches of pristine wilderness.  The howl of a wolf resounds somewhere in the distance, yet two egrets wading on stilt-like legs at the shore seem unperturbed.  To the south, a large shape looms in the midst of the river."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1204,
+      730,
+      1222,
+      750
+    ]
+  },
+  "exits": [
+    {
+      "to": 18841,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row south",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 18842,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row west",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25619,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30507,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

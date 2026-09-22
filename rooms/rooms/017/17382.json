@@ -1,0 +1,46 @@
+{
+  "id": 17382,
+  "uid": [
+    262005
+  ],
+  "title": [
+    "[Abandoned Warehouse]"
+  ],
+  "description": [
+    "Walls of boxes labeled \"Picks\" and \"Lantern Parts\" are piled three and four high, making a corridor that leads north and west.  The crates have certainly seen better days, as their boards are warping and their corners are coming apart.  A sagging arch opens in the south wall, away from the warehouse proper."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "none",
+  "image": {
+    "file": "ti-rogue_guild-1486041266.png",
+    "rect": [
+      609,
+      639,
+      729,
+      717
+    ]
+  },
+  "exits": [
+    {
+      "to": 14557,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17387,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17388,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

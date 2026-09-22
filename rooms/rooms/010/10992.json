@@ -1,0 +1,78 @@
+{
+  "id": 10992,
+  "uid": [
+    15003004
+  ],
+  "title": [
+    "[Mislin Hall, Clerk's Office]"
+  ],
+  "description": [
+    "Dark maoral paneling and sparse furnishings -- only a desk and bookcase -- make for an austere and purely functional office.  Two shallow wooden boxes sit atop the desk, each filled with neatly penned documents, while parchment scrolls and thick ledgers fill the bookcase and lend a musty bite to the air."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "no forageables",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      295,
+      1442,
+      362,
+      1511
+    ]
+  },
+  "exits": [
+    {
+      "to": 10991,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

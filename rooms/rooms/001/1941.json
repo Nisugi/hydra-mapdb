@@ -1,0 +1,50 @@
+{
+  "id": 1941,
+  "uid": [
+    3003255
+  ],
+  "title": [
+    "[Adventurers Rest, Long Hall]"
+  ],
+  "description": [
+    "The hallway comes to an abrupt end, the final wall rough and unpolished."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1485,
+      195,
+      1630,
+      261
+    ]
+  },
+  "exits": [
+    {
+      "to": 1940,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23192,
+      "kind": "go",
+      "cmd": "go amethyst arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33134,
+      "kind": "go",
+      "cmd": "go amber arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 10331,
+  "uid": [
+    14103500
+  ],
+  "title": [
+    "[Adventurers' Guild, Foyer]"
+  ],
+  "description": [
+    "Heavy oak posts define this large, octagonal room.  Dominating the center of the space is a massive fireplace, its dressed basalt blocks rising into the dimness of the vaults overhead.  An odd assortment of people is seated on benches scattered around the room, some sitting singly, others in small groups huddled in private conversation.  A staircase winds behind the chimney, leading to the upper story."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      924,
+      2453,
+      992,
+      2521
+    ]
+  },
+  "exits": [
+    {
+      "to": 3491,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 10332,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10333,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10334,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

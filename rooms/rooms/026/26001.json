@@ -1,0 +1,42 @@
+{
+  "id": 26001,
+  "uid": [
+    158103
+  ],
+  "title": [
+    "[The Last Enclave]"
+  ],
+  "description": [
+    "Beneath a jagged dome of opaque crystal, scarlet silk banners dangling heliodor tassels stretch from wall to wall overhead, brazenly displaying their grey tower sigils.  The crystal of the dome is suffused with magical energies, pulsing from sullen crimson to angry red before subsiding once again.  Steps lead up from a pair of iron-riveted doors so that a greeting host will always stand higher than newly-welcomed visitors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "New Ta'Faendryl",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-isharn_enclave-1648064027.png",
+    "rect": [
+      1279,
+      321,
+      1577,
+      577
+    ]
+  },
+  "exits": [
+    {
+      "to": 26000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go doors"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

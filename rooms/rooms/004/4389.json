@@ -1,0 +1,45 @@
+{
+  "id": 4389,
+  "title": [
+    "[Ruby Level, Crystal Access]"
+  ],
+  "description": [
+    "A darkened shaft contains a ladder leading further down into the mine.  Torchlight illuminates the opening, and a glance within reveals quite a few workers below.  Muffled sounds can be heard coming from the lower level, perhaps a mining operation in progress."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4386,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4390,
+      "kind": "go",
+      "cmd": "go gallery",
+      "cost": 0.2
+    },
+    {
+      "to": 4391,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4485,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    }
+  ]
+}

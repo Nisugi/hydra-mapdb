@@ -1,0 +1,59 @@
+{
+  "id": 21304,
+  "uid": [
+    107101
+  ],
+  "title": [
+    "[House Brigatta, Entry]"
+  ],
+  "description": [
+    "The entry to House Brigatta is panelled and floored in dark oak.  An ornately carved table sits to one side with a small crystal vase standing upon it beneath a brightly polished silver mirror.  On the west wall, a series of shelves and pegs hold various cloaks and garb for the outer world.  To the east, a stairway heads up to the second floor.",
+    "The entry to House Brigatta is panelled and floored in dark oak.  An ornately carved table sits to one side with a small crystal vase standing upon it beneath a brightly polished silver mirror.  Across the room, a series of shelves and pegs holds various cold weather cloaks and garb for the outer world as well as bits and pieces of battle stained armor.",
+    "The entry to House Brigatta is panelled and floored in dark oak.  An ornately carved table sits to one side with a small crystal vase standing upon it beneath a brightly polished silver mirror.  On the west wall, a series of shelves and pegs hold various cloaks and garb for the outer world.  To the east, a stairway lit with flickering sconces heads up to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "che:brigatta:entrance_che",
+    "che:House Brigatta",
+    "mapcategory:CHE",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - House Brigatta (Map 2)",
+    "mapshortname:House Brigatta (Map 2)"
+  ],
+  "image": {
+    "file": "wl-Brigatta-1646274146.png",
+    "rect": [
+      315,
+      713,
+      419,
+      802
+    ]
+  },
+  "exits": [
+    {
+      "to": 274,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21310,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28692,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

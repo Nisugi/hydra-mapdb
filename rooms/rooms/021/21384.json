@@ -1,0 +1,30 @@
+{
+  "id": 21384,
+  "title": [
+    "[Once A Pawn A Time]"
+  ],
+  "description": [
+    "Tightly packed earth held in place by rusted wire meshwork makes up the bottom of the walls, while the upper portions are composed of blocks of limestone that jut up into a brush-woven ceiling.  Several swamp goblins argue unceasingly as they rummage around behind a huge slab of limestone that serves as a counter.  Nearly obscured by the mud and filth caked on its surface and set behind a squat limestone barrel, a stiff curtain hangs from several crooked hooks."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Feywrot Mire",
+  "tags": [
+    "pawnshop"
+  ],
+  "exits": [
+    {
+      "to": 21383,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21385,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

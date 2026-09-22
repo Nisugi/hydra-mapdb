@@ -1,0 +1,45 @@
+{
+  "id": 18462,
+  "title": [
+    "[Smarten Up, Entry]"
+  ],
+  "description": [
+    "The cheerful interior of the wagon features bright yellow walls painted with vividly clashing violet wildflowers.  Strung from wooden beams, garlands of fresh and dried spring flowers give the wagon a sweet floral scent.  A rickety oak table has been erected in the middle of the room, with a small sign propped up against it."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18461,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18463,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18586,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18587,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

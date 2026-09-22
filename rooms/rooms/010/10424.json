@@ -1,0 +1,97 @@
+{
+  "id": 10424,
+  "uid": [
+    14102101
+  ],
+  "title": [
+    "[Helgreth's Tavern, Taproom]"
+  ],
+  "description": [
+    "Boisterous laughter erupts often from the congregation of imbibing patrons seated at Helgreth's tables.  A scattering of flickering beeswax candles glimmer off the numerous brass fixtures and pristine inverted glassware suspended above the polished bar.  In their starched uniforms, off-duty military officers traverse the tumult of the taproom as they come and go from a plush sanguine velvet curtain marked by a heraldic Vaalorian buckler overhead."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 3498,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10425,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 28270,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 28271,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Longsword table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28272,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Hammer table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28273,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Voulge table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28274,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Trident table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28275,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Longbow table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28276,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Hook-knife table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

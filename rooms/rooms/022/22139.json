@@ -1,0 +1,55 @@
+{
+  "id": 22139,
+  "uid": [
+    106404
+  ],
+  "title": [
+    "[Cairnfang Manor, Hallway]"
+  ],
+  "description": [
+    "Framed in silvery mistwood, a beautiful painting of Solhaven covers one wall, the giant piece of art perfectly detailed.  An arched glass door leads out onto a balcony, its frosted panes etched with beautiful peacock feathers.  A pair of potted shrubs are placed to either side, their verdant hues a sharp contrast to the white silk walls of the hallway."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      609,
+      116,
+      621,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 22136,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22140,
+      "kind": "go",
+      "cmd": "go glass door",
+      "cost": 0.2
+    },
+    {
+      "to": 22141,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22152,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

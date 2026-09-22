@@ -1,0 +1,39 @@
+{
+  "id": 13993,
+  "uid": [
+    14114008
+  ],
+  "title": [
+    "[Stockade, Storage Room]",
+    "[Bastille, Storage Room]"
+  ],
+  "description": [
+    "Flickering in the slight draft that flows by, torchlight stretches down to the earth, where the dirt floor quickly absorbs the bright invasion.  The small storage room is filled with boxes and crates stacked against its walls.  On the far wall, behind the stairway, a rusting door leads into a tiny cell.  An eerie series of sounds drifts in from further down the hallway, where darkness has taken over."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 10421,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 13995,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

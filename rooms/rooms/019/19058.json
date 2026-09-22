@@ -1,0 +1,76 @@
+{
+  "id": 19058,
+  "title": [
+    "[Spitfire, Main Deck Starboard]"
+  ],
+  "description": [
+    "A couple of halfling sailors are kneeling on the deck, discussing the condition of the \"trunnels\" in their colorful burr.  This section of the main deck offers entrances into the deckhouse.  A delicious scent wafts out, indicating the presence of the galley inside.  Smoke curls from a black smokepipe extending out of the roof of the deckhouse galley."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      160,
+      312,
+      198,
+      350
+    ]
+  },
+  "exits": [
+    {
+      "to": 19054,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19059,
+      "kind": "go",
+      "cmd": "go galley door",
+      "cost": 0.2
+    },
+    {
+      "to": 19060,
+      "kind": "go",
+      "cmd": "go deckhouse door",
+      "cost": 0.2
+    },
+    {
+      "to": 19061,
+      "kind": "go",
+      "cmd": "go shrouds",
+      "cost": 0.2
+    },
+    {
+      "to": 19062,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19068,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19075,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "stance offensive"
+        },
+        {
+          "move": "climb rope ladder"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

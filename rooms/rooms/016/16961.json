@@ -1,0 +1,59 @@
+{
+  "id": 16961,
+  "uid": [
+    13101063
+  ],
+  "title": [
+    "[Ta'Illistim, Caear Courtyard]"
+  ],
+  "description": [
+    "The illuminated domes of Ta'Illistim Keep rise overhead, each one tiled and sparkling with an abundance of mosaic decoration.  Before the keep, the var widens to a half-moon shaped courtyard, which in turn is bordered by the edge of the city green.",
+    "The domes of Ta'Illistim Keep rise overhead, each one tiled and sparkling with an abundance of mosaic decoration.  Before the keep, the var widens to a half-moon shaped courtyard, which in turn is bordered by the edge of the city green."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      731,
+      297,
+      753,
+      319
+    ]
+  },
+  "exits": [
+    {
+      "to": 623,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 742,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17841,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 24556,
+      "kind": "go",
+      "cmd": "go green",
+      "cost": 10.0
+    }
+  ]
+}

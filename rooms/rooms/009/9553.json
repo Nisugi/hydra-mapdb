@@ -1,0 +1,99 @@
+{
+  "id": 9553,
+  "uid": [
+    688001
+  ],
+  "title": [
+    "[Wizard Guild, Stone Courtyard]"
+  ],
+  "description": [
+    "Giant luminescent toadstools planted in neat rows along the perimeter cast a soft, bluish-white light upon the small courtyard.  A wide, limestone and slate walkway encircles an ametrine geode fountain midway between the dark mithril arch leading to the main tunnel and a domed white granite building with heavy marble doors.  The faint aroma of loam and brine lingers in the air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide wizardguild",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom",
+    "wizard guild",
+    "wizardguild"
+  ],
+  "image": {
+    "file": "en-zul-wizard_guild-1648064027.png",
+    "rect": [
+      153,
+      280,
+      217,
+      339
+    ]
+  },
+  "exits": [
+    {
+      "to": 9432,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 9554,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": {
+        "when": {
+          "profession": "Wizard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 14359,
+  "uid": [
+    4223007
+  ],
+  "title": [
+    "[Solhaven, Beacon Tower]",
+    "[Solhaven, Departures]"
+  ],
+  "description": [
+    "Bare of all furnishings, the room is an exact contrast to the one through the curtained arch.  Where the other is blindingly bright, this one is completely black from ebonwood flooring to raftered ceiling.  A single frosted globe is suspended from the ceiling over a strange series of golden interlacing circles and casts an eerie greenish glow upon the dark walls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "travel waiting room"
+  ],
+  "exits": [
+    {
+      "to": 8634,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "sol,wl"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:sol,wl"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "sol,wl"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 7.4
+          }
+        ]
+      }
+    },
+    {
+      "to": 8916,
+      "kind": "scripted",
+      "routine": {
+        "name": "day_pass",
+        "route": "sol,imt"
+      },
+      "cost": {
+        "ladder": [
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "flag": "day_pass:imt,sol"
+                }
+              ]
+            },
+            "then": 0.8
+          },
+          {
+            "when": {
+              "all": [
+                {
+                  "setting": [
+                    "use_day_pass",
+                    "true"
+                  ]
+                },
+                {
+                  "any": [
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "true"
+                      ]
+                    },
+                    {
+                      "setting": [
+                        "buy_day_pass",
+                        "sol,imt"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": 7.4
+          }
+        ]
+      }
+    },
+    {
+      "to": 14358,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

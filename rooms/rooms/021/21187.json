@@ -1,0 +1,57 @@
+{
+  "id": 21187,
+  "uid": [
+    265033
+  ],
+  "title": [
+    "[Rogue Guild, Workshop]"
+  ],
+  "description": [
+    "Smooth wooden panels give the small, circular room a finished look, while shelves make the space feel cramped and tiny.  Set beneath brass lanterns, a row of cluttered toolbenches provides several flat surfaces to work in."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "rogue guild workshop",
+    "rogue workshop"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      734,
+      602,
+      749,
+      618
+    ]
+  },
+  "exits": [
+    {
+      "to": 21186,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21191,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21192,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30759,
+      "kind": "go",
+      "cmd": "go toolbenches",
+      "cost": 0.2
+    }
+  ]
+}

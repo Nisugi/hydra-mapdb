@@ -1,0 +1,50 @@
+{
+  "id": 25405,
+  "uid": [
+    336334
+  ],
+  "title": [
+    "[Hendoran Outpost, Upper Hall]"
+  ],
+  "description": [
+    "Two tall Imperial soldiers stand on either side of a set of large wooden doors engraved with a simplified version of the crest of North Hendor.  A hallway leads westward, while the wide stairwell offers an avenue by which to return to the first floor.  Next to each guard is a banner, one showing the crest of the Earl of North Hendor and the other stitched with the name of the House Andrews."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-hendoran_outpost-1669182273.png",
+    "rect": [
+      611,
+      597,
+      645,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 25403,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 25407,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25416,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    }
+  ]
+}

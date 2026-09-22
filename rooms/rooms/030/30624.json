@@ -1,0 +1,43 @@
+{
+  "id": 30624,
+  "uid": [
+    850004
+  ],
+  "title": [
+    "[Kraken's Fall Hall, Corridor]"
+  ],
+  "description": [
+    "Whitewashed panels of wood line the corridor in a circular pattern.  A railing crafted of cast iron chain links encircles an open space that goes down to the main floor.  A pair of brushed copper lanterns hang on either side of a dark green door and a dark blue door that are set into the curved walls."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30621,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30625,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 30626,
+      "kind": "go",
+      "cmd": "go green door",
+      "cost": 0.2
+    },
+    {
+      "to": 30627,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

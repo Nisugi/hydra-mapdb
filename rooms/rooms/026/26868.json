@@ -1,0 +1,65 @@
+{
+  "id": 26868,
+  "uid": [
+    8214515
+  ],
+  "title": [
+    "[Bloodriven Village, Faida Lane]"
+  ],
+  "description": [
+    "The lane narrows noticeably as it slopes northwestward.  A building along the side of the road is streaked with a sticky, shiny substance that is slowly dripping from the pine that leans precariously over it.  A dark alleyway stands between two somewhat dilapidated buildings on the western side of the street."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Bloodriven Village",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      850,
+      471,
+      881,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 23801,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 26005,
+      "kind": "go",
+      "cmd": "go pine building",
+      "cost": 0.2
+    },
+    {
+      "to": 26867,
+      "kind": "go",
+      "cmd": "go alleyway",
+      "cost": 0.2
+    },
+    {
+      "to": 26877,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26884,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28333,
+      "kind": "go",
+      "cmd": "go alleyway shop",
+      "cost": 0.2
+    }
+  ]
+}

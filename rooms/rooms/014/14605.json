@@ -1,0 +1,57 @@
+{
+  "id": 14605,
+  "uid": [
+    4215148
+  ],
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "Unusually dark due to the double layer of boards that have been nailed over the windows, the floor and walls of the corridor appear to be in very good shape aside from a layer of dirt and the usual cobwebs.  The hallway ends at a haon framed doorway, and two doors -- one of oak and another of yew -- are evenly spaced along the corridor's east wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1047,
+      851,
+      1057,
+      861
+    ]
+  },
+  "exits": [
+    {
+      "to": 12257,
+      "kind": "go",
+      "cmd": "go yew door",
+      "cost": 0.2
+    },
+    {
+      "to": 12258,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 14597,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14606,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

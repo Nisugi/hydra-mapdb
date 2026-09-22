@@ -1,0 +1,41 @@
+{
+  "id": 19786,
+  "title": [
+    "[Felthrop's Wagon]"
+  ],
+  "description": [
+    "Roughly hewn wooden walls encapsulate the room, their surfaces chipped and scratched from countless impacts with the weapons hanging from the hooks in the sloped ceiling.  A curtain of faded red velvet serves to separate the shop from the backroom, its matted surface hanging all the way to the floor.  Resting beside the door leading back outside is a low oak table, while a dented footlocker stands opposite."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "exits": [
+    {
+      "to": 228,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19585,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

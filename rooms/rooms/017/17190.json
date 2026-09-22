@@ -1,0 +1,46 @@
+{
+  "id": 17190,
+  "uid": [
+    256302
+  ],
+  "title": [
+    "[Warrior Guild, Second Floor]"
+  ],
+  "description": [
+    "The sounds of muted conversations emanate from behind many of the thick doors that line the path, an attestation to the always ongoing activity within the guild.  At the end of the corridor, a marble pedestal holds the formidably forged bust of an elven warrior."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      817,
+      680,
+      842,
+      704
+    ]
+  },
+  "exits": [
+    {
+      "to": 17188,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17191,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 17203,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

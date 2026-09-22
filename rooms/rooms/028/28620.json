@@ -1,0 +1,31 @@
+{
+  "id": 28620,
+  "uid": [
+    3217702
+  ],
+  "title": [
+    "[Cavern, Altar Room]"
+  ],
+  "description": [
+    "Vaulted and wide open, the cavern is illuminated by the numerous torches that are hung in large wrought iron rings anchored to the smooth stone walls.  High in the distant ceiling is a wide hole that allows sunlight to cast its golden glow upon a smooth round stone altar that has been placed in the center of the chamber.  Overlapping thick azure rugs ring the room's single piece of furniture, their faces decorated with interlocking whorls and geometric shapes."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, west"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 4013,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 28619,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

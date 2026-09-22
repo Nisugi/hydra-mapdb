@@ -1,0 +1,63 @@
+{
+  "id": 24876,
+  "uid": [
+    7530037
+  ],
+  "title": [
+    "[A Cavernous Approach]"
+  ],
+  "description": [
+    "The path ends on a small platform, where hanging just out of reach over the crater are some massive chains, swaying back and forth.  The ceiling of the cavern is carved out in a circular shape surrounding the chains as they continue skyward.  Dense banks of clouds cling to the opening in the ceiling, blotting out any light from above."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "reim",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      736,
+      968,
+      749,
+      981
+    ]
+  },
+  "exits": [
+    {
+      "to": 24842,
+      "kind": "go",
+      "cmd": "go camp",
+      "cost": 0.2
+    },
+    {
+      "to": 24875,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24883,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb chains"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 23757,
+  "title": [
+    "[Windfellow's Retreat, Courtyard]"
+  ],
+  "description": [
+    "The courtyard comes to an abrupt end here, surrounded on three sides by the high walls of the keep.  A number of merchant stalls litter this area, notable for their shabby construction as well as the extreme number of impressive-looking stains and scorch-marks.  By inference, this must be where the merchants who sell more volatile wares set up shop.  The ground underneath is almost entirely bare of straw, resulting in rather muddy conditions."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Mist Harbor",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:Windfellow's Retreat"
+  ],
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      901,
+      1687,
+      956,
+      1741
+    ]
+  },
+  "exits": [
+    {
+      "to": 22486,
+      "kind": "go",
+      "cmd": "go grease-stained wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 23800,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23865,
+      "kind": "go",
+      "cmd": "go clockwork wagon",
+      "cost": 0.2
+    }
+  ]
+}

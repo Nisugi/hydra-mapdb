@@ -1,0 +1,58 @@
+{
+  "id": 27725,
+  "uid": [
+    4050116
+  ],
+  "title": [
+    "[East Barbican, South Tower]"
+  ],
+  "description": [
+    "A variety of thick wooden planks provides a sturdy footing at the top of the staircase, the walls opening up into a variety of narrow slitted windows.  Various scuffs, nicks and scorches mar the otherwise smooth stone walls, a telltale sign of the many battles fought here.  A larger window harbors a long piece of rope tied to a grommet, the majority of its length arranged in long serpentine coils."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      711,
+      572,
+      744,
+      608
+    ]
+  },
+  "exits": [
+    {
+      "to": 27724,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27726,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

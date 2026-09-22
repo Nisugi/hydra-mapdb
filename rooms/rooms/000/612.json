@@ -1,0 +1,53 @@
+{
+  "id": 612,
+  "uid": [
+    13101049
+  ],
+  "title": [
+    "[Ta'Illistim, Aerie Wey]"
+  ],
+  "description": [
+    "Several large warehouses stand nearby, constructed of sturdy granite blocks and boasting the city's trademark blue tiled roofs.  The blue-painted doors of the buildings are thrown open and workers hurry about moving boxes and crates of goods.",
+    "Several large warehouses stand nearby, constructed of sturdy granite blocks and boasting the city's trademark blue tiled roofs.  The blue-painted doors of the buildings are thrown open, though their high clerestory windows are barred."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1007,
+      203,
+      1029,
+      224
+    ]
+  },
+  "exits": [
+    {
+      "to": 611,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 613,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4024,
+      "kind": "go",
+      "cmd": "go buildings",
+      "cost": 0.2
+    }
+  ]
+}

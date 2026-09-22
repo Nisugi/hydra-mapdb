@@ -1,0 +1,120 @@
+{
+  "id": 11623,
+  "uid": [
+    5003009
+  ],
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "Small pearls of dew are gathered on the tall blades of grass growing in the middle of the old road.  Dead and dying trees line the road like ancient, stoic sentries.  A faint odor of putrefaction hovers in the fog.",
+    "The moisture gathered on the tall blades of grass growing in the middle of the old road glow like dull pearls in the weak sunlight.  Dead and dying trees line the road like ancient, stoic sentries.  A faint odor of putrefaction hovers in the fog."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      851,
+      613,
+      861,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 11622,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11624,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11629,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11653,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 16124,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 22219,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 0.8
+    }
+  ]
+}

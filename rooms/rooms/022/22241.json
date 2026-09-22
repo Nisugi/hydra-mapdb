@@ -1,0 +1,42 @@
+{
+  "id": 22241,
+  "title": [
+    "[The Swale, Path]"
+  ],
+  "description": [
+    "Groups of visitors stumble past, raucous laughter and hollering coming from the west.  A drunken man is slumped against a building, humming a familiar tune in between his violent hiccups.  A weathered building with swinging wooden doors sits at the end of the walkway."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      544,
+      183,
+      558,
+      197
+    ]
+  },
+  "exits": [
+    {
+      "to": 22237,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22242,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 22243,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

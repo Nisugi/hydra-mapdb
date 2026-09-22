@@ -1,0 +1,55 @@
+{
+  "id": 19082,
+  "title": [
+    "[Spitfire, Tartbelly Bar]"
+  ],
+  "description": [
+    "The long cabin is paneled in polished modwir and shining brass lamps hang from the ceiling, their reflective surfaces adorning the dark interior like jewelry.  Along the portside bulkhead is a low bar, finely crafted in the same richly veined wood and being polished by a halfling.  Heaping baskets of tarts are spaced at regular intervals along it.  In the chamber's center sits a small wooden platform, looking for all the world like a performance stage."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south",
+    "Obvious exits: northeast, east, south"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      901,
+      609,
+      940,
+      646
+    ]
+  },
+  "exits": [
+    {
+      "to": 19063,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19077,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 19083,
+      "kind": "go",
+      "cmd": "go slatted door",
+      "cost": 0.2
+    },
+    {
+      "to": 19197,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19198,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

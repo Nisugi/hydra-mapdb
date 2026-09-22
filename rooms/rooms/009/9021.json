@@ -1,0 +1,57 @@
+{
+  "id": 9021,
+  "uid": [
+    733014
+  ],
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Wider than the other courtyards along this twisting passageway, due to the proximity of Vornavis' western wall, this sanctuary boasts a large grassy area for family gatherings or celebratory moments.  The buildings that ring the tiny park feature windows with shutters and awnings, many of them tossed open and illuminated with candlelight.",
+    "Wider than the other courtyards along this twisting passageway, due to the proximity of Vornavis' western wall, this sanctuary boasts a large grassy area for rest and for play.  Slightly better maintained, the buildings that ring the tiny park feature windows with shutters and awnings, a sure sign of prosperity."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1511,
+      415,
+      1521,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 9020,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 9022,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 15836,
+      "kind": "go",
+      "cmd": "go maple-shingled gallery",
+      "cost": 0.2
+    },
+    {
+      "to": 21252,
+      "kind": "go",
+      "cmd": "go storefront",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 3519,
+  "uid": [
+    14100047
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Court]",
+    "[Ta'Vaalor, Tyrnian Court]",
+    "[Ta'Vaalor, King's Court]"
+  ],
+  "description": [
+    "A small cluster of trees stands near the edge of the court, providing a shady spot and a chance for a brief respite from the bustle of the city.  Several elven guards stand beneath a nearby tree, chatting quietly amongst themselves as they scan the crowded court."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "kingscourt",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "town",
+    "urchin guide kingscourt",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Towns",
+    "mapname:Elven Nations - Ta'Vaalor",
+    "mapshortname:Ta'Vaalor"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      924,
+      851,
+      962,
+      888
+    ]
+  },
+  "exits": [
+    {
+      "to": 3518,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3520,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3521,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3542,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": 18112,
+  "uid": [
+    661003
+  ],
+  "title": [
+    "[Sorcerer Guild, Foyer]"
+  ],
+  "description": [
+    "This small, simple foyer is elegantly paneled in polished dark walnut.  Crimson carpet spreads from wall to wall and extends off to the west.  Clusters of silver tubes sprout from the walls, entwining in serpentine fashion before ending in circular candleholders.  Long black candles extend from the holders and burn with steady flames nearly as black as the candles themselves, yet the light cast by the flames readily illuminates the area."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy administrator",
+    "sorcerer guild administrator"
+  ],
+  "image": {
+    "file": "wl-sorcerer_guild-1405076623.png",
+    "rect": [
+      484,
+      620,
+      522,
+      658
+    ]
+  },
+  "exits": [
+    {
+      "to": 18111,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 18113,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18114,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18119,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18926,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "insignia"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

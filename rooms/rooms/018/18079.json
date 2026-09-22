@@ -1,0 +1,80 @@
+{
+  "id": 18079,
+  "uid": [
+    682020
+  ],
+  "title": [
+    "[Wizard Guild, Alchemic Nexus]"
+  ],
+  "description": [
+    "This octagonal stone chamber is lit by eight flickering torches, one positioned at each corner.  Although the air seems still, it changes subtly from cool to warm, from moist to dry, then back with no obvious pattern."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south, west, northwest, down, out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      533,
+      134,
+      600,
+      198
+    ]
+  },
+  "exits": [
+    {
+      "to": 1969,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18100,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18101,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18102,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18103,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18104,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18105,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18106,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

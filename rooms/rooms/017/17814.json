@@ -1,0 +1,41 @@
+{
+  "id": 17814,
+  "uid": [
+    267116
+  ],
+  "title": [
+    "[Rooftop]"
+  ],
+  "description": [
+    "A slender plank precariously offers a path to the adjacent rooftop.  It would be wise not to drink too much before attempting the task, as it's going to take a great deal of concentration to cross safely.  There is a very large, very visible stain of some sort on the alley floor directly beneath the plank."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      596,
+      633,
+      635,
+      672
+    ]
+  },
+  "exits": [
+    {
+      "to": 17813,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    },
+    {
+      "to": 17815,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

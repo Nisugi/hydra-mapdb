@@ -1,0 +1,46 @@
+{
+  "id": 18979,
+  "uid": [
+    668012
+  ],
+  "title": [
+    "[Sorcerer Guild, Landing]"
+  ],
+  "description": [
+    "A trio of giant luminescent toadstools resides upon the landing, casting each third of the area in a slightly different hued light.  Thin veins of crystal weave across the stone walls, creating fanciful patterns against the darker rock.  The floor is punctuated by a few stout stalagmites around the perimeter."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul-sorcerer_guild-1405076623.png",
+    "rect": [
+      622,
+      462,
+      660,
+      499
+    ]
+  },
+  "exits": [
+    {
+      "to": 18980,
+      "kind": "go",
+      "cmd": "go stalagmite",
+      "cost": 0.2
+    },
+    {
+      "to": 18981,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 18982,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

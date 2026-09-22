@@ -1,0 +1,53 @@
+{
+  "id": 17219,
+  "uid": [
+    257010
+  ],
+  "title": [
+    "[Warrior Guild, Western Grove]"
+  ],
+  "description": [
+    "The clearing is dominated by a row of large wooden workout wheels.  The contraptions are almost art-like in their construction, but clearly are designed to take a beating."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "deciduous forest",
+  "tags": [
+    "warrior guild bush",
+    "warrior guild masters",
+    "warrior guild shrubbery",
+    "warrior guild wheel",
+    "warrior guild wheels"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      102,
+      207,
+      122,
+      225
+    ]
+  },
+  "exits": [
+    {
+      "to": 17218,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17220,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30530,
+      "kind": "other",
+      "cmd": "ask nimrolas about training berserk",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 17755,
+  "uid": [
+    250003
+  ],
+  "title": [
+    "[Warrior Guild, Stone Path]"
+  ],
+  "description": [
+    "Here in the middle of the guild courtyard, the path widens and slopes downward towards the guild complex.  Once, it had been filled with groves of fruitful trees, watered by streams that flowed from the nearby mountain.  Now the way is paved with flagstones, dark and hard, their borders lined with long rows of menhirs joined by heavy chains.  The grounds on either side of the stone path are stark and featureless, but for odd mounds where the snow has blanketed a shrub or hedge."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      781,
+      473,
+      798,
+      490
+    ]
+  },
+  "exits": [
+    {
+      "to": 17749,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17753,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17756,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

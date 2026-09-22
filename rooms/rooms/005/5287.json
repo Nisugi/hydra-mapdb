@@ -1,0 +1,92 @@
+{
+  "id": 5287,
+  "uid": [
+    4214303
+  ],
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "The descent into the fog to the southeast is accompanied by a decrease in temperature that seems unnatural for this area.  The fog swirls in delight at the approach of travelers, as if feeding on the heat they bring to the area.  A breeze high above does not touch the fog, but occasionally whines like a wailing child."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "humid",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "blood orange",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "cinnamon bark",
+    "coffee cherries",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "handful of pinenuts",
+    "haphip root",
+    "pine cone",
+    "pine needles",
+    "pothinir grass",
+    "red vornalite mushroom",
+    "round yuzu",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "striped heart mushroom",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "woth flower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      743,
+      528,
+      753,
+      538
+    ]
+  },
+  "exits": [
+    {
+      "to": 5268,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb tree"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5288,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

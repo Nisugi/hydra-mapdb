@@ -1,0 +1,50 @@
+{
+  "id": 26909,
+  "uid": [
+    18018004
+  ],
+  "title": [
+    "[Black Hand, Brewery]"
+  ],
+  "description": [
+    "The air is slightly damp, the silence of the rocky chamber broken by the quiet sound of water dripping far off in the distance.  A tremendous copper drum rises from the floor in the center of the room, tapering to a rounded peak near the ceiling to form a massive still.  Old, iron-banded vats line the walls, forming two rows of oak aisles among the space.  Off to the side, an ebonwood table holds some corked bottles of pale liquid, while a charcoal marble fireplace provides the only light in the space."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "meta": [
+    "mho:The Black Hand Trading Co."
+  ],
+  "image": {
+    "file": "wl-black_hand-1527320047.png",
+    "rect": [
+      432,
+      483,
+      585,
+      612
+    ]
+  },
+  "exits": [
+    {
+      "to": 26901,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 26910,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go hole"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": 3242,
+  "uid": [
+    4127004
+  ],
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "Two ranges of hills embrace a valley swathed in deep drifts of snow.  Travel further along the path without getting lost beneath the snow might be possible, with some luck.  The wind is not as noticeable in this area, as the abounding hills provide some protection from its cruelty.  A descending ridge heading westward is mostly clear of snowfall.",
+    "The hills join together here in a valley covered with deep drifts of snow.  Travel further along the path without getting lost beneath the snow might be possible, with some luck.  The wind is not as noticeable in this area, as the hills around you provide excellent protection."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "deciduous forest",
+  "tags": [
+    "angelica root",
+    "broken twig",
+    "iseya lichen",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snowberries",
+    "sticks",
+    "sweetfern stalk",
+    "valerian root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      96,
+      533,
+      106,
+      543
+    ]
+  },
+  "exits": [
+    {
+      "to": 3241,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3243,
+      "kind": "go",
+      "cmd": "go snow-covered path",
+      "cost": 0.2
+    },
+    {
+      "to": 32300,
+      "kind": "go",
+      "cmd": "go ridge",
+      "cost": 0.2
+    }
+  ]
+}

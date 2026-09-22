@@ -1,0 +1,58 @@
+{
+  "id": 20,
+  "uid": [
+    13100051
+  ],
+  "title": [
+    "[Ta'Illistim, Glamesine Var]"
+  ],
+  "description": [
+    "The cobblestoned street circles around a large fountain carved of sparkling mica-flecked granite.  A large blue-grey dragon, his teeth bared to the starry sky, rears his stone head from his perch in the center of the fountain.  Fiery torches set at the crosspoints of the fountain reflect upon the water.",
+    "The cobblestoned street circles around a large fountain carved of sparkling mica-flecked granite.  A large blue-grey dragon, his teeth bared to the sky, rears his stone head from his perch in the center of the fountain."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      947,
+      546,
+      970,
+      568
+    ]
+  },
+  "exits": [
+    {
+      "to": 19,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 606,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13227,
+      "kind": "go",
+      "cmd": "go fountain",
+      "cost": 0.2
+    }
+  ]
+}

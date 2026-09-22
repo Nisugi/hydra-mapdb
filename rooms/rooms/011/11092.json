@@ -1,0 +1,50 @@
+{
+  "id": 11092,
+  "uid": [
+    26008
+  ],
+  "title": [
+    "[Krol Ship, Main Deck Aft]"
+  ],
+  "description": [
+    "The massive mainmast of the ship towers high above your head here.  High up the mast, near the top, is a small crow's nest.  Ratlines lead up from both sides of the ship to provide access to the crow's nest for the lookouts.  Forward from here, to the south, are the gangplank and cargo hatch.  Stairs lead up to the quarterdeck at the aft end."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      4070,
+      1526,
+      4092,
+      1549
+    ]
+  },
+  "exits": [
+    {
+      "to": 11090,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11093,
+      "kind": "climb",
+      "cmd": "climb ratlines",
+      "cost": 0.2
+    },
+    {
+      "to": 11094,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    }
+  ]
+}

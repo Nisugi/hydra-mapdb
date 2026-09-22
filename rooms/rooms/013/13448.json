@@ -1,0 +1,44 @@
+{
+  "id": 13448,
+  "uid": [
+    13112013
+  ],
+  "title": [
+    "[West Wing]"
+  ],
+  "description": [
+    "The corridor suddenly ends in a blank stone wall set with a single burning torch.  Two long tapestries hang from either side of the hall filled with images of home and family.  Centered on each tapestry is the woven image of an elven woman with piercing, pale-blue eyes."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      185,
+      73,
+      242,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 13274,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33726,
+      "kind": "go",
+      "cmd": "go driftwood arch",
+      "cost": 0.2
+    }
+  ]
+}

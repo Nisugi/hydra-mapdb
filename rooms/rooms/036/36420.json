@@ -1,0 +1,41 @@
+{
+  "id": 36420,
+  "uid": [
+    58031
+  ],
+  "title": [
+    "[Dungeon, Corridor]"
+  ],
+  "description": [
+    "The walls in this corridor are riddled with tiny, uneven cracks.  Cold moisture runs down the cool grey stone in slow-moving trickles, sliding slickly toward the ground."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1880,
+      600,
+      1920,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 36419,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36421,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

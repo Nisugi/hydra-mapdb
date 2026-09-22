@@ -1,0 +1,33 @@
+{
+  "id": 23121,
+  "title": [
+    "[Sunken Mausoleum, Crypt]"
+  ],
+  "description": [
+    "A glowing scarlet orb hangs from a rusted chain, staining the tomb's haze with its lurid glow.  Piles of torn flesh and shattered bones lie along the walls, their stench overwhelming.  Carved in rows along the walls are cryptic runes, and painted upon the floor are intricate sigils.  Corroded steel shackles dangle from the walls, some encrusted with bits of gore and flesh.  A tunnel leads toward the undercroft and a passageway leads to the catacombs."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feymist Cemetery",
+  "exits": [
+    {
+      "to": 23120,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 23122,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 23123,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

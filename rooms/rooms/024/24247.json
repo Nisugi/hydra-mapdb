@@ -1,0 +1,44 @@
+{
+  "id": 24247,
+  "uid": [
+    212107
+  ],
+  "title": [
+    "[Helden Hall, Armory Passage]"
+  ],
+  "description": [
+    "This small dark stone passage leads to another large bedraggled brown curtain.  The torchlight flickers from a draft, while the faint pungent odor of polishing oil still reaches you."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall",
+    "che:helden_hall:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      137,
+      716,
+      176,
+      748
+    ]
+  },
+  "exits": [
+    {
+      "to": 4664,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5203,
+      "kind": "go",
+      "cmd": "go brown curtain",
+      "cost": 0.2
+    }
+  ]
+}

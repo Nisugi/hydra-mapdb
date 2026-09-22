@@ -1,0 +1,44 @@
+{
+  "id": 6580,
+  "uid": [
+    4285039
+  ],
+  "title": [
+    "[Tower Chamber]"
+  ],
+  "description": [
+    "This circular room was probably once living quarters.  Now however, it's in a shambles, with broken pieces of furnishings cluttering the floor.  The remains of heavy draperies -- now tattered -- hang from the towering windows, like shrouds hanging off of a graveyard mummy.  A cold wind blows through, making the strips flutter hopelessly in the half-light.  A hazardous-looking staircase winds up to the floor above."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1016,
+      490,
+      1026,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 6579,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 6581,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

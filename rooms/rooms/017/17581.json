@@ -1,0 +1,51 @@
+{
+  "id": 17581,
+  "uid": [
+    3216002
+  ],
+  "title": [
+    "[Western Harbor, Pathways]"
+  ],
+  "description": [
+    "Curving around dunes riddled with sea grass, the pathway leads up a hill toward the walls of Mist Harbor at one end and down to the arched entry of a small harbor.  Tiny buildings evenly spaced upon a single cobbled street are painted with white stucco, which reflects the bright light of the day.",
+    "Curving around dunes riddled with sea grass, the pathway leads up a hill toward the walls of Mist Harbor at one end and down to the arched entry of a small harbor.  Tiny buildings evenly spaced upon a single cobbled street are painted with white stucco, which reflects the silvery glow of moonlight.  Unsavory aromas rise from an odd-smelling crooked white shop built into the lee of the pathway."
+  ],
+  "paths": [
+    "Obvious paths: west, up"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1930,
+      1465,
+      1966,
+      1493
+    ]
+  },
+  "exits": [
+    {
+      "to": 17519,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 17582,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18261,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

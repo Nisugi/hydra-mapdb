@@ -1,0 +1,36 @@
+{
+  "id": 26283,
+  "title": [
+    "[The Darkness With Inn, Cellar]"
+  ],
+  "description": [
+    "The walls are cold and damp, water and blood dripping from the ceiling.  Crates, barrels and chests fill every corner of the cellar, maggots crawling along their lids.  An uneven ramp leads back up into the dining room."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      508,
+      460,
+      534,
+      486
+    ]
+  },
+  "exits": [
+    {
+      "to": 26282,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26285,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

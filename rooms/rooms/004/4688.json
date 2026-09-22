@@ -1,0 +1,126 @@
+{
+  "id": 4688,
+  "uid": [
+    14051018
+  ],
+  "title": [
+    "[Naerine Hostelry, Tavern]"
+  ],
+  "description": [
+    "Warmth emanates from a monstrous red brick fireplace situated opposite cushy sofas arranged around a plush oval rug.  Savory aromas drift in from the swinging kitchen door, while hearty laughter roars from around a lacquered mahogany bar.  The tawny plaster walls have been framed with the same thick wooden beams that cross the high ceiling.  Wrought iron sconces cast the entire tavern in a warm glow befitting its friendly atmosphere.",
+    "Brightly covered sofas arranged around a thick oval rug are situated opposite a monstrous red brick fireplace, a colorful basket of sticks tucked to the side.  Savory aromas drift in from the swinging kitchen door, while hearty laughter roars from some inviting tables positioned nearby.  The tawny plaster walls have been framed with the same thick wooden beams that cross the high ceiling.  Wrought iron sconces flank a lacquered mahogany bar, casting the entire tavern in a warm glow befitting its friendly atmosphere.  Pushed back behind the counter is a small wooden barrel."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4687,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26096,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gold wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26097,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go silver wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26105,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go chartreuse wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26106,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go sienna wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26107,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go teal wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29540,
+      "kind": "go",
+      "cmd": "go mahogany bar",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

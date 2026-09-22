@@ -1,0 +1,50 @@
+{
+  "id": 9299,
+  "uid": [
+    4291009
+  ],
+  "title": [
+    "[Thanatoph, Spiked Pit]"
+  ],
+  "description": [
+    "The walls of this pit reach nearly twenty feet straight above you.  Strewn about at odd angles are sharpened tree limbs for impaling anything that has had the misfortune to fall in."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Stone Valley",
+  "climate": "hot, damp",
+  "terrain": "deciduous",
+  "tags": [
+    "some calamia fruit",
+    "some pothinir grass",
+    "yellow primrose"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      252,
+      690,
+      264,
+      702
+    ]
+  },
+  "exits": [
+    {
+      "to": 3831,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

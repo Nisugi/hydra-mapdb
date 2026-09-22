@@ -1,0 +1,41 @@
+{
+  "id": 33112,
+  "uid": [
+    7134159
+  ],
+  "title": [
+    "[Steerage, Bow]"
+  ],
+  "description": [
+    "Rope-coiled rungs driven into the port and starboard sides near their convergence form a ladder of sorts, allowing quick travel to the upper decks.  Large coils of hemp rope are stacked on a row of barrels, and a broom lies on the floor by an overturned bucket.  Yards of discolored canvas lean between a thick metal hatch and a brass-handled door."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "the Flotilla",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 33109,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33113,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33116,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

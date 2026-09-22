@@ -1,0 +1,65 @@
+{
+  "id": 32575,
+  "uid": [
+    336805
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "The ocean swells rise up high, crashing down in loud splashes of water and foam.  Small bits of kelp float along the surface of the dark waters."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 32578,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 32580,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

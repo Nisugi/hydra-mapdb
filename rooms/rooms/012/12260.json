@@ -1,0 +1,46 @@
+{
+  "id": 12260,
+  "uid": [
+    95165
+  ],
+  "title": [
+    "[Monastery, Pool Room]"
+  ],
+  "description": [
+    "If nothing else, the monks that occupied this monastery must have been a clean lot.  A huge shallow basin, lined with pink marble, occupies almost the entire area of this room.  The basin is obviously a bathing pool though it now stands empty of water, with a layer of dirt and refuse lining the bottom.  A small privy stands in one corner and a short stone wall affords some privacy there."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "monastic lich",
+    "no forageables",
+    "spectral monk"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      281,
+      952,
+      291,
+      962
+    ]
+  },
+  "exits": [
+    {
+      "to": 6494,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12261,
+      "kind": "go",
+      "cmd": "go privy",
+      "cost": 0.2
+    }
+  ]
+}

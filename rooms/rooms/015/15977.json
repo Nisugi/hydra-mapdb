@@ -1,0 +1,52 @@
+{
+  "id": 15977,
+  "uid": [
+    663008
+  ],
+  "title": [
+    "[Sorcerer Guild, Library]"
+  ],
+  "description": [
+    "Shelves resting against the redwood walls display an extensive assortment of reading materials.  Several circular communal reading tables occupy the center of the room with six chairs placed around each table.  A heavy layer of sawdust covers the floor, effectively eliminating the sound of passage.  A rectangular skylight allows moonlight to stream liberally into the room, illuminating the tables, shelves, and a rather stern-looking librarian seated at a corner desk.  Several torches also burn brightly."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-sorcerer_guild-1405076623.png",
+    "rect": [
+      643,
+      462,
+      679,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 13102,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 17096,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17102,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 17103,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

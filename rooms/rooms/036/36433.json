@@ -1,0 +1,41 @@
+{
+  "id": 36433,
+  "uid": [
+    58044
+  ],
+  "title": [
+    "[Dungeon, Cavern]"
+  ],
+  "description": [
+    "The narrow corridor curves sharply, making it impossible to clearly see what may be around the corner.  An upper portion of the wall seems to have buckled inward, but it has not collapsed and seems sound enough.  The floor slopes slightly downward, making the gravelly rubble strewn across the floor a slight tripping hazard.  A faint creaking sound can just barely be heard in the distance."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1760,
+      280,
+      1800,
+      320
+    ]
+  },
+  "exits": [
+    {
+      "to": 36432,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36434,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 36402,
+  "uid": [
+    58008
+  ],
+  "title": [
+    "[Dungeon, Stairwell]"
+  ],
+  "description": [
+    "A bright sconce illuminates the top of a spiral stairwell, gently lighting the glistening stone steps that lead down into the darkness below.  The steps look easy enough to traverse, but are slick with moisture and there are no railings to aid someone in case of an unfortunate slip.  A small oaken door off to the side adorned with a heavy iron clacker is the only other method of egress from this small chamber."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1400,
+      360,
+      1440,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36401,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 36403,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "knock door"
+        },
+        {
+          "put": "knock door"
+        },
+        {
+          "put": "knock door"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

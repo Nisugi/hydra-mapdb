@@ -1,0 +1,68 @@
+{
+  "id": 11582,
+  "uid": [
+    420505
+  ],
+  "title": [
+    "[Officer's Quarters]"
+  ],
+  "description": [
+    "The deck slants alarmingly to starboard.  One of a pair of ship's lanterns lies in a clutter of broken glass on the deck.  The other, still attached to its stanchion on the wall, appears to hang at an odd angle.  A sea chest has slid across the deck, leaving deep gouges in the wood.  A steep companionway leads down."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, west, northwest, down"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      235,
+      1018,
+      245,
+      1028
+    ]
+  },
+  "exits": [
+    {
+      "to": 11577,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11583,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11584,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11585,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11586,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11589,
+      "kind": "go",
+      "cmd": "go hatchway",
+      "cost": 0.2
+    }
+  ]
+}

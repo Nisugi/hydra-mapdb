@@ -1,0 +1,50 @@
+{
+  "id": 18048,
+  "uid": [
+    687015
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Tall bookcases are set in long aisles perpendicular to the circumference of this large room, allowing the light from the narrow windows to filter even to the center of the room.  Scholars move silently among the stacks, occasionally pulling down a dusty tome to examine at one of the reading tables.  An unusual black tome rests on one of the tables, apart from the other volumes."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "tags": [
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      252,
+      534,
+      317,
+      598
+    ]
+  },
+  "exits": [
+    {
+      "to": 18049,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18052,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30545,
+      "kind": "other",
+      "cmd": "ask ilante about train alchemy",
+      "cost": 0.2
+    }
+  ]
+}

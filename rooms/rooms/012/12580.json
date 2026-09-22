@@ -1,0 +1,85 @@
+{
+  "id": 12580,
+  "uid": [
+    3023017
+  ],
+  "title": [
+    "[Volcanic Slope, Abyss]"
+  ],
+  "description": [
+    "Where granite gives way to the native basalt of the mountainside, any further movement upward is blocked by a deep slash.  It sunders the peak's side in a grievous wound that penetrates so deeply, the bottom is lost in darkness.  Nothing grows on the lips of the abyss other than a few patches of moss.  Mist drifts on air currents rising from the depths, illuminated by moonlight playing over the fog's insubstantial undulations.",
+    "Where granite gives way to the native basalt of the mountainside, any further movement upward is blocked by a deep slash.  It sunders the peak's side in a grievous wound that penetrates so deeply, the bottom is lost in shadow.  Nothing grows on the lips of the abyss other than a few patches of moss.  Mist drifts on air currents rising from the depths in a ghostly dance."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the volcanic flats",
+  "climate": "humid",
+  "terrain": "mountainous",
+  "tags": [
+    "black tea leaves",
+    "bolmara lichen",
+    "butterfly pea flower",
+    "golden mushroom",
+    "green tea leaves",
+    "lemon balm",
+    "lemon verbena",
+    "mate leaves",
+    "mulberry fronds",
+    "pothinir grass",
+    "purple tea leaves",
+    "round grumbleberry",
+    "spotted heart mushroom",
+    "sprig of larkspur",
+    "sprig of rooibos",
+    "sugar cane",
+    "sun-wilted tea leaves",
+    "tea leaves",
+    "thin hemp",
+    "white cotton boll",
+    "white tea leaves",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      630,
+      45,
+      640,
+      55
+    ]
+  },
+  "exits": [
+    {
+      "to": 12579,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29048,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb rockslide"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

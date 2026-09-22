@@ -1,0 +1,52 @@
+{
+  "id": 3676,
+  "uid": [
+    3201046
+  ],
+  "title": [
+    "[Cobblestone Path]"
+  ],
+  "description": [
+    "Shops of all types offer up their wares to all who pass along the path.  Everything from potions to figs can be purchased both here and to the west.  The shops here are extremely crowded, with hardly enough room between them to fit a mouse.  Exquisitely crafted ornate signs distinguish the otherwise identical shops from one another.",
+    "Shops of all types offer up their wares to all who pass along the path.  Everything from potions to figs can be purchased both here and to the west.  The shops here are extremely crowded, with hardly enough room between them to fit a mouse.  Exquisitely crafted ornate signs distinguish the otherwise identical shops from one another.  A white picket fence leads through a rough stone wall, where the pathway beyond disappears beyond a set of cobblestone steps."
+  ],
+  "paths": [
+    "Obvious paths: west",
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3471,
+      1320,
+      3511,
+      1360
+    ]
+  },
+  "exits": [
+    {
+      "to": 3675,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18220,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19346,
+      "kind": "go",
+      "cmd": "go fence",
+      "cost": 0.2
+    }
+  ]
+}

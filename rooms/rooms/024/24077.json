@@ -1,0 +1,27 @@
+{
+  "id": 24077,
+  "title": [
+    "[Necropolis, Descent]"
+  ],
+  "description": [
+    "An old iron lantern hangs over a giant pile of rubble from a recent cave-in.  A steep ramp leading up is covered in encrusted gore, likely used to dump the dead that had no place in the necropolis."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24075,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24078,
+      "kind": "go",
+      "cmd": "go steep ramp",
+      "cost": 0.2
+    }
+  ]
+}

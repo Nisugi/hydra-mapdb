@@ -1,0 +1,170 @@
+{
+  "id": 10873,
+  "uid": [
+    734004
+  ],
+  "title": [
+    "[River's Rest, Olive Grove]"
+  ],
+  "description": [
+    "Here the olive trees are younger and smaller than those in the rest of the grove.  Growing only about 20 feet in height, they appear to have been deliberately planted in roughly straight rows.  The moons illuminate a wooden sign set firmly into the ground by the nearest olive tree.  A few pastel-colored stucco buildings line the pathway.",
+    "Here the olive trees are younger and smaller than those in the rest of the grove.  Growing only about 20 feet in height, they appear to have been deliberately planted in roughly straight rows.  The trees have been carefully tended and pruned.  A wooden sign is firmly set into the ground by the nearest olive tree.  A few pastel-colored stucco buildings line the pathway."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, west, northwest"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "tropical",
+  "tags": [
+    "acantha leaf",
+    "banana leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "bright orange",
+    "bright yellow plantain",
+    "broken twig",
+    "brostheras grass",
+    "bur-clover root",
+    "butterfly pea flower",
+    "calamia fruit",
+    "cantaloupe",
+    "cardamom",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "coppery rain lily",
+    "cumin seeds",
+    "ebony twig",
+    "ghost pepper",
+    "grapefruit",
+    "green guava",
+    "green tea leaves",
+    "honeymoon melon",
+    "horseradish root",
+    "hot pepper",
+    "kylan berry",
+    "luckbloom blossom",
+    "mate leaves",
+    "murdroot",
+    "nutmeg",
+    "orange-yellow starfruit",
+    "oxblood lily",
+    "pale green honeydew",
+    "pearl onions",
+    "pecans",
+    "pink peppercorn",
+    "pink rain lily",
+    "purple passion fruit",
+    "purple tea leaves",
+    "raw almonds",
+    "red lychee",
+    "red-green mango",
+    "round yuzu",
+    "slender twig",
+    "small coconut",
+    "small green quenepas",
+    "small lime",
+    "star anise",
+    "sticks",
+    "sun-wilted tea leaves",
+    "talneo root",
+    "tea leaves",
+    "thin hemp",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "urchin-access",
+    "vanilla bean",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white lily",
+    "white tea leaves",
+    "wild gooseberry",
+    "yellow lemon",
+    "yellow papaya"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2544,
+      705,
+      2566,
+      729
+    ]
+  },
+  "exits": [
+    {
+      "to": 10868,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10874,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10875,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10877,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16030,
+      "kind": "go",
+      "cmd": "go imflass-paneled pagoda",
+      "cost": 0.2
+    },
+    {
+      "to": 16031,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 26613,
+  "title": [
+    "[Caligos Isle, Ivory Maw]"
+  ],
+  "description": [
+    "Bone white stalagmites thrust upwards from the fissured floor of the chamber, the tapered columns grasping towards the blackness of the ceiling above.  Set between a gap of the pale protrusions is a frayed rope bridge leading further down into the darkness of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      560,
+      220,
+      575,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26612,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26614,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

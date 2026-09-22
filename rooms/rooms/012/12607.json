@@ -1,0 +1,81 @@
+{
+  "id": 12607,
+  "uid": [
+    3041005
+  ],
+  "title": [
+    "[Luukos' Gullet, Narrow Hollow]"
+  ],
+  "description": [
+    "Bursts of hot gas, disturbed in their upward flight by the outcropping just beneath you, have charred a shallow indentation in the stone.  It's just enough room to squeeze into, although it takes quite a bit of squirming to keep from sliding off into the abyss.  Someone has carved a message near the base, but it is difficult to make out the charred letters."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
+  "climate": "hot, damp",
+  "terrain": "rough",
+  "tags": [
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      774,
+      649,
+      784,
+      659
+    ]
+  },
+  "exits": [
+    {
+      "to": 12608,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "round_until": {
+            "commands": [
+              "search",
+              "get root"
+            ],
+            "until": [
+              "You reach out"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb face"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 3.4
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 2830,
+  "uid": [
+    4563006
+  ],
+  "title": [
+    "[Northern Slopes, Alpine Track]"
+  ],
+  "description": [
+    "Ancient, pocked granite domes create a steep slope that extends up to a stand of pines on a ridge above.  Here and there, smaller trees cling to folds in the boulders, stunted into contorted forms by starting life in the rocks instead of in nourishing peat."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      565,
+      1385,
+      575,
+      1395
+    ]
+  },
+  "exits": [
+    {
+      "to": 2829,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2831,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb slope"
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

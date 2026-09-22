@@ -1,0 +1,78 @@
+{
+  "id": 12347,
+  "uid": [
+    14104002
+  ],
+  "title": [
+    "[Wyvern Keep, City Clerk]"
+  ],
+  "description": [
+    "Thick walnut bookshelves run from the floor to the ceiling on all the walls of this spacious office.  The shelves even extend above the doorsill, making use of every bit of available wall space.  Heavy tomes, ledgers, and volume after volume of legal documents crowd the shelves.  Lanterns suspended from the varnished ceiling beams cast ample light to illuminate the room.  A large, polished walnut desk with an accompanying straight-backed chair occupies a place on the red marble floor in the room's center."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "debt",
+    "debts",
+    "no forageables",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-wyverns_keep-1488759285.png",
+    "rect": [
+      309,
+      606,
+      452,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 10313,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 25703,
+  "uid": [
+    3223861
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Sunlight highlights the puffy white clouds that stretch across the horizon in a golden sheen.  Clouds and sunrays are reflected in the rippling waters of the harbor, their white and gold hues flashing in and out as the waves jockey for position near the rocky shoals of the southern island.",
+    "Moonlight limes the puffy white clouds that stretch across the horizon in a silvery sheen.  Stars that twinkle in the sky are reflected in the rippling waters of the harbor, their lights flashing in and out as the waves jockey for position near the rocky shoals of the southern island."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1680,
+      1679,
+      1700,
+      1698
+    ]
+  },
+  "exits": [
+    {
+      "to": 25702,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25704,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25774,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

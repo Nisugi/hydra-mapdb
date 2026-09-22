@@ -1,0 +1,75 @@
+{
+  "id": 13062,
+  "uid": [
+    160007
+  ],
+  "title": [
+    "[Thistleberry's Hut, Consignment]"
+  ],
+  "description": [
+    "Unrecognizable aromas hang in the air, although fainter than in the front of the shop.  A scuffed manifest lies attached to a short counter by a tarnished metal ring.  Cupboards line the back wall, their doors marred by dents and random scorch marks."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "fire lily",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12469,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13063,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

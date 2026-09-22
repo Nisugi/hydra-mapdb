@@ -1,0 +1,48 @@
+{
+  "id": 29433,
+  "title": [
+    "[Briarmoon Cove, Bazaar]"
+  ],
+  "description": [
+    "Jewels and fabrics gleam against a bevy of other merchandise, the assortment of goods teetering on the brink of overwhelming the slightly confined passage.  Sapphire, emerald, and ruby lights are strewn cheerfully across every exposed portion of the shopping structures, their soft radiance dappling the icy street with hints of reflected color."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      601,
+      336,
+      623,
+      357
+    ]
+  },
+  "exits": [
+    {
+      "to": 29432,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29434,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29444,
+      "kind": "go",
+      "cmd": "go midnight pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 29451,
+      "kind": "go",
+      "cmd": "go wooden booth",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 20323,
+  "title": [
+    "[Feywrot Mire, Green Shoreline]"
+  ],
+  "description": [
+    "Dotted with a plethora of tiny holes, the muck at the edge of shoreline appears solid.  Miniscule rivulets of water cut spiderweb-thin patterns through the dirt, exposing the limestone base underneath.  Overhead, the branches of cypress trees spread far and wide, their drooping limbs dripping with thick moss."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      422,
+      919,
+      436,
+      933
+    ]
+  },
+  "exits": [
+    {
+      "to": 20322,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20324,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21601,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24321,
+      "kind": "go",
+      "cmd": "go wooden wagon",
+      "cost": 0.2
+    }
+  ]
+}

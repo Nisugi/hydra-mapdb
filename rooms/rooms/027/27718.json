@@ -1,0 +1,58 @@
+{
+  "id": 27718,
+  "uid": [
+    4050113
+  ],
+  "title": [
+    "[East Barbican, North Tower]"
+  ],
+  "description": [
+    "A circle of windows looks out onto the surrounding landscape from the top of the tower, each offering as its view only a thin slice of the world as its view because of the arched, slit-like construction.  A few stick-like markings mar the otherwise smooth stone surface beneath the windows -- the arcane figures likely the handiwork of some rather bored guardsman.  A long, thick rope has been tied to a grommet beneath the widest of the windows, permitting access to the eastern wall below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Town_Walls_Map-1707071672.png",
+    "rect": [
+      707,
+      456,
+      745,
+      494
+    ]
+  },
+  "exits": [
+    {
+      "to": 27717,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull rope"
+        },
+        {
+          "move": "go down"
+        }
+      ],
+      "cost": 10.2
+    },
+    {
+      "to": 27719,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push rope"
+        },
+        {
+          "move": "climb rope"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

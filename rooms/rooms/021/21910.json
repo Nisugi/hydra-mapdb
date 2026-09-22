@@ -1,0 +1,54 @@
+{
+  "id": 21910,
+  "title": [
+    "[Talador, North Circle]"
+  ],
+  "description": [
+    "Throngs of townspeople move through the area, stopping to chat when not going about their business.  Bright, huge pavilions line the streets like a colorful border, drawing visitors to them."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      82,
+      100,
+      110,
+      126
+    ]
+  },
+  "exits": [
+    {
+      "to": 21906,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21911,
+      "kind": "go",
+      "cmd": "go amber-hued tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21912,
+      "kind": "go",
+      "cmd": "go yellow tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21913,
+      "kind": "go",
+      "cmd": "go mist tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21914,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

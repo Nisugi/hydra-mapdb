@@ -1,0 +1,43 @@
+{
+  "id": 16557,
+  "uid": [
+    261023
+  ],
+  "title": [
+    "[Rogue Guild, A Dark Alley]"
+  ],
+  "description": [
+    "The buildings almost seem to lean together overhead in a trick of the light, throwing the alley into shadow as it narrows and ends in a featureless stone wall.  A plain wooden door is set into the wall of the warehouse to the west, and the alley continues south into the darkness."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      317,
+      191,
+      345,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 16555,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16563,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

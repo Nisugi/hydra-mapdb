@@ -1,0 +1,68 @@
+{
+  "id": 26165,
+  "uid": [
+    7107053,
+    7107103,
+    7107153,
+    7107203,
+    7107253,
+    7107303,
+    7107353,
+    7107403,
+    7107453,
+    7107503,
+    7107553,
+    7107603,
+    7107653,
+    7107703,
+    7107753,
+    7107803
+  ],
+  "title": [
+    "[Reim, Outer West]"
+  ],
+  "description": [
+    "Thorn-like rods protrude from a double iron gate that leads deeper into the fortress.  Wall-mounted torches flanking the gate illuminate the immediate area and cast spectral shadows along the rough stone walls."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      308,
+      296,
+      344,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 26153,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 26166,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26168,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

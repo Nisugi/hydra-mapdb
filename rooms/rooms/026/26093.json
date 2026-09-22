@@ -1,0 +1,59 @@
+{
+  "id": 26093,
+  "uid": [
+    8213605
+  ],
+  "title": [
+    "[Underground Temple, Core]"
+  ],
+  "description": [
+    "Leaning precariously to one side, a massive stone altar dominates the southern end of the temple.  Webs of cracks and crevices mar the stone beneath and render ancient floor carvings nearly indiscernible.  Partially concealed by the altar, a small tunnel leads down into darkness."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest, down",
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1333,
+      455,
+      1342,
+      465
+    ]
+  },
+  "exits": [
+    {
+      "to": 24548,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24549,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25555,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 26092,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36809,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

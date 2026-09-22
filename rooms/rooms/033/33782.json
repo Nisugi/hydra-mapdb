@@ -1,0 +1,40 @@
+{
+  "id": 33782,
+  "uid": [
+    170939
+  ],
+  "title": [
+    "[The Ember Vale, Northern Gate]"
+  ],
+  "description": [
+    "Rough walls of stone expand outward, providing several chiseled ramparts for guards above.  Glimpsed beyond the parapets are flat thatched roofs of numerous buildings and homes.  Wedged between tall stone towers stands a sturdy wooden gate."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      635,
+      608,
+      652,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 33780,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33787,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

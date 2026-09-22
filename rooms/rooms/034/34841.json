@@ -1,0 +1,37 @@
+{
+  "id": 34841,
+  "uid": [
+    8089043
+  ],
+  "title": [
+    "[Tanglemist Mansion, Grounds]"
+  ],
+  "description": [
+    "The silhouette of an imposing, stone-built mansion rises above an overgrown garden covering the expansive lawn, the wide pathway framed by distorted topiaries looming over the shattered cobblestones.  A broken marble-crafted fountain stands at the center of the walkway, the cracked basin covered in a curtain of blackened moss.  Gnarled vines engulf the imposing iron and vaalin gate, the spear-tipped finials impaling the decaying sanguine roses ensnaring the framework, leaving the twisted metal stained in dull red."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Evermore Hollow",
+  "terrain": "cultivated",
+  "exits": [
+    {
+      "to": 34840,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 34842,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34844,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

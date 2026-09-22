@@ -1,0 +1,54 @@
+{
+  "id": 19622,
+  "title": [
+    "[Albatross, Cashier]"
+  ],
+  "description": [
+    "White alabaster and dark mahogany flooring are cleverly conjoined into the image of a giant roulette wheel.  Heavy tapestries hang from the walls, each depicting gamblers winning at different games.  Some shallow steps lead down into the roulette pit that are position between a gold-trimmed rosewood door and an expansive mahogany archway."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-albatross-1310186668.png",
+    "rect": [
+      332,
+      413,
+      367,
+      447
+    ]
+  },
+  "exits": [
+    {
+      "to": 19618,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19623,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 19624,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19625,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 19636,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

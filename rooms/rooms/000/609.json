@@ -1,0 +1,53 @@
+{
+  "id": 609,
+  "uid": [
+    13101057
+  ],
+  "title": [
+    "[Ta'Illistim, Caear Var]"
+  ],
+  "description": [
+    "Crowds of patrons flock towards a large stone building.  The structure's central rotunda, covered with deep blue tiles, glitters brightly in the sunlight.  Heavily carved columns inlaid with glimmering multi-colored stones flank the structure's wide front doors.",
+    "Set close to the var is a large stone building with a central rotunda.  The building's dome, covered with deep blue tiles, contrasts with its heavily carved white marble columns, though the colorful hue is echoed in its mosaicked pediment."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      959,
+      346,
+      980,
+      366
+    ]
+  },
+  "exits": [
+    {
+      "to": 608,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 610,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4022,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

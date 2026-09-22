@@ -1,0 +1,54 @@
+{
+  "id": 7517,
+  "uid": [
+    46016
+  ],
+  "title": [
+    "[Catacombs, Dank Cellar]"
+  ],
+  "description": [
+    "A few brown sewer rats dart across the floor and scurry north, in the direction of the odor of spoiled food and ancient cooking grease.  In a far bleak corner stands a filthy cot, a heap of dirty laundry piled high at its foot.  Anchored into the southern wall is a ladder, which disappears into the total darkness that obscures the vaulted ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      661,
+      989,
+      671,
+      999
+    ]
+  },
+  "exits": [
+    {
+      "to": 7516,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 7518,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8686,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "climb ladder"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

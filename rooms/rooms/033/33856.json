@@ -1,0 +1,117 @@
+{
+  "id": 33856,
+  "uid": [
+    14150050
+  ],
+  "title": [
+    "[Nielira Harbor, Boardwalk]"
+  ],
+  "description": [
+    "The faint cries of seagulls echo through the boardwalk and towards the western and southern piers, their avian silhouettes resting upon ebony-crafted crates flanking the entryways.  Well-tended planters are scattered between tall faenor lamp posts, the unfurling blooms of naefira and sprigs of lavender alight with plump honeybees, the others resting in tiny cups filled with water droplets.  An ivy-framed sign stands in the center of the florals, the calligraphy highlighted by nautical watermarks."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west, northwest"
+  ],
+  "location": "Ta'Nalfein",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "acistira stem",
+    "black-red fritillary",
+    "blackish green twisted-fan",
+    "checkered fritillary",
+    "green acistira leaves",
+    "pinkish green rosegrass",
+    "portmaster",
+    "snake's head fritillary",
+    "tiny white elderflowers",
+    "urchin guide docks",
+    "urchin-access",
+    "vert and orange frog-cup",
+    "violet fritillary",
+    "yellowish green twisted-fan"
+  ],
+  "image": {
+    "file": "en-nalfein-1695787165.png",
+    "rect": [
+      428,
+      513,
+      458,
+      542
+    ]
+  },
+  "exits": [
+    {
+      "to": 33831,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33836,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33857,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33862,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33863,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33864,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34423,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

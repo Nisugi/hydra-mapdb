@@ -1,0 +1,39 @@
+{
+  "id": 17939,
+  "uid": [
+    264021
+  ],
+  "title": [
+    "[Rogue Guild, Corridor]"
+  ],
+  "description": [
+    "Footsteps echo through the long empty corridor.  The bare floor and faded, water-stained walls do nothing to muffle any sound.  A large carved arch leads to a sitting room, the courtyard visible through the windows beyond."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      365,
+      537,
+      395,
+      564
+    ]
+  },
+  "exits": [
+    {
+      "to": 17938,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17943,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

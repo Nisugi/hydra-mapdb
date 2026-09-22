@@ -1,0 +1,95 @@
+{
+  "id": 4109,
+  "uid": [
+    14025
+  ],
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "Tumbling from a rock ledge several feet above the floor of the valley is a torrent of ice cold water.  As the cascade crashes on the rocks beneath it, a great plume of silver mist billows into the damp, and refreshingly cool, air of this shadowed glen."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "temperate",
+  "terrain": "rough",
+  "tags": [
+    "banana leaf",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "deep purple shockroot",
+    "elderberries",
+    "fiddlehead fern",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "leafy arugula",
+    "leek",
+    "motherwort",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "rhubarb",
+    "shallot",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "war troll",
+    "white baneberry",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      375,
+      1140,
+      385,
+      1150
+    ]
+  },
+  "exits": [
+    {
+      "to": 4108,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4110,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18694,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "hunting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

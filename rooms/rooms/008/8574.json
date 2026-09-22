@@ -1,0 +1,126 @@
+{
+  "id": 8574,
+  "uid": [
+    10007
+  ],
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible beneath a blanket of thick gray clouds.",
+    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible high in the night sky."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "tags": [
+    "angelica root",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "brostheras grass",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "leafy arugula",
+    "luckbloom blossom",
+    "marallis berry",
+    "oak twig",
+    "pennyroyal stem",
+    "rainbow chard",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of chicory",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild pink geranium",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1293,
+      923,
+      1303,
+      933
+    ]
+  },
+  "exits": [
+    {
+      "to": 8570,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8571,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8572,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8573,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19651,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "pause": 500
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "get lockpick"
+        },
+        {
+          "put": "pick door"
+        },
+        {
+          "pause": 500
+        },
+        {
+          "put": "stow lockpick"
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

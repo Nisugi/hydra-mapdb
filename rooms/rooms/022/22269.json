@@ -1,0 +1,36 @@
+{
+  "id": 22269,
+  "title": [
+    "[Northern DragonSpines, Icy Path]"
+  ],
+  "description": [
+    "The mountain rises to the west while the cliff drops off drastically to the east.  As the path slopes upward, the layers of frozen snow and ice make the climb dangerous."
+  ],
+  "paths": [
+    "Obvious paths: west, up"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      733,
+      409,
+      746,
+      423
+    ]
+  },
+  "exits": [
+    {
+      "to": 22256,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22270,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 33593,
+  "uid": [
+    7101011
+  ],
+  "title": [
+    "[Vornavis, Sandy Dune]"
+  ],
+  "description": [
+    "Pale white sands glitter in the golden light of the day, their ultra fine grade causing them to sparkle ever so slightly when the sun's rays fall upon them.  Shrubs and underbrush fall away from a craggy slope, which leads up and away from the river to the south.  Conifers and oaks spread outward from the area, their leafy expanses making it difficult to see very far."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Vornavis",
+  "terrain": "sandy",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      201,
+      327,
+      250,
+      375
+    ]
+  },
+  "exits": [
+    {
+      "to": 33592,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33594,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    }
+  ]
+}

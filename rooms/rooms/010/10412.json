@@ -1,0 +1,50 @@
+{
+  "id": 10412,
+  "uid": [
+    14109013
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "A profusion of plants grace this portion of the corridor, giving it a garden-like air.  Broad-leafed calla lilies send violet, maroon and milky-white blooms to nod towards the center of the passage, while vinca, petunias and snapdragons add bursts of color at floor level.  Hanging from the ceiling are several small bunches of white-blossomed flowers.  A white painted trellis archway stands to one side of the hall, enveloped almost entirely by tangerine colored climbing roses."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      1413,
+      893,
+      1555,
+      955
+    ]
+  },
+  "exits": [
+    {
+      "to": 10411,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10413,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32714,
+      "kind": "go",
+      "cmd": "go painted archway",
+      "cost": 0.2
+    }
+  ]
+}

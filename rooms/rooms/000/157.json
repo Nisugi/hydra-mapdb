@@ -1,0 +1,58 @@
+{
+  "id": 157,
+  "uid": [
+    13101015
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "Deep blue slate clads the nearby shop, a dull contrast to the brighter blue tiles that form the building's sturdy roof.  Windowboxes planted with bright red begonias bring cheer to the stately structure.  A brass plaque is mounted to the shop's front door.",
+    "Matte white marble clads the nearby shop, a sharp contrast to the brighter, glossier blue tiles that form the building's sturdy roof.  Window-boxes planted with white clover bring cheer to the stately structure.  A silver plaque is mounted to the shop's lapis-painted front door."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      444,
+      459,
+      455,
+      472
+    ]
+  },
+  "exits": [
+    {
+      "to": 156,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 158,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26368,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

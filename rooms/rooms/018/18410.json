@@ -1,0 +1,40 @@
+{
+  "id": 18410,
+  "title": [
+    "[Beezer's Barn, Main Floor]"
+  ],
+  "description": [
+    "The smell of fresh hay permeates the area, the source of which lies in the hayloft at the top of a narrow wooden ladder.  Here on the main floor, several stalls house a variety of farm animals brought in for the night.  Moonlight filters through the window above the double barn doors, illuminating the room with a silvery glow.  Hanging oil lanterns light up a rusted metal shelf along one wall that holds a variety of farm tools.  In the back, a small wooden door leads deeper into the barn.",
+    "The smell of fresh hay permeates the area, the source of which lies in the hayloft at the top of a narrow wooden ladder.  Here on the main floor, several stalls lay barren, their occupants put out to pasture.  Sun let in from the window above the double barn doors illuminates a large swath of the hay strewn wooden floorboards, and motes of dust dance delicately in the ray of light.  A rusted metal shelf along one wall holds a variety of farm tools.  In the back, a small wooden door leads deeper into the barn."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18409,
+      "kind": "go",
+      "cmd": "go barn doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18411,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 18576,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 12707,
+  "uid": [
+    3031029
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Water streams down from the ceiling above in quickly paced drops, splattering before gaining momentum and running to the east through the grooves carved in the stone floor.  A short set of descending stairs, half submerged below the high water level, leads to the northeast, while to the south, a single pillar has collapsed, but does not impede travel in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      405,
+      709,
+      439,
+      743
+    ]
+  },
+  "exits": [
+    {
+      "to": 12706,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12709,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12715,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12717,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

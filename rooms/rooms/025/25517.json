@@ -1,0 +1,40 @@
+{
+  "id": 25517,
+  "uid": [
+    12101004
+  ],
+  "title": [
+    "[The Firebird, Main Deck]"
+  ],
+  "description": [
+    "Lit from either side by a pair of glimaerstone lamps, the passage is split by a heavy red brass ladder leading down to the orlop.  The sounds of the weather deck overhead are muted by solid wood, but not entirely inaudible.  Everywhere there is a faint thrumming, as if the walls themselves were suffused with the life and pulse of a great beast."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 24410,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25518,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 25519,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

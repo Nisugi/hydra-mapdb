@@ -1,0 +1,44 @@
+{
+  "id": 26941,
+  "uid": [
+    7110104
+  ],
+  "title": [
+    "[Needle of Pentas, Elemental]"
+  ],
+  "description": [
+    "Verdant green tiles are fitted with moss-green stones in an alternating pattern that grows darker and more solid as it ascends to the chamber's ceiling.  Blown glass orbs, five in total, encircle a simple, spiral staircase, while a viridian and agate bench pays homage to a round southeast-facing window."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Needle of Pentas",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "fest-Rings of Lumnis 2022-1649952041.png",
+    "rect": [
+      1412,
+      582,
+      1429,
+      600
+    ]
+  },
+  "exits": [
+    {
+      "to": 26940,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26942,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

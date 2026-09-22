@@ -1,0 +1,46 @@
+{
+  "id": 32873,
+  "uid": [
+    4384070
+  ],
+  "title": [
+    "[Silverwood Manor, Courtyard]"
+  ],
+  "description": [
+    "The grey-hewn walls of stone are covered in flecks of precious metal and gemstones, the surface glinting with the ambient light cast by several silver-forged lanterns leading towards the manor.  Dried tufts of cave moss frame the pathway to a carved haon door, the wood decorated with a lively scene of several dwarves in a bustling market, the intaglio encircling a gilded plaque.  Nestled into the corner of the door and walls is a mine cart-shaped donation bin."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "silverwood",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 5749,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13532,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "remember": [
+            "silverwood_town",
+            "zul"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

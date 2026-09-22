@@ -1,0 +1,35 @@
+{
+  "id": 20414,
+  "title": [
+    "[Close Yer Robe, Cellar]"
+  ],
+  "description": [
+    "Shadows reign in this subterranean room.  The only light filters down from above, barely illuminating the rungs of a rickety wooden ladder that leads down from a hole in the ceiling.  The dirty floor is littered with refuse and scraps of metal, making walking around dangerous with the dim state of the area.  The smell of decay emanates strongly from one corner, beneath what looks like a pile of stained rags.",
+    "Shadows reign in this subterranean room.  The only light filters down from above, barely illuminating the rungs of a rickety wooden ladder that lead down from a hole in the ceiling.  The dirty floor is littered with refuse and scraps of metal, making walking around dangerous with the dim state of the area.  The smell of decay emanates strongly from one corner, beneath what looks like a pile of stained rags."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20413,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23154,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 17588,
+  "uid": [
+    3216008
+  ],
+  "title": [
+    "[Western Harbor, Seathrak Way]"
+  ],
+  "description": [
+    "Prismatic swirls spiral across the pale cobblestones, their source the glass-sided lanterns that are hung in even intervals amongst the cottages and shops that line the street.  Loud and distinct, the thunderous crash of the surf upon the nearby jetty floods the area and carries with it the acrid scent of the sea, while nearer at hand is the sound of women laughing.",
+    "Golden light bathes the pale cobblestones, their source the glass-sided lanterns that are hung in even intervals amongst the cottages and shops that line the street.  Loud and distinct, the thunderous sound of the tide crashing upon the nearby jetty fills the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1234,
+      906,
+      1264,
+      933
+    ]
+  },
+  "exits": [
+    {
+      "to": 17587,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17589,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17595,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17603,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18252,
+      "kind": "go",
+      "cmd": "go bright store",
+      "cost": 0.2
+    },
+    {
+      "to": 18258,
+      "kind": "go",
+      "cmd": "go brown-shingled store",
+      "cost": 0.2
+    },
+    {
+      "to": 18259,
+      "kind": "go",
+      "cmd": "go yellow-roofed store",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 31383,
+  "uid": [
+    171017
+  ],
+  "title": [
+    "[Wyrdeep Forest, Briar Bed]"
+  ],
+  "description": [
+    "Thick growth has reluctantly given way to a small clearing, prickly vines and sharply barbed briars threatening entanglement to any who attempt passage.  Broken clay pots and scorched slats of faewood are strewn across the ground, a faint smell of smoke hanging heavily in the air."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "alder bark",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ginger root",
+    "golden buttercup",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "oak twig",
+    "pink rain lily",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "walnuts",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "yew twig"
+  ],
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 31380,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31384,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 22004,
+  "uid": [
+    312026
+  ],
+  "title": [
+    "[Path to Enlightenment]"
+  ],
+  "description": [
+    "The flowers of the garden have given way to a patch of wavy pothinir grass.  The green living carpet flows along the ground surrounding a magnificent oak tree which towers over the area.  At the end of the path, an opulant marble archway marks the way out of the garden."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Graveyard",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      304,
+      409,
+      317,
+      421
+    ]
+  },
+  "exits": [
+    {
+      "to": 3685,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": {
+        "when": {
+          "society_rank_at_least": 26
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 18189,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

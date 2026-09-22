@@ -1,0 +1,68 @@
+{
+  "id": 23818,
+  "uid": [
+    14103475
+  ],
+  "title": [
+    "[Collectibles Shop]"
+  ],
+  "description": [
+    "Numerous baubles and trinkets fill nearly every available nook and cranny of the building.  Dark and musty, a slight hint of dust and mildew hangs heavily in the air.  Sturdy shelves and deep oak bins strive fruitlessly to contain the jumbled mess.  Several attendents move confidently among the items, seemingly knowing exactly where everything is."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "collectibles",
+    "no forageables",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3503,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

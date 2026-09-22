@@ -1,0 +1,105 @@
+{
+  "id": 9417,
+  "uid": [
+    13006024
+  ],
+  "title": [
+    "[Zul Logoth, Chalcedony Tunnel]"
+  ],
+  "description": [
+    "Dwarven men and women trudge slowly in and out of the stone arch to the south.  Those entering the arch seem to be alert and talkative, while those exiting are, for the most part, tired and quiet.  A desk abuts the wall just beside the arch, and a dwarven guard carefully examines those passing through.  The guard points to various items on each dwarf and notes something on her clipboard.  The items she points to most often are tools of the mining trade."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "empath guild",
+    "empathguild",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide empathguild",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      609,
+      847,
+      629,
+      867
+    ]
+  },
+  "exits": [
+    {
+      "to": 9416,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9418,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19756,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": {
+        "when": {
+          "profession": "Empath"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 12815,
+  "uid": [
+    4740014
+  ],
+  "title": [
+    "[Solhaven Arms]"
+  ],
+  "description": [
+    "Polished wooden cases line the room, containing a wide assortment of weapons.  Echoing through the shop is the sound of a hammer striking metal.  A stocky Dwarf stands nearby, smiling to herself."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "urchin guide weapons",
+    "urchin-access",
+    "weapons",
+    "weaponshop"
+  ],
+  "exits": [
+    {
+      "to": 1460,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12816,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12817,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13239,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

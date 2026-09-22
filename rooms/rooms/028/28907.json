@@ -1,0 +1,111 @@
+{
+  "id": 28907,
+  "uid": [
+    7118222
+  ],
+  "title": [
+    "[Wandering Eye Market, East]"
+  ],
+  "description": [
+    "Perched upon the eastern edge of the painted cobblestone market, a two-story stone structure and a bright red brick-faced building sit in relative isolation from the hawker's stalls, awnings, and tents that occupy other portions of the market.  Twin stocks flank heavy marble stairs that lead inside the windowless structure, while evenly spaced lanterns, shedding illumination, stand silent guard over the building.  A small backless oak bench rests against a potted tree that seems out of place in the center of the market.",
+    "Perched upon the eastern edge of the painted cobblestone market, a two-story stone structure sits isolated from the lack of stalls, awnings, and tents that occupy other portions of the market.  Twin stocks flank heavy marble stairs that lead inside the windowless structure, while evenly spaced lanterns, dormant for the moment, stand silent guard nearby.  A small backless oak bench rests against a potted tree that seems out of place in the center of the market.",
+    "Perched upon the eastern edge of the painted cobblestone market, a two-story stone structure sits isolated from the lack of stalls, awnings, and tents that occupy other portions of the market.  Twin stocks flank heavy marble stairs that lead inside the windowless structure, while evenly spaced lanterns, shedding illumination, stand silent guard nearby.  A small backless oak bench rests against a potted tree that seems out of place in the center of the market.",
+    "Perched upon the eastern edge of the painted cobblestone market, a two-story stone structure and a bright red brick-faced building sit in relative isolation from the hawker's stalls, awnings, and tents that occupy other portions of the market.  Twin stocks flank heavy marble stairs that lead inside the windowless structure, while evenly spaced lanterns, dormant for the moment, stand silent guard over the building.  A small backless oak bench rests against a potted tree that seems out of place in the center of the market."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      471,
+      372,
+      485,
+      385
+    ]
+  },
+  "exits": [
+    {
+      "to": 28813,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28814,
+      "kind": "go",
+      "cmd": "go brick building",
+      "cost": 0.2
+    },
+    {
+      "to": 28899,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28906,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28908,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29009,
+      "kind": "go",
+      "cmd": "go structure",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

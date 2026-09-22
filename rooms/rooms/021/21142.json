@@ -1,0 +1,41 @@
+{
+  "id": 21142,
+  "uid": [
+    289002
+  ],
+  "title": [
+    "[The Colonnade, Lobby]"
+  ],
+  "description": [
+    "Bedecked in fine woven tapestries, the maroon silk-paneled walls surrounding this expansive room stretch upward to a domed ceiling.  To either side of the entrance, two small marble podiums stand opposite each other, each covered with a woven silk cloth.  Sweeping up toward the second level is a grand black-veined grey marble staircase, its railing carved with exotic flowers.  Set into an arched recess in the back wall, a set of double doors leads deeper into the theater."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 21141,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 21143,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 21147,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

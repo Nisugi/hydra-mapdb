@@ -1,0 +1,44 @@
+{
+  "id": 35590,
+  "uid": [
+    7150611
+  ],
+  "title": [
+    "[The Contempt, Orlop Deck]"
+  ],
+  "description": [
+    "In the orlop deck's dim undercroft, coils of salt-crusted line lie heaped in silent disorder along planks stained with sludge.  They tangle about the bases of a collection of crates and tuns of spirits sealed with old, dry wax.  The air of the hold is close and smells sweetly of rot.  Sounds of splashing water and groans of distressed wood climb a ladder leading down to the hold."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      4360,
+      1000,
+      4440,
+      1080
+    ]
+  },
+  "exits": [
+    {
+      "to": 35589,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35591,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

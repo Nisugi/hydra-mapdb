@@ -1,0 +1,44 @@
+{
+  "id": 9175,
+  "uid": [
+    7531039
+  ],
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "A pulsating green and yellow mist fills this room, making it nearly impossible to see anything further than your own hand.  There doesn't appear to be any reason for the fog or the slowly dancing lights within it, but it does bear a rather pleasant light citrus smell."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      767,
+      910,
+      777,
+      920
+    ]
+  },
+  "exits": [
+    {
+      "to": 9174,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9204,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

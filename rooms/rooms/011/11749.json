@@ -1,0 +1,62 @@
+{
+  "id": 11749,
+  "uid": [
+    2104101
+  ],
+  "title": [
+    "[Smuggler's Cutter, Deck]"
+  ],
+  "description": [
+    "The wood of the deck is missing varnish where the salt-water has eaten through.  The brass fittings are a dull green and are in desperate need of some polish.  Ratty coils of rope lie about the deck ready for use when needed.  The single mast and large sail are the only things in pristine condition on the deck."
+  ],
+  "paths": [
+    "Obvious paths: down, out",
+    "Obvious paths: down"
+  ],
+  "location": "the South River Road",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "meta": [
+    "transport"
+  ],
+  "exits": [
+    {
+      "to": 10838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_any": [
+            "The crew hurriedly puts out the gangplank.",
+            " ashore!"
+          ]
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 300.0
+    },
+    {
+      "to": 11750,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11753,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_any": [
+            "The crew hurriedly puts out the gangplank.",
+            " ashore!"
+          ]
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 300.0
+    }
+  ]
+}

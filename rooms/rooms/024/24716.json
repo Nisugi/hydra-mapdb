@@ -1,0 +1,95 @@
+{
+  "id": 24716,
+  "uid": [
+    480231,
+    17006231
+  ],
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "A compact half-sphere of thick trees circles outward to eventually peel away and reveal the broken and scattered remnants of what appears to have once been a village.  Some wooden buildings remain intact with little overgrowth, while others have been left in useless piles of rubble, smashed or scorched.   Intermittent flecks of silver or golden light can be seen within the hazy mist that saturates the edge of the woods."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      104,
+      472,
+      118,
+      486
+    ]
+  },
+  "exits": [
+    {
+      "to": 24715,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24717,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24718,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

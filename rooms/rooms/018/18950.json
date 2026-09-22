@@ -1,0 +1,40 @@
+{
+  "id": 18950,
+  "uid": [
+    664033
+  ],
+  "title": [
+    "[Sorcerer Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-sorcerer_guild-1405076623.png",
+    "rect": [
+      181,
+      182,
+      219,
+      220
+    ]
+  },
+  "exits": [
+    {
+      "to": 18935,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18951,
+      "kind": "go",
+      "cmd": "go cauldron",
+      "cost": 0.2
+    }
+  ]
+}

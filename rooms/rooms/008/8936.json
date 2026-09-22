@@ -1,0 +1,51 @@
+{
+  "id": 8936,
+  "uid": [
+    680053
+  ],
+  "title": [
+    "[Wizard Guild, Promontory]"
+  ],
+  "description": [
+    "Jutting out into the open air within the core of the tower, this promontory affords an unmatchable vantage point for observing the ever-raging lightstorm.  The violent lightning strikes, eye-searing both in their brightness and in their virulent hues, arc off the zorchar rod rising through the center of the tower but avoid hitting this balcony, leaving it untouched.  A well-stocked bookcase partially blocks the outer walkway, its studious contents at odds with the wildness of the lightstorm."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "trash"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      422,
+      210,
+      472,
+      254
+    ]
+  },
+  "exits": [
+    {
+      "to": 8935,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8937,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8942,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    }
+  ]
+}

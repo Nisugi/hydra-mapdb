@@ -1,0 +1,56 @@
+{
+  "id": 14474,
+  "uid": [
+    411153
+  ],
+  "title": [
+    "[Petting Zoo]"
+  ],
+  "description": [
+    "Three paths split off from the entrance, the stone ground covered with bits of hay that has strayed from the animal pens.  Children run around the area in a frenzied chaos as adults look on in amusement.  An iron gate offers easy access to the rest of the park outside."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 14424,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 14475,
+      "kind": "go",
+      "cmd": "go iron gate",
+      "cost": 0.2
+    },
+    {
+      "to": 14544,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14545,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14546,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

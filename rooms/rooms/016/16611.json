@@ -1,0 +1,40 @@
+{
+  "id": 16611,
+  "uid": [
+    261050
+  ],
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The tunnel ends in a dark wall of ancient stone, the fundament of some centuries-old cellar.  A small wooden door set in a niche in the wall bears a roughly painted warning to \"KEEP OUT!\"."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      57,
+      471,
+      85,
+      499
+    ]
+  },
+  "exits": [
+    {
+      "to": 16595,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16615,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

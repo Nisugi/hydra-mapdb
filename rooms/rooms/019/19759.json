@@ -1,0 +1,49 @@
+{
+  "id": 19759,
+  "uid": [
+    658005
+  ],
+  "title": [
+    "[Empath Guild, Corridor]"
+  ],
+  "description": [
+    "Carefully imbedded into the walls are tiny shards of local gemstones in a spiraling pattern that runs from floor to ceiling.  A pair of blue-toned luminescent toadstools flank the rails of a winding stone stairway."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 19757,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19760,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 19761,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19762,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19763,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

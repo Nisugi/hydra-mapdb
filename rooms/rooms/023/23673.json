@@ -1,0 +1,53 @@
+{
+  "id": 23673,
+  "uid": [
+    255012
+  ],
+  "title": [
+    "[Bathhouse, Atrium]"
+  ],
+  "description": [
+    "Stepping down three stone steps, the jungle closes in, creating a garden walled in by verdant greenery growing about carved wooden columns.  A latticework of blossoming vines crisscrosses between, creating a fragrant ceiling for the walkway.  Sunlight streams through, patterning the ground below and illuminating a garden path leading deeper into the complex.",
+    "Stepping down three stone steps, the jungle closes in, creating a garden walled in by verdant greenery growing about carved wooden columns.  A latticework of blossoming vines crisscrosses between, creating a fragrant ceiling for the walkway.  Moonlight streams through, patterning the ground below and illuminating a garden path leading deeper into the complex."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "tropical",
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      570,
+      275,
+      595,
+      298
+    ]
+  },
+  "exits": [
+    {
+      "to": 23672,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 23674,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 23702,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23703,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 21931,
+  "title": [
+    "[Talador, Silver Mines]"
+  ],
+  "description": [
+    "The earthen ground is caked with old dust and grime.  The walls are uneven and covered in jagged stones.  Dozens of tunnels lead off in every which direction, some of them entirely collapsed."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, southwest, out"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      537,
+      295,
+      551,
+      309
+    ]
+  },
+  "exits": [
+    {
+      "to": 21800,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21932,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21934,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21935,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21936,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

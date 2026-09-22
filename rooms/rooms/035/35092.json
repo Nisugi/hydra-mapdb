@@ -1,0 +1,56 @@
+{
+  "id": 35092,
+  "uid": [
+    4426545
+  ],
+  "title": [
+    "[Glaeve, Bloodfang Crescent]"
+  ],
+  "description": [
+    "Lit from within by flickering torches, a severe stone shrine stands at the crescent's northern verges, apart from the weapons dealers and armorers that are the area's more common denizens.  An old scimitar is mounted above the entrance, the blade so black that it does not reflect the ambient light."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      494,
+      298,
+      514,
+      318
+    ]
+  },
+  "exits": [
+    {
+      "to": 35091,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35093,
+      "kind": "go",
+      "cmd": "go shrine",
+      "cost": 0.2
+    },
+    {
+      "to": 35094,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35113,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

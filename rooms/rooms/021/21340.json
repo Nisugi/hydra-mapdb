@@ -1,0 +1,49 @@
+{
+  "id": 21340,
+  "uid": [
+    211015
+  ],
+  "title": [
+    "[House Sylvanfair, Ballroom]"
+  ],
+  "description": [
+    "Slender branches arch and twine to form the walls of the ballroom, shutting out the outside while allowing a cooling breeze to enter.  The springy moss that covers the ground begs to be danced upon!  A large window stands open allowing a cool breeze to enter the room and giving access to a large branch outside, and a lilac-twined arch of leafy branches leads deeper into the tree."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sylvanfair"
+  ],
+  "image": {
+    "file": "wl-sylvanfair.jpg",
+    "rect": [
+      644,
+      667,
+      684,
+      708
+    ]
+  },
+  "exits": [
+    {
+      "to": 8753,
+      "kind": "go",
+      "cmd": "go open window",
+      "cost": 0.2
+    },
+    {
+      "to": 21330,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21341,
+      "kind": "go",
+      "cmd": "go lilac-twined arch",
+      "cost": 0.2
+    }
+  ]
+}

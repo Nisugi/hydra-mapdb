@@ -1,0 +1,68 @@
+{
+  "id": 17424,
+  "uid": [
+    218003
+  ],
+  "title": [
+    "[Willow Hall, Great Room]"
+  ],
+  "description": [
+    "The huge, columned room functions as the meeting room of Willow Hall.  Linden, haon and modwir squares form the floor, skillfully laid so the multi-hued woods blend together.  The walls are richly carved with woodland scenes, and the columns are tree trunks left untouched.  Rows of benches face a raised dais with a podium and a few chairs.  Through a fieldstone arch flanked by two stained-glass windows, one can glimpse a moonlit garden.",
+    "The huge, columned room functions as the meeting room of Willow Hall.  Linden, haon and modwir squares form the floor, skillfully laid so the multi-hued woods blend together.  The walls are richly carved with woodland scenes, and the columns are tree trunks left untouched.  Rows of benches face a raised dais with a podium and a few chairs.  Through a fieldstone arch flanked by two stained-glass windows, one can glimpse a garden."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest, out"
+  ],
+  "location": "Willow Hall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Willow Hall"
+  ],
+  "image": {
+    "file": "wl-willow_hall-1308424874.png",
+    "rect": [
+      543,
+      730,
+      587,
+      772
+    ]
+  },
+  "exits": [
+    {
+      "to": 17409,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19290,
+      "kind": "go",
+      "cmd": "go fieldstone arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19296,
+      "kind": "go",
+      "cmd": "go forest curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 19297,
+      "kind": "go",
+      "cmd": "go spiraling staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19298,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19309,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

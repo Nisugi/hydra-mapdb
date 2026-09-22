@@ -1,0 +1,51 @@
+{
+  "id": 3667,
+  "uid": [
+    3201013
+  ],
+  "title": [
+    "[West Guardtower]"
+  ],
+  "description": [
+    "The guardtower has been built from blocks of rock and mortar, creating a strong barrier against intruders.  The angled roof has been tiled in a bright terra cotta which appears muted in the silvery moonlight.",
+    "The guardtower has been built from blocks of rock and mortar, creating a strong barrier against intruders.  The angled roof has been tiled in a bright terra cotta which reflects the sunlight and appears almost on fire."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2631,
+      2161,
+      2668,
+      2200
+    ]
+  },
+  "exits": [
+    {
+      "to": 3665,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16329,
+      "kind": "go",
+      "cmd": "go guardtower",
+      "cost": 0.2
+    },
+    {
+      "to": 16330,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

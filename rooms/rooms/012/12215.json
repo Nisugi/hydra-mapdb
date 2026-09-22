@@ -1,0 +1,107 @@
+{
+  "id": 12215,
+  "uid": [
+    4570007
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Purple blood flows over the floor, making footing hazardous and slick.  As it moves to the south, it slowly turns red, brought to life by the breeze flowing through.  The walls squeeze in and out, forcing the blood to move south and east.  The floor ripples beneath your feet as worms burrow through, tooth-filled maws breaking the surface violently then diving back below."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west",
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Rift",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "congealed slime",
+    "discolored fleshbinder bud",
+    "fleshsore bulb",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "slime-covered grave blossom",
+    "twisted black mawflower",
+    "withered deathblossom"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      829,
+      1082,
+      839,
+      1092
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 6.8
+    },
+    {
+      "to": 12170,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12209,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12210,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

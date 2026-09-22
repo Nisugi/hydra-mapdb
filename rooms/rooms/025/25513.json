@@ -1,0 +1,47 @@
+{
+  "id": 25513,
+  "uid": [
+    12101019
+  ],
+  "title": [
+    "[The Firebird, Fo'c'sle]"
+  ],
+  "description": [
+    "Rising above the ship's upper deck, but not so high as the towering metal blade assemblies that propel the craft and hold it aloft, the forecastle is a swathe of space shaped like an arrowhead, tapering to a point at the bow.  The gilded and burled railing, all wrought of ash-colored fireleaf, joins with the carved bowsprit at the absolute fore of the vessel.  To the rear of the deck, broad wooden stairs proceed down toward the upper deck."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Aboard an Airship",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25512,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 25527,
+      "kind": "go",
+      "cmd": "go bowsprit",
+      "cost": 0.2
+    },
+    {
+      "to": 25528,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25529,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

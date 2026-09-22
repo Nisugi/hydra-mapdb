@@ -1,0 +1,34 @@
+{
+  "id": 31793,
+  "uid": [
+    8087165
+  ],
+  "title": [
+    "[Evermore Hotel, Basement]"
+  ],
+  "description": [
+    "At the bottom of a steep staircase, wall-mounted lanterns cast shadows onto floor-to-ceiling shelves overflowing with unclaimed luggage, the moldering leather cases spilling their contents onto hard packed dirt underfoot.  The dark corners of the substructure are piled with a menagerie of forgotten possessions, a saddle trimmed with tarnished silver on top of one heap.  A path has been cleared through the jumbled maze, but only wide enough to sidle through."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Naidem",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31792,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 31795,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

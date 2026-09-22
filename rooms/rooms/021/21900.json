@@ -1,0 +1,42 @@
+{
+  "id": 21900,
+  "title": [
+    "[Talador, Silver Lane]"
+  ],
+  "description": [
+    "To the northwest the North Circle District opens up, and the stone road winds through a series of shops, tents, and merchant wagons.  The lane here is heavily patrolled by the armored city guards."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      252,
+      100,
+      279,
+      127
+    ]
+  },
+  "exits": [
+    {
+      "to": 21882,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21901,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 21902,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

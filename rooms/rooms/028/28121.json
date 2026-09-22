@@ -1,0 +1,41 @@
+{
+  "id": 28121,
+  "uid": [
+    8208632
+  ],
+  "title": [
+    "[Rumor Woods, Talon Rock]"
+  ],
+  "description": [
+    "The path abruptly stops at a a massive rock formation amid the trees.  Thick with moss, lichen, and encroaching roots from the adjacent firs, the rock teems with forest life.  Though steep, the rock appears to have enough basic hand- and foot-holds to be traversable, with care."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location_unknowable": true,
+  "climate": "snowy, arctic",
+  "terrain": "rough",
+  "image": {
+    "file": "fest-foxhunt-1654928999.jpg",
+    "rect": [
+      107,
+      794,
+      132,
+      818
+    ]
+  },
+  "exits": [
+    {
+      "to": 28120,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28122,
+      "kind": "climb",
+      "cmd": "climb rock",
+      "cost": 0.2
+    }
+  ]
+}

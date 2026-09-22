@@ -1,0 +1,65 @@
+{
+  "id": 5661,
+  "uid": [
+    4006022
+  ],
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "A few jagged divots have been clawed into the wall to allow easier access to the gaping opening above, and a gnarled root hanging near the hole serves as a handhold to further ease the climb.  As skinny as the plantlike tendril is, it doesn't appear is if it could support much weight.  Several other roots tumble to the floor in a twisted mass."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, up"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "birch bark",
+    "bur-clover root",
+    "ghost pepper",
+    "golden yellow shadesbane",
+    "hot pepper",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      576,
+      688,
+      586,
+      698
+    ]
+  },
+  "exits": [
+    {
+      "to": 5660,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 5662,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5663,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    },
+    {
+      "to": 5664,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

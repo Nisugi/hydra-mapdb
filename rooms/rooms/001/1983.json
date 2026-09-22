@@ -1,0 +1,111 @@
+{
+  "id": 1983,
+  "uid": [
+    3003048
+  ],
+  "title": [
+    "[Temple, Meditation Sanctum]"
+  ],
+  "description": [
+    "The silent simplicity of this small room brings contemplative thoughts to mind.  Several small mats cover the polished wood floors and two worn oak benches sit empty along the wall.  A modest rosewood altar stands at one end of the room, topped with two white candles.  A gentle breeze wafts from a hallway of gleaming white marble leading to the east."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "voln"
+  ],
+  "meta": [
+    "seeking"
+  ],
+  "exits": [
+    {
+      "to": 1982,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12603,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 2.8
+      }
+    },
+    {
+      "to": 12622,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 2.8
+      }
+    },
+    {
+      "to": 12701,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 2.8
+      }
+    }
+  ]
+}

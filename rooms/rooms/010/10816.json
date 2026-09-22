@@ -1,0 +1,38 @@
+{
+  "id": 10816,
+  "title": [
+    "[Under The Black Water]"
+  ],
+  "description": [
+    "Wet blackness envelops everything, and the mud grasps powerfully at feet and legs.  The lack of vision and the unsure footing in the muck below combine to confuse the senses, making direction a meaningless idea.  Even \"up\" is in question at times.  One can only swim and hope."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Gyldemar Road",
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 10815,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "swim north"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 10817,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "swim east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

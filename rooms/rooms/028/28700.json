@@ -1,0 +1,44 @@
+{
+  "id": 28700,
+  "uid": [
+    336787
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Cracks snake up and down the tunnel walls, darkness creeping along them like veins of shadows.  The tunnel comes to an end at an uneven slab of rock and stone, the occasional loose dirt falling to the ground.  A stained steel ladder is set into the wall, leading up."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      507,
+      292,
+      544,
+      328
+    ]
+  },
+  "exits": [
+    {
+      "to": 28699,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 29559,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

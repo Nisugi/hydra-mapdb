@@ -1,0 +1,80 @@
+{
+  "id": 30997,
+  "uid": [
+    7110358
+  ],
+  "title": [
+    "[Blue Myth Eatery]"
+  ],
+  "description": [
+    "Rolled down to both trap lantern light in and keep the cool night air out, the walls of the tent are a gradient blue that grows lighter the closer it gets to the travertine cobbles.  Scattered pillows surround low tables at the back of the pavilion, offering quiet respites for tourists and locals alike.  Covered in racks and seagrass mats, a long counter near the exit is laden with a wide variety of delectable foods."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Needle of Pentas",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "laurel twig",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 30965,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30998,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Starry Aster table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30999,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Aubergine Bat Wing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Autumn Sedum table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31001,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Azure Snow Salvia table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31002,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Blue Eryngium table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

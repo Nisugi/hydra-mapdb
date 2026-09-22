@@ -1,0 +1,64 @@
+{
+  "id": 3838,
+  "uid": [
+    4291051
+  ],
+  "title": [
+    "[Thanatoph, Wide Ledge]"
+  ],
+  "description": [
+    "Wide and sheltered, the ledge offers a respite from the cold wind howling outside.  Worn smooth from years of providing shelter, the ledge also offers a few comfortable boulders to lean against.  The ledge reaches back about fifteen feet before running abruptly into a cracked and fissured stone wall."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      456,
+      973,
+      466,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 3753,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ledge"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3839,
+      "kind": "go",
+      "cmd": "go spring",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 14388,
+  "uid": [
+    4900706
+  ],
+  "title": [
+    "[Temple, Left Hand Way]"
+  ],
+  "description": [
+    "Featureless, smooth walls of dark grey granite enclose the darkened hallway.  Three black pillar candles set into recessed niches do little to drive back the cloying shadows that embrace the passage in shifting darkness.  A faint light filters in through the grey granite arch in the inner wall, and the vague outline of a small alcove leads into a dark chamber to the south."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 13318,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14161,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 14385,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14389,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    }
+  ]
+}

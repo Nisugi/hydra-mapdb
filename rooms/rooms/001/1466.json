@@ -1,0 +1,68 @@
+{
+  "id": 1466,
+  "uid": [
+    4209051
+  ],
+  "title": [
+    "[Solhaven, Nerite and Eastbridge]"
+  ],
+  "description": [
+    "The flow of guildsmen, merchants, and shoppers is constant, moving northwest toward the North Market and south toward the East Bridge.  A bronze bow hangs above the entrance of a shop on the southeast corner of the intersection, and across from it a simple two story house occupies the intersection's northeast corner."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1063,
+      703,
+      1087,
+      727
+    ]
+  },
+  "exits": [
+    {
+      "to": 1460,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1465,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1470,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1471,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12818,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 19212,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 12354,
+  "uid": [
+    3070017
+  ],
+  "title": [
+    "[Maindeck Aft Companionway]"
+  ],
+  "description": [
+    "The four glaes doors of the passengers' cabins open off of this short hallway.  The white and maroon glaes doors are set in the starboard bulkhead and the golden and black doors pierce the port bulkhead.  The ladder leading to the upperdeck is at the forward end of the hall.  From here you can go forward."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Glaesen Star",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 12353,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 12355,
+      "kind": "go",
+      "cmd": "go maroon door",
+      "cost": 0.2
+    },
+    {
+      "to": 12356,
+      "kind": "go",
+      "cmd": "go golden door",
+      "cost": 0.2
+    },
+    {
+      "to": 12357,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 12374,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 12375,
+      "kind": "go",
+      "cmd": "go forward",
+      "cost": 0.2
+    }
+  ]
+}

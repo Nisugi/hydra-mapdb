@@ -1,0 +1,134 @@
+{
+  "id": 17578,
+  "uid": [
+    3210103
+  ],
+  "title": [
+    "[Mist Harbor, Southern Walk]"
+  ],
+  "description": [
+    "A tall fence continues to run southward, separating the dirt pathway from what lies beyond it.  At the top of the fence, scratch marks can be seen just along the rim.  Swarms of flies float in and out, searching through the dark foliage that creeps along the ground."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "temperate",
+  "terrain": "tropical",
+  "tags": [
+    "acantha leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "bright yellow plantain",
+    "brostheras grass",
+    "bur-clover root",
+    "butterfly pea flower",
+    "cardamom",
+    "cherry peppers",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "cumin seeds",
+    "deep crimson plumeria",
+    "ebony twig",
+    "fresh catnip",
+    "ghost pepper",
+    "grapefruit",
+    "green guava",
+    "green tea leaves",
+    "hot pepper",
+    "jasmine floret",
+    "luckbloom blossom",
+    "mate leaves",
+    "murdroot",
+    "nutmeg",
+    "orange-yellow starfruit",
+    "pearl onions",
+    "peppermint leaves",
+    "pink peppercorn",
+    "purple passion fruit",
+    "purple tea leaves",
+    "raw almonds",
+    "red cherries",
+    "red lychee",
+    "red-green mango",
+    "round hazelnuts",
+    "round yuzu",
+    "slender twig",
+    "small coconut",
+    "small green quenepas",
+    "small lime",
+    "small watermelon",
+    "star anise",
+    "sun-wilted tea leaves",
+    "talneo root",
+    "tea leaves",
+    "twisted twig",
+    "urchin-access",
+    "vanilla bean",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white tea leaves",
+    "yellow lemon",
+    "yellow papaya"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2634,
+      2586,
+      2668,
+      2615
+    ]
+  },
+  "exits": [
+    {
+      "to": 17577,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20887,
+      "kind": "go",
+      "cmd": "go fence",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

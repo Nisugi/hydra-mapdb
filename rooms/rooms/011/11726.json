@@ -1,0 +1,50 @@
+{
+  "id": 11726,
+  "uid": [
+    376083
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "The walls of the dungeon widen into a hallway with passages leading to the north and southeast, with the stairwell landing to the west. Irregularly cut blocks of granite make up the primary building material, except to the south where smooth black stones run along the edge of the floor.  A torch located down the south hallway provides little available light, reflected off a pile of glistening white bones stacked against the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      710,
+      436,
+      720,
+      446
+    ]
+  },
+  "exits": [
+    {
+      "to": 11725,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11727,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11738,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

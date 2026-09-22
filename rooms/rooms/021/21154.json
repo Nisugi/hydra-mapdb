@@ -1,0 +1,47 @@
+{
+  "id": 21154,
+  "uid": [
+    265007
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Rounded cobblestones are stacked with precision to create the smooth walls, which gently curve upward to create a domed ceiling.  Piles of debris are clustered along the southern wall, the faint scent of decay and mildew rising from them, though the northern wall appears to be largely clear where a sewer-capped ladder disappears into the ceiling.  Oddly deep, several claw marks mar the lower area of the rounded walls."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      404,
+      340,
+      420,
+      354
+    ]
+  },
+  "exits": [
+    {
+      "to": 19359,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21153,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21156,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

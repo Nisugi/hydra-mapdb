@@ -1,0 +1,60 @@
+{
+  "id": 6880,
+  "uid": [
+    21128
+  ],
+  "title": [
+    "[Abandoned Inn, Workshop]"
+  ],
+  "description": [
+    "A wide assortment of hardware, lumber, pipes and window glass sit arranged about the room.  Brushes for paint, buckets of odds and ends, and other tools sit among them, giving the place the look of every other workshop kept by a handyman.  A single industrious spider makes a web high in a corner, as if looking for refuge from the clutter."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      933,
+      1025,
+      943,
+      1035
+    ]
+  },
+  "exits": [
+    {
+      "to": 6878,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6881,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6882,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "open trapdoor"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

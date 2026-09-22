@@ -1,0 +1,42 @@
+{
+  "id": 6334,
+  "uid": [
+    681020
+  ],
+  "title": [
+    "[Wizard Guild, Stairway SE]"
+  ],
+  "description": [
+    "The narrow stairs wind their way up into the dark tower far higher than one would expect, only to dead end at the top with a door.  Spaced out along the walls are eonake sconces that hold glowing torches that provides more than enough light to see by without any visible flame.  An occasional cool night breeze sneaks through the few open narrow windows.",
+    "The narrow stairs wind their way up the tower far higher than one would expect only to end at a door at the top.  Light streams in from the narrow windows that ring the tower at evenly spaced intervals."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      520,
+      615,
+      570,
+      665
+    ]
+  },
+  "exits": [
+    {
+      "to": 6333,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6335,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

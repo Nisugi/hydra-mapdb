@@ -1,0 +1,51 @@
+{
+  "id": 3231,
+  "uid": [
+    4042103
+  ],
+  "title": [
+    "[Icemule Trace, West Road]"
+  ],
+  "description": [
+    "Most of the businesses to either side of the cobblestone road have facades of raw pine, though there are a few of stone.  Still more are dug out of the frozen earth of abounding hillsides.  Most have round doors painted with bright colors.  To the east, the foot traffic thickens as the road strikes toward the heart of town.  It seems especially busy where the road dovetails into a cobblestone walkway leading to a spacious courtyard framed by lofty trees, the windblown needles of which dot the landscape.",
+    "The cobblestone road continues east and west between the narrow buildings.  To the east the foot traffic seems to grow considerably worse.  A gate is just visible at the western end of the road."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      316,
+      787,
+      352,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 3230,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3232,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3423,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    }
+  ]
+}

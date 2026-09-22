@@ -1,0 +1,60 @@
+{
+  "id": 167,
+  "uid": [
+    13100100
+  ],
+  "title": [
+    "[Ta'Illistim, Kaerinar Wey]"
+  ],
+  "description": [
+    "Carefully tended gardens line the wey, each plant marked with a small silver sign placed on a stake amongst the stems.  Apparently cultivated for culinary as well as medicinal purposes, the flora ranges from acantha to rosemary, and includes a few odd unmarked specimens as well.",
+    "Carefully tended gardens line the wey, each plant marked with a small silver sign placed on a stake amongst the stems.  Apparently cultivated for culinary as well as medicinal purposes, the flora ranges from acantha to rosemary, and includes a few odd unmarked specimens as well.  Moonlight dances across the garden, casting all in a silvery sheen.",
+    "Carefully tended gardens line the wey, each plant marked with a small silver sign placed on a stake amongst the stems.  Apparently cultivated for culinary as well as medicinal purposes, the flora ranges from rosemary to acantha, and includes a few tubers and patches of vegetables as well."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      373,
+      784,
+      396,
+      804
+    ]
+  },
+  "exits": [
+    {
+      "to": 166,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 168,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36170,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "hunting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

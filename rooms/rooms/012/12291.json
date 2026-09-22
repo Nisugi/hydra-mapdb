@@ -1,0 +1,45 @@
+{
+  "id": 12291,
+  "uid": [
+    3204101
+  ],
+  "title": [
+    "[Atrium, Entry]"
+  ],
+  "description": [
+    "Green-veined white marble tiles cover the floor, a few small potted palms resting atop it here and there.  Thick glass panes set into the roof overhead allow plenty of sunlight into the area, illuminating the many paintings hung on the white painted walls and emphasizing the sheer height of the room.  Hallways on either side of the room lead to the locker booths, while a spiral staircase leads to the balcony above.",
+    "Green-veined white marble tiles cover the floor, a few small potted palms resting atop it here and there.  Thick glass panes set into the roof overhead allow moonlight to flood the area, lending a silvery glow to the many paintings hung on the white painted walls and emphasizing the sheer height of the room.  Hallways on either side of the room lead to the locker booths, while a spiral staircase leads to the balcony above."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 3652,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 12293,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16308,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16314,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

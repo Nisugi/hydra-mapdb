@@ -1,0 +1,122 @@
+{
+  "id": 20955,
+  "uid": [
+    3218018
+  ],
+  "title": [
+    "[Monsoon Jungle, Interior]"
+  ],
+  "description": [
+    "The sheer vastness of this uncharted wilderness makes determining directional locations somewhat tricky.  The sound of rushing water to the west serves as the only constant sensory clue as to current position within the dense jungle.  Tightly clustered trees ascend to the sky, blocking visual detection of the sun, and a thin mist rises above the forest floor, distorting visibility with regard to recognizable landmarks."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Monsoon Jungle",
+  "climate": "hot, damp",
+  "terrain": "tropical",
+  "tags": [
+    "acantha leaf",
+    "bamboo cane",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "blue passionflower",
+    "bright yellow plantain",
+    "brostheras grass",
+    "bur-clover root",
+    "butterfly pea flower",
+    "cardamom",
+    "cassava root",
+    "cherry peppers",
+    "cinnamon bark",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "coral orchid",
+    "creamy white hibiscus",
+    "cumin seeds",
+    "dark yellow orchid",
+    "ebony twig",
+    "fresh catnip",
+    "fuchsia pink hibiscus",
+    "ghost pepper",
+    "grapefruit",
+    "green guava",
+    "green tea leaves",
+    "hot pepper",
+    "jasmine floret",
+    "mate leaves",
+    "murdroot",
+    "nightbloom blossom",
+    "nutmeg",
+    "ochre monkey orchid",
+    "orange ginger lilies",
+    "orange heliconia",
+    "orange-yellow starfruit",
+    "pale pink orchid",
+    "pearl onions",
+    "peppermint leaves",
+    "pink heliconia",
+    "pink passionflower",
+    "pink peppercorn",
+    "purple passion fruit",
+    "purple passionflower",
+    "purple tea leaves",
+    "raw almonds",
+    "red cherries",
+    "red heliconia",
+    "red lychee",
+    "red passionflower",
+    "red-green mango",
+    "round yuzu",
+    "slender twig",
+    "small coconut",
+    "small green quenepas",
+    "small lime",
+    "small watermelon",
+    "star anise",
+    "sugar cane",
+    "sun-wilted tea leaves",
+    "tea leaves",
+    "twisted twig",
+    "vanilla bean",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white passionflower",
+    "white tea leaves",
+    "yellow heliconia",
+    "yellow lemon",
+    "yellow papaya",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1142,
+      499,
+      1158,
+      519
+    ]
+  },
+  "exits": [
+    {
+      "to": 20954,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21086,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

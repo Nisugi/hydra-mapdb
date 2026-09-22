@@ -1,0 +1,83 @@
+{
+  "id": 18625,
+  "uid": [
+    674001
+  ],
+  "title": [
+    "[Cleric Guild, Solhaven]"
+  ],
+  "description": [
+    "The walls are made of stones tumbled smooth by the ocean and winds.  Torches held in polished steel rings illuminate the area, shedding cheerful light over the two statues in the center of the room.  Carved from solid granite, a teenaged girl with a mischievous grin rests her hand on the arm of a bearded man with a fish's tail.  They stand on a sea-blue pedestal with words carved into the surface."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, west, northwest"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-cleric_guild-1275418702.png",
+    "rect": [
+      439,
+      201,
+      483,
+      245
+    ]
+  },
+  "exits": [
+    {
+      "to": 6102,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18626,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 18628,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18631,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        },
+        {
+          "move": "go annex"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 18633,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18636,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18637,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18731,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

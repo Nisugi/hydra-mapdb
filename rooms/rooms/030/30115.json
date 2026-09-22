@@ -1,0 +1,60 @@
+{
+  "id": 30115,
+  "uid": [
+    7503051
+  ],
+  "title": [
+    "[The Issenflow, Currents]"
+  ],
+  "description": [
+    "Frigid water swirls around you, the current slow but relentless.  Illuminated by the light of the aurora overhead, the water is murky and stretches downward toward lightless depths.  Chunks of pure white ice bob by, ranging in size from mere shards to great bergs.",
+    "Frigid water swirls around you, the current slow but relentless.  Illuminated by the of the aurora overhead, the water is murky and stretches downward toward lightless depths.  Chunks of pure white ice bob by, ranging in size from mere shards to great bergs."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      679,
+      1214,
+      727,
+      1256
+    ]
+  },
+  "exits": [
+    {
+      "to": 29861,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "south"
+        }
+      ],
+      "cost": 60.0
+    },
+    {
+      "to": 29867,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "west"
+        },
+        {
+          "keep_moving": "north",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 60.0
+    }
+  ]
+}

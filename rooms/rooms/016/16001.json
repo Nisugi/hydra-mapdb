@@ -1,0 +1,43 @@
+{
+  "id": 16001,
+  "uid": [
+    18006003
+  ],
+  "title": [
+    "[Moonshine Manor, Plur's Pub]"
+  ],
+  "description": [
+    "Finely dressed elven maidens serve patrons seated at small wooden tables pushed against the walls.  Padded brass stools surround a massive circular oak bar where barrels and casks of spirits are protectively guarded by a black-clad halfling barkeep.  A derelict table occupies the dimly lit corner to the southeast opposite a candlelit hallway to the west, while a heavy cedar double door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious paths: none"
+  ],
+  "location": "Moonshine Manor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 14622,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 16002,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16003,
+      "kind": "go",
+      "cmd": "go corner",
+      "cost": 0.2
+    }
+  ]
+}

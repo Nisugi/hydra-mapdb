@@ -1,0 +1,47 @@
+{
+  "id": 33086,
+  "uid": [
+    7134064
+  ],
+  "title": [
+    "[Flotilla, Cobalt Passage]"
+  ],
+  "description": [
+    "The flotilla's main body ends here with a small pier jutting out to the north and a large crow's nest standing tall at the outermost edge of the deck.  Various caches of weaponry are lashed along the deck at strategic locations, and partially blocking the way west, thick hempen rope coils into stacks higher than the tallest giant."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      520,
+      234,
+      531,
+      248
+    ]
+  },
+  "exits": [
+    {
+      "to": 33085,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33087,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36785,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

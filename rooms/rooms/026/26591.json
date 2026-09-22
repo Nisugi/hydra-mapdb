@@ -1,0 +1,55 @@
+{
+  "id": 26591,
+  "title": [
+    "[Caligos Isle, Fish Pits]"
+  ],
+  "description": [
+    "Illuminated by torches that are set at even intervals, this section of cavern has an uneven floor that is pockmarked with rust-hued calcite deposits.  Perched upon a crate, a scrawny half-krolvin lad dangles one foot over the edge of a white stone-encircled pit that is filled with ocean water.  Behind him, an iron-bound warped oak chest sits with a large padlock on it, while just to his right is a knotted hemp rope that leads out of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: east, south, west, down"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      462,
+      220,
+      475,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26590,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 27571,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27572,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27573,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27574,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

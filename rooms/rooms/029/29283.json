@@ -1,0 +1,27 @@
+{
+  "id": 29283,
+  "title": [
+    "[Warped Wavedancer, Promenade]"
+  ],
+  "description": [
+    "A long, waterlogged velvet carpet runs the length of the hallway, guestrooms lined symmetrically along its breadth.  A pair of tarnished brass candelabra flank each door, the candles inside burning brightly and dispelling the pervasive darkness.  In the flickering light, a fissure can be seen in the western wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 29282,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    },
+    {
+      "to": 29284,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

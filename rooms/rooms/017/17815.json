@@ -1,0 +1,41 @@
+{
+  "id": 17815,
+  "uid": [
+    267117
+  ],
+  "title": [
+    "[Rooftop]"
+  ],
+  "description": [
+    "Several fat pigeons have made a home in one corner of the roof, taking over most of the shingles in the area.  They scatter slightly when approached, but otherwise appear used to the constant intrusions."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      492,
+      635,
+      531,
+      672
+    ]
+  },
+  "exits": [
+    {
+      "to": 17814,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17816,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

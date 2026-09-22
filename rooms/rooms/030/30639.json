@@ -1,0 +1,41 @@
+{
+  "id": 30639,
+  "uid": [
+    853002
+  ],
+  "title": [
+    "[Landing Hall, Passageway]"
+  ],
+  "description": [
+    "Four polished gold lanterns flicker lazily, providing ample light and drawing attention to a splendid watercolor hanging on the western wall.  Sounds from the main lobby are amplified here, echoing and reverberating in the spacious passage, providing the illusion that dozens of people are speaking at once.  In the north wall is an elegantly carved oak door, while the south wall contains a beveled arch."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 30633,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30640,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30641,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

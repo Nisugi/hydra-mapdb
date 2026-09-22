@@ -1,0 +1,41 @@
+{
+  "id": 36372,
+  "uid": [
+    55044
+  ],
+  "title": [
+    "[Keep, Glowing Passage]"
+  ],
+  "description": [
+    "Except for a narrow ledge, there is an abrupt drop-off here on three sides.  The walls are coated with a slight phosphor that sheds dim light.  A natural cave-in has left the ledge littered with rubble.  Some of the rubble has been cleared away, revealing a stairwell that spirals downward.  You also see a small opening."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1560,
+      120,
+      1600,
+      160
+    ]
+  },
+  "exits": [
+    {
+      "to": 36371,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 36415,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    }
+  ]
+}

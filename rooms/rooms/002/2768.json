@@ -1,0 +1,77 @@
+{
+  "id": 2768,
+  "uid": [
+    4563035
+  ],
+  "title": [
+    "[Northern Slopes, Bluff]"
+  ],
+  "description": [
+    "Lichen mottles the surface of boulders forming the bluff, their surface sheared of snow by gusting winds blowing up from the gorge below.  The flurries are buffered to the northwest by a dense forest of pines that stand dark and seemingly impenetrable.  A trail forms and winds away to the northeast, as though fleeing the maw of the shadowy ravine.  It soon disappears, lost in a vast expanse of blizzard-swept tundra."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "crowberry",
+    "daggit root",
+    "dwarf bilberry",
+    "feverfew stalk",
+    "gok nut",
+    "ironfern root",
+    "lingonberry",
+    "manroot stalk",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "red lichen",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "wintercrisp apple",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      489,
+      1008,
+      499,
+      1018
+    ]
+  },
+  "exits": [
+    {
+      "to": 2767,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2769,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2795,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rocks"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

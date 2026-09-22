@@ -1,0 +1,83 @@
+{
+  "id": 7478,
+  "uid": [
+    94020
+  ],
+  "title": [
+    "[Dark Grotto, Huge Cavern]"
+  ],
+  "description": [
+    "The huge cavern that stretches out to the northeast presents an eerie, other-worldly vista, filled with tall spires of stone and crystal, and dotted with growths of giant mushrooms and huge fans of lichen.  Somewhere high overhead, the ceiling of the cavern lies out of sight, shrouded in darkness.  Many varieties of mold, moss, lichen and fungi fill the underground landscape, some of them glowing with pale unearthly light that fills the cavern with dim, shadowy illumination."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "plain dirt",
+  "tags": [
+    "black toadstool",
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "green fungus",
+    "molds",
+    "myklian",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      974,
+      826,
+      984,
+      836
+    ]
+  },
+  "exits": [
+    {
+      "to": 7477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7479,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7480,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

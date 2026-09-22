@@ -1,0 +1,46 @@
+{
+  "id": 717,
+  "uid": [
+    13101027
+  ],
+  "title": [
+    "[Ta'Illistim, Seneschal Court]"
+  ],
+  "description": [
+    "The imposing exterior of the Hall of Justice towers above.  Unusually free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors is flanked by two city guardsmen.",
+    "The imposing exterior of the Hall of Justice towers above.  Largely free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors sits behind a tall colonnade of white marble, each column neatly fluted and set with scroll-capped capitals."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      350,
+      344,
+      371,
+      365
+    ]
+  },
+  "exits": [
+    {
+      "to": 715,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1780,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 10417,
+  "uid": [
+    14109008
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "A veritable armory's worth of weapons have been mounted on the walls, the metal polished to a high gleam.  Blued steel flamberges are mounted next to invar claidhmores, interspersed with smaller weapons such as dirks and fist-scythes.  All the weapons are centered around a vaalorn plaque.  A simple limestone arch is bordered on each side by an upright pike."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      644,
+      773,
+      787,
+      834
+    ]
+  },
+  "exits": [
+    {
+      "to": 10402,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10416,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14000,
+      "kind": "go",
+      "cmd": "go limestone arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 29472,
+  "uid": [
+    13007202
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Tunnel]"
+  ],
+  "description": [
+    "Twisting from the southeast to the southwest, this tunnel has awkward angled walls and a rocky floor.  Crevices in the surrounding strata have been picked clean of any valuable material.  No discernable light can be seen in any direction."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      73,
+      174,
+      95,
+      197
+    ]
+  },
+  "exits": [
+    {
+      "to": 29471,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29484,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

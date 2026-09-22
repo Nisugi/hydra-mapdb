@@ -1,0 +1,46 @@
+{
+  "id": 20648,
+  "uid": [
+    258003
+  ],
+  "title": [
+    "[Warrior Guild, Central Walkway]"
+  ],
+  "description": [
+    "Tall iron framework columns line the walkway with clusters of glowing moss clinging to the metal supports.  A squat stone building stands slightly off the path, a granite tablet erected near the door."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      387,
+      209,
+      401,
+      227
+    ]
+  },
+  "exits": [
+    {
+      "to": 20646,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20649,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 20659,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

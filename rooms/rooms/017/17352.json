@@ -1,0 +1,56 @@
+{
+  "id": 17352,
+  "uid": [
+    253022
+  ],
+  "title": [
+    "[Warrior Guild, Great Hall]"
+  ],
+  "description": [
+    "An enormous woven rug covers the wide stone floor at the Great Hall's central point.  Suits of armor line the walls, ranging in kind from tailored leathers to gleaming plate.  A particularly fierce pair of empty forms stand guard outside a brass-hasped monir door upon the western wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor",
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      758,
+      865,
+      779,
+      882
+    ]
+  },
+  "exits": [
+    {
+      "to": 17334,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17353,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17354,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17356,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

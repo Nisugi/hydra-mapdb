@@ -1,0 +1,56 @@
+{
+  "id": 13095,
+  "uid": [
+    561001
+  ],
+  "title": [
+    "[Sunfist Outpost, Foyer]"
+  ],
+  "description": [
+    "Square-cut heavy stone blocks rise from the hard-packed dirt floor to the dark ceiling fashioned of thick modwir planks and is completely devoid of windows or furnishings.  Iron bracketed torches flicker sporadically in the arctic winds that managed to escape the security of the front door, their icy tendrils also setting a bronze brazier at the heart of the room to flickering.  A circular staircase hugs the wall, its peak disappearing above, and twin arches lead deeper into the tower."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      561,
+      572,
+      571,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 13094,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13096,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13097,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13098,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

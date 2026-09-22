@@ -1,0 +1,50 @@
+{
+  "id": 8473,
+  "uid": [
+    2155014
+  ],
+  "title": [
+    "[Temple, Hallway]"
+  ],
+  "description": [
+    "Stale air fills the hall.  The dust here is thick, breeding undisturbed by wind or being.  A narrow staircase, flanked by two empty torch sconces, leads up into darkness, while the hallway continues to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      216,
+      808,
+      226,
+      818
+    ]
+  },
+  "exits": [
+    {
+      "to": 8472,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8474,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8477,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 26627,
+  "title": [
+    "[Steep Insights, Main Room]"
+  ],
+  "description": [
+    "Efforts to repair this ramshackle cottage have been attempted with marginal success.  Some of the stained wood walls and floorboards have been scrubbed clean of mud, scraped free of moss, and scoured of mold, but a mildewy scent still lingers.  Pale curtains in glassless windows flutter in the breeze, billowing out into the mottled sunlight diffused by the undulating fog that comes and goes.  Benches with cushions set beside small tables make for a cozy place to relax while sampling the wares.",
+    "Efforts to repair this ramshackle cottage have been attempted with marginal success.  Some of the stained wood walls and floorboards have been scrubbed clean of mud, scraped free of moss, and scoured of mold, but a mildewy scent still lingers.  Pale curtains in glassless windows flutter in the breeze, billowing out into the ghostly moonlight diffused by the undulating fog that comes and goes.  Benches with cushions set beside small tables make for a cozy place to relax while sampling the wares."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, out",
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26447,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26628,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26629,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26630,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": 13102,
+  "uid": [
+    663002
+  ],
+  "title": [
+    "[Sorcerer Guild, The Green]"
+  ],
+  "description": [
+    "Thick undergrowth limits travel in most directions.  The deciduous canopy closes thickly overhead, blocking much of the moonlight from reaching this tight clearing.  Blinking yellow eyes appear here and there in the foliage, remain for a moment, and disappear.  A narrow path winds off to the west, while to the east the trees have tightened to form a shadowy green tunnel.  A hill rises to the north, and a switchback ascends the steep slope."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
+  "terrain": "deciduous forest",
+  "tags": [
+    "some basal moss",
+    "sorcerer alchemy administrator",
+    "sorcerer guild administrator"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Sorcerer Guild",
+    "mapshortname:Sorcerer Guild (River's Rest)"
+  ],
+  "image": {
+    "file": "rr-sorcerer_guild-1405076623.png",
+    "rect": [
+      362,
+      461,
+      400,
+      499
+    ]
+  },
+  "exits": [
+    {
+      "to": 10886,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 14974,
+      "kind": "climb",
+      "cmd": "climb switchback",
+      "cost": 0.2
+    },
+    {
+      "to": 15977,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 17097,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 17101,
+      "kind": "go",
+      "cmd": "go vortex",
+      "cost": 0.2
+    }
+  ]
+}

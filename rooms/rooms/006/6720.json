@@ -1,0 +1,44 @@
+{
+  "id": 6720,
+  "uid": [
+    4121004
+  ],
+  "title": [
+    "[Upper Dragonsclaw, Tower Cellar]"
+  ],
+  "description": [
+    "An eerie pall of silence falls over this dark chamber filled with an array of torturous devices.  Battered shackles dangle from loops on the walls, and dried patches of blood stain the packed dirt floor.  Behind an imposing iron table, you see a rough-edged hole carved into the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      157,
+      926,
+      167,
+      936
+    ]
+  },
+  "exits": [
+    {
+      "to": 6719,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6721,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": 28971,
+  "uid": [
+    7121011
+  ],
+  "title": [
+    "[Office of the Debt Collector]"
+  ],
+  "description": [
+    "Mountains of ledgers, each labeled in a tidy script, are arranged numerically in ascending order on a counter that starts just to the east of a windowed brown door and wraps completely around the room to end just west of its start.  A hurricane lantern cranked up to its highest setting emits black smoke from its top and casts brilliant white light on a tidy oak desk where a weathered old clerk sits engrossed in his records."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "debt",
+    "debts",
+    "fire lily",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28958,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

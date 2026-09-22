@@ -1,0 +1,34 @@
+{
+  "id": 35997,
+  "uid": [
+    2174055
+  ],
+  "title": [
+    "[Helden Hall, Locker Annex]"
+  ],
+  "description": [
+    "Suffused light emanates from a black marble fireplace set against the far wall, supplementing the light streaming through small shuttered windows.  A natural, unobstructed walkway across the white marble floor is created from the curtain to the fireplace by the placement of a deep-seated leather couch and an opposing sturdy table with an assortment of papers scattered upon it.  A glass-fronted display case is set against the wall next to a wall-mounted blackboard and an iron-worked framed picture hangs above depicting beautiful Aelotoi figures, with wings unfurled."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_annex"
+  ],
+  "exits": [
+    {
+      "to": 32841,
+      "kind": "go",
+      "cmd": "go brocade curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 35998,
+      "kind": "other",
+      "cmd": "pull black tome on display case",
+      "cost": 0.2
+    }
+  ]
+}

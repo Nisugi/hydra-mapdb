@@ -1,0 +1,46 @@
+{
+  "id": 34636,
+  "uid": [
+    4572006
+  ],
+  "title": [
+    "[Sabelcross, Rook Boulevard]"
+  ],
+  "description": [
+    "A tall rookery, crooked and black, leans perilously over the roadside, casting a dread shadow across the smooth-worn cobbles.  It rises far above the thick green canopy of the encroaching trees and a story higher than most of the manses lurking beyond the greenery.  The outer sills of the rookery's cavernous windows are stained white with the leavings of countless birds."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      217,
+      437,
+      254,
+      468
+    ]
+  },
+  "exits": [
+    {
+      "to": 34614,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34635,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34710,
+      "kind": "go",
+      "cmd": "go rookery",
+      "cost": 0.2
+    }
+  ]
+}

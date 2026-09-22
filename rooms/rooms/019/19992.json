@@ -1,0 +1,67 @@
+{
+  "id": 19992,
+  "uid": [
+    11500
+  ],
+  "title": [
+    "[Cavernhold, Treasure Vault]"
+  ],
+  "description": [
+    "This is the fabled Treasure Vault of the Gnolls of Cavernhold.  In here are kept the exquisite works of art created by the master craftsmen that inhabit this cave system.  Stone shelves occupy every available inch of wall space."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      467,
+      551,
+      476,
+      561
+    ]
+  },
+  "exits": [
+    {
+      "to": 19728,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "open door"
+        },
+        {
+          "try_move": "go door"
+        },
+        {
+          "empty_hands": null,
+          "when": "still_here"
+        },
+        {
+          "put": "turn lock",
+          "when": "still_here"
+        },
+        {
+          "put": "open door",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

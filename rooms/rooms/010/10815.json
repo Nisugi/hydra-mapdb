@@ -1,0 +1,107 @@
+{
+  "id": 10815,
+  "uid": [
+    13032041
+  ],
+  "title": [
+    "[Gyldemar Road]"
+  ],
+  "description": [
+    "Worn away by rain and the underground action of continual water, the road has sunk to swamp level.  At this point, though, it remains firm enough for passage and rises slightly out of the swamp to the west.  To the east the road disappears entirely under black water for twenty yards or so then emerges again to proceed unsteadily on its way.  Continuing east is most likely a sink or swim proposition, and perhaps both."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Gyldemar Road",
+  "climate": "humid",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "black peppercorn",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden mushroom",
+    "haphip root",
+    "lady slipper blossom",
+    "murdroot",
+    "nutmeg",
+    "pink peppercorn",
+    "soft mushroom",
+    "stalk of cattail",
+    "star anise",
+    "talneo root",
+    "trollear mushroom",
+    "vanilla bean",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-gyldemar-1264234799.png",
+    "rect": [
+      781,
+      589,
+      791,
+      599
+    ]
+  },
+  "exits": [
+    {
+      "to": 10814,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10821,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go water"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 15541,
+      "kind": "go",
+      "cmd": "go road",
+      "cost": 0.2
+    }
+  ]
+}

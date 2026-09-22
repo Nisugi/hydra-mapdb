@@ -1,0 +1,36 @@
+{
+  "id": 31193,
+  "uid": [
+    8209273
+  ],
+  "title": [
+    "[Woodn't Yew, Entry]"
+  ],
+  "description": [
+    "Aged rugs, their floral patterns long since faded and covered in patches of dirt, overlay each other with small tufts of grass peeking through in sporadic spots.  Lining the fabric-paneled walls are thick furs meant to insulate the shop from the outside elements, though a slight chill remains in the air as occasional gusts of wind disturb the tent's open flap.  Makeshift blackwood tables supported by unopened crates line the edges of the room, their wares displayed across a stained white velvet runner."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Rumor Woods",
+  "exits": [
+    {
+      "to": 31186,
+      "kind": "go",
+      "cmd": "go open flap",
+      "cost": 0.2
+    },
+    {
+      "to": 33575,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33576,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

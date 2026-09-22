@@ -1,0 +1,55 @@
+{
+  "id": 24895,
+  "uid": [
+    -7105024
+  ],
+  "title": [
+    "[Reim Settlement, Wind Tunnel]"
+  ],
+  "description": [
+    "Dry leaves swirl amidst a windy vortex filled with dust and bits of straw.  The roar of the wind is deafening, all sound sucked into the whirling cyclone.  Flashes of ethereal blue light pulsate out from the center in an easternly direction, lighting a path through the wind tunnel."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "exit",
+    "vortex"
+  ],
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      604,
+      968,
+      618,
+      981
+    ]
+  },
+  "exits": [
+    {
+      "to": 24876,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go vortex"
+        },
+        {
+          "try_move": "go vortex"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24888,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 19768,
+  "uid": [
+    658019
+  ],
+  "title": [
+    "[Empath Guild, Crystal Chamber]"
+  ],
+  "description": [
+    "Numerous large, clear crystals climb along the smooth stone walls, rising in distinctive tiers.  A cheerful white light is cast by a series of luminescent mushrooms set in brass pots along a narrow ledge.  Curtained archways branch off from the chamber, leading to individual training rooms."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "empath alchemy masters",
+    "empath guild masters"
+  ],
+  "exits": [
+    {
+      "to": 19767,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30551,
+      "kind": "other",
+      "cmd": "ask calona about train alchemy",
+      "cost": 0.2
+    }
+  ]
+}

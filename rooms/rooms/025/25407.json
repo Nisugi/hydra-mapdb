@@ -1,0 +1,68 @@
+{
+  "id": 25407,
+  "uid": [
+    336335
+  ],
+  "title": [
+    "[Hendoran Outpost, Upper Hall]"
+  ],
+  "description": [
+    "A thick, but plain, carpet runs the length of the hallway, muffling sounds and offering some escape from the hard surface of the building's stone construction.  Two doors face each other, one to the south and the other to the north.  The northern door appears to have magical sigils carved into its surface and runes painted above the entryway.  The opposite, southern door is plain."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-hendoran_outpost-1669182273.png",
+    "rect": [
+      529,
+      598,
+      564,
+      632
+    ]
+  },
+  "exits": [
+    {
+      "to": 25405,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25408,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25414,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25415,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25422,
+      "kind": "go",
+      "cmd": "go southern door",
+      "cost": 0.2
+    },
+    {
+      "to": 25423,
+      "kind": "go",
+      "cmd": "go northern door",
+      "cost": 0.2
+    }
+  ]
+}

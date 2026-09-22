@@ -1,0 +1,64 @@
+{
+  "id": 627,
+  "uid": [
+    17002236
+  ],
+  "title": [
+    "[East Woods, Tunnel]"
+  ],
+  "description": [
+    "The scent of damp earth, dark and musty, fills the hole.  Broken tree roots protrude from the dirt walls and there are signs of claw marks scored deep within the packed soil.  Near the bottom of the hole is a large, rounded burrow extending deeper into the ground."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "wingstem root"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapname:Elven Nations - Old Ta'Faendryl",
+    "mapshortname:Old Ta'Faendryl"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      1295,
+      604,
+      1303,
+      612
+    ]
+  },
+  "exits": [
+    {
+      "to": 628,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel"
+        },
+        {
+          "move": "go burrow"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 11906,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

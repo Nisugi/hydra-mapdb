@@ -1,0 +1,129 @@
+{
+  "id": 1224,
+  "uid": [
+    2190006
+  ],
+  "title": [
+    "[Vipershroud, Sheer Cliff]"
+  ],
+  "description": [
+    "The trail, coming from the northwest, confronts a sheer cliff.  Peering up into the darkness reveals little about the upper cliff edge, except for perhaps a glimpse of a shadowy tree root or two.  A huge boulder shores up part of the cliff, and the prickly brambles and sharp rocks restrict movement along the cliff face to a few feet in either direction.",
+    "The trail, coming from the northwest, confronts a sheer cliff.  Peering up into the shadowy tree cover reveals little about the upper cliff edge, except for perhaps a glimpse of a tree root or two.  A huge boulder shores up part of the cliff, and the prickly brambles and sharp rocks restrict movement along the cliff face to a few feet in either direction."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Vipershroud",
+  "climate": "hot, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "bloodwood twig",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "fresh catnip",
+    "green pear",
+    "haphip root",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "pothinir grass",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "trafel mushroom",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "withered mushroom",
+    "woth flower",
+    "yellow lemon",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      102,
+      859,
+      112,
+      869
+    ]
+  },
+  "exits": [
+    {
+      "to": 1223,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "stance offensive",
+          "when": {
+            "skill_under": [
+              "climbing",
+              20
+            ]
+          }
+        },
+        {
+          "move": "climb boulder"
+        },
+        {
+          "put": "stance defensive"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 1225,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

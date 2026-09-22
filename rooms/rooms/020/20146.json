@@ -1,0 +1,45 @@
+{
+  "id": 20146,
+  "title": [
+    "[To the Hilt, Entrance]"
+  ],
+  "description": [
+    "The entrance, poised in one corner of the wagon, opens up into a view of the entire wagon.  Taking up most of the space in the wagon's entrance are two wooden mannequins locked in battle.  The carved wooden human ranger is frozen with his short sword outstretched just above the swamp goblin's head.  Distinct paths lead to the other three corners of the wagon, and a silver-framed blue wooden door stands against the wall immediately adjacent to the entrance, leading to a partitioned space."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest, out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20145,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20147,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 20252,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20253,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20254,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

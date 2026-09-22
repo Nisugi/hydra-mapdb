@@ -1,0 +1,44 @@
+{
+  "id": 32451,
+  "uid": [
+    4577123
+  ],
+  "title": [
+    "[Moonsedge Castle, Entrance]"
+  ],
+  "description": [
+    "Vaulting grey stone doors mark the entrance of the castle.  Panels on each depict a briar sprig and rising moon, though the images are difficult to pick out on the dark surfaces.  Two colossal grotesques stand on plinths to either side of the entryway, their horned heads bent as if in reverence and their wings folded.  One's mouth is carved in an unsavory smirk."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1045,
+      767,
+      1070,
+      788
+    ]
+  },
+  "exits": [
+    {
+      "to": 32452,
+      "kind": "go",
+      "cmd": "go grey doors",
+      "cost": 0.2
+    },
+    {
+      "to": 32453,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

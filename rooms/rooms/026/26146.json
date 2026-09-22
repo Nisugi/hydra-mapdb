@@ -1,0 +1,68 @@
+{
+  "id": 26146,
+  "uid": [
+    7107058,
+    7107108,
+    7107158,
+    7107208,
+    7107258,
+    7107308,
+    7107358,
+    7107408,
+    7107458,
+    7107508,
+    7107558,
+    7107608,
+    7107658,
+    7107708,
+    7107758,
+    7107808
+  ],
+  "title": [
+    "[Reim, Outer South]"
+  ],
+  "description": [
+    "Flanked by wall-mounted torches, the iron gates stand open and yawning from their place in the face of the dark granite fortress.  Ragged and faded banners dangle from the ramparts and flutter beneath the ethereal zephyr that taints and tickles their threads with its licking, viridian fingers.  A damp, hardened earthwork provides a modicum of defense from a direct attack on the entry, though its face is littered with attempted growth and wiggling worms."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      551,
+      537,
+      587,
+      571
+    ]
+  },
+  "exits": [
+    {
+      "to": 26144,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 26147,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26149,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

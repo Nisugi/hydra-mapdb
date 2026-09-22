@@ -1,0 +1,47 @@
+{
+  "id": 28225,
+  "uid": [
+    336216
+  ],
+  "title": [
+    "[Town Barracks, Entryway]"
+  ],
+  "description": [
+    "The stone floor of the barracks entrance expands out in all directions, its smooth surface marred by numerous boot scuffs.  To the east, through an open archway, the glimmer of metal armor and weapons can be seen, while the clatter and chatter of the dining hall echoes in from the south.  A wide wooden stairwell dominates the western wall, rising up to reach the second floor."
+  ],
+  "paths": [
+    "Obvious exits: east, south, out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 21688,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28226,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 28232,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28233,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

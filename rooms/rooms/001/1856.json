@@ -1,0 +1,68 @@
+{
+  "id": 1856,
+  "uid": [
+    3003060
+  ],
+  "title": [
+    "[Big Snorri's Bows]"
+  ],
+  "description": [
+    "The smell of fresh shaved wood drifts through the air in this large shop.  Barrels of arrows line the walls while just over them, shelves holding bows and crossbows of various types stretch from wall to wall.  Like thick spider webs, bowstrings of different lengths hang from the ceiling.  Standing in the middle of the room is a giant counter."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "fletcher",
+    "urchin guide fletcher",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1855,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 13052,
+  "uid": [
+    160024
+  ],
+  "title": [
+    "[Ta'Illistim Alchemy Consignment]"
+  ],
+  "description": [
+    "Drifting warmth from the west invades the bearskin rug-covered floor of this homely room.  The stone walls are of a slate grey and offer a cold appearance."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "no forageables",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 636,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13053,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

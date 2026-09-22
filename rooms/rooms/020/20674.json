@@ -1,0 +1,50 @@
+{
+  "id": 20674,
+  "uid": [
+    258034
+  ],
+  "title": [
+    "[Warrior Guild, Courtyard]"
+  ],
+  "description": [
+    "Clashing metal and loud thuds can be heard from beyond a dark tunnel that branches off the path running along the courtyard's perimeter.  Heaps of discarded debris are continuously carted away from amassed piles contained within reinforced bins of iron and steel.  Amidst all the noise, the sound of flowing water can be heard from somewhere close by."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      715,
+      68,
+      733,
+      85
+    ]
+  },
+  "exits": [
+    {
+      "to": 20666,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20673,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20675,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

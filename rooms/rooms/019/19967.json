@@ -1,0 +1,60 @@
+{
+  "id": 19967,
+  "uid": [
+    28102
+  ],
+  "title": [
+    "[Hall of Knowledge, Library]"
+  ],
+  "description": [
+    "Bookshelves encompass all the remaining wall space that is not taken up by doors, and a plush pale gold rug covers the floor.  Wooden tables, flickering oil lanterns set on their surfaces, and cushioned chairs offer areas to spread out and read or study.  Scents of parchment, glue, and dust permeate the room.  The well-manicured librarian stands behind a low wooden checkout desk, its surface littered with folios, quills, and jars of ink."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      977,
+      441,
+      1117,
+      503
+    ]
+  },
+  "exits": [
+    {
+      "to": 14650,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb stone stairs"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19951,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 19968,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    }
+  ]
+}

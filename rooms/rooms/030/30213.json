@@ -1,0 +1,49 @@
+{
+  "id": 30213,
+  "uid": [
+    7124101
+  ],
+  "title": [
+    "[North 'Haven Quay, Catwalk]"
+  ],
+  "description": [
+    "Water-darkened oak and fel have been intentionally scuffed to provide purchase on the perpetually slippery catwalk.  Set side by side along it are a polished oak shop and a glass-paneled oak building, both held up with several support posts of saltstained ironwood.  A wide ramp heads away from the catwalk and its large docking structure."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "handler",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 1484,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 30192,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30214,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30215,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 19295,
+  "uid": [
+    218035
+  ],
+  "title": [
+    "[Willow Hall, Corridor]"
+  ],
+  "description": [
+    "The wide corridor is carpeted with a thick wool runner, its length covered with a complex pattern of leaves in rich tones of green.  A strip of dark flooring runs along each side, throwing reflections off its polished surface in response to alternating windows and sconces.  The carpet muffles steps, lending the hallway a serene hush.  At the corridor's end, two doors face each other, flanking a large painting hanging on the wall between them."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Willow Hall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Willow Hall"
+  ],
+  "image": {
+    "file": "wl-willow_hall-1308424874.png",
+    "rect": [
+      1007,
+      218,
+      1053,
+      260
+    ]
+  },
+  "exits": [
+    {
+      "to": 19290,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 19313,
+      "kind": "go",
+      "cmd": "go birch door",
+      "cost": 0.2
+    },
+    {
+      "to": 19314,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

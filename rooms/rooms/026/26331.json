@@ -1,0 +1,36 @@
+{
+  "id": 26331,
+  "title": [
+    "[Barracks, Entry]"
+  ],
+  "description": [
+    "The entrance hall of the barracks is wide and yet gruesome, its walls slick with blood.  Skeletal guardians stand at attention, their bony frames large and garbed in tattered armor, but their eyes cold and hollow."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      1326,
+      92,
+      1352,
+      119
+    ]
+  },
+  "exits": [
+    {
+      "to": 26330,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26332,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

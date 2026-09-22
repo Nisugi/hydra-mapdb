@@ -1,0 +1,51 @@
+{
+  "id": 35738,
+  "uid": [
+    7150527
+  ],
+  "title": [
+    "[The Tonbury, Main Deck]"
+  ],
+  "description": [
+    "Planks of ebon-hued cypress are silty with the clumpy powder leaking from toppled barrels along the deck.  Fragments of netting, bleached to charcoal grey, dangle from corroded stays, flicking against masts crusty with salt deposits.  A skeleton leaned up against the base of one mast still clutches a rusted iron cup between bony hands as if about to drink, and the metal and bone rattle together unsettlingly in the breeze.  The dead sailor's eye sockets balefully watch the hold's dark entrance."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1000,
+      2920,
+      1080,
+      3000
+    ]
+  },
+  "exits": [
+    {
+      "to": 35737,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35739,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35740,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    }
+  ]
+}

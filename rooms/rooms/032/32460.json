@@ -1,0 +1,44 @@
+{
+  "id": 32460,
+  "uid": [
+    4577210
+  ],
+  "title": [
+    "[Moonsedge Castle, Stage]"
+  ],
+  "description": [
+    "At the aisle's end, red-upholstered chairs fan out before the foot of a wide, crescent-shaped stage, providing ample but intimate seating.  Chandeliers of gold, diamond, and garnet hang from the high ceiling, their glittering adornments reflecting a constellation of colored lights on the walls.  Near to the steps leading up to the stage is a small door."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      863,
+      645,
+      889,
+      670
+    ]
+  },
+  "exits": [
+    {
+      "to": 32459,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32461,
+      "kind": "go",
+      "cmd": "go stage door",
+      "cost": 0.2
+    }
+  ]
+}

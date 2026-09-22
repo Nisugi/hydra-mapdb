@@ -1,0 +1,61 @@
+{
+  "id": 22141,
+  "uid": [
+    106403
+  ],
+  "title": [
+    "[Cairnfang Manor, Hallway]"
+  ],
+  "description": [
+    "Hanging from a copper stand, a beautiful golden birdcage sways back and forth, a pair of small canaries fluttering about inside.  Polished linden floors peek out from under a rich cerulean carpet crafted with patterns that swirl in upon themselves.  A white marble pedestal stands against one wall, a beautiful porcelain windflower displayed inside a clear glass case.  Several unique doors line the walls on either side of the hall."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      670,
+      177,
+      681,
+      188
+    ]
+  },
+  "exits": [
+    {
+      "to": 22139,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22142,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 22143,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 22144,
+      "kind": "go",
+      "cmd": "go willow door",
+      "cost": 0.2
+    },
+    {
+      "to": 22145,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

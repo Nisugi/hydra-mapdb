@@ -1,0 +1,52 @@
+{
+  "id": 35855,
+  "uid": [
+    3024003
+  ],
+  "title": [
+    "[River Muagh]"
+  ],
+  "description": [
+    "The town walls of Kharam-Dzu rise from either side of a steep, granite-faced canyon that guides the river north.  Flowing at a steady pace, the crystal clear waters reveal the darting shapes of numerous fish as they contend for the prized meal of other, smaller fish."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      97,
+      1321,
+      135,
+      1359
+    ]
+  },
+  "exits": [
+    {
+      "to": 35854,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35856,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

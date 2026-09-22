@@ -1,0 +1,44 @@
+{
+  "id": 24289,
+  "uid": [
+    270008
+  ],
+  "title": [
+    "[Ranger Guild, Workshop]"
+  ],
+  "description": [
+    "Skinning knives, axes and other tools hang on the wall.  Scraps of skins and dye litter the floor and a long workbench.  Heat blows in from the inside of the lodge, keeping it nice and warm for anyone who needs to work out here."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Icemule Ranger Guild",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "calmintha flower"
+  ],
+  "image": {
+    "file": "imt-rangerguild-v2.png",
+    "rect": [
+      189,
+      122,
+      208,
+      139
+    ]
+  },
+  "exits": [
+    {
+      "to": 24287,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 24291,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

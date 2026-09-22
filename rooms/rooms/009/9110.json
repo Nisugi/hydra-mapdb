@@ -1,0 +1,62 @@
+{
+  "id": 9110,
+  "uid": [
+    4045219
+  ],
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The stalagmites and stalactites stand farther apart as the cavern opens to the south.  The cavern slopes downward and is quickly covered by a layer of mud and plant debris.  The thin layers of mist behind you are replaced by a thick yellow fog that shrouds the bog below you."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, northwest, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      198,
+      700,
+      208,
+      710
+    ]
+  },
+  "exits": [
+    {
+      "to": 9109,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9111,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9113,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9114,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 9120,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

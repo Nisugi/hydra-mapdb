@@ -1,0 +1,72 @@
+{
+  "id": 24842,
+  "uid": [
+    7106001
+  ],
+  "title": [
+    "[Reim Base Camp]"
+  ],
+  "description": [
+    "A large makeshift structure pieced together with wooden planks and stretched canvas squares presides over the rocky outcropping closest to the edge.  Several pathways lined with gravel and salt spiral outward from the makeshift structure.  Tents of assorted colors and sizes are positioned evenly apart in several rows along the cliff face."
+  ],
+  "paths": [
+    "Obvious paths: south",
+    "Obvious paths: north, south"
+  ],
+  "location": "Reim Base Camp",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Quests",
+    "mapname:Quests - Reim Fortress and Base Camp",
+    "mapshortname:Reim Fortress and Base Camp"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      1553,
+      255,
+      1588,
+      288
+    ]
+  },
+  "exits": [
+    {
+      "to": 24876,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go path"
+        },
+        {
+          "try_move": "go path"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25173,
+      "kind": "go",
+      "cmd": "go structure",
+      "cost": 0.2
+    },
+    {
+      "to": 25262,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26223,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 6274,
+  "uid": [
+    373014
+  ],
+  "title": [
+    "[Kobold Village, King's Loo]"
+  ],
+  "description": [
+    "Clearly His Majesty spends a great deal of time here when he isn't hiding from adventurers.  The decor is certainly the best that generations of kobold artists have produced, the centerpiece consisting of a dented helm balanced on a stick so that it rattles a bit if you tap it.  There are other equally fine treasures here, no doubt taken as spoils from the king's many victories and each almost as marvelous as the last."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "boot",
+    "cave moss",
+    "ironfern root",
+    "kobold",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      100,
+      400,
+      110,
+      410
+    ]
+  },
+  "exits": [
+    {
+      "to": 6272,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 11032,
+      "kind": "scripted",
+      "routine": {
+        "name": "errand",
+        "errand": "giant_to_rivers_rest"
+      },
+      "cost": 100.0
+    }
+  ]
+}

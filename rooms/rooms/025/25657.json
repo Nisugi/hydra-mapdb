@@ -1,0 +1,37 @@
+{
+  "id": 25657,
+  "uid": [
+    281007
+  ],
+  "title": [
+    "[Bard Guild, Corridor]"
+  ],
+  "description": [
+    "Midway down the long hall, a carved wooden arch opens on the east wall.  From there, the chinks of plates and glasses give hints there is a pub at hand.  Delicious aromas of baking bread and roasting meat extend nigh-irresistible invitations to step inside.  Along the walls of the corridor are hung tapestries depicting groups of musicians performing in towns as well as serenading more pastoral denizens in woodland settings."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25655,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25658,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25663,
+      "kind": "go",
+      "cmd": "go wooden arch",
+      "cost": 0.2
+    }
+  ]
+}

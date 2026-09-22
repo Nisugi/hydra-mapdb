@@ -1,0 +1,50 @@
+{
+  "id": 4127,
+  "uid": [
+    35024
+  ],
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "A gigantic arch soars up toward the ceiling, apparently spanning the lava pool.  Examining the arch, you see signs of tools being used on the lava that formed it.  It seems someone carved it, although the thought of doing heavy labor in this heat makes you queasy."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Glatoph",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      186,
+      466,
+      196,
+      476
+    ]
+  },
+  "exits": [
+    {
+      "to": 4126,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4128,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7902,
+      "kind": "climb",
+      "cmd": "climb arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 29495,
+  "uid": [
+    13007224
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Nexus]"
+  ],
+  "description": [
+    "Several tunnels crisscross through this jagged black granite nexus. Embedded into the rock, iridescent crimson crystals peek out of crevices like fireflies in a black forest.   A pool of thick bluish green goop occupies the center of the intersection, reeking strongly of decomposition and sewage."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      821,
+      311,
+      845,
+      333
+    ]
+  },
+  "exits": [
+    {
+      "to": 29493,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29494,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29496,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29497,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34153,
+      "kind": "go",
+      "cmd": "go cracks",
+      "cost": 0.2
+    }
+  ]
+}

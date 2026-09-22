@@ -1,0 +1,87 @@
+{
+  "id": 11906,
+  "uid": [
+    17002223
+  ],
+  "title": [
+    "[Old Ta'Faendryl, East Woods]"
+  ],
+  "description": [
+    "Tree-dotted hillsides rise on both sides of the path, providing ample cover for the wildlife living in the woods.  The road here is mostly flat as it meanders along the city plateau, although there is a slight incline to the north.  One especially large modwir tree lies fallen near the edge of the road, its roots helplessly exposed."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "bolmara lichen",
+    "brostheras grass",
+    "calamia fruit",
+    "ebony twig",
+    "haphip root",
+    "lady slipper blossom",
+    "luckbloom blossom",
+    "murdroot",
+    "nightbloom blossom",
+    "oak twig",
+    "slender twig",
+    "sprig of mistletoe",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "wild chokecherry",
+    "wild orchid",
+    "wood violet",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      1293,
+      567,
+      1303,
+      577
+    ]
+  },
+  "exits": [
+    {
+      "to": 627,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 11905,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11907,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12259,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "crawl tree"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

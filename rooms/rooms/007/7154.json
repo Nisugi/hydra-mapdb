@@ -1,0 +1,62 @@
+{
+  "id": 7154,
+  "uid": [
+    45135
+  ],
+  "title": [
+    "[Castle Darkstone, Tower's Top]"
+  ],
+  "description": [
+    "The very top of this tower, the only one remaining fully intact to judge from the wreckage strewn far below, is open to the wind and rain and elements.  Great powers once strove here, for the massive stones are blackened and charred.  In spots the stone has been melted and cooled so that brittle puddles of black glass crunch underfoot.  Crowning the battlements, a massive jackal, cast or carved out of the blackest ora, peers down at the surroundings like a brooding monarch above a dead kingdom."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      528,
+      454,
+      540,
+      466
+    ]
+  },
+  "exits": [
+    {
+      "to": 7036,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put": "kneel",
+          "when": "still_here"
+        },
+        {
+          "put": "touch jackal",
+          "when": "still_here"
+        },
+        {
+          "await": "the black mein door has opened",
+          "when": "still_here"
+        },
+        {
+          "put": "stand",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 20.0
+    }
+  ]
+}

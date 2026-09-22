@@ -1,0 +1,51 @@
+{
+  "id": 30583,
+  "uid": [
+    312202
+  ],
+  "title": [
+    "[Darkness]"
+  ],
+  "description": [
+    ""
+  ],
+  "paths": [
+    ""
+  ],
+  "location_unknowable": true,
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "grumpy hermit"
+  ],
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 30581,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "curtain"
+            ]
+          }
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "move": "go curtain"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

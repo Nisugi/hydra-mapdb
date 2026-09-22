@@ -1,0 +1,58 @@
+{
+  "id": 18301,
+  "uid": [
+    3210457
+  ],
+  "title": [
+    "[Saewehna Jungle, Swamp]"
+  ],
+  "description": [
+    "Shadows enhance the dreariness of the swamp, and the smell of decay permeates the area, hanging heavily in the dank climate.  Travel slows as the viscous mud covering the ground grasps at anything attempting to pass through.  Partially submerged in the sand and soil mix, the carcass of a small monkey slowly decomposes, a victim of carelessness and bad luck.  Unnerving shrieks and other unidentifiable nocturnal sounds break the quiet of night, the noise originating from the northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, west"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "freshwater",
+  "terrain": "plain dirt",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "ifw-saewehna_lagoon-1525325794.png",
+    "rect": [
+      865,
+      670,
+      917,
+      717
+    ]
+  },
+  "exits": [
+    {
+      "to": 18295,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18302,
+      "kind": "go",
+      "cmd": "go log",
+      "cost": 0.2
+    },
+    {
+      "to": 18304,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18305,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

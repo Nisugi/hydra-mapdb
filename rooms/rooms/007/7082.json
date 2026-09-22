@@ -1,0 +1,50 @@
+{
+  "id": 7082,
+  "uid": [
+    44018
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A large section of wall has collapsed, partially blocking the corridor.  Rubble and rocks lie strewn across the floor, making it hard to scramble from one place to the next.  Ominous creaks and groans, and streams of dust and dirt sifting down from the ceiling, make you wonder how soon before the rest of the passage collapses."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      841,
+      899,
+      851,
+      909
+    ]
+  },
+  "exits": [
+    {
+      "to": 7081,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7083,
+      "kind": "go",
+      "cmd": "go space",
+      "cost": 0.2
+    },
+    {
+      "to": 7084,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

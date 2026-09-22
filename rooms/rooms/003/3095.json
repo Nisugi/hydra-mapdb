@@ -1,0 +1,51 @@
+{
+  "id": 3095,
+  "uid": [
+    4124019
+  ],
+  "title": [
+    "[Abandoned Farm, Upper Hall]"
+  ],
+  "description": [
+    "Dark, watery stains discolor the ceiling and the walls.  Flakes of plaster form a gritty dust on the hardwood floor.  Long strands of dust hang in the corners of the ceiling and in the doorways."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "cold, dry",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "zombie"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      860,
+      541,
+      870,
+      551
+    ]
+  },
+  "exits": [
+    {
+      "to": 3094,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 3096,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3098,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

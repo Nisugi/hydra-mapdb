@@ -1,0 +1,53 @@
+{
+  "id": 12718,
+  "uid": [
+    3031035
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A pair of large stone statues, carved to resemble large droplets of water, rests on either side of the spiral staircase that leads to the floor above.  The statues are partially submerged and have been bleached with natural wavy patterns formed by years of sea meeting rock.  Ruined tapestries cling to the walls, soaked with the moisture that has claimed dominance over the room."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      253,
+      506,
+      289,
+      542
+    ]
+  },
+  "exits": [
+    {
+      "to": 12717,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12719,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12720,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

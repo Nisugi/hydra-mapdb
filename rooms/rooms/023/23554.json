@@ -1,0 +1,54 @@
+{
+  "id": 23554,
+  "uid": [
+    54305
+  ],
+  "title": [
+    "[Beacon Hall Annex, Lockers]"
+  ],
+  "description": [
+    "A long ebonwood bench faces steel locker boxes stacked one atop another, all neatly labeled and arranged in long rows.  Across from a miniature lighthouse, a spindly fel table stacked with books sits beneath a glaes-paned black iron lantern, the flickering flame within illuminating the quartz-flecked tile floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "tags": [
+    "bhalocker"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive",
+    "che:beacon_hall:locker",
+    "locker"
+  ],
+  "image": {
+    "file": "wl-beacon_hall.png",
+    "rect": [
+      273,
+      74,
+      313,
+      112
+    ]
+  },
+  "exits": [
+    {
+      "to": 23553,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

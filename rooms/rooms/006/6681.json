@@ -1,0 +1,41 @@
+{
+  "id": 6681,
+  "uid": [
+    487065
+  ],
+  "title": [
+    "[Monastery, Baths]"
+  ],
+  "description": [
+    "Set into the cold stone floor are a half dozen baths lined with seamless granite.  Steam rolls off of the water in each bath, casting a layer of fog over the entire room.  The steady rhythm of a drop of water falling from the ceiling and into one of the tubs of water is the only sound that pierces the silence here.  You also see a thick black velvet curtain."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      341,
+      1306,
+      347,
+      1312
+    ]
+  },
+  "exits": [
+    {
+      "to": 6675,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 6682,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

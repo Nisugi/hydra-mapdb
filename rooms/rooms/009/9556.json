@@ -1,0 +1,65 @@
+{
+  "id": 9556,
+  "uid": [
+    688006
+  ],
+  "title": [
+    "[Wizard Guild, Second Stratum]"
+  ],
+  "description": [
+    "A few potted luminescent toadstools shed diffuse light upon the silver-flecked cobalt blue marble.  Embossed runes adorn the wall around the mithril-framed doors to the north while an azurite-inset door stands to the south."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul-wizard_guild-1648064027.png",
+    "rect": [
+      279,
+      278,
+      342,
+      337
+    ]
+  },
+  "exits": [
+    {
+      "to": 9555,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9557,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 9562,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 13129,
+      "kind": "go",
+      "cmd": "go azurite-inset door",
+      "cost": 0.2
+    }
+  ]
+}

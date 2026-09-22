@@ -1,0 +1,51 @@
+{
+  "id": 3107,
+  "uid": [
+    4124027
+  ],
+  "title": [
+    "[Abandoned Farm, Yard]"
+  ],
+  "description": [
+    "The hard-packed earth of the yard is cluttered with heaps of broken equipment and rusty tools.  Ramshackle wooden buildings lean into each other, as though a sudden gust of wind might come through and demolish them all.  A broken plank leads into the barn."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wraith"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      731,
+      461,
+      741,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 3106,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    },
+    {
+      "to": 3108,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3116,
+      "kind": "go",
+      "cmd": "go build",
+      "cost": 0.2
+    }
+  ]
+}

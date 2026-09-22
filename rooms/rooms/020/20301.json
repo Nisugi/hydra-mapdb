@@ -1,0 +1,27 @@
+{
+  "id": 20301,
+  "title": [
+    "[Brush With Death, Of Immortals]"
+  ],
+  "description": [
+    "Velvet jade curtains drape down from above, encasing the area in a vibrant green hue.  Candle-laden fixtures hang from the tented ceiling, illuminating the tent, save for a shadowy velvet curtain.  Showcased in the center of the area, a large painting housed in an ironwood frame sits on a gilded easel."
+  ],
+  "paths": [
+    "Obvious exits: northwest, out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20300,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20302,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

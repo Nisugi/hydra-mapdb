@@ -1,0 +1,52 @@
+{
+  "id": 19831,
+  "uid": [
+    675050
+  ],
+  "title": [
+    "[Cleric Guild, Alchemy Wing]"
+  ],
+  "description": [
+    "A slight chill touches the air of this long, grey stone hallway, its austerity a sharp contrast to the opulent woods of the hall to the south.  Stout columns support the barrel-vaulted ceiling; on each is affixed a torch mounted in wrought iron, their flickering light and dusky soot mingled on the pale stone overhead.  No tapestry or ornament relieves the starkness of the stone blocks, pierced occasionally by a door on either side."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_cleric_guild.png",
+    "rect": [
+      104,
+      208,
+      157,
+      259
+    ]
+  },
+  "exits": [
+    {
+      "to": 19828,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19832,
+      "kind": "go",
+      "cmd": "go ebony door",
+      "cost": 0.2
+    },
+    {
+      "to": 19833,
+      "kind": "go",
+      "cmd": "go birch door",
+      "cost": 0.2
+    },
+    {
+      "to": 19834,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

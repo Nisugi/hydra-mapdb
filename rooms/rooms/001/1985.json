@@ -1,0 +1,50 @@
+{
+  "id": 1985,
+  "uid": [
+    3002004
+  ],
+  "title": [
+    "[Aquamarine Street, River's Edge]"
+  ],
+  "description": [
+    "The facade of Burlitok's Brewery eclipses the street, rising grandly from the river and into the sky to your east.  Along its front, a set of double doors arches from the cobbles and nearly to the gabled roofline far above, gaping widely, as if to invite you inside.  The aromas of ale, brandy and sweet mead hang heavily in the air, and you find the invitation increasingly difficult to resist."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      470,
+      129,
+      506,
+      165
+    ]
+  },
+  "exits": [
+    {
+      "to": 1984,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1986,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12492,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

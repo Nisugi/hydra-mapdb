@@ -1,0 +1,40 @@
+{
+  "id": 16548,
+  "uid": [
+    261030
+  ],
+  "title": [
+    "[Rogue Guild, Rooftop]"
+  ],
+  "description": [
+    "The second-story rooftop is bounded by a low stone rampart, providing a view of the streets and buildings to the north.  Cries of hawkers and snatches of conversation echo up from below.  The stone wall of the building to the west is set with a cracked window, unadorned on this side but insulated from within by heavy curtains."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      598,
+      303,
+      626,
+      331
+    ]
+  },
+  "exits": [
+    {
+      "to": 16449,
+      "kind": "go",
+      "cmd": "go window",
+      "cost": 0.2
+    },
+    {
+      "to": 16536,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

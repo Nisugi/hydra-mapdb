@@ -1,0 +1,47 @@
+{
+  "id": 23684,
+  "uid": [
+    255029
+  ],
+  "title": [
+    "[Tanglevine Hall, Southeast Lawn]"
+  ],
+  "description": [
+    "Recessed into the jungle foliage, a crude wooden building continues to the north.  A tall tropical cedar tree shades the area, its buttressed roots settled against the walls of the structure.  A large lion topiary stands off to one side rearing up on its hide legs."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      493,
+      571,
+      518,
+      595
+    ]
+  },
+  "exits": [
+    {
+      "to": 23662,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23683,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23701,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

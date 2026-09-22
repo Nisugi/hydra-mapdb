@@ -1,0 +1,51 @@
+{
+  "id": 17425,
+  "uid": [
+    4749821
+  ],
+  "title": [
+    "[Redwing Spire, Anteroom]"
+  ],
+  "description": [
+    "Glistening stained crystal windows ring the room, casting small pools of crimson-tinged moonlight amidst larger, brighter ones unsullied by intruding hues.  Walls of alabaster are polished to a white-golden shine, their surfaces nigh as smooth as the slabs of mirror-finished marble that comprise the floor.  Beneath a tall red-lacquered arch, the sinuous rise of a long stairway begins, sprouting as if something organic from the curved walls as it rises."
+  ],
+  "paths": [
+    "Obvious exits: up, out"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1536,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17426,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 23281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go doorframe"
+        },
+        {
+          "remember": [
+            "talondown_origin",
+            "17425"
+          ]
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

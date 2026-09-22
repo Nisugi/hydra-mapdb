@@ -1,0 +1,57 @@
+{
+  "id": 32605,
+  "uid": [
+    336414
+  ],
+  "title": [
+    "[Landing Bazaar, Baystone Byway]"
+  ],
+  "description": [
+    "Barrels of spices bearing brightly hued pigments line the outside of a bay window belonging to one of the shops.  Along the pathway, crates of fresh produce and exotic flora are displayed to lure shoppers further inside.  Children play nearby, the feeble clacking of their wooden swords muffled by the clanking metal of two red-armored guards patrolling the area.  A small dusty kitten mews at the base of a tall oak tree, its bright eyes falling upon a tiny nest tucked among its branches."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-bazaar-1671674653.png",
+    "rect": [
+      307,
+      369,
+      358,
+      421
+    ]
+  },
+  "exits": [
+    {
+      "to": 32602,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32604,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32608,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32615,
+      "kind": "go",
+      "cmd": "go white-walled shop",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 36529,
+  "uid": [
+    8211003
+  ],
+  "title": [
+    "[Sylinar's Spire, Second Floor]"
+  ],
+  "description": [
+    "White stone walls rise bare along the second level, broken only by wrought iron sconces shaped like curling vines that cradle softly glowing candles and an open door set within smooth masonry.  At center, a spiraling staircase of pale wood treads and cobbled stone risers winds both up and down, a slender iron railing tracing its curve as it dips into shadow below and climbs toward the third level."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 36527,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 36530,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36531,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

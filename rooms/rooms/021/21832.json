@@ -1,0 +1,42 @@
+{
+  "id": 21832,
+  "title": [
+    "[Doggoroth Keep, Courtyard]"
+  ],
+  "description": [
+    "The walls of the courtyard come to end on both sides of a small stone gatehouse, its metal portcullis raised to permit travel.  Perched upon smooth stone pedestals on both sides of the gate are two black granite gargoyles."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      816,
+      271,
+      831,
+      284
+    ]
+  },
+  "exits": [
+    {
+      "to": 21830,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21831,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21833,
+      "kind": "go",
+      "cmd": "go gatehouse",
+      "cost": 0.2
+    }
+  ]
+}

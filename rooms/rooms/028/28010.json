@@ -1,0 +1,47 @@
+{
+  "id": 28010,
+  "uid": [
+    8208707
+  ],
+  "title": [
+    "[Rumor Woods]"
+  ],
+  "description": [
+    "Perched just beyond the edges of the aspen grove, a stone-lined pond spreads to the north and east.  Large stepping stones lead to a tiny island that is surrounded by steaming water, though its edges are encased in frost and snow.  Holly, cut to be a low ground shrub, adds a splash of crimson to the pristinely white scene on the tiny piece of land."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "Rumor Woods",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      884,
+      235,
+      908,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 28006,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28011,
+      "kind": "go",
+      "cmd": "go stepping stones",
+      "cost": 0.2
+    },
+    {
+      "to": 28013,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 8019,
+  "uid": [
+    401201
+  ],
+  "title": [
+    "[Kobold Mines, Large Cavern]"
+  ],
+  "description": [
+    "A smooth stone footpath leads to a large pool of dark liquid that dominates this cavern.  There is an oily film covering the water's surface, and the stench wafts up into your nostrils, threatening to overcome you with its intense odor.  A loud dripping sound echoes up and down the walls in a monotonous hypnotic pattern.  Several thick stalagmites break the surface of the pool and reach up towards the jagged ceiling."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the old Mine Road",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      119,
+      969,
+      129,
+      979
+    ]
+  },
+  "exits": [
+    {
+      "to": 8016,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8020,
+      "kind": "go",
+      "cmd": "go footpath",
+      "cost": 0.2
+    }
+  ]
+}

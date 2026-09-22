@@ -1,0 +1,58 @@
+{
+  "id": 27134,
+  "uid": [
+    13202035
+  ],
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Surrounded by the tall meadow grass is a stone fire pit encircled by several benches carved from fallen logs.  A pile of sticks is neatly stacked to one side sorted by size.  Clusters of colorful peonies rest in the shade of tall stalks of lavender, their blossoms filling the clearing with a light scent."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      437,
+      564,
+      449,
+      576
+    ]
+  },
+  "exits": [
+    {
+      "to": 27133,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27135,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27141,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31230,
+      "kind": "go",
+      "cmd": "go spidersilk pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 31231,
+      "kind": "go",
+      "cmd": "go gossamer pavilion",
+      "cost": 0.2
+    }
+  ]
+}

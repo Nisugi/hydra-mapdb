@@ -1,0 +1,67 @@
+{
+  "id": 26890,
+  "uid": [
+    18018001
+  ],
+  "title": [
+    "[Black Hand, Old Warehouse]"
+  ],
+  "description": [
+    "The large double sliding doors open to a poorly lit warehouse with a thick cedar floor covered with dust and scuff marks.  Stacks of crates and boxes occupy several marked locations on the floor, designated for storage and delivery.  Near the rear wall is a simple wooden desk covered in piles of stained paper."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-black_hand-1527320047.png",
+    "rect": [
+      474,
+      55,
+      626,
+      183
+    ]
+  },
+  "exits": [
+    {
+      "to": 244,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 26901,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 26911,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb ladder"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

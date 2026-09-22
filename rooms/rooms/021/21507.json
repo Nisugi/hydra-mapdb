@@ -1,0 +1,36 @@
+{
+  "id": 21507,
+  "title": [
+    "[The Golden Rule]"
+  ],
+  "description": [
+    "Dappled sunlight streams in through the gaps in the leafy ceiling and glitters across the items on a shallow metal tray.  A hard-packed dirt floor sends dust into the air with every footfall, which dances in the sunbeams like tiny sprites.  Small golden trinkets decorate all four walls, and each one sparkles in the tawny light.",
+    "Dappled moonlight streams in through the gaps in the leafy ceiling and glitters across the items on a shallow metal tray.  Every footfall on the hard-packed dirt floor sends dust into the air, which dances in the moonbeams like tiny sprites.  Small golden trinkets decorate all four walls, and each one sparkles in the silvery light."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20291,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23158,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 16997,
+  "uid": [
+    251109
+  ],
+  "title": [
+    "[Guild Hall, Cold Storage]"
+  ],
+  "description": [
+    "Huge blocks of ice are stacked in the southeastern corner of the room, forming a corridor that leads west, then south from here.  Several fragments of chipped ice are underfoot, making your way somewhat slippery.  Several pairs of ice hooks hang from nails along the wall to aid in moving the blocks of ice.  A large, vault-like door leads back to the Guild Hall basement."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "arid",
+  "terrain": "grassland",
+  "tags": [
+    "warrior guild iceblocks"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      305,
+      780,
+      327,
+      802
+    ]
+  },
+  "exits": [
+    {
+      "to": 16996,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16998,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

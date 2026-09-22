@@ -1,0 +1,45 @@
+{
+  "id": 18407,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Rose bushes, neatly pruned and tended, bearing flowers in shades of red, orange, and pink line the edge of the road.  The full blooms add a classical hint of decor to this otherwise plain and dusty road.  Banners fluttering in the air can be seen nearer the center of the town, and the faint murmur of voices and laughter can be heard."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18406,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18408,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 18409,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18534,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

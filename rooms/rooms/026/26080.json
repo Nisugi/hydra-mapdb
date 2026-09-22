@@ -1,0 +1,43 @@
+{
+  "id": 26080,
+  "uid": [
+    679022
+  ],
+  "title": [
+    "[Ancient Passage, Niche]"
+  ],
+  "description": [
+    "Decorated with small, intricate patterns, the western wall holds carved decorations, while the eastern houses a large niche.  Rising solemn and alone at the heart of the room, a beautifully carved stone statue is ringed by glass-shielded candles that bathe it in a gentle, greyish light.  Twin staircases, one leading up and one leading down, are the only exits from the chamber."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26079,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26081,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

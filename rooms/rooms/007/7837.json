@@ -1,0 +1,56 @@
+{
+  "id": 7837,
+  "uid": [
+    35046
+  ],
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This is an intersection in a dull grey corridor.  There's a door on the west wall, and passages lead in three directions."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Glatoph",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      492,
+      492,
+      500,
+      501
+    ]
+  },
+  "exits": [
+    {
+      "to": 7833,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7834,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7838,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7848,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

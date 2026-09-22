@@ -1,0 +1,33 @@
+{
+  "id": 4427,
+  "title": [
+    "[Abandoned Mine, Interior]"
+  ],
+  "description": [
+    "An overturned railcar partially covered with rubble and debris rests in one corner, its days of hauling ore over.  A massive cave-in blocks any further passage into the mine on this level, but a ladder provides further egress.  If the numerous fissures and cracks in the ceiling are indications of things to come, it might not be wise to remain here for very long.  Within a small iron-barred cage toward the west end of the area sits an attentive teller."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4402,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    },
+    {
+      "to": 4428,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

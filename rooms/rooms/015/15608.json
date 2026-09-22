@@ -1,0 +1,90 @@
+{
+  "id": 15608,
+  "uid": [
+    13116003
+  ],
+  "title": [
+    "[The Feystone Inn, Tavern]"
+  ],
+  "description": [
+    "The rough-hewn wooden floor is strewn with stale rushes and bits of half-eaten food.  The air is thick with the smoke from cigars and pipes.  The tavern room is crowded with all manner of rough-looking elves, a few dark elves and dwarves mixed in for good measure."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 9920,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 26772,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go splintered table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26773,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go flimsy table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27050,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go sooty table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27051,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go squalid table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27052,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go trailing table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27053,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go careless table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

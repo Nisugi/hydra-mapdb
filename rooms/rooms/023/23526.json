@@ -1,0 +1,147 @@
+{
+  "id": 23526,
+  "uid": [
+    14117024
+  ],
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Thrashing furiously against the current, large, gleaming fish leap from the water, occasionally flapping against the rocks in their attempt to push northward.  Indifferent to their plight, the Mistydeep River gushes onward, scrambling headlong over every obstacle in its path.  The resultant white water kicks up a sparkling spray that spatters the shore.  Within a small oxbow, a beaver dam takes shape as the sleek animals scurry industriously to and fro.",
+    "Thrashing furiously against the current, large, gleaming fish leap from the water, occasionally flapping against the rocks in their attempt to push northward.  Indifferent to their plight, the Mistydeep River gushes onward, scrambling headlong over every obstacle in its path.  The resultant white water kicks up a sparkling spray that spatters the shore.  Within a small oxbow, a partial beaver dam squats silently in the water as its builders sleep."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1277,
+      924,
+      1306,
+      953
+    ]
+  },
+  "exits": [
+    {
+      "to": 23525,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row shore",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "climb shore",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row north",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25544,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northwest",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30514,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 17177,
+  "uid": [
+    4749009
+  ],
+  "title": [
+    "[Temple of Ronan, Domed Chamber]"
+  ],
+  "description": [
+    "Curved walls of polished ebonwood support a large glass dome ceiling and form a circular room.  Thick black cushions are scattered across the floor, providing an inviting area to rest.  Telescopes are set up in three places for those who like to stargaze, and a small curtained niche to the south offers privacy for personal prayer."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 17075,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17196,
+      "kind": "go",
+      "cmd": "go niche",
+      "cost": 0.2
+    },
+    {
+      "to": 17197,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

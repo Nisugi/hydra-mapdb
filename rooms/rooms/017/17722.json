@@ -1,0 +1,82 @@
+{
+  "id": 17722,
+  "uid": [
+    673001
+  ],
+  "title": [
+    "[Cleric Guild, River's Rest]"
+  ],
+  "description": [
+    "Onyx columns gleam in the light of myriad beeswax tapers which surround two central statues.  Each of the figures is cut from pale stone, as is the inscribed base on which they stand.  There are no windows, but the high arc of the domed ceiling keeps the chamber from feeling too enclosed.  An aged oak door is set between two onyx columns, and deep blue carpets, their patterns almost obscured by constellations of jasmine petals, muffle the steps of passing priests."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, west, northwest"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Cleric Guild",
+    "mapshortname:Cleric Guild (River's Rest)"
+  ],
+  "image": {
+    "file": "rr-cleric_guild.png",
+    "rect": [
+      242,
+      797,
+      242,
+      797
+    ]
+  },
+  "exits": [
+    {
+      "to": 10988,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 19880,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 19881,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19884,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19889,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19902,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26028,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26029,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

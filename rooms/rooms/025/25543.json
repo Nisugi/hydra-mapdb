@@ -1,0 +1,201 @@
+{
+  "id": 25543,
+  "uid": [
+    14117019
+  ],
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Breaking around the shore of a broad forested island, two branches of the Mistydeep converge to resume their joint ramble southeastward.  Casting a long shadow across the water is a multi-turreted tower that reaches skyward.  The dusky granite, of which the tower is constructed, is so cunningly crafted that some portions appear carved from a natural rock formation.  Numerous narrow windows gape uncovered, revealing only darkness within.  Skirting the building, a tangled thicket keeps outsiders at bay."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, west, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1243,
+      850,
+      1262,
+      869
+    ]
+  },
+  "exits": [
+    {
+      "to": 18823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row north",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 23528,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row east",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25544,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row south",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25615,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row west",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30512,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

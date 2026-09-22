@@ -1,0 +1,41 @@
+{
+  "id": 14304,
+  "uid": [
+    4222105
+  ],
+  "title": [
+    "[The Wage and Dagger, Landing]"
+  ],
+  "description": [
+    "The small, square hallway offers barely enough space to turn around in, and as a result, the boards here are well worn.  The wooden railing bows out slightly, probably from the frequency of hand traffic and people leaning their weight against the wooden slats while trying to get into their rooms.  A haon door is set on one side of the stairway landing and an ebonwood door is on the other side."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14303,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 14305,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 14306,
+      "kind": "go",
+      "cmd": "go haon door",
+      "cost": 0.2
+    }
+  ]
+}

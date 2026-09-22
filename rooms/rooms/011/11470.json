@@ -1,0 +1,85 @@
+{
+  "id": 11470,
+  "uid": [
+    304226
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "The rocky wall curves from the south to the northwest.  Bladder rockweed clings to the stones and sways in slow motion.  Schools of mud shrimp scurry among the rockweed.  A few loggerhead sponges the size of large pumpkins grow in the sand of the bay floor."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west, northwest, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      976,
+      1207,
+      986,
+      1217
+    ]
+  },
+  "exits": [
+    {
+      "to": 11467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11469,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

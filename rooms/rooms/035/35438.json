@@ -1,0 +1,44 @@
+{
+  "id": 35438,
+  "uid": [
+    3013099
+  ],
+  "title": [
+    "[Stormbrow Gift Shop]"
+  ],
+  "description": [
+    "This spacious room is well lit by the numerous torches hung on every wall.  A sturdy dwarf mannequin stands near a pair of glass doors, as if appreciating the shop's selection of merchandise.  A dwarven shop clerk stands behind a glass display case, which is situated in the center of the room next to a gift-wrapping table.  A tall weapons rack has been bolted to the back wall, far from the more fragile of the shop's wares, including a narrow glass shelf which stands near a short glaes archway leading to the museum's lobby."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Stormbrow Gallery",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 12574,
+      "kind": "go",
+      "cmd": "go glaes archway",
+      "cost": 0.2
+    },
+    {
+      "to": 35439,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35441,
+      "kind": "go",
+      "cmd": "go glass doors",
+      "cost": 0.2
+    }
+  ]
+}

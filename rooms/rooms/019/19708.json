@@ -1,0 +1,47 @@
+{
+  "id": 19708,
+  "uid": [
+    11002
+  ],
+  "title": [
+    "[Cavernhold, Huge Arch]"
+  ],
+  "description": [
+    "The prominent feature of this room is a huge natural arch that cuts through the thick rock layer of the north wall.  Through this arch you can see a small part of what seems to be a tremendous chamber.  Away from arch, to the southeast, can be heard the quiet gurgle of slowly flowing water."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      337,
+      789,
+      347,
+      800
+    ]
+  },
+  "exits": [
+    {
+      "to": 19707,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19709,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

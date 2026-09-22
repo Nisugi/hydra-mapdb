@@ -1,0 +1,64 @@
+{
+  "id": 24863,
+  "uid": [
+    7530033
+  ],
+  "title": [
+    "[A Tunneled Approach]"
+  ],
+  "description": [
+    "A narrow inlet of water trickles into a circular pond that lays eerily still, a watery vortex spinning in its center.  Glowing veins of assorted minerals, rich with ore deposits, line the walls from floor to ceiling.  Pooling on the floor of the cavern is a thick white mist that obscures the surroundings."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapcategory:Quests",
+    "mapname:Icemule Trace - The Settlement of Reim",
+    "mapname:Quests - The Settlement of Reim",
+    "mapshortname:Reim Settlement"
+  ],
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      769,
+      1067,
+      782,
+      1080
+    ]
+  },
+  "exits": [
+    {
+      "to": 9147,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go vortex"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 24864,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

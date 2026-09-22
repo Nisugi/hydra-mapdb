@@ -1,0 +1,62 @@
+{
+  "id": 1513,
+  "uid": [
+    4902020
+  ],
+  "title": [
+    "[Solhaven, Lornon and Shadow]"
+  ],
+  "description": [
+    "Set between two large gated residences, a low dark building is visible to the north, its dirtied windows and peeling coat of paint imparting a very dilapidated, abandoned look to the structure.  Faint shadows of movement shift within its dark interior, lending an ominous feeling that's supplemented by the silence pervading the area."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1247,
+      1018,
+      1269,
+      1040
+    ]
+  },
+  "exits": [
+    {
+      "to": 1511,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1514,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1515,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12846,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 25202,
+      "kind": "go",
+      "cmd": "go hole under crate",
+      "cost": 0.2
+    }
+  ]
+}

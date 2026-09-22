@@ -1,0 +1,56 @@
+{
+  "id": 8332,
+  "uid": [
+    13034
+  ],
+  "title": [
+    "[Spider Temple, Central Chamber]"
+  ],
+  "description": [
+    "Scenes of death by slow torture play out in the floor tiles of this portion of the central chamber.  To the northeast, the doors into the shrine allow a little more light into the building.  The altar to the north and the tracery overhead intercept that light, sending long shadows into the area to the northwest."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      631,
+      875,
+      641,
+      885
+    ]
+  },
+  "exits": [
+    {
+      "to": 8333,
+      "kind": "go",
+      "cmd": "go teakwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 8335,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 8337,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8361,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 28346,
+  "uid": [
+    8213620
+  ],
+  "title": [
+    "[Underground Temple, Passage]"
+  ],
+  "description": [
+    "Supported by newly constructed wrought iron brackets, torches decorate the uneven and craggy walls of the small chamber.  Fresh air whistles through a jagged fissure at regular intervals causing the flames to splutter and gutter, their erratic behavior casting long shadows upon the ceiling and floor.  Rising like a scar out of the dark earth, a ragged aperture bisects the opposing wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1305,
+      382,
+      1314,
+      390
+    ]
+  },
+  "exits": [
+    {
+      "to": 24547,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    },
+    {
+      "to": 28347,
+      "kind": "go",
+      "cmd": "go aperture",
+      "cost": 0.2
+    }
+  ]
+}

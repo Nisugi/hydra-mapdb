@@ -1,0 +1,51 @@
+{
+  "id": 36417,
+  "uid": [
+    58028
+  ],
+  "title": [
+    "[Dungeon, Statue Hall]"
+  ],
+  "description": [
+    "This corridor is fairly short and straight.  Near the north end it is separated, oddly enough, by a six foot wide pit of indeterminable depth.  An elegant marble statue of some type of humanoid figure occupies a large ornamental niche in the wall.  Aside from that, the corridor is bare and empty."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1800,
+      600,
+      1840,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 36348,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "pause": 500
+        },
+        {
+          "move": "jump pit"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36418,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

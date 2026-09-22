@@ -1,0 +1,52 @@
+{
+  "id": 26091,
+  "uid": [
+    8213501
+  ],
+  "title": [
+    "[Bloodforge, Workshop]"
+  ],
+  "description": [
+    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.  Piles of crimson powder cover the floor beneath a large opening.  A dwarven blacksmith assistant stands in front of a narrow archway leading toward the smithy.  An unadorned staircase spirals toward the temple.",
+    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.",
+    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.  Piles of crimson powder cover the floor beneath a large opening.  A dwarven blacksmith assistant stands in front of a narrow archway leading toward the smithy.  An undorned staircase spirals toward the temple."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "tags": [
+    "duskruin:smithy",
+    "smithy"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1333,
+      529,
+      1342,
+      538
+    ]
+  },
+  "exits": [
+    {
+      "to": 26092,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26388,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 36810,
+      "kind": "climb",
+      "cmd": "climb archway",
+      "cost": 0.2
+    }
+  ]
+}

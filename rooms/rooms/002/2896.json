@@ -1,0 +1,179 @@
+{
+  "id": 2896,
+  "uid": [
+    4560034
+  ],
+  "title": [
+    "[Southern Slopes, Treeline]"
+  ],
+  "description": [
+    "The mountains sag above, forming a curved bowl framed within the thrusting peaks at its sides.  All but a few jagged outcroppings lie buried under a soft blanket of white powder.  Spiraling overhead, tendrils of blowing snow sweep upwards over the concave slope.  The dancing wisps of winter's smoke eventually fade into nothingness against the sky."
+  ],
+  "paths": [
+    "Obvious paths: southwest, up"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1105,
+      288,
+      1115,
+      298
+    ]
+  },
+  "exits": [
+    {
+      "to": 2895,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 6000,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "skill_under": [
+                  "survival",
+                  50
+                ]
+              },
+              {
+                "encumbrance_over": 49
+              }
+            ]
+          }
+        },
+        {
+          "move": "up"
+        }
+      ],
+      "cost": 7.0
+    },
+    {
+      "to": 2897,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 6000,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "skill_under": [
+                  "survival",
+                  50
+                ]
+              },
+              {
+                "encumbrance_over": 49
+              }
+            ]
+          }
+        },
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

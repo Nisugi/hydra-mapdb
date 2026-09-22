@@ -1,0 +1,56 @@
+{
+  "id": 13708,
+  "uid": [
+    34155
+  ],
+  "title": [
+    "[Ta'Vaalor Dye Wares, Dyer]"
+  ],
+  "description": [
+    "Columnar panels of semi-transparent silk hang from the ceiling to just brush the floor with their rainbow of colors.  A long counter with a channel along the edges dominates the middle of the room, providing a work surface for coloring.  Leading to a back room, an arch opens in the wall behind the counter."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dyers_tent-1512162732.png",
+    "rect": [
+      1453,
+      953,
+      1598,
+      1030
+    ]
+  },
+  "exits": [
+    {
+      "to": 13547,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13709,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 13711,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13712,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

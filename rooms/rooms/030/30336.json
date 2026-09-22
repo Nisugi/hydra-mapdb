@@ -1,0 +1,52 @@
+{
+  "id": 30336,
+  "uid": [
+    8214710
+  ],
+  "title": [
+    "[Caligae of the Colossus, Bow]"
+  ],
+  "description": [
+    "Sprawling across the icy oak decking, a gold and crimson-striped tent occupies the bow and utilizes two wrought iron hooks in place of stakes, the metal covered in a frosty sheen.  The consistent sound of hammering filters from between the canvas sheets, muffled by the snow.  Just beyond the peak of the tent, a stony arm rises into the air and is holding aloft a copper lantern."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      300,
+      941,
+      329,
+      972
+    ]
+  },
+  "exits": [
+    {
+      "to": 30335,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30337,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30339,
+      "kind": "go",
+      "cmd": "go crimson tent",
+      "cost": 0.2
+    },
+    {
+      "to": 30341,
+      "kind": "go",
+      "cmd": "go canvas shelter",
+      "cost": 0.2
+    }
+  ]
+}

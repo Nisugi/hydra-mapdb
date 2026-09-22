@@ -1,0 +1,63 @@
+{
+  "id": 31870,
+  "uid": [
+    8083087
+  ],
+  "title": [
+    "[Darkbriar Woods, Shadowed Path]"
+  ],
+  "description": [
+    "Dense thickets of black briars and stands of hawthorn, cedar, and birch obscure several buildings, deep snow further hindering access.  An icy cobweb spreads its lacy pattern between two winterberry bushes, something rodent-sized trapped in a glittering array of ice and webbing at its center.  Tree branches arch over the pathway, creating a canopy blocking the skies above."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1321,
+      245,
+      1343,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31869,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31871,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31970,
+      "kind": "go",
+      "cmd": "go icicle-laden abode",
+      "cost": 0.2
+    },
+    {
+      "to": 31973,
+      "kind": "go",
+      "cmd": "go vine-wrapped edifice",
+      "cost": 0.2
+    },
+    {
+      "to": 33941,
+      "kind": "go",
+      "cmd": "go snowy residence",
+      "cost": 0.2
+    }
+  ]
+}

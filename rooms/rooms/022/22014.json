@@ -1,0 +1,45 @@
+{
+  "id": 22014,
+  "uid": [
+    109100
+  ],
+  "title": [
+    "[Silvergate, Bridal Suite]"
+  ],
+  "description": [
+    "Floral patterns in rose and cream velvet frame the windows of this delightfully private chamber.  Enclosed with a canopy and curtains of sheer lace, a large bed rests opposite a fireplace which burns with a cheerful light.  In front of the fireplace, there is a soft fur rug.  A delicately carved oak sideboard stands alongside the gold door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      908,
+      7,
+      963,
+      62
+    ]
+  },
+  "exits": [
+    {
+      "to": 14674,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlatch door"
+        },
+        {
+          "put": "open door"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

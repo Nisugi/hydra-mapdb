@@ -1,0 +1,38 @@
+{
+  "id": 31265,
+  "uid": [
+    3027019
+  ],
+  "title": [
+    "[Asylum, Solitary Wing]"
+  ],
+  "description": [
+    "Dust and haze fill the air, making it difficult to see either the thick steel door or the adjacent metal barred door.  Draperies of cobwebs hang from the low ceiling and brush against anything that moves through the hall.  A slimy puddle lies in the center of the hall, giving off a tangy stink."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 31251,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31264,
+      "kind": "go",
+      "cmd": "go thick door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 21689,
+  "uid": [
+    4043031
+  ],
+  "title": [
+    "[Clovertooth Hall, Main Lobby]"
+  ],
+  "description": [
+    "A dark riverstone statue occupies the center of the expansive public space, its height drawing attention to a painted dome two stories overhead.  The pale stone floor and walls echo with the purposeful footsteps of citizens moving around the building, and with the brisk conversation of those who occupy the benches along the walls.  Two large windows flank the wide entryway, bathing the lobby in gentle golden light.",
+    "A dark riverstone statue occupies the center of the expansive public space, its height drawing attention to the dome that rises two stories overhead.  Silence hangs heavy on the night air, and the few citizens moving around the building do so with an air of dour resignation.  A few benches stand empty along the walls, which reflect the silvered moonlight that streams through the two entryside windows."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide clovertooth",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Clovertooth Hall",
+    "mapshortname:Clovertooth Hall"
+  ],
+  "image": {
+    "file": "imt-Clovertooth_Hall-1615305972.png",
+    "rect": [
+      774,
+      1372,
+      874,
+      1464
+    ]
+  },
+  "exits": [
+    {
+      "to": 2428,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 29528,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 29531,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29533,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29536,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

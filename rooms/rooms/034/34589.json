@@ -1,0 +1,40 @@
+{
+  "id": 34589,
+  "uid": [
+    669032
+  ],
+  "title": [
+    "[Ebonshade Tower, Portal]"
+  ],
+  "description": [
+    "Seeming to flow up and down upon itself, a column of deep ruby energy radiates light throughout the room.  Circling the magical flow is a copper plate set in the floor, its unique hue standing out against the dark stone.  A shimmering crimson portal leads deeper into this level of the tower."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      420,
+      518,
+      455,
+      551
+    ]
+  },
+  "exits": [
+    {
+      "to": 34588,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 34592,
+      "kind": "go",
+      "cmd": "go column",
+      "cost": 0.2
+    }
+  ]
+}

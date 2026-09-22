@@ -1,0 +1,44 @@
+{
+  "id": 17751,
+  "uid": [
+    250011
+  ],
+  "title": [
+    "[Guild Hall, South Hall]"
+  ],
+  "description": [
+    "The hallway abruptly ends in an enclosed space, sparsely furnished and decorated with simple wooden carvings of birds.  A soft, warm limestone, deep yellow in color, forms the mantel and framework of a large stone fireplace."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild armor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      656,
+      514,
+      676,
+      534
+    ]
+  },
+  "exits": [
+    {
+      "to": 17750,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17752,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

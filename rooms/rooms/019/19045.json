@@ -1,0 +1,61 @@
+{
+  "id": 19045,
+  "title": [
+    "[Spitfire, Main Deck Portside]"
+  ],
+  "description": [
+    "The Spitfire's deck is bustling with activity.  This has got to be the fiercest looking gang of three-foot tall pirates you've ever seen!  Halflings are scurrying about, yipping back and forth in their distinctive dialect.  One of the crew pushes past and clambers up the backstays, disappearing into the rigging above.  Overhead towers the magnificent mainmast, bedecked with rigging and sporting a huge black flag emblazoned with a tart over crossed bones."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the bay",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:fest-spitfire"
+  ],
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      16,
+      313,
+      53,
+      349
+    ]
+  },
+  "exits": [
+    {
+      "to": 8889,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 19047,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19048,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19054,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19055,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

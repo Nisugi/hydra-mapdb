@@ -1,0 +1,49 @@
+{
+  "id": 28484,
+  "uid": [
+    4740472
+  ],
+  "title": [
+    "[Public Baths, Annex]"
+  ],
+  "description": [
+    "A circular mosaic is inlaid upon the floor, its vivid colors bringing to life a scene of a large ship hurtling through a storm-tossed sea.  Sapphire blue knotwork twines across the perimeter of the expansive mural, its lustrous surface gleaming in the faint illumination.  Four doors, one each in verdant green, sky blue, deep blue or dark red, engraved with the faint impressions of gentle waves fill the gaps between the tall columns lining the walls and a bright light filters in from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28485,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28487,
+      "kind": "go",
+      "cmd": "go dark door",
+      "cost": 0.2
+    },
+    {
+      "to": 28488,
+      "kind": "go",
+      "cmd": "go deep door",
+      "cost": 0.2
+    },
+    {
+      "to": 28489,
+      "kind": "go",
+      "cmd": "go sky door",
+      "cost": 0.2
+    },
+    {
+      "to": 28490,
+      "kind": "go",
+      "cmd": "go verdant door",
+      "cost": 0.2
+    }
+  ]
+}

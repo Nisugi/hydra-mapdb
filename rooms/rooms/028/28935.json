@@ -1,0 +1,76 @@
+{
+  "id": 28935,
+  "uid": [
+    7118381
+  ],
+  "title": [
+    "[Unburied Treasures]",
+    "[Unburied Treasure]"
+  ],
+  "description": [
+    "The salt-bleached floorboards of this wagon groan ominously underfoot, and a stuffed seagull eyes you suspiciously from a prominent perch directly over the driftwood countertop that dominates the space.  Small chests and crates litter the floor, stacked haphazardly atop each other in places, and each containing some manner of bauble or trinket.  The air is humid and dank in this place, combining with the small room to create a stifling ambience."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "locksmith",
+    "locksmith shop",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28908,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28936,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

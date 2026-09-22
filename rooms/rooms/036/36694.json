@@ -1,0 +1,39 @@
+{
+  "id": 36694,
+  "uid": [
+    8400050
+  ],
+  "title": [
+    "[Nyessem, Maivaldius Museum]"
+  ],
+  "description": [
+    "The white stone walls in this room of the museum are dull and lacking their familiar glow, causing a long shadow to be cast from a broad quartz-studded tunnel.  To one side, two large portraits are cast in bright light: a stylized watercolor painting of an older woman and a dark oil painting of a severe man.  Opposite them, across the room, two others are crossed in shadow: a puzzle-fit stone mosaic of an older man and a smudged charcoal etching of a withered man.  In the room's center, a slab of white stone is set on a long table under a bright spotlight."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      1061,
+      723,
+      1080,
+      740
+    ]
+  },
+  "exits": [
+    {
+      "to": 36664,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 36695,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

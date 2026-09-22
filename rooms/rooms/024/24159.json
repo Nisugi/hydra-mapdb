@@ -1,0 +1,38 @@
+{
+  "id": 24159,
+  "title": [
+    "[Necropolis, Underground Lake]"
+  ],
+  "description": [
+    "Jutting out to the north is a rotted wooden dock, surrounded by marooned gondolas.  A dim green glow can be seen under the surface of the water."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24152,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "s"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24160,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dock"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

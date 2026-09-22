@@ -1,0 +1,38 @@
+{
+  "id": 21144,
+  "uid": [
+    289007
+  ],
+  "title": [
+    "[The Colonnade, Hallway]"
+  ],
+  "description": [
+    "The hallway here is brightly lit, with oil lamps resting in elaborate pewter sconces along the walls on both sides.  A wooden stage door stands between two sconces leading stage left, while a dressing room door in the opposite wall is clearly marked with a gilded golden star.  At each end of the hallway, a polished oak door leads into the audience chamber."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 21143,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 21145,
+      "kind": "go",
+      "cmd": "go dressing door",
+      "cost": 0.2
+    },
+    {
+      "to": 21146,
+      "kind": "go",
+      "cmd": "go stage door",
+      "cost": 0.2
+    }
+  ]
+}

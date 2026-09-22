@@ -1,0 +1,50 @@
+{
+  "id": 32568,
+  "uid": [
+    336814
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "The jagged spires of the coastal cliffs rise up overhead as the Darkstone Bay floods in to eternally brush across the Black Sands beach. Nearby rocks glisten with the spray from the ocean, and the crashing of waves resounds nearby."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 7625,
+      "kind": "go",
+      "cmd": "go beach",
+      "cost": 0.2
+    },
+    {
+      "to": 32569,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

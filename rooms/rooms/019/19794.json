@@ -1,0 +1,56 @@
+{
+  "id": 19794,
+  "uid": [
+    677010
+  ],
+  "title": [
+    "[Cleric Guild, Cavern]"
+  ],
+  "description": [
+    "Carved from the natural rock of the roughly circular cavern is an arcade leading to the numerous training areas of the guild.  Luminescent moss clings to the stalactites above the protective crystalline dome overhead.  The floor has been partitioned into several immaculately maintained rock gardens featuring stones in a dizzying variety of colors, sizes, and shapes."
+  ],
+  "paths": [
+    "Obvious exits: north, west, up"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "cleric alchemy administrator",
+    "cleric guild administrator"
+  ],
+  "image": {
+    "file": "en-zul-logoth-cleric-guild.png",
+    "rect": [
+      639,
+      212,
+      690,
+      261
+    ]
+  },
+  "exits": [
+    {
+      "to": 19791,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 19795,
+      "kind": "go",
+      "cmd": "go garden",
+      "cost": 0.2
+    },
+    {
+      "to": 19800,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19803,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

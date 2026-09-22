@@ -1,0 +1,52 @@
+{
+  "id": 12574,
+  "uid": [
+    3013001
+  ],
+  "title": [
+    "[Stormbrow Gallery, Lobby]"
+  ],
+  "description": [
+    "Sunlight filters in throught the gates, glittering off a wide staircase that leads upward, spiraling round and round beneath the enormous, glass dome ceiling.  The room is quite spacious, and though sparsely decorated, exudes a sense of elegance and respect.",
+    "The moonlight adds an ethereal glow to the torchlight in the room.  A wide staircase leads upward, spiraling round and round beneath the enormous, glass dome ceiling.  Even at night, the sparsely decorated room exudes a sense of elegance and respect.  A seemingly endless blue-black sky glitters with the hundreds of white starstones that dangle from the ceiling far overhead."
+  ],
+  "paths": [
+    "Obvious exits: east, down",
+    "Obvious exits: east"
+  ],
+  "location": "Stormbrow Gallery",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 1950,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 12981,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 14707,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35438,
+      "kind": "go",
+      "cmd": "go glaes archway",
+      "cost": 0.2
+    }
+  ]
+}

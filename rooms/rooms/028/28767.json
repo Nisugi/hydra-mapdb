@@ -1,0 +1,68 @@
+{
+  "id": 28767,
+  "uid": [
+    3213002
+  ],
+  "title": [
+    "[Williwaw Resort, Lobby]"
+  ],
+  "description": [
+    "The lobby is lit by a massive copper fixture, suspended by chains from the vaulted wood beam ceiling and set with hundreds of burning candles.  Central and opposite the entry doors is a sweeping wood-and-stone staircase, flanked on the ground floor by some copper-framed glass panels and a pointed mahogany arch.  Elegant and rustic elements of design mesh gracefully in the large chamber, where walls with squared hunter green panels meet with a polished birchwood floor."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Vardar_Hollow_Map-51200827a.png",
+    "rect": [
+      764,
+      619,
+      833,
+      687
+    ]
+  },
+  "exits": [
+    {
+      "to": 28766,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 28768,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28769,
+      "kind": "go",
+      "cmd": "go panels",
+      "cost": 0.2
+    },
+    {
+      "to": 28770,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28786,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28787,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 26593,
+  "title": [
+    "[Caligos Isle, Eel Beds]"
+  ],
+  "description": [
+    "Low ceilinged and cramped, the cavern has uneven floors and walls that are striated with purple algae and off-white calcite.  Iron-caged lanterns dangle from the ceiling to illuminate a strange tubular contraption, which resides over a banded oak-slatted bucket.  Pacing between an iron-bound warped oak chest and a dark glaes aquarium, a plump-faced gnome child watches over the area with a look that is a mixture of curiosity and amusement.  A knotted hemp rope provides an exit from the cavern and entry to the floor above."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: east, south, west, down"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      857,
+      219,
+      871,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 26592,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 27564,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27565,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27566,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27567,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

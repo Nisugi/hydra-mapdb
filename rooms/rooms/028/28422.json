@@ -1,0 +1,55 @@
+{
+  "id": 28422,
+  "title": [
+    "[Windfellow's Retreat, Dungeon]"
+  ],
+  "description": [
+    "This space is completely flooded and the water is a few feet deep in every direction, though there is no apparent source for the water.  The light is sparse and appears to be emanating from luminescent fungi in the cracks of the stone walls.  Littering the walls are a variety of shackles, all of which are in various states of disrepair.",
+    "Luminescent fungi casts a glow within the cracks of the stone walls, the space completely flooded with water several feet deep in every direction.  Interspersed between the disrepaired shackles littering the walls are several wooden toy ducks floating in the water, followed by a small toy galleon."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      619,
+      1352,
+      674,
+      1404
+    ]
+  },
+  "exits": [
+    {
+      "to": 28400,
+      "kind": "go",
+      "cmd": "go metal door",
+      "cost": 0.2
+    },
+    {
+      "to": 28423,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28425,
+      "kind": "go",
+      "cmd": "go splintered door",
+      "cost": 0.2
+    },
+    {
+      "to": 28426,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 28427,
+      "kind": "go",
+      "cmd": "go arched gate",
+      "cost": 0.2
+    }
+  ]
+}

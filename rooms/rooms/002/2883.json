@@ -1,0 +1,151 @@
+{
+  "id": 2883,
+  "uid": [
+    4560047
+  ],
+  "title": [
+    "[Northern Slopes, Narrow Chute]"
+  ],
+  "description": [
+    "The wintry winds are unable to invade this narrow chute.  Formed by a fracture in the slope, it slices vertically through the basalt, a deep scar marring the mountain.  To either side, dark rock walls constrict the narrow space available.  An outcropping looms overhead, capping the upper end of the chute."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "glassfern frond",
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1321,
+      229,
+      1331,
+      239
+    ]
+  },
+  "exits": [
+    {
+      "to": 2881,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 6000,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "skill_under": [
+                  "survival",
+                  50
+                ]
+              },
+              {
+                "encumbrance_over": 49
+              }
+            ]
+          }
+        },
+        {
+          "move": "down"
+        }
+      ],
+      "cost": 7.0
+    },
+    {
+      "to": 2884,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 6000,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "skill_under": [
+                  "survival",
+                  50
+                ]
+              },
+              {
+                "encumbrance_over": 49
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb outcropping"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

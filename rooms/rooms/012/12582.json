@@ -1,0 +1,55 @@
+{
+  "id": 12582,
+  "uid": [
+    3010001
+  ],
+  "title": [
+    "[Hog's Pen]"
+  ],
+  "description": [
+    "This rugged tavern is a single great hall, windowless and choked with smoke from its blazing hearth and the long pipes favored by many of the local dwarves.  Tables and benches are scattered about, clumped here and there in bunches where a large group of miners or a logging team has staked a claim.  A row of barrels set on end near the fire and tended by a gruff bearded fellow seems to serve as a bar.  Around it, rain and ale have softened the dirt floor to mud."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the old Logging Road",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      419,
+      315,
+      429,
+      325
+    ]
+  },
+  "exits": [
+    {
+      "to": 2053,
+      "kind": "go",
+      "cmd": "go flap",
+      "cost": 0.2
+    },
+    {
+      "to": 12583,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28709,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": {
+        "when": {
+          "citizenship": "Teras Isle"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

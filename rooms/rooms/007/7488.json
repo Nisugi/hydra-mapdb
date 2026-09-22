@@ -1,0 +1,54 @@
+{
+  "id": 7488,
+  "uid": [
+    94036
+  ],
+  "title": [
+    "[Dark Grotto, Long Stairway]"
+  ],
+  "description": [
+    "A gargantuan stairway descends from the landing here, reaching down along a solid stone wall into a huge cavern, farther than you can see.  The stair is a marvel, an engineering feat of unparalleled proportions.  The broad steps are more than twenty feet wide, some seven or eight feet deep, and about three feet high.  The floor of the huge cavern lies so far below that all detail is lost in the distance.  A large, dark tunnel has been bored into the stone wall."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1001,
+      489,
+      1012,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 7489,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 24571,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "down"
+        },
+        {
+          "pause": 200
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": {
+        "hasted": 15.0,
+        "step": 0.2
+      }
+    }
+  ]
+}

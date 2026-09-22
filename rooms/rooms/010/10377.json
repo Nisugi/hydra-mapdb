@@ -1,0 +1,95 @@
+{
+  "id": 10377,
+  "uid": [
+    675002
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal gleaming in the sunlight.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view.",
+    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal cast in a dim illumination from the moons.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "black peppercorn",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "dark blue honeyberries",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "rye grass",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_cleric_guild.png",
+    "rect": [
+      208,
+      827,
+      260,
+      880
+    ]
+  },
+  "exits": [
+    {
+      "to": 10376,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13502,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 19810,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

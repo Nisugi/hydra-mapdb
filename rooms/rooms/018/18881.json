@@ -1,0 +1,45 @@
+{
+  "id": 18881,
+  "uid": [
+    108119
+  ],
+  "title": [
+    "[Twilight Hall, Lockers]"
+  ],
+  "description": [
+    "Several sturdy lockers line the walls here, decorated with elegant golden leafwork and intricate etchings.  Your locker has been removed from the shelf above and sits ready for you on a sturdy counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "unique_loot": [
+    "velvet curtain"
+  ],
+  "terrain": "hard, flat",
+  "tags": [
+    "peer curtain =~ /Twilight, West Tapestry Room/"
+  ],
+  "meta": [
+    "che:Twilight Hall",
+    "che:twilight_hall:locker",
+    "locker"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      376,
+      756,
+      435,
+      801
+    ]
+  },
+  "exits": [
+    {
+      "to": 18853,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    }
+  ]
+}

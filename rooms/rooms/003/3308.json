@@ -1,0 +1,51 @@
+{
+  "id": 3308,
+  "uid": [
+    4130023
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "A sheer cliff of ice blocks the ice trail.  A crevice opens in the wall, likely leading into and perhaps under the glacier.  The sparkle of the sun on the ice is nearly blinding, making your eyes squint and water.",
+    "A sheer cliff of ice blocks the ice trail.  A crevice opens in the wall, likely leading into and perhaps under the glacier.  Moonlight sparkles on the ice illuminating the area."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Glacier",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1131,
+      925,
+      1141,
+      935
+    ]
+  },
+  "exits": [
+    {
+      "to": 3307,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3309,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3310,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

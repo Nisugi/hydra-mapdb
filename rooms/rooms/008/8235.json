@@ -1,0 +1,80 @@
+{
+  "id": 8235,
+  "uid": [
+    390028
+  ],
+  "title": [
+    "[Wolves' Den, Long Hallway]"
+  ],
+  "description": [
+    "Six wooden doors line the eastern wall of this cold stone passage.  The first, second, and third doors seem almost intact, but insect husks lie thick on the floor around the fourth and fifth and a smell of mildew fills that part of the hall.  The sixth door is nearly broken off its hinges."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      37,
+      388,
+      47,
+      398
+    ]
+  },
+  "exits": [
+    {
+      "to": 8234,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8236,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8249,
+      "kind": "go",
+      "cmd": "go fourt door",
+      "cost": 0.2
+    },
+    {
+      "to": 8250,
+      "kind": "go",
+      "cmd": "go sixt door",
+      "cost": 0.2
+    },
+    {
+      "to": 8251,
+      "kind": "go",
+      "cmd": "go firs door",
+      "cost": 0.2
+    },
+    {
+      "to": 8252,
+      "kind": "go",
+      "cmd": "go secon door",
+      "cost": 0.2
+    },
+    {
+      "to": 8253,
+      "kind": "go",
+      "cmd": "go thir door",
+      "cost": 0.2
+    },
+    {
+      "to": 8254,
+      "kind": "go",
+      "cmd": "go fift door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": 22461,
+  "uid": [
+    12010001
+  ],
+  "title": [
+    "[Lyra-Flyr Corral]"
+  ],
+  "description": [
+    "Set to one side of the bailey, near the hostelry, a small verdant corral is surrounded by a pale stone fence.  A beautiful maple stable sits towards the back of the enclosure.  High above the double sliding doors are a pair of morning doves perched on a stack of hay."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "cold, damp",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "bright red cranberry",
+    "bright red teaberry",
+    "brostheras grass",
+    "clasping bellflower",
+    "crimson clover inflorescence",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "feather clover bloom",
+    "golden aster",
+    "golden flax fronds",
+    "ironfern root",
+    "luckbloom blossom",
+    "murdroot",
+    "pale purple spiderwort",
+    "pennyroyal stem",
+    "pink baldhip rose",
+    "rainbow chard",
+    "sassafras leaf",
+    "soft mushroom",
+    "sprig of larkspur",
+    "stable",
+    "stalk of chicory",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "urchin guide stable",
+    "urchin-access",
+    "valerian root",
+    "violet shining rose",
+    "violet-tinged speedwell",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      54,
+      274,
+      76,
+      296
+    ]
+  },
+  "exits": [
+    {
+      "to": 4639,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 33261,
+      "kind": "go",
+      "cmd": "go maple stable",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 11474,
+  "uid": [
+    304232
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "A strong current prevents swimming to the west.  The current makes the long strands of broad-leafed kelp undulate like underwater belly-dancers.  Crabs and lobsters have scuttled along the sandy floor of the bay, leaving tiny dimple-like tracks."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      922,
+      1180,
+      932,
+      1190
+    ]
+  },
+  "exits": [
+    {
+      "to": 11470,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11473,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11475,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim east"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11478,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

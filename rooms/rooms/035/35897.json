@@ -1,0 +1,57 @@
+{
+  "id": 35897,
+  "uid": [
+    3024013
+  ],
+  "title": [
+    "[River Muagh, Dark Cliffs]"
+  ],
+  "description": [
+    "A forest of mistwood and canver trees to the south comes to a sudden halt as dark cliffs jut towards the sky on both sides of the river.  The sky is filled with pitch black thunderheads; a churning amalgamation of raw power."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "strand of seaweed",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      333,
+      652,
+      369,
+      687
+    ]
+  },
+  "exits": [
+    {
+      "to": 35896,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35898,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

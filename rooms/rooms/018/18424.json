@@ -1,0 +1,45 @@
+{
+  "id": 18424,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "From a nearby building, smoke puffs out of a stonework chimney at regular intervals, and the scent of roasted meat is strong in the air.  A pair of chairs made from oak and woven willow branches sits on the building's porch, and a small stall has been erected in front, covered by a simple oilcloth roof.  Though the road continues northwardly, a small meandering trail leads off to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18420,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18425,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 18427,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18453,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

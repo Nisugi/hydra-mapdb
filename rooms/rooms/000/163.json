@@ -1,0 +1,53 @@
+{
+  "id": 163,
+  "uid": [
+    13101006
+  ],
+  "title": [
+    "[Ta'Illistim, Vaeshean Wey]"
+  ],
+  "description": [
+    "The entrance to the Hall of Patrons is flanked by twin fluted columns carved of pure white marble.  Atop each column, a solemn gargoyle stands sentinel, head bowed in homage to the symbol of servitude carved into the pediment above the entry doors.  Massive stone steps lead into the Hall's outer courtyard.",
+    "The entrance to the Hall of Patrons is flanked by twin fluted columns carved of pure white marble.  Atop each column, a solemn gargoyle stands sentinel, head bowed in homage to the symbol of servitude carved into the pediment above the entry doors.  Massive stone steps lead into the Hall's entryway.",
+    "The entrance to the Hall of Patrons is flanked by twin fluted columns carved of pure white marble.  Atop each column, a solemn peacock stands sentinel, head bowed in homage to the images of servitude carved into the pediment above the entry doors.  Massive silvery blue stone steps lead into the Hall's outer courtyard."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      242,
+      653,
+      265,
+      674
+    ]
+  },
+  "exits": [
+    {
+      "to": 162,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 164,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4038,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": 0.2
+    }
+  ]
+}

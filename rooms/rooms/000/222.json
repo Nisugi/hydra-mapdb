@@ -1,0 +1,187 @@
+{
+  "id": 222,
+  "uid": [
+    397001
+  ],
+  "title": [
+    "[A Quiet Path]"
+  ],
+  "description": [
+    "A stray breeze trails through from the north, carrying with it the scent of lavender and, oddly, grilled rolton.  Though many might ponder this strange combination of fragrances, the truly remarkable aspect of this quiet path lies in the regal beauty of the ancient trees whose branches reach out overhead, offering welcome to all who pass."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "alder bark",
+    "angelica root",
+    "basal moss",
+    "birch bark",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "coppery rain lily",
+    "creamy white wisteria",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "dwarf bilberry",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "ginger root",
+    "golden buttercup",
+    "green pear",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "oak twig",
+    "oxblood lily",
+    "pale rose pink wisteria",
+    "peppermint leaves",
+    "pink oleander",
+    "pink rain lily",
+    "plump black mulberries",
+    "purple datura blossom",
+    "red oleander",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of mistletoe",
+    "sprig of tarragon",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "sticks",
+    "sun-wilted tea leaves",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "urchin-access",
+    "walnuts",
+    "white baneberry",
+    "white datura blossom",
+    "white lily",
+    "white oleander",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yellow datura blossom",
+    "yellow lemon",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      656,
+      181,
+      666,
+      191
+    ]
+  },
+  "exits": [
+    {
+      "to": 221,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 410,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6258,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 6323,
+      "kind": "go",
+      "cmd": "go clearing",
+      "cost": 0.2
+    },
+    {
+      "to": 20733,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

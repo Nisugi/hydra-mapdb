@@ -1,0 +1,50 @@
+{
+  "id": 2940,
+  "uid": [
+    4132014
+  ],
+  "title": [
+    "[Abbey, Courtyard]"
+  ],
+  "description": [
+    "A pair of wide double doors leads into the abbey's receiving hall, part of an old stonehold built into the mountainside.  A carved stone wall hewn from massive blocks of granite encircles the courtyard and continues along the edge of the abbey.  To the northwest, the smell and sound of horses and mules rises from timber-framed stables against the wall."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      716,
+      962,
+      770,
+      1016
+    ]
+  },
+  "exits": [
+    {
+      "to": 2937,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 2941,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2944,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

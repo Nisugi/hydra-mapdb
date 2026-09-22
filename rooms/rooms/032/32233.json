@@ -1,0 +1,32 @@
+{
+  "id": 32233,
+  "uid": [
+    8088025
+  ],
+  "title": [
+    "[Sonreeva, Subterrane]"
+  ],
+  "description": [
+    "Smoke from burning torches lingers in the air, mixing with dust and causing the narrowing passage to feel more constricting.  Long curtains of cobwebs hang from the ceiling and walls, stirring slightly."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Naidem",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 32232,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 32234,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    }
+  ]
+}

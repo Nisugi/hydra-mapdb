@@ -1,0 +1,84 @@
+{
+  "id": 401,
+  "uid": [
+    2050
+  ],
+  "title": [
+    "[Aznell's Armory, Forge]"
+  ],
+  "description": [
+    "Bits and pieces of armor adorn the walls, leather on one, and metal on the facing wall.  Scraps of leather and metal are littered across the floor, thickest near the iron anvil where apprentices are working on a misshapen lump of metal.  The heat and the closeness of the forge press in around you."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "armorshop",
+    "fire lily",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      122,
+      879,
+      152,
+      909
+    ]
+  },
+  "exits": [
+    {
+      "to": 289,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23831,
+      "kind": "go",
+      "cmd": "go sturdy ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 28224,
+  "uid": [
+    3215123
+  ],
+  "title": [
+    "[Annex, House Sylvanfair Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A black velvet pennant edged with silver hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sylvanfair:entrance_annex",
+    "che:sylvanfair:entrance_locker",
+    "locker annex:House Sylvanfair"
+  ],
+  "exits": [
+    {
+      "to": 12297,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 29569,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    }
+  ]
+}

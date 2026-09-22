@@ -1,0 +1,44 @@
+{
+  "id": 11247,
+  "uid": [
+    377207
+  ],
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Footprints mar the tiled floor of the hallway.  The words \"Staff Only\" are painted on the wall beside a narrow set of wooden stairs.  The lower stair railings have been indiscriminately hacked and chopped."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      110,
+      574,
+      120,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 11229,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11248,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

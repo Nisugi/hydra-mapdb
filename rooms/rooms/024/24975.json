@@ -1,0 +1,34 @@
+{
+  "id": 24975,
+  "title": [
+    "[Ruined Catacombs]"
+  ],
+  "description": [
+    "Redolent with mold, moist air wafts in from above the catacombs.  Three of the walls are each inset with thirty-six shelf graves, stacked in series of six and filled with small, splintered bones rife with gnaw marks.  The eastern wall instead has only ten intact graves, the others clearly lost to an eroded wall opening.  Copious patches of luminous moss creep over the walls, the greenish light lending an eerie aura to the tomb.  To one side of the chamber, a wide space is centered with several burial pits."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "missing"
+  ],
+  "exits": [
+    {
+      "to": 24967,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 24976,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

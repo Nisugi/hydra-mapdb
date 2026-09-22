@@ -1,0 +1,59 @@
+{
+  "id": 18348,
+  "uid": [
+    267101
+  ],
+  "title": [
+    "[Basement]"
+  ],
+  "description": [
+    "Several elves stare at you, not terribly impressed at your entrance.  One of them drums his fingers impatiently on a small table, apparently waiting for something.  A rather solid door is just visible beyond the group, while a visible tunnel leads off into the darkness."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild",
+    "rogueguild"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      911,
+      1155,
+      949,
+      1195
+    ]
+  },
+  "exits": [
+    {
+      "to": 17806,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    },
+    {
+      "to": 18349,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

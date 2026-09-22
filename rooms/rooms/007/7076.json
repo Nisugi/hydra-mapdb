@@ -1,0 +1,44 @@
+{
+  "id": 7076,
+  "uid": [
+    44050
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You run into a post and stumble back, almost falling to the ground.  Approaching more cautiously, you discover a line of thin posts set across the passage.  You explore one with your hands, but jerk back when you find a half-rotted skull impaled at the top.  You can probably squeeze between the posts if you're careful."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      702,
+      982,
+      712,
+      992
+    ]
+  },
+  "exits": [
+    {
+      "to": 7075,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7077,
+      "kind": "go",
+      "cmd": "go posts",
+      "cost": 0.2
+    }
+  ]
+}

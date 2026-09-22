@@ -1,0 +1,97 @@
+{
+  "id": 2455,
+  "uid": [
+    4042305
+  ],
+  "title": [
+    "[Icemule Trace, East Gate]"
+  ],
+  "description": [
+    "Pack mules bray from wide hitching posts to either side of the East Gate, laden with luggage and gear from travelers fixing to brave the snowy wilderness.  Crowds pass through the barbican beyond, a peculiar mix of returning adventurers, weary merchants, and serene monks and sisters from the abbey to the east.  A group of halfling children plays a game by the barbican towers, daring one another to run out into the wilds beyond.",
+    "Pack mules bray from wide hitching posts to either side of the East Gate, laden with luggage and gear from travelers fixing to brave the snowy wilderness.  Crowds pass through the barbican beyond, a peculiar mix of returning adventurers, weary merchants, and serene monks and sisters from the abbey to the east.  Several town guards stand watch in the darkness near the barbican towers, their eyes trained on the wilds beyond.",
+    "A layer of dust swirls around the ground, stirred up by the trampling feet of the crowds passing in and out of a tall gate.  A group of halfling children play a game by the gate, daring each other to run out into the wilds beyond."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "eastgate",
+    "stalk of bluebells",
+    "urchin guide eastgate",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      1026,
+      787,
+      1062,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 2452,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3234,
+      "kind": "go",
+      "cmd": "go east gate",
+      "cost": 0.2
+    },
+    {
+      "to": 27716,
+      "kind": "go",
+      "cmd": "go north tower",
+      "cost": 0.2
+    },
+    {
+      "to": 27723,
+      "kind": "go",
+      "cmd": "go south tower",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

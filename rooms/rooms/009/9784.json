@@ -1,0 +1,129 @@
+{
+  "id": 9784,
+  "uid": [
+    13022045
+  ],
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Patches of phosphorescent red fungus grow along ceiling of this circular tunnel, the invasive confines of the room tinted a melancholy sanguine by the growth.  Vertical fissures spread across the walls like jagged crackles of energy.  A light coating of moisture edges the deep scars upon the earth, the tiny drops imparting a sparkling sheen to the otherwise dismal surroundings."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Maaghara Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      1069,
+      705,
+      1079,
+      715
+    ]
+  },
+  "exits": [
+    {
+      "to": 9734,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go root"
+        },
+        {
+          "wait_until": {
+            "at": 9734
+          },
+          "when": {
+            "not": "still_here"
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "southwest",
+            "southwest",
+            "east",
+            "southwest",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "at": 9823
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "southwest",
+            "west",
+            "west",
+            "northeast",
+            "northeast",
+            "northwest"
+          ],
+          "when": {
+            "at": 9818
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "east",
+            "east",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "at": 9808
+          }
+        },
+        {
+          "moves": [
+            "southwest",
+            "southeast",
+            "southwest"
+          ],
+          "when": {
+            "at": 9788
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "south",
+            "northeast",
+            "north",
+            "west",
+            "west",
+            "west"
+          ],
+          "when": {
+            "at": 9784
+          }
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 100.0
+    },
+    {
+      "to": 9769,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9771,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

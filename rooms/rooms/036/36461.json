@@ -1,0 +1,48 @@
+{
+  "id": 36461,
+  "uid": [
+    55015
+  ],
+  "title": [
+    "[Black Swan Castle, Moat]"
+  ],
+  "description": [
+    "The moat is foul-smelling and seethes with the vapors of decaying vegetation.  Clouds of mosquitos and gnats hover above the surface, making you pause from your strokes to swat them away so you can see.  The water is not very cold, but you feel a chill that is more bone-deep than merited merely by the slight change in temperature.",
+    "The foul-smelling moat seethes with the vapors of decaying vegetation.  Thick clouds of mosquitos and gnats hover above the surface, making it difficult to breathe without taking in either a mouthful of water or bugs."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      120,
+      440,
+      160,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 36455,
+      "kind": "other",
+      "cmd": "swim shore",
+      "cost": 0.2
+    },
+    {
+      "to": 36460,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 0.2
+    },
+    {
+      "to": 36462,
+      "kind": "other",
+      "cmd": "swim north",
+      "cost": 0.2
+    }
+  ]
+}

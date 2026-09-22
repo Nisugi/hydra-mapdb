@@ -1,0 +1,56 @@
+{
+  "id": 1938,
+  "uid": [
+    3003252
+  ],
+  "title": [
+    "[Adventurers Rest, Long Hall]"
+  ],
+  "description": [
+    "Bits of ash swirl in tiny eddies here at a turn in the passage."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1485,
+      670,
+      1630,
+      735
+    ]
+  },
+  "exits": [
+    {
+      "to": 1937,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1939,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25883,
+      "kind": "go",
+      "cmd": "go lapis archway",
+      "cost": 0.2
+    },
+    {
+      "to": 26832,
+      "kind": "go",
+      "cmd": "go agate archway",
+      "cost": 0.2
+    }
+  ]
+}

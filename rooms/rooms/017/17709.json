@@ -1,0 +1,50 @@
+{
+  "id": 17709,
+  "uid": [
+    377311
+  ],
+  "title": [
+    "[Citadel, Dungeon Corridor]"
+  ],
+  "description": [
+    "Broken clay jars line both sides of the corridor, emptied of their contents centuries before.  Beside a steel door lies a bundle of cloth and coils of rope covered in dust.  Over everything run small rodent footprints helter skelter in no obvious pattern or design."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      205,
+      1069,
+      215,
+      1079
+    ]
+  },
+  "exits": [
+    {
+      "to": 17708,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17710,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17712,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

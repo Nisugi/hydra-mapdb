@@ -1,0 +1,50 @@
+{
+  "id": 11180,
+  "uid": [
+    2100013
+  ],
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "At the west end of the hallway are the remnants of a once full-length tapestry, long ago cut into shreds so that its meaning would be forever lost.  Skeletons of troll, krolvin, and men lie everywhere, slowly crumbling to dust."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      489,
+      497,
+      499,
+      507
+    ]
+  },
+  "exits": [
+    {
+      "to": 11176,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11179,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11181,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1454,
+  "uid": [
+    4209032
+  ],
+  "title": [
+    "[Solhaven, Abalone Street]"
+  ],
+  "description": [
+    "Throngs of people travel westward towards the Market Square and the shouts of peddlers hawking their wares reach your ears.  The unmistakable scent of chocolate wafts from the doorway of a small, whitewashed shop on the north side of the street.  To the east you can see the hulking facade of the Solhaven Inn."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1064,
+      577,
+      1086,
+      599
+    ]
+  },
+  "exits": [
+    {
+      "to": 1453,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1455,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12812,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

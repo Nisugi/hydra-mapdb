@@ -1,0 +1,45 @@
+{
+  "id": 25035,
+  "uid": [
+    -7105069
+  ],
+  "title": [
+    "[Reim Settlement, Road]"
+  ],
+  "description": [
+    "A guard tower dominates the side of the road, the dilapidated structure surrounded by a wave of diagonally placed pikes.  Chunks of flesh and leather dangle from several steel spearheads, the bloodstains trailing upwards towards the tower's entrance.  The pungent scent of decay and weapon polish waft outwards from an open slit at the top of the tower."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      209,
+      837,
+      221,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 25030,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25041,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 25042,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

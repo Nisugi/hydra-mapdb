@@ -1,0 +1,56 @@
+{
+  "id": 16159,
+  "uid": [
+    564003
+  ],
+  "title": [
+    "[Outpost, Courtyard]"
+  ],
+  "description": [
+    "A large dirt courtyard is enclosed by a stucco and timber building that wraps around the open space hugging the large, thick wall that guards the outpost.  A covered walkway serves as protection from the elements to those passing in between doorways and archways that open directly on to the courtyard.  A row of sun-bleached orc skulls arc over a large gateway set into the wall, gazing downward on those coming and going with frozen grins and dark, lifeless eye sockets."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2722,
+      1683,
+      2744,
+      1706
+    ]
+  },
+  "exits": [
+    {
+      "to": 16021,
+      "kind": "go",
+      "cmd": "go gateway",
+      "cost": 0.2
+    },
+    {
+      "to": 16160,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 16161,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 16162,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

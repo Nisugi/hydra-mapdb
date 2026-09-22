@@ -1,0 +1,68 @@
+{
+  "id": 7171,
+  "uid": [
+    18007
+  ],
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The back wall of the crypt is a solid vertical mass of granite.  The blocks are held firmly in place by the clever shaping, with no mortar.  The path continues around the tomb, while to the north, a trail weaves through the shrubs and wilds."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "angelica root",
+    "blue whortleberry",
+    "bright red cranberry",
+    "cuctucae berry",
+    "ironfern root",
+    "murdroot",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "skeleton",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      240,
+      785,
+      250,
+      795
+    ]
+  },
+  "exits": [
+    {
+      "to": 7165,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7170,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7184,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    }
+  ]
+}

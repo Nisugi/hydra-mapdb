@@ -1,0 +1,80 @@
+{
+  "id": 3785,
+  "uid": [
+    15000003
+  ],
+  "title": [
+    "[Adventurer's Guild, Office]"
+  ],
+  "description": [
+    "Pushed against the polished mahogany walls are matching leather armchairs separated by gilt-edged end tables.  Twirling gently from its chain overhead, the clacking prisms from the crystal chandelier produce a soft melodic chime.  Directly beneath the fixture rests an oval shaped desk inlaid with blue lapis lazuli along its edges.  Tucked at the back of the room, the dried and well-preserved carcass of a mammoth arachnid rests within a glass display case."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      341,
+      1086,
+      408,
+      1147
+    ]
+  },
+  "exits": [
+    {
+      "to": 1775,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

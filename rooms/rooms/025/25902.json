@@ -1,0 +1,50 @@
+{
+  "id": 25902,
+  "uid": [
+    8211001
+  ],
+  "title": [
+    "[Sylinar's Spire, Courtyard]"
+  ],
+  "description": [
+    "Patches of dewy clover dot the lush green lawn around the base of an ivy-covered tall stone tower, its pointed, conical roof rising toward the starlit sky.  Flickering candlelight illuminates the window at the tower's very top as it overlooks the courtyard.  A cobblestone path winds toward the garden, while a stone-framed lancet arch leads out through the curtain wall."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Summit Academy",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "exit"
+  ],
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      296,
+      659,
+      322,
+      685
+    ]
+  },
+  "exits": [
+    {
+      "to": 25903,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 28088,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36527,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

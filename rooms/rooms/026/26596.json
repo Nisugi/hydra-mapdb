@@ -1,0 +1,36 @@
+{
+  "id": 26596,
+  "title": [
+    "[Caligos Isle, Cavern's Maw]"
+  ],
+  "description": [
+    "More vein-like fissures splay along the limestone walls, the ceiling pierced by disfigured stalactites like sharpened fangs threatening to rip apart a web-covered decline across the dusty floor below.  A dislodged stalactite lays shattered above a yellowed skull of dubious origin, a furry spider weaving an intricate web within its hollow eyesockets."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      594,
+      153,
+      607,
+      167
+    ]
+  },
+  "exits": [
+    {
+      "to": 26595,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26597,
+      "kind": "go",
+      "cmd": "go decline",
+      "cost": 0.2
+    }
+  ]
+}

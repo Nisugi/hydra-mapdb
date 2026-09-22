@@ -1,0 +1,96 @@
+{
+  "id": 12589,
+  "uid": [
+    3040002
+  ],
+  "title": [
+    "[Dark Palisade, Lovers' Leap]"
+  ],
+  "description": [
+    "The desolate moor gives up life to a jagged cliff of jet black volcanic rock and the grey sea beyond.  Cold wind carries the spray of the waves below against the rocks and howls up the face of the cliff below.  It draws a mournful wail from the dark stone as it hurtles onto the moor, blowing the tenacious shrubs into drawn and flat shadows of their normal shapes."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Dark Palisade",
+  "climate": "humid",
+  "terrain": "rough",
+  "tags": [
+    "blue passionflower",
+    "bright red teaberry",
+    "broken twig",
+    "crimson-flecked rose",
+    "ember orange rose",
+    "fiddlehead fern",
+    "golden hook mushroom",
+    "handful of currants",
+    "horseradish root",
+    "juniper berry",
+    "motherwort",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "white clover blossom",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      777,
+      377,
+      787,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 12588,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12590,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12591,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12593,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "jump"
+        },
+        {
+          "await": "You feel the presence of cold hard stone underneath you."
+        },
+        {
+          "pause": 100
+        },
+        {
+          "put": "stand"
+        },
+        {
+          "move_until_there": "west"
+        }
+      ],
+      "cost": 20.0
+    }
+  ]
+}

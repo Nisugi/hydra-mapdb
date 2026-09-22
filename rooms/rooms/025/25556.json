@@ -1,0 +1,27 @@
+{
+  "id": 25556,
+  "title": [
+    "[Underground Temple, Excavation]"
+  ],
+  "description": [
+    "Miniscule snowflakes dance along frigid gusts that blow through the wide fissure.  Deep carvings along frosted walls are partially filled-in with snow and have transformed into magnificent natural bas-relief designs.  Piles of rubble and dirt signify a recent cave-in."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Duskruin Arena",
+  "exits": [
+    {
+      "to": 25555,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 25560,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    }
+  ]
+}

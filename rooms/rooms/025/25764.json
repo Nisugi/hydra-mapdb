@@ -1,0 +1,62 @@
+{
+  "id": 25764,
+  "uid": [
+    3223821
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Flowing around the curve of an island to the southeast, the waterway opens up here; the water calms once away from the tidal fury that is characteristic of the various shorelines of the harbor.  Barely discernable, an odd coral formation glistens in the water's depths as the ambient light plays off of its skeletal structure.  Schools of bright yellow tangs dart in and out of the organic architecture as if playing hide and seek, their bright eyes wide and their demeanor skittish."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1760,
+      1119,
+      1781,
+      1139
+    ]
+  },
+  "exits": [
+    {
+      "to": 25761,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25763,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25765,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

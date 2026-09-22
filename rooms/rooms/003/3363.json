@@ -1,0 +1,83 @@
+{
+  "id": 3363,
+  "uid": [
+    4043866
+  ],
+  "title": [
+    "[Leaftoe's Health and Bake Shop]"
+  ],
+  "description": [
+    "A brick oven radiates heat from the corner.  Flour dusts the walls and floor, almost like a light snow.  Tins of sugar and other components line shelves on the walls, and bundles of herbs hang from the ceiling.  The room is filled with happy chaos, centering on the famed baker Leaftoe, who bustles about checking on the wares."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "herbalist",
+    "no forageables",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      1027,
+      699,
+      1063,
+      735
+    ]
+  },
+  "exits": [
+    {
+      "to": 2308,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3364,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

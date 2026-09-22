@@ -1,0 +1,44 @@
+{
+  "id": 35982,
+  "uid": [
+    13112316
+  ],
+  "title": [
+    "[Lounge Lockers]"
+  ],
+  "description": [
+    "Warm light filters through the curtained opening, faintly illuminating the simple cell."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Lost Home",
+  "terrain": "hard, flat",
+  "tags": [
+    "bhalocker",
+    "locker:beaconhall"
+  ],
+  "meta": [
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 35981,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

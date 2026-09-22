@@ -1,0 +1,81 @@
+{
+  "id": 20594,
+  "uid": [
+    336701
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "A cavern nexus extends out, with many different tunnels leading in every which direction.  The ground is worn and flat, firmly matted beneath frequent travel."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, west, northwest",
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      712,
+      256,
+      749,
+      293
+    ]
+  },
+  "exits": [
+    {
+      "to": 7497,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20593,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20598,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20620,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20633,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

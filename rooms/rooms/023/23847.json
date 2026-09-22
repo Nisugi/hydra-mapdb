@@ -1,0 +1,57 @@
+{
+  "id": 23847,
+  "uid": [
+    4422219
+  ],
+  "title": [
+    "[Circle of Trees, Platform Level]"
+  ],
+  "description": [
+    "Dark bark encapsulates the trunk of the rosewood tree around which various platforms and ramps have been affixed to thicker branches.  Hanging liana vines add a touch of color to the otherwise green and brown landscape.  A strong, sweet smell lingers in the air here, a mixture of the liana blooms as well as the rosewood tree itself.  Mingled with the vines, a woven rope disappears below the platform, heading toward the ground far below."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      609,
+      279,
+      629,
+      291
+    ]
+  },
+  "exits": [
+    {
+      "to": 23846,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 23854,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23880,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24222,
+      "kind": "go",
+      "cmd": "go curtain vines",
+      "cost": 0.2
+    },
+    {
+      "to": 34566,
+      "kind": "go",
+      "cmd": "go vine entry",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 4392,
+  "title": [
+    "[Ruby Level, Topaz Access]"
+  ],
+  "description": [
+    "Two stout dwarves are chatting with each other, not terribly interested in anything but their conversation.  They look up briefly as folks pass, but continue their heated debate.  A ladder leading down is visible just behind the pair."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4391,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4393,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 4395,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4431,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    }
+  ]
+}

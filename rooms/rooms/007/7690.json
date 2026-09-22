@@ -1,0 +1,44 @@
+{
+  "id": 7690,
+  "uid": [
+    68005
+  ],
+  "title": [
+    "[Underground Ruin, Entrance Hall]"
+  ],
+  "description": [
+    "This is the southern most end of the entrance hall.  The walls are bare except for a few burnt out torches.  Flattened against the south wall is the mummified corpse of a guard."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      348,
+      1177,
+      358,
+      1187
+    ]
+  },
+  "exits": [
+    {
+      "to": 7683,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7697,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

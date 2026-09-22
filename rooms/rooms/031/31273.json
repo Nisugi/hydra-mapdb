@@ -1,0 +1,52 @@
+{
+  "id": 31273,
+  "uid": [
+    4410004
+  ],
+  "title": [
+    "[Iyo Glade, Clearing]"
+  ],
+  "description": [
+    "To the west, several grave markers are visible beyond a gnarled wooden gate.  The area is nearly silent, as a reverent air hangs over the space.  Beside a natural gap in the flowers, the jungle blooms fade to a wide clearing to the east, showcasing long grass and wildflowers."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      423,
+      628,
+      471,
+      680
+    ]
+  },
+  "exits": [
+    {
+      "to": 31272,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    },
+    {
+      "to": 31274,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 31275,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31278,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": 12805,
+  "uid": [
+    15002006
+  ],
+  "title": [
+    "[Lyeonia Hall, Clerk's Office]"
+  ],
+  "description": [
+    "Bare of any papers, a plain oak desk is positioned diagonal to an unadorned high-backed chair behind it.  Other chairs line the northern and eastern wall nearest the desk where long bulletin boards are lined with neat rows of tasks to be completed.  A large armoire and armor stand are set side by side upon the western wall beneath a worn coat-of-arms banner."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      1498,
+      1083,
+      1565,
+      1152
+    ]
+  },
+  "exits": [
+    {
+      "to": 12801,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

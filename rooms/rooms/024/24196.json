@@ -1,0 +1,39 @@
+{
+  "id": 24196,
+  "title": [
+    "[Sacrificial Hall, South Gallery]"
+  ],
+  "description": [
+    "Continuing from the northeast, the audience of demon-carved columns fills this portion of the hall, facing the dais.  Although those recognizable as vathor and oculoth have been stretched and distorted in order to serve as support columns for the high-arched ceiling, other unnameable creatures have been carved in crouching poses with appendages folded double in order to fit into the same space.  Close against the west wall, a narrow set of marble steps ascends the dais to the north."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24192,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24195,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24197,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24206,
+      "kind": "go",
+      "cmd": "go marble steps",
+      "cost": 0.2
+    }
+  ]
+}

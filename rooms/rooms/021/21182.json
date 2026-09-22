@@ -1,0 +1,37 @@
+{
+  "id": 21182,
+  "uid": [
+    265419
+  ],
+  "title": [
+    "[Sewers, Beneath the Slaughter]"
+  ],
+  "description": [
+    "Smelling heavily of carnage, the dank passage is illuminated by a single torch resting in a bracket beside a blackened wrought iron ladder that leads upwards towards the oak ceiling.  Sanguine stains darken the walls and packed dirt floor."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 18261,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21181,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 21208,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

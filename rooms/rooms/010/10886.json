@@ -1,0 +1,164 @@
+{
+  "id": 10886,
+  "uid": [
+    663001
+  ],
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches illuminate the path and gate.",
+    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches line the path, ready to provide illumination when darkness falls."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "alder bark",
+    "angelica root",
+    "basal moss",
+    "birch bark",
+    "black tea leaves",
+    "blood orange",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "butterfly pea flower",
+    "calamia fruit",
+    "cantaloupe",
+    "coffee cherries",
+    "coppery rain lily",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fuzzy peach",
+    "genkew mushroom",
+    "golden buttercup",
+    "grapefruit",
+    "green pear",
+    "green tea leaves",
+    "honeymoon melon",
+    "kylan berry",
+    "luckbloom blossom",
+    "mate leaves",
+    "mistweed",
+    "murdroot",
+    "murkweed",
+    "oak twig",
+    "pale green honeydew",
+    "pearl onions",
+    "pecans",
+    "pink rain lily",
+    "purple tea leaves",
+    "raw almonds",
+    "round yuzu",
+    "slender twig",
+    "small lime",
+    "soft mushroom",
+    "sorcerer guild",
+    "sorcererguild",
+    "sprig of mistletoe",
+    "sprig of tarragon",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of goldenrod",
+    "sticks",
+    "sun-wilted tea leaves",
+    "tea leaves",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "urchin guide sorcererguild",
+    "urchin-access",
+    "viburnum twig",
+    "walnuts",
+    "white lily",
+    "white tea leaves",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild pink geranium",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yellow lemon",
+    "yew twig"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1892,
+      689,
+      1931,
+      725
+    ]
+  },
+  "exits": [
+    {
+      "to": 10884,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 13102,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 12316,
+  "uid": [
+    3209317
+  ],
+  "title": [
+    "[Firefly Villa, Entry]"
+  ],
+  "description": [
+    "Bright blue rugs, patterned with violet and white ripples, spread from the entry to a pair of double doors and protect the polished teak floors from any debris that might be dragged in from outside.  Decorative glaesine orbs dangle over the entire area to provide ample illumination at all times of the day, while bright stained glass windows imbedded into the walls above the various doors paint the room in various hues as sunlight pours through them.",
+    "Bright blue rugs, patterned with violet and white ripples, spread from the entry to a pair of double doors and protect the polished teak floors from any debris that might be dragged in from outside.  Decorative glaesine orbs dangle over the entire area to provide ample illumination at all times of the day, their warm golden glow creating shadows upon the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1162,
+      2404,
+      1175,
+      2414
+    ]
+  },
+  "exits": [
+    {
+      "to": 12314,
+      "kind": "go",
+      "cmd": "go entry",
+      "cost": 0.2
+    },
+    {
+      "to": 12333,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 16410,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16411,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

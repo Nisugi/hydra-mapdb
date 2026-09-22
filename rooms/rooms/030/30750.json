@@ -1,0 +1,50 @@
+{
+  "id": 30750,
+  "uid": [
+    4219436
+  ],
+  "title": [
+    "[Warehouse, Second Floor Hall]"
+  ],
+  "description": [
+    "This tight, north-south hallway is dark and dank.  Musty smells from the warehouse below waft up though obvious gaps in the floorboards.  Sawdust and discarded bent nails litter the floors."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-warehouse_lockers-1485119080.png",
+    "rect": [
+      699,
+      367,
+      804,
+      421
+    ]
+  },
+  "exits": [
+    {
+      "to": 30739,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30749,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32977,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    }
+  ]
+}

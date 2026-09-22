@@ -1,0 +1,43 @@
+{
+  "id": 13059,
+  "uid": [
+    3003023
+  ],
+  "title": [
+    "[Company Store, Public Storage]"
+  ],
+  "description": [
+    "The noises of the busy store are somewhat muted.  This room provides access to the company's storage facility, where lockers may be rented for personal use.  Padded benches line the walls for the ease and comfort of customers awaiting their turn.  A large opening in the wall provides access to the company lockers.  A heavy curtain that has been hung across the opening provides any needed security."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "public locker",
+    "publiclockers"
+  ],
+  "exits": [
+    {
+      "to": 1884,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13060,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28716,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

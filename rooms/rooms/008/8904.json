@@ -1,0 +1,35 @@
+{
+  "id": 8904,
+  "uid": [
+    5038
+  ],
+  "title": [
+    "[Warehouse, Musty Room]"
+  ],
+  "description": [
+    "A large open area surrounds you.  The musty odor of items stored too long in one place fills the room, and the floor is coated with dust and traces of vermin.  Sacks, crates, and barrels are stacked haphazardly around the room.  You somehow feel uneasy even though it appears that this warehouse has not been active for quite some time.  In the corner, a wooden ladder with a broken rung leads up."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 328,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8905,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

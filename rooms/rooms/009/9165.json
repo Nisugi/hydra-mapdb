@@ -1,0 +1,50 @@
+{
+  "id": 9165,
+  "uid": [
+    7531010
+  ],
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "An impossible stack of tomes and books piled floor to ceiling leads to a small opening overhead.  Most of the titles are far too worn to be readable, but the few that still peek through the dust of time all bear some reference to wizardry.  It doesn't look as if the mound of ancient leather-bound volumes would hold much weight, yet they are covered by tiny footprints."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      687,
+      1020,
+      697,
+      1030
+    ]
+  },
+  "exits": [
+    {
+      "to": 9164,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9166,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9192,
+      "kind": "climb",
+      "cmd": "climb books",
+      "cost": 0.2
+    }
+  ]
+}

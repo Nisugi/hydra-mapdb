@@ -1,0 +1,48 @@
+{
+  "id": 30296,
+  "title": [
+    "[Yuvi Qorit, Palm Grove]"
+  ],
+  "description": [
+    "Sandy paths between the verdant undergrowth converge in a wide-open space just outside the perimeter of the water's edge.  Flames kept low, a firepit burns hot enough to cook with near the entrance of a large ornate pavilion that dominates the area between skyscraping palms and shorter yucca trees, and smaller structures to the north and south use the foliage for shelter from the relentless desert heat.  In stark contrast to the peacefulness here, a long sinuous ridgeline to the east hints at the dangers of the dunes."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Sea of Fire",
+  "image": {
+    "file": "fest-yuvi_qorit-1643758946.jpg",
+    "rect": [
+      466,
+      309,
+      493,
+      341
+    ]
+  },
+  "exits": [
+    {
+      "to": 30295,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30297,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30303,
+      "kind": "go",
+      "cmd": "go edge",
+      "cost": 0.2
+    },
+    {
+      "to": 30304,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

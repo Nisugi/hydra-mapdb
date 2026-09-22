@@ -1,0 +1,44 @@
+{
+  "id": 6609,
+  "uid": [
+    4285050
+  ],
+  "title": [
+    "[Wine Cellar]"
+  ],
+  "description": [
+    "The dark, cavernous cellar is filled with racks holding dust-covered bottles of wine.  Lining one of the walls are huge casks, taller than a giantman, with massive spigots tapping the front of each one.  A glance at one of the bottles reveals a date of such antiquity, it would render the contents either exquisite or pure vinegar.  Whichever is the case, there is an abundance of it, for the shelves, with their bottles, stand rank after rank in this cavernous cellar."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1077,
+      543,
+      1087,
+      553
+    ]
+  },
+  "exits": [
+    {
+      "to": 6576,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 6610,
+      "kind": "go",
+      "cmd": "go cask",
+      "cost": 0.2
+    }
+  ]
+}

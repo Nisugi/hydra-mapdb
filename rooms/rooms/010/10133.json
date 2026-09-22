@@ -1,0 +1,63 @@
+{
+  "id": 10133,
+  "uid": [
+    13038006
+  ],
+  "title": [
+    "[Fethayl Bog, Fallen Tree]"
+  ],
+  "description": [
+    "An enormous tree lays across the path, crushed vegetation splayed out beneath the trunk.  Jagged splinters protrude through thick crusts of mud and moss, and the pale roots of a sapling form a knotted mesh over the stump.  The bark is covered in shelf fungus and mushrooms while darkened areas show where the wood has long since rotted away.  To the northwest, a lake of thick, roiling mud inhibits passage."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Fethayl Bog",
+  "climate": "saltwater",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "blades of cordgrass",
+    "blue-green marshgrass",
+    "bolmara lichen",
+    "broken twig",
+    "feathery mannagrass",
+    "murdroot",
+    "orange heliconia",
+    "saltmeadow cordgrass",
+    "wavepetal blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-fearling-1632908688.png",
+    "rect": [
+      1161,
+      229,
+      1171,
+      239
+    ]
+  },
+  "exits": [
+    {
+      "to": 10130,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mud"
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 10134,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10135,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

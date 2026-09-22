@@ -1,0 +1,43 @@
+{
+  "id": 30627,
+  "uid": [
+    850005
+  ],
+  "title": [
+    "[Kraken's Fall Hall, Corridor]"
+  ],
+  "description": [
+    "Surrounded by a cast iron chain railing, the rounded chamber is lined with whitewashed paneling.  Looking over the metal barrier is a circular opening that allows a view of the bottom level of the lighthouse.  Set into the wall is a pale blue door and a light beige door, their painted, wooden surfaces protected with a clear lacquer."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30624,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30628,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 30629,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 30630,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

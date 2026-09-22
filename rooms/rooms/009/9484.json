@@ -1,0 +1,50 @@
+{
+  "id": 9484,
+  "uid": [
+    13010037
+  ],
+  "title": [
+    "[Bawdy Bard Inn, Hallway]"
+  ],
+  "description": [
+    "The hallway comes to an end.  To the east, a lone toadstool rests in a large stone pot just in front of a bare granite wall.  The north and south walls as well as the ceiling are also granite, cut directly from the solid rock that supports the mountains hundreds, perhaps thousands, of feet overhead.  These are shored up by thick cedar timbers.  Thick green carpet provides the only vibrant coloration.  A faux-oak door breaks up the monotony of the south wall while a faux-walnut door breaches the north wall."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      766,
+      479,
+      776,
+      489
+    ]
+  },
+  "exits": [
+    {
+      "to": 9483,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9487,
+      "kind": "go",
+      "cmd": "go faux-walnut door",
+      "cost": 0.2
+    },
+    {
+      "to": 9488,
+      "kind": "go",
+      "cmd": "go faux-oak door",
+      "cost": 0.2
+    }
+  ]
+}

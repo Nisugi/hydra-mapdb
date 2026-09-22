@@ -1,0 +1,55 @@
+{
+  "id": 21068,
+  "uid": [
+    3217006
+  ],
+  "title": [
+    "[Alhan'aht River, Hilly Pass]"
+  ],
+  "description": [
+    "Jungle plants grow sparse through this section of the river as it glides away from the slow rise of hills.  Large and small boulders pock-mark the river bank where the water disperses outward, its passage creating a soft burbling sound as it leaves the main tributary for the more wild, marshy land."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1500,
+      1839,
+      1518,
+      1859
+    ]
+  },
+  "exits": [
+    {
+      "to": 20980,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push se"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21067,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push w"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

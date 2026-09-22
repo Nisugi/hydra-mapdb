@@ -1,0 +1,52 @@
+{
+  "id": 23691,
+  "uid": [
+    255038
+  ],
+  "title": [
+    "[Tanglevine Hall, Great Hall]"
+  ],
+  "description": [
+    "Open and airy, this large room is a gathering place for guild members.  Masters stand on the floor against the walls, waiting to help warriors in need of training.  Twin sets of bronzed armor stand to either side of a a steel-banded wooden door, bearing upright pikes.  Wooden benches are scattered about, offering places to rest after a session.  Regularly spaced roofline vents admit breezes and the raucous cries of jungle creatures, causing bright standards to flutter proudly from the overhead rafters."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor",
+    "warrior guild floor",
+    "warrior guild masters"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      369,
+      447,
+      394,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 23663,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23692,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30528,
+      "kind": "other",
+      "cmd": "ask chadwick about training berserk",
+      "cost": 0.2
+    }
+  ]
+}

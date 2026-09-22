@@ -1,0 +1,63 @@
+{
+  "id": 17005,
+  "uid": [
+    254033
+  ],
+  "title": [
+    "[Warrior Guild Roof, SW Corner]"
+  ],
+  "description": [
+    "A grand view of Liabo Plaza unfolds before you.  The long string of temples flow to the east as worshippers and pilgrims make their way among the massive tributes to the gods.  Further off in the distance you can see Baron's Bridge crossing Vornavis Canal leaving access to South Market."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, down"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild masters",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1416,
+      174,
+      1436,
+      194
+    ]
+  },
+  "exits": [
+    {
+      "to": 17004,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 17014,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17016,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17017,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30527,
+      "kind": "other",
+      "cmd": "ask sollia about train berserk",
+      "cost": 10.0
+    }
+  ]
+}

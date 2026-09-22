@@ -1,0 +1,47 @@
+{
+  "id": 14183,
+  "uid": [
+    4742023
+  ],
+  "title": [
+    "[Temple of Lorminstra, Hallway]"
+  ],
+  "description": [
+    "Just northwest of the hallway's bend, a curtain of amethyst beads fills a doorway in the corridor's northeast wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14182,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14184,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 14185,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14186,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

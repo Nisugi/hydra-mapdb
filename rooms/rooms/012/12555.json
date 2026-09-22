@@ -1,0 +1,44 @@
+{
+  "id": 12555,
+  "uid": [
+    703265
+  ],
+  "title": [
+    "[Canyon, Siren's Path]"
+  ],
+  "description": [
+    "The trail ends in a set of stone stairs carved into the canyon wall, leading up to the ridge above.  A cluster of flowering cactus at the edge of the trail provides a home to several small green lizards which crawl among the spiny plants, searching for insects."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      1090,
+      903,
+      1108,
+      921
+    ]
+  },
+  "exits": [
+    {
+      "to": 12554,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12563,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

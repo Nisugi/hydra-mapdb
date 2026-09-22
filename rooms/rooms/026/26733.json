@@ -1,0 +1,34 @@
+{
+  "id": 26733,
+  "title": [
+    "[Wrong Turn Tavern]"
+  ],
+  "description": [
+    "Built into the rock face, the derelict tavern is relatively bare, with only a handful of slipshod tables and chairs tucked under funnel-shaped glass lamps hanging from the craggy ceiling.  Cluttered on one side with six tall stools, a rough-edged oak bar is covered in a milky film, and the other side is entirely bereft of clean glassware and -- perhaps the reason for the general lack of patrons -- liquor.  Middling circular holes that serve as windows are cut into the rock and offer a view of the seascape to the east."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26527,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26743,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

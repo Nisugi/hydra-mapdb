@@ -1,0 +1,49 @@
+{
+  "id": 22224,
+  "uid": [
+    216027
+  ],
+  "title": [
+    "[Beacon Hall, Attic]"
+  ],
+  "description": [
+    "Cobwebs stretch in intricate patterns across every nook and corner of the attic, and the smell of mildew hangs in the air like an invisible presence.  Layers upon layers of dust coat scattered shelves housing books with indecipherable titles, and high overhead and opaque with grime, a single, small octagonal window allows slight bits of light to trickle in."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1007,
+      464,
+      1055,
+      510
+    ]
+  },
+  "exits": [
+    {
+      "to": 16188,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

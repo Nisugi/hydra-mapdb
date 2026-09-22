@@ -1,0 +1,31 @@
+{
+  "id": 21213,
+  "uid": [
+    265423
+  ],
+  "title": [
+    "[Sewers, Under the Scuttle]"
+  ],
+  "description": [
+    "Transitioning from cobblestones to knotty oak, the ceiling of the passage is largely hidden in shadows.  Smooth stone walls give way to a wall of packed dirt in the southeast, where a blackened wrought iron ladder disappears through a trapdoor above.  The scent of freshly baked bread mingles oddly with the overall dankness of the area."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 17600,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21210,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

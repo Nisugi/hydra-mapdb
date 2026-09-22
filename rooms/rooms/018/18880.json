@@ -1,0 +1,50 @@
+{
+  "id": 18880,
+  "uid": [
+    108018
+  ],
+  "title": [
+    "[Twilight, East Tapestry Room]"
+  ],
+  "description": [
+    "This is a small antechamber that leads to the House Lockers.  An ornate tapestry takes up one entire wall, and there are several chairs scattered about the room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall",
+    "che:twilight_hall:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      470,
+      835,
+      555,
+      891
+    ]
+  },
+  "exits": [
+    {
+      "to": 18853,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23184,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 23185,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

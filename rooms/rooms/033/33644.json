@@ -1,0 +1,46 @@
+{
+  "id": 33644,
+  "uid": [
+    7101165
+  ],
+  "title": [
+    "[Academy, Southeast Corner]"
+  ],
+  "description": [
+    "The cracks between each of the stones in the ashlar walls are carefully filled with a yellowish green chalky substance.  An arched opening is crowned by a single green stone which has a small carving of a man sitting on a log, his elbow resting on his knee and his chin resting on his hand."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      802,
+      528,
+      850,
+      571
+    ]
+  },
+  "exits": [
+    {
+      "to": 33643,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33645,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 33646,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

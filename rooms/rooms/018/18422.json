@@ -1,0 +1,34 @@
+{
+  "id": 18422,
+  "title": [
+    "[Grawood Flowers]"
+  ],
+  "description": [
+    "Although somewhat dusty, the shop is otherwise tidily kept, its interior lit with simple lanterns that hang from several beams in the ceiling.  A single wide row of wooden racks stretches across the center of the floor, its upright fixtures holding up baskets filled with various flowers.  On the far wall, just behind a long counter, a sliding panel is affixed in the open position.  Windows placed high up on the walls allow a glimpse of the starlit sky outside.",
+    "Although somewhat dusty, the shop is otherwise tidily kept.  A single wide row of wooden racks stretches across the center of the floor, its upright fixtures holding up baskets filled with various flowers.  On the far wall, just behind a long counter, a sliding panel is affixed in the open position, allowing a view of the field of flora sprouting into bloom outside.  Windows placed high up on the walls allow sunlight to stream into the shop to bathe the wares in a pale golden glow."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18420,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18423,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    }
+  ]
+}

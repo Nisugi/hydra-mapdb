@@ -1,0 +1,49 @@
+{
+  "id": 7070,
+  "uid": [
+    42600
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Squatting precariously atop this immense pile of dirt, debris, and animal remains, you see a small, dark opening.  Soft, shuffling sounds travel through from above, making the tiny hairs at the back of your neck stand on end."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      243,
+      1042,
+      253,
+      1052
+    ]
+  },
+  "exits": [
+    {
+      "to": 3686,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 7063,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

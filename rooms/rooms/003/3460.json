@@ -1,0 +1,46 @@
+{
+  "id": 3460,
+  "uid": [
+    4045201
+  ],
+  "title": [
+    "[Icemule Trace, Well]"
+  ],
+  "description": [
+    "The well's bucket is firmly lodged in a mass of frozen tree limbs and dried brush.  The rope holding the bucket, grey with frost, dangles slackly above, rising upward like a wisp of smoke.  There doesn't seem to be any way to get farther down."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "glacial",
+  "terrain": "coniferous forest",
+  "tags": [
+    "ironfern root",
+    "iseya lichen",
+    "silver iceblossom"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      202,
+      207,
+      212,
+      217
+    ]
+  },
+  "exits": [
+    {
+      "to": 3459,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9093,
+      "kind": "go",
+      "cmd": "go limb",
+      "cost": 0.2
+    }
+  ]
+}

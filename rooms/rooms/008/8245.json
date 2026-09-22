@@ -1,0 +1,44 @@
+{
+  "id": 8245,
+  "uid": [
+    390003
+  ],
+  "title": [
+    "[Wolves' Den, Barracks]"
+  ],
+  "description": [
+    "Water has seeped through the northern wall of what was once a barracks.  The moldering remains of cots and wooden racks lie in even rows.  An iron door leads west, and the remains of a wooden one hang in the open doorway to the east."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      216,
+      256,
+      226,
+      266
+    ]
+  },
+  "exits": [
+    {
+      "to": 8227,
+      "kind": "go",
+      "cmd": "go iron door",
+      "cost": 0.2
+    },
+    {
+      "to": 8246,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

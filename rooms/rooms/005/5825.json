@@ -1,0 +1,103 @@
+{
+  "id": 5825,
+  "uid": [
+    14101004
+  ],
+  "title": [
+    "[The Legendary Rest, Courtyard]"
+  ],
+  "description": [
+    "Flat marble walkways lead northeast and southeast to the inn's rooms.  A towering marble fountain dominates the courtyard's center, and its cascading waters change their flow patterns regularly to create different appearances and effects.  Six tables surround the fountain, keeping a safe distance from the fountain's watery spray, and freestanding torches occupy places near each table to await the coming night.  An immaculately dressed lady supplies food and drink from behind a polished brass bar."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Legendary Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "table",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 5824,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Black Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5826,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 6106,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go White Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 10303,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10305,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24051,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Golden Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28266,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Green Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28267,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Blue Marble table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28268,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Red Marble table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 17103,
+  "uid": [
+    663009
+  ],
+  "title": [
+    "[Sorcerer Guild, Magic Workroom]"
+  ],
+  "description": [
+    "Torches mounted on brass poles hazily illuminate this testing room.  The walls, ceiling and floor are made from planks of sanded birch, but the wet floor planks are spread half an inch apart, perhaps to let something pass between them.  Several small cages line the west wall, a large cage sits next to the east wall, and an open cage resides against the north wall.  The odor of drenched wood somewhat masks the lesser stench of animal ordure."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild workshop",
+    "workshop"
+  ],
+  "image": {
+    "file": "rr-sorcerer_guild-1405076623.png",
+    "rect": [
+      642,
+      322,
+      681,
+      358
+    ]
+  },
+  "exits": [
+    {
+      "to": 15977,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18364,
+      "kind": "go",
+      "cmd": "go open cage",
+      "cost": 0.2
+    },
+    {
+      "to": 18917,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18919,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

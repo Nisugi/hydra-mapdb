@@ -1,0 +1,46 @@
+{
+  "id": 27616,
+  "uid": [
+    4043708
+  ],
+  "title": [
+    "[Twilight Cavern, Great Room]"
+  ],
+  "description": [
+    "A large, white-washed stucco hall is composed of a series of interconnected spaces separated by frosted crystal globes set upon ogee arches of exposed rough-hewn maoral, save for one with a colorful haon dart board.  The southern area contains a reading room, to the west is a curved maoral buffet near a kitchen, and to the east, a wall of artwork.  The center of the room features semi-circular wooden benches around a massive copper vent hood hanging above a stone fire pit.  A small door is set into the northeastern recess."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall",
+    "che:twilight_hall:entrance_locker",
+    "locker annex:Twilight Hall"
+  ],
+  "image": {
+    "file": "imt_Twilight_Cavern.png",
+    "rect": [
+      146,
+      255,
+      204,
+      315
+    ]
+  },
+  "exits": [
+    {
+      "to": 27615,
+      "kind": "other",
+      "cmd": "push button",
+      "cost": 0.2
+    },
+    {
+      "to": 27617,
+      "kind": "go",
+      "cmd": "go small door",
+      "cost": 0.2
+    }
+  ]
+}

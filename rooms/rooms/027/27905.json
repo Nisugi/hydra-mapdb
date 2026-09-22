@@ -1,0 +1,43 @@
+{
+  "id": 27905,
+  "uid": [
+    5001255
+  ],
+  "title": [
+    "[Silvergate Inn, Locker]"
+  ],
+  "description": [
+    "With the curtain closed behind you, all sound from outside the locker area has been hushed.  The counter is topped with deep green baize which shows little wear."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "tags": [
+    "sglocker"
+  ],
+  "meta": [
+    "che:silvergate_inn:locker",
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 27904,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go curtain"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go curtain",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

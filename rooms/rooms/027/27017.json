@@ -1,0 +1,45 @@
+{
+  "id": 27017,
+  "uid": [
+    1303103
+  ],
+  "title": [
+    "[Keep Aenatumgana, Stairwell]"
+  ],
+  "description": [
+    "The narrow stairwell fills the cylindrical body of the tower's spire.  The spiraling passage is so narrow that in order for two to pass, one must crouch into a window alcove.  Cold drafts of air stream through dark turret windows.  Wooden torches are hung from the exterior walls.  At the base of the stairwell is a mithril-banded ebonwood door."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Keep Aenatumgana, outside the glacier-locked town of Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-keep-aenatumgana.png",
+    "rect": [
+      413,
+      541,
+      557,
+      636
+    ]
+  },
+  "exits": [
+    {
+      "to": 27016,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 27018,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

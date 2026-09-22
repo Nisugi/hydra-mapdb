@@ -1,0 +1,73 @@
+{
+  "id": 20012,
+  "uid": [
+    11216
+  ],
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "A tattered spider web hangs near the ceiling of this chamber, its arachnid architect appearing to have abandoned all hope of gathering a meaningful meal with the once sticky strands."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1109,
+      1070,
+      1119,
+      1080
+    ]
+  },
+  "exits": [
+    {
+      "to": 19657,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "open door"
+        },
+        {
+          "try_move": "go door"
+        },
+        {
+          "empty_hands": null,
+          "when": "still_here"
+        },
+        {
+          "put": "turn lock",
+          "when": "still_here"
+        },
+        {
+          "put": "open door",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20009,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

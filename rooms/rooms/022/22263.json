@@ -1,0 +1,42 @@
+{
+  "id": 22263,
+  "title": [
+    "[Mestanir, Temple Street]"
+  ],
+  "description": [
+    "Painstakingly constructed from tiny ceramic tiles and decoratively carved brick, the Temple of Koar boasts an impressive presence.  Meticulous care was given to the path directly facing the structure as well, the large cobblestones leading up to the temple replaced by a much smaller mosaic of colored tile."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Mestanir",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      98,
+      205,
+      111,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 22262,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 22264,
+      "kind": "go",
+      "cmd": "go alleyway",
+      "cost": 0.2
+    },
+    {
+      "to": 22266,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

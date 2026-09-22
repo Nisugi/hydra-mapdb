@@ -1,0 +1,57 @@
+{
+  "id": 6973,
+  "uid": [
+    43055
+  ],
+  "title": [
+    "[Darkstone, Derelict Road]"
+  ],
+  "description": [
+    "A sheer rock face of several hundred feet rises to the south of here, blocking further travel in that direction.  The old road turns to the east, following the line of the cliff."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "heath aster",
+    "ironfern root",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      159,
+      540,
+      169,
+      550
+    ]
+  },
+  "exits": [
+    {
+      "to": 6972,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6974,
+      "kind": "go",
+      "cmd": "go narrow path",
+      "cost": 0.2
+    },
+    {
+      "to": 6987,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

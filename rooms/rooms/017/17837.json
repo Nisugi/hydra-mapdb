@@ -1,0 +1,57 @@
+{
+  "id": 17837,
+  "uid": [
+    266005
+  ],
+  "title": [
+    "[Entry]"
+  ],
+  "description": [
+    "This small entryway is scented with the aroma of fresh loam, no doubt from the muddy boots and gardening shoes lined up on a wooden rack against one wall.  Opposite the collection of shoes, a long, simply carved oak cloak rack supports a wide variety of brushed wool cloaks in all the colors of the autumn forest."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "rogue guild",
+    "rogueguild"
+  ],
+  "image": {
+    "file": "en-Illistim_rogue_guild-1267238976.jpg",
+    "rect": [
+      453,
+      382,
+      492,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 13350,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17838,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

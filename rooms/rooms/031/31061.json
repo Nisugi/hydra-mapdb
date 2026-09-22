@@ -1,0 +1,69 @@
+{
+  "id": 31061,
+  "uid": [
+    7503257
+  ],
+  "title": [
+    "[Dwindleberry's Herbs, Parlor]"
+  ],
+  "description": [
+    "Dusty bottles in a variety of deep blues, vivid greens, and bloody reds clutter the shelves that line the walls of the small shop.  Hanging from the low rafters are wrinkled nosegays that sweeten the stale air with a shadow of spent perfume.  A curved counter separates the parlor from the rear of the shop, though glimpses of a small and cluttered bedchamber are visible through a round door behind the counter space."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "herbalist",
+    "no forageables",
+    "npchealer",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 29874,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

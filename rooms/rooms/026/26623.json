@@ -1,0 +1,37 @@
+{
+  "id": 26623,
+  "title": [
+    "[Darkness]"
+  ],
+  "description": [
+    "Hundreds of glassy eyes stare out from the dagger-like stalactites looming high above the chamber, the bats' compact bodies flickering in and out of view with the dwindling flame of a low-set torch.  As the light grows, the number of visible bats lessens, the sound of flapping wings growing closer and louder when visibility begins to wane."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      626,
+      219,
+      640,
+      232
+    ]
+  },
+  "exits": [
+    {
+      "to": 26616,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go rope"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

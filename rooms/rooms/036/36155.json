@@ -1,0 +1,35 @@
+{
+  "id": 36155,
+  "uid": [
+    7121214
+  ],
+  "title": [
+    "[House Annex, Arcane Masters]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is dominated by a jade green dragon mural that is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush silver carpeting dappled with soft green threads lends the otherwise austere space a coziness that is enhanced by the presence of a plush argent silk settee.  A lacquered white door leads to the hallway, while a silver-edged jade green silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_annex",
+    "che:arcane_masters:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 29753,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 36156,
+      "kind": "go",
+      "cmd": "go jade curtain",
+      "cost": 0.2
+    }
+  ]
+}

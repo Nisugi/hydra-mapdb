@@ -1,0 +1,36 @@
+{
+  "id": 26281,
+  "title": [
+    "[The Darkness With Inn, Hallway]"
+  ],
+  "description": [
+    "The second floor hall is nearly engulfed in darkness, shadows creeping along the walls and seemingly moving with a life of their own.  The carpet of the floor has been torn up in many spots, and stained with blood in others.  A number of doorways line the hall, their doors completely missing."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      407,
+      430,
+      433,
+      456
+    ]
+  },
+  "exits": [
+    {
+      "to": 26280,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26359,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

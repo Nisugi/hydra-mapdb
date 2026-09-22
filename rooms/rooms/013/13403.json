@@ -1,0 +1,45 @@
+{
+  "id": 13403,
+  "uid": [
+    13119006
+  ],
+  "title": [
+    "[A Small Shop]"
+  ],
+  "description": [
+    "The arched roof of the building harbors a variety of thin meshed nets with several lures dangling from them.  A large wooden counter stands to the east, and above it are many shelves and racks of various fishing equipment.  A small door leads out toward the back, and the gentle sound of the water sloshing against the pier rhythmically washes over the surroundings."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fishing shop",
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      212,
+      32,
+      228,
+      49
+    ]
+  },
+  "exits": [
+    {
+      "to": 13402,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13404,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

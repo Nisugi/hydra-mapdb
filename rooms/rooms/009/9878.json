@@ -1,0 +1,60 @@
+{
+  "id": 9878,
+  "uid": [
+    13302159
+  ],
+  "title": [
+    "[Griffin's Keen, Granite Cave]"
+  ],
+  "description": [
+    "Sunlight sifts thinly through the blue sheet of ice that forms one wall of this large cave.  Glittering granite rock forms two long, low walls that come to a point deep in the darkness.  This haven, though smelling strongly of bear, offers a quiet spot to collect your thoughts.  An ancient pile of blackened bones and shreds of cloth is a reminder to move along before you freeze to the floor.",
+    "Moonlight sifts thinly through the blue sheet of ice that forms one wall of this large cave.  Glittering granite rock forms two long, low walls that come to a point deep in the darkness.  This haven, though smelling strongly of bear, offers a quiet spot to collect your thoughts.  An ancient pile of blackened bones and shreds of cloth is a reminder to move along before you freeze to the floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Griffin's Keen",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "angelica root",
+    "deep purple shockroot",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of holly",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      718,
+      330,
+      727,
+      339
+    ]
+  },
+  "exits": [
+    {
+      "to": 4004,
+      "kind": "go",
+      "cmd": "go break",
+      "cost": 0.2
+    },
+    {
+      "to": 4601,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go tunne"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

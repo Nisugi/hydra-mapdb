@@ -1,0 +1,44 @@
+{
+  "id": 30923,
+  "uid": [
+    272004
+  ],
+  "title": [
+    "[Ranger Guild, Greatroom]"
+  ],
+  "description": [
+    "An expansive greatroom has been fashioned within the heart of the banyan tree, its sloping walls betraying their organic origin.  Every wood surface within the chamber has been polished to a high luster, including a collection of beautifully crafted chairs that sit in groupings here and there.  Tall, slitted openings serve as windows, and are covered with netting to allow light and air into the chamber while denying entrance to insects and other manner of jungle life."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30922,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30925,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30926,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30929,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

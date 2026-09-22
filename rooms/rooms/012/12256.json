@@ -1,0 +1,52 @@
+{
+  "id": 12256,
+  "uid": [
+    4571026
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Tall, glass-tiled spires crumble under the mighty grasp of a multi-eyed creature wreaking havoc upon a city beyond the nearby forest.  Even from this distance, terrified screams can be heard, oddly as loud as if they were originating from a few feet away.  A brutally cold wind rushes from the direction of the city, carrying with it the sounds of destruction.",
+    "Tall, glass-tiled spires crumble under the mighty grasp of a multi-eyed creature wreaking havoc upon a city beyond the nearby forest.  Even from this distance, terrified screams can be heard, oddly as loud as if they were originating from a few feet away.  A searing hot wind rushes from the direction of the city, carrying with it the sounds of destruction."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast",
+    "Obvious exits: east, southeast"
+  ],
+  "location": "the Rift",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "congealed slime"
+  ],
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      127,
+      376,
+      153,
+      402
+    ]
+  },
+  "exits": [
+    {
+      "to": 12217,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    },
+    {
+      "to": 12249,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12255,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

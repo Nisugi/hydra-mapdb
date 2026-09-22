@@ -1,0 +1,30 @@
+{
+  "id": 24132,
+  "title": [
+    "[Necropolis, Dark Sanctuary]"
+  ],
+  "description": [
+    "A towering sculpture in the likeness of Luukos dominates the sanctuary -- crafted from viridian marble, time has worn its way through the rock, causing severe damage.  Much of its left arm and shoulder lie strewn across the northern wall, entirely blocking off an archway.  Underneath the wreckage, a partially collapsed tunnel has been exposed.  A narrow chasm can be seen off to the west of an iron-hinged ebonwood door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "tags": [
+    "node"
+  ],
+  "exits": [
+    {
+      "to": 24128,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 24133,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 1865,
+  "uid": [
+    3002021
+  ],
+  "title": [
+    "[Silver and Sapphire]"
+  ],
+  "description": [
+    "Empty of people and void of buildings, this quiet stretch of road seems a perfect place to stop for a moment and forget the hectic bustle of life.  Supple canver trees bend inward, their crowns twining together in a lush green arch over the street.  Clumps of flowers gaze down from among the branches.",
+    "Empty of people and void of buildings, this quiet stretch of road seems a perfect place to stop for a moment and forget the hectic bustle of life.  Supple canver trees bend inward, their crowns twining together in a lush green arch over the street.  Clumps of flowers gaze cheerfully down from among the branches, smiling brightly as you walk by."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "grocer",
+    "urchin guide grocer",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      378,
+      745,
+      414,
+      781
+    ]
+  },
+  "exits": [
+    {
+      "to": 1848,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1866,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1878,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

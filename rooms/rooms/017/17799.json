@@ -1,0 +1,49 @@
+{
+  "id": 17799,
+  "uid": [
+    262017
+  ],
+  "title": [
+    "[Rogue Guild, Court]"
+  ],
+  "description": [
+    "Laughter spills into the room through an arch to the southeast, carrying over the constant murmur of the guild.  Lanterns hang from hooks, providing enough light to see by and enough shadows to sneak through."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "ti-rogue_guild-1486041266.png",
+    "rect": [
+      1758,
+      500,
+      1874,
+      577
+    ]
+  },
+  "exits": [
+    {
+      "to": 17797,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17800,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17802,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

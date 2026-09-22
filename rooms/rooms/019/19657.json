@@ -1,0 +1,83 @@
+{
+  "id": 19657,
+  "uid": [
+    11217
+  ],
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "A maze of stalagmites prevents travel in any direction except to the southeast.  Looming above you is the steep, and quite unclimbable, wall of this narrow underground canyon.  Spanning the breach far above you is a narrow suspension bridge."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root",
+    "lockpick:door:-125"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1109,
+      1200,
+      1120,
+      1210
+    ]
+  },
+  "exits": [
+    {
+      "to": 19656,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20012,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "open door"
+        },
+        {
+          "try_move": "go door"
+        },
+        {
+          "empty_hands": null,
+          "when": "still_here"
+        },
+        {
+          "put": "get lockpick",
+          "when": "still_here"
+        },
+        {
+          "put": "pick door",
+          "when": "still_here"
+        },
+        {
+          "put": "stow lockpick",
+          "when": "still_here"
+        },
+        {
+          "fill_hands": null,
+          "when": "still_here"
+        },
+        {
+          "put": "open door",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 15000.0
+    }
+  ]
+}

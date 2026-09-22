@@ -1,0 +1,68 @@
+{
+  "id": 20622,
+  "uid": [
+    336714
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Two sconces hang here, one unlit and leaving much of the area in darkness.  Of the portion of the wall that is lit up, the misspelled message  \"Breware\"  has been smeared in blood."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      963,
+      5,
+      1000,
+      41
+    ]
+  },
+  "exits": [
+    {
+      "to": 8860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go concealed ladder"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20621,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20623,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

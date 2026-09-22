@@ -1,0 +1,104 @@
+{
+  "id": 16200,
+  "uid": [
+    216014
+  ],
+  "title": [
+    "[Beacon Hall, Kitchen]"
+  ],
+  "description": [
+    "A small army of halfling chefs bustles about this large kitchen, oblivious to anything not concerning cookery.  Clinging to the highest rung of a ladder, one of the small cooks hangs precariously over the open door of a huge brick oven.  A white-aproned chef diligently kneads a large mound of dough on a rectangular butcher block counter standing in the center of the ceramic tile floor.  The tiny cooks proudly hand over their delicious fare to the elven pages steadily arriving from the dining hall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      610,
+      466,
+      657,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 16187,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16198,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16201,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18898,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dark elf table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18899,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go shadowguard table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18900,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go darkstone table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18901,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go talbot table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18902,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go drake table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

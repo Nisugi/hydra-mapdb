@@ -1,0 +1,53 @@
+{
+  "id": 2967,
+  "uid": [
+    4132044
+  ],
+  "title": [
+    "[Abbey Chapel]"
+  ],
+  "description": [
+    "Ornate doors of heavy bronze muffle sounds from outside of the chapel, a long chamber with a low maple ceiling that has fanciful patterns of leaves and rosettes carved into its surface.  Framed on either side by pews of sturdy spruce, a walk proceeds to the east.  A thickly balustraded stair along the northern wall spirals up into a small loft.",
+    "To the right, a thickly balustraded stair leads upwards.  The low oak ceiling is carved into a fanciful pattern of leaves and rosettes."
+  ],
+  "paths": [
+    "Obvious exits: east",
+    "Obvious exits: east, up, out"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "nedum vereri",
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      830,
+      307,
+      882,
+      358
+    ]
+  },
+  "exits": [
+    {
+      "to": 2968,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 2969,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28867,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

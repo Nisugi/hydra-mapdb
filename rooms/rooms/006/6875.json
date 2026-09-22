@@ -1,0 +1,44 @@
+{
+  "id": 6875,
+  "uid": [
+    21112
+  ],
+  "title": [
+    "[Abandoned Inn, Kitchen]"
+  ],
+  "description": [
+    "The kitchen is a whirlwind of ordered chaos.  Assistants, corporeal and non, bustle about tending pots and preparing ingredients in a masterfully orchestrated dance.  Their choreographer is a massive zombie wearing an oversized chef's hat, who shouts orders in a voice loud enough to rattle the glass in the windows.  A trapdoor dominates one corner of the room, presumably leading down to the cellar space."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      888,
+      967,
+      898,
+      977
+    ]
+  },
+  "exits": [
+    {
+      "to": 6874,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6876,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

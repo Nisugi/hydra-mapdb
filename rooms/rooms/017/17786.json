@@ -1,0 +1,44 @@
+{
+  "id": 17786,
+  "uid": [
+    250074
+  ],
+  "title": [
+    "[Warrior Guild, Miniature Garden]"
+  ],
+  "description": [
+    "At the center of the garden, a small woodshed stands among some intricately pruned miniature trees and shrubs."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      535,
+      452,
+      554,
+      473
+    ]
+  },
+  "exits": [
+    {
+      "to": 17765,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17787,
+      "kind": "go",
+      "cmd": "go woodshed",
+      "cost": 0.2
+    }
+  ]
+}

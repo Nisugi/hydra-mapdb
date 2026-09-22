@@ -1,0 +1,27 @@
+{
+  "id": 23895,
+  "title": [
+    "[Leafy Platform, Powders]"
+  ],
+  "description": [
+    "Lofted high above the jungle floor, this platform is nearly obscured by a profusion of hibiscus and jacaranda.  Some moss-covered vines cascade over the edge of the platform, leading down.  A series of bright-colored bowls runs the entire length of the platform around the tree's trunk.  A knothole leads into a hollow in the tree."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Mist Harbor",
+  "exits": [
+    {
+      "to": 23888,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 23896,
+      "kind": "go",
+      "cmd": "go knothole",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 8499,
+  "uid": [
+    2155028
+  ],
+  "title": [
+    "[Temple, Altar]"
+  ],
+  "description": [
+    "The old altar sits overlooking the sanctuary.  From here, the shadows seem deeper, the silence more ominous, as if the sonorous breathing of a majestic life had suddenly ceased, leaving you alone and afraid.  Set into the wall behind the altar is a massive glass window, not yet broken, although a creeping dark stain has spread over it, turning the colors an unwholesome red-black.  Some marble stairs lead down into darkness, providing an alternative to going back to the sanctuary itself."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      291,
+      549,
+      301,
+      559
+    ]
+  },
+  "exits": [
+    {
+      "to": 8491,
+      "kind": "go",
+      "cmd": "go sanctuary",
+      "cost": 0.2
+    },
+    {
+      "to": 8500,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

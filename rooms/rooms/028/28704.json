@@ -1,0 +1,34 @@
+{
+  "id": 28704,
+  "title": [
+    "[Ryjex's Private Home]"
+  ],
+  "description": [
+    "Mining equipment sits at the end of the tunnel, waiting for the next major digging effort.  Teeth biting into the wall, a huge bore remains where it was left after the construction of the mud baths was complete.  Although it is set off by barricades, children climb all over the machine, turning it into a makeshift playground."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Kharam-Dzu",
+  "meta": [
+    "private home"
+  ],
+  "exits": [
+    {
+      "to": 1902,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlock ironwood door"
+        },
+        {
+          "put": "open ironwood door"
+        },
+        {
+          "move": "go ironwood door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

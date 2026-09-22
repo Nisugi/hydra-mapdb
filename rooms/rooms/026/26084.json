@@ -1,0 +1,43 @@
+{
+  "id": 26084,
+  "uid": [
+    679021
+  ],
+  "title": [
+    "[Ancient Passage, Niche]"
+  ],
+  "description": [
+    "Carved stone creates a forest glade of thick bushes, lush grasses, and tall trees.  Roughly textured, even the floor that is carved with tangled roots that spread outward from the thick tree trunks, and rendered tufts of grass and moss that make the ground uneven, but not unpleasantly so.  Nestled within a particularly ornate tree is a large stone niche that is surrounded by much smaller ones filled with candles.  At either end of the landing are staircases that lead up and down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26085,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

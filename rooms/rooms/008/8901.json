@@ -1,0 +1,35 @@
+{
+  "id": 8901,
+  "uid": [
+    3026
+  ],
+  "title": [
+    "[Wrenrick's, Trunk Room]"
+  ],
+  "description": [
+    "This small room contains trunks of all sizes and shapes.  Sturdy shelves from floor to ceiling increase the number that may be stored here.  A pulley and rope is attached to the high ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8900,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8902,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

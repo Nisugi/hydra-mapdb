@@ -1,0 +1,42 @@
+{
+  "id": 19096,
+  "title": [
+    "[Stashers and Slashers, Foyer]"
+  ],
+  "description": [
+    "Dark wood paneling lines the walls of the foyer, offset by bright white porcelain plates affixed firmly to the wall by steel bracketing and lit by candle-filled lamps dangling overhead.  Standing against the wall opposite the open stained-glass hatch is a tufted brown leather couch, which is flanked on either side by low wooden endtables."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19095,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 19184,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19185,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19186,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

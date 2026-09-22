@@ -1,0 +1,39 @@
+{
+  "id": 25142,
+  "uid": [
+    -7105183
+  ],
+  "title": [
+    "[Reim Castle, Vault Entry]"
+  ],
+  "description": [
+    "Solid gold walls and floors stretch outward into an enormous room.  A circular crimson rug bearing the crest of Reim fills the entirety of the floor.  Looming overhead, a massive golden vault door beckons entry further."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      373,
+      144,
+      385,
+      155
+    ]
+  },
+  "exits": [
+    {
+      "to": 25137,
+      "kind": "go",
+      "cmd": "go rhimar door",
+      "cost": 0.2
+    },
+    {
+      "to": 25143,
+      "kind": "go",
+      "cmd": "go golden door",
+      "cost": 0.2
+    }
+  ]
+}

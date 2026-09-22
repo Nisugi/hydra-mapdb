@@ -1,0 +1,34 @@
+{
+  "id": 35991,
+  "uid": [
+    4043252
+  ],
+  "title": [
+    "[Rowanberry Room, Cubbyhole]"
+  ],
+  "description": [
+    "The small room ends in a dark leather curtain which is drawn shut.  Remnants of old advertising slogans are painted onto the curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 35990,
+      "kind": "other",
+      "cmd": "pull lever",
+      "cost": 0.2
+    },
+    {
+      "to": 35992,
+      "kind": "go",
+      "cmd": "go leather curtain",
+      "cost": 0.2
+    }
+  ]
+}

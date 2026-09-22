@@ -1,0 +1,45 @@
+{
+  "id": 2974,
+  "uid": [
+    4132101
+  ],
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "The staircase narrows to a claustrophobic tunnel of greyish, fitted stone.  Sputtering torches throw dim, flickering light down the narrow corridor, giving a sense of life to the old slate flooring.  The dust-filled air is stale and heavy, smelling of rotting cloth and long-dry bone."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "arch wight",
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      1503,
+      83,
+      1552,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 2973,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 2975,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

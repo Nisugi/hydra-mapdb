@@ -1,0 +1,58 @@
+{
+  "id": 29744,
+  "uid": [
+    7121201
+  ],
+  "title": [
+    "[Inking Den, Annex Hallway]"
+  ],
+  "description": [
+    "Frosted globes nestled within decorative wall sconces provide a steady glow of welcoming light down the long corridor.  The walls are hidden behind bright ivory white silk drapery, the soft ends of which pool upon the thick cerulean and azure carpet.  Built into opposing walls, a lacquered white door and a lacquered beige door part the drapery and have a trio of brightly glowing globes directly above their pointed, cinquefoil frames."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "houselockers",
+    "peer door =~ /Rising Phoenix|Argent Aspis/"
+  ],
+  "image": {
+    "file": "kf-inking_den-1615857364.png",
+    "rect": [
+      433,
+      551,
+      460,
+      574
+    ]
+  },
+  "exits": [
+    {
+      "to": 28957,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29753,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33172,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 35209,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": 34435,
+  "uid": [
+    2022477
+  ],
+  "title": [
+    "[Cuddfan Hollow, Living Space]"
+  ],
+  "description": [
+    "Small windows in the western wall allow natural light to filter into the tidy space, though copper lanterns, pot-bellied and glossy, hang from the exposed rafters of the ceiling to illuminate even the deepest corners of the wagon.  Compact cabinets fashioned of haon rise from the painted blue and yellow floor, each covered with glossy counters and fitted with closure toggles.  A potbellied cast iron stove sits in one corner, its chimney pipe disappearing in the roof, while a key-shaped bright blue door remains open to the outside."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Cuddfan Hollow, inside the Northern Caravansary on the outskirts of Wehnimer's Landing",
+  "terrain": "plain dirt",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 34434,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "forget": "key_was_worn"
+        },
+        {
+          "remember": [
+            "key_was_worn",
+            "yes"
+          ],
+          "when": {
+            "wearing_named_by": "key"
+          }
+        },
+        {
+          "put": "remove my {setting:key}",
+          "when": {
+            "remembered": [
+              "key_was_worn",
+              "yes"
+            ]
+          }
+        },
+        {
+          "put": "get my {setting:key} from my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "remembered": [
+                "key_was_worn",
+                "yes"
+              ]
+            }
+          }
+        },
+        {
+          "put": "unlock bright door"
+        },
+        {
+          "put": "open bright door"
+        },
+        {
+          "move": "go bright door"
+        },
+        {
+          "put": "close bright door"
+        },
+        {
+          "put": "lock bright door"
+        },
+        {
+          "put": "wear my {setting:key}",
+          "when": {
+            "remembered": [
+              "key_was_worn",
+              "yes"
+            ]
+          }
+        },
+        {
+          "put": "put my {setting:key} in my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "remembered": [
+                "key_was_worn",
+                "yes"
+              ]
+            }
+          }
+        },
+        {
+          "forget": "key_was_worn"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "setting_is_set": "key"
+                },
+                {
+                  "any": [
+                    {
+                      "wearing_named_by": "key"
+                    },
+                    {
+                      "setting_is_set": "key_sack"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "setting": [
+                "Cuddfan_Hollow",
+                "true"
+              ]
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 34436,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

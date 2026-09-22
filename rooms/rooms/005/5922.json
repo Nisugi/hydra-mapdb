@@ -1,0 +1,72 @@
+{
+  "id": 5922,
+  "uid": [
+    14009014
+  ],
+  "title": [
+    "[Catacombs, Tunnel]"
+  ],
+  "description": [
+    "Along the back wall a huge patch of skin, with matted fur still attached, clings to a jagged spot of rocks.",
+    "Along the back wall a huge patch of skin, with matted fur still attached, clings to a jagged spot of rocks.  There is no trace of the wounded animal.  In the distance, the high-pitched metallic ping of hundreds of bats echo and bounce off the walls.  The vibrations cause a small avalanche of dirt and other debris."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      261,
+      960,
+      269,
+      969
+    ]
+  },
+  "exits": [
+    {
+      "to": 5921,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5923,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10476,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go niche"
+        },
+        {
+          "await": "Your eyes have recovered from the poor light within the niche.",
+          "when": "still_here"
+        },
+        {
+          "move": "go niche",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

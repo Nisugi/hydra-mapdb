@@ -1,0 +1,44 @@
+{
+  "id": 26832,
+  "uid": [
+    3003039
+  ],
+  "title": [
+    "[Adventurers' Rest, Agate Lounge]"
+  ],
+  "description": [
+    "A pale marble statue of Tilamaire strumming a lute stands out clearly against the black marble tiled floor and dark velvet curtains which line the walls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_annex",
+    "locker annex:Helden Hall"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1771,
+      674,
+      1910,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 1938,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 35995,
+      "kind": "other",
+      "cmd": "pull dwarvish tome in bookcase",
+      "cost": 0.2
+    }
+  ]
+}

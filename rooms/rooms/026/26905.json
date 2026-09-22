@@ -1,0 +1,337 @@
+{
+  "id": 26905,
+  "uid": [
+    8214501
+  ],
+  "title": [
+    "[Bloodriven Village, River Bank]"
+  ],
+  "description": [
+    "Feeding in through the Locksmehr River to the south, dark waters flow north from the wide watercourse.  The shore is narrow, and the only pathway is a muddy trail leading up the river bank.",
+    "Small tributaries feed into the Locksmehr River, creating a wide watercourse filled with swiftly flowing dark waters that eventually empty into Darkstone Bay.  The narrow shoreline follows the river's edge, the newly shorn grasses providing a rundown hovel in the distance, while nearer at hand a muddy trail provides the only pathway up the riverbank to the city gates.",
+    "Small frozen tributaries feed into the Locksmehr River, creating a wide solid watercourse filled with dark ice that leads into Darkstone Bay. The narrow shoreline follows the river's edge, the barren ground providing a rundown hovel in the distance, while nearer at hand a ice and mud-covered trail provides the only pathway up the riverbank to the city gates."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Bloodriven Village",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "exit"
+  ],
+  "meta": [
+    "teleport"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      631,
+      1130,
+      661,
+      1161
+    ]
+  },
+  "exits": [
+    {
+      "to": 7,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "7"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 284,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "284"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 1448,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "1448"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 1944,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "1944"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 2426,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "2426"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 3669,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "3669"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 3727,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "3727"
+          ]
+        },
+        "then": 2400.0
+      }
+    },
+    {
+      "to": 4651,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "4651"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 9410,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "9410"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 9652,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "9652"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 10862,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "10862"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 26386,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 26904,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 28908,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wagon"
+        },
+        {
+          "forget": "duskruin_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "duskruin_origin",
+            "28908"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

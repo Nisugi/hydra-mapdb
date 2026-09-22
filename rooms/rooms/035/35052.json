@@ -1,0 +1,38 @@
+{
+  "id": 35052,
+  "uid": [
+    4426602
+  ],
+  "title": [
+    "[The Trove, Grand Hall]"
+  ],
+  "description": [
+    "Dark basalt columns stretch to the high ceiling of the auction house's grand hall, twined with scenes of nautical warfare in gold leaf.  They march toward a pair of arched steel double doors occupying much of the far wall.  Spaced between the pilasters are several cases framed by adamantine-laced glass, each containing relics arranged atop a spill of cerulean velvet.  Hireswords, as heavily armed as they are implacable stand watch atop lofty balconies above."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Glaoveln",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 35047,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35053,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 35054,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

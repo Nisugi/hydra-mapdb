@@ -1,0 +1,89 @@
+{
+  "id": 3423,
+  "uid": [
+    855002
+  ],
+  "title": [
+    "[Icemule Hall, Courtyard]"
+  ],
+  "description": [
+    "A long cobblestone walkway winds through the courtyard, its surface glossy with the sheen of ice.  Lofty pine trees tower high overhead, their boughs low with the weight of new fallen snow.  A multitude of iceblossoms peek out from beneath the trees, brightening the landscape with a riot of color.  At the foot of the walkway is a sprawling oak building, its eaves draped in dripping icicles.  Cobblestone steps lead up to a set of rounded oak doors."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "mho hall",
+    "stalk of bluebells",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Icemule Hall (PRO Hall)",
+    "mapshortname:Icemule Hall (PRO Hall)"
+  ],
+  "image": {
+    "file": "imt-pro_hall-1512642391.png",
+    "rect": [
+      421,
+      483,
+      550,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 3231,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26816,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

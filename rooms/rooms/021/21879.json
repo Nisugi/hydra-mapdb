@@ -1,0 +1,48 @@
+{
+  "id": 21879,
+  "title": [
+    "[Talador, East Circle]"
+  ],
+  "description": [
+    "The road bends to the northeast, meandering through clusters of stone and brick shops.  Off in the distance the snowy peaks of the northern mountains rise up to spear the sky."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      310,
+      157,
+      337,
+      184
+    ]
+  },
+  "exits": [
+    {
+      "to": 21872,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21880,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21881,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21890,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 7332,
+  "uid": [
+    2161001
+  ],
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "Drab grey clouds twist overhead in muted anguish, casting writhing shadows over this secluded pasture.  The pasture spreads out dully to the southeast, broken only by the occasional misshapen tree or rotted trunk.  An ancient trail, overgrown from countless years of disuse, weaves its way from the rising valley walls into the desolation."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "cold, dry",
+  "terrain": "barren scrub",
+  "tags": [
+    "longgrass",
+    "petrified shadowstalk",
+    "wyrm thorn"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1014,
+      730,
+      1024,
+      740
+    ]
+  },
+  "exits": [
+    {
+      "to": 7329,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 7333,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

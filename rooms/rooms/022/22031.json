@@ -1,0 +1,45 @@
+{
+  "id": 22031,
+  "uid": [
+    109101
+  ],
+  "title": [
+    "[Silvergate, Dragon Room]"
+  ],
+  "description": [
+    "Smelling the fragrance of fresh cedar, you glance up and notice that the ceiling of this simply furnished room has been paneled with the reddish wood.  A simple arrangement of flowering blossoms is displayed in a niche centered in one of the cream colored walls.  The window opposite the door is covered by a delicate carved screen, through which you hear the sound of chimes blowing in the wind.  Thick straw matting covers most of the floor, rising several inches above the entry to this room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      766,
+      8,
+      820,
+      62
+    ]
+  },
+  "exits": [
+    {
+      "to": 14674,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlatch red door"
+        },
+        {
+          "put": "open red door"
+        },
+        {
+          "move": "go red door"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 7459,
+  "uid": [
+    94002
+  ],
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel is small and cramped.  It is wider than it is tall, and the floor, walls and ceiling are fairly smooth.  Patches of lichen dotting the area give off an eerie, dim light that casts a green hue over everything.  A subdued, slightly bitter odor nags at your senses.  Though not strong, it is pervasive and seems to irritate your eyes."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      780,
+      798,
+      790,
+      808
+    ]
+  },
+  "exits": [
+    {
+      "to": 7458,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    },
+    {
+      "to": 7460,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

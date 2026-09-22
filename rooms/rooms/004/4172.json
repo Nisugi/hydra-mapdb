@@ -1,0 +1,112 @@
+{
+  "id": 4172,
+  "uid": [
+    2138116
+  ],
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "This cavern is caked with dried blood which coats the floor and walls in this area drinking in all the light.  Every cave looks like the last as you struggle to find your way around inside them."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      767,
+      835,
+      777,
+      845
+    ]
+  },
+  "exits": [
+    {
+      "to": 4171,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "south",
+            "search",
+            "go stair",
+            "southwest",
+            "southwest",
+            "southeast",
+            "go crack",
+            "north"
+          ],
+          "when": {
+            "not": {
+              "sees": "door"
+            }
+          }
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 1.8
+    },
+    {
+      "to": 4173,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "south",
+            "search",
+            "go stair",
+            "southwest",
+            "southwest",
+            "southeast",
+            "go crack",
+            "north"
+          ],
+          "when": {
+            "not": {
+              "sees": "door"
+            }
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 1.8
+    },
+    {
+      "to": 4174,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_while": [
+            "south",
+            {
+              "exit": "s"
+            }
+          ]
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 16806,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

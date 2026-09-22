@@ -1,0 +1,42 @@
+{
+  "id": 21842,
+  "title": [
+    "[Doggoroth Keep, Stone Ascent]"
+  ],
+  "description": [
+    "Four sides of smooth stone steps lead up to a wide platform, easily viewable from all areas of the inner keep.  All around, armored Taladorian knights stand guard.  Off to the side, a stone ladder leads up to an observation deck."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      817,
+      140,
+      831,
+      153
+    ]
+  },
+  "exits": [
+    {
+      "to": 21841,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21843,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21844,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": 29881,
+  "uid": [
+    7503252
+  ],
+  "title": [
+    "[Rawknuckle's, Pipe Den]"
+  ],
+  "description": [
+    "A mottled grey warg pelt stretches across the plank floor before an uneven brick fireplace on the eastern wall.  Several frayed chairs form a loose semicircle around the hearth.  Decades of pipe smoke has seeped into the surroundings, leaving the air stale with its burnt herbal tang."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard2",
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin guide pipeden",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 29877,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 5535,
+  "uid": [
+    4215138
+  ],
+  "title": [
+    "[Manor House, East Entryway]"
+  ],
+  "description": [
+    "Unadorned woodwork surrounds the maoral door that is the eastern entrance to the manor house.  Doorways leading to the north and south provide ready access to the manor's laundry and kitchen respectively.  A wide corridor runs to the west, with doors leading off of it and the manor's western entryway visible at the far end.  The inlaid pattern of the wooden floor has warped and discolored, but the plaster of the walls and ceiling is still intact."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1181,
+      628,
+      1191,
+      638
+    ]
+  },
+  "exits": [
+    {
+      "to": 5532,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 5546,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5547,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5548,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

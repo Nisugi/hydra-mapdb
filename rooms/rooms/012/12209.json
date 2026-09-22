@@ -1,0 +1,105 @@
+{
+  "id": 12209,
+  "uid": [
+    4570010
+  ],
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Worms practically cover the walls and floor.  The rhythmically collapsing walls shake some from the ceiling as well, dropping them around you to chew their way into the floor.  A disconcerting, whistling wheeze sounds throughout the area, as wind howls through the holes in the chamber.  Blood oozes over the floor northward."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest",
+    "Obvious exits: northeast, southwest, northwest"
+  ],
+  "location": "the Rift",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "congealed slime",
+    "mass of congealed slime",
+    "oozing fleshsore bulb",
+    "rotting bile green fleshbulb",
+    "slime-covered grave blossom",
+    "twisted black mawflower"
+  ],
+  "image": {
+    "file": "imt-rift-1554575848.png",
+    "rect": [
+      856,
+      1108,
+      866,
+      1118
+    ]
+  },
+  "exits": [
+    {
+      "to": 2579,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12162,
+          12207,
+          12170,
+          12209,
+          12215,
+          12210,
+          12159,
+          12165,
+          12206,
+          12173,
+          12208,
+          null,
+          12160,
+          12211
+        ],
+        "dirs": [
+          "northwest",
+          "north",
+          "northeast",
+          "northwest",
+          "northeast",
+          "northwest",
+          "northeast",
+          "north",
+          "northwest",
+          "west",
+          "east",
+          "northeast",
+          "northwest",
+          "northeast"
+        ],
+        "landmarks": [
+          {
+            "noun": "thread",
+            "enter": "climb thread"
+          }
+        ],
+        "after": [
+          "stand"
+        ]
+      },
+      "cost": 6.8
+    },
+    {
+      "to": 12170,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12208,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12215,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

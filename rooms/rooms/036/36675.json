@@ -1,0 +1,45 @@
+{
+  "id": 36675,
+  "uid": [
+    8400008
+  ],
+  "title": [
+    "[Nyessem, Ring Loop]"
+  ],
+  "description": [
+    "The tunnel splits here, with a perpendicular and narrow slope leading up.  A stone fountain and the stone pool opposite this split dominate much of the area.  The luminescent mineral white hue of the pool's stone reflects the room's ambient light, giving the water an ethereal quality.  In this water, some marble sculptures of muscled Nyessemian men have been erected, each set in a striking pose to accent their unnaturally large, muscled forms.  Next to the pool, a metal sign offers a warning."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      683,
+      599,
+      701,
+      615
+    ]
+  },
+  "exits": [
+    {
+      "to": 36674,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36676,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36680,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    }
+  ]
+}

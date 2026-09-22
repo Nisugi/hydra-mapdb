@@ -1,0 +1,107 @@
+{
+  "id": 11443,
+  "uid": [
+    304033
+  ],
+  "title": [
+    "[Maelstrom Bay, Surface]"
+  ],
+  "description": [
+    "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  A powerful, swirling current prevents any movement north and west.  To the southwest, a low coral reef rises above the wide, rolling swells.  The white spray from the swells slapping against the reef appears ghostly in the moonlight.",
+    "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  A powerful, swirling current prevents any movement north and west.  To the southwest, a low coral reef rises above the wide, rolling swells.  The white spray from the swells slapping against the reef sparkles in the sunlight."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      648,
+      1180,
+      658,
+      1190
+    ]
+  },
+  "exits": [
+    {
+      "to": 11440,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11442,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11444,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "spell_active": "Water Walking"
+          }
+        },
+        "then": 2.0,
+        "else": 0.2
+      }
+    }
+  ]
+}

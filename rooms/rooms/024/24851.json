@@ -1,0 +1,39 @@
+{
+  "id": 24851,
+  "title": [
+    "[Papie's Outfitting]",
+    "[Papie's Weaponry]",
+    "[Papie's General Store]",
+    "[Papie's Magic Shoppe]"
+  ],
+  "description": [
+    "Enclosed by polished oak walls, the shop features a bronze peg-legged cat statue in the center of its oak floor.  A snarling war griffin painting hangs under the beam ceiling.  Right near the front is a heavy white granite counter and a low wrought iron table."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "playershop"
+  ],
+  "exits": [
+    {
+      "to": 352,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25027,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25028,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 25680,
+  "uid": [
+    284007
+  ],
+  "title": [
+    "[Bard Guild, Conch Pub]"
+  ],
+  "description": [
+    "The Conch Pub is a cozy chamber, with dark teak-paneled walls hung with oil and watercolor paintings.  A few tables sit in alcoves provided by standing screens crafted of teak and caned panels.  A long bar faces a wall of windows standing open to admit the Bay breeze."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25671,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25681,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go large table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25682,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go small table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

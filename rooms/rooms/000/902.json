@@ -1,0 +1,52 @@
+{
+  "id": 902,
+  "uid": [
+    13015071
+  ],
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The tunnel narrows considerably at this point, nearly ending at the narrow mouth of a large crevasse in the rock wall.  Its outer edges scraped and chipped by the passage of many travelers, the crevasse appears to be a rather tight fit for halfling and giant alike.  Although the fissure reaches all the way to the tunnel ceiling, it varies in width and seems riddled with jagged protrusions, making for slow and painstaking movement."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Whistler's Pass",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-whistlers_pass-1639036092.png",
+    "rect": [
+      438,
+      218,
+      448,
+      228
+    ]
+  },
+  "exits": [
+    {
+      "to": 901,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go crevasse"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 903,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

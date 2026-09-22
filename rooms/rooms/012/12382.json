@@ -1,0 +1,55 @@
+{
+  "id": 12382,
+  "uid": [
+    3008010
+  ],
+  "title": [
+    "[Aquamarine, Cul-de-sac]"
+  ],
+  "description": [
+    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.",
+    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.  Several flickering, wall-braced invar sconces run the length of the apparatus, lighting the way."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      203,
+      180,
+      239,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 1988,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 12383,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb rope"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

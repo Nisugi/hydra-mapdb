@@ -1,0 +1,27 @@
+{
+  "id": 20270,
+  "title": [
+    "[Swamp Stamen]"
+  ],
+  "description": [
+    "The shack has whitewashed walls and a bare, swept dirt floor.  A pair of turned wooden poles stretches across the sides of the space.  One hanging curtain, cut from canvas, leads out the front, and a second hanging drape, cut from leather, leads out the back."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20269,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 20271,
+      "kind": "go",
+      "cmd": "go drape",
+      "cost": 0.2
+    }
+  ]
+}

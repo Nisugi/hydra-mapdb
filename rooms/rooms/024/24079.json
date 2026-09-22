@@ -1,0 +1,36 @@
+{
+  "id": 24079,
+  "title": [
+    "[Necropolis, Hall of the Dead]"
+  ],
+  "description": [
+    "Upon the moss-covered limestone walls, shallow niches house a number of sarcophagi.  Iron sconces give off a pale green illumination, giving the hall an eerie presence.  Smeared trails of blood and gore lead in every direction.  Lengths of tattered cloth are scattered across the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "unique_loot": [
+    "high-arched marble doorway"
+  ],
+  "exits": [
+    {
+      "to": 24078,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24080,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24081,
+      "kind": "go",
+      "cmd": "go marble doorway",
+      "cost": 0.2
+    }
+  ]
+}

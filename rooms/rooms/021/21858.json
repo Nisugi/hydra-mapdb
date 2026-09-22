@@ -1,0 +1,54 @@
+{
+  "id": 21858,
+  "title": [
+    "[Talador, Silver Lane]"
+  ],
+  "description": [
+    "The cobblestones of the long road have been worn and smoothed over time and use.  City guards move about the area, hands never far from the handles of their sheathed weapons."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      253,
+      327,
+      280,
+      354
+    ]
+  },
+  "exits": [
+    {
+      "to": 21857,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21859,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21870,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22015,
+      "kind": "go",
+      "cmd": "go steam-powered wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 22017,
+      "kind": "go",
+      "cmd": "go dark wagon",
+      "cost": 0.2
+    }
+  ]
+}

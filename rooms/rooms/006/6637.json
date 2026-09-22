@@ -1,0 +1,59 @@
+{
+  "id": 6637,
+  "uid": [
+    487019
+  ],
+  "title": [
+    "[Monastery, Nexus]"
+  ],
+  "description": [
+    "This appears to be the central point of all activity for this stronghold.  Lit torches mounted in crimson vaalin sconces illuminate the room.  An ornate black marble arch adorns the northern wall and corridors lead off in almost every direction."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest, west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      276,
+      1181,
+      286,
+      1191
+    ]
+  },
+  "exits": [
+    {
+      "to": 6636,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 6638,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6651,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6654,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6674,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

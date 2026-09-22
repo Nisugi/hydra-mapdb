@@ -1,0 +1,68 @@
+{
+  "id": 28947,
+  "uid": [
+    7118318
+  ],
+  "title": [
+    "[The Sea Hag's Roost, Front Desk]"
+  ],
+  "description": [
+    "A happy clerk in a smart blue uniform stands alert at a clean little desk.  A handful of freshly-buffed brass keys hang on the wall behind the clerk as he spins about his dominion in perpetual search for something to tidy up."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "inn",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28946,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

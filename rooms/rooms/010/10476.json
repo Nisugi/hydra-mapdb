@@ -1,0 +1,82 @@
+{
+  "id": 10476,
+  "uid": [
+    14009015
+  ],
+  "title": [
+    "[Catacombs, Temple]"
+  ],
+  "description": [
+    "Oddly colored stone pillars, which are really stones stacked atop each other, look ready to topple over and crush anyone foolish enough to venture too close.  In the center of the pillars rests an empty raised dais.  Directly behind the dais, strange and indecipherable markings mar the surface of the wall.  Closer inspection reveals that blood covers all surfaces in this chamber."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "ayana'al leaf",
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      346,
+      958,
+      353,
+      968
+    ]
+  },
+  "exits": [
+    {
+      "to": 5922,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23601,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "touch pointed stone"
+        },
+        {
+          "put": "push pointed stone"
+        },
+        {
+          "put": "push small stone"
+        },
+        {
+          "put": "push round stone"
+        },
+        {
+          "put": "push long stone"
+        },
+        {
+          "put": "push thick stone"
+        },
+        {
+          "put": "push flat stone"
+        },
+        {
+          "move": "stand"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

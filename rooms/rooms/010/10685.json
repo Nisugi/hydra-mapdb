@@ -1,0 +1,57 @@
+{
+  "id": 10685,
+  "uid": [
+    14008073
+  ],
+  "title": [
+    "[Catacomb, Entrance]"
+  ],
+  "description": [
+    "Flickering torches on the walls light the entrance of the catacombs.  Several chairs provide seating in what seems to serve as a waiting room.  Arches flank both sides of this room and a hallway extends to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Glaise Cnoc Cemetery",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dark apparition",
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      754,
+      583,
+      765,
+      594
+    ]
+  },
+  "exits": [
+    {
+      "to": 5879,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 10686,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10692,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10693,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

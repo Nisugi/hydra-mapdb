@@ -1,0 +1,37 @@
+{
+  "id": 23165,
+  "title": [
+    "[Halfway Midway, Carousel]"
+  ],
+  "description": [
+    "The carousel shudders from time to time, no more than the slight shiver of a slow gear or a momentary kink in the mechanics that twirl the massive ride ever onward.  Old carnival posters are stuck to the wooden floor between the slowly bobbing wooden carousel creatures, as well as the center column, their corners ripped and folded, some damaged beyond usefulness.  The glass globes on the lights overhead tink together occasionally, and the sound they create fits right in with the haunting melody of the carousel."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 23166,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23171,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23173,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

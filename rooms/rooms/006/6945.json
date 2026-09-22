@@ -1,0 +1,30 @@
+{
+  "id": 6945,
+  "title": [
+    "[Militia Barracks, Entrance]"
+  ],
+  "description": [
+    "This is the entry hall to the large militia barracks.  Housed within is the Town Guard.  The hall itself is narrow and dark."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "game:GSPlat"
+  ],
+  "exits": [
+    {
+      "to": 281,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 6946,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 24308,
+  "uid": [
+    274007
+  ],
+  "title": [
+    "[Ranger Guild, Nexus]"
+  ],
+  "description": [
+    "Large and ringed with bay windows, this room leads to several others.  The walls are covered in dark felwood paneling, and sturdy wool tapestries depicting forest scenes cover the walls.  An arch in the west side of the room leads outside, with a coyote hide curtain in place to keep out the elements.  Large beeswax candles brightly light the room from their holders in the walls.  One of the tree's branches has penetrated the room and has been carved into stairs leading to the next floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, northwest"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-rangerguild-1649447217.png",
+    "rect": [
+      262,
+      347,
+      280,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 24306,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24309,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 24313,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24314,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24315,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24317,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24318,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24320,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24332,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

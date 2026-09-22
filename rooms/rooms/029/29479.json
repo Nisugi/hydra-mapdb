@@ -1,0 +1,50 @@
+{
+  "id": 29479,
+  "uid": [
+    13007215
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Tunnel]"
+  ],
+  "description": [
+    "Crowded by a low ceiling, the ragged walls of the passage continue to wind their way through the permanent, dead-of-night darkness several leagues below the mountains.  A large crevice allows access to another section of tunnels below.  Something rotten fills the air but cannot be seen in the immediate area."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, down"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      411,
+      277,
+      437,
+      300
+    ]
+  },
+  "exits": [
+    {
+      "to": 29478,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29486,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29487,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

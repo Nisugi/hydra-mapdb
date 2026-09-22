@@ -1,0 +1,44 @@
+{
+  "id": 2905,
+  "uid": [
+    4560027
+  ],
+  "title": [
+    "[Ice Cave]"
+  ],
+  "description": [
+    "This small cave is filled with shadows, the only illumination provided by a dim ray of light that peeks through an opening in the southern wall.  In the cave's center is a fire pit, its rim ringed with a number of scorched rocks.  Overhead, a multitude of designs cover the walls and ceiling, incised upon the rock with rich earth tones.  Noticeable by its lack of ornamentation is a small silhouette on the east wall, the crevice about the size of a halfling.  Dense shadows cloak the back of the cave."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      959,
+      419,
+      969,
+      429
+    ]
+  },
+  "exits": [
+    {
+      "to": 2904,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 2906,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

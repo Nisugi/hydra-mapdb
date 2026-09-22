@@ -1,0 +1,64 @@
+{
+  "id": 13922,
+  "uid": [
+    14200030
+  ],
+  "title": [
+    "[Ravelin, Riverside Dock]"
+  ],
+  "description": [
+    "Thick rope supported between each wooden piling creates a railing for this small river dock.  Several wooden barrels are stacked underneath a large fish-shaped sign hanging from a weathered thanot shop.  A small wooden ladder secured to the edge of the platform leads down to a boat mooring.  Fishermen move about carrying boxes of supplies and baskets of fresh fish from the day's catch."
+  ],
+  "paths": [
+    "Obvious paths: east, up"
+  ],
+  "location": "the hamlet of Ravelin",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      395,
+      1119,
+      448,
+      1168
+    ]
+  },
+  "exits": [
+    {
+      "to": 13778,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 13923,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 13924,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 13965,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

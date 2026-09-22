@@ -1,0 +1,42 @@
+{
+  "id": 25908,
+  "title": [
+    "[Sylinar's Spire]"
+  ],
+  "description": [
+    "A plum velvet curtain covers a third of the curved wall, while recessed shelving has been built along its remainder.  The staircase spirals further upward to the fourth level of the tower."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
+  "image": {
+    "file": "Spire_Grounds_5117.png",
+    "rect": [
+      938,
+      423,
+      987,
+      473
+    ]
+  },
+  "exits": [
+    {
+      "to": 25907,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 25909,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 25937,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

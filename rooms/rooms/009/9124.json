@@ -1,0 +1,45 @@
+{
+  "id": 9124,
+  "uid": [
+    4045232
+  ],
+  "title": [
+    "[Subterranean Lake, Shore]"
+  ],
+  "description": [
+    "Masses of lichen cover the wall of the cavern and drape out into the stagnant water.  They cling among the stalagmites dotting the lake forming a natural bridge across its surface.  How sturdy it is is anybody's guess."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "orchil lichen"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      225,
+      834,
+      235,
+      844
+    ]
+  },
+  "exits": [
+    {
+      "to": 9122,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9127,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

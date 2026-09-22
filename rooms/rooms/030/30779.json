@@ -1,0 +1,53 @@
+{
+  "id": 30779,
+  "uid": [
+    7120002,
+    7120014,
+    7120026,
+    7120038,
+    7120050,
+    7120062,
+    7120074
+  ],
+  "title": [
+    "[Enemy Ship, Helm]"
+  ],
+  "description": [
+    "The mizzenmast towers over a captstan, its large wooden drum wound with thick hemp rope and ready to be turned.  Some paces behind a wheel, the pathway leading to a wooden door is impeded by a jumble of fishing nets and an overturned launch boat.  A pair of fishing poles lean against a thick teak post on which hangs the recently polished ships bell."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy man o' war"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      788,
+      1031,
+      802,
+      1045
+    ]
+  },
+  "exits": [
+    {
+      "to": 30778,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30780,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

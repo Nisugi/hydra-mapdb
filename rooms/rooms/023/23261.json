@@ -1,0 +1,106 @@
+{
+  "id": 23261,
+  "uid": [
+    306035
+  ],
+  "title": [
+    "[The Broken Lands, Jagged Plain]"
+  ],
+  "description": [
+    "The terrain here is little more than a jumble of huge boulders and jagged rocks.  A dense fog obscures your vision, and everywhere you look, everything looks the same."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "black toadstool",
+    "blackened moss",
+    "giant fog beetle",
+    "hooded figure",
+    "peer southwest =~ /^Obvious paths: north, northeast, east, northwest$/"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      676,
+      951,
+      687,
+      961
+    ]
+  },
+  "exits": [
+    {
+      "to": 7451,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 7452,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 7454,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23260,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23262,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23263,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23264,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

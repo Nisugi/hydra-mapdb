@@ -1,0 +1,46 @@
+{
+  "id": 33587,
+  "uid": [
+    7101005
+  ],
+  "title": [
+    "[Vornavis, Keep Bridgehead]"
+  ],
+  "description": [
+    "The soft sounds of a thin rushing river only hint at the power that must have cut the deep chasm that surrounds the walled keep sitting at this fork in the road.  Spanning the gap over the roiling water is a wooden drawbridge, supported by thick chains connecting it to a massive twin-turreted watchtower.  The grey stone walls of the keep stand in mute defense against any enemy from without."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      203,
+      627,
+      249,
+      670
+    ]
+  },
+  "exits": [
+    {
+      "to": 33586,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33588,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33591,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    }
+  ]
+}

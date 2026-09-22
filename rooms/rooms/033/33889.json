@@ -1,0 +1,117 @@
+{
+  "id": 33889,
+  "uid": [
+    14150202
+  ],
+  "title": [
+    "[The Aneia]"
+  ],
+  "description": [
+    "Sun-washed stone forms the curvature of the open-air eatery, the greenery-draped recess affixed with an ebony-slatted counter.  The natural formation of the rock creates an asymmetric roof over a quintet of tables, the archway partitioned by a curtain of Nalfein ivy, the ivory-edged leaves allowing glimpses of the crashing waves below.  A scattering of terracotta pots frame wrought iron benches set against the limestone walls, the backdrop engulfed in latticed jewel-toned roses."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Nalfein",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "table",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 33870,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 33890,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Nielira table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33891,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Athystrel table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33892,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Elunath table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33893,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Maedat table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 33894,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Seapony table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 34423,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

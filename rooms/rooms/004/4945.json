@@ -1,0 +1,51 @@
+{
+  "id": 4945,
+  "uid": [
+    13030078
+  ],
+  "title": [
+    "[Gyldemar Forest, Basement]"
+  ],
+  "description": [
+    "Musty air fills the basement, a fitting companion to the stagnant puddles covering the cool earthen floor.  A menagerie of insects scurry about the room while large spiders slowly travel across the floor towards new homes.  Crumbling stone steps head up to a small landing before turning towards a doorway above."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Gyldemar Forest",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-gyldemar-1264234799.png",
+    "rect": [
+      867,
+      570,
+      877,
+      580
+    ]
+  },
+  "exits": [
+    {
+      "to": 4944,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 4946,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go tunnel"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

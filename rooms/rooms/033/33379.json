@@ -1,0 +1,37 @@
+{
+  "id": 33379,
+  "uid": [
+    4201006
+  ],
+  "title": [
+    "[Vornavis, Tower Stairs]"
+  ],
+  "description": [
+    "Spiraling upward, a wall-to-wall staircase of grey cobblestones ascends the tower, leaving the polished oak floor behind.  Leading southward into the main keep, a long corridor lined with tapestries, doors, and windows has stone walls and an ironwood floor with chevron fel planks.  At the base of the tower, an ironbound door is open to the garden of the inner keep."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "Vornavis Proper",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 33378,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33380,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33384,
+      "kind": "go",
+      "cmd": "go ironbound door",
+      "cost": 0.2
+    }
+  ]
+}

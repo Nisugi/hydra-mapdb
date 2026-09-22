@@ -1,0 +1,251 @@
+{
+  "id": 3365,
+  "uid": [
+    4043800
+  ],
+  "title": [
+    "[Icemule Trace, Ice Garden]"
+  ],
+  "description": [
+    "Alpine flowerbeds ring this tucked-away courtyard, their bright colors a feast for the eyes in comparison to the white of all the snow that lies beyond the gate.  Tamped snow paths keep footsteps soft in this small haven as travellers make their way to and from the chambers north of here.  Centered in a bed of white edelweiss and aromatic purple-flowered calamintha is an ice fountain, its watery spray frozen in a sparkling plume."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "frostflower",
+    "ironfern root",
+    "node",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "supernode",
+    "sweetfern stalk",
+    "urchin-access",
+    "valerian root",
+    "voln",
+    "winter rose"
+  ],
+  "meta": [
+    "seeking"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      760,
+      611,
+      796,
+      647
+    ]
+  },
+  "exits": [
+    {
+      "to": 2304,
+      "kind": "go",
+      "cmd": "go wrought gate",
+      "cost": 0.2
+    },
+    {
+      "to": 2635,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 2808,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 2972,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 3140,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 3369,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24533,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 28817,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

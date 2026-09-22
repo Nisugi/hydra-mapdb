@@ -1,0 +1,56 @@
+{
+  "id": 9920,
+  "uid": [
+    13116001
+  ],
+  "title": [
+    "[The Feystone Inn, Entry]"
+  ],
+  "description": [
+    "The entry hall of the inn is small and stuffy, smelling as if the place hasn't been aired out in years.  A ratty tapestry covers the wall opposite the front entrance, its fabric too moth-eaten to discern what the scene upon it may have once depicted.  Raucous noise comes from behind a swinging door in the south wall."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      433,
+      613,
+      443,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 658,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 9921,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9922,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 15608,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

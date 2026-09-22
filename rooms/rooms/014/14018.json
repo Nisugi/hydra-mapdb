@@ -1,0 +1,57 @@
+{
+  "id": 14018,
+  "uid": [
+    4384601
+  ],
+  "title": [
+    "[Silverwood Garden]"
+  ],
+  "description": [
+    "A carpet of tussocky green grass is surrounded by tall cypress trees.  Moonlight filters in through the branches, and an octagonal white gazebo sits in the center of the area.  Surrounding the gazebo is a flourishing multicolored flowerbed boasting dozens of floral varieties.  Rather apart from the trees that encircle the space, a stately mahogany stands alone next to a bench and a burbling grey marble fountain.",
+    "A carpet of tussocky green grass is surrounded by tall cypress trees.  Sunlight filters in through the branches, and an octagonal white gazebo sits in the center of the area.  Surrounding the gazebo is a flourishing multicolored flowerbed boasting dozens of floral varieties.  Rather apart from the trees that encircle the space, a stately mahogany stands alone next to a bench and a burbling grey marble fountain."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "cultivated",
+  "tags": [
+    "no-auto-map",
+    "spearmint leaf"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 14017,
+      "kind": "go",
+      "cmd": "go atrium",
+      "cost": 0.2
+    },
+    {
+      "to": 14019,
+      "kind": "climb",
+      "cmd": "climb mahogany",
+      "cost": 0.2
+    },
+    {
+      "to": 14020,
+      "kind": "go",
+      "cmd": "go gazebo",
+      "cost": 0.2
+    },
+    {
+      "to": 14030,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14031,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 10418,
+  "uid": [
+    14109002
+  ],
+  "title": [
+    "[Dancing Dahcre, Bar]"
+  ],
+  "description": [
+    "Darkly paneled walls, composed of rich cherry wood and black walnut arranged in a herringbone pattern, enclose this large lounge.  The paneling on the walls is echoed in the marquetry floor.  Several comfortably upholstered wing chairs are arranged around small tables throughout the room and several brass and black leather bar stools are drawn up before a glossy cherry wood bar that stretches the length of one wall."
+  ],
+  "paths": [
+    "Obvious exits: north",
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      873,
+      209,
+      1017,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 10398,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26045,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

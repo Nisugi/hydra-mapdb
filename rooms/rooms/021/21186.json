@@ -1,0 +1,50 @@
+{
+  "id": 21186,
+  "uid": [
+    265012
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Protected by a foot-high curving concrete barrier, an iron-bolted rusty ladder descends below the tunnel.  The sound of light metalwork filters up the shaft, echoing off the walls of the large tunnel and mingling with the ever present *plink* of dripping water."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      668,
+      537,
+      683,
+      551
+    ]
+  },
+  "exits": [
+    {
+      "to": 21184,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21187,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21188,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

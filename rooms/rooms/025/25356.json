@@ -1,0 +1,47 @@
+{
+  "id": 25356,
+  "uid": [
+    8100107
+  ],
+  "title": [
+    "[Delirium Manor, Front Porch]"
+  ],
+  "description": [
+    "Welcoming chairs, both large and small, provide an inviting spot for houseguests to relax and enjoy pleasant conversation.  Small tables of children's books and colored wax sticks keep younger visitors busy while adults enjoy a cool beverage.  Some torn pages are tucked beneath the cushions of one of the larger chairs."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest, out"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25352,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25357,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25359,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25361,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go doors"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

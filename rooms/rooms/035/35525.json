@@ -1,0 +1,44 @@
+{
+  "id": 35525,
+  "uid": [
+    4410313
+  ],
+  "title": [
+    "[Tideswept Bazaar]"
+  ],
+  "description": [
+    "Layered stone gives way to an open coral hollow, where tangled structures rise among swaying fronds and soft, rippled sand.  Silvery fish slip between outcrops, weaving through twisted vegetation and darting over soft sediment.  Plant tendrils sway gently, their surfaces glinting with faint hues as water moves around them.  Patches of amber, violet, and green color the area in quiet bursts.  Shadows shift as currents move along the sandy floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "exits": [
+    {
+      "to": 35524,
+      "kind": "cardinal",
+      "cmd": "n",
+      "cost": 0.2
+    },
+    {
+      "to": 35526,
+      "kind": "cardinal",
+      "cmd": "s",
+      "cost": 0.2
+    },
+    {
+      "to": 35564,
+      "kind": "go",
+      "cmd": "go recessed passage",
+      "cost": 0.2
+    },
+    {
+      "to": 35565,
+      "kind": "go",
+      "cmd": "go coral-formed alcove",
+      "cost": 0.2
+    }
+  ]
+}

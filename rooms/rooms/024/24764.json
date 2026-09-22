@@ -1,0 +1,55 @@
+{
+  "id": 24764,
+  "uid": [
+    212017
+  ],
+  "title": [
+    "[Helden Hall, Corridor]"
+  ],
+  "description": [
+    "You walk along this torchlit corridor, climbing a few steps at regular intervals.  At the end of the passageway you look back, and realize you must be in the northwest tower.  There are two doors in this corrider.  A plain wooden door is distinguished by fine workmanship and a beautiful finish enhancing the pattern of the grain.  Further down the corrider is a black glaes door, gleaming from regular polishing."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      643,
+      732,
+      681,
+      765
+    ]
+  },
+  "exits": [
+    {
+      "to": 15474,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24249,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 24765,
+      "kind": "go",
+      "cmd": "go glaes door",
+      "cost": 0.2
+    },
+    {
+      "to": 24766,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    }
+  ]
+}

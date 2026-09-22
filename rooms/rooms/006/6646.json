@@ -1,0 +1,47 @@
+{
+  "id": 6646,
+  "uid": [
+    487048
+  ],
+  "title": [
+    "[Monastery, Dining Hall]"
+  ],
+  "description": [
+    "Five long tables, a row of chairs to either side of each, dominate this room waiting for someone to sit down and take their place at them.  A dozen cast iron chandeliers hang from the ceiling with a multitude of small candles casting their light down upon the room.  A large serving table runs the length of the west wall, while a pair of swinging doors leads to the north, and a smaller black modwir door leads to the south."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      141,
+      1154,
+      151,
+      1164
+    ]
+  },
+  "exits": [
+    {
+      "to": 6645,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6647,
+      "kind": "go",
+      "cmd": "go swinging doors",
+      "cost": 0.2
+    },
+    {
+      "to": 6650,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    }
+  ]
+}

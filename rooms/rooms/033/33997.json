@@ -1,0 +1,39 @@
+{
+  "id": 33997,
+  "uid": [
+    8085063
+  ],
+  "title": [
+    "[Gallivant Manor, East Wing]"
+  ],
+  "description": [
+    "The easterly hall stretches several yards, with numerous doors and entryways along each side.  Old paintings are draped with cobweb-covered black cloth, and at the far east end, the glass of a massive window has been painted black.  Just beneath the window sits a merry-go-round figurine.  Midway down the hall is a cherrywood arch remarkably free of dust, cobwebs, or signs of aging."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 33994,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33998,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33999,
+      "kind": "other",
+      "cmd": "turn figurine",
+      "cost": 0.2
+    }
+  ]
+}

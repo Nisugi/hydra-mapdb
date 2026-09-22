@@ -1,0 +1,43 @@
+{
+  "id": 30630,
+  "uid": [
+    850006
+  ],
+  "title": [
+    "[Kraken's Fall Hall, Corridor]"
+  ],
+  "description": [
+    "Circular in shape, simple paneling covered in a thick layer of whitewash lines the walls of the open corridor.  Set into one part of the inner hall is a varnished oak door with a crude trident etched into the lintel above.  Along another section is an iron-bound oak ladder that leads higher into the lighthouse.  Looking over a cast iron railing, one can see into the lowest chamber below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30621,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30627,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30631,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30632,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

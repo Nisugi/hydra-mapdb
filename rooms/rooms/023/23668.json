@@ -1,0 +1,47 @@
+{
+  "id": 23668,
+  "uid": [
+    255017
+  ],
+  "title": [
+    "[Bathhouse, Frigidarium]"
+  ],
+  "description": [
+    "Tall glass windows allow sunlight to slip in through the thick foliage outside.  Stone steps lead down into a small pool, large enough for swimming.  An indigo curtained arch keeps the chilled air inside the room, cooling the water, while a polished oak door stands partially closed for the same reason."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      614,
+      107,
+      638,
+      129
+    ]
+  },
+  "exits": [
+    {
+      "to": 23667,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23669,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 23670,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

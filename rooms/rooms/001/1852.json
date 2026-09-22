@@ -1,0 +1,90 @@
+{
+  "id": 1852,
+  "uid": [
+    652001
+  ],
+  "title": [
+    "[Empath Guild, Entrance]"
+  ],
+  "description": [
+    "A perfectly level pathway of smoothed white marble stones runs between the exit to the north and the polished silver gates to the south.  On either side of the path crushed and tinted limestone creates a pebbly carpet of green.  A thick white limestone wall extending east and west supports the gates as well as a host of lit torches.  Two statues poised atop the walls, one on each side of the gate, stretch a banner between them, and a polished silver sign on the gate announces ownership of this area.",
+    "A perfectly level pathway of smoothed white marble stones runs between the exit to the north and the polished silver gates to the south.  On either side of the path crushed and tinted limestone creates a pebbly carpet of green.  A thick white limestone wall extending east and west supports the gates as well as a host of unlit torches.  Two statues poised atop the walls, one on each side of the gate, stretch a banner between them, and a polished silver sign on the gate announces ownership of this area."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "empath guild",
+    "empathguild",
+    "fire lily",
+    "urchin guide empathguild",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      467,
+      569,
+      503,
+      605
+    ]
+  },
+  "exits": [
+    {
+      "to": 1850,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30552,
+      "kind": "go",
+      "cmd": "go silver gates",
+      "cost": {
+        "when": {
+          "profession": "Empath"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

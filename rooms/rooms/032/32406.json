@@ -1,0 +1,50 @@
+{
+  "id": 32406,
+  "uid": [
+    4577006
+  ],
+  "title": [
+    "[Moonsedge, Dirge Row]"
+  ],
+  "description": [
+    "Hay lies in scattered piles near the entrance to the city's stables.  Although the telltale odors of horse lend their tang to the cold breeze, the smells are as faint as a memory.  Watering troughs along the outside of the building stand unused, their vessels dry and heaped with leaves and other detritus."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      316,
+      161,
+      338,
+      182
+    ]
+  },
+  "exits": [
+    {
+      "to": 32405,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32407,
+      "kind": "go",
+      "cmd": "go stables",
+      "cost": 0.2
+    },
+    {
+      "to": 32408,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 11141,
+  "uid": [
+    2103010
+  ],
+  "title": [
+    "[River Tunnels, Barrier]"
+  ],
+  "description": [
+    "The humming, glowing barriers that make up the north and south walls immediately grab your attention when you enter this chamber.  The amount of mana involved in constructing and maintaining two such barriers throughout the ages staggers you as you think about it.  You can even feel the ambient mana in the room bathing you in its flows."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Citadel",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "golden flax fronds",
+    "murdroot",
+    "wild rice",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3721,
+      1008,
+      3758,
+      1042
+    ]
+  },
+  "exits": [
+    {
+      "to": 11140,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11142,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11143,
+      "kind": "go",
+      "cmd": "go blue barrier",
+      "cost": 0.2
+    }
+  ]
+}

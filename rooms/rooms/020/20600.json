@@ -1,0 +1,78 @@
+{
+  "id": 20600,
+  "uid": [
+    336733
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The underground channel descends, as the heat of the torches work to fight off the cold air of the greater depth.  Small embers of fire twirl up from the torches as the flames rise and ebb."
+  ],
+  "paths": [
+    "Obvious exits: east, west",
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "noteleport:fwi"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      532,
+      138,
+      568,
+      173
+    ]
+  },
+  "exits": [
+    {
+      "to": 19946,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crevice"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 20599,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20601,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23336,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

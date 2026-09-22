@@ -1,0 +1,84 @@
+{
+  "id": 8671,
+  "uid": [
+    1019
+  ],
+  "title": [
+    "[Raging Thrak Inn, Front Desk]"
+  ],
+  "description": [
+    "A polished wooden desk sits to the side of the staircase, and bears the placard of the Thrak's proprietor.  At the top of the creaky wooden stairs are the establishment's guest rooms."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "inn",
+    "node",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      201,
+      354,
+      231,
+      384
+    ]
+  },
+  "exits": [
+    {
+      "to": 1195,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8672,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

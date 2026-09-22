@@ -1,0 +1,57 @@
+{
+  "id": 2320,
+  "uid": [
+    4042013
+  ],
+  "title": [
+    "[Temple Burrow, Koar Street]"
+  ],
+  "description": [
+    "The well-traveled road is flanked by an orderly procession of street lamps, their bases carved with thunderbolts and bearded figures with severe countenances.  Priests in blue robes wander up and down a staircase carved from the side of the glacier.  It and the ice of the road are rough enough to easily traverse without falling.  A few small burrows are carved into the ice, round doors facing the street and painted with all of the hues of the dawn.",
+    "This area seems well-travelled.  Priests in blue robes wander up and down a staircase carved from the glacier, and the ice you walk on is rough enough to stand on without falling.  A few small cottages have been built from the ice, and one seems to have been encased in it, with holes drilled out for the door and windows."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      847,
+      520,
+      883,
+      556
+    ]
+  },
+  "exits": [
+    {
+      "to": 2319,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2321,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2322,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2332,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

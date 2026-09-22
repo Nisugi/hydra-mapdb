@@ -1,0 +1,48 @@
+{
+  "id": 23390,
+  "uid": [
+    13018034
+  ],
+  "title": [
+    "[A Twisting Tunnel, Shaft]"
+  ],
+  "description": [
+    "The curving of the tunnel walls stops suddenly in this tiny space that is flooded with light.  Far above, an opening can be seen that reveals a tiny round patch of sky.  A sturdy iron ladder, bolted into the cave walls, leads up."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "glowing toadstool",
+    "ironfern root",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      220,
+      130,
+      230,
+      140
+    ]
+  },
+  "exits": [
+    {
+      "to": 23389,
+      "kind": "go",
+      "cmd": "go iron ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23391,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

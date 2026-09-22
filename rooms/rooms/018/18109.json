@@ -1,0 +1,43 @@
+{
+  "id": 18109,
+  "uid": [
+    682010
+  ],
+  "title": [
+    "[Wizard Guild, Passage]"
+  ],
+  "description": [
+    "Steam fills the narrow passage and obscures the view.  From somewhere to the west comes muffled sounds of splashing and an occasional peal of laughter."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      136,
+      268,
+      201,
+      332
+    ]
+  },
+  "exits": [
+    {
+      "to": 18108,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18110,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

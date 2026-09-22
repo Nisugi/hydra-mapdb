@@ -1,0 +1,48 @@
+{
+  "id": 21773,
+  "uid": [
+    103510
+  ],
+  "title": [
+    "[Phoenix Annex, Quiet Temple]"
+  ],
+  "description": [
+    "The chamber is peaceful and serene, as if compelling one to speak in whispers out of respect for the holy patrons of this temple.  Large white marble pillars line both sides of the congregation area, a series of beautiful frescoes on the walls between them.  Though the room's scope and beauty is inspiring, the center of attention is a brilliant sapphire altar at the far end of the temple.  Heavy polished maple benches, trimmed in ivory, sit in ordered rows before the altar."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      1253,
+      1670,
+      1370,
+      1748
+    ]
+  },
+  "exits": [
+    {
+      "to": 21772,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 21781,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

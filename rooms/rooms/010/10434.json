@@ -1,0 +1,72 @@
+{
+  "id": 10434,
+  "uid": [
+    14103325
+  ],
+  "title": [
+    "[Locksmith]",
+    "[Ta'Vaalor, Locksmith]"
+  ],
+  "description": [
+    "The wooden walls are bare except for unfinished shelves adorned with locks and lockpicks.  A frayed red carpet covers the center of the room, leaving the bare wooden slats exposed around the border of the floor.  The walls and floor of the building creak and groan as patrons move about the store.",
+    "The wall behind the counter is lined with an extensive array of meticulously labeled cubbyholes, each organized to hold specific types of locks, lock components, and lockpicks.  The locksmith, Shind, works behind counter, his spectacles perched on the tip of his nose.  To the left of the counter, a small sign has been tacked to the wall, under which is a stained oak barrel that serves as a trash bin.",
+    "The wall behind the counter is lined with an extensive array of meticulously labeled cubbyholes, each organized to hold specific types of locks, lock components, and lockpicks.  The locksmith, Shind, works behind the counter, his spectacles perched on the tip of his nose.  To the left of the counter, a small sign has been tacked to the wall, under which is a stained oak barrel that serves as a trash bin."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "locksmith",
+    "locksmith shop",
+    "no forageables",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3502,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

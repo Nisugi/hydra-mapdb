@@ -1,0 +1,47 @@
+{
+  "id": 15626,
+  "uid": [
+    13051015
+  ],
+  "title": [
+    "[Sylvarraend Herbals, Back Room]"
+  ],
+  "description": [
+    "Soft mats have been placed along the walls of this brightly lit room.  Sunlight floods the area from a series of glaesineth windows, providing a lovely view of the forest to those recuperating from their injuries.  Along the back, a beautiful garden can be seen through an etched glaesineth door.",
+    "Soft mats have been placed along the walls of this brightly lit room.  Sunlight floods the area from a series of glaesine windows lining the rear wall, providing a lovely view of the forest to those recuperating from their injuries.",
+    "Soft mats have been placed along the walls of this dimly lit room.  Pale moonlight floods the area from a series of glaesine windows lining the rear wall, providing a lovely view of the starry night sky to those recuperating from their injuries."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 13137,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33715,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "setting": [
+            "Elaienaran_Haven",
+            "true"
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

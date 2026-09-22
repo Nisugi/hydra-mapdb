@@ -1,0 +1,40 @@
+{
+  "id": 23107,
+  "title": [
+    "[Half-built Barn]"
+  ],
+  "description": [
+    "A rickety wooden ladder leads up onto the beginning stages of a loft.  Under its shadow, a small table holds an assortment of tarnished silver tools and white cloths.  The pale stench of decay drifts in from somewhere nearby, mingling with the wet, moldy stink that rises from the black muck and sprouts of verdant growth covering the ground.  Leaning against one wall is a small wood-framed mirror illuminated by several torches stuck in the ground.",
+    "A rickety wooden ladder leads up onto the beginning stages of a loft.  Under its shadow, a small table holds an assortment of tarnished silver tools and white cloths.  The pale stench of decay drifts in from somewhere nearby, mingling with the wet, moldy stink that rises from the black muck and sprouts of verdant growth covering the ground.  Leaning against one wall is a small wood-framed mirror."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 21519,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23108,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23109,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23110,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

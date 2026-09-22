@@ -1,0 +1,75 @@
+{
+  "id": 1888,
+  "uid": [
+    3003019
+  ],
+  "title": [
+    "[Company Store, Armory]"
+  ],
+  "description": [
+    "Large display cases line the room and provide customers with examples of local wares.  Shields of varying size and description, and of several different materials, are mounted high up on the walls.  Armor mounted upon stands fill the floor of the armory and provide an example of the quality of their workmanship."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "armorshop",
+    "fire lily",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1884,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 1889,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

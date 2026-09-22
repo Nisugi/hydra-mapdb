@@ -1,0 +1,128 @@
+{
+  "id": 11612,
+  "uid": [
+    5003002
+  ],
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "To the east, nightmarish trees loom over the fog-enshrouded road, their dead branches reaching out like great skeletal spiders trying to pull in their prey.  The thick, unnatural fog smells faintly of sulfur.  A weathered and faded sign hangs high over the road on a twisted piece of rusted wire."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      536,
+      627,
+      546,
+      637
+    ]
+  },
+  "exits": [
+    {
+      "to": 11611,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11613,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11617,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11630,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 1.0
+    },
+    {
+      "to": 16122,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 22218,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

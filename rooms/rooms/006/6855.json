@@ -1,0 +1,62 @@
+{
+  "id": 6855,
+  "uid": [
+    21116
+  ],
+  "title": [
+    "[Abandoned Inn, Upstairs Hall]"
+  ],
+  "description": [
+    "Bright brass candle holders line the walls.  They are filled with sweet-smelling beeswax candles, shedding light and a comforting warmth down the corridor.  A runner of forest green carpet covers the length of the hall's floor, leading the way to the guest room doors and a good night's sleep."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      844,
+      1205,
+      854,
+      1215
+    ]
+  },
+  "exits": [
+    {
+      "to": 6854,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 6856,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6864,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 6865,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 6866,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

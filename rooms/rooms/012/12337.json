@@ -1,0 +1,54 @@
+{
+  "id": 12337,
+  "uid": [
+    3209326
+  ],
+  "title": [
+    "[Firefly Villa, Corridor]"
+  ],
+  "description": [
+    "Occupying the entire of the northern wall is an enormous semi-circular window that stretches from floor to ceiling at the highest point of its arc.  Teak railings provide a durable safety measure that ensures guests will not lean against the polished glass as they gaze out its panes to the beach below.  Soothing sunlight trickles in through the window and brightly illuminates a paneled ebonwood door and a polished mahogany door in the opposite wall.",
+    "Occupying the entire of the northern wall is an enormous semi-circular window that stretches from floor to ceiling at the highest point of its arc.  Teak railings provide a durable safety measure that ensures guests will not lean against the polished glass as they gaze out its panes to the beach below.  Soothing moonlight trickles in through the window and bathes a paneled ebonwood door and a polished mahogany door in its silvery light."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      480,
+      1920,
+      501,
+      1940
+    ]
+  },
+  "exits": [
+    {
+      "to": 16426,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16432,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16445,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 16450,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    }
+  ]
+}

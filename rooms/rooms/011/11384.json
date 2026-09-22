@@ -1,0 +1,50 @@
+{
+  "id": 11384,
+  "uid": [
+    377321
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "Placed on the west wall is a massive painting opposite a narrow stone door seamlessly set into the wall.  Torch sconces line the hallway leading to the north and south above wood paneling and a faded dark blue carpet laid down along the expanse of the corridor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      438,
+      1264,
+      448,
+      1274
+    ]
+  },
+  "exits": [
+    {
+      "to": 11383,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11385,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17701,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

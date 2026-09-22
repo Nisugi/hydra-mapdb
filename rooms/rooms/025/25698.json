@@ -1,0 +1,72 @@
+{
+  "id": 25698,
+  "uid": [
+    3223830
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Seawater rocks and rolls, its peaks capped in foamy white, as it passes between the other islands and surges over a series of blown glass globes towards the distant beach.  Near at hand, several smooth rocks form a short sea wall around a blue modwir dock that provides access to the nearby island."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1281,
+      1279,
+      1301,
+      1298
+    ]
+  },
+  "exits": [
+    {
+      "to": 25697,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25699,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25811,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal west"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

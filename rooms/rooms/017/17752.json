@@ -1,0 +1,50 @@
+{
+  "id": 17752,
+  "uid": [
+    250007
+  ],
+  "title": [
+    "[Warrior Guild, Entrance]"
+  ],
+  "description": [
+    "Just inside the doorway, a hallway slopes downward on either side.  Gold sconces on the walls provide steady lighting but little heat to the interior.  The rock walls look as if they had been painstakingly carved from solid granite blocks.  Everywhere, the walls and ceilings show deliberate, broad cuts made by some inconceivably large instrument."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      657,
+      473,
+      676,
+      490
+    ]
+  },
+  "exits": [
+    {
+      "to": 17751,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17753,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17754,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

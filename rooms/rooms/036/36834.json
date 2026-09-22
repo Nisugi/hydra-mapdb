@@ -1,0 +1,45 @@
+{
+  "id": 36834,
+  "uid": [
+    741001
+  ],
+  "title": [
+    "[Sutara Flyr Emporia]"
+  ],
+  "description": [
+    "Wandering between lush flower beds, a crushed stone walkway lined with evenly spaced crystal lanterns encircles a large pond dotted with blooming lily pads.  Twin willow trees, their cascading branches dipping into the water, frame a small wooden bridge leading to the central island.  A white lattice archway draped in flowering vines provides egress to Linsandrych Common."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Cysaegir",
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      261,
+      813,
+      272,
+      824
+    ]
+  },
+  "exits": [
+    {
+      "to": 36833,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36835,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36839,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

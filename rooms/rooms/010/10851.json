@@ -1,0 +1,63 @@
+{
+  "id": 10851,
+  "uid": [
+    2101015
+  ],
+  "title": [
+    "[River's Rest, Dark Alley]"
+  ],
+  "description": [
+    "Off the beaten path and slightly seedy, the alley is dark and cool.  An occasional voice drifts down the alley from the southwest and a few folks wander by.  Set off to one side of the path is a small shabby shop sporting a sign, which hangs by one hinge and squeaks whenever a stray breeze happens by.  Facing you is what appears to be the back door of a well kept building.  At the end of the alley is a large building with a sign hanging over its large double doors."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2688,
+      1084,
+      2725,
+      1121
+    ]
+  },
+  "exits": [
+    {
+      "to": 10846,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10949,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 10951,
+      "kind": "go",
+      "cmd": "go back door",
+      "cost": 0.2
+    },
+    {
+      "to": 10952,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 10955,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

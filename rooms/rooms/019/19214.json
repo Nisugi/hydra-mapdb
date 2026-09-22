@@ -1,0 +1,39 @@
+{
+  "id": 19214,
+  "uid": [
+    264034
+  ],
+  "title": [
+    "[A Dank Tunnel]"
+  ],
+  "description": [
+    "The air is cool and damp, smelling slightly of mildew.  The sound of small scurrying feet and faint squeaks echo through the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      305,
+      257,
+      333,
+      283
+    ]
+  },
+  "exits": [
+    {
+      "to": 19213,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 19215,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 30787,
+  "uid": [
+    7120001,
+    7120013,
+    7120025,
+    7120037,
+    7120049,
+    7120061,
+    7120073
+  ],
+  "title": [
+    "[Enemy Ship, Main Deck]"
+  ],
+  "description": [
+    "Beneath a single mast the freshly swabbed wooden planking, stretching from the fore to the quarter deck, glints in the moonlight.  Large coils of hemp rope are neatly stacked between some cannons on either side of the main deck, while the sail snaps in the salty seabreeze overhead.  A rusty knife protrudes from the railing next to some debris."
+  ],
+  "paths": [
+    "Obvious paths: west, up, down"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy sloop"
+  ],
+  "meta": [
+    "exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      804,
+      243,
+      819,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 29038,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30119,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30130,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30142,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30166,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30176,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30788,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30790,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30791,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 25654,
+  "uid": [
+    281014
+  ],
+  "title": [
+    "[Bard Guild, Vestibule]"
+  ],
+  "description": [
+    "The vestibule is just large enough to hold a small armchair and still allow space for a door on the west wall leading backstage, and one to the north which leads through a short corridor to the auditorium.  A rug covers the tiled floor, woven with a pattern of interlocking lyres."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25653,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25655,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

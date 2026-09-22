@@ -1,0 +1,70 @@
+{
+  "id": 7198,
+  "uid": [
+    18038
+  ],
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "Your feet sink deeply into the muddy way.  Struggling to go in the direction you choose rather than yield to the tug of the mire, you look to the side of the road towards the source of the damp chill.  The foul bog that lies there holds a strange and potentially fatal attraction."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "moist",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "black peppercorn",
+    "blue whortleberry",
+    "bright red cranberry",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cinnamon bark",
+    "cumin seeds",
+    "macadamia nuts",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pink peppercorn",
+    "star anise",
+    "vanilla bean",
+    "wild chokecherry",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      210,
+      454,
+      220,
+      464
+    ]
+  },
+  "exits": [
+    {
+      "to": 7196,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7199,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7252,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

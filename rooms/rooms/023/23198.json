@@ -1,0 +1,50 @@
+{
+  "id": 23198,
+  "uid": [
+    5001054
+  ],
+  "title": [
+    "[Timor's, House Annex Hallway]"
+  ],
+  "description": [
+    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "unique_loot": [
+    "deep blue curtain with the sigil of Twilight Hall"
+  ],
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 23195,
+      "kind": "go",
+      "cmd": "go blue curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 23197,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23199,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32987,
+      "kind": "go",
+      "cmd": "go golden curtain",
+      "cost": 0.2
+    }
+  ]
+}

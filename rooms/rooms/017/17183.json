@@ -1,0 +1,43 @@
+{
+  "id": 17183,
+  "uid": [
+    256108
+  ],
+  "title": [
+    "[Warrior Guild, Hall of Arms]"
+  ],
+  "description": [
+    "The hall of arms ends here, with each parallel wall subtly converging into a semicircle marked by a heavy wooden door with dark metal hinges and reinforced with darkened studs.  The flickering light emanating from the sconces on the empty walls barely reaches the door, giving it a slightly foreboding appearance."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      1116,
+      573,
+      1138,
+      598
+    ]
+  },
+  "exits": [
+    {
+      "to": 17182,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17214,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": 18186,
+  "uid": [
+    52018
+  ],
+  "title": [
+    "[Melgorehn's Reach, Hot Spring]"
+  ],
+  "description": [
+    "You are in a natural cave of the mountain.  The walls are coated with a glowing fungus providing significant lighting.  Bubbling in one corner is a small pool fed by a hot spring.  The water quickly wanders across the chamber floor in a shallow stream and then vanishes into an opening on the west wall."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 451,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go opening"
+        },
+        {
+          "put": "lay"
+        },
+        {
+          "await": "one on the left and one on the right"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "branches off to the left just ahead"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "Another tunnel branches off to the left just ahead"
+        },
+        {
+          "await": "Suddenly the tunnel turns into a nearly vertical drop"
+        },
+        {
+          "put": "lean left"
+        },
+        {
+          "await": "Obvious paths: southwest"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18185,
+      "kind": "go",
+      "cmd": "go shaft",
+      "cost": 0.2
+    },
+    {
+      "to": 18187,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

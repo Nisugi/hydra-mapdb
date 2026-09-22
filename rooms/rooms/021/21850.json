@@ -1,0 +1,36 @@
+{
+  "id": 21850,
+  "title": [
+    "[Talador, Old Battlefield]"
+  ],
+  "description": [
+    "A stone half-wall lies partly collapsed around the exterior of an old stone tower.  Thick vines coil up the sides of the tower, stretching up and over its battlements."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      453,
+      105,
+      468,
+      119
+    ]
+  },
+  "exits": [
+    {
+      "to": 21849,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21851,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

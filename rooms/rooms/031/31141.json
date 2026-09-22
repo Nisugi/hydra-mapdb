@@ -1,0 +1,43 @@
+{
+  "id": 31141,
+  "uid": [
+    102204
+  ],
+  "title": [
+    "[House Aspis, 3rd Floor Hall]"
+  ],
+  "description": [
+    "The hall ends here at the room of Aurien and Lyrista."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      271,
+      236,
+      409,
+      303
+    ]
+  },
+  "exits": [
+    {
+      "to": 31139,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31142,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

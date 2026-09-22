@@ -1,0 +1,44 @@
+{
+  "id": 32868,
+  "uid": [
+    4901062
+  ],
+  "title": [
+    "[Communitea House, Entry]"
+  ],
+  "description": [
+    "Beautiful rugs, worn thin in spots but still largely intact, and colorful tapestries soften the cold, exposed stone of the large entryway.  A long hall extends north from a heavy wooden door with panes of leaded glass, its walls lined with painted landscapes, and leads to a wrought iron and glass arch at its end.  A cordoned-off flight of stairs leads to the upper chambers of this once great home, and to the west a wide doorway draped with heavy velvet curtains opens into a modest sitting room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 1524,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 32869,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32871,
+      "kind": "go",
+      "cmd": "go glass arch",
+      "cost": 0.2
+    }
+  ]
+}

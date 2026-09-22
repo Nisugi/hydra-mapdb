@@ -1,0 +1,35 @@
+{
+  "id": 30286,
+  "uid": [
+    14118001
+  ],
+  "title": [
+    "[Ta'Vaalor, Airship Terminus]"
+  ],
+  "description": [
+    "A constant stream of passengers flows through this long, narrow room, transmitting a nervous energy as they bustle on their way to or from the loading docks.  A small queue has formed in front of the ticket windows, where elves and sullen dwarves wait impassively, with a smattering of humans and other outlanders among them.  Those with tickets move intently up a wide staircase to one side.  At the other end of the room, porters come and go through a broad archway, bearing light cargo of various sorts."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 3503,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30287,
+      "kind": "go",
+      "cmd": "go broad archway",
+      "cost": 0.2
+    }
+  ]
+}

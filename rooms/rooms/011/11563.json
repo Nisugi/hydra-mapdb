@@ -1,0 +1,50 @@
+{
+  "id": 11563,
+  "uid": [
+    420518
+  ],
+  "title": [
+    "[Slave Deck, Passageway]"
+  ],
+  "description": [
+    "The acute slant of the deck makes for treacherous footing in the dark and narrow passageway.  The smell of stale sweat and harsh soap combine to form a rank, noxious stink.  On each side of the passageway is a wide, iron-reinforced door."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Shattered Moors",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      211,
+      1185,
+      218,
+      1193
+    ]
+  },
+  "exits": [
+    {
+      "to": 11560,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34801,
+      "kind": "go",
+      "cmd": "go portside door",
+      "cost": 0.2
+    },
+    {
+      "to": 34802,
+      "kind": "go",
+      "cmd": "go starboard door",
+      "cost": 0.2
+    }
+  ]
+}

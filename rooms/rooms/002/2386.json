@@ -1,0 +1,108 @@
+{
+  "id": 2386,
+  "uid": [
+    4042101
+  ],
+  "title": [
+    "[Icemule Trace, West Road]"
+  ],
+  "description": [
+    "Between a pair of barbican towers, a constant stream of halfling farmers from the Olbin Strath and richly dressed human traders from Briarmoon Cove flows through the West Gate, with the occasional krolvin crew scattered among them.  Town guards inspect cargo, sharply dressed in dark blue and brown leathers emblazoned with the rampant mule that is the town's sigil.  Outside of the gates, the land is spotted with scraggly grasses and snows, and there is little tree cover.",
+    "The cobblestone road ends at the large western gate here.  Through the gate you see vast plains of grass about as tall as a halfling, with very few trees for cover."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide westgate",
+    "urchin-access",
+    "westgate"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      138,
+      786,
+      174,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 2380,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2387,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3229,
+      "kind": "go",
+      "cmd": "go west gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3230,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27730,
+      "kind": "go",
+      "cmd": "go north tower",
+      "cost": 0.2
+    },
+    {
+      "to": 27737,
+      "kind": "go",
+      "cmd": "go south tower",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

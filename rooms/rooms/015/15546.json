@@ -1,0 +1,50 @@
+{
+  "id": 15546,
+  "uid": [
+    217045
+  ],
+  "title": [
+    "[Rone Academy, Alumni Hall East]"
+  ],
+  "description": [
+    "Rich tapestries and gilded sconces mark the entrance to the Academy theatre, a place built specifically for storytelling and musical concerts.  Heavy curtains cover the entrance to the theatre, muffling outside noise.  To the north are the two classrooms, as evidenced by a steady flow of students walking to and from with books in hand."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Rone Academy",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-rone_academy-1619899949.png",
+    "rect": [
+      859,
+      266,
+      882,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 15545,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15547,
+      "kind": "go",
+      "cmd": "go curtains",
+      "cost": 0.2
+    },
+    {
+      "to": 15548,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

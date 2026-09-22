@@ -1,0 +1,53 @@
+{
+  "id": 24509,
+  "uid": [
+    13112522
+  ],
+  "title": [
+    "[Twilight Lodge, Great Chamber]"
+  ],
+  "description": [
+    "The great room of the lodge is illuminated by many cheerful sconces set in the riverstone walls.  The floor is a checkerboard of blue and white opalescent tiles that contrast with the exposed beams in the ceiling.  Covering the wall opposite the entrance is a mosaic of a scarlet owl flying through the night.  A short iron potbelly stove and plush couches are arranged before the mosaic, while a solid oak banquet table with glowbark trim is set conveniently near a kitchen door.",
+    "The great room of the lodge is illuminated by two skylights on the vaulted ceiling.  The floor is a checkerboard of blue and white opalescent tiles that contrast with the exposed beams in the ceiling.  Covering the wall opposite the entrance is a mosaic of a scarlet owl flying through the night.  A short iron potbelly stove and plush couches are arranged before the mosaic, while a solid oak banquet table with glowbark trim is set conveniently near a kitchen door."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious exits: none"
+  ],
+  "location": "the Lost Home",
+  "climate": "none",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:twilight_hall:entrance_locker",
+    "locker annex:Twilight Hall"
+  ],
+  "image": {
+    "file": "en-TwilightHallAnnex.png",
+    "rect": [
+      303,
+      148,
+      441,
+      238
+    ]
+  },
+  "exits": [
+    {
+      "to": 24507,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24510,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28714,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

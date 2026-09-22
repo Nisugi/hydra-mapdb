@@ -1,0 +1,40 @@
+{
+  "id": 21127,
+  "uid": [
+    265304
+  ],
+  "title": [
+    "[Rogue Guild, Entry]"
+  ],
+  "description": [
+    "Murky shadows obscure the details of the room, though a sense of being watched is heavily prevalent.  A small halo of golden light, produced by the candlelight spilling under the oaken door, illuminates the edge of a set of wide stone stairs that leads downward into a dank darkness."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      736,
+      340,
+      749,
+      353
+    ]
+  },
+  "exits": [
+    {
+      "to": 19337,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21128,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

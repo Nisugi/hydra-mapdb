@@ -1,0 +1,45 @@
+{
+  "id": 4381,
+  "title": [
+    "[Ruby Level, Bottomless Pit]"
+  ],
+  "description": [
+    "An astoundingly deep shaft leads farther down into the mine, but the ladder is broken and no longer serviceable.  A fall from this height would surely be fatal.  A small sign is posted nearby."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4380,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4382,
+      "kind": "go",
+      "cmd": "go bore",
+      "cost": 0.2
+    },
+    {
+      "to": 4385,
+      "kind": "go",
+      "cmd": "go pass",
+      "cost": 0.2
+    },
+    {
+      "to": 4386,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 24658,
+  "title": [
+    "[Underground Temple, Sunken Tomb]"
+  ],
+  "description": [
+    "Small rocks fallen from a section of the crumbling wall spill out into the middle of the passage, making egress difficult for one, and especially complicated for more.  Small piles of dirt and pitted holes line the sides of the tunnel here."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west, northwest"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 24643,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24655,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24657,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24659,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

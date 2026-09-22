@@ -1,0 +1,56 @@
+{
+  "id": 1072,
+  "uid": [
+    13001040
+  ],
+  "title": [
+    "[Rope Ladder]"
+  ],
+  "description": [
+    "The top of the mist blanket stretches out to the northwest, north, northeast and east from where you hang on the rope ladder.  Above, the starry sky is unbroken by any cloud formations, and the moon shines down brightly off the white surface of the mists.  The ladder continues many hundreds of feet above, swaying slowly back and forth, while below it disappears quickly into the mists.  A small nest of some bird, now abandoned, resides in a crack in the sheer cliff side.",
+    "The top of the mist blanket stretches out to the northwest, north, northeast and east from where you hang on the rope ladder.  Above, the blue sky is unbroken by any cloud formations, and the sun shines down brightly off the white surface of the mists.  The ladder continues many hundreds of feet above, swaying slowly back and forth, while below it disappears quickly into the mists.  A small nest of some bird, now abandoned, resides in a crack in the sheer cliff side."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, dry",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1246,
+      756,
+      1256,
+      766
+    ]
+  },
+  "exits": [
+    {
+      "to": 1071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb down"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 1073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb up"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

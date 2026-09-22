@@ -1,0 +1,135 @@
+{
+  "id": 28997,
+  "uid": [
+    7118333
+  ],
+  "title": [
+    "[Kelpie Beds, Lounge]"
+  ],
+  "description": [
+    "Massive ship wheel chandeliers hang from the sea salt-stained ceiling overhead, the wood of both dark with use and age, but glossy with a thick coat of lacquer.  The entire far wall of the lounge is occupied by a reclaimed wood bar, while half a dozen or so tables are arranged around a central mast erected at the center of the space.  A rope ladder leads up the mast to a crow's nest."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28996,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28998,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 28999,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go map table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Stormy Sea table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29001,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mosaic table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29002,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go rowboat table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29003,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wreck table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29004,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go ghost table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 31839,
+  "uid": [
+    8083418
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "Grassy mounds appear in the middle of the river, the lead-colored water moving silently around the obstructions without even a burbled objection to their presence.  The river bend widens considerably as a fork appears to the northeast.  Along the banks, nightshade sprouts from the undergrowth."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1593,
+      684,
+      1617,
+      706
+    ]
+  },
+  "exits": [
+    {
+      "to": 31810,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push west"
+        }
+      ],
+      "cost": 4.2
+    }
+  ]
+}

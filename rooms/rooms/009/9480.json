@@ -1,0 +1,78 @@
+{
+  "id": 9480,
+  "uid": [
+    13010019
+  ],
+  "title": [
+    "[Brutarius Kodel Weaponry]"
+  ],
+  "description": [
+    "Three displays dominate this small shop.  A tall oak cabinet with a glass front rests against the north wall, while an oak display case occupies much of the west wall's area next to the door.  A narrow marble table nestles between the two displays.  The proprietor keeps a sharp eye on the customers from behind a U-shaped granite counter, and a curtain on the east wall apparently allows egress to another room.  The counter's shape completely blocks patrons from using this curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin guide weapons",
+    "urchin-access",
+    "weapons",
+    "weaponshop"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      765,
+      478,
+      775,
+      488
+    ]
+  },
+  "exits": [
+    {
+      "to": 9414,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

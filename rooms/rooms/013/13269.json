@@ -1,0 +1,46 @@
+{
+  "id": 13269,
+  "uid": [
+    4908002
+  ],
+  "title": [
+    "[Ta'Illistim, Crafters Courtyard]"
+  ],
+  "description": [
+    "Shaded by venerable hawthorn trees, the walkway extends northward to an open-air stall beneath a portico.  Reaching out beneath the trees like the spokes of a wheel, walkways connect a score of workshops to the central portico, where an elven attendant waits behind a counter.  A tall gatehouse pierces the courtyard's southern wall and marks the entrance to the compound."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      998,
+      835,
+      1014,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 727,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 13270,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

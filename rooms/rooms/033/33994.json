@@ -1,0 +1,39 @@
+{
+  "id": 33994,
+  "uid": [
+    8085060
+  ],
+  "title": [
+    "[Gallivant Manor, Foyer]"
+  ],
+  "description": [
+    "The expansive foyer features mahogany parquet floors accented with marble and a three-story high ceiling.  Symmetrical staircases on either side of an arched doorway curve up to the second floor, and hallways lead into various wings of the mansion.  Hanging from the walls, several cobweb-adorned paintings feature garishly designed scenes of carnivals and funhouses.  A pair of mahogany doors leads out, darkly stained glass windows on either side."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 33979,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 33995,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33997,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

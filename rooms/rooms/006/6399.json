@@ -1,0 +1,62 @@
+{
+  "id": 6399,
+  "uid": [
+    92124
+  ],
+  "title": [
+    "[Blackened Cave, Chamber]"
+  ],
+  "description": [
+    "This giant, underground chamber is filled with stalactites and stalagmites of every size.  The sound of dripping water echoes through the grotto, the water collecting in a shallow pool nearby.  Strange forms of fungi grow everywhere, adding to the otherworldly atmosphere of this place."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "fire cat",
+    "fire rat",
+    "flathead mushroom",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "striped warcat",
+    "trafel mushroom",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      414,
+      465,
+      424,
+      475
+    ]
+  },
+  "exits": [
+    {
+      "to": 6398,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6400,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6401,
+      "kind": "go",
+      "cmd": "go stalagmite",
+      "cost": 0.2
+    }
+  ]
+}

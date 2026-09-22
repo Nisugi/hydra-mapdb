@@ -1,0 +1,50 @@
+{
+  "id": 10406,
+  "uid": [
+    14109019
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "Silvery water pours down one side of the hallway, over striated stones set into glaes.  The water trickling and tumbling sends a light mist to coat this section of the hallway, as the restful sound echoes down the passage.  At the base of the wall a shallow willow basin catches the water, which is then somehow transported to the top to begin its fall again."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      643,
+      1133,
+      785,
+      1195
+    ]
+  },
+  "exits": [
+    {
+      "to": 10405,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10407,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33125,
+      "kind": "go",
+      "cmd": "go willow arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 8479,
+  "uid": [
+    2155030
+  ],
+  "title": [
+    "[Temple, Closet]"
+  ],
+  "description": [
+    "Tattered bits of cloth litter the floor.  A twisted and mangled clothing rack lies discarded in the corner, and shelves have been half torn from their braces to hang precariously from the walls.  A rickety ladder leans in the corner, heading up through a trapdoor in the roof to what you presume is the attic."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      109,
+      807,
+      119,
+      817
+    ]
+  },
+  "exits": [
+    {
+      "to": 8477,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8480,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

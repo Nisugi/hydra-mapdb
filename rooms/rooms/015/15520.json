@@ -1,0 +1,69 @@
+{
+  "id": 15520,
+  "uid": [
+    4051004
+  ],
+  "title": [
+    "[Warehouse, Storage Room]"
+  ],
+  "description": [
+    "The storage room is surprisingly quiet, though compared to the warehouse itself it would almost have to be.  A long wooden counter stretches across the entire length of the room, restricting public access to the main storage area.  At the end of the counter is a low, wide platform that is used to facilitate the loading and unloading of leathers and furs."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "cobblers",
+    "cobbling",
+    "fire lily",
+    "urchin guide cobbling",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4077,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

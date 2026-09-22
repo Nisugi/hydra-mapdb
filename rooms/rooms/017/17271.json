@@ -1,0 +1,44 @@
+{
+  "id": 17271,
+  "uid": [
+    252035
+  ],
+  "title": [
+    "[Guild Hall, Caldarium]"
+  ],
+  "description": [
+    "Hollow tubes of glaes that run along the walls carry hot steam from subterranean furnaces and distribute it throughout room.  A pair of private saunas stand behind a long, fel-wood bench.  The perfect place to rest your weary muscles."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild sauna"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1456,
+      841,
+      1478,
+      863
+    ]
+  },
+  "exits": [
+    {
+      "to": 17268,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32809,
+      "kind": "go",
+      "cmd": "go sauna",
+      "cost": 0.2
+    }
+  ]
+}

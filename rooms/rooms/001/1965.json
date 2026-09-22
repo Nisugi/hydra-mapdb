@@ -1,0 +1,101 @@
+{
+  "id": 1965,
+  "uid": [
+    3001006
+  ],
+  "title": [
+    "[Kharam-Dzu, East Docks]"
+  ],
+  "description": [
+    "A lone wooden dock sways and creaks, awaiting ferryboats traveling the short distance to the mine tunnel.  Upstream, the river widens as it begins its journey to the sea.  At the northeast end of the riverfront, a small street leads away from the dock and back towards town.",
+    "A lone wooden dock sways and creaks, awaiting a ferryboat traveling the short distance to the mine tunnel.  Upstream, the river widens as it begins its journey to the sea, the color of the water shifting to a lighter hue.  At the northeast end of the riverfront, a small street leads away from the dock and back towards town."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide ferry",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      857,
+      1045,
+      893,
+      1081
+    ]
+  },
+  "exits": [
+    {
+      "to": 1964,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1966,
+      "kind": "go",
+      "cmd": "go booth",
+      "cost": 0.2
+    },
+    {
+      "to": 2260,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go departing ferryboat"
+        },
+        {
+          "await": "Some dockworkers prepare a ferryboat for departure into the mine.",
+          "when": "still_here"
+        },
+        {
+          "move": "go departing ferryboat",
+          "when": "still_here"
+        }
+      ],
+      "cost": 40.0
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

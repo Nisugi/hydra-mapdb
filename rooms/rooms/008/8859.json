@@ -1,0 +1,68 @@
+{
+  "id": 8859,
+  "uid": [
+    4102
+  ],
+  "title": [
+    "[Helga's, Pub Room]"
+  ],
+  "description": [
+    "The narrow, dimly lit room is cluttered with rickety, ale-stained tables and chairs.  Candle stubs mounted in earthenware ale flasks offer the only light, their yellowish glow making the room seem more decrepit than it actually is.  Several dockworkers converse around a table in hushed voices, between sips of grog and puffs of strong pipe tobacco.  A low wooden stage, no more than a small platform, stands at the far end of the room."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3809,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

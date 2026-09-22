@@ -1,0 +1,51 @@
+{
+  "id": 14069,
+  "uid": [
+    4750039
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "A large earthen kiln sits just off the path to the south.  Next to the kiln, a wood covered lean-to with four potter's wheels under it has been recently set up.  You also notice a stout wooden door leading into the northwest castle tower."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      651,
+      224,
+      661,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 14068,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14070,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14071,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

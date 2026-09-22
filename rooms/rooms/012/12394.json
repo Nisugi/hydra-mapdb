@@ -1,0 +1,50 @@
+{
+  "id": 12394,
+  "uid": [
+    3001038
+  ],
+  "title": [
+    "[Golvern Street]"
+  ],
+  "description": [
+    "As you wander among the small shops lining this cobblestone street, the ear-splitting curses of a spluttering dwarf assault your ears.  He stands in front of a cart, thrashing his arms in the air and berating his bored-looking burro.  The other dwarves who amble by afford him a wide berth."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1123,
+      345,
+      1153,
+      375
+    ]
+  },
+  "exits": [
+    {
+      "to": 12393,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12395,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27350,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    }
+  ]
+}

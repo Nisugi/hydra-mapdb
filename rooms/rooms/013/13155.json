@@ -1,0 +1,44 @@
+{
+  "id": 13155,
+  "uid": [
+    565019
+  ],
+  "title": [
+    "[Stone Edifice, Training Station]"
+  ],
+  "description": [
+    "Racks of training weaponry and armor reside in shallow alcoves built into the stone walls.  The brightly lit outer cavern is clearly visible beyond a massive iron gate."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      1107,
+      492,
+      1127,
+      512
+    ]
+  },
+  "exits": [
+    {
+      "to": 13154,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13160,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

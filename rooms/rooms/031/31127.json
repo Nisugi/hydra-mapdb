@@ -1,0 +1,43 @@
+{
+  "id": 31127,
+  "uid": [
+    102251
+  ],
+  "title": [
+    "[House Aspis, 2nd Floor Hall]"
+  ],
+  "description": [
+    "This end of the hall shows a lighter touch in the decor.  Pastel colors and light woods replace the heavier, darker colors elsewhere.  A curtained window open to the cool air allows a refreshing breeze to enter.  The door into Sincerity's room is finished in a light oak and carved with scenes of spring and summer."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      625,
+      387,
+      760,
+      449
+    ]
+  },
+  "exits": [
+    {
+      "to": 31126,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31133,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

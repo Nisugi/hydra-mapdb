@@ -1,0 +1,45 @@
+{
+  "id": 4485,
+  "title": [
+    "[Crystal Level, Entry]"
+  ],
+  "description": [
+    "A ladder ascending into a darkened shaft is the only way off of this level of the mine.  Stone, dirt, and other debris continually splatters onto the ground, not a reassuring sign of stability or security this far down.  There are several shaft tunnels leading out from this chamber."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4389,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    },
+    {
+      "to": 4486,
+      "kind": "go",
+      "cmd": "go galle",
+      "cost": 0.2
+    },
+    {
+      "to": 4489,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4531,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

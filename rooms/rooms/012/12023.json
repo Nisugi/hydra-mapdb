@@ -1,0 +1,56 @@
+{
+  "id": 12023,
+  "uid": [
+    17004056
+  ],
+  "title": [
+    "[Old Ta'Faendryl, Amphitheatre]"
+  ],
+  "description": [
+    "Moisture has washed out portions of the substrate beneath the retaining wall of the amphitheatre, dotting the upper platform with potholes.  Dark stains caused by leached out minerals carried by streams of rain water ripple down over the cracked benches that slump in uneven rows toward the ground below."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      1048,
+      557,
+      1058,
+      567
+    ]
+  },
+  "exits": [
+    {
+      "to": 12018,
+      "kind": "climb",
+      "cmd": "climb benches",
+      "cost": 0.2
+    },
+    {
+      "to": 12022,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12024,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12041,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 3747,
+  "uid": [
+    851001
+  ],
+  "title": [
+    "[Ta'Illistim Hall, Courtyard]"
+  ],
+  "description": [
+    "Vines of bright purple clematis creep up the high granite walls that frame this cozy hexagonal courtyard.  Benches have been placed on the slate patio, shaded by large potted orange trees.  Opposite an ornate wrought-iron gate stands a pair of tall double doors that lead into a large greystone building.  Small flowerbeds have been placed against the free walls, planted with daisies and lilacs."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mho hall",
+    "mho hall board",
+    "stalk of bluebells",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1413,
+      795,
+      1434,
+      817
+    ]
+  },
+  "exits": [
+    {
+      "to": 31,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 28580,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

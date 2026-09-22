@@ -1,0 +1,52 @@
+{
+  "id": 25823,
+  "uid": [
+    3223835
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Various shades of blue comprise the waters of the sprawling harbor, their hues slightly diminished by the lack of sunlight to illuminate their depths.  Here and there, tiny silver-backed minions swim beneath the surface in a complicated ballet designed to confuse and outmaneuver the large, shadowy fish that follows them."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1200,
+      1359,
+      1218,
+      1376
+    ]
+  },
+  "exits": [
+    {
+      "to": 25698,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25822,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

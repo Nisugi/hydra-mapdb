@@ -1,0 +1,45 @@
+{
+  "id": 1430,
+  "uid": [
+    4209006
+  ],
+  "title": [
+    "[Solhaven, Tumbledown Lane]"
+  ],
+  "description": [
+    "The uneven, downward sloping cobblestones bring you into the looming shadow of Vornavis's Northwest Tower as you reach the top of the steps.  A single cottage, little more than a shack, sits nestled against the cliff wall."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1307,
+      324,
+      1331,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 1429,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 1431,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

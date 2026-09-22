@@ -1,0 +1,55 @@
+{
+  "id": 22118,
+  "uid": [
+    106013
+  ],
+  "title": [
+    "[Cairnfang Manor, Lounge]"
+  ],
+  "description": [
+    "Shelves of colorful bottles line the rounded wall centered within a large circular oak bar.  A variety of crystal drinking glasses hangs upside down from a rack above.  High-backed dark leather chairs scatter about the room, turned away from a curtained archway to focus on a large riverstone fireplace.  A basket of sticks sits to one side, with a well used dart board hanging above.  Next to sliding linden doors, a huge green fern hangs over the edge of the ceramic pot to caress the ivory wool carpeting."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      179,
+      246,
+      190,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 22111,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22119,
+      "kind": "go",
+      "cmd": "go sliding doors",
+      "cost": 0.2
+    },
+    {
+      "to": 22120,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22149,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

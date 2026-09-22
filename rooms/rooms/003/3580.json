@@ -1,0 +1,50 @@
+{
+  "id": 3580,
+  "uid": [
+    4292002
+  ],
+  "title": [
+    "[Stronghold, Entry Hall]"
+  ],
+  "description": [
+    "The entry hall is immense, with walls reaching up into darkness high above.  Fanned by an intermittent breeze, the air is markedly cooler than the courtyard outside.  Passages lead off in two directions, both shrouded in an unnerving haze, which lends the shadows the appearance of movement.  A stone lintel is placed over the huge arch leading outside.  Its surface is covered with ancient glyphs, their meaning lost in antiquity."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      455,
+      462,
+      465,
+      472
+    ]
+  },
+  "exits": [
+    {
+      "to": 3579,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 3581,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3587,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

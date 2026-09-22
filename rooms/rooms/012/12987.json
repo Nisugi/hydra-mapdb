@@ -1,0 +1,384 @@
+{
+  "id": 12987,
+  "uid": [
+    3031015
+  ],
+  "title": [
+    "[Teras Isle, Underwater]"
+  ],
+  "description": [
+    "The water twists and turns with renewed intensity, tearing impetuously at anything caught in its path.",
+    "The water flows violently in several directions, pushing and pulling anything caught in the current back toward the beach.  Sunlight sparkles on the surface above, but is of little use in the swirling vortex."
+  ],
+  "paths": [
+    "Obvious paths: north, west",
+    ""
+  ],
+  "location": "the Ruined Temple",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "meta": [
+    "map:ignore-blanks",
+    "underwater"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      1046,
+      766,
+      1066,
+      786
+    ]
+  },
+  "exits": [
+    {
+      "to": 12662,
+      "kind": "scripted",
+      "routine": {
+        "name": "signposts",
+        "verb": "swim",
+        "dirs": [
+          [
+            20786,
+            "down"
+          ],
+          [
+            12677,
+            "down"
+          ],
+          [
+            12987,
+            "beach"
+          ],
+          [
+            12663,
+            "beach"
+          ],
+          [
+            12988,
+            "east"
+          ],
+          [
+            12664,
+            "north"
+          ],
+          [
+            12726,
+            "northeast"
+          ],
+          [
+            12665,
+            "north"
+          ],
+          [
+            12666,
+            "north"
+          ],
+          [
+            12989,
+            "northeast"
+          ],
+          [
+            12991,
+            "northwest"
+          ],
+          [
+            12667,
+            "north"
+          ],
+          [
+            12668,
+            "north"
+          ],
+          [
+            12727,
+            "northwest"
+          ],
+          [
+            12669,
+            "southwest"
+          ],
+          [
+            12990,
+            "northeast"
+          ],
+          [
+            12670,
+            "northwest"
+          ],
+          [
+            12728,
+            "southwest"
+          ],
+          [
+            12671,
+            "south"
+          ],
+          [
+            12672,
+            "northwest"
+          ],
+          [
+            12673,
+            "east"
+          ],
+          [
+            12674,
+            "fissure"
+          ],
+          [
+            12675,
+            "steps"
+          ],
+          [
+            12676,
+            "southwest"
+          ],
+          [
+            12729,
+            "southeast"
+          ],
+          [
+            12677,
+            "down"
+          ]
+        ],
+        "hands_free_in": [
+          12677,
+          20786
+        ]
+      },
+      "cost": 45.0
+    },
+    {
+      "to": 12677,
+      "kind": "scripted",
+      "routine": {
+        "name": "signposts",
+        "verb": "swim",
+        "dirs": [
+          [
+            20786,
+            "down"
+          ],
+          [
+            12662,
+            "whirlpool"
+          ],
+          [
+            12987,
+            "south"
+          ],
+          [
+            12663,
+            "south"
+          ],
+          [
+            12988,
+            "southeast"
+          ],
+          [
+            12664,
+            "south"
+          ],
+          [
+            12726,
+            "east"
+          ],
+          [
+            12665,
+            "south"
+          ],
+          [
+            12666,
+            "south"
+          ],
+          [
+            12667,
+            "south"
+          ],
+          [
+            12989,
+            "southeast"
+          ],
+          [
+            12991,
+            "southwest"
+          ],
+          [
+            12668,
+            "northeast"
+          ],
+          [
+            12727,
+            "west"
+          ],
+          [
+            12990,
+            "east"
+          ],
+          [
+            12669,
+            "southeast"
+          ],
+          [
+            12670,
+            "north"
+          ],
+          [
+            12728,
+            "south"
+          ],
+          [
+            12671,
+            "southeast"
+          ],
+          [
+            12672,
+            "west"
+          ],
+          [
+            12673,
+            "fissure"
+          ],
+          [
+            12674,
+            "steps"
+          ],
+          [
+            12675,
+            "northeast"
+          ],
+          [
+            12729,
+            "southeast"
+          ],
+          [
+            12676,
+            "up"
+          ]
+        ],
+        "hands_free_in": [
+          12662,
+          20786
+        ]
+      },
+      "cost": 45.0
+    },
+    {
+      "to": 20786,
+      "kind": "scripted",
+      "routine": {
+        "name": "signposts",
+        "verb": "swim",
+        "dirs": [
+          [
+            12677,
+            "down"
+          ],
+          [
+            12662,
+            "whirlpool"
+          ],
+          [
+            12987,
+            "south"
+          ],
+          [
+            12663,
+            "south"
+          ],
+          [
+            12988,
+            "southeast"
+          ],
+          [
+            12664,
+            "south"
+          ],
+          [
+            12726,
+            "east"
+          ],
+          [
+            12665,
+            "south"
+          ],
+          [
+            12666,
+            "south"
+          ],
+          [
+            12667,
+            "south"
+          ],
+          [
+            12989,
+            "southeast"
+          ],
+          [
+            12991,
+            "southwest"
+          ],
+          [
+            12668,
+            "northeast"
+          ],
+          [
+            12727,
+            "west"
+          ],
+          [
+            12990,
+            "east"
+          ],
+          [
+            12669,
+            "southeast"
+          ],
+          [
+            12670,
+            "north"
+          ],
+          [
+            12728,
+            "south"
+          ],
+          [
+            12671,
+            "southeast"
+          ],
+          [
+            12672,
+            "west"
+          ],
+          [
+            12673,
+            "fissure"
+          ],
+          [
+            12674,
+            "steps"
+          ],
+          [
+            12675,
+            "northwest"
+          ],
+          [
+            12729,
+            "up"
+          ],
+          [
+            12676,
+            "southwest"
+          ]
+        ],
+        "hands_free_in": [
+          12662,
+          12677
+        ]
+      },
+      "cost": 45.0
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 31875,
+  "uid": [
+    8083082
+  ],
+  "title": [
+    "[Darkbriar Woods, Umbral Wilds]"
+  ],
+  "description": [
+    "Several structures lurk between towering trees, snowbanks, and dense thorny bushes.  Briared vines twist between the tree tops, helping pull them together in a wide arch over the pathway, virtually blocking the sky from view.  The faint burbling of water drifts in from the east, and tiny, magically lit baubles are strung along the main path and icy offshoots into the woods beyond."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1129,
+      244,
+      1149,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31867,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31874,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31905,
+      "kind": "go",
+      "cmd": "go two-story storefront",
+      "cost": 0.2
+    },
+    {
+      "to": 33937,
+      "kind": "go",
+      "cmd": "go briar-encircled manor",
+      "cost": 0.2
+    }
+  ]
+}

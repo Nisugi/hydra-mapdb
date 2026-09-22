@@ -1,0 +1,101 @@
+{
+  "id": 33365,
+  "uid": [
+    2022576
+  ],
+  "title": [
+    "[Spindrift Sanctuary, Approach]"
+  ],
+  "description": [
+    "Pale golden yellow snow lilies sprout from around a wall of mottled grey stone, its overhang partially shadowing a slurry of ice and snow that trails down a shadowy stone-lined path.  Frost-swept clusters of ruffled clover blot the niveous surroundings with striking dollops of greenery.  A sturdy, nicely appointed cypress log cabin with a gabled roof is plunked among some blue-blushed winter roses and encircled by unruly crallisberry hedges."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Spindrift Sanctuary, inside the glacier-locked town of Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "icy glacier",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 3197,
+      "kind": "go",
+      "cmd": "go stone-lined path",
+      "cost": 0.2
+    },
+    {
+      "to": 33366,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go entryway",
+          "when": {
+            "wearing_noun": "key"
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "get my {setting:spindrift} from my {setting:keysack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "move": "go entryway",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "put my key in my {setting:keysack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "wearing_noun": "key"
+            },
+            {
+              "all": [
+                {
+                  "setting_is_set": "spindrift"
+                },
+                {
+                  "setting_is_set": "keysack"
+                }
+              ]
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

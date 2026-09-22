@@ -1,0 +1,61 @@
+{
+  "id": 15538,
+  "uid": [
+    685002
+  ],
+  "title": [
+    "[Wizard Guild, Entrance Hall]"
+  ],
+  "description": [
+    "Supported by thin, spiraled columns of pure ivory, the hallway stretches on to the north, the soft sounds of various banners hanging from between the gaps of the pristine pillars echoing about you.  A variety of arched doors lead away from the main hall, each of them securely bolted by both conventional methods and faintly pulsing runes of warding.  Dark velvet rugs are draped across the mirror-finished stone underfoot, creating narrow paths of florid scarlet to follow."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Guilds",
+    "mapname:Elven Nations - Ta'Illistim Wizard Guild",
+    "mapshortname:Wizard Guild (Ta'Illistim)"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      351,
+      730,
+      401,
+      780
+    ]
+  },
+  "exits": [
+    {
+      "to": 4026,
+      "kind": "go",
+      "cmd": "go crystals",
+      "cost": 0.2
+    },
+    {
+      "to": 15562,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 15565,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15566,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

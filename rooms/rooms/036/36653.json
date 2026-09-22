@@ -1,0 +1,63 @@
+{
+  "id": 36653,
+  "uid": [
+    8400250
+  ],
+  "title": [
+    "[Brayern Isle, Fort Brayern]"
+  ],
+  "description": [
+    "Silver-striated white stone bricks line the floor of this fortress.  Above, a wide leather tarp pulled tight with thick ropes protects from harsh weather.  Ingress is granted via a metal portcullis built into the blue-green wooden fortress walls, which are hung with weathered violet-hued banners and lanterns.  The area's centerpiece is a small pool surrounding a blazing bonfire built on a raised white stone platform.  Some plush pillows surround both.  Wide white stone stairs with a prominent sign adjacent lead up and onward."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west, northwest"
+  ],
+  "location": "Brayern Isle",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      851,
+      1062,
+      868,
+      1078
+    ]
+  },
+  "exits": [
+    {
+      "to": 36647,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 36654,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36655,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36656,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36657,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36658,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    }
+  ]
+}

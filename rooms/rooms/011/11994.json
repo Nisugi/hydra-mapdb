@@ -1,0 +1,44 @@
+{
+  "id": 11994,
+  "uid": [
+    17001203
+  ],
+  "title": [
+    "[Observatory, Lower Level]"
+  ],
+  "description": [
+    "Stone steps descending from the floor above continue to circle around the perimeter of this basement room, dropping down out of sight to another level below.  The air here is musty, smelling of damp earth and rock dust.  Smoke blackened marks on the stone walls indicate where torches must have once burned in this subterranean room."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      148,
+      87,
+      158,
+      97
+    ]
+  },
+  "exits": [
+    {
+      "to": 11992,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 11995,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    }
+  ]
+}

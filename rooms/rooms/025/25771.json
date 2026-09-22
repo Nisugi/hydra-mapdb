@@ -1,0 +1,42 @@
+{
+  "id": 25771,
+  "uid": [
+    3223846
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Rolling gently back and forth, the hypnotic pulse of the tide rises and falls against the nearby islands.  A cool breeze slips through the area, carrying with it the scent of wild flowers and fresh fruits."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2080,
+      1439,
+      2101,
+      1458
+    ]
+  },
+  "exits": [
+    {
+      "to": 25770,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

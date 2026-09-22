@@ -1,0 +1,47 @@
+{
+  "id": 30318,
+  "uid": [
+    8214732
+  ],
+  "title": [
+    "[Locksmehr River, Encampment]"
+  ],
+  "description": [
+    "Wending its way along the river's edge, a muddy trail slips through trampled grasses and various wild, thorny bushes that grow in profusion.  Built across the trail is a wide palisade of rough-hewn saplings and narrow tree poles that are lashed together with rawhide and hemp.  To the east, a small encampment occupies a bend in the river.",
+    "Wending its way along the river's edge, a muddy trail slips through puddles of snowy slush and various wild, thorny bushes that grow in profusion, their blooms withered away with the cooler temperatures.  Built across the trail is a wide palisade of bare saplings and narrow tree poles that are lashed together with rawhide and hemp.  To the east, a small encampment occupies a bend in the river."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      180,
+      1042,
+      208,
+      1073
+    ]
+  },
+  "exits": [
+    {
+      "to": 30317,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30319,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36332,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 11304,
+  "uid": [
+    377121
+  ],
+  "title": [
+    "[Alchemist, Secret Junction]"
+  ],
+  "description": [
+    "A narrow corridor branches north from this winding, torch-lit hall.  Dense smoke and rock dust hang heavily in the still air, stinging eyes and throat alike, and a monotonous dripping sound echoes down the passage from somewhere to the west.  Above the nearest torch is a small grate, but if it once served to ventilate the hall, the earth and rubble pressing against the grate from the far side now prevent it from serving its function."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      820,
+      1030,
+      830,
+      1040
+    ]
+  },
+  "exits": [
+    {
+      "to": 11303,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11305,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11309,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11312,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

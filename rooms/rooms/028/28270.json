@@ -1,0 +1,85 @@
+{
+  "id": 28270,
+  "uid": [
+    14102102
+  ],
+  "title": [
+    "[Helgreth's Tavern, Parlor]"
+  ],
+  "description": [
+    "Memorabilia from successful military campaigns line the mahogany wainscoted walls, these mementos of glorious past victories routinely polished to keep them in perfect condition.  The deep, rich earthy tones of the parlor are highlighted by amber glaesine spheres housed within the brass wall sconces.  Fragrant cigar smoke lingers lightly in the air as soldiers relax and unwind, socializing amongst themselves at many of the tables available."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 10424,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 28277,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Broadsword table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28278,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Mace table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28279,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Lance table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28280,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Flamberge table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Crossbow table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28282,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Katar table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

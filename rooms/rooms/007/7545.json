@@ -1,0 +1,66 @@
+{
+  "id": 7545,
+  "uid": [
+    490001
+  ],
+  "title": [
+    "[Catacombs, Dark Cavern]"
+  ],
+  "description": [
+    "Thick, spongy moss covers the floor and muffles the sound of your footsteps.  Large limestone stalactites hang from the ceiling like the sharpened fangs of a giant maw waiting to devour any who pass within.  The sound of dripping water echoes through the cavern and mingles with the more ominous sounds of screeches and growls as the denizens of this place move through the darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the catacombs",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      340,
+      1123,
+      350,
+      1133
+    ]
+  },
+  "exits": [
+    {
+      "to": 7544,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 7546,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7547,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7550,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 35382,
+  "uid": [
+    7142502
+  ],
+  "title": [
+    "[Bericsaba Market, North Ray]"
+  ],
+  "description": [
+    "Smooth dirt spreads across the circular clearing, its surface packed firm and traced with faint imprints of past visitors.  White marble pillars rise just south, their floral-plinth bases forming a quiet threshold to the colonnade beyond.  Northeast, a pebbled pathway of blue shale and red marl curves into the dense tangle of laurel, cypress, tamarisk, and juniper, vanishing beneath shifting layers of shade.  Near the edge, a rustic traveller's wagon stands beneath a canvas awning, marked by the scent of pigment and oil."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Isle of Ornath",
+  "image": {
+    "file": "2Sleeping_Drake_Harbor_and_Bericsaba_Market.png",
+    "rect": [
+      199,
+      393,
+      222,
+      416
+    ]
+  },
+  "exits": [
+    {
+      "to": 35249,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35383,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 35384,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

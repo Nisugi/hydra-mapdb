@@ -1,0 +1,52 @@
+{
+  "id": 899,
+  "uid": [
+    13015074
+  ],
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "This narrow section of tunnel appears to dead-end at a large crevasse in the rock wall.  The crevasse extends from floor to ceiling, its width no greater than three feet at its widest area.  To the north, the system of tunnels continues onward into darkness."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Whistler's Pass",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-whistlers_pass-1639036092.png",
+    "rect": [
+      581,
+      201,
+      591,
+      211
+    ]
+  },
+  "exits": [
+    {
+      "to": 898,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 900,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go crevasse"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

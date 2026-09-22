@@ -1,0 +1,102 @@
+{
+  "id": 30805,
+  "uid": [
+    7120001,
+    7120013,
+    7120025,
+    7120037,
+    7120049,
+    7120061,
+    7120073
+  ],
+  "title": [
+    "[Enemy Ship, Main Deck]"
+  ],
+  "description": [
+    "A bronze bell rings out the half-hour of the watch beneath the sail fastened to mast towering overhead.  Down a steep companionway, a pair of crewmen roll barrels into the cargo hold, while a cabin boy emerges from below juggling an armload of cannonballs to replenish the munitions alongside some cannons on deck.  A section of rigging has snapped loose above some debris, the rope whipping back and forth in the constant breeze."
+  ],
+  "paths": [
+    "Obvious paths: east, west, up, down"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy frigate"
+  ],
+  "meta": [
+    "exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      846,
+      869,
+      861,
+      882
+    ]
+  },
+  "exits": [
+    {
+      "to": 29038,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30119,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30130,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30142,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30166,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30176,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30806,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30808,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30809,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30810,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

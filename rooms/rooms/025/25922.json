@@ -1,0 +1,46 @@
+{
+  "id": 25922,
+  "uid": [
+    8211316
+  ],
+  "title": [
+    "[Ostwicke Hall, Auditorium]"
+  ],
+  "description": [
+    "The vast hall is filled with dozens of seats.  To the front, open velvet curtains frame a large stage perfect for performances, meetings, or lecturing large groups.  Overhead, crystal teardrops dangle from brass chandeliers.  The entrance to a small office stands discretely at the back of the hall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Summit Academy",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      455,
+      285,
+      483,
+      312
+    ]
+  },
+  "exits": [
+    {
+      "to": 25921,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25923,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    },
+    {
+      "to": 25925,
+      "kind": "go",
+      "cmd": "go stage",
+      "cost": 0.2
+    }
+  ]
+}

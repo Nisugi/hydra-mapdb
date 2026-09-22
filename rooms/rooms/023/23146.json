@@ -1,0 +1,34 @@
+{
+  "id": 23146,
+  "title": [
+    "[Savagery, Tree-Shrouded Morass]"
+  ],
+  "description": [
+    "Within this secluded fen, the chirping of frogs is nearly the only sound to be heard as the surrounding trees block much of the artifical noise from the grounds beyond.  A break in the tree cover offers a glimpse of the sky overhead, and random clumps of thick grasses rise from the mire here and there along the path.  Nearby is an abandoned bird nest cradled in the fork of some tree branches, and further along is a woven basket hanging from a mossy tree limb."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20348,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "crawl crevice"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23147,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

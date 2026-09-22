@@ -1,0 +1,57 @@
+{
+  "id": 1935,
+  "uid": [
+    3003030
+  ],
+  "title": [
+    "[Adventurers' Rest, Long Hall]"
+  ],
+  "description": [
+    "Gusts of hot air blow into the cavern, occasionally picking up ash and carrying it off to another part of the passage.  The walls are crystallized and appear to have been exposed to some great heat recently."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "houselockers"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      502,
+      668,
+      648,
+      735
+    ]
+  },
+  "exits": [
+    {
+      "to": 1934,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1936,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33022,
+      "kind": "go",
+      "cmd": "go emerald archway",
+      "cost": 0.2
+    },
+    {
+      "to": 36144,
+      "kind": "go",
+      "cmd": "go diamond archway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 28950,
+  "uid": [
+    7118319
+  ],
+  "title": [
+    "[The Sea Hag's Roost, Tavern]"
+  ],
+  "description": [
+    "Guests dine and carouse in close company at a single long table in this airy, well-appointed tavern.  Towards the corner, a collection of smaller tables allow guests to share a drink or word with a greater measure of privacy, and a small archway leads to a busy kitchen.  Large open windows dominate the tavern's southern wall, filling the space with the sights and sounds of the nearby sea."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "board",
+    "bright pink protea",
+    "fire lily",
+    "node",
+    "osatask",
+    "stalk of bluebells",
+    "supernode",
+    "table",
+    "task",
+    "taskboard",
+    "urchin guide osatask",
+    "urchin-access",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 28946,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 28951,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 28952,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dancing Hag table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28953,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Happy Hag table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28954,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Angry Hag table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28955,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sleeping Hag table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28956,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Kissing Hag table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

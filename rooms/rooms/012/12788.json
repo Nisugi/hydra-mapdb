@@ -1,0 +1,48 @@
+{
+  "id": 12788,
+  "uid": [
+    3061024
+  ],
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "The air appears to be a little cooler here.  The glassy molten walls seem thicker, although you can detect spots where the density varies from color.  You can almost sense the flow of lava pulsing behind the scorched rock, judging from the discoloration on the surface of the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      443,
+      708,
+      451,
+      716
+    ]
+  },
+  "exits": [
+    {
+      "to": 2214,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

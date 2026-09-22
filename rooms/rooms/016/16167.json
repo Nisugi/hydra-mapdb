@@ -1,0 +1,68 @@
+{
+  "id": 16167,
+  "uid": [
+    4053005
+  ],
+  "title": [
+    "[Cobbling Court, Storage Area]"
+  ],
+  "description": [
+    "Stacks of crates and barrels create a sort of crooked pathway that snakes throughout the room.  Made of pale-colored oak, a squat but sturdy counter is crowded with an assortment of odds and ends.  With her arms folded across her chest, the warehouse manager keeps a watchful eye on everyone and everything in the storage room."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "cobbling",
+    "stalk of bluebells",
+    "urchin guide cobbling",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 16144,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

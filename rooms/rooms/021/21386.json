@@ -1,0 +1,80 @@
+{
+  "id": 21386,
+  "title": [
+    "[Feywrot Mire, Diseased Banyan]"
+  ],
+  "description": [
+    "Dim moonlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan.",
+    "Bright sunlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      619,
+      522,
+      633,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 20128,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20164,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20165,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20167,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23157,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go camouflaged opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

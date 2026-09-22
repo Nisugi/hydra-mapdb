@@ -1,0 +1,57 @@
+{
+  "id": 5547,
+  "uid": [
+    4215145
+  ],
+  "title": [
+    "[Manor House, Kitchen]"
+  ],
+  "description": [
+    "As dirty and damp as this room is, with patches of yellow mold and cobwebs in the corners, the steel spit spanning the large fireplace and the butcher block counter make the original purpose of the room quite plain.  A rusted basin rests on a table between a boarded up window and a stairway set against the east wall that climbs to the second floor.  Beneath the stairway, stone steps descend to the manor's cellar.  A haon door stands just south of the fireplace in the kitchen's west wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1180,
+      654,
+      1192,
+      666
+    ]
+  },
+  "exits": [
+    {
+      "to": 5535,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5551,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 5556,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 14604,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

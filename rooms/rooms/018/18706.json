@@ -1,0 +1,70 @@
+{
+  "id": 18706,
+  "uid": [
+    4031026
+  ],
+  "title": [
+    "[Krolvin Warship, Brig]"
+  ],
+  "description": [
+    "Bisecting the narrow companionway between the rows of wrought iron cells is a large wooden framing post marred by nicks and scratches down its rough expanse.  A black iron ring supports the manacled form of a rotted skeleton draped in tattered clothing that might once have been an Imperial Navy uniform.  Foul odors fill this section of the ship, made worse by the damp, sea-laden air."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      586,
+      400,
+      605,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 18256,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put_until": {
+            "command": "batter door",
+            "until": [
+              "destroyed",
+              "ineffective"
+            ]
+          },
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18700,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18707,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24853,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

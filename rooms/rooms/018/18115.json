@@ -1,0 +1,51 @@
+{
+  "id": 18115,
+  "uid": [
+    661016
+  ],
+  "title": [
+    "[Sorcerer Guild, Arcane Studies]"
+  ],
+  "description": [
+    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Coastal Cliffs",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy masters",
+    "sorcerer guild masters"
+  ],
+  "image": {
+    "file": "wl-sorcerer_guild-1405076623.png",
+    "rect": [
+      342,
+      479,
+      384,
+      520
+    ]
+  },
+  "exits": [
+    {
+      "to": 18114,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18123,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 27395,
+      "kind": "other",
+      "cmd": "ask marderain about train illusions",
+      "cost": 0.2
+    }
+  ]
+}

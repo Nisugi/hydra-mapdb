@@ -1,0 +1,68 @@
+{
+  "id": 29096,
+  "uid": [
+    7118452
+  ],
+  "title": [
+    "[Irosah's Armaments]"
+  ],
+  "description": [
+    "Large and small practice dummies are arranged on the western wall, each displaying a different armor type in a variety of colors and metals.  Along the eastern wall, shields are suspending from long chains in the ceiling, their broad expanses block exterior light from entering the shop.  Set beneath the light of twin lanterns, a long wooden counter separates the showroom from the workrooms and has a welcoming sign on it."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "no forageables",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28871,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

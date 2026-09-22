@@ -1,0 +1,83 @@
+{
+  "id": 13169,
+  "uid": [
+    13112406
+  ],
+  "title": [
+    "[Ta'Illistim, Niche]"
+  ],
+  "description": [
+    "Smooth pale stone walls create an oval space just large enough to accommodate a few patrons at a time.  Other than the subtle sheen of polished stone, there are neither embellishments nor furnishings to distract the eye from a sigil-carved round window, which catches the eye immediately upon entering."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Lost Home",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "fire lily",
+    "urchin guide chronomages",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1495,
+      855,
+      1518,
+      876
+    ]
+  },
+  "exits": [
+    {
+      "to": 1276,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10837,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

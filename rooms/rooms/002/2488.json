@@ -1,0 +1,50 @@
+{
+  "id": 2488,
+  "uid": [
+    4128002
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "The conifers of the forest have been cleared away near the stone walls of the town, providing space for the pathway.  Voices, hearty and reassuring, drift over the wall on the cold air.  It is pleasant to envision warm rooms and cozy fires, only a few steps away."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the southern snowfields",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      394,
+      596,
+      414,
+      616
+    ]
+  },
+  "exits": [
+    {
+      "to": 2487,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2489,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15933,
+      "kind": "go",
+      "cmd": "go columns",
+      "cost": 0.2
+    }
+  ]
+}

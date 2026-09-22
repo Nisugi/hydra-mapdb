@@ -1,0 +1,71 @@
+{
+  "id": 6631,
+  "uid": [
+    487011
+  ],
+  "title": [
+    "[Broken Lands, Hidden Stairs]"
+  ],
+  "description": [
+    "The stairwell is cramped and musty, with a thick layer of dust which rises into the air from the slightest breeze.  A lone pinpoint of light can be seen at the top of the stairs, while a blanket of darkness shrouds the bottom."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      367,
+      1074,
+      377,
+      1084
+    ]
+  },
+  "exits": [
+    {
+      "to": 6630,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 6632,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "concealed door"
+            ]
+          }
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

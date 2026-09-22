@@ -1,0 +1,33 @@
+{
+  "id": 18471,
+  "title": [
+    "[Grawood Farmstead, Maze]"
+  ],
+  "description": [
+    "Small lengths of twine and a few nails are scattered on the ground next to the newly constructed ramp.  Pale green corn stalks line the path leading towards the ramp.  A single streamer of blue paper is wrapped around the base of a corn stalk."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18470,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18472,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 8631,
+  "uid": [
+    2041
+  ],
+  "title": [
+    "[Grocer's, Front Room]"
+  ],
+  "description": [
+    "The front room of the grocer's is filled with shoppers toting bundles or hefting sacks over their shoulders.  Young lads swarm around, offering to help carry your goods for a few spare coppers.  From the west wafts an aroma of fresh foods, meats, cheeses and breads that causes your mouth to water.  Off in a secluded corner you see an area where a table has been surrounded by some partitions, affording some privacy for customers who choose to dine here."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 295,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4105,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13480,
+      "kind": "go",
+      "cmd": "go secluded corner",
+      "cost": 0.2
+    }
+  ]
+}

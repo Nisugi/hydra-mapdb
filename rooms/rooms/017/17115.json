@@ -1,0 +1,49 @@
+{
+  "id": 17115,
+  "uid": [
+    256300
+  ],
+  "title": [
+    "[Warrior Guild, Second Floor]"
+  ],
+  "description": [
+    "The carpeted staircase with its impressive marble balustrade leads up to an ample hallway, its ornate gilded lamps and ceiling rosettes completing a grand initial view of the upper floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      719,
+      786,
+      742,
+      810
+    ]
+  },
+  "exits": [
+    {
+      "to": 17109,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17185,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17188,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

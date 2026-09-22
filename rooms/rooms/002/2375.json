@@ -1,0 +1,51 @@
+{
+  "id": 2375,
+  "uid": [
+    735036
+  ],
+  "title": [
+    "[Incantation and Enchantment]"
+  ],
+  "description": [
+    "At the northwest corner of Icemule Trace stands a sturdy square tower, its impressive height casting the meeting point of Incantation and Enchantment alleys into cold, damp shadow.  A few militia guardsmen slip in and among the spellcasters who move between the run-down alleys at all hours of the day.",
+    "At the northwest corner of Icemule Trace stands a sturdy square tower, its impressive height blocking the light from all but the stars directly overhead.  The halfling militia patrols in pairs, their spears and tridents held ready to meet any threat that might approach under cover of darkness."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      49,
+      253,
+      67,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 2374,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2376,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8944,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 28102,
+  "uid": [
+    8209133
+  ],
+  "title": [
+    "[Grand Stable, West Wing]"
+  ],
+  "description": [
+    "High ceilings and propped-open windows allow the free flow of air to circulate above the wide alley that runs through the center of the stable.  On the northern side, an area has been built to store tack.  Reins, bits, and blinders hang from blued-steel hooks anchored to pine walls, while saddles and blankets are stacked on low shelves.  On the southern side of the alley, two stalls sit side by side, blued-steel latches securing their lower half-doors shut."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28100,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28103,
+      "kind": "go",
+      "cmd": "go east stall",
+      "cost": 0.2
+    },
+    {
+      "to": 28104,
+      "kind": "go",
+      "cmd": "go west stall",
+      "cost": 0.2
+    },
+    {
+      "to": 28105,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

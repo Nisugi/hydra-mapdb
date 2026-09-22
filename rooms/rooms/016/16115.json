@@ -1,0 +1,146 @@
+{
+  "id": 16115,
+  "uid": [
+    2104401
+  ],
+  "title": [
+    "[A Fallen Giant]"
+  ],
+  "description": [
+    "The tumble of fast-moving water suffuses the air with constant sound and a glimmering display of light dances through the trees that edge this stretch of grass and thick scrub.  The remnant of an ancient tree fills this clearing.  The sheer breadth of the stump and its ragged summit overhead can only hint at the once great majesty of this forest king.",
+    "The tumble of fast-moving water suffuses the air with constant sound and the rough, gnarled boughs of trees give way here to stretch of grass and thick scrub.  The remnant of an ancient tree fills this clearing, its height bare of bark and bleached to the mottled hue of bone.  The sheer breadth of the stump and its ragged summit overhead can only hint at the once great majesty of this forest king.  A rough track cuts through the woods to the north."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the South River Road",
+  "climate": "humid",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "black tea leaves",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red teaberry",
+    "brostheras grass",
+    "butterfly pea flower",
+    "cantaloupe",
+    "chronomage",
+    "coffee cherries",
+    "curly garlic scapes",
+    "daggerstalk mushroom",
+    "flaeshorn berry",
+    "flaming violet",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "green tea leaves",
+    "honeymoon melon",
+    "horseradish root",
+    "Imaera's Lace",
+    "luckbloom blossom",
+    "mate leaves",
+    "mistweed",
+    "motherwort",
+    "mulberry fronds",
+    "murdroot",
+    "murkweed",
+    "pale green honeydew",
+    "pearl onions",
+    "pink clover blossom",
+    "pothinir grass",
+    "purple clover blossom",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "red clover blossom",
+    "red onion",
+    "round white eggplant",
+    "round yuzu",
+    "soft mushroom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sugar cane",
+    "sun-wilted tea leaves",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "thin hemp",
+    "tobacco leaves",
+    "trollear mushroom",
+    "urchin guide chronomages",
+    "urchin-access",
+    "wavepetal blossom",
+    "white clover blossom",
+    "white cotton boll",
+    "white tea leaves",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yellow clover blossom",
+    "zucchini"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2691,
+      1613,
+      2713,
+      1635
+    ]
+  },
+  "exits": [
+    {
+      "to": 16016,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26180,
+      "kind": "go",
+      "cmd": "go bore",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

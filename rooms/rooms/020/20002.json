@@ -1,0 +1,38 @@
+{
+  "id": 20002,
+  "uid": [
+    11219
+  ],
+  "title": [
+    "[Cavernhold, Western Shore]"
+  ],
+  "description": [
+    "You are on the western side of a swiftly moving underground stream.  The cavern here is large and dark, making it difficult to see very far in any one direction.  A passage curves off to the southwest, closely following the path of the stream."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "exits": [
+    {
+      "to": 20001,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 20010,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

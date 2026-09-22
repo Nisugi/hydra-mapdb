@@ -1,0 +1,70 @@
+{
+  "id": 36112,
+  "uid": [
+    105199
+  ],
+  "title": [
+    "[House Arcane, Lounge]"
+  ],
+  "description": [
+    "The lounge is freshly painted with a colorful mural winding its way along the walls, depicting the four seasons in realistic shades and hues.  Wooden tables and chairs offer a place to rest and relax after a long day's journey.  The north wall contains a wooden door flanked by a pair of windows."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      400,
+      983,
+      482,
+      1061
+    ]
+  },
+  "exits": [
+    {
+      "to": 36096,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36115,
+      "kind": "go",
+      "cmd": "go teras isle table",
+      "cost": 0.2
+    },
+    {
+      "to": 36116,
+      "kind": "go",
+      "cmd": "go wehnimer's landing table",
+      "cost": 0.2
+    },
+    {
+      "to": 36117,
+      "kind": "go",
+      "cmd": "go river's rest table",
+      "cost": 0.2
+    },
+    {
+      "to": 36118,
+      "kind": "go",
+      "cmd": "go icemule trace table",
+      "cost": 0.2
+    },
+    {
+      "to": 36119,
+      "kind": "go",
+      "cmd": "go elanthia table",
+      "cost": 0.2
+    },
+    {
+      "to": 36120,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    }
+  ]
+}

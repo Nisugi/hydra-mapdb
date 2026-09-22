@@ -1,0 +1,58 @@
+{
+  "id": 2416,
+  "uid": [
+    4042322
+  ],
+  "title": [
+    "[Commerce Burrow, Krolvin Alley]",
+    "[Commerce Burrow, Elven Alley]"
+  ],
+  "description": [
+    "Twisting and turning between weathered buildings of brick and pine, the cobbled alley slopes steeply downward.  Dense shadows lurk to either side of the walkway.  As if oblivious to the foreboding look of the span, an elegant little shop opens onto the alleyway, hand-drawn maps of locales familiar and foreign on display through its wide bay windows.",
+    "Twisting and turning between weathered buildings of stone and wood, the alley slopes steeply downward.  Shadows dance along the high walls and across the packed earth road."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      759,
+      1232,
+      795,
+      1268
+    ]
+  },
+  "exits": [
+    {
+      "to": 2415,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2417,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 2418,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 3402,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    }
+  ]
+}

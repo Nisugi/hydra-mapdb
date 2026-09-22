@@ -1,0 +1,56 @@
+{
+  "id": 21762,
+  "uid": [
+    103116
+  ],
+  "title": [
+    "[House Phoenix, Hall]"
+  ],
+  "description": [
+    "The few guttering candles provide barely enough light to avoid stumbling over the uneven tile floor.  The stone walls of this narrow hallway are cool and slightly damp to the touch.  The air, heavy and humid, smells slightly of mildew."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Rising Phoenix"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      711,
+      500,
+      827,
+      574
+    ]
+  },
+  "exits": [
+    {
+      "to": 21761,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21763,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25863,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 32993,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 3592,
+  "uid": [
+    4292012
+  ],
+  "title": [
+    "[Stronghold, Barracks]"
+  ],
+  "description": [
+    "The barracks looks more like a mausoleum than a billet, with its double row of huge stone slabs marching down the cavernous chamber.  Above, the ceiling arches into multiple peaks, each sending ribs of stone down the walls that take on a skeletal quality in the half-light.  A deep layer of dust rises on each side of the center path through the rows of bier-like bunks."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      544,
+      577,
+      554,
+      587
+    ]
+  },
+  "exits": [
+    {
+      "to": 3590,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "await": "You hear a soft click from the door and it suddenly flies open.",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3593,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 3019,
+  "uid": [
+    4129104
+  ],
+  "title": [
+    "[Snow Fort, Spiral]"
+  ],
+  "description": [
+    "A frozen tower of dark ice spirals far above and below.  The jagged edges of the ice provide barely enough friction to enable you to continue on your way.  Light filters down from somewhere high up the spiral."
+  ],
+  "paths": [
+    "Obvious exits: north, up, down"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "snow spectre"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      489,
+      821,
+      499,
+      831
+    ]
+  },
+  "exits": [
+    {
+      "to": 3018,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3020,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 3024,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

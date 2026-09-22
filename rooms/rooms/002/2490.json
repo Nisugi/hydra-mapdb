@@ -1,0 +1,64 @@
+{
+  "id": 2490,
+  "uid": [
+    4128004
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "Rising above the pathway which skirts the town are the blades of a windmill, which forms the southwestern corner of the town's wall.  The dark wood of the blades, as they turn to catch the wind, provides a sharp contrast to the light grey stone of the wall.",
+    "Rising above the pathway which skirts the town are the blades of a windmill, which forms the southwestern corner of the town's wall.  The dark wood of the blades, as they turn to catch the wind, provides a sharp contrast to the light grey stone of the wall.  A snow-covered path is completely blocked by a large stone barrier.",
+    "Rising above the pathway which skirts the town are the blades of a windmill, which forms the southwestern corner of the town's wall.  The dark wood of the blades, as they turn to catch the wind, provides a sharp contrast to the light grey stone of the wall.  Nearby, a snow-covered path leads toward a rustic hall, which looms above an icy courtyard."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, south"
+  ],
+  "location": "the southern snowfields",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      344,
+      574,
+      354,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 2489,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2491,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3218,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20748,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    }
+  ]
+}

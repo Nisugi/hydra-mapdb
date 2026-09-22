@@ -1,0 +1,38 @@
+{
+  "id": 13312,
+  "uid": [
+    14102006
+  ],
+  "title": [
+    "[Malwith Inn, Landing]"
+  ],
+  "description": [
+    "A simple wood stairway leads up into the inn, while the landing is formed from large stones.  Steps of the same rock as the landing lead down into the inn's basement.  A lone lantern hangs above the landing, trying desperately to brighten the area."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 10384,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 13699,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 13700,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

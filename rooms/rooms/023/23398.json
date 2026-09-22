@@ -1,0 +1,49 @@
+{
+  "id": 23398,
+  "uid": [
+    13018026
+  ],
+  "title": [
+    "[A Dark Tunnel, Staircase]"
+  ],
+  "description": [
+    "It is very dark and cold here, and the steep stairs are very slippery.  A dull light shines from the top of the staircase."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bolmara lichen",
+    "glowing toadstool",
+    "ironfern root",
+    "peer down =~ /Obvious exits: down/",
+    "white hook mushroom",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      189,
+      370,
+      201,
+      380
+    ]
+  },
+  "exits": [
+    {
+      "to": 23397,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 23399,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 2466,
+  "uid": [
+    4043312
+  ],
+  "title": [
+    "[Furryback's Pelt and Skin]"
+  ],
+  "description": [
+    "Stacks of hides and pelts cover the floor in this cramped shop, leaving a narrow trail to the counter.  A bright-eyed halfling sits on top of the counter, sorting through a stack of skins as he talks to himself under his breath."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "furrier",
+    "no forageables",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      849,
+      1142,
+      885,
+      1178
+    ]
+  },
+  "exits": [
+    {
+      "to": 2465,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

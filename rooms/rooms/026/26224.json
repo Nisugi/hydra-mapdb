@@ -1,0 +1,50 @@
+{
+  "id": 26224,
+  "uid": [
+    7106013
+  ],
+  "title": [
+    "[Reim Base Camp, Store Foyer]"
+  ],
+  "description": [
+    "Aside from tools, mechanical bits, and numerous stacks of dark wooden crates, the foyer of this building is largely empty.  Near the eastern wall, a stack of lids lies toppled over beside a broken barrel.  To the west, a salesroom is visible, and a set of uneven stairs heads up to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Reim Base Camp",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      1473,
+      174,
+      1507,
+      208
+    ]
+  },
+  "exits": [
+    {
+      "to": 26223,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26225,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26226,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

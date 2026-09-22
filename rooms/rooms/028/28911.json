@@ -1,0 +1,102 @@
+{
+  "id": 28911,
+  "uid": [
+    7118216
+  ],
+  "title": [
+    "[Kraken's Fall, Middle Arm Ave]"
+  ],
+  "description": [
+    "Large roasting pits and domed brick ovens encircle a round shack with a peaked thatch roof, the white smoke billowing from them fragrant with the scent of roasting meats and spices.  Smooth, loose stones are scattered about the cooking vessels to prevent fires, though here and there tufts of grass still manage to grow.  A sprawling coral-roofed villa is built against the very edges of the cobblestone avenue, its white face dimpled with shuttered windows."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      669,
+      309,
+      684,
+      321
+    ]
+  },
+  "exits": [
+    {
+      "to": 28910,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28912,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28979,
+      "kind": "go",
+      "cmd": "go villa",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 29136,
+      "kind": "go",
+      "cmd": "go shack",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

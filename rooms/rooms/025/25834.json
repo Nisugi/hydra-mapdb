@@ -1,0 +1,79 @@
+{
+  "id": 25834,
+  "uid": [
+    3223858
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Rising dark and formidable to the south, Charl's Teeth are a smear of black against the crystal blue of the waterway's cool waters.  Razor sharp crags and jagged lines make the towering behemoths impossible to climb, and the close proximity that each ragged tooth has to the other makes them impossible to slip past.  Water bounces off of the natural constructs and splashes onto a long wooden dock to the west that provides access to the nearby island."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1040,
+      1680,
+      1061,
+      1698
+    ]
+  },
+  "exits": [
+    {
+      "to": 25833,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25835,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal west"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25844,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 36175,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal east"
+        }
+      ],
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "hunting"
+          }
+        },
+        "then": 6.0
+      }
+    }
+  ]
+}

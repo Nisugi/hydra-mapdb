@@ -1,0 +1,44 @@
+{
+  "id": 9099,
+  "uid": [
+    4045208
+  ],
+  "title": [
+    "[Great Cavern, Flue]"
+  ],
+  "description": [
+    "A wide tunnel extends straight upwards.  Below, the tunnel slopes downward and off to one side a bit.  The ceiling of the flue is covered in thick glowing moss and a drop or two of water falls from above.  The air is still cool here, but well above freezing."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, damp",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      202,
+      466,
+      212,
+      476
+    ]
+  },
+  "exits": [
+    {
+      "to": 9098,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 9100,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

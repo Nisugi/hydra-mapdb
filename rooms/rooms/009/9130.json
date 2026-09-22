@@ -1,0 +1,44 @@
+{
+  "id": 9130,
+  "uid": [
+    4045237
+  ],
+  "title": [
+    "[Mossy Hollow]"
+  ],
+  "description": [
+    "Tall stalagmites arch above your head, curving to almost meet above you.  They form a pair of rows, bound together with limestone deposits and moss.  You don't recall ever seeing stalagmites bent that way before.  To the north, a dark green opening leads to a lichen-lined tunnel."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      200,
+      976,
+      210,
+      986
+    ]
+  },
+  "exits": [
+    {
+      "to": 9129,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9131,
+      "kind": "climb",
+      "cmd": "climb stalagmite",
+      "cost": 0.2
+    }
+  ]
+}

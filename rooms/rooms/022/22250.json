@@ -1,0 +1,36 @@
+{
+  "id": 22250,
+  "title": [
+    "[Hall of Mages, Long Hall]"
+  ],
+  "description": [
+    "Tucked behind the stairwell is a long hall with bare walls and a cold dark marble floor.  The passage ends at an iron-bound steel door."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      478,
+      83,
+      491,
+      98
+    ]
+  },
+  "exits": [
+    {
+      "to": 22248,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22251,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

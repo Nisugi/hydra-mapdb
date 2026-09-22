@@ -1,0 +1,52 @@
+{
+  "id": 36356,
+  "uid": [
+    55026
+  ],
+  "title": [
+    "[Black Swan Castle, Courtyard]"
+  ],
+  "description": [
+    "Permanent gloom seems to hang in this corner of the courtyard.  The shadows of the broken and violated battlements of the fortress wall merge with those of the dark, stone tower.  Scrapes, grooves, and deep striations on the surface of the stones speak of determined enemies without clamoring to reach great treasures within."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      360,
+      520,
+      400,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 36355,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36357,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36373,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 36375,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

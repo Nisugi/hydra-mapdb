@@ -1,0 +1,35 @@
+{
+  "id": 36142,
+  "uid": [
+    13010143
+  ],
+  "title": [
+    "[Arcane Masters Annex]"
+  ],
+  "description": [
+    "Two huge toadstools in large stone pots illuminate a large, comfortable room.  Dusky brown granite benches line two of the marble walls, facing each other across the sapphire carpet.  On one wall, a brass arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_annex",
+    "che:arcane_masters:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 9498,
+      "kind": "go",
+      "cmd": "go brass arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36143,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

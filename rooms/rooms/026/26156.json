@@ -1,0 +1,76 @@
+{
+  "id": 26156,
+  "uid": [
+    7107071,
+    7107121,
+    7107171,
+    7107221,
+    7107271,
+    7107321,
+    7107371,
+    7107421,
+    7107471,
+    7107521,
+    7107571,
+    7107621,
+    7107671,
+    7107721,
+    7107771,
+    7107821
+  ],
+  "title": [
+    "[Reim Fortress, North Gate]"
+  ],
+  "description": [
+    "Iron-caged torches flank the gate and are sheltered from the screaming winds by the high granite walls.  Large oak beams, charred and scarred from past battles, have been pushed against the eastern wall to create a long ramp that leads to some of the fortress's remaining rooms.  An odd series of stones imbedded into the wall disappear from sight as they climb the wall."
+  ],
+  "paths": [
+    "Obvious exits: south",
+    "Obvious paths: south, up",
+    "Obvious paths: south"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      552,
+      135,
+      587,
+      171
+    ]
+  },
+  "exits": [
+    {
+      "to": 26155,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26157,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 26159,
+      "kind": "go",
+      "cmd": "go stone",
+      "cost": 0.2
+    },
+    {
+      "to": 26160,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

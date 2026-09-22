@@ -1,0 +1,42 @@
+{
+  "id": 20352,
+  "title": [
+    "[Feywrot Mire, Black Waters]"
+  ],
+  "description": [
+    "Thick reeds hug the shore, blurring the line between liquid and solid.  A wing, not fully stripped of its tan spotted feathers, floats half in and half out of the shallow dark water.  A collection of owl pellets nearby displays its collection of tiny desiccated bones poking out of the disintegrating scat.  A white-washed, flat-bottomed barge has run aground, mired helplessly just a few feet from shore."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      289,
+      259,
+      304,
+      273
+    ]
+  },
+  "exits": [
+    {
+      "to": 20350,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20353,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24221,
+      "kind": "go",
+      "cmd": "go stump-shaped hut",
+      "cost": 0.2
+    }
+  ]
+}

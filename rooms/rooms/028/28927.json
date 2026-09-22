@@ -1,0 +1,70 @@
+{
+  "id": 28927,
+  "uid": [
+    7118462
+  ],
+  "title": [
+    "[Adventurer's Guild, Taskmaster]"
+  ],
+  "description": [
+    "This room is excessively fragrant, due largely to the number of burning braziers interspersed about the space.  Each one appears to be emitting a slightly different hue of wispy smoke, and a purplish haze has accumulated along the ceiling, nearly obscuring the timber overhead.  A small desk sits against one wall, piled high with papers and scrolls of various sizes and shapes."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "fire lily",
+    "taskmaster",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28925,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

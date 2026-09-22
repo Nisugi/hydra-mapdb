@@ -1,0 +1,50 @@
+{
+  "id": 34355,
+  "uid": [
+    13150419
+  ],
+  "title": [
+    "[Titan's Crown, Tempest Isle]"
+  ],
+  "description": [
+    "Jagged peaks of the crater, barely visible through the downpour, rise like teeth that would consume the sky.  The storm screams with ferocious thunder, but the roar is echoed back by the mountain's maw with equal strength.  A softly glowing hemisphere of bright white zorchar rests on the ground, perfectly aligned with one of the obsidian spires of the large ring at the center of the island."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Stormpeak",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1044,
+      461,
+      1062,
+      479
+    ]
+  },
+  "exits": [
+    {
+      "to": 34353,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34354,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    },
+    {
+      "to": 34356,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

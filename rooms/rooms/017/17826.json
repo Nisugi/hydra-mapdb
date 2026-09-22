@@ -1,0 +1,44 @@
+{
+  "id": 17826,
+  "uid": [
+    267113
+  ],
+  "title": [
+    "[Alley]"
+  ],
+  "description": [
+    "The alley comes to an abrupt end, the tall facade of a brick building blocking the way.  Unlike most of the buildings, though, this one has a door."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      1119,
+      633,
+      1160,
+      673
+    ]
+  },
+  "exits": [
+    {
+      "to": 17825,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17827,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

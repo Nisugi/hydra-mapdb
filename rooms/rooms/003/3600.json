@@ -1,0 +1,344 @@
+{
+  "id": 3600,
+  "uid": [
+    312033
+  ],
+  "title": [
+    "[Courtyard]"
+  ],
+  "description": [
+    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, though the sun's strong rays beat back any feelings of cold.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor.",
+    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, but the bulk of the monastery shelters you from wind and makes the air bracing instead of chilling.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Graveyard",
+  "climate": "humid",
+  "terrain": "cultivated",
+  "tags": [
+    "ayana leaf",
+    "bay leaf",
+    "black peppercorn",
+    "blackberries",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cardamom",
+    "cherry peppers",
+    "creamy white wisteria",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "green tomato",
+    "haphip root",
+    "Imaera's Lace",
+    "lemon balm",
+    "lemon verbena",
+    "luckbloom blossom",
+    "motherwort",
+    "nightbloom blossom",
+    "node",
+    "nutmeg",
+    "onion skin",
+    "orange persimmon",
+    "pale rose pink wisteria",
+    "peppermint leaves",
+    "pink oleander",
+    "pink passionflower",
+    "pink peppercorn",
+    "pothinir grass",
+    "purple datura blossom",
+    "purple passionflower",
+    "purple-tipped artichoke",
+    "red oleander",
+    "red onion",
+    "red passionflower",
+    "red tomato",
+    "reddish-orange persimmon",
+    "round yuzu",
+    "small watermelon",
+    "soft mushroom",
+    "spearmint leaf",
+    "star anise",
+    "sun-wilted tea leaves",
+    "supernode",
+    "sweet onion",
+    "tobacco leaves",
+    "trollear mushroom",
+    "vanilla bean",
+    "voln",
+    "wavepetal blossom",
+    "white datura blossom",
+    "white oleander",
+    "white passionflower",
+    "withered mushroom",
+    "yellow datura blossom",
+    "yellow lemon",
+    "yellow passionflower",
+    "yew twig",
+    "zucchini"
+  ],
+  "meta": [
+    "map:ignore-selfpath",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Outside Gates",
+    "mapshortname:Outside Gates",
+    "seeking"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      1163,
+      66,
+      1173,
+      76
+    ]
+  },
+  "exits": [
+    {
+      "to": 1213,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 3600,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": 0.2
+    },
+    {
+      "to": 3601,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3629,
+      "kind": "go",
+      "cmd": "go spring",
+      "cost": 0.2
+    },
+    {
+      "to": 3683,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3686,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 4141,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 6505,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 6615,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 7673,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 14072,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    },
+    {
+      "to": 24715,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking",
+        "remember": [
+          "redforest_location",
+          "WL"
+        ]
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.8
+      }
+    }
+  ]
+}

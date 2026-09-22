@@ -1,0 +1,48 @@
+{
+  "id": 29431,
+  "title": [
+    "[Briarmoon Cove, Bazaar]"
+  ],
+  "description": [
+    "The fragmented remnants of a fallen cavern wall skirt the edges of a tapered path with an austere, stony backdrop.  Hanging gilded lanterns cast a warm glow from beneath the variegated awnings that line a narrow-laned bazaar full of vibrant and engaging storefronts.  Floating intermittently on the swirling breeze, the smoky aroma of burning cedarwood punctuates the crisp chill in the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      507,
+      385,
+      528,
+      406
+    ]
+  },
+  "exits": [
+    {
+      "to": 29429,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 29432,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29436,
+      "kind": "go",
+      "cmd": "go blue tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29439,
+      "kind": "go",
+      "cmd": "go yierka pavilion",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 19521,
+  "uid": [
+    655007
+  ],
+  "title": [
+    "[Empath Guild]"
+  ],
+  "description": [
+    "Rows of closed nondescript doors line the corridor, with the notable exception of a prominent mithglin-inlaid door adorned with a wreath of acantha.  Ivory-toned walls wonderfully compliment the vivid runners on the smooth marble floor, accentuating the beauty of the floral motif."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      353,
+      441,
+      412,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 19509,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19518,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19522,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

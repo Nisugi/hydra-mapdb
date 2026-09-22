@@ -1,0 +1,36 @@
+{
+  "id": 17053,
+  "uid": [
+    4749001
+  ],
+  "title": [
+    "[Temple of Ronan, Gate]"
+  ],
+  "description": [
+    "An ornate black gate stands open, welcoming Ronan's followers.  An onyx slab engraved with a large silver-edged black sword is centered on each half of the gate, and onyx flagstones form a path through the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 1504,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17054,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": 3474,
+  "uid": [
+    4044139
+  ],
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "You are dazzled by an explosion of dancing lights reflected by the occasional sunbeams venturing through the crack into this chamber of ice.  A multitude of gleaming stalactites and stalagmites makes passage through the area a grand feat.",
+    "You are dazzled by an explosion of dancing lights reflected by the occasional moonbeams venturing through the crack into this chamber of ice.  A multitude of gleaming stalactites and stalagmites makes passage through the area a grand feat."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "arctic moss",
+    "broken twig",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      869,
+      669,
+      879,
+      679
+    ]
+  },
+  "exits": [
+    {
+      "to": 3464,
+      "kind": "go",
+      "cmd": "go crack",
+      "cost": 0.2
+    },
+    {
+      "to": 3475,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 4200,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "not": {
+                      "setting": [
+                        "ice_mode",
+                        "run"
+                      ]
+                    }
+                  },
+                  {
+                    "any": [
+                      {
+                        "encumbrance_over": 50
+                      },
+                      {
+                        "all": [
+                          {
+                            "skill_under": [
+                              "survival",
+                              50
+                            ]
+                          },
+                          {
+                            "not": {
+                              "spell_active": "Haste"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "move": "south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

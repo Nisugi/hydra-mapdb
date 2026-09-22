@@ -1,0 +1,50 @@
+{
+  "id": 8471,
+  "uid": [
+    2155012
+  ],
+  "title": [
+    "[Temple, Foyer]"
+  ],
+  "description": [
+    "The room is dimly lit by light coming in through an empty doorway.  Wispy cobwebs hang from the rafters, waving in the hint of a draft, and dust covers every surface, tickling your nose until you sneeze.  The sound does not carry far, but breaking the silence seems somehow iniquitous.  A pair of double doors opens to the north, while a small arch leads off to the west."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      305,
+      833,
+      315,
+      843
+    ]
+  },
+  "exits": [
+    {
+      "to": 8470,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 8472,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8488,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    }
+  ]
+}

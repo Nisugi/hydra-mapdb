@@ -1,0 +1,45 @@
+{
+  "id": 14036,
+  "uid": [
+    4750030
+  ],
+  "title": [
+    "[Castle Varunar, Tunnel]"
+  ],
+  "description": [
+    "Two sturdy walls and the granite hillside protect access to a massive stone ramp.  The ramp stretches upwards and stops in front of the gates that protect the inner ward of the castle."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      817,
+      253,
+      827,
+      263
+    ]
+  },
+  "exits": [
+    {
+      "to": 14035,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14037,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    }
+  ]
+}

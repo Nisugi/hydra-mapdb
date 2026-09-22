@@ -1,0 +1,61 @@
+{
+  "id": 22394,
+  "uid": [
+    13125018
+  ],
+  "title": [
+    "[Dwarven Embassy, Hallway]"
+  ],
+  "description": [
+    "Rectangular tiles of blue-flecked white marble comprise the hallway's floor, lined with moss green runners embroidered with tawny whorls.  A blue sapphire-inset door resides in the eastern wall, while a set of tall silver-traced doors occupies the terminus of the corridor.  Within a modest recess nearest to the antechamber, a simple stone door has been partially hidden behind a velvety blue curtain."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      878,
+      657,
+      942,
+      696
+    ]
+  },
+  "exits": [
+    {
+      "to": 22392,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22395,
+      "kind": "go",
+      "cmd": "go silver door",
+      "cost": 0.2
+    },
+    {
+      "to": 22396,
+      "kind": "go",
+      "cmd": "go sapphire door",
+      "cost": 0.2
+    },
+    {
+      "to": 22418,
+      "kind": "go",
+      "cmd": "go stone door",
+      "cost": {
+        "when": {
+          "race": "Dwarf"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

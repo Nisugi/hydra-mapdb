@@ -1,0 +1,47 @@
+{
+  "id": 28963,
+  "uid": [
+    13122002
+  ],
+  "title": [
+    "[Museum Alerreth, Lower Platform]"
+  ],
+  "description": [
+    "High above, the open ceiling of the converted airship depot has been retrofitted with glass panes, each of which is set into a curving framework of verdigrised copper and coffered tiles.  The lower hall, with its branching chambers, sits largely open to a view of the windows, as well as to glimpses of the railings that line the elevated second story galleries.  Three steps lead downwards towards the glassed end of the building, and a half-moon shaped chamber set against it."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 29245,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 29246,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29251,
+      "kind": "go",
+      "cmd": "go copper arch",
+      "cost": 0.2
+    },
+    {
+      "to": 29252,
+      "kind": "go",
+      "cmd": "go verdigris arch",
+      "cost": 0.2
+    }
+  ]
+}

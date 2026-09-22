@@ -1,0 +1,45 @@
+{
+  "id": 11484,
+  "uid": [
+    304252
+  ],
+  "title": [
+    "[Maelstrom Bay, Shipwreck]"
+  ],
+  "description": [
+    "A deep layer of muck covers the curve of the starboard bulkhead underfoot.  A pocket of air, stale and stinking of decaying wood, has been caught in the gentle arc of the port bulkhead.  Wooden barrels lie in turbulent disorder partially covered by the muck, making for awkward footing.  A brass ship's lantern hangs at an improbable angle from what was once the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      846,
+      1261,
+      856,
+      1271
+    ]
+  },
+  "exits": [
+    {
+      "to": 11482,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

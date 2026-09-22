@@ -1,0 +1,50 @@
+{
+  "id": 22392,
+  "uid": [
+    13125017
+  ],
+  "title": [
+    "[Dwarven Embassy, Antechamber]"
+  ],
+  "description": [
+    "Spacious and airy, the antechamber features several statuary of notable dwarven figures throughout history along the white marble walls.  To the east, an arch with a silver-traced keystone opens into a richly decorated chamber.  Woven moss green runners line the hall leading north, further into the embassy.  Inset into the wide-tiled floor, just before a pair of carved marble doors, is an immense medallion of invar wrought with intricate detail."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      877,
+      724,
+      943,
+      760
+    ]
+  },
+  "exits": [
+    {
+      "to": 22391,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 22393,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 22394,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

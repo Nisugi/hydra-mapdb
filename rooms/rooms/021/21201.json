@@ -1,0 +1,31 @@
+{
+  "id": 21201,
+  "uid": [
+    265435
+  ],
+  "title": [
+    "[Sewers, Under Lock and Key]"
+  ],
+  "description": [
+    "Roughly carved out of dirt, the terminus is surrounded on four sides by walls and has a small tunnel that leads towards a central nexus.  Spidery white roots decorate the smooth walls and the floor is pitted with oddly shaped rocks.  Four thick support posts mark the corners of the area, while a blackened iron ladder rises towards the knotty oak ceiling where a small trap door stands closed.  A waxed parchment is tacked near the ladder."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 21200,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21202,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

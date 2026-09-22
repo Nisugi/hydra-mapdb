@@ -1,0 +1,53 @@
+{
+  "id": 19961,
+  "uid": [
+    28133
+  ],
+  "title": [
+    "[Museum, Wehnimer's Gallery]"
+  ],
+  "description": [
+    "Honey oak-paneled walls support a plain white ceiling.  The paneling is adorned every few feet by an artificial window or door.  The rustic style mimics the streets of Wehnimer's Landing where the facades of buildings press in on the cobblestones, of which the floor of this room is comprised.  On the eastern wall, one such fake door, between two real arches, sports a simple white sign.  Centrally placed in the room, a scale model encompasses the surface of a wide wooden table."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      1460,
+      864,
+      1599,
+      925
+    ]
+  },
+  "exits": [
+    {
+      "to": 19950,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19962,
+      "kind": "go",
+      "cmd": "go carved arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19963,
+      "kind": "go",
+      "cmd": "go gnarled arch",
+      "cost": 0.2
+    }
+  ]
+}

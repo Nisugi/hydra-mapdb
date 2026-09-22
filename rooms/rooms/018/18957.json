@@ -1,0 +1,62 @@
+{
+  "id": 18957,
+  "uid": [
+    660003
+  ],
+  "title": [
+    "[Sorcerer Guild, Foyer]"
+  ],
+  "description": [
+    "Thick white polar bear fur covers the floor leading off to the east and west.  The snarling heads of arctic wolverines adorn the ironwood walls, and long slabs of mammoth tusk ivory form floorboards and headboards along each wall section.  Two freestanding candelabras carry ten candles each to illuminate the room.  In one corner a winding staircase leads downward, and frigid air intrudes through a pair of double doors."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the town of Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy administrator",
+    "sorcerer guild administrator"
+  ],
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      781,
+      463,
+      821,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 18953,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18958,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18959,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18960,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18961,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

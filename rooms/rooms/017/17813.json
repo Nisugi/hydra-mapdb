@@ -1,0 +1,41 @@
+{
+  "id": 17813,
+  "uid": [
+    267115
+  ],
+  "title": [
+    "[Rooftop]"
+  ],
+  "description": [
+    "A plank in horrible condition leads the way to another rooftop.  It's warped, rotting and cracked in several places.  It's a long fall if you slip."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      700,
+      633,
+      740,
+      672
+    ]
+  },
+  "exits": [
+    {
+      "to": 17810,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17814,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    }
+  ]
+}

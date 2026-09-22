@@ -1,0 +1,50 @@
+{
+  "id": 5,
+  "uid": [
+    13107002
+  ],
+  "title": [
+    "[Moonglae Inn, North Lobby]"
+  ],
+  "description": [
+    "The north end of the spacious lobby is flanked by the front desk on one side and a wide spiral staircase on the other.  Between them, a lunar mobile spins slowly against a sky of black spidersilk stitched with gleaming white starstones.  A tall, dignified elf stands behind the front desk, ready to attend to your every need."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      1270,
+      2224,
+      1330,
+      2283
+    ]
+  },
+  "exits": [
+    {
+      "to": 6,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13303,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 15652,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

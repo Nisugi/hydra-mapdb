@@ -1,0 +1,54 @@
+{
+  "id": 17684,
+  "uid": [
+    2101952
+  ],
+  "title": [
+    "[Targon's Tavern, Backroom]"
+  ],
+  "description": [
+    "The room is small by human standards, but the perfect size for a dwarf patron or barkeep.  Stacks of crates line one wall and rows of barrels line the other.  A light sprinkling of sand covers the floor on the far side of the room and trails off in the direction of the door leading back towards the bustling sounds of the tap room.  A stuffed rolton head hangs from one wall, an expression of shock and surprise eternally captured on its face."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      954,
+      1005,
+      992,
+      1042
+    ]
+  },
+  "exits": [
+    {
+      "to": 10951,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 5.0
+    },
+    {
+      "to": 17682,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 3.4
+    }
+  ]
+}

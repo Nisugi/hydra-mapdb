@@ -1,0 +1,46 @@
+{
+  "id": 34624,
+  "uid": [
+    4572030
+  ],
+  "title": [
+    "[Sablecross, The Giltroad]"
+  ],
+  "description": [
+    "The savory promise of cooked meat beckons on the breeze, escorted by the aromas of exotic spices in a tantalizing melange.  Spicers and food vendors alike crowd the eastern side of the street, but its western verge is occupied by a lapidary's shop.  Hanging over its dark blue door is an etched bronze sign depicting a multifaceted gemstone."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      752,
+      362,
+      779,
+      393
+    ]
+  },
+  "exits": [
+    {
+      "to": 34623,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34625,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34667,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

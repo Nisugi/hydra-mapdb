@@ -1,0 +1,67 @@
+{
+  "id": 7497,
+  "uid": [
+    46055
+  ],
+  "title": [
+    "[Catacombs, Tunnel]"
+  ],
+  "description": [
+    "The tunnel continues on in a seemingly endless fashion.  The slimy, slippery lichen brushes you now and again as you advance, causing you to shiver from its cold, clammy touch."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the catacombs",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      714,
+      968,
+      724,
+      978
+    ]
+  },
+  "exits": [
+    {
+      "to": 7496,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7498,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20594,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

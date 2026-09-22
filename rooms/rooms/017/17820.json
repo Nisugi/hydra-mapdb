@@ -1,0 +1,45 @@
+{
+  "id": 17820,
+  "uid": [
+    267120
+  ],
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "Two well-dressed elves keep a close eye on the area.  The elder of the pair gestures at different spots about the chamber, perhaps discussing renovations or repairs.",
+    "Moonlight filters in through the few un-boarded windows, the scant illumination augmented by several sconces.  A small child sits in one corner, counting out silvers."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      387,
+      529,
+      428,
+      569
+    ]
+  },
+  "exits": [
+    {
+      "to": 17816,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17821,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

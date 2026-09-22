@@ -1,0 +1,65 @@
+{
+  "id": 608,
+  "uid": [
+    13101058
+  ],
+  "title": [
+    "[Ta'Illistim, Caear Var]"
+  ],
+  "description": [
+    "Glimmering blue tiles clad the rooftops of the nearby cottages, each one as neatly kept as the last.  One of the homeowners, apparently eager to show off his artistic side, has trimmed his hedges into fanciful animal shapes.  The remaining homes, while a bit more mundane, sport lavish displays of flowering trees and beautifully planted flowerbeds.",
+    "Glimmering panes of glass form the facade of a nearby building, its architecture notable for also possessing a framework of verdigris copper.  The var passes between the structure and an open expanse of green, which occupies the center of the city.  Arching over a nearby street is a marble bridge, whose basal course rises in a gentle span."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      899,
+      403,
+      920,
+      423
+    ]
+  },
+  "exits": [
+    {
+      "to": 607,
+      "kind": "climb",
+      "cmd": "climb bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 609,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 743,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24555,
+      "kind": "go",
+      "cmd": "go green",
+      "cost": 10.0
+    },
+    {
+      "to": 29245,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

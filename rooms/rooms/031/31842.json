@@ -1,0 +1,52 @@
+{
+  "id": 31842,
+  "uid": [
+    8083425
+  ],
+  "title": [
+    "[Gleyminn Anni River, Bridge]"
+  ],
+  "description": [
+    "A crumbling, moss-covered stone bridge spans a quarter of the distance across the river, the missing sections lost beneath the stirless, inky grey waters.  Flowering vines strung with an assortment of lanterns dangle from the ruins overhead, the flickering flames sending long shadows dancing over the languorous current.  A thrush nightingale atop the viaduct peers curiously down on transit below."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1671,
+      528,
+      1696,
+      552
+    ]
+  },
+  "exits": [
+    {
+      "to": 31841,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 31843,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 21128,
+  "uid": [
+    265004
+  ],
+  "title": [
+    "[Rogue Guild, Entry]"
+  ],
+  "description": [
+    "Damp runnels of water trickle over the moist surface of the curved wall, with the occasional drip echoing in the chamber as it plinks into the stagnant water on the floor.  Several spiders have made flimsy webs, anchoring them between the ceiling and the upper curves of the walls.  The majority of the webs cover the bulbous, rounded dead end to the south end of the sewer."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      670,
+      340,
+      683,
+      354
+    ]
+  },
+  "exits": [
+    {
+      "to": 21127,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 21131,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

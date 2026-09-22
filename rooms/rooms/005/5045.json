@@ -1,0 +1,50 @@
+{
+  "id": 5045,
+  "uid": [
+    4744021
+  ],
+  "title": [
+    "[Marshtown, Jag Hill]"
+  ],
+  "description": [
+    "The walkway widens considerably for a stretch into an oval bulge.  No buildings can be found this far along, and the boardwalk opens to the surrounding marsh.  Railings border the walkway, and benches and tables line the edges of the planks, providing a place to rest and perhaps have a meal.  To the northeast, a muddy path rises out of the marsh and climbs a tall hill."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      737,
+      622,
+      767,
+      652
+    ]
+  },
+  "exits": [
+    {
+      "to": 5044,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5046,
+      "kind": "climb",
+      "cmd": "climb path",
+      "cost": 0.2
+    },
+    {
+      "to": 11757,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

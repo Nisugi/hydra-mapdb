@@ -1,0 +1,53 @@
+{
+  "id": 19032,
+  "uid": [
+    667008
+  ],
+  "title": [
+    "[Sorcerer Guild, Magic Workroom]",
+    "[Sorcerer Guild, Small Chamber]"
+  ],
+  "description": [
+    "The walls and ceiling are formed from dramatically layered sandstone carved from the powerful erosive force of water.  Simple brass sconces amply illuminate the spacious chamber, adding warmth to the already faint musty smell in the air.  A long wooden table rests against the northern wall with a carved flat shelf residing just above it.  Along the eastern wall is a smooth panel of rock while a swirling mist resides in the far corner.",
+    "Dramatically layered sandstone, carved away by the powerful erosive force of water, lines this small chamber, somewhat longer than it is wide.  One end is demarcated by a smooth panel of rock, while the other end is obscured in a swirling mist."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild workshop"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      907,
+      608,
+      943,
+      645
+    ]
+  },
+  "exits": [
+    {
+      "to": 18744,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "rock"
+          ]
+        }
+      ],
+      "cost": 5.5
+    },
+    {
+      "to": 19031,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

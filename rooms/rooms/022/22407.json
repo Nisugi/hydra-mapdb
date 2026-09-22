@@ -1,0 +1,41 @@
+{
+  "id": 22407,
+  "uid": [
+    3215131
+  ],
+  "title": [
+    "[Annex, Beacon Hall Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A crimson velvet pennant edged with ivory hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker annex:Beacon Hall Archive"
+  ],
+  "exits": [
+    {
+      "to": 16700,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go arch"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22408,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

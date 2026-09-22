@@ -1,0 +1,55 @@
+{
+  "id": 7245,
+  "uid": [
+    18065
+  ],
+  "title": [
+    "[Graveyard, Tunnel]"
+  ],
+  "description": [
+    "Stone gives way to dirt walls, shored up by several stripped treetrunks.  A short, crude stairway of fir timber leads up to a hole in the earth ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      621,
+      412,
+      631,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 7244,
+      "kind": "go",
+      "cmd": "go pile",
+      "cost": 0.2
+    },
+    {
+      "to": 7305,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7306,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

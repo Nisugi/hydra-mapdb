@@ -1,0 +1,54 @@
+{
+  "id": 12336,
+  "uid": [
+    3209330
+  ],
+  "title": [
+    "[Firefly Villa, Corridor]"
+  ],
+  "description": [
+    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  A myriad of hues swirls through the colored panes to bathe a paneled mahogany door and a golden linden door in their sun-warmed light.",
+    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  As moonlight filters through the panes, it bathes a paneled mahogany door and a golden linden door in its silvery glow."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      480,
+      2400,
+      501,
+      2421
+    ]
+  },
+  "exits": [
+    {
+      "to": 12320,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12328,
+      "kind": "go",
+      "cmd": "go linden door",
+      "cost": 0.2
+    },
+    {
+      "to": 16441,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 16451,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

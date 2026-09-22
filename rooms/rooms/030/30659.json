@@ -1,0 +1,57 @@
+{
+  "id": 30659,
+  "uid": [
+    856007
+  ],
+  "title": [
+    "[Zul Logoth Hall, Tunnel]"
+  ],
+  "description": [
+    "A few torches line the tunnel as it winds its way through the mountain.  Fluorescent toadstools have been placed as markers for the location of a dark oak door and a heavy pine door.  A rhythmic dripping sound echoes from deeper within the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 30655,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30660,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30663,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 30664,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    }
+  ]
+}

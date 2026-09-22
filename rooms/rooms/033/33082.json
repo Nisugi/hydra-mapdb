@@ -1,0 +1,53 @@
+{
+  "id": 33082,
+  "uid": [
+    7134062
+  ],
+  "title": [
+    "[Flotilla, Obsidian Walkway]"
+  ],
+  "description": [
+    "The expansive deck is stained obsidian here, painted with a bright red dagger-pierced heart and crossed viridian acantha leaves.  A polished modwir houseboat is secured to the outer edge of the flotilla and protected by several cannons, and a series of painted buoys is coiled near the interior edge.  Dozens of nets with crystalline blue fishing floats are piled neatly between racks of secured spears and tridents."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      387,
+      236,
+      400,
+      246
+    ]
+  },
+  "exits": [
+    {
+      "to": 33081,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33083,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33085,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33100,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    }
+  ]
+}

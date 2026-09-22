@@ -1,0 +1,44 @@
+{
+  "id": 17707,
+  "uid": [
+    377302
+  ],
+  "title": [
+    "[Citadel, Dungeon Landing]"
+  ],
+  "description": [
+    "Smooth black stone walls run north from a spiral staircase that winds upward and out of sight.  Several chairs and tables lie stacked to either side of the hallway, forcing a narrow passage between them.  Behind the makeshift barricade, skeletons in timeworn uniforms and rusting armor lie sprawled across the ground in a mess of broken and discarded weapons."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      37,
+      1224,
+      47,
+      1234
+    ]
+  },
+  "exits": [
+    {
+      "to": 17706,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17708,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

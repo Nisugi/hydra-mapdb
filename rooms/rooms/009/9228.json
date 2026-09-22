@@ -1,0 +1,50 @@
+{
+  "id": 9228,
+  "uid": [
+    7532022
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "A gleaming pole of silvery metal reaches from ceiling to floor and allows easy access into the room beneath.  It looks to be wedged quite securely into the stone above and below, and should be able to hold the weight of even the heaviest adventurer."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1252,
+      1005,
+      1262,
+      1015
+    ]
+  },
+  "exits": [
+    {
+      "to": 9227,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9229,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9238,
+      "kind": "climb",
+      "cmd": "climb pole",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 2409,
+  "uid": [
+    4042228
+  ],
+  "title": [
+    "[Icemule Trace, South Road]"
+  ],
+  "description": [
+    "A narrow house juts out into the cobblestone thoroughfare as if displaced from where it ought to be by the sprawl of the gaming hall to the southwest.  The savory aroma of baked apples tantalizes from an open window at street level.  Less pleasant, though mostly muted by hanging nosegays of rosebay and bilberry, is the odor of dyes wafting from a colorful canvas pavilion on the opposite side of the road.",
+    "A narrow house juts into the street, as though pushed off its foundation by the expanding gaming hall to the southwest.  You step carefully along the cobblestones and try not to glance into the open window at street level."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      583,
+      964,
+      619,
+      1000
+    ]
+  },
+  "exits": [
+    {
+      "to": 2302,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2410,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34076,
+      "kind": "go",
+      "cmd": "go canvas pavilion",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 2641,
+  "uid": [
+    4562045
+  ],
+  "title": [
+    "[Lake of Tears]"
+  ],
+  "description": [
+    "The currents kick up sand into a shifting curtain.  Light from above barely intrudes, splicing into the gloom in weak shafts, which flicker as the currents assault them.  An array of curved spines rises out of the sands on the lake's floor, looking like a huge arching fan in the wavering shadows."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location_unknowable": true,
+  "climate": "freshwater",
+  "terrain": "none",
+  "meta": [
+    "nomagic",
+    "underwater"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      38,
+      317,
+      46,
+      325
+    ]
+  },
+  "exits": [
+    {
+      "to": 2640,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

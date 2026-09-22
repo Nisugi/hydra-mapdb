@@ -1,0 +1,56 @@
+{
+  "id": 31559,
+  "uid": [
+    8083013
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Overlooking the canal that separates an island-bound inn from the rest of the town square, cobblestones kissed by dew stretch across the ground to create an uneven lane illuminated by verdigris copper lampposts.  A cramped and narrow alley winds its way northward, the wrought iron arms of mounted shop signs casting shadows upon the walls and arches that decorate its edges.  Sitting solitary upon one corner, a windowed chalet with a dramatically pitched roof is marked by the crest of an alchemist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      603,
+      314,
+      624,
+      335
+    ]
+  },
+  "exits": [
+    {
+      "to": 31558,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31561,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31562,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31629,
+      "kind": "go",
+      "cmd": "go chalet",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 8,
+  "uid": [
+    13101019
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]",
+    "[Ta'Illistim, Glamesine Var]",
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "The facade of the United Bank of City-States looms in the shadows, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window glowing from within.  Low granite steps lead upwards into the bank.",
+    "The facade of the United Bank of City-States looms skyward, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window.  Low granite steps lead upwards into the bank.",
+    "Beneath a dome of sapphire tiling, the United Bank of City-States looms, presenting an immovable front to the forces of time and weather.  Though the rest of the building is a silvery blue granite, the tall columns that frame the windows are white marble, as are its four peacock shaped gargoyles.  A small flight of steps leads upwards and inside.  Beyond the edge of the var stretches the expanse of Ta'Illistim Green."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      577,
+      405,
+      599,
+      427
+    ]
+  },
+  "exits": [
+    {
+      "to": 7,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 203,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24555,
+      "kind": "go",
+      "cmd": "go green",
+      "cost": 10.0
+    }
+  ]
+}

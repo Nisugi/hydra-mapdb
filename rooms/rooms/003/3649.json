@@ -1,0 +1,89 @@
+{
+  "id": 3649,
+  "uid": [
+    3201028
+  ],
+  "title": [
+    "[Gardenia Lane]"
+  ],
+  "description": [
+    "Banners of silver and gold silk billow in the sunlight, accented by ribbons of blue, green, and purple that dance with the breeze, twisting around the lampposts from which they hang.  The awnings that line the shops along the street repeat the same colors alternately striped with white.  To the east stands the bank, its bright white facade standing tall above the terracotta rooftops of the surrounding shops.",
+    "Various hues of blue, green, and purple ribbons sway in the gentle breeze, draping from the posts of the illuminated lanterns that line both sides of the street.  The golden lamplight creates circles around the base of each post, spreading outwards until it blends into the silvery moonlight that dapples everything else.",
+    "Banners of silver and gold silk billow in the sunlight, accented by ribbons of blue, green, and purple that dance with the breeze, twisting around the lampposts from which they hang.  The awnings that line the shops along the street repeat the same colors alternately striped with white.  To the east stands the bank, its bright white facade standing tall above the terra cotta rooftops of the surrounding shops."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2634,
+      1328,
+      2666,
+      1351
+    ]
+  },
+  "exits": [
+    {
+      "to": 3648,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.8
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 33751,
+      "kind": "go",
+      "cmd": "go peak-roofed shop",
+      "cost": 0.2
+    }
+  ]
+}

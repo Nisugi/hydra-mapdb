@@ -1,0 +1,46 @@
+{
+  "id": 33469,
+  "uid": [
+    1309122
+  ],
+  "title": [
+    "[Bayview Manor, Foyer]"
+  ],
+  "description": [
+    "The foyer is expansive and airy, with high ceilings and polished marble floors that gleam in the bright natural light streaming in through the floor-to-ceiling windows that flank a pair of aged mahogany doors.  An imposing chandelier hangs overhead above a pair of plush leather couches set on a large wool rug near a riverstone fireplace.  Opposite the entrance, a grand staircase leads up to the second floor while an ornate oak archway leads further into the manor."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 33468,
+      "kind": "go",
+      "cmd": "go mahogany doors",
+      "cost": 0.2
+    },
+    {
+      "to": 33470,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33472,
+      "kind": "go",
+      "cmd": "go oak archway",
+      "cost": 0.2
+    },
+    {
+      "to": 33473,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    }
+  ]
+}

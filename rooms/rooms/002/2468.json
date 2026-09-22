@@ -1,0 +1,83 @@
+{
+  "id": 2468,
+  "uid": [
+    4042325
+  ],
+  "title": [
+    "[Commerce Burrow, Giantman Path]"
+  ],
+  "description": [
+    "Surrounded by a small field of snow-dotted grass, an ancient oak tree marks the southeastern boundary of the town.  Its highest branches tower above the outer wall, and from within, a songbird cries, filling the air with its gentle twittering.  The old stalwart's roots have dug beneath the wall's foundations, tirelessly working at them until the very stones have surrendered to their efforts.",
+    "An ancient oak tree marks the southeastern corner of Icemule Trace.  Towering high overhead, the tree is surrounded by a small grassy field.  A lone bird calls from somewhere within the branches, singing a cheerful song.",
+    "An ancient oak tree marks the southeastern corner of Icemule Trace.  Towering high overhead, the tree is surrounded by a small grassy field.  A lone owl calls from somewhere within the branches, its haunting voice fading into the night."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "sign of darkness",
+    "society:Council of Light"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      1026,
+      1231,
+      1062,
+      1267
+    ]
+  },
+  "exits": [
+    {
+      "to": 2467,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

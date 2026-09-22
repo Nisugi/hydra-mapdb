@@ -1,0 +1,58 @@
+{
+  "id": 12682,
+  "uid": [
+    3031049
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A set of descending stairs leads to the northwest, toward the center of the ruins.  Two marble pillars, seemingly in good condition, support the ceiling and form an archway in the southern wall.  The strong smell of the sea is carried in by a breeze that swirls, almost violently, through a window along the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      945,
+      708,
+      981,
+      744
+    ]
+  },
+  "exits": [
+    {
+      "to": 12681,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12683,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12686,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12691,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

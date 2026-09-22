@@ -1,0 +1,129 @@
+{
+  "id": 20470,
+  "title": [
+    "[Arctic Waters]"
+  ],
+  "description": [
+    "The water is still shallow, yet begins to darken here.  The arctic shores of Glaoveln become foggy in the distance."
+  ],
+  "paths": [
+    "Obvious paths: east, out"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Water Walking",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Water Walking"
+              },
+              {
+                "spell_affordable": "Water Walking"
+              },
+              {
+                "not": {
+                  "spell_active": "Water Walking"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "go out",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim out",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 20471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Water Walking",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Water Walking"
+              },
+              {
+                "spell_affordable": "Water Walking"
+              },
+              {
+                "not": {
+                  "spell_active": "Water Walking"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "go east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

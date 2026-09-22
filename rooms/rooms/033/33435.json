@@ -1,0 +1,55 @@
+{
+  "id": 33435,
+  "uid": [
+    102700
+  ],
+  "title": [
+    "[House Aspis, Lower Lounge]"
+  ],
+  "description": [
+    "Carved out of the sloping hilltop and facing east, this lounge appears three-sided at first.  Then you realize one entire wall is covered with a nearly invisible crystal window that overlooks a breathtaking view of nearby pine trees that sway their branches gratefully in rhythm to the cool breeze.  Two doors lead east and west."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      895,
+      1247,
+      1029,
+      1313
+    ]
+  },
+  "exits": [
+    {
+      "to": 33434,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33436,
+      "kind": "go",
+      "cmd": "go first door",
+      "cost": 0.2
+    },
+    {
+      "to": 33437,
+      "kind": "go",
+      "cmd": "go second door",
+      "cost": 0.2
+    },
+    {
+      "to": 33438,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

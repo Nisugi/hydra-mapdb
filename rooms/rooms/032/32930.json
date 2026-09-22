@@ -1,0 +1,118 @@
+{
+  "id": 32930,
+  "uid": [
+    7140402
+  ],
+  "title": [
+    "[Billinggate Tavern, Dining Room]"
+  ],
+  "description": [
+    "Short oak walls divide the dining room into five sections, creating booths that have access to one of the tavern's many open windows.  Inviting tables surrounded by benches sit within the rectangular closures, allowing customers a place to rest and enjoy their meal with a modicum of privacy.  Laughter from the nearby taproom fills the air, while bawdy music played by an unseen bard creates an entertaining atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Seareach",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "table",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 32929,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32931,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Silly Sheep table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32932,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Merry Meerkat table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32933,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Guzzling Goose table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32934,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rollicking Rolton table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32935,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tipsy Tamarin table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 34400,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

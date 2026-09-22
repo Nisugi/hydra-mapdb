@@ -1,0 +1,75 @@
+{
+  "id": 31558,
+  "uid": [
+    8083001
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Glistening in the perpetual twilight, large cobblestone pavers stretch across the cramped streets from the edges of gabled buildings to the bowing bridge.  Lampposts wreathed in verdigris copper hold frosted globes aloft, the dim light spilling from them painting the area in a sheen of violet while doing nothing to dispel the shadows of a twining pathway.  Double doors provide entry to a thatch-roofed building, a wooden sign in wrought iron scrollwork above, that is connected to a smaller structure by a moss-covered lancet stone archway."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "exit",
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:Ebon Gate - Naidem 2022 - Part 1",
+    "mapshortname:Ebon Gate - Naidem 2022 - Part 1",
+    "teleport"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      543,
+      254,
+      565,
+      275
+    ]
+  },
+  "exits": [
+    {
+      "to": 31559,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31560,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31561,
+      "kind": "go",
+      "cmd": "go lancet archway",
+      "cost": 0.2
+    },
+    {
+      "to": 31567,
+      "kind": "go",
+      "cmd": "go twining pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31569,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 31811,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    }
+  ]
+}

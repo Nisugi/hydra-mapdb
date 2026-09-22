@@ -1,0 +1,55 @@
+{
+  "id": 18859,
+  "uid": [
+    108005
+  ],
+  "title": [
+    "[Twilight Hall, Kyrion's Refuge]"
+  ],
+  "description": [
+    "Tall vine-covered walls rise around the lush setting of the Refuge.  A stone path wends its way in sinuous patterns through verdant greenery that fills the area. Bushes trimmed in the shapes of various animals both real and legendary line the path, with benches placed in secluded areas for conversation and contemplation. A small artificial waterfall to one side cascades into a pool that beckons one to slip into its cool embrace."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      589,
+      267,
+      674,
+      320
+    ]
+  },
+  "exits": [
+    {
+      "to": 18849,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18860,
+      "kind": "go",
+      "cmd": "go waterfall",
+      "cost": 0.2
+    },
+    {
+      "to": 18861,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 18863,
+      "kind": "go",
+      "cmd": "go rose-covered trellis",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 28068,
+  "uid": [
+    8208728
+  ],
+  "title": [
+    "[Rumor Woods, Canine Track]",
+    "[Rumor Woods, Equid Track]"
+  ],
+  "description": [
+    "Tall bales of hay litter between the freshly cut stumps of the the area, the grass flanked by a plethora of horseshoes, bits, and buckets of feed.  Loud whinnies seem to echo from behind a wide door, followed by the hammering of iron upon iron, and the sharp whistling from a far away stall."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, northwest"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "rough",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1044,
+      609,
+      1069,
+      633
+    ]
+  },
+  "exits": [
+    {
+      "to": 28063,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28069,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28071,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28072,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28083,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28105,
+      "kind": "go",
+      "cmd": "go wide door",
+      "cost": 0.2
+    },
+    {
+      "to": 29664,
+      "kind": "go",
+      "cmd": "go colorful enclosure",
+      "cost": 0.2
+    }
+  ]
+}

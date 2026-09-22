@@ -1,0 +1,92 @@
+{
+  "id": 638,
+  "uid": [
+    13101025
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "The court is relatively quiet save for the patrons entering and exiting the shop on the corner.  Blue slate tiles cladding the low stone building's roof glimmer dully, seeming to nearly absorb the daylight.  A silver sign is posted on the shop's door.",
+    "Along this stretch of the courtyard's circular boundary, several shops specializing in gems, gemcutting and jewelry have clustered together.  One building, with a freshly tiled blue roof, has a larger silver sign than the others.  Its marble facade is illuminated brightly with several jewel-tone lanterns, turning the stone from white to blue, green, and red.",
+    "Along this stretch of the courtyard's circular boundary, several shops specializing in gems, gemcutting and jewelry have clustered together.  One building, with a freshly tiled blue roof, has a larger silver sign than the others."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      350,
+      404,
+      372,
+      426
+    ]
+  },
+  "exits": [
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 637,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 639,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

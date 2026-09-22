@@ -1,0 +1,66 @@
+{
+  "id": 7508,
+  "uid": [
+    46010
+  ],
+  "title": [
+    "[Catacombs, East-West Tunnel]"
+  ],
+  "description": [
+    "This smallish, circular chamber seems to mark the beginning of a series of branching tunnels.  To the east, a long passage recedes into the murk, while a narrower one leads southwest.  Sepulchers line the walls, broken into at random intervals.  A tangle of roots on the northwest side of the chamber conceals the source of a tiny streamlet.  A channel in the floor of the tunnel cradles the trickling water."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the catacombs",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      687,
+      1100,
+      697,
+      1110
+    ]
+  },
+  "exits": [
+    {
+      "to": 7507,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7509,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7515,
+      "kind": "other",
+      "cmd": "say well",
+      "cost": 0.2
+    },
+    {
+      "to": 7527,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    }
+  ]
+}

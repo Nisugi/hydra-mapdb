@@ -1,0 +1,84 @@
+{
+  "id": 621,
+  "uid": [
+    13101040
+  ],
+  "title": [
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "A distinctive manor stands well back from the var, set off by a low greystone wall.  Constructed of polished, dark grey granite, the circular structure has dozens of round windows at various heights along the wall.  A palisade of black granite pillars circles the building, holding aloft a gently sloping slate roof."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide weddinghall",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      732,
+      190,
+      755,
+      212
+    ]
+  },
+  "exits": [
+    {
+      "to": 620,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 622,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

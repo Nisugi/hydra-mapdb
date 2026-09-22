@@ -1,0 +1,97 @@
+{
+  "id": 11032,
+  "uid": [
+    2104014
+  ],
+  "title": [
+    "[South River Road]"
+  ],
+  "description": [
+    "The trees alongside the road filter out the majority of the sound from the falls to the northeast, shielding your ears from the noise.  The road also runs westward along the bank of the river."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the South River Road",
+  "climate": "moist",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "boot",
+    "bright orange",
+    "bright red cranberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden flax fronds",
+    "grapefruit",
+    "kylan berry",
+    "murdroot",
+    "round yuzu",
+    "small green quenepas",
+    "soft mushroom",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "striped heart mushroom",
+    "sunburst blossom",
+    "talneo root",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild chokecherry",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2611,
+      1565,
+      2633,
+      1588
+    ]
+  },
+  "exits": [
+    {
+      "to": 6274,
+      "kind": "scripted",
+      "routine": {
+        "name": "errand",
+        "errand": "giant_from_rivers_rest"
+      },
+      "cost": 100.0
+    },
+    {
+      "to": 11025,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11033,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16015,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 16016,
+      "kind": "go",
+      "cmd": "go rough-cut track",
+      "cost": 0.2
+    }
+  ]
+}

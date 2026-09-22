@@ -1,0 +1,50 @@
+{
+  "id": 1969,
+  "uid": [
+    682006
+  ],
+  "title": [
+    "[Wizard Guild, West Hallway]"
+  ],
+  "description": [
+    "The smell of brimstone is stronger to the west.  It is noticably brighter in this hallway, even though the channel along the hall where the lava flows is no wider here.",
+    "The smell of brimstone is stronger to the west.  It is noticably brighter in this hallway, even though the channel along the hall where the lava flows is no wider here.  A strip of narrow, smooth stone spans the lava, providing access to a shadowed ingress in the northern wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      400,
+      534,
+      466,
+      600
+    ]
+  },
+  "exits": [
+    {
+      "to": 1968,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1970,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18079,
+      "kind": "go",
+      "cmd": "go ingress",
+      "cost": 0.2
+    }
+  ]
+}

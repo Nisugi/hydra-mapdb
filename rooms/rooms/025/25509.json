@@ -1,0 +1,71 @@
+{
+  "id": 25509,
+  "uid": [
+    4903451,
+    12101051
+  ],
+  "title": [
+    "[Marks of the Beast, Showroom]"
+  ],
+  "description": [
+    "Bone fetishes dangle from the wood plank ceiling, swaying slightly and clacking together in the heavy, incense-laden air.  Held aloft by a faceless stone idol near the entrance, a shallow bowl of polished flowstone holds glittering baubles within.  Beyond the stolid guardian is a tiered rack made of widowwood.  Like the golvern-inlaid hatch behind it, its flat surfaces are carved with leaping beasts."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "exits": [
+    {
+      "to": 25508,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go burnt door"
+        },
+        {
+          "forget": "marksofthebeast_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "marksofthebeast_origin",
+            "25508"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 25510,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 28802,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go burnt door"
+        },
+        {
+          "forget": "marksofthebeast_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "marksofthebeast_origin",
+            "28802"
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

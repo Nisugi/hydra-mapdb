@@ -1,0 +1,36 @@
+{
+  "id": 24010,
+  "title": [
+    "[Inner Walkway, Tavern]"
+  ],
+  "description": [
+    "The flagstone walkway ends in an impressive cul-de-sac housing a limestone tavern.  Patrons stream in and out of the establishment amid near-constant chatter about the games.  Rows of mature cedar trees tower around the edge of the walk, creating a natural barrier to the wood beyond while filling the area with their intense aroma."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Ta'Vaalor",
+  "image": {
+    "file": "fest-Festival_of_the_Fallen-1442606479.png",
+    "rect": [
+      618,
+      179,
+      668,
+      227
+    ]
+  },
+  "exits": [
+    {
+      "to": 23993,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24011,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    }
+  ]
+}

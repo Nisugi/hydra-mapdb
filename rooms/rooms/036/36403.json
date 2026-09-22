@@ -1,0 +1,48 @@
+{
+  "id": 36403,
+  "uid": [
+    58009
+  ],
+  "title": [
+    "[Dungeon, Light Room]"
+  ],
+  "description": [
+    "The chamber is small and cramped, with little room to move about.  A table with a strange contraption sitting on top of it dominates the room, taking up most of the available space.  An unassuming oaken door seems to be the only way in or out of here."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1280,
+      360,
+      1320,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36402,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "knock door"
+        },
+        {
+          "put": "knock door"
+        },
+        {
+          "put": "knock door"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

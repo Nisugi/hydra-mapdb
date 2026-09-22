@@ -1,0 +1,101 @@
+{
+  "id": 3538,
+  "uid": [
+    14100027
+  ],
+  "title": [
+    "[Ta'Vaalor, Shimaerslin Wey]"
+  ],
+  "description": [
+    "A limestone-clad structure stands back from the wey, its pale ivory walls delicately carved with symbols of the Arkati.  Narrow windows of stained glaes frame the building's wide double doors.  A small mithril plaque is mounted on the doorpost.",
+    "Not much remains here but limestone dust and shards of crushed glass.  A few larger stones here and there indicate that a building once stood here, but nothing of any value or significance is left.",
+    "A neat path leads from the wey to a cottage sitting in the shadow of the great wall, its appearance nearly festive in a city of austere marble and limestone.  The cottage has been painted the pale blue of the sea, and several window boxes are home to a variety of tropical plants and flowers.",
+    "A neat path meanders from the wey through an open gate and leads toward a villa sitting in the shadow of the great wall.  Painted the pale blue of the sea, the building adds a splash of color to this city of austere marble and limestone.  The faint scent of flowers emanates through the fence that surrounds the property."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1372,
+      705,
+      1409,
+      740
+    ]
+  },
+  "exits": [
+    {
+      "to": 3537,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3539,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20702,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

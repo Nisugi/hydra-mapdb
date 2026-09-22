@@ -1,0 +1,40 @@
+{
+  "id": 17885,
+  "title": [
+    "[Siren's Wood, Path]"
+  ],
+  "description": [
+    "Towering oak and maoral trees line a verdant path, their leafy boughs casting deep shadows across the mossy ground.  A single stone bench, the grey stone tinged green from the verdant plant growth, is nestled into a tiny hollow beside the path.  Opposite the hollow is a white marble statue surrounded by a bed of crimson dragonstalks."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ta'Vaalor",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:fest-festival_of_the_fallen"
+  ],
+  "image": {
+    "file": "fest-Festival_of_the_Fallen-1442606479.png",
+    "rect": [
+      131,
+      274,
+      180,
+      324
+    ]
+  },
+  "exits": [
+    {
+      "to": 10498,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 20055,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

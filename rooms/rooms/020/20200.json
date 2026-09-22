@@ -1,0 +1,40 @@
+{
+  "id": 20200,
+  "title": [
+    "[Feymist Inn Lobby]",
+    "[Feymist Inn, Lobby]"
+  ],
+  "description": [
+    "Large bouquets of swamp blossoms and wildflowers in crystal vases are set about the room, atop several polished oak stands.  The elegance of the furnishings are negated by the massive head of large gator, jaws fully agape, mounted above a two-way stone fireplace.  The bustle of dining patrons can be heard from a grouping of tables to the north while others mingle near a set of etched glass doors leading out to the porch."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20167,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20201,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20202,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20285,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

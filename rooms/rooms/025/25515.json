@@ -1,0 +1,47 @@
+{
+  "id": 25515,
+  "uid": [
+    12101013
+  ],
+  "title": [
+    "[The Firebird, Quarterdeck]"
+  ],
+  "description": [
+    "The quarterdeck is a raised expanse toward the rear of the ship that looks out over the recessed upper deck.  Carved from smooth fireleaf and embellished with avian silhouettes, an ornate rail bearing a coat of gilt and red brass leaf surrounds the quarterdeck.  Luxuriant crimson pennants, each bearing a firebird in yellow embroidery, are strung between the propeller assemblies and the railing.  One strand of them flutters in the breeze, dipping low over some old wooden steps leading up to the aftercastle."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Aboard an Airship",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25514,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 25516,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 25528,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25529,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

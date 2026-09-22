@@ -1,0 +1,36 @@
+{
+  "id": 19923,
+  "title": [
+    "[Drakes Vanguard, Library]"
+  ],
+  "description": [
+    "A hand-painted globe and an oak bookstand displaying a tome bracket the main doorway of this long, narrow room.  At the center are a heavy map table, reading tables, and a bin containing the books and maps to be returned to the shelves.  Wrought iron lamps illuminate the neatly rolled charts and leather-bound volumes on the shelves against the high-windowed walls.  A stone stairwell spanned by a spiked steel gate descends through the north wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "mho:The Drakes Vanguard"
+  ],
+  "exits": [
+    {
+      "to": 19921,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 19924,
+      "kind": "climb",
+      "cmd": "climb stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 19925,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    }
+  ]
+}

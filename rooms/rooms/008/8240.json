@@ -1,0 +1,50 @@
+{
+  "id": 8240,
+  "uid": [
+    390039
+  ],
+  "title": [
+    "[Wolves' Den, Marble Corridor]"
+  ],
+  "description": [
+    "Black and green lichens stain the once gleaming walls of this corridor, which are made of carved white marble.  A stout iron door is set in the middle of the southern wall.  To the west, the hallway intersects another at a right angle."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      186,
+      484,
+      196,
+      494
+    ]
+  },
+  "exits": [
+    {
+      "to": 8239,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8241,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8265,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

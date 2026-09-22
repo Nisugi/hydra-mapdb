@@ -1,0 +1,55 @@
+{
+  "id": 25972,
+  "uid": [
+    336013
+  ],
+  "title": [
+    "[Patron Suite, Cold Bath]"
+  ],
+  "description": [
+    "Cold marble floors surround a row of circular pools of still water, their icy temperature chilling the entire chamber.  Tall wooden racks rest in each corner, holding a variety of towels and robes. Light from nearby brass lanterns cast a soft glow in the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      505,
+      1195,
+      647,
+      1258
+    ]
+  },
+  "exits": [
+    {
+      "to": 25861,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.3
+    },
+    {
+      "to": 25971,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

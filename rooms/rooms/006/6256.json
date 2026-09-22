@@ -1,0 +1,75 @@
+{
+  "id": 6256,
+  "uid": [
+    160001
+  ],
+  "title": [
+    "[Alchemist's House, Consignment]"
+  ],
+  "description": [
+    "Blackened from a previous mishap with fire, the wooden table in one corner of the room has a rickety bench tucked beneath it.  Lining the back wall of this spacious room, sturdy oak planks serve as bookshelves housing over a dozen thick, leather-bound tomes.  Directly opposite the bookcase stands an oval-shaped glass counter, completely empty except for a lantern capped with a multicolored glass globe."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "fire lily",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1249,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6257,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

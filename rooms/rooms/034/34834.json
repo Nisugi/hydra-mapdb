@@ -1,0 +1,37 @@
+{
+  "id": 34834,
+  "uid": [
+    8089040
+  ],
+  "title": [
+    "[Thistlegear Enclave, Gate]"
+  ],
+  "description": [
+    "The woods crush up against towering blackthorn and rowan hedges, and tendrils of vines reach for a rowan and brass clockwork gate.  A narrow, winding road can be seen beyond the gate, and within the enclave, an expanse of farmland fills the southern area."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Evermore Hollow",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34833,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34835,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34839,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

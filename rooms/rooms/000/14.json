@@ -1,0 +1,55 @@
+{
+  "id": 14,
+  "uid": [
+    13100088
+  ],
+  "title": [
+    "[Ta'Illistim, Erissian Var]"
+  ],
+  "description": [
+    "A small blue slate-clad manor house sits back from the var, apparently enjoying a second life as a shop judging from the small mithglin sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's rough-hewn slate facade.  Tiny glaesine globes mounted on small iron stakes cast a gentle glow across the area.",
+    "A small blue slate-clad manor house sits back from the var, apparently enjoying a second life as a shop judging from the small mithglin sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's rough-hewn slate facade.",
+    "A marble-clad manor house sits back from the var, apparently enjoying a second life as a shop, judging from the small silver sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's smooth white facade.  Tiny glass globes mounted on small argent stakes cast a gentle glow across the area.",
+    "A marble-clad manor house sits back from the var, apparently enjoying a second life as a shop, judging from the small silver sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's smooth white facade."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "boutique",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      632,
+      547,
+      653,
+      568
+    ]
+  },
+  "exits": [
+    {
+      "to": 13,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13237,
+      "kind": "go",
+      "cmd": "go house",
+      "cost": 0.2
+    }
+  ]
+}

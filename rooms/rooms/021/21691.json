@@ -1,0 +1,30 @@
+{
+  "id": 21691,
+  "title": [
+    "[ShadowGuard, Gatehouse Tower]"
+  ],
+  "description": [
+    "The bottom floor of the tower is strewn with the rotting remnants of an ancient wooden desk and several chairs.  The rusted remains of a large weapons rack sag against one wall.  The air is so damp the moisture is palpable, and moss covers much of the cracked stone walls and rotting furniture.  A dilapidated archway leads back to the courtyard."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Ta'Vaalor",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 21690,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 21701,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

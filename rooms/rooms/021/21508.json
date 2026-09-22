@@ -1,0 +1,34 @@
+{
+  "id": 21508,
+  "title": [
+    "[Boil and Toil]"
+  ],
+  "description": [
+    "Crafted with a high, domed roof, the wagon has a large interior, which is filled with various items used in alchemy.  A stack of cauldrons dominates one corner, while several crates of jars, vials and flasks fill another.  Partially hidden by a large copper rack, a narrow door is set in the back wall.  A small cloth-covered opening leads out to a tented area next to the wagon."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 20288,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21509,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 21510,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

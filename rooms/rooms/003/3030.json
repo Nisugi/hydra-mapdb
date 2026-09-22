@@ -1,0 +1,93 @@
+{
+  "id": 3030,
+  "uid": [
+    4129002
+  ],
+  "title": [
+    "[A Steep Trail]"
+  ],
+  "description": [
+    "The icy air grows thin at this altitude, making any exertion difficult.  High above, the trail opens out onto a wide, snow-blanketed plain.  A lone fir tree climbs precariously to the trail side, bent close to the ground from years of pummeling by the deadly winter winds.  Nestled against the mountain, a dark tower stands within the shadow of the peak like a spectral sentinel watching the trail."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the High Plains",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "buckthorn berry",
+    "calamintha blossom",
+    "crowberry",
+    "cuctucae berry",
+    "edelweiss",
+    "glassfern frond",
+    "ironfern root",
+    "lingonberry",
+    "marallis berry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "silverback orc",
+    "small loganberry",
+    "snowberries",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      272,
+      953,
+      282,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 3007,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 3031,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 16034,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        },
+        {
+          "put": "close door"
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "annoy_ylandra",
+            "yes"
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

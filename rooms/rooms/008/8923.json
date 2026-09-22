@@ -1,0 +1,47 @@
+{
+  "id": 8923,
+  "uid": [
+    680008
+  ],
+  "title": [
+    "[Wizard Guild, Hallway]"
+  ],
+  "description": [
+    "A chill breeze blows steadily from the southwest, stirring the tapestries hung along the damp stone walls.  The wind is cold enough to rime the windowpanes with frost, although the stone beneath you seems unnaturally warm."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, down"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      108,
+      486,
+      156,
+      536
+    ]
+  },
+  "exits": [
+    {
+      "to": 8922,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8924,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8929,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

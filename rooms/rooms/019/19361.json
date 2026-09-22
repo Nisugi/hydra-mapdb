@@ -1,0 +1,50 @@
+{
+  "id": 19361,
+  "uid": [
+    3223008
+  ],
+  "title": [
+    "[Eastern Harbor, Pelican Lane]"
+  ],
+  "description": [
+    "Inlaid with a spiral of white cobblestones, the street spills through a picket fence into the public library's circular courtyard.  Colorful hibiscus blossoms decorate the slats of the fence, while the sound of a burbling fountain draws attention to the open gate that proudly displays a painted wooden sign."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3753,
+      1744,
+      3782,
+      1768
+    ]
+  },
+  "exits": [
+    {
+      "to": 19359,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19362,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 19364,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

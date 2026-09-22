@@ -1,0 +1,62 @@
+{
+  "id": 7991,
+  "uid": [
+    104003
+  ],
+  "title": [
+    "[House of Paupers, Crystal Room]",
+    "[Paupers, Crystal Room]"
+  ],
+  "description": [
+    "An abundance of overgrown hanging plants and excessive humidity encourage you to shed your inhibitions along with your clothing to participate in the water sports played in this enormous area covered by a translucent crystal dome.  In one corner you see a steaming hot tub surrounded by rocks and lush greenery.  The plants release aromatic vapors which relax your senses.  An expansive swimming pool sparkles as it reflects the moonlight.",
+    "An abundance of overgrown hanging plants and excessive humidity encourage you to shed your inhibitions along with your clothing to participate in the water sports played in this enormous area covered by a translucent crystal dome.  In one corner you see a steaming hot tub surrounded by rocks and lush greenery.  The plants release aromatic vapors which relax your senses.  An expansive swimming pool sparkles as it reflects the light from the sun."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      624,
+      224,
+      706,
+      277
+    ]
+  },
+  "exits": [
+    {
+      "to": 7986,
+      "kind": "go",
+      "cmd": "go crystal arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8748,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 8751,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    },
+    {
+      "to": 15956,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

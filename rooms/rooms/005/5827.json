@@ -1,0 +1,65 @@
+{
+  "id": 5827,
+  "uid": [
+    14100015
+  ],
+  "title": [
+    "[Ta'Vaalor, Vermilion Gate]"
+  ],
+  "description": [
+    "A massive stone wall rises high above, crennelated along the top of the city's last defense as far as the eye can see.  As it reaches the surface of the river the wall disappears into the murky depths of the Mistydeep, leaving no hint as to how far down the stonework may go.  The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently.",
+    "A massive stone wall rises high above, crennelated along the top of the city's last defense as far as the eye can see. The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into massive limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently in the light of torches lining the bridge.",
+    "A massive stone wall rises high above, crenellated along the top of the city's last defense as far as the eye can see. The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into massive limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently in the light of torches lining the bridge.",
+    "A massive stone wall rises high above, crenellated along the top of the city's last defense as far as the eye can see.  As it reaches the surface of the river the wall disappears into the murky depths of the Mistydeep, leaving no hint as to how far down the stonework may go.  The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "advguard2",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapname:Elven Nations - Ta'Vaalor Cemetary and Neartofar Forest",
+    "mapshortname:Cemetary/Neartofar Forest"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      293,
+      1095,
+      304,
+      1105
+    ]
+  },
+  "exits": [
+    {
+      "to": 3490,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unhide",
+          "when": {
+            "flag": "invisible"
+          }
+        },
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5828,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 23723,
+  "title": [
+    "[Old Farmhouse, Parlor]"
+  ],
+  "description": [
+    "A bright crimson door opens into a large space with old, weathered wood plank floors that sprawl out beneath a low ceiling with rough, exposed beams.  Neat rows of lightweight, folding cots are pushed up against three of the room's bare walls, each with its own cleverly designed swinging tray stocked with ample bandages and tinctures.  The fourth wall breaks from the ceiling at a steep angle, revealing a narrow staircase.  Opposite the stairs, in a gap between two fresh cots, a whitewashed split door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Bloodriven Village",
+  "image": {
+    "file": "fest-duskruin-1503606263.png",
+    "rect": [
+      406,
+      819,
+      424,
+      835
+    ]
+  },
+  "exits": [
+    {
+      "to": 23721,
+      "kind": "go",
+      "cmd": "go bright door",
+      "cost": 0.2
+    },
+    {
+      "to": 23722,
+      "kind": "go",
+      "cmd": "go split door",
+      "cost": 0.2
+    },
+    {
+      "to": 23724,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

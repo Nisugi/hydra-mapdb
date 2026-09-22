@@ -1,0 +1,97 @@
+{
+  "id": 3544,
+  "uid": [
+    14100045
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Court]",
+    "[Ta'Vaalor, Tyrnian Court]",
+    "[Ta'vaalor, King's Court]",
+    "[Ta'Vaalor, King's Court]"
+  ],
+  "description": [
+    "Through an opening in the city's fortifying walls, a large dock extends out over the Mistydeep.  Although the boats anchored at the docks appear to be primarily pleasure crafts, there are a few cargo barges floating further out in the river.  A few elven sailors wander the docks seeing to various maintenance tasks.",
+    "Through an opening in the city's fortifying walls, a large dock extends out over the Mistydeep.  The lights from the city shimmer across the dark water of the river as it undulates gently on its course.",
+    "Through an opening in the city's fortifying walls, a large dock extends out over the Mistydeep.  Although the boats anchored at the docks appear to be primarily pleasure crafts, there are a few cargo barges floating further out in the river.  A few elven sailors wander the docks seeing to various maintenance tasks.  Tucked to one side is a crude table where trades are constantly being made."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "locksmith pool",
+    "locksmithpool",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "boxpool:npc:well-dressed elven merchant",
+    "boxpool:table:crude table",
+    "trashcan:wooden barrel"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      926,
+      1001,
+      961,
+      1040
+    ]
+  },
+  "exits": [
+    {
+      "to": 3542,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10381,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

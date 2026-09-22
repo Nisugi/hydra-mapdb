@@ -1,0 +1,56 @@
+{
+  "id": 21755,
+  "uid": [
+    103011
+  ],
+  "title": [
+    "[House Phoenix, Wine Cellar]"
+  ],
+  "description": [
+    "This room is used for storage of the House beverage supply.  Large casks, kegs and bottles of all sizes are stacked along the walls or in bins and on shelves.  You recognize labels from places both near and far.  Many labels are old and brown from age but the bottles are sound though covered with dust and cobwebs.  You are tempted to draw a sample or two but decide to wait for a better opportunity.  Some of the best quality vintages are stored in a locked row of bins to keep them from 'evaporating'."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Rising Phoenix"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      561,
+      394,
+      676,
+      468
+    ]
+  },
+  "exits": [
+    {
+      "to": 21748,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 21756,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21757,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 21758,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

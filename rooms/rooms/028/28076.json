@@ -1,0 +1,66 @@
+{
+  "id": 28076,
+  "uid": [
+    8208727
+  ],
+  "title": [
+    "[Rumor Woods, Equid Track]"
+  ],
+  "description": [
+    "The bustle of the crowds gathered along the market path is interrupted by the occasional whinny of an armor-clad horse making its way from the stables located in the southern area of the woods.  Brightly colored green pennants wave to and fro from slender wooden poles, creating temporary shade from the elements above.  The sounds of the cheering crowd burst through the chatter, coming from the jousting arena to the northeast.",
+    "The bustle of the crowds gathered along the market path is interrupted by the occasional whinny of an armor-clad horse making its way from the stables located in the southern area of the woods.  Brightly colored plum pennants wave to and fro from slender wooden poles, creating temporary shade from the elements above.  The sounds of the cheering crowd burst through the chatter, coming from the jousting arena to the northeast.",
+    "The bustle of the crowds gathered along the market path is interrupted by the occasional whinny of an armor-clad horse making its way from the stables located in the southern area of the woods.  Brightly colored vermilion pennants wave to and fro from slender wooden poles, creating temporary shade from the elements above.  The sounds of the cheering crowd burst through the chatter, coming from the jousting arena to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1153,
+      556,
+      1177,
+      580
+    ]
+  },
+  "exits": [
+    {
+      "to": 28051,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28071,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28072,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28077,
+      "kind": "go",
+      "cmd": "go raw tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28079,
+      "kind": "go",
+      "cmd": "go pewter tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29658,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": 28042,
+  "uid": [
+    8208741
+  ],
+  "title": [
+    "[Rumor Woods, Anvil Strip]"
+  ],
+  "description": [
+    "Merchants wander the stump-lined, muddy road, hawking their wares in front of a large, open-air forge.  Across from the forge, an iron-banded oaken trough filled with water is attended by a painted mare and her young filly.  A myrtle green banner bearing a beige jerboa snaps back and forth atop a tall pole, the image appearing to move in the breeze.",
+    "Merchants wander the stump-lined, muddy road, hawking their wares in front of a large, open-air forge.  Across from the forge, an iron-banded oaken trough filled with water is attended by a painted mare and her young filly.  A hunter green banner bearing a gold rolton snaps back and forth atop a tall pole, the caprine appearing to move in the breeze.",
+    "Merchants wander the stump-lined, muddy road hawking their wares in front of a large, open-air forge.  Across from the forge, an iron-banded oaken trough filled with water is attended by a painted mare and her young filly.  A red banner bearing a platinum lion snaps back and forth atop a tall pole, the great snake appearing to move sinuously in the breeze.",
+    "Merchants wander the stump-lined, muddy road hawking their wares in front of a large, open-air forge.  Across from the forge, an iron-banded oaken trough filled with water is attended by a painted mare and her young filly.  A royal blue banner bearing a golden serpent snaps back and forth atop a tall pole, the great snake appearing to move sinuously in the breeze."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, west"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "rough",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1098,
+      286,
+      1125,
+      315
+    ]
+  },
+  "exits": [
+    {
+      "to": 28022,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28023,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28026,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28033,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28039,
+      "kind": "go",
+      "cmd": "go large forge",
+      "cost": 0.2
+    },
+    {
+      "to": 28043,
+      "kind": "go",
+      "cmd": "go merchant stalls",
+      "cost": 0.2
+    },
+    {
+      "to": 28047,
+      "kind": "go",
+      "cmd": "go tourney tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29678,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 36489,
+      "kind": "go",
+      "cmd": "go dark wagon",
+      "cost": 0.2
+    }
+  ]
+}

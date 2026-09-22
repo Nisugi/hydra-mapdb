@@ -1,0 +1,41 @@
+{
+  "id": 18948,
+  "uid": [
+    664011
+  ],
+  "title": [
+    "[Sorcerer Guild, Tub Room]"
+  ],
+  "description": [
+    "Condensation drips from the ceiling and runs down the burled oak walls to disappear into a drain in the far corner, leaving the floor slick with moisture.  A spacious tub has been set on the oak floor, and hot seawater swirls and foams within.  A metal vat is securely bolted against the wall with a pipe and a chain hanging down just above the tub.  Wide driftwood steps lead into the tub's churning waters."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-sorcerer_guild-1405076623.png",
+    "rect": [
+      320,
+      322,
+      360,
+      362
+    ]
+  },
+  "exits": [
+    {
+      "to": 18932,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18949,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

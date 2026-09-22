@@ -1,0 +1,99 @@
+{
+  "id": 29865,
+  "uid": [
+    7503002
+  ],
+  "title": [
+    "[Kalivan's Caravans, Tent]"
+  ],
+  "description": [
+    "The interior of the tent is redolent with the musk of unwashed bodies and fire-warmed hide.  Two huge braziers of plain clay are positioned at the entrance, standing guard against the invading chill, but its shrill screams drown out the crackle of the roaring flames.  Behind a spindly modwir desk sits a perfunctory-looking halfling heavily swaddled in furs.  The logbook before him is splotched with snowmelt in places and the pages are warped by the damp, but it is mostly legible."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "silver-cost:2487:3000",
+    "silver-cost:31069:3000"
+  ],
+  "exits": [
+    {
+      "to": 2487,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 1"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_any": [
+            "The wagon comes to a halt",
+            "The wagon draws to an abrupt halt",
+            "the caravan comes to a stop"
+          ]
+        },
+        {
+          "forget": "hinterwilds_location"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "hinterwilds_location",
+            "IM"
+          ]
+        },
+        "then": 240.0
+      }
+    },
+    {
+      "to": 29860,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31069,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "inquire"
+        },
+        {
+          "put": "order 2"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_any": [
+            "The wagon comes to a halt",
+            "The wagon draws to an abrupt halt",
+            "the caravan comes to a stop"
+          ]
+        },
+        {
+          "forget": "hinterwilds_location"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "hinterwilds_location",
+            "EN"
+          ]
+        },
+        "then": 240.0
+      }
+    }
+  ]
+}

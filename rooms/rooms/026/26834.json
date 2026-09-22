@@ -1,0 +1,51 @@
+{
+  "id": 26834,
+  "title": [
+    "[Journey's End, Foyer]"
+  ],
+  "description": [
+    "Covered with stone tiles, the floor of the entryway is a colorful mosaic depicting a rose pattern.  A mirrored coat rack stands next to a carved beechwood door, a reflection of the room echoed in the smooth glass.  Suspended from a silver chain, a large candelabra hangs above, illuminating the area."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Solhaven",
+  "tags": [
+    "private property"
+  ],
+  "image": {
+    "file": "Journeys_End.jpg",
+    "rect": [
+      395,
+      389,
+      606,
+      541
+    ]
+  },
+  "exits": [
+    {
+      "to": 25985,
+      "kind": "go",
+      "cmd": "go beechwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 25991,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26833,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36470,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

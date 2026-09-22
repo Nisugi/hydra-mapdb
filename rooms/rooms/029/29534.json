@@ -1,0 +1,58 @@
+{
+  "id": 29534,
+  "uid": [
+    4043034
+  ],
+  "title": [
+    "[Clovertooth Hall, Lockers]"
+  ],
+  "description": [
+    "A bright blue curtain hangs on the south wall, masking the entrance to a locker booth.  The corridor branches off to the northeast and southeast, with more locker booths visible in both directions."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Icemule Trace",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "public locker",
+    "publiclockers"
+  ],
+  "image": {
+    "file": "imt-Clovertooth_Hall-1615305972.png",
+    "rect": [
+      1160,
+      1370,
+      1246,
+      1460
+    ]
+  },
+  "exits": [
+    {
+      "to": 29533,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 29548,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29549,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30756,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 240.0
+    }
+  ]
+}

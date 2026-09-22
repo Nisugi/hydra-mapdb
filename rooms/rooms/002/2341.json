@@ -1,0 +1,58 @@
+{
+  "id": 2341,
+  "uid": [
+    4047024
+  ],
+  "title": [
+    "[Hall of the Holy Struggle]"
+  ],
+  "description": [
+    "Blackness stains the ice of the eastern wall, causing any light filtering in to play upon the floor in fragmented, dark shades.  The western wall sparkles brightly in contrast, its color an almost pure white to cloak its side of the floor in a dazzling glow.  The borders upon which the opposing illumination meet constantly waver back and forth violently, as if in battle.  Faint serpentine designs flow across a black apse upon the eastern wall, while rows of white shields adorn the apse facing it.",
+    "Blackness stains the ice of the eastern wall, causing any light filtering in to play upon the floor in fragmented, dark shades.  The western wall sparkles brightly in contrast, its color a pure white to cloak its side of the floor with the pallid glow of the moons.  The borders upon which the opposing illumination meet waver back and forth violently, as if in battle.  Faint serpentine designs flow across a black apse upon the eastern wall, while rows of white shields adorn the apse facing it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "omnishrine"
+  ],
+  "image": {
+    "file": "imt-temple-1512640476.png",
+    "rect": [
+      1709,
+      971,
+      1836,
+      1024
+    ]
+  },
+  "exits": [
+    {
+      "to": 2340,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2342,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 15705,
+      "kind": "go",
+      "cmd": "go alabaster apse",
+      "cost": 0.2
+    },
+    {
+      "to": 15706,
+      "kind": "go",
+      "cmd": "go jet apse",
+      "cost": 0.2
+    }
+  ]
+}

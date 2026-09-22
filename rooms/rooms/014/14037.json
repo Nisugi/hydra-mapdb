@@ -1,0 +1,51 @@
+{
+  "id": 14037,
+  "uid": [
+    4750031
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "You see a massive stone ramp leading down, its base worn smooth by countless feet and wheels traveling it over the years. The inner ward walls tower above you, giving a feeling of both isolation and security."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      761,
+      255,
+      771,
+      265
+    ]
+  },
+  "exits": [
+    {
+      "to": 14036,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 14051,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14062,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

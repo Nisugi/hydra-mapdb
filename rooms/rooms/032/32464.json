@@ -1,0 +1,45 @@
+{
+  "id": 32464,
+  "uid": [
+    4577213
+  ],
+  "title": [
+    "[Moonsedge Castle, Chapel]"
+  ],
+  "description": [
+    "Twin candelabra to either side of the jeweled archway illuminate the chapel.  Ceiling murals display scenes of winter and snow-swept landscapes, broken into vignettes by an impressive array of high arches.  An alcove along the northern wall is given over to an immense organ whose brass pipes occupy the surrounding walls.  Between pews, a center aisle lushly carpeted in scarlet and charcoal proceeds eastward and up to a colossal statue of white marble."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "organ"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1229,
+      645,
+      1253,
+      669
+    ]
+  },
+  "exits": [
+    {
+      "to": 32463,
+      "kind": "go",
+      "cmd": "go jeweled archway",
+      "cost": 0.2
+    },
+    {
+      "to": 32484,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

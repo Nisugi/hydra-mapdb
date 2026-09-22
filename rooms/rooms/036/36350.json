@@ -1,0 +1,41 @@
+{
+  "id": 36350,
+  "uid": [
+    55017
+  ],
+  "title": [
+    "[Moat, Whirlpool]"
+  ],
+  "description": [
+    "Your body is jerked like a puppet by the forceful currents of the whirlpool.  No light penetrates the murky black water, making it difficult to tell which way is up.  There is little you can do to prevent being drawn downward into the lower depths of the foul moat."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      800,
+      520,
+      840,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 36351,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": 0.2
+    },
+    {
+      "to": 36465,
+      "kind": "other",
+      "cmd": "swim up",
+      "cost": 0.2
+    }
+  ]
+}

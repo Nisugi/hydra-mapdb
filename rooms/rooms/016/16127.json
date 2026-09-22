@@ -1,0 +1,150 @@
+{
+  "id": 16127,
+  "uid": [
+    5004001,
+    5004002,
+    5004003,
+    5004004,
+    5004005,
+    5004006,
+    5004007,
+    5004008
+  ],
+  "title": [
+    "[Miasmal Forest, Ghostly Trees]"
+  ],
+  "description": [
+    "The grey fog enwraps the area in a thick veil of foul, blighted air.  Tall, angular trees just paces off the trail appear pale and ghostly in the mist.  Anemic sunlight barely filters through the fog, casting dim and amorphous shadows on the spongy turf."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Miasmal Forest",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "maze"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      739,
+      516,
+      748,
+      523
+    ]
+  },
+  "exits": [
+    {
+      "to": 11620,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move_while": [
+            "west",
+            {
+              "exit": "w"
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move_while": [
+            "east",
+            {
+              "exit": "e"
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11653,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 22219,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

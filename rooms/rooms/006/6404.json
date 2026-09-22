@@ -1,0 +1,50 @@
+{
+  "id": 6404,
+  "uid": [
+    92129
+  ],
+  "title": [
+    "[Blackened Cave, Cavern]"
+  ],
+  "description": [
+    "In the darkness you can barely make out an old tree trunk propped up against a ledge.  Someone has gone to great trouble to drag the trunk in here and hoist it against the ledge.  If safety awaits up there, it was bought with a lot of sweat."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "fire cat",
+    "fire rat",
+    "pepperthorn root",
+    "striped warcat",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      383,
+      458,
+      393,
+      468
+    ]
+  },
+  "exits": [
+    {
+      "to": 6403,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6405,
+      "kind": "climb",
+      "cmd": "climb trunk",
+      "cost": 0.2
+    }
+  ]
+}

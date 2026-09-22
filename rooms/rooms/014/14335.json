@@ -1,0 +1,35 @@
+{
+  "id": 14335,
+  "uid": [
+    4901101
+  ],
+  "title": [
+    "[The Krawling Kraken]"
+  ],
+  "description": [
+    "The hallway ends abruptly, further passage blocked by the silken folds of long blue curtains and a couple stacks of crates that are pushed up against the walls.  A painting hangs on the western wall, its canvas covered with vibrant hues swirled together to form an image of a large kraken besieging a mariner's vessel.  The plush carpeting continues to the northern end of the corridor and underneath the curtains."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14333,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14336,
+      "kind": "go",
+      "cmd": "go curtains",
+      "cost": 0.2
+    }
+  ]
+}

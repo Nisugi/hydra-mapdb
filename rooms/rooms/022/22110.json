@@ -1,0 +1,44 @@
+{
+  "id": 22110,
+  "uid": [
+    106008
+  ],
+  "title": [
+    "[Cairnfang Manor, Entrance]"
+  ],
+  "description": [
+    "Pale stone steps lead up to an elegant riverstone manor, a woven doormat rests in front of a pair of stained glass doors.  An assortment of ceramic urns blooming with colorful flowers are placed about, the beautiful blossoms and greenery spilling over to blanket the steps.  Hanging to one side is a small brass bell, its polished surface shines brilliantly in the bright sunlight."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      179,
+      366,
+      190,
+      377
+    ]
+  },
+  "exits": [
+    {
+      "to": 22107,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22111,
+      "kind": "go",
+      "cmd": "go stained doors",
+      "cost": 0.2
+    }
+  ]
+}

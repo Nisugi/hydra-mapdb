@@ -1,0 +1,91 @@
+{
+  "id": 9919,
+  "uid": [
+    13027060
+  ],
+  "title": [
+    "[Wraithenmist, Hollow Tree]"
+  ],
+  "description": [
+    "The interior of the tree, cavernous by any standard, shows no signs of what caused the massive hollow's creation.  Small patches of glowing lichen cling to the tree's ancient woody pulp, casting a dim phosphorescent glow across the darkened space."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wraithenmist",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      543,
+      122,
+      553,
+      132
+    ]
+  },
+  "exits": [
+    {
+      "to": 1787,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 1791,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 16540,
+  "uid": [
+    261015
+  ],
+  "title": [
+    "[Rogue Guild, Courtyard]"
+  ],
+  "description": [
+    "Most of the weeds and stones have been cleared from the courtyard here, and the dirt surface is packed hard and scuffed with the evidence of many footsteps and physical struggles.  Wood panels rest against the walls, apparently to provide a small measure of padding over the rough stone."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt",
+    "rogue guild footpads",
+    "rogue guild masters",
+    "rogue guild trainer"
+  ],
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      521,
+      191,
+      549,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 16504,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16534,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16545,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26365,
+      "kind": "other",
+      "cmd": "ask miller about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

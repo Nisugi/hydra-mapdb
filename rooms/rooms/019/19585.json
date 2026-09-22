@@ -1,0 +1,88 @@
+{
+  "id": 19585,
+  "uid": [
+    3201040
+  ],
+  "title": [
+    "[Tigerlily Avenue]"
+  ],
+  "description": [
+    "Bright orange terra cotta tiles decorate the houses that line the southern edge of the street, while bright white paints create a uniform look to each of their facades.  Shutters, in a plethora of colors, decorate the homes and stand open to the sunlight.  Positioned at the end of a stone-lined walkway, a pale coral-tiled office sits in the middle of a manicured lawn of verdant green jungle grass.",
+    "Bright orange terra cotta tiles decorate the houses that line the southern edge of the street, while bright white paints create a uniform look to each of their facades.  Shutters, in a plethora of colors, decorate the homes and are closed to the cooler airs of the night.  Positioned at the end of a stone-lined walkway, a pale coral-tiled office sits in the middle of a manicured lawn of verdant green jungle grass."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2910,
+      1040,
+      2951,
+      1081
+    ]
+  },
+  "exits": [
+    {
+      "to": 3638,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3641,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30116,
+      "kind": "go",
+      "cmd": "go coral-tiled office",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

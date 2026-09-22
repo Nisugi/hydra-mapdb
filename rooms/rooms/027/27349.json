@@ -1,0 +1,68 @@
+{
+  "id": 27349,
+  "uid": [
+    13010050
+  ],
+  "title": [
+    "[Collectibles Shop]"
+  ],
+  "description": [
+    "This carefully cut warehouse is shaped into a near perfect square.  Pedestals of living rock have been sculpted at exact intervals throughout the entire area.  Each one is carefully adorned with the finest of collectible treasures that one can find.  Several attendants wait nearby, ready to serve the needs of any potential customers."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "collectibles",
+    "no forageables",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1010,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

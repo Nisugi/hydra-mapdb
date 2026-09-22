@@ -1,0 +1,97 @@
+{
+  "id": 21,
+  "uid": [
+    13100050
+  ],
+  "title": [
+    "[Ta'Illistim, Glamesine Var]"
+  ],
+  "description": [
+    "The theatre to the south towers above the tops of the cottages lining this part of the var.  The stone and slate-clad homes' diamond-paned glaesine windows glow in the night with a pale yellow shimmer.",
+    "The theatre to the south towers above the tops of the cottages lining this part of the var.  The stone and slate-clad homes' diamond-paned glaesine windows sparkle in the light with an almost iridescent shimmer.",
+    "The nearby theatre, lit up with lanterns, towers above the blue-tiled tops of the var's houses.  The homes' clerestory windows are paned in stained glass and their front doors are arched and painted to match the sapphire of their tops.  Standing apart in design, as well as at a distance, an ornate gate provides entry to a cobblestone courtyard that surrounds a sprawling villa.",
+    "Casting long shadows over the var, the theatre towers above the blue-tiled tops of the nearby houses.  The homes' clerestory windows are paned in stained glass, and their front doors are arched and painted to match the sapphire of their tops.  Standing apart in design, as well as at a distance, an ornate gate provides entry to a cobblestone courtyard that surrounds a sprawling villa."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      947,
+      607,
+      969,
+      628
+    ]
+  },
+  "exits": [
+    {
+      "to": 20,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17193,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

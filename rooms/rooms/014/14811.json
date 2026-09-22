@@ -1,0 +1,41 @@
+{
+  "id": 14811,
+  "uid": [
+    282009
+  ],
+  "title": [
+    "[Bard Guild, Auditorium Lobby]"
+  ],
+  "description": [
+    "The Guild Auditorium is an architectural marvel, balanced upon the top of a graceful pillar that blossoms as it rises from a narrow circumference at its base on the canyon floor.  Constructed in light-toned cantilevers, the auditorium is both expansive with its high ceilings, and at the same time, gives the impression that it was built using clouds as its gist.  From the lobby, a row of three vaulted arches gives access to the auditorium."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14810,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30903,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 30917,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

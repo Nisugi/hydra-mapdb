@@ -1,0 +1,40 @@
+{
+  "id": 35217,
+  "uid": [
+    4219362
+  ],
+  "title": [
+    "[Lockers, Antechamber]"
+  ],
+  "description": [
+    "A simple wooden chair and a short square table are the only furnishings in this bare room.  The open ceiling shows the warehouse roof high above.  The sounds of workers moving crates in the warehouse below can be easily heard through the thin floors."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "terrain": "none",
+  "meta": [
+    "che:argent_aspis:entrance"
+  ],
+  "exits": [
+    {
+      "to": 14121,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 35218,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    },
+    {
+      "to": 35219,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

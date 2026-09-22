@@ -1,0 +1,27 @@
+{
+  "id": 22606,
+  "title": [
+    "[Portable Potables]"
+  ],
+  "description": [
+    "Many layers of rushes cover the floor from slanted wall to slanted wall.  Running the length of the eastern wall is a knicked up ash counter.  A crystal bead curtain leads further into the shop."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 22487,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22607,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

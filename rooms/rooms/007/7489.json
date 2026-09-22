@@ -1,0 +1,48 @@
+{
+  "id": 7489,
+  "uid": [
+    94037
+  ],
+  "title": [
+    "[Dark Grotto, Dark Cavern]"
+  ],
+  "description": [
+    "Age seeps from the walls of this huge chamber, smothering everything with a dust laden blanket of silence.  There is a huge relief carved into the wall at the end of the long chamber, opposite the opening to the south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1000,
+      425,
+      1010,
+      435
+    ]
+  },
+  "exits": [
+    {
+      "to": 7488,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19261,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "touch huge relief"
+        },
+        {
+          "move": "say lo thal ta shin"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 22078,
+  "uid": [
+    104511
+  ],
+  "title": [
+    "[Paupers, The Triple Chalice Bar]"
+  ],
+  "description": [
+    "The rich smell of many ales lingers in the air above the tables that are positioned around the room.  The smooth glaes top of a teakwood bar reflects the dim lighting of the room.  Behind the bar is a large mirror and racks filled with strange liquors imported from distant lands.  An elegantly framed portrait hangs above the mantle of a glossy obsidian fireplace.  Sounds of gambling and laughter come from a polished marble archway, and a colorful rosewood runestaff carved in the image of a barmaid serving two ales is mounted over the entry."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node"
+  ],
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      135,
+      556,
+      217,
+      612
+    ]
+  },
+  "exits": [
+    {
+      "to": 22079,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 22080,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 22082,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

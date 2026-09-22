@@ -1,0 +1,70 @@
+{
+  "id": 11339,
+  "uid": [
+    2102001
+  ],
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "A single ebony brick, of a type of rock unknown to you, has fallen from the top of the Citadel and rests on the ground.  No grass grows near the brick.  A rock-lined path leads around the edge of the Citadel."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Citadel",
+  "climate": "moist",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "black peppercorn",
+    "bright red cranberry",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cinnamon bark",
+    "cumin seeds",
+    "golden flax fronds",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pink peppercorn",
+    "star anise",
+    "vanilla bean",
+    "wild chokecherry",
+    "wild rice",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      601,
+      1252,
+      611,
+      1262
+    ]
+  },
+  "exits": [
+    {
+      "to": 11338,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11340,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11344,
+      "kind": "go",
+      "cmd": "go rock path",
+      "cost": 0.2
+    }
+  ]
+}

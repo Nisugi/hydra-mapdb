@@ -1,0 +1,57 @@
+{
+  "id": 3104,
+  "uid": [
+    4124007
+  ],
+  "title": [
+    "[Abandoned Farm, Barn]"
+  ],
+  "description": [
+    "Snow blows in through the cracks and missing planks of the barn.  Low stone walls frame several empty stalls to the north while from the west comes a nauseating stench.  A rickety ladder leads upwards into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wraith"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      672,
+      542,
+      682,
+      552
+    ]
+  },
+  "exits": [
+    {
+      "to": 3091,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 3105,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3117,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3118,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

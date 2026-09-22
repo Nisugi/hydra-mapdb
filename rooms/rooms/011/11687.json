@@ -1,0 +1,89 @@
+{
+  "id": 11687,
+  "uid": [
+    376011
+  ],
+  "title": [
+    "[Millah's Fen, Cold Stream]"
+  ],
+  "description": [
+    "The cobbled ruins of a road emerge from the cold stream and lead up to a nearby stream bank, the only opening in the two walls of massive reeds that constrain the stream to its pathway.  The water is clear but deep, allowing for the passage of dark, unknowns slipping through the water from shadow to shadow."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "blue water lily",
+    "murdroot",
+    "pink water lily",
+    "stalk of cattail",
+    "strand of seaweed",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "white water lily",
+    "wild gooseberry",
+    "yellow water lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      278,
+      1063,
+      288,
+      1073
+    ]
+  },
+  "exits": [
+    {
+      "to": 11686,
+      "kind": "go",
+      "cmd": "go bank",
+      "cost": 0.2
+    },
+    {
+      "to": 11688,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

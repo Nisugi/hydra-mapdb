@@ -1,0 +1,41 @@
+{
+  "id": 35777,
+  "uid": [
+    3201706
+  ],
+  "title": [
+    "[Seawind Haven, Promenade]"
+  ],
+  "description": [
+    "Pebbles form a winding path between stands of ginger and hibiscus.  Nearby, tall coconut palms lean over a driftwood fence in graceful arcs.  A polished brass lantern with blue-tinted glass hangs from a driftwood post.  Weaving through ferns and palms, a crushed seashell walkway offers a soft, shimmering trail."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 35776,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35778,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35782,
+      "kind": "go",
+      "cmd": "go pebble path",
+      "cost": 0.2
+    }
+  ]
+}

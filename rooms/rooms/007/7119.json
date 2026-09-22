@@ -1,0 +1,44 @@
+{
+  "id": 7119,
+  "uid": [
+    44008
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You hear a steady dripping sound, the PLOPLOPLOP of water trickling slowly from a height.  The stone under your feet is patchy with moss, but there's no other indication of water nearby."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      841,
+      1150,
+      851,
+      1160
+    ]
+  },
+  "exits": [
+    {
+      "to": 7118,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7153,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

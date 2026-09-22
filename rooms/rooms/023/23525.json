@@ -1,0 +1,128 @@
+{
+  "id": 23525,
+  "uid": [
+    14117224
+  ],
+  "title": [
+    "[Mistydeep, Eastern Shore]"
+  ],
+  "description": [
+    "A narrow beach of dusky granite gravel provides a small gap between the river to the west and the encroaching forest, a dense thicket of young willows, and thorn-covered vines.  A brace of curlews wades through the edge of the river, digging through the mud of the shallows."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright red teaberry",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "green soybean pod",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "safflower seeds",
+    "soft mushroom",
+    "sprig of jasmine",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "thistle seeds",
+    "vert globe artichoke",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wood violet",
+    "yellow clover blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1441,
+      923,
+      1468,
+      951
+    ]
+  },
+  "exits": [
+    {
+      "to": 5830,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover a rocky trail"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "move": "go rocky trail"
+        }
+      ],
+      "cost": {
+        "when": {
+          "not": {
+            "skill_under": [
+              "perception",
+              30
+            ]
+          }
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 23526,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "go river"
+        },
+        {
+          "move": "go river"
+        }
+      ],
+      "cost": {
+        "when": {
+          "not": {
+            "skill_under": [
+              "swimming",
+              30
+            ]
+          }
+        },
+        "then": 3.2
+      }
+    }
+  ]
+}

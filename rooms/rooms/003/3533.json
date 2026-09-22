@@ -1,0 +1,58 @@
+{
+  "id": 3533,
+  "uid": [
+    14100022
+  ],
+  "title": [
+    "[Ta'Vaalor, Caernaeas Var]"
+  ],
+  "description": [
+    "The crowd surges along the var, pushing in opposite directions as some seek to travel further into the city while others attempt to leave.  Several city guardsmen stand casually at one corner of the intersection, watching the traffic as it struggles along.  A well-kept shop stands behind the guardsmen.",
+    "Few are about in the darkness of night, scurrying along their way intent upon quickly reaching their destinations.  Several city guardsmen stand casually at one corner of the intersection, watching the few passersby with appraising eyes as they pass through the city.  A well-kept shop stands behind the guardsmen."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1299,
+      404,
+      1336,
+      442
+    ]
+  },
+  "exits": [
+    {
+      "to": 3530,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3532,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3534,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10362,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

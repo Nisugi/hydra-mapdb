@@ -1,0 +1,41 @@
+{
+  "id": 35007,
+  "uid": [
+    4426020
+  ],
+  "title": [
+    "[Grim Sands, Cliff Base]"
+  ],
+  "description": [
+    "The trailway comes to an end at the base of the sheer black cliffs overlooking the beach.  A narrow path ascends through a break in the cliffs, offering a steep ascent to the clifftops.  Bird nests crowd every nook and cranny in the rock face, their occupants filling the air with shrill cries and song."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Glaoveln",
+  "climate": "snowy, arctic",
+  "terrain": "riparian",
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      247,
+      1361,
+      264,
+      1381
+    ]
+  },
+  "exits": [
+    {
+      "to": 35006,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 35167,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

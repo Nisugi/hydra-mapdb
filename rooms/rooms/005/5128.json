@@ -1,0 +1,44 @@
+{
+  "id": 5128,
+  "uid": [
+    4202161
+  ],
+  "title": [
+    "[Vornavian Coast, Caverns]"
+  ],
+  "description": [
+    "A natural cavern has been worn into the cliff face by the constant pounding of the surf.  Jagged rocks surround the entrance to the cavern, but the floor inside is sandy and dry.  The crashing waves can be heard just outside, but none of the waves manage to enter the cavern."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "murdroot"
+  ],
+  "image": {
+    "file": "vo-north_beach-1264234799.png",
+    "rect": [
+      102,
+      1023,
+      112,
+      1033
+    ]
+  },
+  "exits": [
+    {
+      "to": 5127,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 5129,
+      "kind": "go",
+      "cmd": "go cavern",
+      "cost": 0.2
+    }
+  ]
+}

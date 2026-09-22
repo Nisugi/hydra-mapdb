@@ -1,0 +1,33 @@
+{
+  "id": 22671,
+  "title": [
+    "[Lost Passages, Butcher's Lair]"
+  ],
+  "description": [
+    "An assortment of metal tables are scattered across the room, some of them burdened with a number of tools, including bone saws, metal clamps, knives, and stakes, while others laden with vile chunks of flesh and various organs.  Wandering the lair is a one-eyed goblin scavenger, hunched over with a twisted expression on its face.  A pile of rotting carcasses lies in a heap against the western wall."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20347,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 22670,
+      "kind": "other",
+      "cmd": "crawl narrow crawlspace",
+      "cost": 0.2
+    },
+    {
+      "to": 22672,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

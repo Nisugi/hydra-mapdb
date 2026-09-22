@@ -1,0 +1,75 @@
+{
+  "id": 12813,
+  "uid": [
+    4740013
+  ],
+  "title": [
+    "[Dargeur's Armors]"
+  ],
+  "description": [
+    "Leather and metal armor of all shapes and sizes covers the walls of this establishment.  Oil lamps hang from the ceiling, dangling on rusted chains.  A brawny half-elf leans upon the wooden counter, eyeing the customers from half-closed eyes."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "armor",
+    "armorshop",
+    "fire lily",
+    "urchin guide armor",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1453,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12814,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

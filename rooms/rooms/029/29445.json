@@ -1,0 +1,27 @@
+{
+  "id": 29445,
+  "title": [
+    "[Seaside Seers, Jasper and Jade]"
+  ],
+  "description": [
+    "Large swathes of multi-hued silk and velvet cloth cover the walls, draped with mithril chains dangling an assortment of well-used wands and divination cards.  Hanging from the ceiling, a rickety wooden orrery with dusty gemstone moons casts a flickering shadow across a mahogany chest and a matching jewelry case.  Tucked into one corner is a salt-stained velvet and silk curtain adorned with hundreds of beads."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 29444,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 29450,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

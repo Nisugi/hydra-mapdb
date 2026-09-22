@@ -1,0 +1,71 @@
+{
+  "id": 35860,
+  "uid": [
+    3024008
+  ],
+  "title": [
+    "[River Muagh, Confluence]"
+  ],
+  "description": [
+    "The rushing waters of the river are met by a surging, tributary stream from the eastern bank, and the flow of the river shifts northward as it meanders between crowded canver and mistwood trees.  Thin, thorn-covered vines hang from gnarled branches that reach over the water's edge, and have conglomerated along the eastern bank."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, northwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      193,
+      954,
+      230,
+      992
+    ]
+  },
+  "exits": [
+    {
+      "to": 35859,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35861,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35893,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

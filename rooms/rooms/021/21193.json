@@ -1,0 +1,37 @@
+{
+  "id": 21193,
+  "uid": [
+    265411
+  ],
+  "title": [
+    "[Sewers, The Underside of Locks]"
+  ],
+  "description": [
+    "Flickering light from the north spills into this section of the tunnel, though its licking fingers do not invade the deep shadows to the south.  Rising along the eastern wall, and bolted into place by large iron brackets, is a blackened ladder that leads from the cobblestone floor and disappears into the wooden ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 12282,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21174,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21195,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

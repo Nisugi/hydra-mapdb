@@ -1,0 +1,33 @@
+{
+  "id": 19057,
+  "title": [
+    "[Spitfire, Forecastle Portside]"
+  ],
+  "description": [
+    "The forecastle deck offers a splendid view of the buildings lining the wharf, a jumble of different facades sporting all manners of color and tone.  Brightly painted signs hang from the fronts of some, emblazoned with fanciful images and names.  Lines stretch from the rail to groups of pilings along the edge of the wharf, holding the Spitfire securely at dock.  A polished flight of stairs leads down to the main deck."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the bay",
+  "exits": [
+    {
+      "to": 19055,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 19070,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19073,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

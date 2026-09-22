@@ -1,0 +1,79 @@
+{
+  "id": 2810,
+  "uid": [
+    4563030
+  ],
+  "title": [
+    "[Nightmare Gorge]"
+  ],
+  "description": [
+    "Jagged crags of stone tower up on either side from a broken field of boulders made more treacherous by ice and snow.  The gorge snakes its way west, twisting out of sight around a large outcrop of stone protruding from the north face in the distance.  Here and there, scraggly bushes crouch between the rocks, their branches cloaked in a layer of ice."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      380,
+      1083,
+      390,
+      1093
+    ]
+  },
+  "exits": [
+    {
+      "to": 2809,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2811,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rocks"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

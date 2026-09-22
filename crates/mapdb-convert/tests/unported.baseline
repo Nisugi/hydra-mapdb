@@ -1,0 +1,14 @@
+# How many scripted edges the converter cannot yet cross, over the real upstream
+# map. `tests/ratchet.rs` holds both numbers to exactly this: a rise fails (new
+# upstream shapes), and so does a fall (turn the number down to bank it).
+#
+# Measured 2026-09-20 against reference/mapdb/map-1789942730.json, at
+# plan/21 §5 step 2 -- nothing is ported yet, so these are upstream's totals.
+# `costs` counts scripted costs on exits that exist: upstream has 1,873 scripted
+# `timeto` values, but 13 price a destination with no `wayto`.
+crossings 0
+costs 0
+# Rooms reached from room 228 knowing nothing about the walker. Only rises.
+reachable 19939
+# The same, for a walker with urchin guides and portmasters on and no profession.
+reachable_equipped 22712

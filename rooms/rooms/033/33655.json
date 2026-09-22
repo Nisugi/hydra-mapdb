@@ -1,0 +1,52 @@
+{
+  "id": 33655,
+  "uid": [
+    7101176
+  ],
+  "title": [
+    "[Keep Tower, Corridor]"
+  ],
+  "description": [
+    "Though shorter in length as the tower rises, this corridor is much the same as the others.  A small arched open window is set into the wall where the arrow loop would normally go."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1457,
+      529,
+      1502,
+      572
+    ]
+  },
+  "exits": [
+    {
+      "to": 33654,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33656,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33682,
+      "kind": "go",
+      "cmd": "go sun-faded door",
+      "cost": 0.2
+    },
+    {
+      "to": 33685,
+      "kind": "go",
+      "cmd": "go shadowed door",
+      "cost": 0.2
+    }
+  ]
+}

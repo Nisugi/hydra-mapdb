@@ -1,0 +1,62 @@
+{
+  "id": 25796,
+  "uid": [
+    3223853
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Seaweed beds at the bottom of the ocean cause the water to transition from crystal blue near the open water to cerulean near the edges of the small island that rises on the east.  A long wooden dock stretches out from the verdant expanse of land and allows mariners the ability to dock their boats along its buoy-lined face."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1440,
+      1599,
+      1462,
+      1618
+    ]
+  },
+  "exits": [
+    {
+      "to": 25701,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25797,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal east"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25805,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

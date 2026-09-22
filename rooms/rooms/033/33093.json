@@ -1,0 +1,71 @@
+{
+  "id": 33093,
+  "uid": [
+    7134068
+  ],
+  "title": [
+    "[Corsairs' Corner]"
+  ],
+  "description": [
+    "The battered teak dock makes an abrupt right angle turn, reducing the capacity for docking vessels somewhat.  A colorful sea glass kraken cuddled up with a bevy of merpeople has been inlaid into the center of the deck with the phrase, \"Something for everyone at the Great Piratical Flotilla,\" carved beneath it.  Barnacle-encrusted posts and seaweed-covered bumpers mark off individual docking slips."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      123,
+      170,
+      134,
+      182
+    ]
+  },
+  "exits": [
+    {
+      "to": 33092,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33094,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36757,
+      "kind": "go",
+      "cmd": "go schooner",
+      "cost": 0.2
+    },
+    {
+      "to": 36758,
+      "kind": "go",
+      "cmd": "go junk",
+      "cost": 0.2
+    },
+    {
+      "to": 36761,
+      "kind": "go",
+      "cmd": "go skiff",
+      "cost": 0.2
+    },
+    {
+      "to": 36762,
+      "kind": "go",
+      "cmd": "go ship",
+      "cost": 0.2
+    },
+    {
+      "to": 36764,
+      "kind": "go",
+      "cmd": "go galleon",
+      "cost": 0.2
+    }
+  ]
+}

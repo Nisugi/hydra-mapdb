@@ -1,0 +1,42 @@
+{
+  "id": 23511,
+  "title": [
+    "[Darkstone Bay, Rocky Pile]"
+  ],
+  "description": [
+    "Although somewhat slippery due to the mist that continually rains down on this spot, the rocks are formed in such a way as to provide easy stepping, standing, and sitting spots.  A small plaque is embedded in the middle of the rocks.  On either side of the island of rocks, which provide a fantastic view of both Wehnimer's Landing and the large expanse of water that is Darkstone Bay, are makeshift gangplanks, one leading on to a small and shoddy boat, the other to a small and weathered boat."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      524,
+      311,
+      562,
+      349
+    ]
+  },
+  "exits": [
+    {
+      "to": 23435,
+      "kind": "go",
+      "cmd": "go expanse water",
+      "cost": 0.2
+    },
+    {
+      "to": 23512,
+      "kind": "go",
+      "cmd": "go shoddy boat",
+      "cost": 0.2
+    },
+    {
+      "to": 23513,
+      "kind": "go",
+      "cmd": "go weathered boat",
+      "cost": 0.2
+    }
+  ]
+}

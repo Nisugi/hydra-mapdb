@@ -1,0 +1,44 @@
+{
+  "id": 11167,
+  "uid": [
+    2100001
+  ],
+  "title": [
+    "[Garrison, Entrance]"
+  ],
+  "description": [
+    "Krolvin and troll remains litter the area.  Large stains on the huge limestone blocks are a sure sign that this was a bloody battle.  Apparently, many lives were lost in just reaching the portcullis and entering the garrison."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      674,
+      497,
+      684,
+      507
+    ]
+  },
+  "exits": [
+    {
+      "to": 11166,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 11168,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

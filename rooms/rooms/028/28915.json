@@ -1,0 +1,97 @@
+{
+  "id": 28915,
+  "uid": [
+    7118203
+  ],
+  "title": [
+    "[Kraken's Fall, North Arm Lane]"
+  ],
+  "description": [
+    "Thatch-roofed buildings cluster together along the edges of the cobblestone road, which follows the eastern edge of a high cliff towards the sea.  Squatting amid smaller structures, a large inn painted with decorative seaweed along its balcony supports and front porch stands open for business.  Somewhere nearby, a group of musicians plays a lively tune on various wind and percussion instruments.",
+    "Thatch-roofed buildings cluster together along the edges of the cobblestone road, which follows the eastern edge of a high cliff towards the sea.  Squatting amid smaller structures, a large inn painted with decorative seaweed along its balcony supports and front porch stands open for business.  Somewhere nearby, someone plays a quiet tune on a shawm."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      538,
+      243,
+      551,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 28908,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28914,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28995,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 36476,
+      "kind": "go",
+      "cmd": "go golden arch",
+      "cost": 0.2
+    }
+  ]
+}

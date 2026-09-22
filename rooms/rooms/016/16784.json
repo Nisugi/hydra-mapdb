@@ -1,0 +1,57 @@
+{
+  "id": 16784,
+  "uid": [
+    13300043
+  ],
+  "title": [
+    "[Temple Wyneb, Occipitum]"
+  ],
+  "description": [
+    "A robed wizardess is carved deeply into the blood-red marble on the east wall.  She is casting a spell, and black lines of energy explode from her hands to create a protective sphere all around her."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      824,
+      573,
+      834,
+      583
+    ]
+  },
+  "exits": [
+    {
+      "to": 16782,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16783,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16785,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "touch hand"
+        },
+        {
+          "move": "go portal"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

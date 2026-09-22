@@ -1,0 +1,45 @@
+{
+  "id": 18391,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Bits and pieces of split-rail fences can be seen standing between each of the buildings, separating the interiors of town from the meadow and pastureland that lies beyond.  Just off the side of the road, a large building sits, its windows curtained with flower-patterned cotton.  The clothesline that stretches from an upper window to a parallel window of the house next door seems to indicate that these are homes shelter neighbors on good terms."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18392,
+      "kind": "go",
+      "cmd": "go barn",
+      "cost": 0.2
+    },
+    {
+      "to": 18394,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 18395,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18398,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

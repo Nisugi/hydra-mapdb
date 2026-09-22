@@ -1,0 +1,39 @@
+{
+  "id": 24108,
+  "title": [
+    "[Necropolis, Narthex]"
+  ],
+  "description": [
+    "Six large stone sarcophagi form a rough circle around the circumference of the dais in the center of the room.  The life sized image of a knight in full armor has been painstakingly chiseled into the lid of each sarcophagus.  The tattered, moldy remains of six banners stand in the center of the circle, the faded cloth waving gently in the slightest breeze.  A crumbling stone stairwell climbs up and out of the narthex."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24104,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24106,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24107,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24109,
+      "kind": "go",
+      "cmd": "go stone stairwell",
+      "cost": 0.2
+    }
+  ]
+}

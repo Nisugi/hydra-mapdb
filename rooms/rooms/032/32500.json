@@ -1,0 +1,48 @@
+{
+  "id": 32500,
+  "uid": [
+    336181
+  ],
+  "title": [
+    "[Consortium, Lobby]"
+  ],
+  "description": [
+    "The entrance of the Darkstone Bay Consortium is grand, with an expansive lobby that stretches far and wide.  There is plentiful wall space in which rows of cushioned chairs rest, providing a comfortable option for those waiting to conduct business.  Huge arched windows and a rustic wrought iron chandelier bathe the area with an ample amount of light.  A thick deep blue carpet runs from a pair of iron-bound doors and ends near a high dark elm desk where a lithe blonde-haired elf sits."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 293,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 32501,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 32504,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32509,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

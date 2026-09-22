@@ -1,0 +1,59 @@
+{
+  "id": 7751,
+  "uid": [
+    4381013
+  ],
+  "title": [
+    "[Mossy Caverns, Pool]"
+  ],
+  "description": [
+    "The trail skirts a large pool of water here.  A stone bridge spans the pool and ends at what appears to be a small stone shrine.  The trail continues both east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "ghost pepper",
+    "hot pepper",
+    "murdroot",
+    "pepperthorn root",
+    "pothinir grass",
+    "round grumbleberry",
+    "trafel mushroom",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      974,
+      1317,
+      984,
+      1327
+    ]
+  },
+  "exits": [
+    {
+      "to": 7750,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7752,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7755,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

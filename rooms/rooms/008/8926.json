@@ -1,0 +1,48 @@
+{
+  "id": 8926,
+  "uid": [
+    680005
+  ],
+  "title": [
+    "[Wizard Guild, Conservatory]"
+  ],
+  "description": [
+    "A tiled fountain is the centerpiece of the conservatory, its polished surfaces casting back the effulgent sunlight that pours through the glass-filled walls and ceiling of the expansive chamber.  Water spilling into a central pond gently rocks the water lilies which dot its surface, their succulent stems bowing beneath the weight of their fragrant blossoms.  Wrought iron benches with celadon green silk cushions add to the serene atmosphere.",
+    "A tiled fountain is the centerpiece of the conservatory, its polished surfaces casting back the pale moonlight that pours through the glass-filled walls and ceiling of the expansive chamber.  Water spilling into a central pond gently rocks the water lilies which dot its surface, their succulent stems bowing beneath the weight of their fragrant blossoms.  Wrought iron benches with celadon green silk cushions add to the serene atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      422,
+      591,
+      474,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 8925,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8927,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8930,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

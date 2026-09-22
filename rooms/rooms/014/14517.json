@@ -1,0 +1,44 @@
+{
+  "id": 14517,
+  "uid": [
+    411169
+  ],
+  "title": [
+    "[Aviaries, Crosspaths]"
+  ],
+  "description": [
+    "Slate stone walls open wide to reveal a massive, sprawling high-domed structure.  Two distinct paths separate at this point, one leading up a steep path and the other heading towards a grassy trail.  At the center of the fork is a tall post with two white-washed wooden arrows tacked to its top.  The west-facing arrow reads, \"Tropics Trail\" and the east-facing one is marked with the words, \"Exotic Outlands.\""
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 14486,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14518,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 14519,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 20065,
+  "title": [
+    "[Feymist Cemetery, Willow Grove]"
+  ],
+  "description": [
+    "Surrounding a grassy knoll, a grove of black willow trees stretch high into the night sky.  A large opening gapes at the base of the knoll, and a large cluster of exposed roots leads inside.  Several granite slabs lie in a crumbled heap by one of the trees, possibly once gravestones that were destroyed by the willow's growth.  The remains of a sword stick up amongst the debris.",
+    "Surrounding a grassy knoll, a grove of black willow trees stretch high into the day sky.  A large opening gapes at the base of the knoll, and a large cluster of exposed roots leads inside.  Several granite slabs lie in a crumbled heap by one of the trees, possibly once gravestones that were destroyed by the willow's growth.  The remains of a sword stick up amongst the debris."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Feymist Cemetery",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      219,
+      1018,
+      227,
+      1027
+    ]
+  },
+  "exits": [
+    {
+      "to": 17554,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20063,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20066,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 20067,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20069,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

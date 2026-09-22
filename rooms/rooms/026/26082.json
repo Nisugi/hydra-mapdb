@@ -1,0 +1,43 @@
+{
+  "id": 26082,
+  "uid": [
+    679007
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Faint light creates shadows on the walls which are carved with conflicting spiderweb patterns and archaic designs.  Nestled within the strange images upon the western wall is an enormous mural depicting an ancient throne room, while the eastern wall houses a mural that is fashioned largely of dark and sanguine tiles.  At either end of the corridor, stone staircases disappear into the southern and northern wall, one leading up and the other leading down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26081,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

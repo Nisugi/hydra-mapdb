@@ -1,0 +1,21 @@
+[package]
+name = "cena-mapdb-convert"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+# The offline half of the map pipeline (ported from Cena's `plan/21` §3a,
+# where the design is recorded). Reads the upstream map JSON -- the only
+# place upstream Ruby is ever seen -- and writes one `cena_map::Room` per
+# file, plus a report of what it could not convert.
+#
+# Lives in its own repo, separate from the Hydra client (Cena), because this
+# is a data pipeline run by CI on a schedule, not client code: see this
+# repo's README for why and how it is wired to GitHub Actions.
+[dependencies]
+cena-map.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

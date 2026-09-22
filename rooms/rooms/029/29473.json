@@ -1,0 +1,44 @@
+{
+  "id": 29473,
+  "uid": [
+    13007210
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Tunnel]"
+  ],
+  "description": [
+    "Signs of progress here stop at a large vein of vultite ore blocking any further access east.  The floor angles upward and over the vultite vein that slants through the rock.  The faintest glow of illumination and a whiff of something unpleasant can be detected coming from the area over the ore to the east."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      617,
+      176,
+      639,
+      198
+    ]
+  },
+  "exits": [
+    {
+      "to": 29474,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 29475,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

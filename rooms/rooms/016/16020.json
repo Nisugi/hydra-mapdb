@@ -1,0 +1,42 @@
+{
+  "id": 16020,
+  "uid": [
+    854002
+  ],
+  "title": [
+    "[River's Rest Hall, Foyer]"
+  ],
+  "description": [
+    "A wooden staircase rises to the second floor, its railing painted a pristine white.  Ivy vines have been trained to follow the balustrade, providing a verdant contrast to the paleness of the banister.  To the north, a hallway leads further into the building."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "mho hall clerk",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 16010,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16019,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16227,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

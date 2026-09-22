@@ -1,0 +1,44 @@
+{
+  "id": 20038,
+  "uid": [
+    672007
+  ],
+  "title": [
+    "[Cleric Guild, Prayer Room]"
+  ],
+  "description": [
+    "Faces stare out of the stone.  Each is of the same woman, her eyes holding nothing resembling sanity.  Every face is different, some happy, some sad, some angry and some simply lunatic.  In the back corner stands a statue, the place where the face would go smooth and featureless.  A small tunnel leads off behind the statue."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "zelia"
+  ],
+  "image": {
+    "file": "ti-Cleric_Guild-1267238976.jpg",
+    "rect": [
+      553,
+      67,
+      579,
+      96
+    ]
+  },
+  "exits": [
+    {
+      "to": 20037,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20039,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

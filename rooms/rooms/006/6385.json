@@ -1,0 +1,58 @@
+{
+  "id": 6385,
+  "uid": [
+    92032
+  ],
+  "title": [
+    "[Smokey Cave, Cavern]"
+  ],
+  "description": [
+    "This small cave is dimly lit by the light shining in from the opening at the east end.  There is a gritty layer of some strange black dirt underfoot that leaves black smudges on anything it touches.  The walls and ceiling of the cave are also covered in the same black grit."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire cat",
+    "fire lily",
+    "fire rat"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      552,
+      403,
+      562,
+      413
+    ]
+  },
+  "exits": [
+    {
+      "to": 6384,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 6386,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6387,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6393,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

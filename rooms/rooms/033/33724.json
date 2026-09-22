@@ -1,0 +1,34 @@
+{
+  "id": 33724,
+  "uid": [
+    4043938
+  ],
+  "title": [
+    "[Strawberry Room, Cubbyhole]"
+  ],
+  "description": [
+    "Small and cramped, this room ends with a dark curtain which is drawn shut.  Remants of old advertising slogans are painted onto the surface.  A small metal lever is imbedded into the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 33723,
+      "kind": "other",
+      "cmd": "pull lever",
+      "cost": 0.2
+    },
+    {
+      "to": 33725,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

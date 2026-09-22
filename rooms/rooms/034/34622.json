@@ -1,0 +1,46 @@
+{
+  "id": 34622,
+  "uid": [
+    4572028
+  ],
+  "title": [
+    "[Sablecross, The Giltroad]"
+  ],
+  "description": [
+    "A grandiose countinghouse with marble pillars stands back from the surging throngs of the bazaar.  The old edifice's verdigris bronze roofing and elegant limestone facade contrasts sharply with the multifarious colors of nearby stalls.  Above the arched entrance hangs a heavy bronze sign that depicts a pair of balanced scales."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      595,
+      208,
+      633,
+      241
+    ]
+  },
+  "exits": [
+    {
+      "to": 34621,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34623,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34669,
+      "kind": "go",
+      "cmd": "go countinghouse",
+      "cost": 0.2
+    }
+  ]
+}

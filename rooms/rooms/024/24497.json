@@ -1,0 +1,40 @@
+{
+  "id": 24497,
+  "uid": [
+    13010120,
+    13010121,
+    13010122,
+    13010123,
+    13010124
+  ],
+  "title": [
+    "[Rockslinger's, Public Locker]"
+  ],
+  "description": [
+    "A small swarm of fireflies flit about in a cylindrical cage hung from the granite ceiling.  Their blinking green and yellow glows softly illuminate this small room.  Though the walls are unadorned and the granite floor is uncarpeted, the room still provides a quiet place for contemplating the contents of one's locker."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "locker",
+    "map:multi-uid"
+  ],
+  "exits": [
+    {
+      "to": 9495,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go curtain"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 22.2
+    }
+  ]
+}

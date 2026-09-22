@@ -1,0 +1,56 @@
+{
+  "id": 1934,
+  "uid": [
+    3003028
+  ],
+  "title": [
+    "[Adventurers' Rest, Foyer]"
+  ],
+  "description": [
+    "As the heavy doors close behind you, the bustle of the street fades away.  Banners from the various Wehnimer's Landing Houses are mixed with other, unfamiliar banners hanging along the walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      177,
+      670,
+      324,
+      733
+    ]
+  },
+  "exits": [
+    {
+      "to": 1933,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1935,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1942,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14697,
+      "kind": "go",
+      "cmd": "go desk",
+      "cost": 0.2
+    }
+  ]
+}

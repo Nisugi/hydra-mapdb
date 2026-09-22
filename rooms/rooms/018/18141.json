@@ -1,0 +1,41 @@
+{
+  "id": 18141,
+  "uid": [
+    13102030
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Hallway]"
+  ],
+  "description": [
+    "Leading deeper into the keep, the hallway is paved with alabaster stone striated with silver veins.  A portrait hangs on one wall opposite a polished stone archway.  Shadows cast from the flickering crystal lamps above dance across the smooth rock."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 18138,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18142,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18147,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

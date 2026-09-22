@@ -1,0 +1,62 @@
+{
+  "id": 25844,
+  "uid": [
+    3223866
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Creating dark smudges to the southwest, Charl's Teeth rise ominously against the skyline and block passage to the open waters of the distant ocean.  Small bits of flotsam clank against the towering slabs of obsidian as the waves gently pull and push them back and forth.  Caught in one of the ragged gashes, a dark blue sail flutters forlornly in the light zephyr that pushes its way across the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1121,
+      1759,
+      1141,
+      1778
+    ]
+  },
+  "exits": [
+    {
+      "to": 25834,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25845,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25848,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

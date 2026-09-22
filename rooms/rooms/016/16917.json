@@ -1,0 +1,90 @@
+{
+  "id": 16917,
+  "uid": [
+    258001
+  ],
+  "title": [
+    "[Zul Logoth, Iron Walkway]"
+  ],
+  "description": [
+    "Flanked by thick columns of polished, black iron is a slightly raised walkway that leads to the end of the cavern.  The natural rock has been smoothed away, leaving behind a flat surface upon which a heavily detailed bas-relief has been carved.  A pair of immense, double doors wrought of pure white marble accented in mithril have been set deeply into the wall, surrounded by the ornate etchings.  Standing guard beside the entrance to the Zul Logoth Warrior Guild is a large, armored dwarf."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "exits": [
+    {
+      "to": 9430,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20646,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

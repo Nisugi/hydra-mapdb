@@ -1,0 +1,56 @@
+{
+  "id": 35857,
+  "uid": [
+    3024005
+  ],
+  "title": [
+    "[River Muagh, Granite Canyon]"
+  ],
+  "description": [
+    "The canyon walls rise high above the river on both sides, and visible clusters of dark obsidian and basalt contrast sharply against the otherwise ruddy and grey-veined granite.  The water flows steadily north, taking tiny clumps of fallen grey ash along with it."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "wingstem root"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      96,
+      1181,
+      133,
+      1217
+    ]
+  },
+  "exits": [
+    {
+      "to": 35856,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35858,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

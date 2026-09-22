@@ -1,0 +1,60 @@
+{
+  "id": 396,
+  "uid": [
+    2060
+  ],
+  "title": [
+    "[Moot Hall, Upstairs Corridor]"
+  ],
+  "description": [
+    "This part of the upstairs corridor is fairly busy.  Several benches line the walls alongside the sturdy oak door at the far end.  Citizens of various ranks and classes mill about, grasping scrolls and bundles of documents in their hands and talking in serious whispers.",
+    "Several benches line the walls alongside the sturdy oak door at the far end of the corridor.  Several paintings are hung depicting various landmarks around Wehnimer's Landing."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-moot_hall-1486755929.png",
+    "rect": [
+      592,
+      494,
+      733,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 395,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 397,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7977,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 7978,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

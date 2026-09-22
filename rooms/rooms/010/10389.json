@@ -1,0 +1,44 @@
+{
+  "id": 10389,
+  "uid": [
+    14102050
+  ],
+  "title": [
+    "[Malwith Inn, Upper Hallway]"
+  ],
+  "description": [
+    "Plush carpeting, blood red, fills the hallway from corner to corner.  The ceiling of the room arches high overhead.  Looking eastward, a number of doors can be seen on both sides of the hallway.  A carpeted staircase descends to the room below, mahogany handrails flanking both sides."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 10385,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 10390,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10391,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10393,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

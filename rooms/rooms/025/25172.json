@@ -1,0 +1,58 @@
+{
+  "id": 25172,
+  "uid": [
+    4216056
+  ],
+  "title": [
+    "[Sanctum of Scales, Privy]"
+  ],
+  "description": [
+    "Given that the air is heavy with the odor of things best long since buried, it is safe to state that the small privy smells somehow worse than death.  Stains mar the walls around a large latrine pit, the edges of which have been widened in an uneven and ragged fashion.  Nearby, a modesty curtain lies, stained and mildewed, torn free of its hanging rods."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      121,
+      468,
+      145,
+      491
+    ]
+  },
+  "exits": [
+    {
+      "to": 25171,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25231,
+      "kind": "scripted",
+      "steps": [
+        {
+          "stance": "offensive"
+        },
+        {
+          "try_move": "climb latrine pit"
+        },
+        {
+          "move": "climb latrine pit",
+          "when": "still_here"
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

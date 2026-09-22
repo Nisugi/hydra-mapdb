@@ -1,0 +1,50 @@
+{
+  "id": 6616,
+  "uid": [
+    4285054
+  ],
+  "title": [
+    "[Pentagram East]"
+  ],
+  "description": [
+    "On this side of the macabre design, the cavern walls become extremely uneven, with deep pockets and niches that aren't visible from further away.  In one particular cranny, a small skeleton shelters, still curled in its death repose.  Behind another outcrop, a dark recess can be seen, looking as though it might yield passage into the stone wall."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      975,
+      693,
+      985,
+      703
+    ]
+  },
+  "exits": [
+    {
+      "to": 6615,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6617,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6619,
+      "kind": "go",
+      "cmd": "go recess",
+      "cost": 0.2
+    }
+  ]
+}

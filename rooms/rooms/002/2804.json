@@ -1,0 +1,182 @@
+{
+  "id": 2804,
+  "uid": [
+    10000110
+  ],
+  "title": [
+    "[Courtyard]"
+  ],
+  "description": [
+    "The courtyard is swept with fine drifts of snow that reach over the polished granite tiles like elongated, playful fingers.  From the shelter of an ancient and stately pine growing in the center of the enclosure, birdsong is a constant background, as if the serenading chorus is intent upon making up for melody lost along the silent trails leading to the plaza.  An edifice rises from the granite courtyard like a temple of ice, its white stone glistening with a mantle of snow crystals."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "climate": "cold, damp",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "arctic brambles",
+    "ayana leaf",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright red cranberry",
+    "daggit root",
+    "feverfew stalk",
+    "frostflower",
+    "gok nut",
+    "luckbloom blossom",
+    "manroot stalk",
+    "node",
+    "pennyroyal stem",
+    "red lichen",
+    "sassafras leaf",
+    "soft mushroom",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "voln",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "withered mushroom",
+    "wyrmwood bark",
+    "yew twig"
+  ],
+  "meta": [
+    "seeking"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      155,
+      1006,
+      165,
+      1016
+    ]
+  },
+  "exits": [
+    {
+      "to": 2635,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.0
+      }
+    },
+    {
+      "to": 2803,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2805,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2808,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.0
+      }
+    },
+    {
+      "to": 2972,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.0
+      }
+    },
+    {
+      "to": 3140,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.0
+      }
+    },
+    {
+      "to": 23145,
+      "kind": "go",
+      "cmd": "go spring",
+      "cost": 0.2
+    }
+  ]
+}

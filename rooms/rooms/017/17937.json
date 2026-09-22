@@ -1,0 +1,54 @@
+{
+  "id": 17937,
+  "uid": [
+    264004
+  ],
+  "title": [
+    "[Rogue Guild, Lounge]"
+  ],
+  "description": [
+    "The lounge has been nearly restored to its former beauty with dark rosewood paneling lining the walls and a variety of inlaid woods on the floor.  Mirrored shelves filled with bottles sit behind the scarred but polished bar.  Brass stools with red leather seats line the front of the bar.  Large windows overlooking an overgrown courtyard fill the room with sunlight."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "tags": [
+    "rogue guild bar"
+  ],
+  "image": {
+    "file": "vo-rogue_guild-1305438533.png",
+    "rect": [
+      428,
+      651,
+      457,
+      675
+    ]
+  },
+  "exits": [
+    {
+      "to": 17933,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17961,
+      "kind": "go",
+      "cmd": "go nook",
+      "cost": 0.2
+    },
+    {
+      "to": 17962,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 17963,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

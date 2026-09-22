@@ -1,0 +1,55 @@
+{
+  "id": 19726,
+  "uid": [
+    11005
+  ],
+  "title": [
+    "[Cavernhold, Marina]"
+  ],
+  "description": [
+    "This is the western shore of the large underground lake.  A large assortment of hardware is scattered about the area.  Coils of rope and heavy line hang from hooks on the walls.  Pulleys and shackles can be seen in the many crates that rest against the several stone workbenches that sit in darkened recesses.  This room is obviously used to maintain the small fleet of tiny boats that make up the Gnoll fishing flotilla."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "freshwater",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "wingstem root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      266,
+      622,
+      277,
+      632
+    ]
+  },
+  "exits": [
+    {
+      "to": 19725,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19727,
+      "kind": "go",
+      "cmd": "go boat",
+      "cost": 0.2
+    },
+    {
+      "to": 19733,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

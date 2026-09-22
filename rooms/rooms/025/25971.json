@@ -1,0 +1,63 @@
+{
+  "id": 25971,
+  "uid": [
+    336014
+  ],
+  "title": [
+    "[Patron Suite, Oils]"
+  ],
+  "description": [
+    "The area is infused with a variety of aromas, ranging from musky colognes to flavorful perfumes.  Small windows above provide escape for the oily scents.  Two burnished dark mahogany tables run parallel in the center of the room, each holding a variety of oil pots."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      208,
+      1197,
+      352,
+      1255
+    ]
+  },
+  "exits": [
+    {
+      "to": 25861,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go passage"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25972,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25973,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go southwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 6353,
+  "uid": [
+    681028
+  ],
+  "title": [
+    "[Wizard Guild, Stairway NE]"
+  ],
+  "description": [
+    "The narrow stairs wind their way up into the dark tower far higher than one would expect, only to dead end at the top with a door.  Spaced out along the walls are eonake sconces that hold glowing torches that provides more than enough light to see by without any visible flame.  An occasional cool night breeze sneaks through the few open narrow windows.",
+    "The narrow stairs wind their way up the tower far higher than one would expect only to end at a door at the top.  Light streams in from the narrow windows that ring the tower at evenly spaced intervals."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      523,
+      207,
+      573,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 6350,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6354,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

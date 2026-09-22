@@ -1,0 +1,54 @@
+{
+  "id": 24610,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "An old stone cottage, long abandoned from its look, occupies this corner of the meadow.  The remnants of the cottage's thatched roof hang from the eaves, and its walls have been nearly hidden by thick patches of deep green ivy.  A large wild rosebush has claimed one corner of the structure, its clusters of yellow blossoms dripping from the cottage in large fragrant swaths."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      501,
+      201,
+      521,
+      222
+    ]
+  },
+  "exits": [
+    {
+      "to": 24608,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24611,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 24613,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24615,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24617,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

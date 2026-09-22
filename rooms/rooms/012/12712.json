@@ -1,0 +1,52 @@
+{
+  "id": 12712,
+  "uid": [
+    3031025
+  ],
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Tiny streams of water trickle through grooves carved into the floor, gathering to form puddles that pour over the staircase to the water below.  The walls are slick with moisture, and small drops of water occasionally fall from the ceiling above.  A toppled bronze fire cauldron rests near a marred stone sea serpent statue, both of which have been blackened and stained with smoke."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Ruined Temple",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      608,
+      776,
+      644,
+      812
+    ]
+  },
+  "exits": [
+    {
+      "to": 12711,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12713,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20786,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

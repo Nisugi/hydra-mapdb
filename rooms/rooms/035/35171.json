@@ -1,0 +1,41 @@
+{
+  "id": 35171,
+  "uid": [
+    4426015
+  ],
+  "title": [
+    "[Grim Sands, Shanty]"
+  ],
+  "description": [
+    "Red tundra grasses dapple an embankment overlooking the shoreline.  Atop the bank stands a silvered pine shanty, a little ramshackle but stll standing despite the unforgiving elements of the shore.  Framed by the sheer black cliffs beyond, the structure looks all the more insignificant."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Glaoveln",
+  "climate": "snowy, arctic",
+  "terrain": "riparian",
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      797,
+      1361,
+      817,
+      1380
+    ]
+  },
+  "exits": [
+    {
+      "to": 34966,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35172,
+      "kind": "go",
+      "cmd": "go shanty",
+      "cost": 0.2
+    }
+  ]
+}

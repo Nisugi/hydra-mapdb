@@ -1,0 +1,69 @@
+{
+  "id": 2361,
+  "uid": [
+    4042109
+  ],
+  "title": [
+    "[Magical Burrow, Banshee Lane]"
+  ],
+  "description": [
+    "Low-eaved houses line the street and residents, predominantly halflings and humans, bustle in and out of them.  Despite the chill in the air, a small group of children plays nearby, giggles chasing them as they run down the cobblestone lane.  They seem to shy away from the entrance to a dark and narrow alley between two especially ramshackle shops.",
+    "Low-eaved houses line the streets and halflings bustle in and out of them.  Despite the chill in the air, a small group of halfling children play nearby, running around and giggling continuously."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      405,
+      432,
+      441,
+      468
+    ]
+  },
+  "exits": [
+    {
+      "to": 2360,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2362,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2370,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3332,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 3354,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3356,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

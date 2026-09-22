@@ -1,0 +1,43 @@
+{
+  "id": 26074,
+  "uid": [
+    679013
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Four dogwood trees are carved into each of the chamber's walls, their four-petaled blossoms hollowed out to create petite shelves that house hundreds of tiny candles.  Tiled murals stand beneath the flower-laden boughs of the blooming beauties that occupy the eastern and western walls, while to the north, a set of stairs leads upward and to the south, another set leads down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26075,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

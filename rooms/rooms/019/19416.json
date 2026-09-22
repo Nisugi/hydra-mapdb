@@ -1,0 +1,40 @@
+{
+  "id": 19416,
+  "uid": [
+    4031001
+  ],
+  "title": [
+    "[Krolvin Warship, Bow]"
+  ],
+  "description": [
+    "Carved with intricate geometric patterns, the weathered oak railing stretches aft on both the port and starboard sides.  Carved to resemble fish bones are evenly spaced support posts that keep the warped railing at about six handspans above the deck.  Just beyond the bow, where the railings meet in a horizontal arc, is the top of a dusky blue figurehead."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "somewhere on the Great Western Sea",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-troubled_waters.png",
+    "rect": [
+      144,
+      44,
+      169,
+      66
+    ]
+  },
+  "exits": [
+    {
+      "to": 19414,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20016,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    }
+  ]
+}

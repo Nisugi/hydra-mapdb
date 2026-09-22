@@ -1,0 +1,48 @@
+{
+  "id": 9767,
+  "uid": [
+    13021022
+  ],
+  "title": [
+    "[Maaghara Tower, Dead End]"
+  ],
+  "description": [
+    "The passageway comes to an abrupt end in a small, dark niche.  Ridges run underfoot through the floor and up into the walls, making the footing somewhat treacherous and uneven.  The walls have a rough, wavy texture with the exception of the far one, which is smooth and made of wood.  Occasionally, the entire room shudders in a rhythmic, pulsing motion and contracts in upon itself before returning to its normal size."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      861,
+      464,
+      871,
+      474
+    ]
+  },
+  "exits": [
+    {
+      "to": 9746,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9804,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "labyrinth_entry"
+      },
+      "cost": 1.2
+    }
+  ]
+}

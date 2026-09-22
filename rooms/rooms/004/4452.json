@@ -1,0 +1,33 @@
+{
+  "id": 4452,
+  "title": [
+    "[Topaz Level, Infirmary]"
+  ],
+  "description": [
+    "Two simple cots lined up next to each other provide the only comfort for the sick or infirm.  A hastily built wooden case holds a few common herbs and poultices, but clearly this area wasn't designed for anything more than the occasional burn or bruise."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4444,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4449,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    }
+  ]
+}

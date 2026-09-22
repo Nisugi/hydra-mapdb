@@ -1,0 +1,53 @@
+{
+  "id": 15609,
+  "uid": [
+    13120002
+  ],
+  "title": [
+    "[Small Estate, Foyer]"
+  ],
+  "description": [
+    "Long, thin ivory columns encircle the room, marking the borders of a round disc of pure white marble, its surface streaked with veins of pale crimson.  A deep crimson rose serves as a central mural upon the lustrous marble, its dark petals crafted of thick stained glass.  A sweeping staircase adorned with rich velvet rugs leads further up, while hallways branch off to the east and west."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 10063,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10765,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15610,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 15612,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15615,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

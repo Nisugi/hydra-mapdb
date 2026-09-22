@@ -1,0 +1,76 @@
+{
+  "id": 18163,
+  "uid": [
+    666100
+  ],
+  "title": [
+    "[Alchemy Workshops, Crux]"
+  ],
+  "description": [
+    "The long hallway ends in a semicircular niche, which in turn branches off into small portals leading in various directions.  Each entry bears an identical carved sigil above the dull black frame, indicating the uniform purpose of the alcoves beyond."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southwest, west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-ta_illistim-sorcerer_guild-1405076623.png",
+    "rect": [
+      740,
+      600,
+      780,
+      641
+    ]
+  },
+  "exits": [
+    {
+      "to": 18161,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 18164,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18165,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18166,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18167,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18168,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18169,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18170,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

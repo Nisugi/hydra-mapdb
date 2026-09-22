@@ -1,0 +1,36 @@
+{
+  "id": 28151,
+  "title": [
+    "[Midnight Heron, Aftcastle]"
+  ],
+  "description": [
+    "Atop the mizzenmast, above crisp white sails, a large white flag bearing a midnight blue heron flies in the air.  Dark blue velvet-padded benches line the chrome-railed square back of the stern, surrounding a small marble-topped bar secured to the deck.  Standing at the center of the aftcastle, a waist-high chrome frame supports a crystal steerage globe.  A chrome-handled hatch offers access to the cargo hold below."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Zul Logoth",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 28094,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 28157,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 28201,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

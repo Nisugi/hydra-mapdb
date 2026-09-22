@@ -1,0 +1,45 @@
+{
+  "id": 36668,
+  "uid": [
+    8400015
+  ],
+  "title": [
+    "[Nyessem, Ring Loop]"
+  ],
+  "description": [
+    "The path divides, with a perpendicular cobbled section diverting off to a broad emerald-studded tunnel.  From out of the tunnel, the faint sound of flowing water resonates and the pungent floral aroma of greenery wafts on the air.  At the tunnel's mouth, a prominent metal plaque is embedded in the stone.  Across, a long stone sculpture of twin Nyessemian trees dominates the area opposite.  Between the sculpture's trees, a polished stone table is laden with food and drink options."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      979,
+      473,
+      996,
+      487
+    ]
+  },
+  "exits": [
+    {
+      "to": 36667,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36669,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36692,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

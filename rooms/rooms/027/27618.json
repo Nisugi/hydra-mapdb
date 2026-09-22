@@ -1,0 +1,70 @@
+{
+  "id": 27618,
+  "uid": [
+    686001
+  ],
+  "title": [
+    "[Wizard's Guild, Entrance]"
+  ],
+  "description": [
+    "Four towers rise about this cavernous central chamber.  White marble veined in deep cinnabar, brilliant viridian, soft cobalt, and somber grey makes up their walls.  Far above, the roof is a simple diamond shape set diagonal to the towers.  Flanking the entry door, ornate vases hold a variety of jungle flowers, their scents adding a lush perfume to the grand space.  A nondescript office, on the far side of the chamber, is the only other break in the chamber's walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Isle of the Four Winds",
+    "mapname:Mist Harbor - Wizard Guild",
+    "mapshortname:Wizard Guild (Mist Harbor)"
+  ],
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      308,
+      1804,
+      337,
+      1833
+    ]
+  },
+  "exits": [
+    {
+      "to": 19359,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28238,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29584,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29592,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29601,
+      "kind": "go",
+      "cmd": "go office",
+      "cost": 0.2
+    },
+    {
+      "to": 29603,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

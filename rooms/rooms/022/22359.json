@@ -1,0 +1,70 @@
+{
+  "id": 22359,
+  "uid": [
+    13125003
+  ],
+  "title": [
+    "[Ta'Illistim, Linsandrych Var]"
+  ],
+  "description": [
+    "Festooned with passion vines, a latticework is constructed over the var.  The white flowers, with their star-shaped blossoms and pale blue centers, form a lantern-lit canopy above the cobblestones.  A small alabaster building stands to one side, while a tall pale stone building is surrounded by thick hedges to the other."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest",
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      541,
+      685,
+      617,
+      760
+    ]
+  },
+  "exits": [
+    {
+      "to": 22354,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22360,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22379,
+      "kind": "go",
+      "cmd": "go silver doors",
+      "cost": 0.2
+    },
+    {
+      "to": 22419,
+      "kind": "go",
+      "cmd": "go pale building",
+      "cost": {
+        "when": {
+          "race": "Giantman"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 34949,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

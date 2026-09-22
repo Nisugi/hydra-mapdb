@@ -1,0 +1,76 @@
+{
+  "id": 21018,
+  "uid": [
+    3210603
+  ],
+  "title": [
+    "[Alhan'aht River, Torrent]"
+  ],
+  "description": [
+    "A strange mix of buzzing insects, calling birds, and rushing water permeates the entire vicinty, weaving through the thick, humid soup that can barely be called air.  Just off the viscously muddy and foliage-overridden river path, the water of the river rushes by in a small torrent, its current quite obviously strong as it splashes over small rocks in the midst of its journey.  An especially large, gnarled tree swoops up into the air and curves back down again over the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "humid",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "blackened moss",
+    "blood orange",
+    "bright yellow plantain",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "grapefruit",
+    "murdroot",
+    "round yuzu",
+    "small green quenepas",
+    "stalk of cattail",
+    "talneo root",
+    "vibrant green plantain",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      920,
+      1381,
+      939,
+      1400
+    ]
+  },
+  "exits": [
+    {
+      "to": 21001,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push ne"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21017,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go tree"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21062,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push w"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

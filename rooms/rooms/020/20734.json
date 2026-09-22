@@ -1,0 +1,98 @@
+{
+  "id": 20734,
+  "uid": [
+    4002113
+  ],
+  "title": [
+    "[Zephyr Hall, Common Room]"
+  ],
+  "description": [
+    "Highly polished wood floors are covered with woven wool rugs, providing splashes of color in the large, chandelier-lit foyer.  A burled maple doorway resides in the eastern wall, and a sweeping grand staircase leads to the second floor.  In the opposite corner, a dimly lit hallway leads to the interior of the lodge.  Several burnished leather sofas and chairs, facing a low stone hearth, invite rest, while a a wide gold-chased table is placed between them.  Beside the entry doors a small golden depository sits against the darkly paneled wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "premium supernode",
+    "premium teleportation jewelry",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      1692,
+      986,
+      1817,
+      1039
+    ]
+  },
+  "exits": [
+    {
+      "to": 20733,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20735,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 20739,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20743,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

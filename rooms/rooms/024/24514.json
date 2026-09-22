@@ -1,0 +1,36 @@
+{
+  "id": 24514,
+  "uid": [
+    4546014
+  ],
+  "title": [
+    "[Alabaster Bastion, Map Room]"
+  ],
+  "description": [
+    "The rectangular room, with its open expanse of alabaster floor and high pewter-gilded ceiling, is sparsely appointed -- a long and narrow table and a few chairs are the only pieces of furniture in the chamber.  The walls, however, are fully concealed by bookshelves, heavy under their burdens, and glass-fronted cases, filled to bursting with maps, charts and stacks of scrolls arranged into artful pyramids.  An arched opening along the western wall and an alabaster arch provide egress."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Alabaster Bastion, inside the elven fortress of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 24511,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24515,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

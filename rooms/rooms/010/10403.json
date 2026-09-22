@@ -1,0 +1,52 @@
+{
+  "id": 10403,
+  "uid": [
+    14109022
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "The striking white-and-red marble flooring here is complemented by several thick rugs, predominately the hue of red sandstone, woven in a geometric pattern of seashells.  The hallway is lit by graceful seashell lamps that glow unwaveringly.  A single bright shaft of sunlight from one of the blue glaesine windows falls directly on a carved basalt arch piercing the eastern wall.",
+    "The striking white-and-red marble flooring here is complemented by several thick rugs, predominately the hue of red sandstone, woven in a geometric pattern of seashells.  The hallway is lit by graceful seashell lamps that glow unwaveringly.  A single bright shaft of moonlight from one of the blue glaesine windows falls directly on an ornately carved basalt arch piercing the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      452,
+      894,
+      594,
+      956
+    ]
+  },
+  "exits": [
+    {
+      "to": 10402,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10404,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 29560,
+      "kind": "go",
+      "cmd": "go carved arch",
+      "cost": 0.2
+    }
+  ]
+}

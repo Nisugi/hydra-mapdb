@@ -1,0 +1,48 @@
+{
+  "id": 29796,
+  "uid": [
+    689047
+  ],
+  "title": [
+    "[Tower of Wisdom, Reception]"
+  ],
+  "description": [
+    "Beautiful paintings cover the walls, honoring wizards from all over Elanith.  From ancient, shriveled elves to scraggly haired gnomes, each picture is a masterpiece.  Some of the frames have small name plates to identify the subject, but most of the pictures leave the content forever anonymous.  In the center of the room sits a currently empty desk, adorned only with a cup of coffee.  Beyond the desk is a gold-banded ironwood door."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Kraken's Fall",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "kf-wizardguild.png",
+    "rect": [
+      485,
+      143,
+      504,
+      159
+    ]
+  },
+  "exits": [
+    {
+      "to": 29775,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29797,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 29798,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

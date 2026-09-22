@@ -1,0 +1,34 @@
+{
+  "id": 35209,
+  "uid": [
+    7121212
+  ],
+  "title": [
+    "[House Annex, Argent Aspis]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is dominated by a green-fielded argent dragon mural that is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush silver carpeting dappled with jade green threads lends the otherwise austere space a coziness that is enhanced by the presence of a plush verdant green settee.  A lacquered beige door leads to the hallway, while an argent-edged verdant green curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:argent_aspis:entrance"
+  ],
+  "exits": [
+    {
+      "to": 29744,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 35210,
+      "kind": "go",
+      "cmd": "go verdant curtain",
+      "cost": 0.2
+    }
+  ]
+}

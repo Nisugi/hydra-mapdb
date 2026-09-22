@@ -1,0 +1,99 @@
+{
+  "id": 3542,
+  "uid": [
+    14100046
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Court]",
+    "[Ta'Vaalor, Tyrnian Court]",
+    "[Ta'Vaalor, King's Court]"
+  ],
+  "description": [
+    "An immense white marble fountain occupies the center of the court.  Perched in its center, a towering statue of Kai stands, holding his sword aloft.  His features have been painted onto the marble surface with pigments and artistry so lifelike, he appears ready to step from the fountain."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      925,
+      929,
+      960,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 3519,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.6
+    },
+    {
+      "to": 3541,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3543,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3544,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 31122,
+  "uid": [
+    102103
+  ],
+  "title": [
+    "[House Aspis, Trophy Room]"
+  ],
+  "description": [
+    "The rich, musky aroma of puma leather hangs heavily in the air.  There is a fireplace for warmth on chilly nights with a buckler above it, and a well-stocked bar that lends warmth upon all occasions.  Many trophy heads line the dark maplewood walls, testament to the successful hunting efforts of Argent Aspis' fearless membership.  A swinging door on the room's north side leads to the kitchen.  Next to a wide bay window is a banner with a bronze plaque surmounting the case containing Aspis' charter."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      113,
+      759,
+      284,
+      865
+    ]
+  },
+  "exits": [
+    {
+      "to": 31121,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31124,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

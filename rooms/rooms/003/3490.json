@@ -1,0 +1,112 @@
+{
+  "id": 3490,
+  "uid": [
+    14100010
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Wey]"
+  ],
+  "description": [
+    "The crowded intersection of wey and var teems with people, each hurrying in his or her own direction.  A row of pennants of the Vaalor ruby and gold colors flutter atop the nearby city gate, bringing cheer to the otherwise austere limestone edifice.",
+    "The normally crowded intersection of wey and var is nearly deserted, the few who are abroad hurrying towards their destinations.  A row of pennants of the Vaalor ruby and gold colors flutter atop the nearby city gate, dark and shimmering in the pale light cast from the night sky.",
+    "The normally crowded intersection of wey and var is nearly deserted, the few who are abroad hurrying towards their destinations.  A row of pennants of the Vaalor crimson and gold colors flutter atop the nearby Vermilion Gate, dark and shimmering in the pale light cast from the night sky.  A crisp white pavilion stands to one side of the Gate, while a small square building stands on the other, their front walls creating a corridor through which the crowds pass.",
+    "The crowded intersection of wey and var teems with people, each hurrying in his or her own direction.  A row of pennants of the Vaalor crimson and gold colors flutter atop the nearby Vermilion Gate, bringing cheer to the otherwise austere limestone edifice.  A crisp white pavilion stands to one side of the Gate, while a small square building stands on the other, their front walls creating a corridor through which the crowds pass."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide vermiliongate",
+    "urchin-access",
+    "vermiliongate",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1151,
+      253,
+      1184,
+      290
+    ]
+  },
+  "exits": [
+    {
+      "to": 3412,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 3489,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3491,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5827,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 13518,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 25588,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

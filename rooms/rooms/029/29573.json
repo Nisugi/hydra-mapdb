@@ -1,0 +1,33 @@
+{
+  "id": 29573,
+  "uid": [
+    3215144
+  ],
+  "title": [
+    "[Annex, Booth]"
+  ],
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "none",
+  "tags": [
+    "peer curtain =~ /^\\[Annex, Silvergate Inn Lobby\\]$/",
+    "sglocker"
+  ],
+  "meta": [
+    "che:silvergate_inn:locker",
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 27634,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 26266,
+  "title": [
+    "[Banshee Tower, Fourth Floor]"
+  ],
+  "description": [
+    "Wailing banshees float about the room, their forms blinking in and out of existence as they move.  When they do appear, their forms are clothed in tattered rags and their eyes burn bright with a glowing red hue."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      170,
+      286,
+      197,
+      313
+    ]
+  },
+  "exits": [
+    {
+      "to": 26265,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26267,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

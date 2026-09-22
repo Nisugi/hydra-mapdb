@@ -1,0 +1,39 @@
+{
+  "id": 19077,
+  "title": [
+    "[Spitfire, Companionway]"
+  ],
+  "description": [
+    "Richly grained paneling lines the corridor bulkheads and the deck is carpeted with a plush runner in vivid tones of melon, marigold and indigo.  Brass lamps with opalescent glass throw a warm glow over all.  A blue door and a green door lead into cabins open to starboard and port, while a carved modwir door hangs at the hall's end."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the bay",
+  "exits": [
+    {
+      "to": 19076,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 19078,
+      "kind": "go",
+      "cmd": "go green door",
+      "cost": 0.2
+    },
+    {
+      "to": 19080,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 19082,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    }
+  ]
+}

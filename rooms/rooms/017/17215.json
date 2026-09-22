@@ -1,0 +1,52 @@
+{
+  "id": 17215,
+  "uid": [
+    257001
+  ],
+  "title": [
+    "[Warrior Guild, Entryway]"
+  ],
+  "description": [
+    "Massive fel and modwir trees tower over the vaalorn-banded gate barring the path.  There looks to be a considerable grove within the enclosure, the trees dense enough to cover whatever might be beyond them."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "cultivated",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      184,
+      165,
+      204,
+      185
+    ]
+  },
+  "exits": [
+    {
+      "to": 3521,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17216,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17222,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17223,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

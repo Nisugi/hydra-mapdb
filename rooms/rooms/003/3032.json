@@ -1,0 +1,50 @@
+{
+  "id": 3032,
+  "uid": [
+    4129202
+  ],
+  "title": [
+    "[Mountainside, Snow Drifts]"
+  ],
+  "description": [
+    "A high cliff towers before you, impassable but for the rubble of an ancient landslide.  Among the boulders and strewn rocks, a trail is visible twisting up the mountainside."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      271,
+      1017,
+      281,
+      1027
+    ]
+  },
+  "exits": [
+    {
+      "to": 3031,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 3033,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27015,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

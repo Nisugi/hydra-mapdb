@@ -1,0 +1,41 @@
+{
+  "id": 3886,
+  "uid": [
+    77002
+  ],
+  "title": [
+    "[Prison, Foyer]"
+  ],
+  "description": [
+    "Footsteps echo off the smooth stone floor and barren walls of this sparsely decorated foyer.  A slender ebon pedestal stands in the center of the room, with a golden statue of the scales of justice displayed atop it.  A pair of sleepy-looking guards stand to either side of the thick iron gate leading west into the depths of the prison and an arched doorway leading directly east."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 3885,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 3887,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 15522,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

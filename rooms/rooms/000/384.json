@@ -1,0 +1,42 @@
+{
+  "id": 384,
+  "uid": [
+    5023
+  ],
+  "title": [
+    "[Cooper's Shop, Workshop]"
+  ],
+  "description": [
+    "The crunch of wood shavings underfoot and the tangy scent of newly cut lumber indicate barrels are fitted and joined in this open workshop.  Mallets, chisels and hammers are neatly arranged in a tool chest on the floor.  Kegs in various states of completion surround you."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 383,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23976,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

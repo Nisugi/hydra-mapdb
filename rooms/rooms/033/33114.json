@@ -1,0 +1,47 @@
+{
+  "id": 33114,
+  "uid": [
+    7134155
+  ],
+  "title": [
+    "[Lower Deck, Stern]"
+  ],
+  "description": [
+    "Rope-coiled rungs driven into the aft boards form a ladder of sorts, allowing quick travel between decks.  A bucket with a mop in it sits in a corner, ready for use on the scuffed pine floor.  Hanging next to a port side door is a strip of bloodied linen."
+  ],
+  "paths": [
+    "Obvious exits: north, up, down"
+  ],
+  "location": "the Flotilla",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 33108,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33109,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33115,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33116,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

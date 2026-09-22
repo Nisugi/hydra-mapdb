@@ -1,0 +1,54 @@
+{
+  "id": 21862,
+  "title": [
+    "[Talador, Pine Avenue]"
+  ],
+  "description": [
+    "Local shops and taverns are mixed throughout the avenue, watched over by the city guards manning the walls to the south.  Citizens walk about on their business, idly chatting as they pass."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      140,
+      327,
+      167,
+      355
+    ]
+  },
+  "exits": [
+    {
+      "to": 21859,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21863,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 21865,
+      "kind": "go",
+      "cmd": "go house",
+      "cost": 0.2
+    },
+    {
+      "to": 21867,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22018,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    }
+  ]
+}

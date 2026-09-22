@@ -1,0 +1,36 @@
+{
+  "id": 33180,
+  "uid": [
+    7121224
+  ],
+  "title": [
+    "[House Annex, Twilight Hall]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted dark blue and dominated by the image of an owl perched within a crescent moon, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush midnight blue carpeting dappled with silver threads lends the otherwise austere space a coziness that is enhanced by the presence of a ruby red crushed velvet settee.  A lacquered beige door leads to the hallway, while a red-edged dark blue curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:twilight_hall:entrance_annex",
+    "che:twilight_hall:entrance_locker",
+    "locker annex:Twilight Hall"
+  ],
+  "exits": [
+    {
+      "to": 3396,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 33181,
+      "kind": "go",
+      "cmd": "go dark curtain",
+      "cost": 0.2
+    }
+  ]
+}

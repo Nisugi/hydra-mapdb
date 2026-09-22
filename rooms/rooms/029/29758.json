@@ -1,0 +1,41 @@
+{
+  "id": 29758,
+  "uid": [
+    7121216
+  ],
+  "title": [
+    "[House Annex, House of Paupers]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted royal blue and dominated by a mural depicting a trio of goblets, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush silver carpeting dappled with dark blue threads lends the otherwise austere space a coziness that is enhanced by the presence of a plush blue velvet settee.  A lacquered beige door leads to the hallway, while a blue-edged silver silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "pauperslockers"
+  ],
+  "meta": [
+    "che:paupers:entrance_annex",
+    "che:paupers:entrance_locker",
+    "locker annex:House of Paupers"
+  ],
+  "exits": [
+    {
+      "to": 29753,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 32851,
+      "kind": "go",
+      "cmd": "go silver curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 29793,
+  "uid": [
+    689042
+  ],
+  "title": [
+    "[Tower of Wisdom, Substructure]"
+  ],
+  "description": [
+    "Torches blaze in the sconces on the walls, keeping a majority of the shadows at bay.  A threadbare red woolen runner spans the distance from a wide arch and a darkened alcove."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Kraken's Fall",
+  "tags": [
+    "bright pink protea",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-wizardguild.png",
+    "rect": [
+      483,
+      344,
+      503,
+      363
+    ]
+  },
+  "exits": [
+    {
+      "to": 29775,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 29794,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 29795,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

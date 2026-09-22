@@ -1,0 +1,78 @@
+{
+  "id": 19114,
+  "title": [
+    "[Spitfire, Cargo Hold]"
+  ],
+  "description": [
+    "A large stack of crates, boxes and barrels blocks further progress, forcing the aisle to turn back upon itself.  From one of the larger barrels sitting to the side, a small flicker of light peeks out from cracks marring its wooden slats."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      1288,
+      159,
+      1322,
+      197
+    ]
+  },
+  "exits": [
+    {
+      "to": 19109,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19117,
+      "kind": "go",
+      "cmd": "go barrel",
+      "cost": 0.2
+    },
+    {
+      "to": 19119,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 19120,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23452,
+      "kind": "go",
+      "cmd": "go driftwood hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23453,
+      "kind": "go",
+      "cmd": "go gap",
+      "cost": 0.2
+    },
+    {
+      "to": 23454,
+      "kind": "go",
+      "cmd": "go feather-carved hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23455,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 23505,
+      "kind": "go",
+      "cmd": "go frost-covered hatch",
+      "cost": 0.2
+    }
+  ]
+}

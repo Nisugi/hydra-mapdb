@@ -1,0 +1,27 @@
+{
+  "id": 23111,
+  "title": [
+    "[Half-built Barn, Underground]"
+  ],
+  "description": [
+    "A large cavern opens up in this area, though the limestone walls seem to have caved in in areas, blocking any passages that my have once existed here, save for one small opening.  Splinters of buckets, pieces of shovels, shards of pickaxes, and scraps of other mining tools are splayed across the area, some on the floor and others forcefully stuck into the walls and ceiling as if some powerful force blew them to bits.  Behind a wooden ladder is a gear-covered contraption and several torches set into the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 23110,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23112,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

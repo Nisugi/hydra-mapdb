@@ -1,0 +1,54 @@
+{
+  "id": 20123,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "A musty smell of decaying plant life hangs heavily in the still air.  Slick, lichen-covered rocks make for hazardous travel along the main north to south route.  Tall, greyish-white trees block out much of the sky, and long-abandoned nests droop precariously from the unions of bare branches with the bark-stripped trunks."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      322,
+      589,
+      337,
+      603
+    ]
+  },
+  "exits": [
+    {
+      "to": 20109,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20124,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 20125,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21456,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 24176,
+      "kind": "go",
+      "cmd": "go Tonsorium",
+      "cost": 0.2
+    }
+  ]
+}

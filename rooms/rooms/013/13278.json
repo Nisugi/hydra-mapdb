@@ -1,0 +1,50 @@
+{
+  "id": 13278,
+  "uid": [
+    13112006
+  ],
+  "title": [
+    "[East Wing]"
+  ],
+  "description": [
+    "The corridor stretches away to the northeast and southwest.  A single, tall window is set in the wall, allowing a single wide beam of light to illuminate the dark flagstones."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      891,
+      276,
+      945,
+      329
+    ]
+  },
+  "exits": [
+    {
+      "to": 13276,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13279,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23909,
+      "kind": "go",
+      "cmd": "go granite arch",
+      "cost": 0.2
+    }
+  ]
+}

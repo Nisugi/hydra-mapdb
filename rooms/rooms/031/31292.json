@@ -1,0 +1,46 @@
+{
+  "id": 31292,
+  "uid": [
+    4410028
+  ],
+  "title": [
+    "[Iyo Glade, Shrouded Respite]"
+  ],
+  "description": [
+    "A half-sphere of underbrush serves as the entrance to a heavily wooded area, with towering trees reaching towards the sky, their branches intertwining in an impressively dense canopy.  A curved trail defined by split logs to either side leads directly to a large gap in the underbrush, with a colorfully painted totem standing to one side."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      329,
+      350,
+      382,
+      404
+    ]
+  },
+  "exits": [
+    {
+      "to": 31291,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31293,
+      "kind": "go",
+      "cmd": "go cocobolo stall",
+      "cost": 0.2
+    },
+    {
+      "to": 31295,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 28742,
+  "uid": [
+    3201112
+  ],
+  "title": [
+    "[Safe Haven, Great Room]"
+  ],
+  "description": [
+    "This large cavern has been arranged as a multi-purpose room, providing shelter in times of need and a gathering or practice space for citizens and militia alike.  Flanked by an archway and a door, the entrance passageway stands opposite a large hearth, constructed of local materials and shadowed by a large tapestry featuring the Mist Harbor crest above it.  The modular nature of the room features some padded benches for meetings that can be pushed aside in times of need."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "ayana leaf",
+    "blackened moss",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "supernode",
+    "urchin guide safehaven",
+    "urchin-access",
+    "wingstem root"
+  ],
+  "exits": [
+    {
+      "to": 3637,
+      "kind": "go",
+      "cmd": "go narrow passage",
+      "cost": 0.2
+    },
+    {
+      "to": 28741,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 28743,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 28744,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28745,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

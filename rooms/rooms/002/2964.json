@@ -1,0 +1,44 @@
+{
+  "id": 2964,
+  "uid": [
+    4132040
+  ],
+  "title": [
+    "[Abbey Cloistered Walk]"
+  ],
+  "description": [
+    "A narrow staircase climbs the stone walls of the abbey.  High hedges grow along the arcade, tidily tended.  They are verdant and green in a manner that seems inconsistent with the cold terrain."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      1166,
+      531,
+      1220,
+      586
+    ]
+  },
+  "exits": [
+    {
+      "to": 2963,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 2965,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

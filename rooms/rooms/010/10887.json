@@ -1,0 +1,101 @@
+{
+  "id": 10887,
+  "uid": [
+    2101300
+  ],
+  "title": [
+    "[River's Rest, Captain's Room]"
+  ],
+  "description": [
+    "Although few signs of the maritime heritage of this town remain, it seems the law is a throwback.  The Captain's Quarter is sparsely outfitted with a map station gracing one wall and a large bench resting at the foot of a neatly made bunk.  The floor is made of rough wood planks.  In one corner you notice a hatchway, large enough to allow a giantman to slip through easily.  However, the large lock which secures it makes you pause to think twice about investigating any further."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "jail",
+    "justice",
+    "no forageables",
+    "rogue guild hardlock",
+    "rogue guild hardlock:hatchway",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1299,
+      927,
+      1322,
+      949
+    ]
+  },
+  "exits": [
+    {
+      "to": 10841,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10888,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 10895,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10896,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

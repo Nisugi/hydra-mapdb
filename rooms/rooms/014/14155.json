@@ -1,0 +1,163 @@
+{
+  "id": 14155,
+  "uid": [
+    4749706
+  ],
+  "title": [
+    "[Fasthr's Lance, Crown]"
+  ],
+  "description": [
+    "Raised high above the green hillock that Fasthr's Lance occupies, the crenellated tower rooftop facilitates a panoramic view of Solhaven and Cairnfang Bay.  Incised shield patterns mark the top of each crenellation.  Striking yet higher, a dark ora lance hoisting a black ensign stitched with a snow-white shield proclaims the tower's allegiance."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "seeking"
+  ],
+  "exits": [
+    {
+      "to": 5313,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 5403,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 9033,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 9347,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    },
+    {
+      "to": 13196,
+      "kind": "climb",
+      "cmd": "climb stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 14072,
+      "kind": "scripted",
+      "routine": {
+        "name": "seeking"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_seeking",
+                "true"
+              ]
+            },
+            {
+              "society": "Order of Voln"
+            },
+            {
+              "society_rank_at_least": 26
+            }
+          ]
+        },
+        "then": 3.2
+      }
+    }
+  ]
+}

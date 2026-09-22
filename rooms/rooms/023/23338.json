@@ -1,0 +1,80 @@
+{
+  "id": 23338,
+  "uid": [
+    13018040
+  ],
+  "title": [
+    "[Alpine Forest, Clearing]"
+  ],
+  "description": [
+    "A perfectly round clearing is shielded from falling snow by a thick canopy of pine branches overhead.  A lone tree stump sits in the middle of the area, in front of a long black granite table.  Shielding the bottom of the tree trunks from view are two half-circles of thorny hedges, broken only by the entrance to the clearing and by a towering spiked gate."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "cluster of butterflyweed",
+    "crowberry",
+    "handful of pinenuts",
+    "ironfern root",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "rockberry",
+    "sassafras leaf",
+    "slender twig",
+    "snowberries",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "wintercrisp apple",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      310,
+      10,
+      320,
+      20
+    ]
+  },
+  "exits": [
+    {
+      "to": 23339,
+      "kind": "scripted",
+      "steps": [
+        {
+          "take_out": "heavy key"
+        },
+        {
+          "put": "unlock spiked gate with my heavy key"
+        },
+        {
+          "put_back": null
+        },
+        {
+          "move": "go spiked gate"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23385,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

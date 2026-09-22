@@ -1,0 +1,48 @@
+{
+  "id": 3309,
+  "uid": [
+    4048001
+  ],
+  "title": [
+    "[Icewall Penitentiary, Entryway]"
+  ],
+  "description": [
+    "Lit only by a single iron-sconced torch east of the gated entrance, this ice-enclosed cavern is filled with an unwelcoming silence and a sense of foreboding.  To the northwest, countless stalagmites of crystalline ice jut wickedly upwards towards a suspended rope bridge far above the penitentiary floor.  Garbed in hooded black robes, a pair of grizzled halflings guard a thick imflass-chain ladder that leads upwards into the Icewall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icewall Penitentiary"
+  ],
+  "image": {
+    "file": "imt-Penitentiary_Map-51200829.png",
+    "rect": [
+      456,
+      272,
+      499,
+      315
+    ]
+  },
+  "exits": [
+    {
+      "to": 3308,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 15794,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

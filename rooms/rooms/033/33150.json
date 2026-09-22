@@ -1,0 +1,35 @@
+{
+  "id": 33150,
+  "uid": [
+    13112111
+  ],
+  "title": [
+    "[The White Lounge]"
+  ],
+  "description": [
+    "The delicately patterned white tile floor is covered with a deep, handwoven cream-colored carpet.  Several chairs are set about the room, the cushions embroidered with images of climbing ivy.  On the mantel above the large marble hearth sits a simple crystal statuette."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Lost Home",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:white_haven:entrance_annex",
+    "locker annex:White Haven"
+  ],
+  "exits": [
+    {
+      "to": 13272,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33151,
+      "kind": "other",
+      "cmd": "pull candle sconce",
+      "cost": 0.2
+    }
+  ]
+}

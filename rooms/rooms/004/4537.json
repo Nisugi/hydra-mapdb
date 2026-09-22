@@ -1,0 +1,61 @@
+{
+  "id": 4537,
+  "uid": [
+    389026
+  ],
+  "title": [
+    "[A Dark Enclosure]"
+  ],
+  "description": [
+    "Unlike the other enclosures, this one is completely devoid of debris and cobwebs.  The ground feels like densely packed earth and the walls are made of unusually smooth solid rock.  There is not even a speck of loose dirt to be found."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "ghostly pooka",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1302,
+      512,
+      1312,
+      522
+    ]
+  },
+  "exits": [
+    {
+      "to": 4536,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7389,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "push circular depression"
+        },
+        {
+          "try_move": "push triangular depression"
+        },
+        {
+          "try_move": "push square depression"
+        },
+        {
+          "try_move": "push rectangular depression"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

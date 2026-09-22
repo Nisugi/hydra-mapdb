@@ -1,0 +1,186 @@
+{
+  "id": 34434,
+  "uid": [
+    2022476
+  ],
+  "title": [
+    "[Northern Caravansary, Cuddfan]"
+  ],
+  "description": [
+    "Departing through the surrounding tents and wagons, a sinuous gravel-lined track connects a gaily painted bright yellow wagon to the wider world.  Laying forgotten in the nearby grass, a long oak tongue hangs off the front of the wagon, while large round stones are wedged around the high wheels.  Red-eyed colorful gaillardias and blue-hued asters grow in clusters throughout the shaggy lawn, though they stay clear of the shadows of a small alley that disappears between the back of the wagon and nearby tents."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Cuddfan Hollow, inside the Northern Caravansary on the outskirts of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "private property",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "exits": [
+    {
+      "to": 9249,
+      "kind": "go",
+      "cmd": "go track",
+      "cost": 0.2
+    },
+    {
+      "to": 34435,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "forget": "key_was_worn"
+        },
+        {
+          "remember": [
+            "key_was_worn",
+            "yes"
+          ],
+          "when": {
+            "wearing_named_by": "key"
+          }
+        },
+        {
+          "put": "remove my {setting:key}",
+          "when": {
+            "remembered": [
+              "key_was_worn",
+              "yes"
+            ]
+          }
+        },
+        {
+          "put": "get my {setting:key} from my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "remembered": [
+                "key_was_worn",
+                "yes"
+              ]
+            }
+          }
+        },
+        {
+          "put": "unlock bright door"
+        },
+        {
+          "put": "open bright door"
+        },
+        {
+          "move": "go bright door"
+        },
+        {
+          "put": "close bright door"
+        },
+        {
+          "put": "lock bright door"
+        },
+        {
+          "put": "wear my {setting:key}",
+          "when": {
+            "remembered": [
+              "key_was_worn",
+              "yes"
+            ]
+          }
+        },
+        {
+          "put": "put my {setting:key} in my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "remembered": [
+                "key_was_worn",
+                "yes"
+              ]
+            }
+          }
+        },
+        {
+          "forget": "key_was_worn"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "all": [
+                {
+                  "setting_is_set": "key"
+                },
+                {
+                  "any": [
+                    {
+                      "wearing_named_by": "key"
+                    },
+                    {
+                      "setting_is_set": "key_sack"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "setting": [
+                "Cuddfan_Hollow",
+                "true"
+              ]
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

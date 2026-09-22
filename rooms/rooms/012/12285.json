@@ -1,0 +1,75 @@
+{
+  "id": 12285,
+  "uid": [
+    3201908
+  ],
+  "title": [
+    "[Grundael's Furs]"
+  ],
+  "description": [
+    "Various furs, claws, and other bits and pieces of creatures are hung or mounted on the walls of this shop, displaying the skills of many adventurers.  A chandelier composed of antlers hangs overhead, the long candles in it currently unlit.  Open windows rest between the spoils displayed on the walls, allowing light to flood the room.  A long counter lines the back of the shop, an open doorway visible behind it.  Upon the counter rests a leatherbound ledger.",
+    "Various furs, claws, and other bits and pieces of creatures are hung or mounted on the walls of this shop, displaying the skills of many adventurers.  A chandelier composed of antlers hangs overhead, the long candles in it providing a gentle light.  Windows covered with deep green curtains rest between the spoils displayed on the walls.  A long counter lines the back of the shop, an open doorway visible behind it.  Upon the counter rests a leatherbound ledger."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "furrier",
+    "no forageables",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3654,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12286,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

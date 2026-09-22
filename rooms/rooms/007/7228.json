@@ -1,0 +1,61 @@
+{
+  "id": 7228,
+  "uid": [
+    18205
+  ],
+  "title": [
+    "[Under Crypt, Tunnels]"
+  ],
+  "description": [
+    "This area looks like a ghoul's larder.  Bodies and parts of bodies lie buried in ice that was scraped off the walls and ceiling then covered with layers of the gruesome pink icicles.  Not a pretty sight.  In one corner of the room you see some roughly carved stairs leading upwards."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      769,
+      508,
+      779,
+      518
+    ]
+  },
+  "exits": [
+    {
+      "to": 7229,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 7230,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7231,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7234,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

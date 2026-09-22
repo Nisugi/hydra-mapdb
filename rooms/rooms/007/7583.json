@@ -1,0 +1,49 @@
+{
+  "id": 7583,
+  "uid": [
+    47017
+  ],
+  "title": [
+    "[Ant Nest, Passage]"
+  ],
+  "description": [
+    "Water flows down through the hole above you, pooling in a muddy pond at the southeast wall.  Unlike the natural passage above, this tunnel seems to have been intentionally dug, its walls smooth and packed with mineral deposits.  The passage leads deeper to the northwest."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the dark caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "macadamia nuts",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      135,
+      1155,
+      145,
+      1165
+    ]
+  },
+  "exits": [
+    {
+      "to": 7575,
+      "kind": "go",
+      "cmd": "go dark hole",
+      "cost": 0.2
+    },
+    {
+      "to": 7587,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

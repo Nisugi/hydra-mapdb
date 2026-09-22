@@ -1,0 +1,72 @@
+{
+  "id": 9412,
+  "uid": [
+    13006017
+  ],
+  "title": [
+    "[Zul Logoth, Crystalline Cavern]"
+  ],
+  "description": [
+    "Dwarven miners pass in and out of the stone arch on the west wall in this corner of the crystalline cavern.  Most of the dwarves going in carry bulging sacks, while those who exit have flattened sacks and a rather satisfied expression.  A huge ruby is set into the stone wall just above the arch.  On the south wall, a steel door operates as the entry to a windowless shop.  The sounds of hammering and grinding emanate from the shop."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      601,
+      582,
+      621,
+      602
+    ]
+  },
+  "exits": [
+    {
+      "to": 1005,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1006,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9413,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9474,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 9475,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 17917,
+  "uid": [
+    268035
+  ],
+  "title": [
+    "[Dark Cavern, West]"
+  ],
+  "description": [
+    "A short tunnel to the west leads to several darkened alcoves carved out of the surrounding rock.  Tiny shards of quartz crystal around the opening to the passageway glimmer in the dim light.  Several knife marks scar the nearby cavern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "rogue guild dirt",
+    "rogue guild footpads",
+    "rogue guild masters"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      162,
+      1006,
+      201,
+      1045
+    ]
+  },
+  "exits": [
+    {
+      "to": 17915,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17916,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17918,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30764,
+      "kind": "other",
+      "cmd": "ask yidza about train gambit",
+      "cost": 0.2
+    }
+  ]
+}

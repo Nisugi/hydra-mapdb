@@ -1,0 +1,55 @@
+{
+  "id": 614,
+  "uid": [
+    13101047
+  ],
+  "title": [
+    "[Ta'Illistim, Aerie Wey]"
+  ],
+  "description": [
+    "The airship dock, an open-aired, multi-platform construction of wood and stone, is nestled next to the city wall in a curved alcove.  At its lowest tier is the airship terminus, while above, connected by means of a wooden lift, is the cargo entrance and exit.  Placed in front of the structure is a carved marble monument.",
+    "The Ta'Illistim Docks, a tremendous wooden platform used for anchoring the great elven airships, lie directly to the east.  Even at this late hour, the shouts and calls of sailors and travellers echoes down the wey.  Pallets of cargo are loaded onto ships by means of a wooden lift.  Large glowing lanterns ring the docks, providing sufficient light to work by.",
+    "The Ta'Illistim Docks, a tremendous wooden platform used for anchoring the great elven airships, lie directly to the east.  The shouts and calls of sailors and travellers echoes down the wey.  Pallets of cargo are loaded onto ships by means of a wooden lift.",
+    "The airshop dock, an open-aired, multi-platform construction of wood and stone, is nestled next to the city wall in a curved alcove.  At its lowest tier is the airship terminus, while above, connected by means of a wooden lift, is the cargo entrance and exit.  Placed in front of the structure is a carved marble monument."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1055,
+      155,
+      1075,
+      176
+    ]
+  },
+  "exits": [
+    {
+      "to": 613,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 615,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30274,
+      "kind": "go",
+      "cmd": "go airship terminus",
+      "cost": 0.2
+    }
+  ]
+}

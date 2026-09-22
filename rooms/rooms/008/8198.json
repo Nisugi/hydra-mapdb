@@ -1,0 +1,66 @@
+{
+  "id": 8198,
+  "uid": [
+    391005
+  ],
+  "title": [
+    "[Sea Caverns, Massive Chamber]"
+  ],
+  "description": [
+    "This chamber is vast, and the far walls are barely visible in the flickering light from the fire-pit in the center.  A ring of spears surrounds the fire, each topped by a small, fanged skull.  A wide passage leads off to the north, and there's a small opening low on the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the sea caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      526,
+      104,
+      536,
+      114
+    ]
+  },
+  "exits": [
+    {
+      "to": 8197,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8199,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8201,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 8202,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

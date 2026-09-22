@@ -1,0 +1,54 @@
+{
+  "id": 22254,
+  "title": [
+    "[Hall of Mages, Gateway Chamber]"
+  ],
+  "description": [
+    "The room opens up into a circular chamber with a golden knotwork design enameled into the sleek white marble floor.  Etched runes form patterns along the walls, broken up only by slender niches raised a few feet off the ground"
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      478,
+      51,
+      491,
+      65
+    ]
+  },
+  "exits": [
+    {
+      "to": 22252,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22255,
+      "kind": "go",
+      "cmd": "go grey portal",
+      "cost": 0.2
+    },
+    {
+      "to": 22256,
+      "kind": "go",
+      "cmd": "go white portal",
+      "cost": 0.2
+    },
+    {
+      "to": 22257,
+      "kind": "go",
+      "cmd": "go azure portal",
+      "cost": 0.2
+    },
+    {
+      "to": 22258,
+      "kind": "go",
+      "cmd": "go scarlet portal",
+      "cost": 0.2
+    }
+  ]
+}

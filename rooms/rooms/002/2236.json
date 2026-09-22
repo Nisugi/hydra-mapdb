@@ -1,0 +1,59 @@
+{
+  "id": 2236,
+  "uid": [
+    3051006
+  ],
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "After winding and turning for a bit, the tunnel suddenly plunges over an embankment of tumbled boulders.  Their edges are jagged and dangerous, and numerous crevices are created beneath and around the stones where anything could be hiding.  Carried on the humid air moving listlessly from beneath the barrier is the acrid smell of sulfur, strong enough to burn the eyes and parch the throat of any who venture here."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "rough",
+  "tags": [
+    "crimson-flecked rose",
+    "ember orange rose",
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      38,
+      908,
+      46,
+      916
+    ]
+  },
+  "exits": [
+    {
+      "to": 2233,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2237,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb boulders"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

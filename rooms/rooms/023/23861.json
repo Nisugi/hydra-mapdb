@@ -1,0 +1,57 @@
+{
+  "id": 23861,
+  "uid": [
+    4422213
+  ],
+  "title": [
+    "[Circle of Trees, Platform Level]"
+  ],
+  "description": [
+    "Wide branches of a beech tree support this sturdy wooden platform.  The only passage away from this area is a woven ladder of natural fibers that hangs down toward the ground far below and a single rope bridge that stretches to a platform to the southwest.  No bridge connects to the nearest platform to the north, though the span seems small enough to jump.  A small gourd attached to the tree collects rain water, and a steady dripping cadence is generated from the water that overflows."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      873,
+      280,
+      886,
+      291
+    ]
+  },
+  "exits": [
+    {
+      "to": 23858,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23862,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 23863,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 23864,
+      "kind": "go",
+      "cmd": "go knothole",
+      "cost": 0.2
+    },
+    {
+      "to": 23903,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 0.2
+    }
+  ]
+}

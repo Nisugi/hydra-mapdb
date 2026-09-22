@@ -1,0 +1,186 @@
+{
+  "id": 22218,
+  "uid": [
+    5003039
+  ],
+  "title": [
+    "[Miasmal Forest, Spectral Mist]"
+  ],
+  "description": [
+    "Weeds, black and slick with some singularly foul form of rot, grow thick in the malodorous bogs that line the twisting trails.  The bone-grey fog eddies slowly through the bent, skeletal trees.  The listless breeze is tainted with the stink of decay."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      528,
+      472,
+      537,
+      479
+    ]
+  },
+  "exits": [
+    {
+      "to": 11612,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 1.0
+    },
+    {
+      "to": 11617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 1.0
+    },
+    {
+      "to": 11618,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "northwest"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "await_followers": null
+        },
+        {
+          "move": "southwest"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.8
+    },
+    {
+      "to": 11630,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 11633,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16122,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

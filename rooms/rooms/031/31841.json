@@ -1,0 +1,52 @@
+{
+  "id": 31841,
+  "uid": [
+    8083424
+  ],
+  "title": [
+    "[Gleyminn Anni River, Reed Beds]"
+  ],
+  "description": [
+    "The sullen waters flow through the exposed roots of massive trees towering above the river on either side.  Faces have been carved into the smaller trees, their eerie, lopsided grins and slanted eyes seemingly watching the traffic on the river.  From its perch on a rotting stump surrounded by a greenish brown reed bed, a turtle pokes its head from its shell in a slow, monotonous manner."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1633,
+      569,
+      1658,
+      593
+    ]
+  },
+  "exits": [
+    {
+      "to": 31840,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 31842,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

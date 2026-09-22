@@ -1,0 +1,44 @@
+{
+  "id": 18100,
+  "uid": [
+    682027
+  ],
+  "title": [
+    "[Wizard Guild, Storage Room]"
+  ],
+  "description": [
+    "A rough-hewn pine floor supports a tall wooden cabinet against one of the room's four white walls.  Set off to one side is a large dust bin, built from the same unfinished wood as the room's floor."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wizard alchemy cleaning supplies"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      668,
+      268,
+      732,
+      331
+    ]
+  },
+  "exits": [
+    {
+      "to": 18079,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18107,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

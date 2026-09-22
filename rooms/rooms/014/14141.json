@@ -1,0 +1,47 @@
+{
+  "id": 14141,
+  "uid": [
+    4740806
+  ],
+  "title": [
+    "[Temple of Jastev, Great Hall]"
+  ],
+  "description": [
+    "The great hall of the temple vaults about your head.  The soft shuffle of feet whisper gentle prayers to the gods. Here and there decorative niches hold sculptures depicting great mages and prophets.  To the north you glimpse the heart of the temple, the main worshiping chamber, and above you an ornate double stairway curves upward to a balcony overlook.  Beneath the stairs the hall slopes up, curving around the central chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, south, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14140,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14142,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 14143,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14150,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

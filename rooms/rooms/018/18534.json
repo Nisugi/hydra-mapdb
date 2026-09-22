@@ -1,0 +1,46 @@
+{
+  "id": 18534,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Passing through this section of town finds the air saturated with scents both sweet and savory.  A bright yellow building seems to be at least partially the source, as light from within the building offers a view of dining patrons.",
+    "Passing through this section of town finds the air saturated with scents both sweet and savory.  A bright yellow building seems to be at least partially the source, as people can be seen coming and going from its front door, releasing flavorful aromas each time they pass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18407,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18531,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18535,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 18537,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 601,
+  "uid": [
+    13108005
+  ],
+  "title": [
+    "[Shimmarglin Inn, Fountain Room]"
+  ],
+  "description": [
+    "A cool, slightly dank air pervades this round room, its source a gently gurgling fountain surrounded by a curving border of black oak benches.  Crafted in the form of a dancing wood sprite, the dark rock of the fountain provides a tiered descent for the flowing water as it winds its way to a circular pool at the base of the sculpture.  An arched, stained glass window stands behind the fountain, shedding pale light across the softly undulating surface of the pool."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Shimmarglin Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 598,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

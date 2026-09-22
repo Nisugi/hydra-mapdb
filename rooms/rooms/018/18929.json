@@ -1,0 +1,56 @@
+{
+  "id": 18929,
+  "uid": [
+    664003
+  ],
+  "title": [
+    "[Sorcerer Guild, Foyer]"
+  ],
+  "description": [
+    "Intriguing driftwood wall carvings stand out against the cool white limestone of this open foyer.  A soft warm wind drifts through the openings between the thatch roof and wall tops.  The bare limestone floor reflects the sunlight that shines through the front windows to illuminate the entire room.  Hallways lead northwest and southwest, and double doors open to the east.  Several torches await the coming of night."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy administrator",
+    "sorcerer guild administrator"
+  ],
+  "image": {
+    "file": "vo-sorcerer_guild-1405076623.png",
+    "rect": [
+      600,
+      183,
+      639,
+      222
+    ]
+  },
+  "exits": [
+    {
+      "to": 18928,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18930,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18931,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18932,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": 19125,
+  "title": [
+    "[Tropic Treasure, Tasty Retreat]"
+  ],
+  "description": [
+    "Deep blue paint speckled with green and white adorns the wooden floor, walls, and ceiling.  Faint silhouettes of leaves and tropical flowers frame the path to the south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19120,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 19155,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

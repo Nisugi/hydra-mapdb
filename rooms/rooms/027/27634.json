@@ -1,0 +1,49 @@
+{
+  "id": 27634,
+  "uid": [
+    3215111
+  ],
+  "title": [
+    "[Annex, Silvergate Inn Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A silver velvet pennant edged with green hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "che:silvergate_inn:entrance_locker",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 12296,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go arch"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 29573,
+      "kind": "go",
+      "cmd": "go emerald curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 36010,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    }
+  ]
+}

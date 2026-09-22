@@ -1,0 +1,49 @@
+{
+  "id": 29625,
+  "uid": [
+    18050003
+  ],
+  "title": [
+    "[Estate, Athenaeum]"
+  ],
+  "description": [
+    "Lustrous white marble floors meet sky-blue walls which flow up to a dome of crystallized glass overhead.  Inset at the center of the ceiling is an ivory oculus carved with celestial symbols of Liabo.  Jagged tendrils of ivory jut forth from the oculus at haphazard angles, eternally grasping towards the sunlight.  Lor-accented bookcases carved to mimic trees line the walls, chaotically packed with tomes and scrolls.  Lor-inlaid double doors open to the west, and additional doors lead in various directions."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "mho:Hand of the Arkati"
+  ],
+  "image": {
+    "file": "mho-hand_of_the_arkati-1652309586.png",
+    "rect": [
+      530,
+      343,
+      611,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 29623,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29629,
+      "kind": "go",
+      "cmd": "go lor-inlaid door",
+      "cost": 0.2
+    },
+    {
+      "to": 29630,
+      "kind": "go",
+      "cmd": "go glass-paneled door",
+      "cost": 0.2
+    }
+  ]
+}

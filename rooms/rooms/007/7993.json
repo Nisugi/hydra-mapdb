@@ -1,0 +1,100 @@
+{
+  "id": 7993,
+  "uid": [
+    20015
+  ],
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The steep path makes travel difficult and the sight of not so well balanced boulders on the slopes above you, explains why few travellers pass this way.  An iron ring is attached to a rusty spike in the rock face and the shredded remains of a rope dangles from the ring."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the old Mine Road",
+  "climate": "temperate",
+  "terrain": "rough",
+  "tags": [
+    "banana leaf",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "deep purple shockroot",
+    "elderberries",
+    "fiddlehead fern",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "leafy arugula",
+    "leek",
+    "motherwort",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "rhubarb",
+    "shallot",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "white baneberry",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      343,
+      680,
+      353,
+      690
+    ]
+  },
+  "exits": [
+    {
+      "to": 4206,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7994,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7997,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "turn ring"
+        },
+        {
+          "move": "go hole"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 14096,
+  "title": [
+    "[Cairnfang Manor, Art Gallery]"
+  ],
+  "description": [
+    "Thick emerald green curtains of soft Vornavian silk stand parted to allow silver moonlight to trickle through the glass-paned bay windows, which are fitted with window seats covered in periwinkle blue cushions.  Pewter wall sconces, hung between framed portraits, run the length of the western wall of this arched gallery, while an enormous kraken sculpture stands alone opposite them upon a curved pedestal.  Suspended to the right of a double archway is a delicate glass picture.",
+    "Thick emerald green curtains of soft Vornavian silk stand parted to allow golden sunlight to trickle through the glass-paned bay windows, which are fitted with window seats covered in periwinkle blue cushions.  Pewter wall sconces, hung between framed portraits, run the length of the western wall of this arched gallery, while an enormous kraken sculpture stands alone opposite them upon a curved pedestal.  Suspended to the right of a double archway is a delicate glass picture."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Solhaven",
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 198,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 14097,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14099,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 17825,
+  "uid": [
+    267112
+  ],
+  "title": [
+    "[Alley]"
+  ],
+  "description": [
+    "A few shattered crates and empty barrels are the only thing of note here, all of them empty and discarded.  A horrible attempt to mimic a birdcall can be heard coming from above."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      1015,
+      633,
+      1055,
+      673
+    ]
+  },
+  "exits": [
+    {
+      "to": 10434,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "look barrel"
+        },
+        {
+          "move": "go chute"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 17811,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17826,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

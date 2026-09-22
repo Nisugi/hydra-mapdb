@@ -1,0 +1,44 @@
+{
+  "id": 7071,
+  "uid": [
+    44014
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Deep brown wood panels this room, making it look even darker and smaller than it actually is.  A solid-looking trapdoor with heavy hinges is set into one corner of the floor, surrounded by tightly fitted grey stone.  A burned-out torch lies discarded in the corner near the trapdoor, which looks blackened and singed in places, but is still as solid as ever."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      760,
+      1090,
+      770,
+      1100
+    ]
+  },
+  "exits": [
+    {
+      "to": 7072,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 7078,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 11204,
+  "uid": [
+    2100102
+  ],
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The hallway has been narrowed over time by large stone blocks that may have fallen from the armory's roof.  A thick matting of vines now shrouds the ceiling, so that light and sound are muffled."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      251,
+      260,
+      261,
+      270
+    ]
+  },
+  "exits": [
+    {
+      "to": 11203,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11205,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11219,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": 17984,
+  "uid": [
+    263001
+  ],
+  "title": [
+    "[Inn Pantry, Storage]"
+  ],
+  "description": [
+    "Wine casks, pickle barrels and produce crates have been arranged in this small, tidy room like furniture.  A book, with a sage leaf as a bookmark, rests on an overturned lime carton.  Large burlap bags of flour lean against one wall.  At the rear is a surprisingly sturdy oak door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "rogue guild",
+    "rogueguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Rogue Guild",
+    "mapshortname:Rogue Guild (River's Rest)"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      424,
+      47,
+      451,
+      71
+    ]
+  },
+  "exits": [
+    {
+      "to": 17983,
+      "kind": "go",
+      "cmd": "go bags",
+      "cost": 0.2
+    },
+    {
+      "to": 17985,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

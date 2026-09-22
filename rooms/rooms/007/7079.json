@@ -1,0 +1,50 @@
+{
+  "id": 7079,
+  "uid": [
+    44015
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Pebbles and dirt and sandy grit cover the floor in this stretch of corridor.  You notice with some consternation that there's a large crack in the western wall, from the ceiling down to within a few handspans of the floor.  Dust covers everything, and puffs up in clouds with every step you take."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      841,
+      1050,
+      851,
+      1060
+    ]
+  },
+  "exits": [
+    {
+      "to": 7078,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7080,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7081,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 28893,
+  "uid": [
+    7118236
+  ],
+  "title": [
+    "[Kraken's Fall, Deadeye's Road]"
+  ],
+  "description": [
+    "Sunlight glistens off the sandy dunes to the northwest where bright green and blue beach grasses sway and bend under the tug of a light breeze that carries the scent of salt and dog rose.  A single lantern marks the entry to a path that cuts through the maze of halfling-sized organic blades, while a pair of its brethren lines the cobblestone road where it bends north and east.  A pub fashioned of golden linden boards and large glaesine windows issues quiet music from its open doors.",
+    "Moonlight glistens off the sandy dunes to the northwest where shadowy beach grasses sway and bend under the tug of a light breeze that carries the scent of salt and dog rose.  A single lantern marks the entry to a sandy path that cuts through the maze of dark organic blades, while a pair of its brethren lines the cobblestone road where it bends north and east.  Brightly lit, a pub fashioned of golden linden boards and large glaesine windows issues lively music from its open doors.",
+    "Sunlight glistens off the sandy dunes to the northwest where bright green and blue beach grasses sway and bend under the tug of a light breeze that carries the scent of salt and dog rose.  A single lantern marks the entry to a sandy path that cuts through the maze of halfling-sized organic blades, while a pair of its brethren lines the cobblestone road where it bends north and east.  A pub fashioned of golden linden boards and large glaesine windows issues quiet music from its open doors."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      273,
+      505,
+      288,
+      519
+    ]
+  },
+  "exits": [
+    {
+      "to": 28892,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 28894,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28896,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29119,
+      "kind": "go",
+      "cmd": "go pub",
+      "cost": 0.2
+    }
+  ]
+}

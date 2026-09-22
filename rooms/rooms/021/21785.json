@@ -1,0 +1,39 @@
+{
+  "id": 21785,
+  "title": [
+    "[Road to Talador]"
+  ],
+  "description": [
+    "A worn dirt road winds through a thickly wooded area, the path wide enough to allow wagons to navigate freely.  A crisp breeze travels across the region as the remnants of winter still blanket many trees with snow."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Talador",
+  "tags": [
+    "peer northwest =~ /^Obvious paths: southeast, northwest/"
+  ],
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      306,
+      460,
+      319,
+      473
+    ]
+  },
+  "exits": [
+    {
+      "to": 21786,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21787,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

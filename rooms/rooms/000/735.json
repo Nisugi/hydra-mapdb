@@ -1,0 +1,65 @@
+{
+  "id": 735,
+  "uid": [
+    737008
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "A few patrons walk the cobblestones of the bazaar at night, their faces illuminated by glaesine-paned lanterns set before a row of storefronts.  Several of the shops have closed for the evening, thick curtains concealing the merchandise within.",
+    "In an attempt to draw customers, a quartet of musicians have set up in front of a row of storefronts.  Their effervescent music draws a small crowd and enthusiastic applause after every piece.  Several merchants watch appreciately outside the doorways of their cozy shops."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1373,
+      638,
+      1389,
+      654
+    ]
+  },
+  "exits": [
+    {
+      "to": 734,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 736,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5690,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 5693,
+      "kind": "go",
+      "cmd": "go ivory tower",
+      "cost": 0.2
+    },
+    {
+      "to": 18817,
+      "kind": "go",
+      "cmd": "go black boutique",
+      "cost": 0.2
+    }
+  ]
+}

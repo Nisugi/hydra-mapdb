@@ -1,0 +1,46 @@
+{
+  "id": 27908,
+  "uid": [
+    13112303
+  ],
+  "title": [
+    "[Lounge Lockers]"
+  ],
+  "description": [
+    "Warm light filters through the curtained opening, faintly illuminating the simple cell."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "che:paupers:locker",
+    "locker",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 19257,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

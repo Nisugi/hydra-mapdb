@@ -1,0 +1,44 @@
+{
+  "id": 9100,
+  "uid": [
+    4045209
+  ],
+  "title": [
+    "[Great Cavern, Flue]"
+  ],
+  "description": [
+    "The natural vent is wider than it is tall as it slopes lazily upwards.  Rough steps are carved periodically in the wall that serves as a floor, although they aren't strictly necessary."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, damp",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      201,
+      490,
+      211,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 9099,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9101,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

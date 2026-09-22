@@ -1,0 +1,66 @@
+{
+  "id": 19143,
+  "title": [
+    "[Spitfire, Cargo Hold Alcove]"
+  ],
+  "description": [
+    "The barrels and crates have been cleverly stacked to create a niche off the main thoroughfare winding around the cargo hold.  Brass lanterns are hung on the supporting beams, and the light shining through the lamps' amber glass bathes the small enclosure in a golden glow.  A couple of small doors are framed by the stacked cargo."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      1287,
+      377,
+      1325,
+      414
+    ]
+  },
+  "exits": [
+    {
+      "to": 19134,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19145,
+      "kind": "go",
+      "cmd": "go dark hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23444,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 23446,
+      "kind": "go",
+      "cmd": "go circular hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 23447,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 23449,
+      "kind": "go",
+      "cmd": "go large crate",
+      "cost": 0.2
+    },
+    {
+      "to": 23496,
+      "kind": "other",
+      "cmd": "knock wooden crate",
+      "cost": 0.2
+    }
+  ]
+}

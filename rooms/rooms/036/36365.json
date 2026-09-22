@@ -1,0 +1,41 @@
+{
+  "id": 36365,
+  "uid": [
+    55036
+  ],
+  "title": [
+    "[Keep, Corridor]"
+  ],
+  "description": [
+    "The corridor here widens into an anteroom ending in a large stone door.  The room is mostly empty save for a small table with a simple vase on top, which contains the stains of a ring of evaporated water and the sad remains of some long withered away flowers."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1080,
+      360,
+      1120,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36364,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36366,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

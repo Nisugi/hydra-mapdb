@@ -1,0 +1,40 @@
+{
+  "id": 33630,
+  "uid": [
+    7101151
+  ],
+  "title": [
+    "[Academy, Lower Bailey]"
+  ],
+  "description": [
+    "Displaying visible signs of disrepair, a lofty tower of mottled grey stone rises from the roof of the keep in the center of the open courtyard.  Breached only by a riverstone ashlar arch, the keep's tower rises far above the walls that enclose it and has far fewer missing stones in its safe.  The surrounding grounds are filled with tumbleweeds, broken tree limbs, and a variety of chipped stones, which all lie amid large tufts of greasy feathers."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Vornavis",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      600,
+      425,
+      652,
+      474
+    ]
+  },
+  "exits": [
+    {
+      "to": 33629,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33631,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

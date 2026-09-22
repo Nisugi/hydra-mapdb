@@ -1,0 +1,63 @@
+{
+  "id": 11010,
+  "uid": [
+    216003
+  ],
+  "title": [
+    "[Courtyard]",
+    "[Beacon Hall, Courtyard]"
+  ],
+  "description": [
+    "The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door.  Numerous torches held in wrought iron sconces illuminate the house's exterior and surrounding courtyard.",
+    "Silhouetted against the bay, an imposing structure dominates the paved courtyard.  The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "mapcategory:CHE",
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Beacon Hall Archive",
+    "mapshortname:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      507,
+      769,
+      556,
+      814
+    ]
+  },
+  "exits": [
+    {
+      "to": 11009,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16182,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wooden door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22221,
+      "kind": "go",
+      "cmd": "go gazebo",
+      "cost": 0.2
+    }
+  ]
+}

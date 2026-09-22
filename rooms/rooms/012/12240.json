@@ -1,0 +1,103 @@
+{
+  "id": 12240,
+  "uid": [
+    4571008
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "A plain of snow and ice stretches out as far as the eye can see.  In the twilight sky, shimmering golds, pinks, and blues dance across the heavens.  The colorful lights reflect off of the tiny flakes of snow that fall all around.",
+    "A plain of porous black rock stretches out as far as the eye can see.  The sky is an angry red near the horizon, fading into washed out pinks and blues overhead.  Steam rises out of the ground, hissing violently as some of the larger pockets of superheated vapor are released from below."
+  ],
+  "paths": [
+    "Obvious exits: southwest, down",
+    "Obvious paths: southwest, down"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      183,
+      155,
+      207,
+      179
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12229,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12232,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

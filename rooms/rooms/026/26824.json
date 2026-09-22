@@ -1,0 +1,47 @@
+{
+  "id": 26824,
+  "uid": [
+    855009
+  ],
+  "title": [
+    "[Icemule Hall, West Hallway]"
+  ],
+  "description": [
+    "A long glass display case follows the length of one side of the hallway, various artifacts of importance to Icemule resting safely inside.  A crystal candelabra sits on the other side, lighting the way down this long corridor.  At the end of the hall rest two doors, one green, the other white."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-pro_hall-1512642391.png",
+    "rect": [
+      252,
+      311,
+      380,
+      367
+    ]
+  },
+  "exits": [
+    {
+      "to": 26816,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26825,
+      "kind": "go",
+      "cmd": "go green door",
+      "cost": 0.2
+    },
+    {
+      "to": 26826,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    }
+  ]
+}

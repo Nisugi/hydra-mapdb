@@ -1,0 +1,75 @@
+{
+  "id": 7446,
+  "uid": [
+    306022
+  ],
+  "title": [
+    "[The Broken Lands, Jagged Plain]"
+  ],
+  "description": [
+    "One particularly large boulder sticks straight up in the air like a long, pointed finger.  The cliff that stretches from northwest to southeast is high and sheer, with no apparent way of climbing it.  A dense fog obscures your vision."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "black toadstool",
+    "blackened moss",
+    "giant fog beetle",
+    "hooded figure"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      623,
+      951,
+      633,
+      961
+    ]
+  },
+  "exits": [
+    {
+      "to": 7447,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 7451,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 7452,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23263,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

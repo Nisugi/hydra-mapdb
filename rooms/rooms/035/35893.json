@@ -1,0 +1,61 @@
+{
+  "id": 35893,
+  "uid": [
+    3024009
+  ],
+  "title": [
+    "[River Muagh, Ashen Bend]"
+  ],
+  "description": [
+    "A narrow outcropping of crystal-flecked granite juts from the surface of the river on the west bank, towering over the younger trees growing along the water's edge.  Grey ash striates the muddy, flower-covered banks as it slowly washes into the water's edge."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      98,
+      870,
+      136,
+      907
+    ]
+  },
+  "exits": [
+    {
+      "to": 35860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35894,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

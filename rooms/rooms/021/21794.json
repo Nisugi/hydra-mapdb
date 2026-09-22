@@ -1,0 +1,47 @@
+{
+  "id": 21794,
+  "title": [
+    "[Talador, Farmlands]"
+  ],
+  "description": [
+    "Lush green swathes of grass have begun to slowly drive up from beneath the patches of snow nearby.  Far to the south and west runs an expansive forest congested with giant pine and fir trees, scratching at the skies above."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Talador",
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Talador Hunting West",
+    "mapshortname:Talador Hunting West"
+  ],
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      586,
+      403,
+      599,
+      417
+    ]
+  },
+  "exits": [
+    {
+      "to": 21793,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 21801,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21811,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

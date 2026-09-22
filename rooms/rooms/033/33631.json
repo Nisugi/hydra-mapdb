@@ -1,0 +1,58 @@
+{
+  "id": 33631,
+  "uid": [
+    7101152
+  ],
+  "title": [
+    "[Academy Keep, Great Hall]"
+  ],
+  "description": [
+    "Towering walls of fitted stone line this spacious hall, arcing inward near the top to form the vaulted ceiling above.  Shredded tapestries and faded wall-hangings of purple and gold hang in tattered streamers from the walls among long ribbons of dust-laden spider's webs.  Tables and chairs, splintered and unserviceable, are piled in a large heap near the arch, while a sideboard, still draped in old festival streams, leans precariously near a small passageway cut into the rear wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      601,
+      325,
+      648,
+      373
+    ]
+  },
+  "exits": [
+    {
+      "to": 33630,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33632,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33633,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33634,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 33651,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

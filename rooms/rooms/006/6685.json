@@ -1,0 +1,47 @@
+{
+  "id": 6685,
+  "uid": [
+    487069
+  ],
+  "title": [
+    "[Monastery, Stone Corridor]"
+  ],
+  "description": [
+    "The musty stone corridor ends here at a sculpted black vaalin arch.  Nineteen small crystal globes run the length of the arch, casting an eerie blue tint over everything in the room.  From the north, a faint breeze rushes in, causing the dust on the floor to swirl to life for a moment before settling back down between the cracks in the stones that line the floor.  An open doorway stands to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      276,
+      1356,
+      286,
+      1366
+    ]
+  },
+  "exits": [
+    {
+      "to": 6683,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6686,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6687,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 2383,
+  "uid": [
+    4042123
+  ],
+  "title": [
+    "[Underground Tunnel]",
+    "[Magical Burrow, Tunnelway]"
+  ],
+  "description": [
+    "Roots dangle from the ceiling and snatch from the walls of the tunnel, old and nearly as unyielding as iron.  The fog choking the ground swirls and eddies, driven by the languorous air currents underground.  So cold is it below the earth that the walls have frozen.  They glisten darkly with a sheet of glassy ice.",
+    "Roots dangle from the ceiling and from the walls.  As you move they continually brush against you, almost like some small insects were running all over you.  Instinctively, you run a quick hand across your face to brush the imaginary creatures away."
+  ],
+  "paths": [
+    "Obvious exits: east, south",
+    "Obvious exits: north, east"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "subterranean",
+  "tags": [
+    "bolmara lichen",
+    "glassfern frond",
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1202,
+      145,
+      1212,
+      155
+    ]
+  },
+  "exits": [
+    {
+      "to": 2382,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2384,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9071,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    }
+  ]
+}

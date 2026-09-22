@@ -1,0 +1,41 @@
+{
+  "id": 36361,
+  "uid": [
+    55031
+  ],
+  "title": [
+    "[Keep, Corridor]"
+  ],
+  "description": [
+    "Dim, dust-speckled light filters in through small airshafts along the ceiling, illuminating a path through the rubble leading away from a narrow arch between two spindly columns.  Broken furniture and mildew-covered lengths of cloth mingle with the mud and dirt on the granite floor.  The walls contain tall niches, each housing a metal cage, now ruined, that bears traces of gilt and a few semi-precious stones."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1080,
+      680,
+      1120,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36360,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36362,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

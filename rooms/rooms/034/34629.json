@@ -1,0 +1,46 @@
+{
+  "id": 34629,
+  "uid": [
+    4572036
+  ],
+  "title": [
+    "[Sablecross, Hollow Bend]"
+  ],
+  "description": [
+    "A cold pall hangs over the stretch of cobblestone road, which treads uneasily beneath the shadow of the township's outer wall.  Bounded by the road, a lichyard occupies a series of rolling slopes clad in downy green grass.  Headstones, pale as bare bones, breach out of the soil, but many are graced with bright flowers and other mementos.  The yard is bordered by a fence of black wrought iron that frames an arched entrance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      601,
+      667,
+      629,
+      697
+    ]
+  },
+  "exits": [
+    {
+      "to": 34628,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34630,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34657,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    }
+  ]
+}

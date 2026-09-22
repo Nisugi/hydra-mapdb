@@ -1,0 +1,38 @@
+{
+  "id": 14060,
+  "uid": [
+    14110102
+  ],
+  "title": [
+    "[Hall of the Arkati, Lower Hall]"
+  ],
+  "description": [
+    "Here the hallway ends its long descent, amid pillars of cold, dark basalt, the tops of which are lost amid the shadows far above.  The only light to relieve the cold darkness glimmers from higher up the passage, to the east, as faint as the memory of summer at mid-winter.  In that dim light, gems set into a massive vaalorn door glint coldly, casting an unearthly light on a dark-hued tapestry."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 13766,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20430,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "vaalorn_door"
+      },
+      "cost": 300.0
+    }
+  ]
+}

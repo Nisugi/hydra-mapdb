@@ -1,0 +1,63 @@
+{
+  "id": 31591,
+  "uid": [
+    8083010
+  ],
+  "title": [
+    "[Evermore Hollow, Fate's Fire]"
+  ],
+  "description": [
+    "Buildings grow sparse as a well-trodden cobblestone pathway wends through the area on its way around a hillock covered in knee-high grasses whose entrance is blocked by a spear-topped black iron gate.  Saturated in crimson, orange, and yellow hues, the small courtyard is filled with a perpetually burning bonfire surrounded by dried-out ancient logs amid singed baskets of firewood.  Near the northeast, the faint outline of a dull green moss-covered stone arch supported by slanted buildings can be seen."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "node"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      542,
+      555,
+      565,
+      577
+    ]
+  },
+  "exits": [
+    {
+      "to": 31572,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31592,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31593,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 31598,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31600,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

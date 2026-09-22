@@ -1,0 +1,53 @@
+{
+  "id": 30793,
+  "uid": [
+    7120002,
+    7120014,
+    7120026,
+    7120038,
+    7120050,
+    7120062,
+    7120074
+  ],
+  "title": [
+    "[Enemy Ship, Helm]"
+  ],
+  "description": [
+    "Situated across from a wheel and laced with coils of thick, braided hemp rope, a capstan is prepared to weigh or drop anchor.  A viciously barbed harpoon is tangled in a mess of nets near a short flight of stairs, with a wooden door at bottom leading to the quarters of the captain.  A dagger-pierced parchment on the door proclaims, \"ENTER AT YOUR OWN RISK!\""
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy brigantine"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      764,
+      418,
+      778,
+      432
+    ]
+  },
+  "exits": [
+    {
+      "to": 30792,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30794,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 6887,
+  "uid": [
+    21139
+  ],
+  "title": [
+    "[Abandoned Inn, Mirror Room]"
+  ],
+  "description": [
+    "You are in a small room, doorless and windowless.  The walls are all shrouded in thick black drapes that seem to suck in all the heat and light near them.  In the center of the room stands a small pedestal, with a large crystal sphere upon it.  A full length mirror rests against one wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      875,
+      1458,
+      885,
+      1468
+    ]
+  },
+  "exits": [
+    {
+      "to": 6882,
+      "kind": "other",
+      "cmd": "touch mirror",
+      "cost": 0.2
+    },
+    {
+      "to": 6884,
+      "kind": "go",
+      "cmd": "go mirror",
+      "cost": 0.2
+    }
+  ]
+}

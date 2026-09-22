@@ -1,0 +1,96 @@
+{
+  "id": 23661,
+  "uid": [
+    255058
+  ],
+  "title": [
+    "[Mist Harbor, Jungle Path]"
+  ],
+  "description": [
+    "At the end of the path through the jungle, a great wooden arch looms at the edge of a small clearing.  A large longhouse can be seen up ahead with an expanse of green lawn that circles the structure.  Several out-buildings recessed into the enveloping jungle are all but hidden from view in the thick foliage"
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Isle of the Four Winds",
+    "mapcategory:Premium",
+    "mapname:Four Winds - Warrior Guild",
+    "mapshortname:Warrior Guild (IFW)"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      378,
+      634,
+      402,
+      657
+    ]
+  },
+  "exits": [
+    {
+      "to": 17518,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23662,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

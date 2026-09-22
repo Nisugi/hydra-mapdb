@@ -1,0 +1,69 @@
+{
+  "id": 9397,
+  "uid": [
+    160014
+  ],
+  "title": [
+    "[Darbo Phoop's, Consignment]"
+  ],
+  "description": [
+    "The shop's granite floor continues to extend into this area, but has changed from blue to dark grey streaked with white swirls.  From the ceiling, a massive contraption hangs by tightly woven rope, its purpose unclear."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "alchemy",
+    "consignment",
+    "no forageables",
+    "urchin guide alchemy",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 9396,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

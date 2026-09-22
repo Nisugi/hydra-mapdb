@@ -1,0 +1,47 @@
+{
+  "id": 1780,
+  "uid": [
+    13105001
+  ],
+  "title": [
+    "[Ta'Illistim, Hall of Justice]"
+  ],
+  "description": [
+    "The high stone walled room is rather featureless, save for a towering statue which dominates the center of the room.  The statue appears to be that of a heavily armored swordsman, his sword pointed downward as if judging all who enter.  Opposite the Hall's entrance, you can see another set of double doors leading to the courtroom."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 717,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1779,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 1781,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33371,
+      "kind": "go",
+      "cmd": "go silver-gilt arch",
+      "cost": 0.2
+    }
+  ]
+}

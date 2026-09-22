@@ -1,0 +1,69 @@
+{
+  "id": 2675,
+  "uid": [
+    4562001
+  ],
+  "title": [
+    "[Antechamber, Hill of Ice]"
+  ],
+  "description": [
+    "An anteroom is flanked with arches to the left and right.  The walls are dark stone, rising overhead to a peak that follows the curve of the vaulting.   Footing is hazardous, owing to the sheet of ice coating everything with its brittle, glistening veneer.  Through the arches, courses of stairs can be glimpsed, composed of the same dark stone and filled with shadows."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      363,
+      728,
+      373,
+      738
+    ]
+  },
+  "exits": [
+    {
+      "to": 2674,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2676,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2677,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put_until": {
+            "command": "pull ring",
+            "until": [
+              "A deep grinding sound echoes through the sepulchral halls of the shrine.  Slowly, the stone door begins to rise, drawing upwards into the top of its frame.  Inch by inch it crawls, steadily ascending to reveal light beyond.  Within a short time, it has withdrawn completely, leaving an open doorway that beckons you outside",
+              "Gathering your strength, you give the brass ring a mighty tug, but it will not budge an inch"
+            ]
+          }
+        },
+        {
+          "fill_hands": null
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 24267,
+  "title": [
+    "[Coral Workshop]"
+  ],
+  "description": [
+    "Howling winds create a feint whistling effect as they blast through gaps in the walls of the small workshop.  Crowded with a grinder, polisher, and a workbench with a vise, this room is perhaps a third of the building's interior.  Besides the exit, an iron bound door pierces the center of the hut's one interior wall.  For whatever reason, the bases of the workbench, grinder, and polisher have each been inlaid with fragments of coral."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "River's Rest",
+  "exits": [
+    {
+      "to": 11015,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24268,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

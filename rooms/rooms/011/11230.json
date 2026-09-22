@@ -1,0 +1,50 @@
+{
+  "id": 11230,
+  "uid": [
+    377210
+  ],
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Tattered cobwebs hang from the ceiling and cover the dusty, brass oil lamp.  Painted on the wall beside a wide staircase are the words Staff Only.  A dented brass lantern hangs from the ceiling.  Tiny fungi grow in the cracks of the wide-planked floor.  A skeleton lies crumpled beside the staircase."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      165,
+      574,
+      175,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 11229,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11231,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 11234,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

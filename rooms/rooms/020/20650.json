@@ -1,0 +1,46 @@
+{
+  "id": 20650,
+  "uid": [
+    258012
+  ],
+  "title": [
+    "[Warrior Guild, North Walkway]"
+  ],
+  "description": [
+    "Silvery blue moss clings to a wrought iron fence surrounding a silvery blue travertine building, the profusive growth standing out against the dark metal.  An etched white quartz tablet has been erected nearby and cobbles of bright white border the adjacent walkway."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      385,
+      136,
+      404,
+      155
+    ]
+  },
+  "exits": [
+    {
+      "to": 20646,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20651,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 20670,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

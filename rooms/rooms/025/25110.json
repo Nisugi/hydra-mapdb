@@ -1,0 +1,45 @@
+{
+  "id": 25110,
+  "uid": [
+    -7105152
+  ],
+  "title": [
+    "[Reim Castle, West Wing]"
+  ],
+  "description": [
+    "Framed with solid gold, an iron-bound door, carved from dark heartwood bars the way forward.  Above the door is a golden plaque, elegantly hung from two golden rods.  The plush carpet from the south continues to the west, leading down another wing of the castle."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      308,
+      342,
+      319,
+      352
+    ]
+  },
+  "exits": [
+    {
+      "to": 25109,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25111,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25120,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

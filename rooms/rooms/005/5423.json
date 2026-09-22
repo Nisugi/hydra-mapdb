@@ -1,0 +1,53 @@
+{
+  "id": 5423,
+  "uid": [
+    319117
+  ],
+  "title": [
+    "[Bonespear Tower, Hallway]"
+  ],
+  "description": [
+    "A tattered red carpet covers the length of this passage, and its condition is no better than the large tanik picture frame hanging on one wall.  The portrait has been knocked cock-eyed, and the canvas is completely ruined by scratches.   The hallway ends with an archway to the east and a similar passage that branches off to the south."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      1022,
+      965,
+      1030,
+      973
+    ]
+  },
+  "exits": [
+    {
+      "to": 5420,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5424,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13025,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

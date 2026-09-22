@@ -1,0 +1,63 @@
+{
+  "id": 2677,
+  "uid": [
+    4561131
+  ],
+  "title": [
+    "[Top of the World, Aenatumgana]"
+  ],
+  "description": [
+    "Whirling snow is tinted an incongruous rose color by the low arctic light.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a shining gold crown is mounted in bas-relief, erratically throwing out brilliant reflections as light fights through the fog to caress it.",
+    "Whirling snow is tinted silvery grey by the low arctic moonlight.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a gold crown is mounted in bas-relief, erratically throwing out muted reflections as moonlight fights through the fog to caress it."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the great mountain Aenatumgana",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "daggit root",
+    "feverfew stalk",
+    "gok nut",
+    "ironfern root",
+    "manroot stalk",
+    "mount:return",
+    "pennyroyal stem",
+    "red lichen",
+    "red winterberry",
+    "sassafras leaf",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      747,
+      526,
+      758,
+      537
+    ]
+  },
+  "exits": [
+    {
+      "to": 2675,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "crown_door"
+      },
+      "cost": 12.0
+    },
+    {
+      "to": 2678,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

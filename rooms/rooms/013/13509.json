@@ -1,0 +1,47 @@
+{
+  "id": 13509,
+  "uid": [
+    4749408
+  ],
+  "title": [
+    "[Temple of Industry, Junction]"
+  ],
+  "description": [
+    "An arch of fluted silver gleams in the northern wall, marking the intersection of the southeastern and southwestern paths.  Visible through its argent borders is a sloping corridor leading into a muraled chamber.  To the south, the floor stones march into a low tunnel beneath the entryway's platform."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, down"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 13507,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13508,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13510,
+      "kind": "go",
+      "cmd": "go corridor",
+      "cost": 0.2
+    },
+    {
+      "to": 13511,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

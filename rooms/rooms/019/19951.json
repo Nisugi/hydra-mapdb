@@ -1,0 +1,55 @@
+{
+  "id": 19951,
+  "uid": [
+    28141
+  ],
+  "title": [
+    "[Museum, Hall of Knowledge]"
+  ],
+  "description": [
+    "Mahogany-paneled walls encapsulate this small room.  Low bookshelves dot the pale gold marble floor, their dark mahogany surfaces polished to a shine and adorned with astrolabes, compasses, and various other objects.  A solid oak door with a small gold plaque resides between two tapestries depicting scholars at work studying tomes and scrolls.  On the opposite wall, an onyx arch leads to another room.  Standing between the two exits is a white metal sign on an iron stand, while on the south side wall, a mahogany arch with a bas-relief floral design leads to the second floor lobby."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "lumnis donate",
+    "lumnisdonate"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      1257,
+      627,
+      1400,
+      688
+    ]
+  },
+  "exits": [
+    {
+      "to": 19950,
+      "kind": "go",
+      "cmd": "go mahogany arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19966,
+      "kind": "go",
+      "cmd": "go onyx arch",
+      "cost": 0.2
+    },
+    {
+      "to": 19967,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

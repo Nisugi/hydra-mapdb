@@ -1,0 +1,88 @@
+{
+  "id": 11357,
+  "uid": [
+    377017
+  ],
+  "title": [
+    "[Ravine Bottom]"
+  ],
+  "description": [
+    "You are at the very bottom of a ravine.  Above you looms an odd structure with ropes and pulleys and lots of things that do complex stuff.  It looks as if the only way out of here is up the southern wall."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "rough",
+  "tags": [
+    "banana leaf",
+    "blue poppy",
+    "broken twig",
+    "cactus flower",
+    "ghost pepper",
+    "golden poppy",
+    "heath aster",
+    "horseradish root",
+    "hot pepper",
+    "moonlight cactus-bloom",
+    "pepperthorn root",
+    "pink poppy",
+    "purple poppy",
+    "red poppy",
+    "stalk of chicory",
+    "white poppy",
+    "wild rose",
+    "yellow poppy",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      236,
+      1338,
+      248,
+      1350
+    ]
+  },
+  "exits": [
+    {
+      "to": 11355,
+      "kind": "scripted",
+      "steps": [
+        {
+          "stance": "offensive"
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "restore_stance": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 11358,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "climb footholds"
+            ],
+            "still_here"
+          ]
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

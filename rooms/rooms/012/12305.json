@@ -1,0 +1,121 @@
+{
+  "id": 12305,
+  "uid": [
+    3201055
+  ],
+  "title": [
+    "[Cobblestone Path, Gate]"
+  ],
+  "description": [
+    "The cobblestone path winds northwest up the hill, surrounded by a thick blanket of emerald green grass.  Wildflowers of various hues and sizes intermingle with the long strands of grass, both bowing to the soft breeze blowing past.  An intricate wrought iron gate, a pair of silver and gold-plated doves at its center, leads into the wedding glade.",
+    "The cobblestone path winds northwest up the hill, surrounded by a thick blanket of emerald green grass.  Twin burning torches flank the wrought iron gate, which guards the entrance to the wedding glade, their light reflecting off the silver and gold-plated doves at the gate's center.  The soft evening breeze rustles the leaves of the nearby hydrangea bushes and carries upon it the sweet scent of the fragrant blossoms.",
+    "The cobblestone path winds northwest up the hill, surrounded by a thick blanket of emerald green grass.  Wildflowers of various hues and sizes intermingle with the long strands of grass, both bowing to the soft breeze blowing past.  An intricate wrought iron gate, a pair of silver and gold-plated doves at its center, leads into the wedding glade.  At the edge of the encroaching jungle lies an overgrown meandering path.",
+    "The cobblestone path winds northwest up the hill, surrounded by a thick blanket of emerald green grass.  Twin burning torches flank the wrought iron gate, which guards the entrance to the wedding glade, their light reflecting off the silver and gold-plated doves at the gate's center.  The soft evening breeze rustles the leaves of the nearby hydrangea bushes and carries upon it the sweet scent of the fragrant blossoms.  At the edge of the encroaching jungle lies an overgrown meandering path."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hilly",
+  "tags": [
+    "black tea leaves",
+    "bloodwood twig",
+    "bolmara lichen",
+    "brostheras grass",
+    "butterfly pea flower",
+    "cherry peppers",
+    "ebony twig",
+    "fresh catnip",
+    "fresh cilantro",
+    "fresh lemongrass",
+    "green pear",
+    "green tea leaves",
+    "ironfern root",
+    "luckbloom blossom",
+    "mate leaves",
+    "oak twig",
+    "peppermint leaves",
+    "purple tea leaves",
+    "red cherries",
+    "rose-marrow root",
+    "slender twig",
+    "small watermelon",
+    "sprig of rooibos",
+    "stalk of celery",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "tea leaves",
+    "twisted twig",
+    "urchin guide weddinghall",
+    "urchin-access",
+    "white tea leaves",
+    "wild rice",
+    "yew twig"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2073,
+      625,
+      2105,
+      655
+    ]
+  },
+  "exits": [
+    {
+      "to": 12304,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19587,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 21089,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

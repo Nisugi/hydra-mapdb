@@ -1,0 +1,38 @@
+{
+  "id": 36531,
+  "uid": [
+    8211004
+  ],
+  "title": [
+    "[Sylinar's Spire, Third Floor]"
+  ],
+  "description": [
+    "Plum velvet drapes sweep along a third of the curved wall, their folds gathered in heavy arcs that soften the stone, while the remaining span is carved into recessed shelving lined with neatly arranged volumes and small curios.  At center, a spiraling stone staircase continues its ascent, pale wood and cobbled stone turning upward toward the fourth level as its iron railing glints in the ambient light.  Flickering light dances along the descending steps, slipping around the curve before fading into shadow."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 36529,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 36532,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36533,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 27408,
+  "title": [
+    "[Carnival, Wild Walkway]"
+  ],
+  "description": [
+    "Vibrant pennants are strung along the edges of the wagons bordering the walkway along the north and east.  Odd-sized crates and boxes, stacked haphazardly, fill the gaps between the wagons.  Children play with colorful streamers as lively carnival goers pass through in festive outfits."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      675,
+      189,
+      726,
+      236
+    ]
+  },
+  "exits": [
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27407,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27409,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27422,
+      "kind": "go",
+      "cmd": "go dirty wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 27424,
+      "kind": "go",
+      "cmd": "go red wagon",
+      "cost": 0.2
+    }
+  ]
+}

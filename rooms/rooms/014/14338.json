@@ -1,0 +1,41 @@
+{
+  "id": 14338,
+  "uid": [
+    4901108
+  ],
+  "title": [
+    "[The Krawling Kraken, Upstairs]"
+  ],
+  "description": [
+    "The hallway sprawls out, extending to the north and the south.  The golden glow of candlelight from the overhead chandelier throws puddles of light against the polished mahogany walls and on the carpeted floor.  A single engraved oak door sits nestled flush against the eastern wall next to a small ivory statue of an imp playing a miniaturized lute."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14334,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14339,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14340,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

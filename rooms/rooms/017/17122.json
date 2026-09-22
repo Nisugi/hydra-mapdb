@@ -1,0 +1,52 @@
+{
+  "id": 17122,
+  "uid": [
+    256210
+  ],
+  "title": [
+    "[Warrior Guild, Training Arena]"
+  ],
+  "description": [
+    "Upon entering the gates that lead to and from the courtyard, the nexus of the training area is posed to offer all manner of warrior training.  The variety is plainly visible in the rows of apparatus and entrances to separate training courts."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild dummies",
+    "warrior guild metal stage doors",
+    "warrior guild wheel",
+    "warrior guild wooden stage doors"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      324,
+      1213,
+      348,
+      1240
+    ]
+  },
+  "exits": [
+    {
+      "to": 17121,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 18762,
+      "kind": "go",
+      "cmd": "go wooden doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18763,
+      "kind": "go",
+      "cmd": "go metal doors",
+      "cost": 0.2
+    }
+  ]
+}

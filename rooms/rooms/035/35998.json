@@ -1,0 +1,34 @@
+{
+  "id": 35998,
+  "uid": [
+    2174056
+  ],
+  "title": [
+    "[Helden Hall, Cubbyhole]"
+  ],
+  "description": [
+    "Small and cramped, the room is more like a closet.  A curtained archway covers one whole wall, while a small lever protrudes from another."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Cysaegir",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 35997,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 35999,
+      "kind": "go",
+      "cmd": "go curtained archway",
+      "cost": 0.2
+    }
+  ]
+}

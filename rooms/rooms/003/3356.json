@@ -1,0 +1,57 @@
+{
+  "id": 3356,
+  "uid": [
+    4042108
+  ],
+  "title": [
+    "[Magical Burrow, Banshee Lane]"
+  ],
+  "description": [
+    "The lane swerves between a row of rickety shops occupied by merchants trafficking in wares mundane, magical, and outright preposterous.  Not all of the structures are permanent, as the storefronts are joined by tents and the occasional covered wagon.  One stand sports a fresh coat of white paint and a brightly polished brass sign.",
+    "The hustle and bustle of Banshee Lane passes between a row of rickety stands occupied by merchants hawking a variety of magical and mundane wares.  One long-empty stand features a bright coat of white paint and a brightly polished brass sign."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      317,
+      520,
+      353,
+      556
+    ]
+  },
+  "exits": [
+    {
+      "to": 2361,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2366,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17693,
+      "kind": "go",
+      "cmd": "go hovel",
+      "cost": 0.2
+    },
+    {
+      "to": 26920,
+      "kind": "go",
+      "cmd": "go stand",
+      "cost": 0.2
+    }
+  ]
+}

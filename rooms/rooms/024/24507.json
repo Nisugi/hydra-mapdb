@@ -1,0 +1,113 @@
+{
+  "id": 24507,
+  "uid": [
+    13112521
+  ],
+  "title": [
+    "[Twilight Lodge, Clearing]"
+  ],
+  "description": [
+    "An ivy-covered riverstone lodge provides tranquil refuge in the darkness, light from its windows reflecting off the nearby towering silver lor tree and an eahnor-streaked waxing stone moon.  Across the clearing, a magnificent angel oak erupts from the ground, its many gnarled and twisted limbs embrace the glade, shielding it from the encroaching forest.  A braided hemp ladder hangs from the lor tree, and a glowbark dart board embellished with an astral rune is mounted on the oak.",
+    "An ivy-covered riverstone lodge basks in the sun alongside a towering silver lor tree and an eahnor-streaked waxing stone moon.  Across the clearing, a magnificent angel oak erupts from the ground, its many gnarled and twisted limbs embrace the glade, shielding it from the encroaching forest.  A braided hemp ladder hangs from the lor tree, and a glowbark dart board embellished with an astral rune is mounted on the oak."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "arbutus berry",
+    "birch bark",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coppery rain lily",
+    "crystal-like sylthiel",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden buttercup",
+    "handful of pinenuts",
+    "haphip root",
+    "ironfern root",
+    "oxblood lily",
+    "pine cone",
+    "pine needles",
+    "pink rain lily",
+    "red thanot berry",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "tanik twig",
+    "thanot thorn",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "white baneberry",
+    "white lily",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "meta": [
+    "che:twilight_hall:entrance_annex",
+    "locker annex:Twilight Hall",
+    "mapcategory:CHE:Twilight Hall Annex (Elven Nations)",
+    "mapcategory:Elven Nations:Twilight Hall Annex",
+    "mapname:Elven Nations - Twilight Hall Annex"
+  ],
+  "image": {
+    "file": "en-TwilightHallAnnex.png",
+    "rect": [
+      86,
+      147,
+      226,
+      239
+    ]
+  },
+  "exits": [
+    {
+      "to": 4709,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go forest"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24508,
+      "kind": "go",
+      "cmd": "go hemp ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 24509,
+      "kind": "go",
+      "cmd": "go riverstone lodge",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 35155,
+  "uid": [
+    4426704
+  ],
+  "title": [
+    "[The Raider's Take, Corridor]"
+  ],
+  "description": [
+    "Large glass-paned windows rimmed in frost gaze out upon the streets beyond and heavy wrought iron braziers fill the air with warmth and the scent of burning cedar and sandalwood.  Pelts adorn the walls, the refined pieces on display for visitors to admire and view as they pass down the corridor.  A set of steps leads into the open court where tables are arranged before a bar, while an archway leads to the inn's accommodations."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Glaoveln",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 35154,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35156,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 35157,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

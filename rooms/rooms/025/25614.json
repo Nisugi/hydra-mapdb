@@ -1,0 +1,101 @@
+{
+  "id": 25614,
+  "uid": [
+    14117023
+  ],
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Stretches of white water make boat travel more difficult, but not yet impossible on this section of the river.  The current rolls and splashes swiftly here, where leaves and foolhardy insects are quickly swept under the surface, then disgorged further downstream.  Undaunted, a beaver swims against the flow, a long stick clenched in its teeth.  A shallow u-shaped bend in the eastern bank bustles with activity as other beavers contribute to the dam-building project."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1243,
+      930,
+      1261,
+      949
+    ]
+  },
+  "exits": [
+    {
+      "to": 23527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25544,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row north",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 8259,
+  "uid": [
+    390015
+  ],
+  "title": [
+    "[Wolves' Den, Mess Hall]"
+  ],
+  "description": [
+    "Long tables nearly span this large, square room, lined with neat rows of wooden chairs.  Upon the tables are stone pitchers, but nothing else.  To the east, an opening in the wall leads to a larger chamber.  The double doors set in the southern wall have fallen off their hinges, leaving the way unbarred."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      168,
+      381,
+      178,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 8230,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 8260,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8261,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

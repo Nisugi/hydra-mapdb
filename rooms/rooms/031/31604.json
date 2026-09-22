@@ -1,0 +1,50 @@
+{
+  "id": 31604,
+  "uid": [
+    8083054
+  ],
+  "title": [
+    "[Moorlyn, River's End]"
+  ],
+  "description": [
+    "Disconnected from the commotion of town by an elaborate iron gate, a thick veil of fog rises from the warm, marshy ground and lingers heavily in the air.  Marigolds, their vibrant yellow still visible through the heavy mist, are nestled in crowded patches of cordgrass and decorate a dry riverbed as it winds aimlessly through the marshland."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "hot, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1073,
+      555,
+      1095,
+      576
+    ]
+  },
+  "exits": [
+    {
+      "to": 31603,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 31614,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31619,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

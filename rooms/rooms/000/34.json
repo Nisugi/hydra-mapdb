@@ -1,0 +1,49 @@
+{
+  "id": 34,
+  "uid": [
+    13100006
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Wey]"
+  ],
+  "description": [
+    "The buttressed stonework of the Sapphire Gate looms high above, casting shadows across the cobblestoned street beyond.  Rows of flaming torches line the wey as it wends southwesterly deeper into the city.  A few travellers and townsfolk scurry up and down the wey, each industriously about their business at this late hour.",
+    "The buttressed stonework of the Sapphire Gate looms high above, casting shadows across the cobblestoned street beyond.  Carrying the smells and noise of the throngs along them in waves, the crowds push further into the city.",
+    "The ogee arch of the Sapphire Gate looms high above, overlooking the cobblestoned street beyond.  In its shadow, the cobblestones are turned from silver into black, though a few lanterns give off a bright blue glow, forming pockets of light amidst the pooled darkness of night.",
+    "The ogee arch of the Sapphire Gate looms high above, overlooking the cobblestoned street beyond.  In its shadow, the cobblestones are turned from silver into grey, though a few lanterns give off a dim blue glow, dispelling some of the pooled darkness."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advpickup",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1554,
+      736,
+      1579,
+      759
+    ]
+  },
+  "exits": [
+    {
+      "to": 33,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

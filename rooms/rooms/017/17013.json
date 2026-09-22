@@ -1,0 +1,43 @@
+{
+  "id": 17013,
+  "uid": [
+    254025
+  ],
+  "title": [
+    "[Cold Storage]"
+  ],
+  "description": [
+    "Huge blocks of ice are stacked in the southeastern corner of this large room, forming a corridor that leads north then east from here.  Several ice hooks hang on hooks along the wall to aid in moving the blocks of ice."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "tags": [
+    "warrior guild iceblocks"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1128,
+      194,
+      1149,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 17012,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17045,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

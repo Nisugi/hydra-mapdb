@@ -1,0 +1,143 @@
+{
+  "id": 25616,
+  "uid": [
+    14117016
+  ],
+  "title": [
+    "[Mistydeep, Sorcerer's Isle]"
+  ],
+  "description": [
+    "Rising from a thick section of forest at the island's core, what first appeared to be a startlingly uniform rock pillar can now be seen as a colossal hexagonal tower.  Six smaller turrets, each staggered at a different height around its circumference, peer eerily outward.  The woodlands here are wild and dense, with animal signs all around, yet the air is unnaturally silent.  Even the Mistydeep seems muted, as if preserving some long-forgotten secret."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1163,
+      812,
+      1181,
+      831
+    ]
+  },
+  "exits": [
+    {
+      "to": 18841,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row northeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim northeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25615,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row southeast",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 25617,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "row north",
+          "when": {
+            "posture": "sitting"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "posture": "sitting"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "otherwise": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30509,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": {
+        "when": {
+          "not": {
+            "posture": "sitting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

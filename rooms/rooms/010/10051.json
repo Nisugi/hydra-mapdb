@@ -1,0 +1,68 @@
+{
+  "id": 10051,
+  "uid": [
+    13036506
+  ],
+  "title": [
+    "[North Barrow, Central Chamber]"
+  ],
+  "description": [
+    "The spacious, roughly oval chamber is suffused with a dim light that seems to come from nowhere in particular, certainly not from the charred but empty sconces carved into the heavy stone walls.  The heavy timbers of the ceiling bow under the weight of the mound above, and a few drops of muddy water drip steadily on the ancient granite blocks of the floor.  Low stone arches lead into dark tunnels at the corners of the chamber, and a narrow passage opens to the north."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "the Yegharren Plains",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      1350,
+      250,
+      1360,
+      260
+    ]
+  },
+  "exits": [
+    {
+      "to": 10050,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10052,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10054,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10055,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10057,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10058,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    }
+  ]
+}

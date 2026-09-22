@@ -1,0 +1,46 @@
+{
+  "id": 19524,
+  "uid": [
+    655013
+  ],
+  "title": [
+    "[Empath Guild, Courtyard]"
+  ],
+  "description": [
+    "Neatly cultivated beds of acantha and woth scent the air with its delicate perfume.  The slender cobblestone walk that surrounds this quaint courtyard culminates in a raised patio set against a backdrop of flowering ivy."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "cultivated",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      471,
+      560,
+      527,
+      618
+    ]
+  },
+  "exits": [
+    {
+      "to": 19510,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19516,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19525,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    }
+  ]
+}

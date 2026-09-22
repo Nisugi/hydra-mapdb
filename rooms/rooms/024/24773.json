@@ -1,0 +1,49 @@
+{
+  "id": 24773,
+  "uid": [
+    212014
+  ],
+  "title": [
+    "[Helden Hall, Antechamber]"
+  ],
+  "description": [
+    "The door leads into a pristine white chamber.  The overwhelming whiteness of the room reminds you of the glaciers on top of Glatoph mountain, and the snowshoes in the corner reinforce the feeling of being in a snow-covered chalet.  The grey stone floor is covered by a huge pure white bearskin rug.  A large stone hearth takes up nearly one wall and a narrow window lets in a muted light along with the scent of brine from the bay.  A small circular staircase leads up into the bedchamber."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      923,
+      731,
+      961,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 4277,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 24769,
+      "kind": "go",
+      "cmd": "go oaken door",
+      "cost": 0.2
+    },
+    {
+      "to": 24879,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

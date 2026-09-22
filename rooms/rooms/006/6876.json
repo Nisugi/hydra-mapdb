@@ -1,0 +1,50 @@
+{
+  "id": 6876,
+  "uid": [
+    21125
+  ],
+  "title": [
+    "[Abandoned Inn, Cellar]"
+  ],
+  "description": [
+    "A small window set high in the wall provides dim light to this slightly musty cellar.  A few boxes and pieces of unused kitchen equipment lean in the corner nearest the trapdoor, likely placed for easiest access by the kitchen staff.  A few wispy cobwebs decorate the ceiling, looking recently spun by spiders made homeless in a good sweeping.  A door opens in the south wall, giving a glimpse of racks beyond it."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      986,
+      1026,
+      996,
+      1036
+    ]
+  },
+  "exits": [
+    {
+      "to": 6875,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 6877,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6878,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": 2406,
+  "uid": [
+    4043601
+  ],
+  "title": [
+    "[Cottage, Living Room]"
+  ],
+  "description": [
+    "Littered about the main room of the rickety cottage are cots made of stone.  They look very functional but also very hard and uncomfortable.  Several wounded people lie on them, being tended to by Mirtag, the local healer."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "healer",
+    "mirtag",
+    "no forageables",
+    "npchealer",
+    "urchin guide healer",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      227,
+      966,
+      263,
+      1002
+    ]
+  },
+  "exits": [
+    {
+      "to": 2403,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 2405,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 19225,
+  "uid": [
+    263056
+  ],
+  "title": [
+    "[Narrow Tunnel]"
+  ],
+  "description": [
+    "Sunlight filters in through a thick, frosted window set high on the wall.  To the north is a carefully engineered tunnel.  A knotted rope leads up through a hole in the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      247,
+      619,
+      277,
+      641
+    ]
+  },
+  "exits": [
+    {
+      "to": 19223,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19226,
+      "kind": "climb",
+      "cmd": "climb rope",
+      "cost": 0.2
+    }
+  ]
+}

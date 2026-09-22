@@ -1,0 +1,41 @@
+{
+  "id": 10957,
+  "uid": [
+    2101957
+  ],
+  "title": [
+    "[River's Rest Inn, Meeting Hall]"
+  ],
+  "description": [
+    "Like any good inn, this one has a meeting hall, well suited to large gatherings.  This hall serves as a gathering spot for those interested in relaxing in the company of good friends.  There is an oaken doorway leading to a dining area featuring several tables with high-backed chairs and off to one side you notice a small door that just might lead to a kitchen, judging from the wonderful smells that seem to come from that direction.  At the far end of the room, a small stage rises above the main floor."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 10956,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10958,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 17081,
+      "kind": "go",
+      "cmd": "go small door",
+      "cost": 0.2
+    }
+  ]
+}

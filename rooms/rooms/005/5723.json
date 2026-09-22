@@ -1,0 +1,68 @@
+{
+  "id": 5723,
+  "uid": [
+    4740012
+  ],
+  "title": [
+    "[Sargassa's, Infirmary]"
+  ],
+  "description": [
+    "Cots covered in soft blankets line the walls of this cozy, darkened room.  A merry fire dances in a small fireplace opposite the door.  From an iron pot dangling over the fire, a foul-smelling concoction bubbles over.  An ancient-looking elven woman bustles about, herbs bursting from her apron pockets and bandages dangling from her arms."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "npchealer",
+    "urchin guide healer",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 5722,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

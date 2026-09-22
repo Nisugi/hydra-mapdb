@@ -1,0 +1,60 @@
+{
+  "id": 18175,
+  "uid": [
+    52007
+  ],
+  "title": [
+    "[Melgorehn's Reach, Slope]"
+  ],
+  "description": [
+    "You are at the base of a slope which runs straight up the mountain, leading to a point where the trail turns and climbs westward to the mountaintop.  The slope is very steep but does not appear too difficult to run up.  The way continues down from here."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "exits": [
+    {
+      "to": 18174,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18176,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go slope"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 20348,
+  "title": [
+    "[Feywrot Mire, Primal Stand]"
+  ],
+  "description": [
+    "Several black gum trees and bald cypresses lean to one side or another, their branches caressing the swampy water and the limestone shoreline.  Several of the trees are clearly very old, their massive trunks covered in knots, their branches shot through with char, while others are little more than saplings growing up amid the tall brush."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      421,
+      128,
+      435,
+      142
+    ]
+  },
+  "exits": [
+    {
+      "to": 20347,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20349,
+      "kind": "go",
+      "cmd": "go wagons",
+      "cost": 0.2
+    },
+    {
+      "to": 20350,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23146,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "crawl hollow"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23159,
+      "kind": "go",
+      "cmd": "go cave",
+      "cost": 0.2
+    },
+    {
+      "to": 24214,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

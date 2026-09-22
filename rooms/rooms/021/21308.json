@@ -1,0 +1,45 @@
+{
+  "id": 21308,
+  "uid": [
+    107107
+  ],
+  "title": [
+    "[House Brigatta, Secret Hallway]"
+  ],
+  "description": [
+    "This narrow hallway ends in a blank wall and at the other end a curtain."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_locker",
+    "che:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 21305,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21309,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 21310,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "pull lever"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

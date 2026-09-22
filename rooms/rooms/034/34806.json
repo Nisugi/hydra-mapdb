@@ -1,0 +1,41 @@
+{
+  "id": 34806,
+  "uid": [
+    3213311
+  ],
+  "title": [
+    "[Dabbings Manor, Upper Hall]"
+  ],
+  "description": [
+    "A dark pine staircase spirals up toward the upper story of the manse, its banisters twined with fir garlands that perfume the air.  A long runner patterned with prancing mules in blue and white proceeds down the main hall of the manse's upper story, which branches off into lesser hallways leading to family and servant quarters.  The bordering railing offers a view of a spectacular chandelier fashioned in the shapes of hundreds of icicles, glittering and glowing with the light of dozens of votive candles."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 34805,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 34813,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34814,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

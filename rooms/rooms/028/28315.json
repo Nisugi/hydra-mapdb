@@ -1,0 +1,35 @@
+{
+  "id": 28315,
+  "uid": [
+    4043249
+  ],
+  "title": [
+    "[Raspberry Room, Cubbyhole]"
+  ],
+  "description": [
+    "The small room ends in a dark leather curtain which is drawn shut.  Remnants of old advertising slogans are painted onto the curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sovyn:entrance_locker",
+    "locker annex:House Sovyn"
+  ],
+  "exits": [
+    {
+      "to": 28313,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 28314,
+      "kind": "go",
+      "cmd": "go leather curtain",
+      "cost": 0.2
+    }
+  ]
+}

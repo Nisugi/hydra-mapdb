@@ -1,0 +1,49 @@
+{
+  "id": 22375,
+  "uid": [
+    13125048
+  ],
+  "title": [
+    "[Halfling Embassy, Great Hall]"
+  ],
+  "description": [
+    "Vaulted ceilings are hung with a series of thick, beaded tapestries, their woven lengths adding a splash of color to the silver-veined white marble they rest against.  An enormous circular table crafted of bird's-eye maple is centered beneath a round skylight of stained glass, its surface covered with delicacies and treats.  Overlapping rugs bearing geometric patterns give a warm, welcoming feel to the sterile white of the room and support the weight of several high-backed armchairs."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      1079,
+      471,
+      1145,
+      509
+    ]
+  },
+  "exits": [
+    {
+      "to": 22358,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 22376,
+      "kind": "go",
+      "cmd": "go flap",
+      "cost": {
+        "when": {
+          "race": "Halfling"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 16806,
+  "uid": [
+    2138118
+  ],
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "This cavern is caked with dried blood which coats the floor and walls in this area drinking in all the light.  Every cave looks like the last as you struggle to find your way around inside them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      768,
+      809,
+      778,
+      819
+    ]
+  },
+  "exits": [
+    {
+      "to": 4160,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast"
+        },
+        {
+          "move_while": [
+            "east",
+            {
+              "exit": "e"
+            }
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 4162,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        },
+        {
+          "moves": [
+            "east",
+            "east"
+          ],
+          "when": {
+            "not": {
+              "exit": "w"
+            }
+          }
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 4164,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        },
+        {
+          "move_while": [
+            "west",
+            {
+              "exit": "w"
+            }
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 4172,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

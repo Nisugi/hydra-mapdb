@@ -1,0 +1,51 @@
+{
+  "id": 19374,
+  "uid": [
+    3223014
+  ],
+  "title": [
+    "[Eastern Harbor, Cormorant Lane]"
+  ],
+  "description": [
+    "Stretching from one end of the block to the other, an enormous warehouse with wide windows faces the waters of the eastern harbor.  Tacked to the face of the building is an elegant painted sign that displays the structure's function, while anchored to the edges of the low roof are several sunlit glass lanterns that cast a series of prismatic swirls across the cobblestone street.",
+    "Stretching from one end of the block to the other, an enormous warehouse with wide windows faces the waters of the eastern harbor.  Tacked to the face of the building is an elegant painted sign that displays the structure's function, while anchored to the edges of the low roof are several glowing glass lanterns that illuminate the cobblestone street."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3753,
+      2025,
+      3781,
+      2051
+    ]
+  },
+  "exits": [
+    {
+      "to": 19370,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19375,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    },
+    {
+      "to": 19376,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

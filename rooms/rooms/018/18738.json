@@ -1,0 +1,41 @@
+{
+  "id": 18738,
+  "uid": [
+    667040
+  ],
+  "title": [
+    "[Sorcerer Guild, Cauldrons]"
+  ],
+  "description": [
+    "The low ceiling of this cavern is supported by a minor maze of sandstone columns, creating numerous alcoves where students of alchemy hunch over steaming cauldrons.  The irregular but insistent drip of water on stone from a far corner echoes with unusual clarity against the hard stone."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      486,
+      47,
+      524,
+      86
+    ]
+  },
+  "exits": [
+    {
+      "to": 18737,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19041,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

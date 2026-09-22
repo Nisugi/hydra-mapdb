@@ -1,0 +1,98 @@
+{
+  "id": 20721,
+  "uid": [
+    4002505
+  ],
+  "title": [
+    "[Seamist Hall, Central Lounge]"
+  ],
+  "description": [
+    "Crafted from modwir, a circular bar dominates the center of the room, several potted ferns placed about its base.  Scattered throughout are clusters of plump cerulean cushioned chairs and sofas, creating a vibrant contrast to the thick ivory carpet that covers the floor.  A pale modwir bin and a small ceramic basket of sticks rest next to a large stone fireplace built opposite from a velvet-draped arch.  Copper sconces hang on the walls, their etched globes ready to be lit, while a pair of carved oak doors leads out."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "premium supernode",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "premium",
+    "trashcan:pale modwir bin"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      1768,
+      1918,
+      1891,
+      1971
+    ]
+  },
+  "exits": [
+    {
+      "to": 20719,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 20722,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20726,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20727,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 10817,
+  "uid": [
+    13032043
+  ],
+  "title": [
+    "[Gyldemar Road]"
+  ],
+  "description": [
+    "Although the forest is visible on the horizon to the south, there is no way of getting there across the treacherous swamp in between.  Slowly the swamp seems to be reclaiming the cobblestone road, leaving less than half the cobblestones even visible in this area.  To the west the black water has completely covered the roadway, and to the east the roadway dips and jogs, fighting to stay above the sinking terrain."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Gyldemar Road",
+  "climate": "humid",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "black peppercorn",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden mushroom",
+    "haphip root",
+    "lady slipper blossom",
+    "murdroot",
+    "nutmeg",
+    "pink peppercorn",
+    "soft mushroom",
+    "stalk of cattail",
+    "star anise",
+    "talneo root",
+    "trollear mushroom",
+    "vanilla bean",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-gyldemar-1264234799.png",
+    "rect": [
+      861,
+      658,
+      871,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 10818,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10821,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go water"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

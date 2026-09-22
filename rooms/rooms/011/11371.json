@@ -1,0 +1,50 @@
+{
+  "id": 11371,
+  "uid": [
+    377025
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The silence of the long-deserted citadel is oppressive here as no sounds seem to reach you from the outside.  A door of shining black enamel is set into one wall of the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      269,
+      1141,
+      279,
+      1151
+    ]
+  },
+  "exits": [
+    {
+      "to": 11370,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11372,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11375,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

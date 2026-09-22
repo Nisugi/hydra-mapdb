@@ -1,0 +1,46 @@
+{
+  "id": 17263,
+  "uid": [
+    252018
+  ],
+  "title": [
+    "[Guild Hall, Dressing Room]"
+  ],
+  "description": [
+    "Through a vestibule, the entrance gives way to a lavishly decorated room.  Abundant lanterns hanging overhead accentuate the lighting provided by the clerestory.  Along the walls are niches for storing clothes."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1498,
+      925,
+      1518,
+      945
+    ]
+  },
+  "exits": [
+    {
+      "to": 17262,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17264,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17265,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

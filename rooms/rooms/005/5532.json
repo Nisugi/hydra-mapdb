@@ -1,0 +1,57 @@
+{
+  "id": 5532,
+  "uid": [
+    4215108
+  ],
+  "title": [
+    "[Outlands Manor, Exterior]"
+  ],
+  "description": [
+    "The eastern porch of the manor house was built of stone blocks long ago.  Over time, the individual blocks have settled unevenly and weeds have grown up through the cracks, right in front of the maoral door that opens from the house onto the porch.  Just a bit north along the face of the house, a small tiled courtyard is littered with a broken table and chairs, and a short distance to the east stands a weathered stable."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1292,
+      629,
+      1302,
+      639
+    ]
+  },
+  "exits": [
+    {
+      "to": 5531,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5533,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5534,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5535,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

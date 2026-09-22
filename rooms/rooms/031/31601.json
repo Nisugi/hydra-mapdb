@@ -1,0 +1,52 @@
+{
+  "id": 31601,
+  "uid": [
+    8083029
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Large and small pavers decorate the cobblestone street along the western section of the road, while the eastern section is comprised of a curving boardwalk that allows for passage through a tangled bog towards homes and stores built on stilts.  Slipping towards the Gleyminn Anni river, an uneven luminescent azure stone path disappears into the dense foliage that hides the water from sight."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "no forageables",
+    "seedhead of beebalm",
+    "white willow bark"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      602,
+      555,
+      625,
+      575
+    ]
+  },
+  "exits": [
+    {
+      "to": 31600,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31602,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 31613,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

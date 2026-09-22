@@ -1,0 +1,57 @@
+{
+  "id": 5548,
+  "uid": [
+    4215142
+  ],
+  "title": [
+    "[Manor House, Central Corridor]"
+  ],
+  "description": [
+    "The corridor connects the eastern and western entrances of the manor house.  A fluted oaken doorway in the south wall leads to the dining room, and opposite it a paneled tanik door is set into the pale blue plaster of the hallway's north wall."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1127,
+      628,
+      1137,
+      638
+    ]
+  },
+  "exits": [
+    {
+      "to": 5535,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5549,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 5550,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 5551,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

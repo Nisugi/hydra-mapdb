@@ -1,0 +1,57 @@
+{
+  "id": 5571,
+  "uid": [
+    4215179
+  ],
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Unlike the lower floors of the tower, this level was built with no dividing walls connected to the outer shell, so archers can move easily around the tower's perimeter.  Also, counting reveals that each of the tower's walls visible from here are pierced by ten arrow slits.  A steel-sheathed trapdoor, hinged along the side of the opening where the stairway comes up from the second floor, can be closed to isolate this level from access below and to provide solid footing for the arrow slits above the stairs."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      976,
+      131,
+      986,
+      141
+    ]
+  },
+  "exits": [
+    {
+      "to": 5570,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 5572,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5573,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 5574,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

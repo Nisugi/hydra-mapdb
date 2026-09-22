@@ -1,0 +1,48 @@
+{
+  "id": 28356,
+  "title": [
+    "[Moonstone Abbey, Great Hall]"
+  ],
+  "description": [
+    "Towards the center of this vast circular chamber, the gently curving granite wall is interrupted by a dark marble arch leading into an expansive auditorium.  A vast library is visible through a passageway to the north, and a narrow staircase spirals upwards, rubies inset all along the handrail."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 28354,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28355,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28357,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28361,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28374,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

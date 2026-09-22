@@ -1,0 +1,42 @@
+{
+  "id": 20303,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "The bleakness of the shrub-covered landscape is accentuated by a large pile of debris heaped to the side of the pathway.  A brutish-looking, large, mangy dog is chained beside the pile, though the need for guarding such refuse seems largely unwarranted."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      851,
+      292,
+      864,
+      305
+    ]
+  },
+  "exits": [
+    {
+      "to": 20300,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20304,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22505,
+      "kind": "go",
+      "cmd": "go dark house",
+      "cost": 0.2
+    }
+  ]
+}

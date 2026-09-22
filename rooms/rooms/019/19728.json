@@ -1,0 +1,67 @@
+{
+  "id": 19728,
+  "uid": [
+    11008
+  ],
+  "title": [
+    "[Cavernhold, Lake Shore]"
+  ],
+  "description": [
+    "This is the northeast shore of the lake.  A small stream runs silently across the sands of this area and effectively stops progress to the south.  The shore itself seems to be well travelled, though."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "freshwater",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "wingstem root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      403,
+      552,
+      413,
+      562
+    ]
+  },
+  "exits": [
+    {
+      "to": 19729,
+      "kind": "go",
+      "cmd": "go stone",
+      "cost": 8.0
+    },
+    {
+      "to": 19732,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19992,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "put": "push stone",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

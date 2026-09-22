@@ -1,0 +1,51 @@
+{
+  "id": 2462,
+  "uid": [
+    4042319
+  ],
+  "title": [
+    "[Commerce Burrow, Dwarven Circle]"
+  ],
+  "description": [
+    "Bumblefinger's Pawnshop is perched on the south side of the road, the well-tended wooden building draped with several blue and green banners proclaiming its low prices and fine goods.  Several giantkin mill about outside, counting their coins.  Freshly painted some white stairs climb up to the pawnshop porch.",
+    "A giantman strolls merrily away from Bumblefinger's Pawnshop, counting his coins.  The pawnshop is perched on the south side of the road, housed in a well tended wooden building.  Freshly painted white stairs lead up to the pawnshop porch."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      938,
+      1142,
+      974,
+      1178
+    ]
+  },
+  "exits": [
+    {
+      "to": 2461,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2463,
+      "kind": "go",
+      "cmd": "go white stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 2465,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 13350,
+  "uid": [
+    266001
+  ],
+  "title": [
+    "[Arboretum]"
+  ],
+  "description": [
+    "A well dressed but well armed guard stands before a pair of elegant wooden doors, one trimmed in gold and the other colorfully painted.  He bears a friendly expression on his face, but his eyes remain vigilant and alert.  A gleaming silver sign hangs between the doors.",
+    "A well dressed but well armed guard stands before a pair of elegant wooden doors, one trimmed in gold and the other colorfully painted.  She appears to be relatively amiable, but her eyes remain vigilant and alert.  A gleaming silver sign hangs between the doors."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "rogue guild",
+    "rogueguild",
+    "silver-cost:30934:250"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "en-Illistim_rogue_guild-1267238976.jpg",
+    "rect": [
+      349,
+      382,
+      387,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 709,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17837,
+      "kind": "go",
+      "cmd": "go gold door",
+      "cost": {
+        "when": {
+          "profession": "Rogue"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30934,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 250.0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 14058,
+  "uid": [
+    4750042
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "Built along the south wall is a large wooden open-air structure.  Underneath its planked roof you see rows of steel cauldrons with long copper coils on top of them.  Underneath each cauldron is a shuttered brazier with numerous adjustment slots on the covering.  The smell of sour mash permeates the area.  Sitting just east of the cauldrons you see a rack that must have once held casks, but is now empty.  To the southwest, you see a stout wooden door leading into one of the castle towers."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      651,
+      287,
+      661,
+      297
+    ]
+  },
+  "exits": [
+    {
+      "to": 14057,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14061,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14071,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

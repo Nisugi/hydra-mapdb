@@ -1,0 +1,45 @@
+{
+  "id": 19002,
+  "uid": [
+    666016
+  ],
+  "title": [
+    "[Sorcerer Guild, Arcane Studies]"
+  ],
+  "description": [
+    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "check_location": true,
+  "terrain": "none",
+  "tags": [
+    "sorcerer alchemy masters",
+    "sorcerer guild masters"
+  ],
+  "image": {
+    "file": "en-ta_illistim-sorcerer_guild-1405076623.png",
+    "rect": [
+      461,
+      182,
+      500,
+      220
+    ]
+  },
+  "exits": [
+    {
+      "to": 18161,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30539,
+      "kind": "other",
+      "cmd": "ask rinyan about train trinkets",
+      "cost": 0.2
+    }
+  ]
+}

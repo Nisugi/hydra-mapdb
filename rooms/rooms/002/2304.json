@@ -1,0 +1,58 @@
+{
+  "id": 2304,
+  "uid": [
+    4042007
+  ],
+  "title": [
+    "[Temple Burrow, Oleani Way]"
+  ],
+  "description": [
+    "Chunks of broken ice litter the cobblestone street near its intersection with a snow-covered stone path.  They glint like daggers in the chill sunlight.  Northward looms the glacier, its pale bulk rising above the rooftops of dwellings, the sun awakening ripples of vivid teal and murky green in its depths.  The same hues are repeated in the lacquer twining over the surface of a wrought iron gate, beyond which sprawls a splendid ice garden.",
+    "Pieces of ice dot the street and one yard sports a small, carrot-nosed snowman.  To the north looms the glacier, above the dwellings on the streets, with the Temple sitting atop it.  Carved from the ice, the Temple gleams in the sun, giving those who live here an impressive view.",
+    "Pieces of ice dot the street and one yard sports a small, carrot-nosed snowman.  To the north looms the glacier, above the dwellings on the streets, with the Temple sitting atop it.  Carved from the ice, the Temple gleams in the moonlight, giving those who live here an impressive view."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      760,
+      610,
+      796,
+      646
+    ]
+  },
+  "exits": [
+    {
+      "to": 2303,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2305,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3365,
+      "kind": "go",
+      "cmd": "go wrought gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3366,
+      "kind": "go",
+      "cmd": "go stone path",
+      "cost": 0.2
+    }
+  ]
+}

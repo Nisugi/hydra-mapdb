@@ -1,0 +1,33 @@
+{
+  "id": 27509,
+  "title": [
+    "[Let's Be Blunt, Showroom]"
+  ],
+  "description": [
+    "The canvas walls of this dilapidated tent give very little refuge from the outside.  In fact, one wall has such a large tear in it that it probably shouldn't even be called a wall.  Near the corner, a small tunnel is protected by large crabs.  The floor is nothing but sand and rock and covered mostly with the blacksmith's supplies."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26437,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 27510,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27584,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

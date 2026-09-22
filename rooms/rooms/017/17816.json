@@ -1,0 +1,56 @@
+{
+  "id": 17816,
+  "uid": [
+    267118
+  ],
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "Most of the windows are boarded up, shrouding the interior in darkness and shadow.  Empty crates and discarded sacks have been pushed out of the way and piled in one corner of the room."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      387,
+      633,
+      428,
+      673
+    ]
+  },
+  "exits": [
+    {
+      "to": 17815,
+      "kind": "climb",
+      "cmd": "climb rope",
+      "cost": 0.2
+    },
+    {
+      "to": 17817,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17818,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17820,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

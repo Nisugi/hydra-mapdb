@@ -1,0 +1,50 @@
+{
+  "id": 8474,
+  "uid": [
+    2155015
+  ],
+  "title": [
+    "[Temple, Kitchen]"
+  ],
+  "description": [
+    "Chaos abounds in this large stone room.  Cookpots have been strewn about, and crockery has been flung against the wall.  Tattered curtains hang in the small window, fluttering in the breeze whistling through a splintered door in the corner.  The destruction here was thorough and callous, and you are certain that you do not want to meet the perpetrator."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Temple of Love",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      216,
+      780,
+      226,
+      790
+    ]
+  },
+  "exits": [
+    {
+      "to": 8473,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8475,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8476,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

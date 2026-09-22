@@ -1,0 +1,39 @@
+{
+  "id": 21993,
+  "title": [
+    "[The Murkwoods]"
+  ],
+  "description": [
+    "A fur-matted, four-legged creature scurries across the path, rustling across dead leaves as it disappears into the thick undergrowth.  A faint ray of light bleeds in from overhead, but offers little more than a modicum of illumination."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Talador",
+  "tags": [
+    "set desc on; peer northeast =~ /^Moving deeper into the woodlands/"
+  ],
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      223,
+      271,
+      237,
+      285
+    ]
+  },
+  "exits": [
+    {
+      "to": 21992,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21994,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

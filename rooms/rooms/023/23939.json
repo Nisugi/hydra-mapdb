@@ -1,0 +1,43 @@
+{
+  "id": 23939,
+  "title": [
+    "[River's Rest, Festival Grounds]"
+  ],
+  "description": [
+    "The throughway widens here to accommodate the wagons and stalls that have been parked and constructed in the grass beyond the short fence.  Sounds of laughter and singing filter through the air, and the scent of food teases the nose.",
+    "The throughway widens here to accommodate the wagons and stalls that have been parked and constructed in the grass beyond the short fence.  Fireflies and starflies dance through the air, which is scented with a hint of sweet jasmine."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "River's Rest",
+  "image": {
+    "file": "fest-picklefest-1439662135.png",
+    "rect": [
+      343,
+      331,
+      369,
+      356
+    ]
+  },
+  "exits": [
+    {
+      "to": 23937,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23940,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 23941,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

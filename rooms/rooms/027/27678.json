@@ -1,0 +1,51 @@
+{
+  "id": 27678,
+  "title": [
+    "[Bureaucratic Wing, Entrance]"
+  ],
+  "description": [
+    "The sound of trickling water provides a bit of background noise echoing throughout the entrance to this wing, though its source is unseen.  In the exact center of the spacious, roughly triangular room is a towering tangle of iceblossoms, the native Icemulian flowers' aroma sporadically wafting about.  Across from a stout cedar and oaken door leading to a large conference room is a hazy oval watercolor painting.  A sleepy halfling guard watches over the area despite a prima facie lack of alertness."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Icemule Trace",
+  "tags": [
+    "rewritten"
+  ],
+  "image": {
+    "file": "imt-clovertooth_hall-1546618992.png",
+    "rect": [
+      371,
+      317,
+      470,
+      385
+    ]
+  },
+  "exits": [
+    {
+      "to": 27675,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27677,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27679,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 27680,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 2334,
+  "uid": [
+    4047001
+  ],
+  "title": [
+    "[Icemule Temple, Foyer]"
+  ],
+  "description": [
+    "Carved into the blue-white ice of the glacier, the temple reflects the best of halfling craftsmanship and design.  Nineteen columns line each side of the foyer, creating a sense of vast distance between the entrance and the nave to the east.  A central ambulatory paved with grey slate leads between the columns past the thirty-six bays, each of which is marked with the symbol of a god or goddess.  Some of the bays contain small kiosks where merchants hawk religious wares."
+  ],
+  "paths": [
+    "Obvious exits: east, down, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "omnishrine",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Temple",
+    "mapshortname:Temple"
+  ],
+  "image": {
+    "file": "imt-temple-1512640476.png",
+    "rect": [
+      500,
+      732,
+      627,
+      786
+    ]
+  },
+  "exits": [
+    {
+      "to": 2332,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 2335,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2355,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

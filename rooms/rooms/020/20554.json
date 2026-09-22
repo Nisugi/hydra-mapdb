@@ -1,0 +1,33 @@
+{
+  "id": 20554,
+  "title": [
+    "[Erythro Island, Forest Ring]"
+  ],
+  "description": [
+    "The area begins to open wider now, the trees becoming more sparse.  A natural trail is revealed, leading further east as the forest diminishes."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20553,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20555,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 20556,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

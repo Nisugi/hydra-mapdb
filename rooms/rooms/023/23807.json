@@ -1,0 +1,67 @@
+{
+  "id": 23807,
+  "uid": [
+    3204800
+  ],
+  "title": [
+    "[Collectibles Shop]"
+  ],
+  "description": [
+    "Numerous neatly labeled bins line the walls of this well-tended establishment, displaying a myriad of trinkets, doodads, and kitsch.  Large paned windows have been thrown open to allow ample natural light and the comforting island breeze into the shop, though not a speck of dust or sand is visible anywhere.  Thick, immaculate rugs, in neutral earth tones, cover the center of the open floorplan, providing soft, secure footing as the shopkeeper busily checks and rechecks each bin repeatedly."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "collectibles",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3655,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

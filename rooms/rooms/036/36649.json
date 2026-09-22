@@ -1,0 +1,45 @@
+{
+  "id": 36649,
+  "uid": [
+    8400213
+  ],
+  "title": [
+    "[Brayern Isle, Jungle Path]"
+  ],
+  "description": [
+    "Carved-out hollows line a path along a sheer cliff that divides jungle plateaus along the volcanic mountain.  Massive, onyx-hued boulders punctuate the lush treescape below, remaining where they have landed since dislodging from higher altitudes.  A strung rope and a small sign next to the edge separate travelers from a high dive.  A series of stone lanterns are suspended along the cliff face.  A rope ladder anchored to the rock face leads to a narrow platform above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Brayern Isle",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      767,
+      1229,
+      785,
+      1245
+    ]
+  },
+  "exits": [
+    {
+      "to": 36648,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36650,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36652,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

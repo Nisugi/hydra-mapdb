@@ -1,0 +1,27 @@
+{
+  "id": 24588,
+  "title": [
+    "[The Lapidary]"
+  ],
+  "description": [
+    "A pair of lanterns with cut crystal shades hang directly over a delicately carved jewelry stand, the pristine light dancing over every reflective surface under its touch.  Further into the area, a doorless golden oak armoire stands off to the side - a hulking piece of furniture itself, it is dwarfed by the high ceilings of wagon.  Near the armoire, sits a tiered shoe rack, and just a few steps away, a drawn ivory marbrinus curtain leads into another section of the shop."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "River's Rest",
+  "exits": [
+    {
+      "to": 24583,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24589,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

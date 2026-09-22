@@ -1,0 +1,50 @@
+{
+  "id": 9111,
+  "uid": [
+    4045220
+  ],
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The cavern continues to the west, but a dark fissure blocks any further progress.  Fumes pour forth in waves, and it takes a moment to recover from their impact.  Fortified with a deep breath and steeled to the reek, the stench is just bearable."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      145,
+      652,
+      155,
+      662
+    ]
+  },
+  "exits": [
+    {
+      "to": 9108,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9110,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9125,
+      "kind": "climb",
+      "cmd": "climb fissure",
+      "cost": 0.2
+    }
+  ]
+}

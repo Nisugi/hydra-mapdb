@@ -1,0 +1,50 @@
+{
+  "id": 6866,
+  "uid": [
+    21133
+  ],
+  "title": [
+    "[Abandoned Inn, Upstairs Hall]"
+  ],
+  "description": [
+    "The forest green runner butts up against the wall at this end of the hallway.  To the south opens a pair of glass doors, allowing fresh air to flow in from the balcony.  A small door to the north leads into the common bathing chamber."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      886,
+      1203,
+      896,
+      1213
+    ]
+  },
+  "exits": [
+    {
+      "to": 6855,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6867,
+      "kind": "go",
+      "cmd": "go polished door",
+      "cost": 0.2
+    },
+    {
+      "to": 6868,
+      "kind": "go",
+      "cmd": "go glass doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": 23281,
+  "uid": [
+    4903601
+  ],
+  "title": [
+    "[Talondown Arena, Entry]"
+  ],
+  "description": [
+    "Despite its humble entrance between two stacks of crates, the arena's antechamber thrives with frenetic activity.  Champions push and shove each other for a glimpse of the latest information on a painted wooden leaderboard while seedy lenders prey on those recently divorced from their hard-earned marks.  All of this occurs beneath the low roof formed by the deck above, in an atmosphere tainted by the smoke of cigars and pleasure herbs."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location_unknowable": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "exit",
+    "no-auto-map",
+    "talondown",
+    "talondown exit"
+  ],
+  "exits": [
+    {
+      "to": 417,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "417"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 682,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "682"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 1005,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "1005"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 1955,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "1955"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 3158,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "3158"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 3660,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "3660"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 10883,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "10883"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 13920,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "13920"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 17425,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go exit passage"
+        },
+        {
+          "forget": "talondown_origin"
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "talondown_origin",
+            "17425"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 28800,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28801,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28802,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

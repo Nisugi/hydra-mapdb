@@ -1,0 +1,220 @@
+{
+  "id": 4652,
+  "uid": [
+    14050017
+  ],
+  "title": [
+    "[Cysaegir, Garden]"
+  ],
+  "description": [
+    "Brilliant displays of flora in methodic rows thrive in the garden, creating a quiet, soothing peace of calm and beauty.  Moonbeams shine on the surface of flat rocks serving as stepping stones and reveal deeply embedded flecks of color.  The carefully placed stones are arranged in a symmetrical pattern to allow movement through the garden without fear of trampling the delicate flowers.  Directly in the center of the garden, an oval-shaped, thick block of clear crystal encases a deep pool of water.",
+    "Brilliant displays of flora in methodic rows thrive in the garden, creating a quiet, soothing peace of calm and beauty.  Iridescent flecks of color shimmer under the sunlight like shards of gems from within huge slabs of flat rocks.  The carefully placed stepping stones are arranged in a symmetrical pattern, to allow movement through the garden without fear of trampling the delicate flowers.  Directly in the center of the garden an oval-shaped, thick block of clear crystal encases a deep pool of water."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "ayana leaf",
+    "black peppercorn",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright orange",
+    "brown potato",
+    "brown-skinned kiwi",
+    "cactacae spine",
+    "calamia fruit",
+    "cardamom",
+    "chives",
+    "clove pink flower",
+    "creamy white wisteria",
+    "cumin seeds",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "ear of corn",
+    "feather clover bloom",
+    "fennel bulb",
+    "fig",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "garlic",
+    "genkew mushroom",
+    "golden buttercup",
+    "green beans",
+    "green cabbage",
+    "green olive",
+    "haphip root",
+    "hawksbeard blossom",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hosta flower",
+    "Imaera's Lace",
+    "iris blossom",
+    "juicy plum",
+    "lacy mountain hydrangea",
+    "large sunflower",
+    "large white gardenia",
+    "leek",
+    "light blue hydrangea",
+    "luckbloom blossom",
+    "motherwort",
+    "mustard seeds",
+    "nightbloom blossom",
+    "nutmeg",
+    "onion skin",
+    "orange begonia",
+    "pale rose pink wisteria",
+    "pea pods",
+    "pink begonia",
+    "pink hydrangea",
+    "pink oleander",
+    "pink peony",
+    "pink peppercorn",
+    "pink redstem filaree",
+    "plump black mulberries",
+    "purple bearded iris",
+    "purple cabbage",
+    "purple datura blossom",
+    "purple hydrangea",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red begonia",
+    "red cherries",
+    "red oleander",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "round red radish",
+    "scallions",
+    "shallot",
+    "small anemone",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small rose",
+    "small turnip",
+    "small violet",
+    "snapdragon stalk",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of boxwood",
+    "sprig of clematis",
+    "sprig of foxglove",
+    "sprig of holly",
+    "sprig of jasmine",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "stalk of tuberose",
+    "stalk of wormwood",
+    "star anise",
+    "stargazer lily",
+    "stem of freesia flowers",
+    "stem of verbena",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "tendril of vinca",
+    "thyme",
+    "tiger lily",
+    "trollear mushroom",
+    "urchin guide garden",
+    "urchin guide weddinghall",
+    "urchin-access",
+    "vanilla bean",
+    "vert globe artichoke",
+    "vibrant yellow forsythia",
+    "viburnum twig",
+    "wavepetal blossom",
+    "white begonia",
+    "white datura blossom",
+    "white hydrangea",
+    "white lily",
+    "white oleander",
+    "white peony",
+    "white ramie",
+    "wild pansy blossom",
+    "wild rice",
+    "wild spinach",
+    "withered mushroom",
+    "yellow datura blossom",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      396,
+      920,
+      417,
+      942
+    ]
+  },
+  "exits": [
+    {
+      "to": 4650,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 9688,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

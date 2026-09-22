@@ -1,0 +1,36 @@
+{
+  "id": 33034,
+  "uid": [
+    7121226
+  ],
+  "title": [
+    "[House Annex, House Sovyn]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted leaf green and dominated by the image of a silver hand clasping a white one, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush grass green carpeting dappled with white threads lends the otherwise austere space a coziness that is enhanced by the presence of a leaf green crushed velvet settee.  A lacquered white door leads to the hallway, while a silver and white silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sovyn:entrance_annex",
+    "che:sovyn:entrance_locker",
+    "locker annex:House Sovyn"
+  ],
+  "exits": [
+    {
+      "to": 7705,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 33218,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    }
+  ]
+}

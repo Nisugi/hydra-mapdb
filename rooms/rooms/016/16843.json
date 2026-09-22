@@ -1,0 +1,92 @@
+{
+  "id": 16843,
+  "uid": [
+    13014054
+  ],
+  "title": [
+    "[Municipal Building, Lobby]"
+  ],
+  "description": [
+    "Dusty, grey stone tiles surround a slightly tarnished silver pick-and-shovel seal inlaid on the floor.  A handful of green-speckled yellow giant toadstools gather dust along the walls, set into polished brass pots.  Dwarves of all shapes and sizes go about their business in one of the building's numerous offices.  A prominent faux-oak door resides in the north wall, while some stone steps rise to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 9413,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16844,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 16846,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16901,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16905,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

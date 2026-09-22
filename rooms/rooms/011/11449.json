@@ -1,0 +1,98 @@
+{
+  "id": 11449,
+  "uid": [
+    304013
+  ],
+  "title": [
+    "[Tempest River, North Fork]"
+  ],
+  "description": [
+    "The rolling green surface of Maelstrom Bay stretches out westward.  Beyond it, as far as the eye can see, is the great western sea.  Although the water is deep, it's still possible to see the gold-colored sand that forms the riverbed.  To the east is the mouth of the North Fork of the Tempest River, skirting the island of River's Rest.  Tall cliffs line the mainland to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      756,
+      1342,
+      766,
+      1352
+    ]
+  },
+  "exits": [
+    {
+      "to": 11436,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11437,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim north",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11448,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 11460,
+  "uid": [
+    304219
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "Elkhorn coral, ten feet tall and branched like trees, grows in small groves.  The floor of the bay, uneven and dotted with clumps of kelp and seaweed, rises sharply to south.  The tracks of crabs and mud shrimp score the sand on the bay floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, west, northwest, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      949,
+      1260,
+      959,
+      1270
+    ]
+  },
+  "exits": [
+    {
+      "to": 11459,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim east"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11461,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11463,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11464,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northeast"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

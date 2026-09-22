@@ -1,0 +1,55 @@
+{
+  "id": 676,
+  "uid": [
+    13050004
+  ],
+  "title": [
+    "[Sylvarraend, Small Glade]"
+  ],
+  "description": [
+    "A small cottage lies to one side of the widening trail, surrounded by a wooden fence and spacious yard.  The glaes-paned windows glow pale amber in the dark night, reflecting warmth from the firelight inside.  The heady scent of geraniums thickens the night air.  Off to one side of the yard is a large wooden shed.  Uncut logs are piled about an old stump.",
+    "A small cottage lies to one side of the widening trail, surrounded by a wooden fence and spacious yard.  The glaes-paned windows glow pale amber in the dark night, reflecting warmth from the firelight inside.  The heady scent of geraniums thickens the night air.",
+    "A small cottage lies to one side of the widening trail.  From its neatly thatched roof to the impeccably stacked stone walls, the cottage appears to be well loved.  Bright red geraniums flower in small wooden boxes beneath each glaes-paned window.",
+    "A small cottage lies to one side of the widening trail.  From its neatly thatched roof to the impeccably stacked stone walls, the cottage appears to be well loved.  Bright red geraniums flower in small wooden boxes beneath each glaes-paned window.  Off to one side of the yard is a large wooden shed.  Uncut logs are piled about an old stump."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      525,
+      869,
+      561,
+      905
+    ]
+  },
+  "exits": [
+    {
+      "to": 675,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 677,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32287,
+      "kind": "go",
+      "cmd": "go wooden shed",
+      "cost": 0.2
+    }
+  ]
+}

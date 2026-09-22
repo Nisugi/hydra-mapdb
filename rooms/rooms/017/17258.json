@@ -1,0 +1,46 @@
+{
+  "id": 17258,
+  "uid": [
+    252017
+  ],
+  "title": [
+    "[Guild Hall, West Hallway]"
+  ],
+  "description": [
+    "Scenes of battle in a gilded frieze stretch along the walls, each pair of combatants cleverly arranged so that some protrusion--a spear, a raised fist--touches the ceiling.  Below the frieze and evenly spaced apart, pairs of weapons crossed over burnished shields hang on the white marble walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1334,
+      924,
+      1356,
+      946
+    ]
+  },
+  "exits": [
+    {
+      "to": 17257,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17259,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17260,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

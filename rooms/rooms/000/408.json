@@ -1,0 +1,85 @@
+{
+  "id": 408,
+  "uid": [
+    5163
+  ],
+  "title": [
+    "[Kilron's Pawnshop, Front Room]"
+  ],
+  "description": [
+    "This little pawnshop is somewhat cheerier than you would expect, presided over by its well-dressed and well-heeled owner, Kilron.  A polished white marble counter is set off by freshly whitewashed walls and a highly varnished wood floor.  An antique cabinet on the far wall holds several impressive and equally ancient weapons, some precious trinkets, and several items that you cannot identify, except that they seem to glow in different shades of colored light with different intensities."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "pawn",
+    "pawnshop",
+    "trash",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:slatted wooden case"
+  ],
+  "exits": [
+    {
+      "to": 322,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 409,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 8867,
+      "kind": "go",
+      "cmd": "go antique cabinet",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

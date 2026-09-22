@@ -1,0 +1,41 @@
+{
+  "id": 6633,
+  "uid": [
+    487014
+  ],
+  "title": [
+    "[Broken Lands, Passage]"
+  ],
+  "description": [
+    "The passage ends at a small wooden door set into the western wall.  Small globes hang to either side of the door and a faint rustle can be heard from that direction."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      278,
+      1073,
+      288,
+      1083
+    ]
+  },
+  "exits": [
+    {
+      "to": 6632,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6634,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

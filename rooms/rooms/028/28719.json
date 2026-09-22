@@ -1,0 +1,86 @@
+{
+  "id": 28719,
+  "uid": [
+    4740306,
+    4744306
+  ],
+  "title": [
+    "[Fat Jahck's]"
+  ],
+  "description": [
+    "The dark of the alley outside gives way to soft light coming from the lamps hanging overhead.  Neatly stacked crates line the side walls, leaving clear the central area of the room.  A long oak counter runs the length of the rear wall behind which the proprietor stands minding the establishment."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "locksmith pool",
+    "locksmithpool",
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access"
+  ],
+  "meta": [
+    "boxpool:npc:proprietor Jahck",
+    "boxpool:table:long oak counter",
+    "trashcan:battered steel-bound barrel"
+  ],
+  "image": {
+    "file": "vo-caravansary-1264234799.png",
+    "rect": [
+      821,
+      734,
+      821,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 5728,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 30321,
+  "uid": [
+    8214735
+  ],
+  "title": [
+    "[Locksmehr River, Encampment]"
+  ],
+  "description": [
+    "Situated at the very edge of the partially frozen river, the small clearing is a combination of gravel and tufts of broken grass blades.  A snow-lined gravel trail leads down to the water's edge where river reeds grow amid round stones worn smooth by the flowing water.  Set back from the walking space, a domed sinew and hide tent and a birch bark-sided hut have been built among the sassafras and hickory.",
+    "Situated at the very edge of the frozen river, the small clearing is a combination of gravel and tufts of dead grass mixed into the snow.  A snow-lined gravel trail leads down to the water's edge where dried river reeds bend amid round stones edged by unmoving water.  Set back from the walking space, a domed sinew and hide tent and a birch bark-sided hut have been built among the sassafras and hickory.",
+    "Situated at the very edge of the partially frozen river, the small clearing is a combination of gravel and tufts of broken grass blades.  A snow-lined gravel trail leads down to the water's edge where river reeds grow amid round stones worn smooth by the flowing water.  Set back from the walking space, a birch bark-sided hut has been built among the sassafras and hickory."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Bloodriven Village",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      360,
+      1042,
+      390,
+      1071
+    ]
+  },
+  "exits": [
+    {
+      "to": 30320,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30325,
+      "kind": "go",
+      "cmd": "go bark hut",
+      "cost": 0.2
+    },
+    {
+      "to": 30328,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 33348,
+      "kind": "go",
+      "cmd": "go sinew tent",
+      "cost": 0.2
+    }
+  ]
+}

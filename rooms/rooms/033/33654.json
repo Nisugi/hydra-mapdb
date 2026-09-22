@@ -1,0 +1,52 @@
+{
+  "id": 33654,
+  "uid": [
+    7101175
+  ],
+  "title": [
+    "[Keep Tower, Corridor]"
+  ],
+  "description": [
+    "Any sense of climbing up or down is disoriented as this corridor appears to be a perfect match to the other floors above and below.  The sliver of a view out an arrow loop is the only way to tell in which direction you might be heading."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1458,
+      829,
+      1504,
+      873
+    ]
+  },
+  "exits": [
+    {
+      "to": 33653,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33655,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 33674,
+      "kind": "go",
+      "cmd": "go shadowed door",
+      "cost": 0.2
+    },
+    {
+      "to": 33679,
+      "kind": "go",
+      "cmd": "go sun-faded door",
+      "cost": 0.2
+    }
+  ]
+}

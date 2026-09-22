@@ -1,0 +1,47 @@
+{
+  "id": 19653,
+  "uid": [
+    10010
+  ],
+  "title": [
+    "[Cavernhold, Corridor]"
+  ],
+  "description": [
+    "This long and narrow corridor runs roughly southeast to northwest.  It is dimly lit by clumps of a strange glowing fungus that grow on the walls and ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      646,
+      1157,
+      655,
+      1166
+    ]
+  },
+  "exits": [
+    {
+      "to": 19652,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19654,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

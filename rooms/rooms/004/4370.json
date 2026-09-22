@@ -1,0 +1,39 @@
+{
+  "id": 4370,
+  "title": [
+    "[Emerald Level, Southeast Shaft]"
+  ],
+  "description": [
+    "This portion of the passage is worked out and clearly has been neglected for some time.  Rubbish is strewn across the floor, mostly discarded tools or old gear.  What might have been a decorative mug or bowl at one time is nothing more than shattered ceramic shards now."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4365,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4371,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 4372,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

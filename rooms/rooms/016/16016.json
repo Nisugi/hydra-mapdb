@@ -1,0 +1,153 @@
+{
+  "id": 16016,
+  "uid": [
+    2104400
+  ],
+  "title": [
+    "[A Rough-Cut Track]"
+  ],
+  "description": [
+    "A ragged swath has been haphazardly cut through the undergrowth, leaving the remnants of brambles and bushes behind to snag the incautious.  The track clears to the south where a break in the trees beckons, though the nighttime sky pales in comparison to the twinkling lights alive on the track as lightning bugs put on a remarkable show.",
+    "A ragged swath has been haphazardly cut through the undergrowth, leaving the remnants of brambles and bushes behind to snag the incautious.  The looming trees clear to the south where a break in the canopy beckons with open sky."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the South River Road",
+  "climate": "humid",
+  "terrain": "tropical",
+  "tags": [
+    "acantha leaf",
+    "bamboo cane",
+    "banana leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "blue passionflower",
+    "bright orange",
+    "bright yellow plantain",
+    "broken twig",
+    "brostheras grass",
+    "bur-clover root",
+    "butterfly pea flower",
+    "calamia fruit",
+    "cantaloupe",
+    "cardamom",
+    "cassava root",
+    "cinnamon bark",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "cumin seeds",
+    "ebony twig",
+    "grapefruit",
+    "green guava",
+    "green tea leaves",
+    "honeymoon melon",
+    "horseradish root",
+    "luckbloom blossom",
+    "mate leaves",
+    "mulberry fronds",
+    "murdroot",
+    "nutmeg",
+    "orange heliconia",
+    "orange-yellow starfruit",
+    "pale green honeydew",
+    "pearl onions",
+    "pecans",
+    "pink heliconia",
+    "pink passionflower",
+    "pink peppercorn",
+    "pothinir grass",
+    "purple passion fruit",
+    "purple passionflower",
+    "purple tea leaves",
+    "raw almonds",
+    "red heliconia",
+    "red lychee",
+    "red passionflower",
+    "red-green mango",
+    "round yuzu",
+    "slender twig",
+    "small green quenepas",
+    "star anise",
+    "sticks",
+    "sugar cane",
+    "sun-wilted tea leaves",
+    "talneo root",
+    "tea leaves",
+    "thin hemp",
+    "tree bark",
+    "twisted twig",
+    "urchin-access",
+    "vanilla bean",
+    "vibrant green plantain",
+    "wavepetal blossom",
+    "white passionflower",
+    "white tea leaves",
+    "wild gooseberry",
+    "woth flower",
+    "yellow heliconia",
+    "yellow lemon",
+    "yellow papaya",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2691,
+      1566,
+      2713,
+      1587
+    ]
+  },
+  "exits": [
+    {
+      "to": 11032,
+      "kind": "go",
+      "cmd": "go road",
+      "cost": 0.2
+    },
+    {
+      "to": 16115,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

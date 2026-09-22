@@ -1,0 +1,101 @@
+{
+  "id": 12543,
+  "uid": [
+    672016
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Neat rows of tanik trees obscure the high walls of this roomy courtyard, their leaves draped across the rather rocky and otherwise bare earthen ground.  Squat monolithic stones sit to either side of the winding pathway that leads to the doors of a rough rock-hewn temple, their surfaces engraved with bold symbols.  A smaller structure of stone and iron stands to the east, partially obscured by the trees."
+  ],
+  "paths": [
+    "Obvious paths: east, out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "cleric guild",
+    "clericguild",
+    "no forageables",
+    "urchin guide clericguild",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Teras Isle",
+    "mapname:Teras Isle - Cleric Guild",
+    "mapshortname:Cleric Guild (Teras)"
+  ],
+  "image": {
+    "file": "ti-Cleric_Guild-1267238976.jpg",
+    "rect": [
+      422,
+      464,
+      454,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 12388,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12544,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20025,
+      "kind": "go",
+      "cmd": "go temple",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 620,
+  "uid": [
+    13101041
+  ],
+  "title": [
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "A sleepy songbird chirps from within the safety of some thick holly bushes that obscure a greystone cottage alongside the var.  An elderly elf peers out of a lighted window, with a distinctly unwelcoming look on his face.  Noticing your attention, he scowls and pulls the dark curtains closed.",
+    "An elderly elf sweeps the cobblestones that pave the var in front of his home.  Muttering something about snoops and strangers, he glares at every passerby.  His humble greystone cottage is partially hidden by a hedge of thick holly bushes, whose sharp-edged needles threaten to tear the fabric of your clothing if you pass too near.",
+    "Two pieces of crumbly silvery blue stonework cross over the var, forming a near complete arch.  The broken gap in the masonry is jagged, but with edges gone soft with age and the elements.  A respectful space surrounds the base of the structure on both sides of the road, separating it from the houses that sit nearby."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      779,
+      144,
+      803,
+      165
+    ]
+  },
+  "exits": [
+    {
+      "to": 619,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 621,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25984,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    }
+  ]
+}

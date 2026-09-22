@@ -1,0 +1,111 @@
+{
+  "id": 5709,
+  "uid": [
+    4007037
+  ],
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "The trees, brambles and fog all conspire to lose you within the forest, making visibility uncertain at best.  Any movement becomes a shambling stagger, more controlled tripping than a true walk as the bushes seem to reach out to purposely snare you.  Brambles obscure a crumbling section of the temple wall."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "the deep woods",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "ayana'al leaf",
+    "birch bark",
+    "blood orange",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coffee cherries",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "grapefruit",
+    "handful of pinenuts",
+    "haphip root",
+    "ironfern root",
+    "kylan berry",
+    "no-magic",
+    "oxblood lily",
+    "pine cone",
+    "pine needles",
+    "pink rain lily",
+    "red vornalite mushroom",
+    "round yuzu",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "sunburst blossom",
+    "tanik twig",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "vesperti",
+    "white baneberry",
+    "white lily",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      1352,
+      342,
+      1362,
+      352
+    ]
+  },
+  "exits": [
+    {
+      "to": 5698,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go window"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5707,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5708,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

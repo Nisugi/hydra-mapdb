@@ -1,0 +1,37 @@
+{
+  "id": 15051,
+  "title": [
+    "[Kalzanin's Magic Shoppe]",
+    "[Kalzanin's General Store]"
+  ],
+  "description": [
+    "A tattered merchant permit hangs on one of the celadon marble walls, and a mosaic tiled ceiling rises overhead.  A wooden statue of Rone Wehnimer sits in one corner of a speckled black marble floor.  There is an etched brass bin on one side of the shop and an oval-shaped speckled marble counter on the other."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "playershop"
+  ],
+  "exits": [
+    {
+      "to": 369,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 15075,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 15076,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": 1967,
+  "uid": [
+    682001
+  ],
+  "title": [
+    "[Wizard Guild, Court]"
+  ],
+  "description": [
+    "Light dances along the sheer rock wall from torches set in roughly carved red-veined marble sconces that flank a pair of massive iron doors.  In the dark the ruddy glow coming from behind the doors is obvious.  The sharp scent of sulphur from somewhere beyond stings your nose.",
+    "A pair of massive iron doors are set in the sheer rock wall.  The sharp scent of sulphur from somewhere beyond stings your nose.  Torches in roughly carved red-veined marble sconces flank the entrance, their bright flames almost obscuring the ruddy glow showing from somewhere behind the doors."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "black peppercorn",
+    "bright red beet",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "ghost pepper",
+    "green garden cucumber",
+    "green guava",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "pistachio nuts",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of drakefern",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin guide wizardguild",
+    "urchin-access",
+    "vanilla bean",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "wizard guild",
+    "wizardguild",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1038,
+      1047,
+      1068,
+      1077
+    ]
+  },
+  "exits": [
+    {
+      "to": 1963,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1968,
+      "kind": "go",
+      "cmd": "go massive doors",
+      "cost": {
+        "when": {
+          "profession": "Wizard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 12545,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33814,
+  "uid": [
+    170962
+  ],
+  "title": [
+    "[The Ember Vale, Inner Ring]"
+  ],
+  "description": [
+    "Bluish grey stone walls encompass the path, expanding in a ring that encapsulates the center of the settlement.  The faint aroma of smoked meats drifts in from nearby roads."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      842,
+      194,
+      857,
+      210
+    ]
+  },
+  "exits": [
+    {
+      "to": 33800,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 33817,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33823,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

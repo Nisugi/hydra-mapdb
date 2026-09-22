@@ -1,0 +1,41 @@
+{
+  "id": 18144,
+  "uid": [
+    13102033
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Hallway]"
+  ],
+  "description": [
+    "An elaborate labradorite-topped mistwood railing surrounds the well of a spiraling silver staircase, which descends from the center of the room into some lower, deeper chamber.  Alabaster tile set in a circular pattern covers the floor, each piece accented with natural silver striations.  The deep sapphire draping of an ornate archway contrasts with the surrounding stone."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 18140,
+      "kind": "climb",
+      "cmd": "climb silver staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18143,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18149,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

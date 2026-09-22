@@ -1,0 +1,56 @@
+{
+  "id": 9223,
+  "uid": [
+    7532027
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "A blinding white light covers a good deal of the northern wall, but oddly, it's doing very little to illuminate the cellar.  From this vantage point, it is possible to see both sides of the sunken pit below.  Polished tables in one of the rooms suggest that it is used for research or experimentation."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1199,
+      922,
+      1209,
+      932
+    ]
+  },
+  "exits": [
+    {
+      "to": 9205,
+      "kind": "go",
+      "cmd": "go light",
+      "cost": 0.2
+    },
+    {
+      "to": 9222,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9224,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9236,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

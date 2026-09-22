@@ -1,0 +1,36 @@
+{
+  "id": 22255,
+  "title": [
+    "[Mestanir Gate]"
+  ],
+  "description": [
+    "Constructed from polished riverstones, an ornamental arch stands as the symbolic gateway to Mestanir.  The gate is strictly decorative, no wall surrounds the town, and access is easily attained from any spot.  A multitude of small homes and buildings dot the small village."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the city of Mestanir",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      131,
+      73,
+      144,
+      87
+    ]
+  },
+  "exits": [
+    {
+      "to": 22254,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 22259,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

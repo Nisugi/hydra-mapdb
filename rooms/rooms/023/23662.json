@@ -1,0 +1,52 @@
+{
+  "id": 23662,
+  "uid": [
+    255001
+  ],
+  "title": [
+    "[Tanglevine Hall, Courtyard]"
+  ],
+  "description": [
+    "Leading away from the arch, the dirt path moves around a long teak hall covered with flowering vines on either side.  A pair of stone wildcats flank the entry to the main hall, their stone skin adorned with a lattice of vines dotted with colorful jungle flowers.  Sounds of swords and shields bashing mingle with the general noises of camaraderie that drift from deeper in the compound."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "cultivated",
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      335,
+      571,
+      359,
+      596
+    ]
+  },
+  "exits": [
+    {
+      "to": 23661,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23663,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": 0.2
+    },
+    {
+      "to": 23681,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23684,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

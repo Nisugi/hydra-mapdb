@@ -1,0 +1,48 @@
+{
+  "id": 20170,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "Tall tufts of drying grasses tickle the deeply furrowed, grey bark at the base of a stately black gum.  The vibrant, purple leaves of the gum confirm the autumnal grip on the land.  Cheery music and the smells of frying food drift in on the occasional breeze from nearby.  Several colorful wagons, each painted with various deformed animals, create a semicircle around the gum."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      687,
+      292,
+      699,
+      305
+    ]
+  },
+  "exits": [
+    {
+      "to": 20164,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20172,
+      "kind": "go",
+      "cmd": "go rope ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 20173,
+      "kind": "go",
+      "cmd": "go colorful wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 20193,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

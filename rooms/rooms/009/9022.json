@@ -1,0 +1,56 @@
+{
+  "id": 9022,
+  "uid": [
+    733015
+  ],
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "A wooden double door, the kind generally found in stables, has been painted a dark forest green and set with shiny brass fittings.  Propped open, the busy sounds of mercantiling come from within, ranging from the shouting out of orders to stock being moved around noisily."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1510,
+      393,
+      1522,
+      405
+    ]
+  },
+  "exits": [
+    {
+      "to": 9021,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9023,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21267,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 36815,
+      "kind": "go",
+      "cmd": "go marble post",
+      "cost": 0.2
+    }
+  ]
+}

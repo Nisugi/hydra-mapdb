@@ -1,0 +1,51 @@
+{
+  "id": 2403,
+  "uid": [
+    4042223
+  ],
+  "title": [
+    "[Tavern Burrow, Malt Road]"
+  ],
+  "description": [
+    "The cobblestones of Malt Road alternate in whites and wan ambers reminiscent of a pale ale's hue.  Merry whistling lilts through the traffic along the road, which mostly consists of merchants and porters with cask-laden wagons bound for local taverns and inns.  Dried herbs hanging from the eaves of a rickety cottage impart a sweet fragrance to the cold wind.",
+    "The cobblestones of Malt Road are new enough to still have sharp edges.  Merrily whistling a tune, a delivery boy pushes along a cart with some oak casks on it.  The wheel of the cart just catches on the edge of a cobble, but the boy manages to right the cart before losing any cargo."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      227,
+      966,
+      263,
+      1002
+    ]
+  },
+  "exits": [
+    {
+      "to": 2402,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2404,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2406,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    }
+  ]
+}

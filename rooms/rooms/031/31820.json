@@ -1,0 +1,52 @@
+{
+  "id": 31820,
+  "uid": [
+    8083400
+  ],
+  "title": [
+    "[Gleyminn Anni River, Temple]"
+  ],
+  "description": [
+    "An eerie pall of silence settles over the area, the burbling of the slow-moving waters nearly muted.  Beyond the confines of the river embankments, the trees have given way to rocky ground covered in tall grasses.  The remains of an ancient stone temple lay in ruins on the eastern shore.  To the south, a dark cloud bank swallows up the landscape."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1098,
+      723,
+      1121,
+      744
+    ]
+  },
+  "exits": [
+    {
+      "to": 31819,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31821,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

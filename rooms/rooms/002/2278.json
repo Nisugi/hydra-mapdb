@@ -1,0 +1,60 @@
+{
+  "id": 2278,
+  "uid": [
+    3005019
+  ],
+  "title": [
+    "[Abandoned Mine, Ruined Cavern]"
+  ],
+  "description": [
+    "It would appear that a catastrophe once occurred in this foul smelling chamber.  The eastern wall has been caved in, burrowed through by something large enough to leave the floor strewn with glaesan boulders in its wake.  Despite the destruction, several wooden beams still rise up to support the ceiling above, and the iron scaffolding erected along the other walls looks unscathed."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Mine",
+  "terrain": "subterranean",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      748,
+      1107,
+      756,
+      1115
+    ]
+  },
+  "exits": [
+    {
+      "to": 2277,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2279,
+      "kind": "climb",
+      "cmd": "climb rubble",
+      "cost": 0.2
+    },
+    {
+      "to": 12546,
+      "kind": "climb",
+      "cmd": "climb scaffolding",
+      "cost": 0.2
+    }
+  ]
+}

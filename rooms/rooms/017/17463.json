@@ -1,0 +1,64 @@
+{
+  "id": 17463,
+  "uid": [
+    7801001
+  ],
+  "title": [
+    "[Hairless Rolton Tavern, Taproom]"
+  ],
+  "description": [
+    "Sunlight enters through the brocade curtains with diamond cutouts, creating a series of identical dimmed patterns on the polished dark-stained floor.  Roltons in whimsical poses are carved into the wood panel that covers the barroom, illuminated by brass lanterns, which are scattered throughout the room.  Hanging above the wall behind a semi-circular bar, with half-moon barstools surrounding it, is a stuffed caribou head with honey-colored glass eyes.  Carved with leaves and vines, a spiral staircase leads up to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, out"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "image": {
+    "file": "fest-highman_games-1265497377.png",
+    "rect": [
+      659,
+      238,
+      707,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 17462,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17464,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17484,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17487,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17488,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

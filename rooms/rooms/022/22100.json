@@ -1,0 +1,43 @@
+{
+  "id": 22100,
+  "uid": [
+    280002
+  ],
+  "title": [
+    "[Bard Guild, Landing]"
+  ],
+  "description": [
+    "The narrow staircase pauses at a landing where the stairs crook around a curve.  To the northeast, an arch takes the place of the carved panels decorating the other walls.  A pair of bas-relief masks hangs on the lintel of the arch, one with an exaggerated grin and the other a tragic grimace."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 15696,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 22097,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 22102,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 22105,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

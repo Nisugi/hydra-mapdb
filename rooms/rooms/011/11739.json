@@ -1,0 +1,44 @@
+{
+  "id": 11739,
+  "uid": [
+    376080
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Curving to the northeast, the hallway begins to narrow as the granite blocks become the predominant material used in the construction, with the black stone sinking further toward the ground.  Pieces of clothing litter the floor, creating a trail that leads to the south toward an open iron door.  A loud trollish roar reverberates through the dungeon, and bounces off the walls, followed by the sound of something scratching its claws against metal."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      710,
+      550,
+      720,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 11738,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11740,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

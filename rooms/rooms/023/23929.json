@@ -1,0 +1,38 @@
+{
+  "id": 23929,
+  "uid": [
+    1302202
+  ],
+  "title": [
+    "[Underground Lair, Entry]"
+  ],
+  "description": [
+    "The air is clean and fresh on this side of an ornate mahogany entryway.  The vaulted ceiling, formed from the natural stone, shines with the light of luminescent rocks, and niches with lanterns have been placed around the spacious, circular room.  The overall effect mimics a star-strewn night sky and has an airy, open feel despite the enclosed space.  Luxurious rugs warm the stone floors, providing a cozy and inviting atmosphere.  A tiny wooden door leads off to the west and a columned arch provides access deeper into the lair."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Underground Lair, inside the isle town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "exits": [
+    {
+      "to": 23928,
+      "kind": "go",
+      "cmd": "go entryway",
+      "cost": 0.2
+    },
+    {
+      "to": 23930,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23931,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

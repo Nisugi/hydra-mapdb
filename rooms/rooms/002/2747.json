@@ -1,0 +1,73 @@
+{
+  "id": 2747,
+  "uid": [
+    4563059
+  ],
+  "title": [
+    "[Arctic Tundra]"
+  ],
+  "description": [
+    "To the west, a large spire of ice towers far above your head and is quickly lost in the swirling snowstorm.  A wooden hatch to the north leads, strangely enough, down into the snow.  Paths lead from the hatch to the south and southwest."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "the Pinefar forests",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "crowberry",
+    "daggit root",
+    "dwarf bilberry",
+    "feverfew stalk",
+    "gok nut",
+    "ironfern root",
+    "lingonberry",
+    "manroot stalk",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "red lichen",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "wintercrisp apple",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      771,
+      874,
+      781,
+      884
+    ]
+  },
+  "exits": [
+    {
+      "to": 2746,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 2748,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2750,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

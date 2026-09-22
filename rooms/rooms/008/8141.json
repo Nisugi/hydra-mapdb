@@ -1,0 +1,65 @@
+{
+  "id": 8141,
+  "uid": [
+    4003010
+  ],
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "The dark cavern is formed from black lava, frozen in porous splendor.  The ceiling is low enough that crawling or stooping are the only options.  Nasty snarls in the distance suggest that stooping is better than crawling at this point."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Dubh Brugh",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1440,
+      884,
+      1450,
+      894
+    ]
+  },
+  "exits": [
+    {
+      "to": 7905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel"
+        },
+        {
+          "move": "crawl crack"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 8140,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 34466,
+  "uid": [
+    8211350
+  ],
+  "title": [
+    "[Summit Academy, Ellipse]"
+  ],
+  "description": [
+    "Snow-topped firs stand guardian over much smaller junipers, their dark green boughs and dark blue berries providing colorful interest to the northeastern landscape.  Rounded stones of grey and brown peek through the snow-dusted grounds and lead a winding path through the dark foliage."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Summit Academy",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      353,
+      448,
+      375,
+      471
+    ]
+  },
+  "exits": [
+    {
+      "to": 25899,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25919,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34477,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

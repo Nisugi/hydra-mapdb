@@ -1,0 +1,52 @@
+{
+  "id": 31824,
+  "uid": [
+    8083406
+  ],
+  "title": [
+    "[Gleyminn Anni River, Cavern]"
+  ],
+  "description": [
+    "Stalagmites burst up from the murky waters making navigation in this section of the cave more difficult.  Overhead, bats cling to the rock ceiling seemingly unperturbed by the sputtering lanterns poorly lighting the immense subterranean area.  Fresh water pours in from an unseen opening high above, the sounds of the waterfall almost deafening."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1175,
+      838,
+      1199,
+      859
+    ]
+  },
+  "exits": [
+    {
+      "to": 31823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push west"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31827,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 25770,
+  "uid": [
+    3223839
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Large boulders create a protective barrier around a pristine cove surrounded by white sands.  Slender pathways along the beach twine their way through the verdant canopy, where a small structure can be glimpsed amid the leaves.  Sufficiently blocking passage into the bay, the round rocks take the brunt of the choppy waters."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2001,
+      1360,
+      2020,
+      1379
+    ]
+  },
+  "exits": [
+    {
+      "to": 25759,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25769,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25771,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

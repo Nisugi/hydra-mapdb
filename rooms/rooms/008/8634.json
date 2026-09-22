@@ -1,0 +1,74 @@
+{
+  "id": 8634,
+  "uid": [
+    112013
+  ],
+  "title": [
+    "[Wehnimer's, Shop Cellar]"
+  ],
+  "description": [
+    "Wrought iron candelabras occupy opposite corners of the room, casting a series of flickering shadows along the ceiling and walls.  Multicolored throw rugs patterned with interlocking spheres are scattered throughout the basement.  An oddly shaped table and a single ladder-back chair rest in the far corner of the room near an old pot-bellied stove."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "fire lily",
+    "urchin guide chronomages",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 8633,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 8635,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 5.0
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

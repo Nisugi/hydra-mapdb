@@ -1,0 +1,104 @@
+{
+  "id": 16745,
+  "uid": [
+    17005027
+  ],
+  "title": [
+    "[Aradhul Road, Rocky Trail]"
+  ],
+  "description": [
+    "The high, rocky walls of the ravine loom above the trail, and a gigantic rock, dislodged from high above, blocks passage to the south.  The ravine walls widen to the north, yielding to a thick forest."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "bolmara lichen",
+    "cherry peppers",
+    "crimson dragonstalk",
+    "fresh catnip",
+    "hop flowers",
+    "ironfern root",
+    "juicy plum",
+    "leek",
+    "mountain dryad",
+    "peppermint leaves",
+    "pepperthorn root",
+    "red thanot berry",
+    "shallot",
+    "small apple",
+    "small watermelon",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "spring onion",
+    "stalk of bluebells",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "thanot thorn",
+    "viburnum twig",
+    "wild pink geranium",
+    "wild sage",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      652,
+      756,
+      676,
+      777
+    ]
+  },
+  "exits": [
+    {
+      "to": 16744,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16746,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "jump rock"
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "vaalor_shortcut",
+            "true"
+          ]
+        },
+        "then": 15.0
+      }
+    }
+  ]
+}

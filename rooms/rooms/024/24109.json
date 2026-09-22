@@ -1,0 +1,49 @@
+{
+  "id": 24109,
+  "title": [
+    "[Necropolis, Ascendant]"
+  ],
+  "description": [
+    "Torches mounted in iron sconces encompass the room, casting a dim light that barely reaches the hewn stone of the ceiling.  Two mummified corpses, clothed in tattered robes, have been tossed into an alcove set into the eastern wall.  To the north is an expansive stone door which appears closed."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 24108,
+      "kind": "go",
+      "cmd": "go stone stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 24110,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24111,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24113,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get my rattlesnake"
+        },
+        {
+          "put": "put my rattlesnake in stone door"
+        },
+        {
+          "move": "go stone door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

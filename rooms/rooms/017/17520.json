@@ -1,0 +1,49 @@
+{
+  "id": 17520,
+  "title": [
+    "[Forest Path]"
+  ],
+  "description": [
+    "Covered by colorful lichen, the remains of a fieldstone walkway line the path.  Barely visible through the foliage, a passage leads toward a cemetery.  Faint glimmers of will-o'-wisps dance around in the surrounding swamp's forest, though they seem to stay well clear of a massive fallen tree."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast",
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      586,
+      985,
+      601,
+      999
+    ]
+  },
+  "exits": [
+    {
+      "to": 17410,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17526,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 18243,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21383,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

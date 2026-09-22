@@ -1,0 +1,62 @@
+{
+  "id": 20627,
+  "uid": [
+    336719
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "At the edge of this warren, only a single torch burns, its light barely pushing away any darkness.  The faint sound of rodents skittering about can be heard close by."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      844,
+      304,
+      880,
+      340
+    ]
+  },
+  "exits": [
+    {
+      "to": 20626,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20641,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

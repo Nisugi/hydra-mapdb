@@ -1,0 +1,62 @@
+{
+  "id": 21765,
+  "uid": [
+    103200
+  ],
+  "title": [
+    "[House Phoenix, Observatory]"
+  ],
+  "description": [
+    "Here on the highest level of the building, most of the walls and the roof seem to be formed of a clear glasslike crystal that allows an almost unrestricted view of the sky above and the surrounding townscape.  Various instruments of observation and study stand on a raised platform in the middle of the room.  To the south is a hallway."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Rising Phoenix"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      1536,
+      426,
+      1655,
+      505
+    ]
+  },
+  "exits": [
+    {
+      "to": 21764,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 21766,
+      "kind": "go",
+      "cmd": "go platform",
+      "cost": 0.2
+    },
+    {
+      "to": 21767,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21769,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 21770,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    }
+  ]
+}

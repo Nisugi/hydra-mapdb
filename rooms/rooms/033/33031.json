@@ -1,0 +1,36 @@
+{
+  "id": 33031,
+  "uid": [
+    7121228
+  ],
+  "title": [
+    "[House Annex, House Sylvanfair]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted twilight silver and dominated by the black silhouette of an ancient tree, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush grass green carpeting dappled with ebon threads lends the otherwise austere space a coziness that is enhanced by the presence of a metallic-hued organza settee.  A lacquered beige door leads to the hallway, while a black-edged argent silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sylvanfair:entrance_annex",
+    "che:sylvanfair:entrance_locker",
+    "locker annex:House Sylvanfair"
+  ],
+  "exits": [
+    {
+      "to": 7705,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 33032,
+      "kind": "go",
+      "cmd": "go argent curtain",
+      "cost": 0.2
+    }
+  ]
+}

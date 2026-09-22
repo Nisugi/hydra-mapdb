@@ -1,0 +1,290 @@
+{
+  "id": 1194,
+  "uid": [
+    1017
+  ],
+  "title": [
+    "[Raging Thrak Inn, Dining Room]"
+  ],
+  "description": [
+    "Loud and abusive noises emanate from behind the swinging kitchen doors, much to the laughing delight of some of the customers, and to the chagrin of others.  Tapestries hanging from the walls depict soothing idyllic wildlife scenes.  Hard wooden tables and chairs are placed evenly, allowing enough space for the cook and wait servants to pass."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      203,
+      352,
+      233,
+      382
+    ]
+  },
+  "exits": [
+    {
+      "to": 1195,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1259,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3622,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Giant Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3751,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Twin Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3786,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Thrakling table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3808,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Pink Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3827,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Rolling Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3830,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Ancient Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3852,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Cavorting Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3854,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sleeping Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3909,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sea Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3910,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dancing Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 8669,
+      "kind": "go",
+      "cmd": "go cozy nook",
+      "cost": 0.2
+    },
+    {
+      "to": 9289,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Curious Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9293,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go One-eyed Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9297,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tipsy Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9402,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Card Playing Thraks table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17091,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Fat Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17092,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Kittens and Thraks table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17093,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Galloping Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17375,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Skinny Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23268,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Two-headed Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28579,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Ferocious Thrak table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

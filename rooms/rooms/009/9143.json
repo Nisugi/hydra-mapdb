@@ -1,0 +1,55 @@
+{
+  "id": 9143,
+  "uid": [
+    7530007
+  ],
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "A slate-tiled path leads to a small keep that has been constructed entirely of garishly colored stones.  There seems to be no rhyme or reason to this structure, only madness.  The only visible entrance to this small castle is through a pink coral portcullis."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "hot, damp",
+  "terrain": "sandy",
+  "tags": [
+    "acantha leaf",
+    "bur-clover root",
+    "cinnamon bark",
+    "murdroot",
+    "yabathilium fruit",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      397,
+      937,
+      407,
+      947
+    ]
+  },
+  "exits": [
+    {
+      "to": 9141,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9144,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9163,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

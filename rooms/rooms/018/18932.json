@@ -1,0 +1,70 @@
+{
+  "id": 18932,
+  "uid": [
+    664005
+  ],
+  "title": [
+    "[Sorcerer Guild, Library]"
+  ],
+  "description": [
+    "This center of knowledge also seems to serve as the center of traffic for the Guild.  Smooth, cool limestone flooring leads off to the north, northwest, northeast and west, while a ramp leads steeply upward to the south.  This windowless room holds thousands of manuscripts on magic, history, geography, and a myriad of other subjects.  Easy chairs scattered about provide places to rest and read, each accompanied by a standing brass lamp."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southwest, west, northwest"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "vo-sorcerer_guild-1405076623.png",
+    "rect": [
+      320,
+      462,
+      359,
+      501
+    ]
+  },
+  "exits": [
+    {
+      "to": 18929,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18933,
+      "kind": "climb",
+      "cmd": "climb ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 18934,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 18935,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18947,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18948,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18952,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

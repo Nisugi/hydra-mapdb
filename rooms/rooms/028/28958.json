@@ -1,0 +1,56 @@
+{
+  "id": 28958,
+  "uid": [
+    7121002
+  ],
+  "title": [
+    "[Inking Den, Hallway]"
+  ],
+  "description": [
+    "Navy blue rugs bordered with braided gold rope and bright white anchors cushion the long hallway as it stretches to the east and west.  Wrought iron rings dangle from the ceiling and hold aloft glass-fronted lanterns that shed bright yellow light and dispel all surrounding shadows.  Standing opposite each other, a windowed blue door has the words, \"Office of Employment,\" etched into its glass, while a windowed brown door has the words, \"Office of the Debt Collector,\" etched on its glass."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "kf-inking_den-1615857364.png",
+    "rect": [
+      432,
+      599,
+      462,
+      621
+    ]
+  },
+  "exits": [
+    {
+      "to": 28957,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28959,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28971,
+      "kind": "go",
+      "cmd": "go brown door",
+      "cost": 0.2
+    },
+    {
+      "to": 28972,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    }
+  ]
+}

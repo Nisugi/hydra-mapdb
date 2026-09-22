@@ -1,0 +1,59 @@
+{
+  "id": 2261,
+  "uid": [
+    3005001
+  ],
+  "title": [
+    "[Stormbrow, Abandoned Mine Dock]"
+  ],
+  "description": [
+    "The river rushes by a wide granite ledge jutting out from a small stone dock, here in the damp, dark chill of Stormbrow's depths.  Yellow-green moss, glowing with some unearthly light, covers the walls and edges toward a stout iron gate, just visible among the shadows."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Mine",
+  "terrain": "rough",
+  "tags": [
+    "ayana leaf"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      587,
+      895,
+      597,
+      905
+    ]
+  },
+  "exits": [
+    {
+      "to": 2260,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go ferryboat"
+        },
+        {
+          "await": "The squat ferryboat arrives at the dock with a hollow thunk.",
+          "when": "still_here"
+        },
+        {
+          "move": "go ferryboat",
+          "when": "still_here"
+        }
+      ],
+      "cost": 40.0
+    },
+    {
+      "to": 2262,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

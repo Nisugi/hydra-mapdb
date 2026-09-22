@@ -1,0 +1,43 @@
+{
+  "id": 21958,
+  "title": [
+    "[Talador Mines, Narrow Ledge]"
+  ],
+  "description": [
+    "Sleek, glowing white worms slowly inch along the walls, like slow moving stars on the backdrop of night.  The ledge is narrow and jagged and one side opens up into a pit of blackness, leading across the way to another ledge, while an old metal ladder leads down into a tunnel."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      669,
+      427,
+      683,
+      440
+    ]
+  },
+  "exits": [
+    {
+      "to": 21957,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get rope"
+        },
+        {
+          "move": "push rope"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21959,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

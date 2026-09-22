@@ -1,0 +1,52 @@
+{
+  "id": 17269,
+  "uid": [
+    252033
+  ],
+  "title": [
+    "[Warrior Guild, Esplanade]"
+  ],
+  "description": [
+    "This walkway is covered with hand drawn tiles depicting abstract shapes.  The esplanade leads west to a large swimming pool.  Some topiaries and shrubbery flank the entrance of the hippodrome to the north."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1374,
+      801,
+      1396,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 17268,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17270,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    },
+    {
+      "to": 17272,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17273,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

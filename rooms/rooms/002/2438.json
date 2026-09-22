@@ -1,0 +1,81 @@
+{
+  "id": 2438,
+  "uid": [
+    4043042
+  ],
+  "title": [
+    "[Clovertooth Hall, Bondsman]"
+  ],
+  "description": [
+    "Two halfling guards in matching uniforms flank each end of a long marble counter behind which sits another gleefully counting his coins.  Marking the center of the counter is a shiny silver-plated sign."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "debt",
+    "debts",
+    "no forageables",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "imt-Clovertooth_Hall-1615305972.png",
+    "rect": [
+      392,
+      1180,
+      484,
+      1272
+    ]
+  },
+  "exits": [
+    {
+      "to": 29531,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

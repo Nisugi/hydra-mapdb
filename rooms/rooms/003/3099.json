@@ -1,0 +1,45 @@
+{
+  "id": 3099,
+  "uid": [
+    4124017
+  ],
+  "title": [
+    "[Abandoned Farm, Bedroom]"
+  ],
+  "description": [
+    "The bed is slashed and the frame splintered.  Broken glass litters the floor in a wide arc from the open window across the room.  A faded rocking horse lies on its side in the corner, its severed head crushed as though it had been stomped on by heavy nailed boots."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "cold, dry",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "zombie"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      834,
+      618,
+      844,
+      628
+    ]
+  },
+  "exits": [
+    {
+      "to": 3093,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3100,
+      "kind": "go",
+      "cmd": "go window",
+      "cost": 0.2
+    }
+  ]
+}

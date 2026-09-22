@@ -1,0 +1,52 @@
+{
+  "id": 32070,
+  "uid": [
+    8083421
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "The slow-moving waters of the river pick up a hint of speed as they splash down over an inconsequential rock formation, before smoothing out once more into a steady, purposeful current.  A gloomy and boundless forest spreads away to the south, its densely wooded thickets closing in the river on either side.  An extremely narrow road runs along the bank for some distance before disappearing into the dark underbrush."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1674,
+      684,
+      1696,
+      707
+    ]
+  },
+  "exits": [
+    {
+      "to": 31810,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 32071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

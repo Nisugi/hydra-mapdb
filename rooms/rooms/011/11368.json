@@ -1,0 +1,50 @@
+{
+  "id": 11368,
+  "uid": [
+    377020
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "A large, ironbound door interrupts the simplistic beauty of the smooth granite wall here.  Next to the door is a small pile of decaying rags and sticks which appears to once have been used as torches."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      112,
+      1264,
+      122,
+      1274
+    ]
+  },
+  "exits": [
+    {
+      "to": 11265,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 11366,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11369,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

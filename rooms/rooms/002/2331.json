@@ -1,0 +1,57 @@
+{
+  "id": 2331,
+  "uid": [
+    4042011
+  ],
+  "title": [
+    "[Temple Burrow, Koar Street]"
+  ],
+  "description": [
+    "Cobbled road gives way to solid ice as the pathway scales the edge of one of the glacier's lesser slopes.  The ground is slippery, but halflings and the occasional sylvankind pedestrian seem unhindered as they make their way.  Dwellings and shops dug out of the ice are fronted by round doors with fresh coats of brightly colored paint, though there seems to be no clear consensus on which colors go together well and which clash.  An ice ramp of packed, grated ice leads up and to the east toward the temple.",
+    "You are on the edge of the glacier.  The ground here is hard-packed ice, slippery beneath your feet, but the halflings seem not to notice as they make their way about their business.  Houses have been carved from the ice, as have a few small shops.  A ramp of packed, grated ice leads up and to the east, likely to the Temple."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      672,
+      519,
+      708,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 2330,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2332,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 2356,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3306,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

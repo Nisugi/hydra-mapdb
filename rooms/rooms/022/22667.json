@@ -1,0 +1,35 @@
+{
+  "id": 22667,
+  "title": [
+    "[Alchemist's Delight, Front Room]",
+    "[Miasmic Verge, Outer Swamp]"
+  ],
+  "description": [
+    "The well-lit tent has several crooked columns of cauldrons that are likely supporting the dark blue canvas walls and ceiling.  A small opening leads to a separate room toward the rear.  To the immediate right of the entrance is a small neatly arranged area with a large rack, a display table and a wicker basket.  A mithril placard loosely attached to the wall also stands out.",
+    "The well-lit tent has several crooked columns of cauldrons that are likely supporting the dark blue canvas walls and ceiling.  A small opening leads to a separate room toward the rear.  To the immediate right of the entrance is a small, neatly arranged area with a large rack, a display table, and a wicker basket.  A mithril placard loosely attached to the wall also stands out.",
+    "Bright green fiddlehead ferns grow within the soft earth of the swamp, their feathery heads swaying when anything gets too near to them.  Tiny saplings rise out of the miniature forest of greenery and stretch their spindled limbs towards the heavens.  A thick fog blankets the ground."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious paths: east, southeast"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20347,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22992,
+      "kind": "other",
+      "cmd": "crawl opening",
+      "cost": 0.2
+    }
+  ]
+}

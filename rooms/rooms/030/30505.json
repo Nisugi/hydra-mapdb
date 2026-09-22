@@ -1,0 +1,50 @@
+{
+  "id": 30505,
+  "uid": [
+    14117108
+  ],
+  "title": [
+    "[Mistydeep, Underwater]"
+  ],
+  "description": [
+    "The chilly waters of the Mistydeep run swiftly at this depth, scouring clean the pale sand below.  Dark piscene forms lurk at vision's edge, but they keep their distance, making identification impossible."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest, up"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "climate": "none",
+  "terrain": "none",
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1124,
+      891,
+      1141,
+      909
+    ]
+  },
+  "exits": [
+    {
+      "to": 25620,
+      "kind": "other",
+      "cmd": "swim up",
+      "cost": 0.2
+    },
+    {
+      "to": 30504,
+      "kind": "other",
+      "cmd": "swim northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30506,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 0.2
+    }
+  ]
+}

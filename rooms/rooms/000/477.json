@@ -1,0 +1,90 @@
+{
+  "id": 477,
+  "uid": [
+    397002
+  ],
+  "title": [
+    "[Hearthstone, Front Porch]"
+  ],
+  "description": [
+    "Airy and open, the porch is enclosed by smooth, freshly painted white modwir up to a height of about four feet.  As you ponder the sky-blue color of the ceiling and a lacework of deep green ivy that crisscrosses the open space between posts, the hubbub of the world beyond quickly fades away.  Rocking chairs of various sizes are an inviting sight, and an elegant green marble arch provides a tantalizing view of the splendors inside the old manor."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide hearthstone",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Hearthstone Manor",
+    "mapshortname:Hearthstone Manor"
+  ],
+  "image": {
+    "file": "wl-Hearthstone_Manor-1439662135.png",
+    "rect": [
+      424,
+      679,
+      491,
+      724
+    ]
+  },
+  "exits": [
+    {
+      "to": 410,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 13500,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

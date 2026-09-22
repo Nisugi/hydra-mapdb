@@ -1,0 +1,35 @@
+{
+  "id": 13225,
+  "uid": [
+    4749101
+  ],
+  "title": [
+    "[Oleani's Temple, Vestibule]"
+  ],
+  "description": [
+    "An austere anteroom of pale-ivory walls that meet a simple white marble floor contains few clues about the nature of this temple, aside from the garlands of fragrant roses hanging along the walls.  A flower blooming from a red heart is painted in loving detail, recognized as Oleani's symbol.  Stray petals of red and white lie on the floor, their scent released as they are crushed underfoot.  A heart-shaped archway leads out to the esplanade, while a short corridor leads north into the temple."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1601,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 13229,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

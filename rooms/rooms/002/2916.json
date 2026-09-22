@@ -1,0 +1,80 @@
+{
+  "id": 2916,
+  "uid": [
+    4560019
+  ],
+  "title": [
+    "[Foothills, Frozen Lake]"
+  ],
+  "description": [
+    "The trail ends at the shore of a frozen lake that sits in a low basin here.  Waterfowl slip and slide across the opaque ice, like children at play.  The northern shore of the lake is formed by the sheer cliff stretching upwards towards a craggy mountain peak.  The other shorelines are comparatively flat, and heavily wooded.  Perched high upon the boughs of an edge-water pine is a thatched stick birds nest.",
+    "The trail ends at the shore of a frozen lake that sits in a low basin here.  The northern shore of the lake is formed by the sheer cliff stretching upwards towards a craggy mountain peak.  The other shorelines are comparatively flat, and heavily wooded.  Perched high upon the boughs of an edge-water pine is a thatched stick birds nest."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1183,
+      532,
+      1193,
+      542
+    ]
+  },
+  "exits": [
+    {
+      "to": 2915,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2917,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb cliff"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

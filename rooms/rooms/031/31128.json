@@ -1,0 +1,49 @@
+{
+  "id": 31128,
+  "uid": [
+    102252
+  ],
+  "title": [
+    "[House Aspis, 2nd Floor Hall]"
+  ],
+  "description": [
+    "The entrance to Garret's room is here along this stretch of hallway.  The passage continues to the south and the east along the balcony."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      271,
+      384,
+      403,
+      451
+    ]
+  },
+  "exits": [
+    {
+      "to": 31126,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31129,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31131,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

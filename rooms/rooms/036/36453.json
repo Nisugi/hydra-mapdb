@@ -1,0 +1,53 @@
+{
+  "id": 36453,
+  "uid": [
+    59041
+  ],
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "The grassy field widens here, providing a cool spot to rest and a good point to ponder the keep and its mysteries.  Peering out over the moat through the steamy haze above, you can see the entrance and a half-lowered drawbridge.  Below in the moat, small eddies froth and gurgle.  A dilapidated catapult stands forlornly on a clear swath of ground, silent witness to past battles.",
+    "The field dips slightly in elevation here and is free of rubble and debris.  The wind gently rustles through the short grass, providing a slightly cooler place for a person to find a moment's rest.  Peering out over the moat through the steamy haze above, it is possible to see the entrance to the castle and the drawbridge."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "grassland",
+  "tags": [
+    "honeysuckle vine",
+    "rose-marrow root",
+    "sprig of lavender",
+    "wild strawberry"
+  ],
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      840,
+      840,
+      880,
+      880
+    ]
+  },
+  "exits": [
+    {
+      "to": 36349,
+      "kind": "go",
+      "cmd": "go moat",
+      "cost": 0.2
+    },
+    {
+      "to": 36452,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36454,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

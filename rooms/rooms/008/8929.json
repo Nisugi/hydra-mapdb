@@ -1,0 +1,43 @@
+{
+  "id": 8929,
+  "uid": [
+    680107
+  ],
+  "title": [
+    "[Wizard Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      108,
+      589,
+      158,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 8923,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 18726,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

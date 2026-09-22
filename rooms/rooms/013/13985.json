@@ -1,0 +1,45 @@
+{
+  "id": 13985,
+  "uid": [
+    4750003
+  ],
+  "title": [
+    "[Castle Varunar, Barbican]"
+  ],
+  "description": [
+    "The stone barbican surrounds you, with a massive portcullis standing at each end.  The walls are covered with scorching and brownish stains that might be blood.  Above you, numerous murder holes have been cut into the ceiling and you can imagine the destruction that might have rained down on any invader unlucky enough to find themselves trapped between the closed gates.  To the north you see the inner drawbridge spanning the castle moat.  To the south you see the outer drawbridge."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      656,
+      512,
+      666,
+      522
+    ]
+  },
+  "exits": [
+    {
+      "to": 13984,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13986,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    }
+  ]
+}

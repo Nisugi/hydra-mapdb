@@ -1,0 +1,53 @@
+{
+  "id": 3485,
+  "uid": [
+    14100011
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Court]"
+  ],
+  "description": [
+    "A large inn marks the bustling corner of the court, its massive walls enlivened by deeply carved intertwining vines that creep up the stonework and meet in a mass of heavy stone foliage above each window embrasure and door lintel.  An engraved silver sign swings from a post beside the inn's ironwood front doors.",
+    "A large inn marks the bustling corner of the court, its massive walls enlivened by deeply carved intertwining vines that creep up the stonework and meet in a mass of heavy stone foliage above each window embrasure and door lintel.  An engraved silver sign, illuminated by the lanterns hanging from the inn's wide awning, swings from a post beside the inn's ironwood front doors."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      850,
+      183,
+      884,
+      215
+    ]
+  },
+  "exits": [
+    {
+      "to": 3484,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3486,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5826,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 35044,
+  "uid": [
+    4426501
+  ],
+  "title": [
+    "[Glaeve, Conquerors' Gate]"
+  ],
+  "description": [
+    "Beneath an imposing basalt arch etched with a snarling krolvin face, a reinforced black spruce gate opens onto a crowded plaza.  Animals screech from cages by a shouting street vendor, while nearby, a hawker gregariously peddles cold fish and hot broth to hungry travelers.  Krolvin sentries armed with arbalests watch over the throng from guard towers positioned to either side of the gateway."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      645,
+      450,
+      665,
+      470
+    ]
+  },
+  "exits": [
+    {
+      "to": 35043,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 35046,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

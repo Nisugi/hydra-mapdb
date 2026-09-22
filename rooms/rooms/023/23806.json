@@ -1,0 +1,71 @@
+{
+  "id": 23806,
+  "uid": [
+    5300
+  ],
+  "title": [
+    "[Collectibles Shop]"
+  ],
+  "description": [
+    "This cozy little warehouse almost has a boutique-like feel to it.  Individual displays are separated by large hanging tapestries and are individually attended by smartly dressed assistants.  A light perfume hangs in the air, continually refreshed by occasional spritzes from an unseen source."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "collectibles",
+    "fire lily",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 286,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

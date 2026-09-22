@@ -1,0 +1,46 @@
+{
+  "id": 33662,
+  "uid": [
+    7101205
+  ],
+  "title": [
+    "[Keep Tower, Hendor Room]"
+  ],
+  "description": [
+    "Cloudy crystals rise in shards from the cobblestone floor to form the image of a frozen witch of unsurpassed beauty.  Fragments of the the sculpture have broken free and tumbled into the dusty ground along a single line that divides the room in two distinct portions.  Affixed to the wall above the eastern niche is a small shield-shaped device, while a small tattered banner rests above the western niche."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1658,
+      1127,
+      1703,
+      1171
+    ]
+  },
+  "exits": [
+    {
+      "to": 33652,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33663,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33664,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

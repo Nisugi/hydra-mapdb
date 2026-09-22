@@ -1,0 +1,67 @@
+{
+  "id": 35614,
+  "uid": [
+    7150507
+  ],
+  "title": [
+    "[The Mageborn, Hold]"
+  ],
+  "description": [
+    "Seawater surges and ebbs, battering rotted support beams in the darkness of the hold.  Broken crates float amid drifting seaweed that fills the space with the sweetness of decay, though a few still secured to the deck by tortured lines are stacked to allow access to a rusted iron hatch.  Faint twinkles of starlight beckon from cracks between the planks overhead, casting silvery luminescence across bulkheads crawling with algae.  The ceaseless rocking of the ship sends concentric waves rippling across black water."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1640,
+      2440,
+      1720,
+      2520
+    ]
+  },
+  "exits": [
+    {
+      "to": 35613,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 35615,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35618,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35727,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go gash"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

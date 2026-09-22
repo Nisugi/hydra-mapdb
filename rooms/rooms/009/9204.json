@@ -1,0 +1,44 @@
+{
+  "id": 9204,
+  "uid": [
+    7531043
+  ],
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "This cramped and claustrophobic room is nothing more than four walls.  A ladder leads downward, but there doesn't seem to be any doors or exits back into the keep."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1176,
+      825,
+      1186,
+      835
+    ]
+  },
+  "exits": [
+    {
+      "to": 9175,
+      "kind": "go",
+      "cmd": "go wall",
+      "cost": 0.2
+    },
+    {
+      "to": 9205,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

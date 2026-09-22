@@ -1,0 +1,63 @@
+{
+  "id": 13476,
+  "uid": [
+    34201
+  ],
+  "title": [
+    "[Midrian's Dyes, Foyer]"
+  ],
+  "description": [
+    "Situated at an angle to either side of a polished oak door that leads to the street is a set of low tables covered with vials of dyes.  A long glass front cabinet stands in the center of this quaint foyer and is flanked by arches, on the left and right, which lead further into the shop.  Behind the cabinet, a long hallway terminates in a set of oak steps and is illuminated by evenly spaced wall sconces."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Solhaven",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "dyers",
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Dyer's Tents:Solhaven",
+    "mapcategory:Vornavis",
+    "mapname:Solhaven Dyer's Tent",
+    "mapshortname:Dyer's Tent"
+  ],
+  "image": {
+    "file": "vo-dyers_tent-1512161334.png",
+    "rect": [
+      1370,
+      791,
+      1512,
+      859
+    ]
+  },
+  "exits": [
+    {
+      "to": 1559,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13477,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 14351,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14352,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

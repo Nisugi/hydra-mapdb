@@ -1,0 +1,48 @@
+{
+  "id": 20125,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "A mixture of ferns and wisteria vines make travel difficult for both the tallest and the shortest of those passing by.  The moist ground is home to a prolific and nearly impenetrable stand of ferns, some of the fronds reaching four feet at their apex.  Hanging from above, the hardy wisteria clamber upward, with their thick stems holding fast to every available trunk.  The pendulous racemes drape down across the pathways like living green curtains."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      322,
+      689,
+      338,
+      702
+    ]
+  },
+  "exits": [
+    {
+      "to": 20123,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20126,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21457,
+      "kind": "go",
+      "cmd": "go ebon tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21458,
+      "kind": "go",
+      "cmd": "go ebonwood wagon",
+      "cost": 0.2
+    }
+  ]
+}

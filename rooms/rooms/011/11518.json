@@ -1,0 +1,50 @@
+{
+  "id": 11518,
+  "uid": [
+    305005
+  ],
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "Dark shadows play off of the walls of the dank corridor, giving the impression of scampering imps just out of your sight.  The passage continues in two directions, angling slightly upward to the northwest, with a gentle downward slope to the northeast.  Web-shrouded steps descend into the darkness below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, down"
+  ],
+  "location": "the Ruined Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      954,
+      1036,
+      964,
+      1046
+    ]
+  },
+  "exits": [
+    {
+      "to": 11516,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11519,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11526,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

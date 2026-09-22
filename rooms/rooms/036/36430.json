@@ -1,0 +1,41 @@
+{
+  "id": 36430,
+  "uid": [
+    58041
+  ],
+  "title": [
+    "[Dungeon, Cavern]"
+  ],
+  "description": [
+    "This chamber appears to be relatively new.  The walls have been roughly carved from the surrounding grey rock in a simple manner with no finishing touches having been added anywhere in sight.  The dull roar of rushing water emanates from the south and water clings to the surface of the walls, making them glisten with moisture.  You also see a rusted metal gate."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2040,
+      440,
+      2080,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 36428,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36431,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

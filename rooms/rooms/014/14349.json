@@ -1,0 +1,35 @@
+{
+  "id": 14349,
+  "uid": [
+    4901102
+  ],
+  "title": [
+    "[The Krawling Kraken]"
+  ],
+  "description": [
+    "Dark paneled walls along the western side of the hallway provide a striking contrast to the huge marble statue to the east.  The scarlet carpeting is worn in several places, showing the scuffed wooden floorboards underneath.  A blue velvet drape cleverly conceals an alcove across from the statue and some long red silk curtains offer passage to the south, back to the inn proper."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 14348,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 14350,
+      "kind": "go",
+      "cmd": "go curtains",
+      "cost": 0.2
+    }
+  ]
+}

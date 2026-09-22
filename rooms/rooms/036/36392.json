@@ -1,0 +1,47 @@
+{
+  "id": 36392,
+  "uid": [
+    55065
+  ],
+  "title": [
+    "[Black Swan Castle, Ramparts]"
+  ],
+  "description": [
+    "The rear corner of the keep rises up before you.  The building is carved in upturned patterns of glistening black granite scrolls, giving it the aspect of being covered in gleaming black feathers.  Down in the alley between the keep and the wall, there is only blackness and a long drop.  The moat over the other side of the wall looks black from this vantage point as well."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      560,
+      200,
+      600,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 36385,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36391,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36464,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 0.2
+    }
+  ]
+}

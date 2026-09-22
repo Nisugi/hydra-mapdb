@@ -1,0 +1,146 @@
+{
+  "id": 223,
+  "uid": [
+    7000
+  ],
+  "title": [
+    "[Wehnimer's, Land's End Rd.]"
+  ],
+  "description": [
+    "Vigilant night guardsmen scrutinize the citizens and travelers arriving and departing through the wide gates spanning the land route into Wehnimer's Landing.  The cluttered streets of the city to the south are a far cry from the deceptively calm expanse of the wilds of Elanith outside.  Two daunting towers survey the countryside and protect the town, flanking the road to the east and west.",
+    "Vigilant night guardsmen scrutinize the citizens and travelers arriving and departing through the wide gateway spanning the land route into Wehnimer's Landing.  The cluttered streets of the city to the south are a far cry from the deceptively calm expanse of the wilds of Elanith outside.  Two daunting towers survey the countryside and protect the town, flanking the road to the east and west.",
+    "Vigilant guardsmen scrutinize the citizens and travelers arriving and departing through the wide gateway spanning the land route into Wehnimer's Landing.  The frenetic pace of the city to the south is a far cry from the deceptive calm of the wilds of Elanith outside.  Two daunting towers survey the countryside and protect the town, flanking the road to the east and west."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "advpickup",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "northgate",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "urchin guide northgate",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "meta": [
+    "teleport:fwi",
+    "trashcan:large wooden barrel"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      277,
+      86,
+      313,
+      123
+    ]
+  },
+  "exits": [
+    {
+      "to": 221,
+      "kind": "go",
+      "cmd": "go town gates",
+      "cost": 0.2
+    },
+    {
+      "to": 224,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3807,
+      "kind": "go",
+      "cmd": "go east tower",
+      "cost": 0.2
+    },
+    {
+      "to": 6929,
+      "kind": "go",
+      "cmd": "go west tower",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

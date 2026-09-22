@@ -1,0 +1,46 @@
+{
+  "id": 31346,
+  "uid": [
+    4410031
+  ],
+  "title": [
+    "[Firewheel Grove, Pathway]"
+  ],
+  "description": [
+    "This grove is exclusively populated by massive firewheel trees, their branches intermingling into an impressive canopy shot through with brilliantly colored flowers.  A pathway encircles the grove, stretching out to the northwest and northeast, while a wooden archway leads back towards the main festival grounds."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      422,
+      234,
+      475,
+      287
+    ]
+  },
+  "exits": [
+    {
+      "to": 31291,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 31347,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31351,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

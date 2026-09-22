@@ -1,0 +1,43 @@
+{
+  "id": 21960,
+  "title": [
+    "[Talador Mines, Dark Pit]"
+  ],
+  "description": [
+    "The area is suffocated in darkness, save for the faint dim light caused by the glowing white worms slowly crawling along the jagged walls.  An icy chill hangs in the air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      767,
+      394,
+      781,
+      408
+    ]
+  },
+  "exits": [
+    {
+      "to": 21961,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "kneel"
+        },
+        {
+          "move": "go hole"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 3.8
+    }
+  ]
+}

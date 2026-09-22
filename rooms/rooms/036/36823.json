@@ -1,0 +1,47 @@
+{
+  "id": 36823,
+  "uid": [
+    14050102
+  ],
+  "title": [
+    "[Glimae'den Wildwood]"
+  ],
+  "description": [
+    "The forest opens onto a modest clearing, the ancient trees forming a natural alcove around a weathered building nestled among their trunks.  The whisper of wind through the high branches is joined by the low hum of bees drifting lazily near the building's eaves.  Fitted cobblestones lead the way to a pair of eight-paneled doors, marking the entrance to Cyrasei Lira'ka Meadery."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "cold, damp",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      299,
+      150,
+      320,
+      171
+    ]
+  },
+  "exits": [
+    {
+      "to": 36822,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36824,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36828,
+      "kind": "go",
+      "cmd": "go eight-paneled doors",
+      "cost": 0.2
+    }
+  ]
+}

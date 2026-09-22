@@ -1,0 +1,42 @@
+{
+  "id": 16317,
+  "uid": [
+    3204113
+  ],
+  "title": [
+    "[Atrium, Hallway]"
+  ],
+  "description": [
+    "A rose-embroidered curtain hangs on one wall, providing access to a small alcove.  More curtains can be seen farther down the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "public locker",
+    "publiclockers"
+  ],
+  "exits": [
+    {
+      "to": 16315,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16316,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27961,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

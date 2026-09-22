@@ -1,0 +1,39 @@
+{
+  "id": 18472,
+  "title": [
+    "[Grawood Farmstead, Maze]"
+  ],
+  "description": [
+    "Small bits of twine and scrap lumber rest in a pile next to the maize ramp.  A small portion of one row of corn, scythed to the ground, accommodates the hastily constructed ramp.  The green of fresh corn stalks continue on in vast rows."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18468,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18471,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 18473,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

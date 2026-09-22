@@ -1,0 +1,52 @@
+{
+  "id": 28627,
+  "uid": [
+    214027
+  ],
+  "title": [
+    "[Obsidian Tower, Stairway]"
+  ],
+  "description": [
+    "Torchlight flickers across the polished surfaces from sconces carved into the walls at regular intervals.  The small circular landing in the stairs provides enough room for several doors and a bit of standing room to rest on before continuing up or down."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "meta": [
+    "che:Obsidian Tower"
+  ],
+  "exits": [
+    {
+      "to": 20849,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 28628,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 28629,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 28630,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 28631,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

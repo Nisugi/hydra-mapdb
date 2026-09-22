@@ -1,0 +1,102 @@
+{
+  "id": 2326,
+  "uid": [
+    670011
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "A thin spire of pure ice ascends toward the heavens, its narrow spiked peak glittering with reflected sunlight.  Two tall modwir trees flank the enormous structure, their needle-covered branches dusted with a heavy coating of snow.  Small grey rocks peek out from the layer of white upon the ground, marking two paths that lead to the large tower and off to a smaller building situated near the southeastern wall.",
+    "A thin spire of pure ice ascends toward the heavens, its narrow spiked peak glittering with pale moonlight.  Two tall modwir trees flank the enormous structure, their needle-covered branches dusted with a heavy coating of snow.  Small grey rocks peek out from the layer of white upon the ground, marking two paths that lead to the large tower and off to a smaller building situated near the southeastern wall."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "cleric guild",
+    "clericguild",
+    "no forageables",
+    "urchin guide clericguild",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Cleric Guild",
+    "mapshortname:Cleric Guild (Icemule)"
+  ],
+  "image": {
+    "file": "imt-cleric_guild-1275420218.png",
+    "rect": [
+      452,
+      383,
+      498,
+      429
+    ]
+  },
+  "exits": [
+    {
+      "to": 2319,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 2327,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18650,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

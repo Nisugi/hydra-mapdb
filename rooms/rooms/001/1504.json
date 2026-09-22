@@ -1,0 +1,65 @@
+{
+  "id": 1504,
+  "uid": [
+    4209069
+  ],
+  "title": [
+    "[Solhaven, Eastbridge Lane]",
+    "[Eastbridge, Disaster Area]"
+  ],
+  "description": [
+    "Paired temple gates stand on either side of the street, the gate to the east bearing the silver clenched fist of Kai and the gate to the west bearing the silver sword of Ronan.  Flanking Eastbridge Lane, the two temples guard the roadway from the bridge and the temples of Lornon south of the canal.",
+    "Paired temples stand to either side of the street.  The gate to the east bears the silver clenched fist of Kai, while to the west, a ruined opening leads in to the ransacked grounds of Ronan's Temple.  Flanking Eastbridge Lane, the two temples guard the roadway from the temples of Lornon south of the canal."
+  ],
+  "paths": [
+    "Obvious paths: north, south",
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1063,
+      828,
+      1087,
+      852
+    ]
+  },
+  "exits": [
+    {
+      "to": 1470,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1503,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1600,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13314,
+      "kind": "go",
+      "cmd": "go crimson gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17053,
+      "kind": "go",
+      "cmd": "go black gate",
+      "cost": 0.2
+    }
+  ]
+}

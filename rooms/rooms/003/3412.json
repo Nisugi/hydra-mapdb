@@ -1,0 +1,56 @@
+{
+  "id": 3412,
+  "uid": [
+    9006441
+  ],
+  "title": [
+    "[New Look, Hair Coloration]"
+  ],
+  "description": [
+    "The canvas walls of this small pavilion are hung with carefully tied bundles of hair in a variety of colors.  A vat of lye sits next to the pinned-back tent flap, but even that extra ventilation isn't enough to keep the harsh vapors from stinging your eyes.  Casually stacked on a low counter are bowls of henna paste, vinegar, sodden ashes, and dark ink."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      901,
+      660,
+      901,
+      660
+    ]
+  },
+  "exits": [
+    {
+      "to": 3413,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3414,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3422,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3490,
+      "kind": "go",
+      "cmd": "go flap",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 2981,
+  "uid": [
+    4132118
+  ],
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "A small path of pale rock chunks and powdered plaster leads up to a breached white brick wall at the ossuary's far end.  The wall looks to have exploded outward, as if blown apart from the other side.  Oddly undisturbed, a thin marble shelf to the left of the opening holds a tall slender vase, which is adorned with a dried garland of wild roses around its slender neck.  A flickering torch has been driven into the ground below it, though its light seems uncertain and barely throws back the darkness beyond the breach."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "arch wight",
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      1504,
+      642,
+      1557,
+      695
+    ]
+  },
+  "exits": [
+    {
+      "to": 2980,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28811,
+      "kind": "go",
+      "cmd": "go white wall",
+      "cost": 0.2
+    }
+  ]
+}

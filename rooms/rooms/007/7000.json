@@ -1,0 +1,74 @@
+{
+  "id": 7000,
+  "uid": [
+    45106
+  ],
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "This wide space lies between the inner and outer curtain walls and extends all the way around the castle.  You stand just inside the portcullis which leads out of the castle through the gatehouse.  Before you stands the massive inner curtain wall whose crumbling towers rise high above you.  To the south of here is the inner curtain gatehouse."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bright red cranberry",
+    "cuctucae berry",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      488,
+      428,
+      498,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 6998,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel"
+        },
+        {
+          "move": "kiss red portcullis"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7001,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7025,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

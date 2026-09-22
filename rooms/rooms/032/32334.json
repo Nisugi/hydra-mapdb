@@ -1,0 +1,51 @@
+{
+  "id": 32334,
+  "uid": [
+    4576055
+  ],
+  "title": [
+    "[The Snowcat's Den, Parlor]"
+  ],
+  "description": [
+    "Light filters intimately through windows of smoky stained glass bearing scenes of the hunt, vivid reds commingling with the glistening golds and silvers of bright weaponry adorning the panes.  A capacious suede couch faces the translucent artwork, framed to either side by a burled maple endtable.  The sweet pungence of pipe smoke has permeated the walls and furnishings, and is a not unpleasant undertone to the aroma of roasting meat wafting from the kitchens."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Crawling Shore",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Road_to_Moonsedge-1668377644.png",
+    "rect": [
+      689,
+      1130,
+      735,
+      1176
+    ]
+  },
+  "exits": [
+    {
+      "to": 32332,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32362,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

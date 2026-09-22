@@ -1,0 +1,50 @@
+{
+  "id": 17592,
+  "uid": [
+    3216014
+  ],
+  "title": [
+    "[Western Harbor, Docks]"
+  ],
+  "description": [
+    "Protected on opposite sides by railings, the platform of the dock shows recent signs of repairs.  Newer planks mix with the discolored older ones in an alternating pattern that is erratic and unpredictable.  A set of steps leads through a small arch and down to the pier below."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      672,
+      625,
+      706,
+      656
+    ]
+  },
+  "exits": [
+    {
+      "to": 17590,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17593,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 17594,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

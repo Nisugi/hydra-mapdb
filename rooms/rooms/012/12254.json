@@ -1,0 +1,49 @@
+{
+  "id": 12254,
+  "uid": [
+    4571016
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Humanoid shadows float across the otherwise empty alleyways of a desolate marketplace.  The fruit in stands are rotten and covered in frost, while shop fronts have been built up with immense blocks of ice.  An eerie silence pervades the area, occasionally broken by soft mumbling.",
+    "Humanoid shadows float across the otherwise empty alleyways of a desolate marketplace.  The fruit in stands are rotten, and several of shop fronts have been burnt down to ashes.  An eerie silence pervades the area, occasionally broken by soft mumbling."
+  ],
+  "paths": [
+    "Obvious exits: south, down",
+    "Obvious paths: south, down"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      17,
+      377,
+      41,
+      401
+    ]
+  },
+  "exits": [
+    {
+      "to": 12219,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    },
+    {
+      "to": 12253,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12255,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

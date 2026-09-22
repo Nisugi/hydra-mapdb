@@ -1,0 +1,39 @@
+{
+  "id": 36689,
+  "uid": [
+    8400035
+  ],
+  "title": [
+    "[Nyessem, Promenade]"
+  ],
+  "description": [
+    "A long glass window tinted light green dominates one side of this room, offering guests a view of the halls below.  The luminescence of the area's walls, in combination with the blue mist above, casts a violet light across the white stone floor.  Arch-shaped hollows with emerald-threaded curtains cinched above them are carved into the walls, ready to be released when the additions to this area are completed.  A stone shelf is fused to the window and has many chairs pushed up to it.  A narrow descent returns to the Ring Loop."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      894,
+      514,
+      910,
+      531
+    ]
+  },
+  "exits": [
+    {
+      "to": 36667,
+      "kind": "go",
+      "cmd": "go descent",
+      "cost": 0.2
+    },
+    {
+      "to": 36688,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

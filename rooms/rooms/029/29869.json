@@ -1,0 +1,121 @@
+{
+  "id": 29869,
+  "uid": [
+    7503202
+  ],
+  "title": [
+    "[Cold River, Thoroughfare]"
+  ],
+  "description": [
+    "A ramshackle tavern of raw pine presides over the stretch of roadway, the space before its burled wooden doors heavily trodden by countless small feet.  Its swinging sign is painted with a blunt-looking fist.  Several spent ale barrels sit beneath the eaves of the low, sloping roof, tracings of rime glistening on the wood in the aurora's light.  The lazy laughter of rushing water from the west is almost drowned out by the noise from the village center nearby."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast, west, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "daggit root",
+    "feverfew stalk",
+    "frostflower",
+    "frostweed",
+    "gok nut",
+    "ironfern root",
+    "manroot stalk",
+    "murdroot",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "red lichen",
+    "sassafras leaf",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "wyrmwood bark"
+  ],
+  "meta": [
+    "fwi:teleport"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      502,
+      1065,
+      517,
+      1081
+    ]
+  },
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 29867,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29868,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29870,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29871,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29872,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29877,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 31083,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go greying doors"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35783,
+      "kind": "go",
+      "cmd": "go stone path",
+      "cost": 0.2
+    }
+  ]
+}

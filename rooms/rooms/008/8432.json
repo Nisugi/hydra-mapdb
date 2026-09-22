@@ -1,0 +1,82 @@
+{
+  "id": 8432,
+  "uid": [
+    16003
+  ],
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This is the southern bank of a fast moving stream that runs roughly west to east.  Spanning the steep walled gully that holds the swiftly moving water is a large elm tree which serves as a makeshift bridge."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "alder bark",
+    "angelica root",
+    "birch bark",
+    "bolmara lichen",
+    "cherry peppers",
+    "deep purple shockroot",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "forest troll",
+    "fresh catnip",
+    "golden aster",
+    "hop flowers",
+    "ironfern root",
+    "leek",
+    "lemon balm",
+    "lemon verbena",
+    "peppermint leaves",
+    "pepperthorn root",
+    "rhubarb",
+    "round grumbleberry",
+    "shallot",
+    "small apple",
+    "small watermelon",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "sprig of rooibos",
+    "stalk of bluebells",
+    "stalk of celery",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "wild pink geranium",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      713,
+      544,
+      723,
+      554
+    ]
+  },
+  "exits": [
+    {
+      "to": 7160,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go tree"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 8433,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

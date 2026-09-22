@@ -1,0 +1,109 @@
+{
+  "id": 12219,
+  "uid": [
+    4571014
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Prismatic glass trees enclose a quiet grove within a crystalline forest.  A gentle, yet frigid breeze rustles the glistening foliage that shines with an unearthly glow.  Hoof prints occasionally emerge out of nothingness upon the frozen ground, tracks that remain only for moments before fading out of existence once again.",
+    "Petrified black trees enclose a quiet grove within a dead forest.  A dry, hot breeze wends its way through the stone-like flora.  Hoof prints occasionally emerge out of nothingness upon the ash-covered ground, tracks that remain only for moments before fading out of existence once again."
+  ],
+  "paths": [
+    "Obvious exits: north, up",
+    "Obvious paths: north, up"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      16,
+      321,
+      42,
+      347
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12217,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 12228,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12254,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    }
+  ]
+}

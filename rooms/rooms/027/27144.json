@@ -1,0 +1,40 @@
+{
+  "id": 27144,
+  "uid": [
+    13202039
+  ],
+  "title": [
+    "[Lumnea Meadow, Glimaer Pool]"
+  ],
+  "description": [
+    "Formed by piles of smooth rocks, the brook tumbles into a large natural pool.  The water eddies and swirls about as it slips inexorably towards the tiny waterfall at the basin's far edge, where it finally spills over the rocks and continues its journey towards the river.  Moonlight shimmers across the surface, painting the landscape in a cloak of pale silver."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      438,
+      438,
+      450,
+      450
+    ]
+  },
+  "exits": [
+    {
+      "to": 27135,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 27145,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

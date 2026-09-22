@@ -1,0 +1,44 @@
+{
+  "id": 28289,
+  "uid": [
+    857005
+  ],
+  "title": [
+    "[Ta'Vaalor Hall, East Hallway]"
+  ],
+  "description": [
+    "A short flight of marble stairs ends in a long, wide hallway.  Painted on one wall is a large floor-to-ceiling mural.  The floor has been covered with thick gold carpet and a display counter runs the length of the entire corridor.  Mounted to either side of a door made from seasoned haon are elegant silver sconces."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28286,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 28290,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28292,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28295,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

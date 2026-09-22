@@ -1,0 +1,45 @@
+{
+  "id": 3647,
+  "uid": [
+    3201052
+  ],
+  "title": [
+    "[Cobblestone Path, Vineyard Gate]"
+  ],
+  "description": [
+    "Moonlight pours down, dappling the field of wheat and wildflowers in a soft silver hue.  Barely perceptible in the night is a rock wall lining the outside of the vineyard.  Hundreds of fireflies dance and weave across the field and stone in a dizzying display.  At the end of the cobblestone path a small wooden gate carved with a grape cluster leads into the vineyard.",
+    "A three-foot high rock wall lines the outskirts of the vineyard as far as the eye can see.  Surrounding the wall on either side is a myriad of brilliantly-hued wildflowers of all species, blanketed upon a field of wheat.  At the end of the cobblestone path a small wooden gate carved with a grape cluster leads into the vineyard."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3609,
+      482,
+      3651,
+      521
+    ]
+  },
+  "exits": [
+    {
+      "to": 3646,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16728,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

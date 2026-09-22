@@ -1,0 +1,70 @@
+{
+  "id": 23797,
+  "uid": [
+    8213020
+  ],
+  "title": [
+    "[Duskruin Arena, Niveous Chamber]"
+  ],
+  "description": [
+    "Below an arched stone ceiling dangles a twisted chandelier dangling from a coiled iron chain.  Rough stone walls have been carved out and whitewashed, with the chamber clean and well kept.  Long shelves have been carved along the walls and are stocked with bandages, potions and other apparent remedies.  A long row of small beds line the opposite wall, each covered in white sheets."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1562,
+      319,
+      1585,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 23781,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

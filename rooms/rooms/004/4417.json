@@ -1,0 +1,57 @@
+{
+  "id": 4417,
+  "title": [
+    "[Ruby Level, Passage]"
+  ],
+  "description": [
+    "A heated argument can be heard coming from the room to the north, something about cheating.  A stout dwarven woman in a thick leather apron leans against one wall, staring in consternation at a broken hammer."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4386,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4402,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4418,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 4419,
+      "kind": "go",
+      "cmd": "go second door",
+      "cost": 0.2
+    },
+    {
+      "to": 4423,
+      "kind": "go",
+      "cmd": "go cave",
+      "cost": 0.2
+    },
+    {
+      "to": 4426,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

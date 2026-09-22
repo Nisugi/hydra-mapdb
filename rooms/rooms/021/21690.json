@@ -1,0 +1,48 @@
+{
+  "id": 21690,
+  "title": [
+    "[ShadowGuard, South Courtyard]"
+  ],
+  "description": [
+    "The dank, musty smell of rotting vegetation pervades this area as death has taken hold.  Overgrown with weeds and uncontrolled, twisted plant life, the courtyard must once have been beautiful.  The crumbling remnants of a gatehouse tower, and occasional intact pieces of the southern wall, stand as a sad reminder of the former might of the fortress."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 672,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 21691,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    },
+    {
+      "to": 21693,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21695,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21699,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

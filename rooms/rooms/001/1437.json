@@ -1,0 +1,110 @@
+{
+  "id": 1437,
+  "uid": [
+    4209022
+  ],
+  "title": [
+    "[Solhaven, Bayside Road]"
+  ],
+  "description": [
+    "Bayside Road widens here, as throngs of people head southward into the North Market.  More than a few are drawn by the mouthwatering aroma of fresh-baked goods wafting from the doorway of the half-timber building opposite the bridge.  To the northwest, the Market Bridge spans the bay, heading towards Marshtown."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south, southwest, northwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "trash",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:old green oak barrel"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      941,
+      513,
+      965,
+      537
+    ]
+  },
+  "exits": [
+    {
+      "to": 1436,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1438,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1448,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1474,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1607,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12808,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

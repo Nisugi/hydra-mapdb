@@ -1,0 +1,88 @@
+{
+  "id": 5711,
+  "uid": [
+    4740075
+  ],
+  "title": [
+    "[The North 'Haven Pawnery]"
+  ],
+  "description": [
+    "A middle-aged man wearing a bushy salt-and-pepper beard and a sour expression stands behind a modwir counter that bears the rounded edges and marring of a thousand transactions.  The cracked and yellowed plaster walls, dilapidated counter and the appearance of the proprietor suggest a distinctly Dwarven influence, if not lineage."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "pawn",
+    "pawnshop",
+    "trash",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:wide-lipped copper urn"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      901,
+      724,
+      901,
+      724
+    ]
+  },
+  "exits": [
+    {
+      "to": 1475,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 5712,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

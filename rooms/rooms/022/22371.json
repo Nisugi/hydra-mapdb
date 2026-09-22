@@ -1,0 +1,58 @@
+{
+  "id": 22371,
+  "uid": [
+    13125004
+  ],
+  "title": [
+    "[Ta'Illistim, Linsandrych Var]"
+  ],
+  "description": [
+    "Neatly cut shrubbery grows on either side of the var, separating it from the magnificent landscaping that surrounds each embassy.  Meticulously raked sand gardens decorated with small twining trees surround a blue marble building.  A silver lantern rises through the greenery, marking a stone path that leads to a towering white stone embassy."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      121,
+      263,
+      194,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 22352,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22360,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22372,
+      "kind": "go",
+      "cmd": "go embassy",
+      "cost": 0.2
+    },
+    {
+      "to": 22382,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 16807,
+  "uid": [
+    4750057
+  ],
+  "title": [
+    "[Castle Dungeons, Guard Room]"
+  ],
+  "description": [
+    "You find yourself in what used to be a guardroom.  Empty ale tankards and empty plates still lie on a heavy oak table.  Rusted iron rings holding corroded lumps that were once keys hang from various pegs in the north wall.  A set of moss-covered stairs lead up into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Castle Varunar",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      650,
+      377,
+      660,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 15991,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 16812,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

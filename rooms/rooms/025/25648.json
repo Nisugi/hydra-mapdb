@@ -1,0 +1,51 @@
+{
+  "id": 25648,
+  "uid": [
+    104010
+  ],
+  "title": [
+    "[Paupers, Sacrament Chamber]"
+  ],
+  "description": [
+    "Tarnished silver candelabra occupy each corner of the chamber, their fires flickering and casting dancing shadows in every direction.  One whole wall is constructed out of translucent glaes, and near the center of the room an old summoning circle has been carved into the floor, accented with dried bloodstains.  The skeletal remains of a humanoid are wedged firmly into a massive indent in one wall, and a cracked crystal shard rests at its feet."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, dry",
+  "terrain": "subterranean",
+  "tags": [
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "wingstem root"
+  ],
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      1066,
+      339,
+      1150,
+      393
+    ]
+  },
+  "exits": [
+    {
+      "to": 24058,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": 17600,
+  "uid": [
+    3216031
+  ],
+  "title": [
+    "[Scuttlebug Tavern]"
+  ],
+  "description": [
+    "Rough oak planks spread from the entry at one end of the room to the dinghy-shaped bar that is surrounded by stools at the other, their slender surfaces riddled with large and small knots.  High above, a chandelier housing dozens of candles provides ample illumination for each of the various tables that are scattered throughout, while also illuminating the various signs that hang from the rafters.  A rickety staircase leads to the upstairs and connects with a balcony that encircles half of the tavern."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 13663,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Nautilus table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 13664,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Leaping Dolphin table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 15154,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Giant Sea Turtle table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 15527,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Seaside table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 16061,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16698,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sunken Shipwreck table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17346,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Dozing Seahorse table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17386,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tidepool table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17408,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Odd-shaped Driftwood table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17413,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Braided Seaweed Rope table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17601,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17888,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Decrepit Captain's table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 18684,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Broken Ship's Door table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

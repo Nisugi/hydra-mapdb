@@ -1,0 +1,56 @@
+{
+  "id": 23710,
+  "uid": [
+    336322
+  ],
+  "title": [
+    "[Outpost, Outer Courtyard]"
+  ],
+  "description": [
+    "A pair of Hendoran soldiers stand at attention on either side of a black iron portcullis which leads outside the outpost.  Beyond them, the courtyard fills a space between the outer wooden wall and an inner wall made of stone, where a fortified keep rises behind it.  Above, imperial soldiers slowly walk the parapet of the outer wall, their eyes focused on the horizon."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-hendoran_outpost-1669182273.png",
+    "rect": [
+      367,
+      198,
+      401,
+      232
+    ]
+  },
+  "exits": [
+    {
+      "to": 23709,
+      "kind": "go",
+      "cmd": "go iron portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 23711,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23713,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26104,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    }
+  ]
+}

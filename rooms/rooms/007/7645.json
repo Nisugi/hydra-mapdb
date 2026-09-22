@@ -1,0 +1,66 @@
+{
+  "id": 7645,
+  "uid": [
+    661001
+  ],
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "A silver portcullis with sharp protruding spikes looms ominously over the entrance to a sandy courtyard.  Tall, black marble walls streaked with red veins enclose this compound to the east and west.  The black sand from the beaches has migrated here to cover the entire area."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "sandy",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "banana leaf",
+    "black peppercorn",
+    "bur-clover root",
+    "cactacae spine",
+    "cardamom",
+    "cumin seeds",
+    "murdroot",
+    "nutmeg",
+    "pink peppercorn",
+    "sorcerer guild",
+    "sorcererguild",
+    "star anise",
+    "tiger lily",
+    "vanilla bean",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      61,
+      583,
+      71,
+      593
+    ]
+  },
+  "exits": [
+    {
+      "to": 7627,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 18111,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 34639,
+  "uid": [
+    4572003
+  ],
+  "title": [
+    "[Sablecross, Caracal Avenue]"
+  ],
+  "description": [
+    "A tannery stands far from the other structures nearby, but its singularly vile melange of tanning fluids and animal hides billows out over the cobblestone street in noisome eddies.  In the shadow of the shop burns a brazier stacked with alder logs.  Their pale smoke is laden with mild, loamy sweetness that almost manages to hold the wretched stench at bay.  Several other shops along the stretch have censers of incense burning in their windows or aromatic nosegays hung before their doors."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      449,
+      208,
+      480,
+      238
+    ]
+  },
+  "exits": [
+    {
+      "to": 34620,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34638,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35238,
+      "kind": "go",
+      "cmd": "go tannery",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 18967,
+  "uid": [
+    660023
+  ],
+  "title": [
+    "[Sorcerer Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Icemule Trace",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "trash"
+  ],
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      361,
+      323,
+      401,
+      361
+    ]
+  },
+  "exits": [
+    {
+      "to": 18965,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18968,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

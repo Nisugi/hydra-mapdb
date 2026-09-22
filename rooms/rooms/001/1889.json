@@ -1,0 +1,69 @@
+{
+  "id": 1889,
+  "uid": [
+    3003098
+  ],
+  "title": [
+    "[Company Store, Weaponry]"
+  ],
+  "description": [
+    "The sharp smell of oil greets your senses while the wide selection of weaponry displayed around you seems enough to appease the desires of even the most jaded warrior.  Racks of weapons line the walls while the center of the room is dominated by a large grindstone.  The weapons seem to be of uncommonly high quality for a mining town."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide weapons",
+    "urchin-access",
+    "weapons",
+    "weaponshop"
+  ],
+  "exits": [
+    {
+      "to": 1888,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

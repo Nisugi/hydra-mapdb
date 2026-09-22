@@ -1,0 +1,57 @@
+{
+  "id": 8551,
+  "uid": [
+    10103
+  ],
+  "title": [
+    "[Rubble Pile]"
+  ],
+  "description": [
+    "You are atop the huge rubble pile.  From here you can travel a few yards to the north or you can climb down to the valley floor to the south."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "handful of currants",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1266,
+      647,
+      1276,
+      657
+    ]
+  },
+  "exits": [
+    {
+      "to": 8550,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8552,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rubble"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

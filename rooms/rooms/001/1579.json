@@ -1,0 +1,45 @@
+{
+  "id": 1579,
+  "uid": [
+    4901080
+  ],
+  "title": [
+    "[Dilapidated Shack]"
+  ],
+  "description": [
+    "A dilapidated shack sits proudly on the edge of the pier in all its gaudy splendor, having been cobbled together from mud, seashells, and the remains of abandoned shipping crates.  Rusted cages that house tiny paper lobsters hang precariously from chaotically draped old fishing nets that serve as a makeshift canopy.  Dangling from the crooked doorway, uneven strands of beads glint metallic red in the pale moonlight.",
+    "A dilapidated shack sits proudly on the edge of the pier in all its gaudy splendor, having been cobbled together from mud, seashells, and the remains of abandoned shipping crates.  Rusted cages that house tiny paper lobsters hang precariously from chaotically draped old fishing nets that serve as a makeshift canopy.  Dangling from the crooked doorway, uneven strands of beads glint metallic red in the dappled sunlight."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Solhaven",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      453,
+      1395,
+      477,
+      1419
+    ]
+  },
+  "exits": [
+    {
+      "to": 1578,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10064,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

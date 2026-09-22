@@ -1,0 +1,45 @@
+{
+  "id": 3885,
+  "uid": [
+    77001
+  ],
+  "title": [
+    "[Prison, Courtyard]"
+  ],
+  "description": [
+    "A stiff breeze carries the faint scent of Darkstone Bay over the high basalt walls into this small, secluded yard.  Several low marble benches are scattered here and there, and a heavy iron portcullis leads to the interior of the prison.  A slender stone path leads out of the courtyard and back to the crowded streets."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      970,
+      965,
+      1006,
+      1001
+    ]
+  },
+  "exits": [
+    {
+      "to": 308,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 3886,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

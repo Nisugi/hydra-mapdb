@@ -1,0 +1,40 @@
+{
+  "id": 29568,
+  "uid": [
+    3215127
+  ],
+  "title": [
+    "[Annex, Willow Hall Lobby]"
+  ],
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A black velvet pennant edged with green hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "WillowHall",
+    "Willowhall"
+  ],
+  "meta": [
+    "che:willow_hall:entrance_annex",
+    "che:willow_hall:entrance_locker",
+    "locker annex:Willow Hall"
+  ],
+  "exits": [
+    {
+      "to": 16700,
+      "kind": "go",
+      "cmd": "go pointed arch",
+      "cost": 0.2
+    },
+    {
+      "to": 29570,
+      "kind": "go",
+      "cmd": "go white curtain",
+      "cost": 0.2
+    }
+  ]
+}

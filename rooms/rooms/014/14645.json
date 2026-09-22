@@ -1,0 +1,30 @@
+{
+  "id": 14645,
+  "title": [
+    "[Wehnimer's Hall of Magic]"
+  ],
+  "description": [
+    "This hall houses many curious and esoteric devices that appear to control much power.  Some are famous items of lore and legend, while others hint at origins and powers you dare not even guess at.  A narrow, spiral staircase leads up to a book-lined gallery on the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 14448,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14646,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

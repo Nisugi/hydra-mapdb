@@ -1,0 +1,27 @@
+{
+  "id": 21861,
+  "title": [
+    "[A Sliver of Silver]"
+  ],
+  "description": [
+    "Burnished oak planks comprise the walls of the wagon and ornate silver lamps are suspended from the ceiling.  Metal-plated chests are stacked in a corner and a silver-threaded black brocade curtain leads out of the wagon."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 21859,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 21926,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 26723,
+  "uid": [
+    4219323,
+    4219325,
+    4219327,
+    4219329,
+    4219335,
+    4219337,
+    4219339,
+    4219343,
+    4219345,
+    4219347,
+    4219349
+  ],
+  "title": [
+    "[Warehouse, Alcove]"
+  ],
+  "description": [
+    "Tall, tightly arranged stacks of crates make walls to three sides, while a curtain keeps anyone from seeing your activity here in this alcove."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "terrain": "none",
+  "meta": [
+    "exit:go opening:previous",
+    "locker",
+    "map:multi-uid"
+  ],
+  "exits": [
+    {
+      "to": 14119,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 22.2
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 28965,
+  "uid": [
+    7121015
+  ],
+  "title": [
+    "[Office of Transportation]"
+  ],
+  "description": [
+    "Cobalt blue rugs patterned with red and gold whorls stretch across the office floor, the metallic threads dancing as the swirling light of dozens of pendant-shaped frosted globes anchored to the ceiling pulse with a variety of hues.  A lacquered golden linden counter takes up most of the eastern wall and creates a protective barrier around a portly female agent, who watches the office's comings and goings with interest."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "chronomage",
+    "fire lily",
+    "urchin guide chronomages",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28961,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28966,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

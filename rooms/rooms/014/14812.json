@@ -1,0 +1,75 @@
+{
+  "id": 14812,
+  "uid": [
+    282204
+  ],
+  "title": [
+    "[Bard Guild, Loggia]"
+  ],
+  "description": [
+    "Fronting the graceful exterior of the Teras Isle Bard Guild, the loggia is a long gallery open on the west to the vast oceanic panorama.  Overhead is a series of wooden arches, like ribs cloaked with dense growths of bougainvillea and jasmine.  Large terracotta planters are set along the promenade, all filled and overflowing with a riot of blossoms in red, pink and white."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "fire lily",
+    "urchin guide bardguild",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12386,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 30901,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

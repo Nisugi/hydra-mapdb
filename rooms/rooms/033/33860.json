@@ -1,0 +1,111 @@
+{
+  "id": 33860,
+  "uid": [
+    14150054
+  ],
+  "title": [
+    "[Nielira Harbor, Boardwalk]"
+  ],
+  "description": [
+    "An ebony-planked stand has been nestled beneath a canopy of leather and waxed linen, its lacquered surface covered in half-rolled maps and parchment, each weighted by an aged gold astrolabe.  Iron-riveted barrels sit beside the map-covered stand, the cylindrical containers encircled by braided coils of hempen rope.  A faenor-framed board board of black slate sits beneath the reinforced canopy, nearly engulfed in corkscrews of heartleaf that wends down across its riveted legs and across the boardwalk."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, west, northwest"
+  ],
+  "location": "Ta'Nalfein",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "acistira stem",
+    "black-red fritillary",
+    "blackish green twisted-fan",
+    "checkered fritillary",
+    "green acistira leaves",
+    "handler",
+    "pinkish green rosegrass",
+    "snake's head fritillary",
+    "tiny white elderflowers",
+    "urchin guide docks",
+    "urchin-access",
+    "vert and orange frog-cup",
+    "violet fritillary",
+    "yellowish green twisted-fan"
+  ],
+  "image": {
+    "file": "en-nalfein-1695787165.png",
+    "rect": [
+      840,
+      514,
+      867,
+      540
+    ]
+  },
+  "exits": [
+    {
+      "to": 33859,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33861,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33866,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33867,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33868,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34423,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

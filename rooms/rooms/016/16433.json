@@ -1,0 +1,49 @@
+{
+  "id": 16433,
+  "uid": [
+    261011
+  ],
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "A dark, windowless door is set into the stone wall at the end of the hall, bordered on both sides by heavy tapestries that keep the chill from the stone to a minimum.  A narrow hall leads off to the west, lit by the dim glow of a single torch at its end."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild kitchen"
+  ],
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      460,
+      359,
+      488,
+      387
+    ]
+  },
+  "exits": [
+    {
+      "to": 16395,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16438,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16439,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 29715,
+  "uid": [
+    8208747
+  ],
+  "title": [
+    "[Cysaelotar, Giggling Stones]"
+  ],
+  "description": [
+    "Falling in a gentle arc, the granite face of the cliff transitions from lofty heights to craggy slag as it descends to the south.  Drakar spikes, anchored into the stone by an industrious individual, causing the snow above to melt in the manufactured heat and creating a gentle waterfall that babbles like the smallest of brooks before pooling within a cluster of flat stones.  Slipping away from the area, a grass-edged narrow dirt track ascends to the top of the nearby mound."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Rumor Woods",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      1526,
+      395,
+      1553,
+      418
+    ]
+  },
+  "exits": [
+    {
+      "to": 29695,
+      "kind": "go",
+      "cmd": "go narrow track",
+      "cost": 0.2
+    },
+    {
+      "to": 29706,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29721,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29725,
+      "kind": "go",
+      "cmd": "go velvet-draped tent",
+      "cost": 0.2
+    },
+    {
+      "to": 29726,
+      "kind": "go",
+      "cmd": "go woolen tent",
+      "cost": 0.2
+    },
+    {
+      "to": 33554,
+      "kind": "go",
+      "cmd": "go ivory tent",
+      "cost": 0.2
+    }
+  ]
+}

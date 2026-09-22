@@ -1,0 +1,62 @@
+{
+  "id": 3582,
+  "uid": [
+    4292015
+  ],
+  "title": [
+    "[Stronghold, North Hall]"
+  ],
+  "description": [
+    "The hall runs in an east to west direction, its progress marked with ora braziers bolted to the stone walls.  Clouds of dust float and dance down the nave in the twilight like cavorting spirits caught up in celebrating some revel of old.  On the north wall, an immense ora door is bolted into the stone, its proportions as ponderous as the slabs that form the walls of the thoroughfare."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      508,
+      435,
+      518,
+      445
+    ]
+  },
+  "exits": [
+    {
+      "to": 3581,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3583,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17747,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "await": "You hear a soft click from the door and it suddenly flies open.",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

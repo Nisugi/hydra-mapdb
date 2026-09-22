@@ -1,0 +1,57 @@
+{
+  "id": 29778,
+  "uid": [
+    689013
+  ],
+  "title": [
+    "[Tower of Knowledge, Instruction]"
+  ],
+  "description": [
+    "A large chandelier hangs from the ceiling, its multicolored droplets casting colorful patterns on a pile of training cauldrons that are stacked in a corner.  A pair of potted ferns sit at the base of some rough stone steps.  A refreshment cart provides a focal point for idle staff and guests."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Kraken's Fall",
+  "tags": [
+    "no forageables",
+    "wizard alchemy masters",
+    "wizard alchemy training cauldron",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "kf-wizardguild.png",
+    "rect": [
+      163,
+      404,
+      182,
+      423
+    ]
+  },
+  "exits": [
+    {
+      "to": 29776,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 29780,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    },
+    {
+      "to": 29781,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30612,
+      "kind": "other",
+      "cmd": "ask requardi about train potions",
+      "cost": 0.2
+    }
+  ]
+}

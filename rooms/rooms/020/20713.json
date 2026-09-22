@@ -1,0 +1,88 @@
+{
+  "id": 20713,
+  "uid": [
+    4002604
+  ],
+  "title": [
+    "[Etesian Villa, Lounge]"
+  ],
+  "description": [
+    "Surrounded by wood paneling, this small room offers a place to sit and relax.  Several plush rose pink chairs are arranged in a half-circle, facing an arched stone-lined fireplace, a basket of sticks resting nearby.  A long marble counter against one wall holds a variety of refreshments, the wine bottles gleaming in the light from the candelabra perched on the shiny surface, as well as from a panoramic window set in the outer wall.  The hallway can be glimpsed through an open doorway, and a rounded ebonwood arch provides an egress to the north."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "premium supernode",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "image": {
+    "file": "premium_halls-1489980086.png",
+    "rect": [
+      617,
+      889,
+      739,
+      939
+    ]
+  },
+  "exits": [
+    {
+      "to": 20712,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 20714,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

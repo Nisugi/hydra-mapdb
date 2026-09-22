@@ -1,0 +1,41 @@
+{
+  "id": 24283,
+  "uid": [
+    270002
+  ],
+  "title": [
+    "[Guild Lodge, Foyer]"
+  ],
+  "description": [
+    "The smell of pine fills this rustic lodge.  Heat billows in from the north, which is a sharp contrast to the cold air coming through the door from the outside.  Small puddles of melted snow are spread across the hardwood floor, despite the small mat that lies by the front door."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Icemule Ranger Guild",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-rangerguild-v2.png",
+    "rect": [
+      150,
+      202,
+      168,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 24282,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 24284,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

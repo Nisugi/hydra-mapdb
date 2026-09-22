@@ -1,0 +1,44 @@
+{
+  "id": 17594,
+  "uid": [
+    3216015
+  ],
+  "title": [
+    "[Western Harbor, Pier Three]"
+  ],
+  "description": [
+    "Lower than the rest of the docks, the pier is open on the north to the water and has several mushroom-shaped wooden moorings available for use by various watercrafts.  Rough rocks rise beyond the dock's southern railing, their faces discolored with moss, algae, and silt, while the view of the western edge is blocked by sails stretched upon a wooden frame for repairs.  An arch supported by twin posts dangles a sign over the area, which sways in the sea breeze."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Western Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      532,
+      623,
+      569,
+      658
+    ]
+  },
+  "exits": [
+    {
+      "to": 17592,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18236,
+      "kind": "other",
+      "cmd": "ask dockhand about ferry",
+      "cost": 120.0
+    }
+  ]
+}

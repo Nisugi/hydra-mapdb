@@ -1,0 +1,41 @@
+{
+  "id": 28091,
+  "title": [
+    "duplicate of 28087"
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest, west"
+  ],
+  "exits": [
+    {
+      "to": 27990,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28005,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28008,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28013,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28089,
+      "kind": "go",
+      "cmd": "go enclosure",
+      "cost": 0.2
+    }
+  ]
+}

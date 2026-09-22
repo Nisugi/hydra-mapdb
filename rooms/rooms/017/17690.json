@@ -1,0 +1,51 @@
+{
+  "id": 17690,
+  "uid": [
+    5009019
+  ],
+  "title": [
+    "[Smuggler's Tunnel, Opening]"
+  ],
+  "description": [
+    "Thick green and brown vines cover large stone blocks mortared together to fashion three sides of the small chamber, while a fourth side, free of vegetation, descends into a dark tunnel leading west.  A narrow stone archway, the entry point for the innumerable vines, offers the only illumination into the room with sunlight cascading in and across a vine and leaf-strewn stone floor.  A rickety chair sits to one side of the small chamber next to a larger archway leading south into an adjacent room.",
+    "Thick green and brown vines cover large stone blocks mortared together to fashion three sides of the small chamber, while a fourth side, free of vegetation, descends into a dark tunnel leading west.  A narrow stone archway, the entry point for the innumerable vines, offers the only illumination into the room with moonlight cascading in and across a vine and leaf-strewn stone floor.  A rickety chair sits to one side of the small chamber next to a larger archway leading south into an adjacent room."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "River's Rest",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1323,
+      1568,
+      1361,
+      1606
+    ]
+  },
+  "exits": [
+    {
+      "to": 11012,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 17689,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17691,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

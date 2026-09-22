@@ -1,0 +1,42 @@
+{
+  "id": 20325,
+  "title": [
+    "[Feywrot Mire, Bald Cypress Arc]"
+  ],
+  "description": [
+    "Crawling over the shoreline, creepers seem to be slowly choking the life out a collection of white orchids, several of which already dangle, dead, within the grasp of the vines.  Barely moving, the water, black as night, stands still amid the bald cypress growth.  Small cooing sounds flit through the air from an unknown source."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      1015,
+      424,
+      1029,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 20278,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20329,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22546,
+      "kind": "go",
+      "cmd": "go cabin",
+      "cost": 0.2
+    }
+  ]
+}

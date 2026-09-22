@@ -1,0 +1,38 @@
+{
+  "id": 36856,
+  "uid": [
+    14050207
+  ],
+  "title": [
+    "[Czeroth Tunnel]"
+  ],
+  "description": [
+    "An eerie clicking echoes throughout the area, its source unknown.  Grey-green stones litter the ground, and hollow, root-like indentations along the eastern wall frame a makeshift mithril-banded door."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 36855,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36857,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36858,
+      "kind": "go",
+      "cmd": "go mithril-banded door",
+      "cost": 0.2
+    }
+  ]
+}

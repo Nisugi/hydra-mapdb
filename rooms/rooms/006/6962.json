@@ -1,0 +1,57 @@
+{
+  "id": 6962,
+  "uid": [
+    43006
+  ],
+  "title": [
+    "[Gorge, North Rim]"
+  ],
+  "description": [
+    "The gorge narrows here a bit, its sheer walls rising almost vertically from the stream's edges.  Tiny ledges provide many footholds, but the damp walls and tremendous height make you wonder if climbing is safe.  The path disappears into a blackened, glasslike cliff face that completely blocks the gorge to the southwest.  Looking around, you find no easy way to pass in that direction, save for some serious climbing."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "freshwater",
+  "terrain": "hilly",
+  "tags": [
+    "bolmara lichen",
+    "sticks",
+    "sunburst blossom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      185,
+      384,
+      195,
+      394
+    ]
+  },
+  "exits": [
+    {
+      "to": 6955,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb cliff"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6963,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

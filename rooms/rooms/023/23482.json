@@ -1,0 +1,36 @@
+{
+  "id": 23482,
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "The waters of Darkstone Bay are cold!  Splashing around here gives you a good look at the water line of the Spitfire, as the winds slowly push it toward the mouth of the bay.  Seagulls call and wheel overhead."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      379,
+      457,
+      414,
+      492
+    ]
+  },
+  "exits": [
+    {
+      "to": 250,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 19067,
+      "kind": "other",
+      "cmd": "swim southeast",
+      "cost": 2.0
+    }
+  ]
+}

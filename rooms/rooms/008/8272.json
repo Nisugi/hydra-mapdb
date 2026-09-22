@@ -1,0 +1,44 @@
+{
+  "id": 8272,
+  "uid": [
+    390021
+  ],
+  "title": [
+    "[Wolves' Den, Council Chamber]"
+  ],
+  "description": [
+    "A great round table of mithril-banded oak dominates this room.  Upon it rot the fragile remains of what must have been maps of the area outside.  Eight high-backed chairs of ebony surround the table.  Their feet are carved to be claws, and the backs are topped with twin wolf heads.  The double doors to the north have fallen off their hinges, leaving the way open.  An iron door is set in the middle of the southern wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      255,
+      401,
+      265,
+      411
+    ]
+  },
+  "exits": [
+    {
+      "to": 8241,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8260,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

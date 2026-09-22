@@ -1,0 +1,42 @@
+{
+  "id": 24837,
+  "title": [
+    "[Black River, Ledge]"
+  ],
+  "description": [
+    "Jutting out of one of the slick earthen walls and over the inky black pool of water, the spacious ledge sits at a slight angle.  Small cracks in the wall splinter in such a way as to create several natural niches.  The sounds of dripping water and the occasional whistling of gusts of wind mix unrythmically with the flow of the river water."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "missing"
+  ],
+  "exits": [
+    {
+      "to": 24831,
+      "kind": "go",
+      "cmd": "go river",
+      "cost": 0.2
+    },
+    {
+      "to": 24967,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "You discover a shallow crevice while searching the area!"
+            ]
+          }
+        },
+        {
+          "move": "go crevice"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 22281,
+  "title": [
+    "[Barret's Gorge, Fourth District]"
+  ],
+  "description": [
+    "The sprawl stretches further out from the protection of the fourth district wall and its battlements.  Half a dozen horses are stabled to a post outside of a large grey brick tavern."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      532,
+      371,
+      546,
+      384
+    ]
+  },
+  "exits": [
+    {
+      "to": 22278,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22280,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22282,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    }
+  ]
+}

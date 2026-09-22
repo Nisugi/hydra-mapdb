@@ -1,0 +1,130 @@
+{
+  "id": 8918,
+  "uid": [
+    680002
+  ],
+  "title": [
+    "[Wizard Guild, Courtyard]"
+  ],
+  "description": [
+    "Winter appears to have somewhat loosened its cold grip upon the verdant swath of lawn surrounding the stone building.  Flowers imported from a more mild climate much farther to the south line either side of the path that courses through a green sea of impeccably clipped grass.  A cobblestone path arcs away from the courtyard while a pair of large arched doors leading into the guild stand slightly ajar."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "arctic brambles",
+    "blue snow rose",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright orange",
+    "cactacae spine",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "haphip root",
+    "Imaera's Lace",
+    "luckbloom blossom",
+    "nightbloom blossom",
+    "onion skin",
+    "raspberries",
+    "red onion",
+    "rose-marrow root",
+    "round red radish",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small rose",
+    "small violet",
+    "snowy arctic rose",
+    "soft mushroom",
+    "sovyn clove",
+    "sunburst blossom",
+    "sweet onion",
+    "trollfear mushroom",
+    "urchin guide wizardguild",
+    "urchin-access",
+    "wavepetal blossom",
+    "white arctic rose",
+    "withered mushroom",
+    "wizard guild",
+    "wizardguild",
+    "yew twig"
+  ],
+  "image": {
+    "file": "imt-wizard_guild.png",
+    "rect": [
+      212,
+      800,
+      263,
+      851
+    ]
+  },
+  "exits": [
+    {
+      "to": 3352,
+      "kind": "go",
+      "cmd": "go footbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 8919,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 8920,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": {
+        "when": {
+          "profession": "Wizard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

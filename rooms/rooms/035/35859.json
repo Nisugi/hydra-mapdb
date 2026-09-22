@@ -1,0 +1,52 @@
+{
+  "id": 35859,
+  "uid": [
+    3024007
+  ],
+  "title": [
+    "[River Muagh, Rapids]"
+  ],
+  "description": [
+    "Churning, white-capped waters flow northward, between patches of smoothed rocks that protrude above the surface near the foot of a tall granite canyon to the south.  The width of the river makes it a rather simple task of avoiding any hazards."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      96,
+      1041,
+      133,
+      1079
+    ]
+  },
+  "exits": [
+    {
+      "to": 35858,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

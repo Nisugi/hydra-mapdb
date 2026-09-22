@@ -1,0 +1,43 @@
+{
+  "id": 36003,
+  "uid": [
+    14109109
+  ],
+  "title": [
+    "[The Matross Dahcre Chamber]"
+  ],
+  "description": [
+    "Powerful columns of limestone anchor the corners of this ample room, rising high to brace the double-vaulted ceiling.  Some rush-seated oak chairs are clustered around a polished granite hearth in the northwest corner.  Lit by blazing torches on either side of a beveled glaes mirror, a large oak table along the south wall holds a laden refreshment tray.  Twin banners of a sword and shield flank the limestone arch into this hall, above which is set a silver-inlaid granite medallion."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:helden_hall:entrance_annex"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      1751,
+      1137,
+      1893,
+      1197
+    ]
+  },
+  "exits": [
+    {
+      "to": 10410,
+      "kind": "go",
+      "cmd": "go limestone arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36004,
+      "kind": "other",
+      "cmd": "pull matron statue",
+      "cost": 0.2
+    }
+  ]
+}

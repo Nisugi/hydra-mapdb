@@ -1,0 +1,41 @@
+{
+  "id": 28221,
+  "uid": [
+    4219501
+  ],
+  "title": [
+    "[Sylvanfair, Library]"
+  ],
+  "description": [
+    "Hundreds of books and scrolls fill the shelves that line the walls.  While some are stacked neatly, arranged with nearly obsessive precision, others are in utter disarray.  Several leather armchairs congregate around a low brick-arched fireplace over which hangs an odd assortment of pictures.  An antique crimson wool rug covers most of the slightly uneven floor, concealing the copper riven slate tiles beneath.  The room is lit by a single brass lantern suspended from a dark oak rafter overhead."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sylvanfair:entrance_locker",
+    "locker annex:House Sylvanfair"
+  ],
+  "exits": [
+    {
+      "to": 28219,
+      "kind": "go",
+      "cmd": "go low-beamed archway",
+      "cost": 0.2
+    },
+    {
+      "to": 28222,
+      "kind": "go",
+      "cmd": "go light door",
+      "cost": 0.2
+    },
+    {
+      "to": 28223,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

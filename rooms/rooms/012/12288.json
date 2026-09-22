@@ -1,0 +1,82 @@
+{
+  "id": 12288,
+  "uid": [
+    3201291
+  ],
+  "title": [
+    "[Healer's House]"
+  ],
+  "description": [
+    "Filmy blue chiffon curtains blow gently in the breeze from the open windows, while a small calico cat snoozes beneath them in a patch of light on the floor.  Drying herbs hang from hooks upon the wall, waiting to be used in various medicines.  A small table covered with bandages and medicines sits next to a padded table covered with a sheet.  Next to an embroidered curtain rests a large basket filled with dried lilacs, giving the room a pleasant scent.",
+    "Filmy blue chiffon curtains blow gently in the breeze from the open windows, while a small calico cat bats lazily at them from a big blue cushion on the floor.  A large quantity of lamps hanging overhead keep the room well lit.  A small table covered with bandages and medicines sits next to a padded table covered with a sheet.  Next to an embroidered curtain rests a large basket filled with dried lilacs, giving the room a pleasant scent."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "none",
+  "tags": [
+    "healer",
+    "no forageables",
+    "npchealer",
+    "urchin guide healer",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3663,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12289,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16328,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

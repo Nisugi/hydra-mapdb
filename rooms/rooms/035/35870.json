@@ -1,0 +1,53 @@
+{
+  "id": 35870,
+  "uid": [
+    3024106
+  ],
+  "title": [
+    "[Kragnek-Dzu, Promenade North]"
+  ],
+  "description": [
+    "The north quarter of the promenade meets a quickly moving stream.  Babbling and splashing turbulently northwest, the stream flows under a short stone bridge before curving out of sight through an invar grate in the settlement's wall.  A short barrier of dark glaes protects the cobblestones near the water's edge.  To the south, a magnificent fountain rivals the noisy babbling of the stream."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      598,
+      1163,
+      634,
+      1201
+    ]
+  },
+  "exits": [
+    {
+      "to": 35868,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35869,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35872,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35890,
+      "kind": "go",
+      "cmd": "go stone bridge",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 32843,
+  "uid": [
+    14053304
+  ],
+  "title": [
+    "[Rhyaesdid Hall, Hallway]"
+  ],
+  "description": [
+    "Sounds of trickling water dance out from a carved stone waterfall placed between a golden velvet curtain embroidered with a crimson phoenix and a jade-inlaid ebonwood arch.  Light from a trio of frosted crystal globes casts a pale blanket over the rich ramie silk carpet that runs the length of the hallway.  The lamps send bits of luminous motes across the walls as their pale beams dance upon the water."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 32841,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32842,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32844,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33165,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 36147,
+      "kind": "go",
+      "cmd": "go ebonwood arch",
+      "cost": 0.2
+    }
+  ]
+}

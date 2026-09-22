@@ -1,0 +1,114 @@
+{
+  "id": 12217,
+  "uid": [
+    4571024
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Skeletal birds circle a giant black marble statue depicting a winged demon.  The earth at the feet of the statuary has been frozen solid, all plant and animal life encased in a thick layer of ice.  A bluish mist lingers in the air, ebbing and flowing like the tide over time.",
+    "Skeletal birds circle a giant black marble statue depicting a winged demon.  The earth at the feet of the statuary has been scorched of all life, both plant and animal.  A reddish mist lingers in the air, ebbing and flowing like the tide over time."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down",
+    "Obvious paths: northwest, down"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Scatter, The",
+    "mapshortname:Scatter, The"
+  ],
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      183,
+      321,
+      207,
+      345
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12219,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 12220,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12256,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    }
+  ]
+}

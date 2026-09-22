@@ -1,0 +1,40 @@
+{
+  "id": 26030,
+  "uid": [
+    673008
+  ],
+  "title": [
+    "[Cleric Guild, Prayer Room]"
+  ],
+  "description": [
+    "Statues of the pantheon of Others surround you, their carven marble features soft or stern according to their natures.  Narrow stained glass windows cast the room half in shadow, half in amber radiance.  Beach sand makes mats unnecessary and eases the long hours of prayerful kneeling, and a solitary oil lamp sheds enough light to permit reading."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "River's Rest",
+  "terrain": "sandy",
+  "image": {
+    "file": "rr-cleric_guild.png",
+    "rect": [
+      667,
+      701,
+      734,
+      762
+    ]
+  },
+  "exits": [
+    {
+      "to": 26029,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26031,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

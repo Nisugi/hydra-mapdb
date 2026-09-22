@@ -1,0 +1,56 @@
+{
+  "id": 35065,
+  "uid": [
+    4426506
+  ],
+  "title": [
+    "[Glaeve, Scythe Bend]"
+  ],
+  "description": [
+    "Smoke pours, black and thick, from the chimneys of armorers' and weaponsmiths' shops flanking the street.  They fill the cold, salty air with the choking grit of hot forge ash and the tang of heated metal.  Wagons laden with ore and ingots crowd the available space near to the businesses, though one bustling smithy has a clear lane leading up to its entrance."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, west"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      848,
+      349,
+      868,
+      368
+    ]
+  },
+  "exits": [
+    {
+      "to": 35063,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35066,
+      "kind": "go",
+      "cmd": "go smithy",
+      "cost": 0.2
+    },
+    {
+      "to": 35067,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35080,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

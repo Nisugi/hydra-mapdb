@@ -1,0 +1,36 @@
+{
+  "id": 32860,
+  "uid": [
+    13010146
+  ],
+  "title": [
+    "[Silvergate Annex]"
+  ],
+  "description": [
+    "Two huge toadstools in large stone pots illuminate a large, comfortable room.  Dusky brown granite benches line two of the marble walls, facing each other across the sapphire carpet.  Mounted above one bench is a stuffed tusked boar head and above the other hangs a huge silver lion head with a gaping maw and savage looking fangs.  On one wall, a silver arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "che:silvergate_inn:entrance_locker",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 9499,
+      "kind": "go",
+      "cmd": "go silver arch",
+      "cost": 0.2
+    },
+    {
+      "to": 32861,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

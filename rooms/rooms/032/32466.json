@@ -1,0 +1,56 @@
+{
+  "id": 32466,
+  "uid": [
+    4577241
+  ],
+  "title": [
+    "[Moonsedge Castle, Upper Hallway]"
+  ],
+  "description": [
+    "A stone and bloodwood staircase climbs to the second story of the keep, the natural beauty of its ruddy wooden inlay complemented by the grey-trimmed scarlet runners at its center.  Beeswax candles stand in arched nooks along the tenebrous stone walls, illuminating a trio of hallways leading to the castle's living spaces.  The shortest path, to the north, is softened by a dark red carpet with bright golden tassels."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1108,
+      407,
+      1125,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 32465,
+      "kind": "go",
+      "cmd": "go bloodwood staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 32471,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32473,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32475,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

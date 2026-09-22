@@ -1,0 +1,39 @@
+{
+  "id": 36690,
+  "uid": [
+    8400070
+  ],
+  "title": [
+    "[Nyessem, Baths]"
+  ],
+  "description": [
+    "A ruby-studded tunnel opens on a steam-filled room heated by a series of braziers in one corner.  Next to them, a polished marble basin is filled with cool, clear water.  A long stone table set with refreshments sits before a wall with small holes to hold personal effects.  A wide mirror edged with lines of glittering gemstones dominates the opposite wall.  At the mirror's heart is a large rune-etched diamond."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      642,
+      387,
+      660,
+      404
+    ]
+  },
+  "exits": [
+    {
+      "to": 36672,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 36691,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

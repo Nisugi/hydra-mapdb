@@ -1,0 +1,50 @@
+{
+  "id": 24409,
+  "uid": [
+    271008
+  ],
+  "title": [
+    "[Ranger Guild, Treehouse]"
+  ],
+  "description": [
+    "The massive trunk of the tree supports this half of the treehouse, forming a solid wooden wall on the western side.  Strange chitters of small animals and the sounds of rustling leaves fill the air, adding to nature's ambience.  A light breeze ruffles the branches of the mighty oak, causing pockets of eerie moonlight to dance across the floor of the glade below."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-rangerguild-v1.png",
+    "rect": [
+      91,
+      117,
+      109,
+      136
+    ]
+  },
+  "exits": [
+    {
+      "to": 24398,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24411,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 24412,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

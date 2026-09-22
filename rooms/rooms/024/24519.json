@@ -1,0 +1,76 @@
+{
+  "id": 24519,
+  "uid": [
+    4124037
+  ],
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A vast rolling sea of thick, heavy brambles lies before you, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends an evil gleam to the already vicious-looking thorns.",
+    "A vast rolling sea of thick, heavy brambles lies ahead, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends a chilling gleam to the already vicious-looking thorns."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "barren scrub",
+  "tags": [
+    "arctic moss",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "ironfern root",
+    "lingonberry",
+    "rockberry",
+    "snow lily",
+    "sunburst blossom",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "meta": [
+    "mapcategory:Icemule Trace",
+    "mapname:Icemule Trace - Bramble Patch",
+    "mapshortname:Bramble Patch"
+  ],
+  "image": {
+    "file": "imt-bramble_patch-1307499864.png",
+    "rect": [
+      201,
+      291,
+      213,
+      303
+    ]
+  },
+  "exits": [
+    {
+      "to": 3111,
+      "kind": "go",
+      "cmd": "go patch",
+      "cost": 0.2
+    },
+    {
+      "to": 24520,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24532,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb hillside"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

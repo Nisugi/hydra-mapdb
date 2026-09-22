@@ -1,0 +1,49 @@
+{
+  "id": 17265,
+  "uid": [
+    252026
+  ],
+  "title": [
+    "[Guild Hall, Vestibule]"
+  ],
+  "description": [
+    "This arched hallway allows passage between the frigidarium and the dressing room.  Excessive traffic through the hall has worn a smooth trail down the middle of the dirty floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1497,
+      882,
+      1519,
+      904
+    ]
+  },
+  "exits": [
+    {
+      "to": 17263,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17266,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 17267,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

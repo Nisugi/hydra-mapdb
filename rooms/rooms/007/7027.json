@@ -1,0 +1,64 @@
+{
+  "id": 7027,
+  "uid": [
+    45117
+  ],
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "Rubble from the broken inner tower here makes you wonder what could have so damaged such a structure.  The tower is fully fifty feet shorter than the one to the north, and large cracks continue from the broken top almost to the ground."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bright red cranberry",
+    "cuctucae berry",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      488,
+      563,
+      498,
+      573
+    ]
+  },
+  "exits": [
+    {
+      "to": 7026,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7028,
+      "kind": "go",
+      "cmd": "go guardtower",
+      "cost": 0.2
+    },
+    {
+      "to": 7029,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

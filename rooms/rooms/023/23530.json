@@ -1,0 +1,41 @@
+{
+  "id": 23530,
+  "uid": [
+    501001
+  ],
+  "title": [
+    "[Twelve Oaks Manor, Entry]"
+  ],
+  "description": [
+    "Two elegant crystal chandeliers hang from the vaulted ceiling, while a set of deep bay windows, complete with thickly cushioned seats, flank an immense fireleaf door.  Moonlight streaming through the windows illuminates the polished blonde oak floor and a broad silk tapestry that covers much of the eastern wall.  A bas-relief panel, depicting a garden scene, graces the western end of the northern enclosure of the room."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 181,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 23531,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 23532,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

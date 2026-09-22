@@ -1,0 +1,59 @@
+{
+  "id": 24936,
+  "uid": [
+    -7105013
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "Thick, flowerless vines crawl up the sides of a two-story inn with yellow shutters and a balcony overlooking a plaza to the west.  On the inn's front porch, several chairs huddle together around a small stove in between a pair of spruce-carved doors with peeling green paint.  A tarnished brass bell hangs from a low branch of a lemon tree in the yard."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      735,
+      837,
+      750,
+      850
+    ]
+  },
+  "exits": [
+    {
+      "to": 24912,
+      "kind": "go",
+      "cmd": "go plaza",
+      "cost": 0.2
+    },
+    {
+      "to": 24935,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24941,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 24952,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24964,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

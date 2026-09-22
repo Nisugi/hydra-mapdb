@@ -1,0 +1,51 @@
+{
+  "id": 23841,
+  "uid": [
+    4422211
+  ],
+  "title": [
+    "[Circle of Trees, Platform Level]"
+  ],
+  "description": [
+    "Several wide planks and boards have been affixed to the massive teak tree that rises even further above this level with its spreading branches.  Twin rope bridges stretch in opposite directions, heading to neighboring platforms, and allowing access to other areas within the circle of trees.  From here, a trail of evenly spaced grooves heads down to ground level.  Hanging lanterns made with green glass jars illuminate the shady area, adding even more green to the verdant space."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      744,
+      345,
+      755,
+      359
+    ]
+  },
+  "exits": [
+    {
+      "to": 23705,
+      "kind": "go",
+      "cmd": "go moss",
+      "cost": 0.2
+    },
+    {
+      "to": 23840,
+      "kind": "go",
+      "cmd": "go grooves",
+      "cost": 0.2
+    },
+    {
+      "to": 23854,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23858,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

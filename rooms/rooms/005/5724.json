@@ -1,0 +1,78 @@
+{
+  "id": 5724,
+  "uid": [
+    4740307,
+    4744307
+  ],
+  "title": [
+    "[Slim Jyhm's]"
+  ],
+  "description": [
+    "An eight-paned glaes window in the front of the shop makes this undoubtedly the best lit shop in all of Marshtown.  A leather topped counter separates the locksmith, his workbench and impressive array of lockpicking tools from the area where customers stand."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "the lowlands of Marshtown",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "locksmith",
+    "no forageables",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:iron-bound driftwood wastebarrel"
+  ],
+  "exits": [
+    {
+      "to": 5044,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 5725,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

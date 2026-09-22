@@ -1,0 +1,81 @@
+{
+  "id": 12605,
+  "uid": [
+    3041003
+  ],
+  "title": [
+    "[Luukos' Gullet, Slick Ledge]"
+  ],
+  "description": [
+    "The ledge is wet and hot to the touch.  Just holding on is a chore, and blasts of steam slap against the rock as if hoping to tear all life away and hurl it into the vengeful maelstrom.  Down below a dark opening seems to lead to a tunnel from the crashing surf, for every now and then a great wave crashes in, only to be vaporized almost instantly as it meets the lava flow."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
+  "climate": "hot, damp",
+  "terrain": "rough",
+  "tags": [
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      774,
+      703,
+      784,
+      713
+    ]
+  },
+  "exits": [
+    {
+      "to": 12606,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "round_until": {
+            "commands": [
+              "search",
+              "get handhold"
+            ],
+            "until": [
+              "You reach out"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb face"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 3.4
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 36389,
+  "uid": [
+    55062
+  ],
+  "title": [
+    "[Black Swan Castle, Ramparts]"
+  ],
+  "description": [
+    "Looking down along the shore of the moat, you see one particularly tall, solitary tree.  It can also be noted that the corner of the keep is close, but it is not close enough for anyone to leap with any certainty of making the perilous jump."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      200,
+      200,
+      240,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 36388,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36390,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36462,
+      "kind": "other",
+      "cmd": "jump",
+      "cost": 10.0
+    }
+  ]
+}

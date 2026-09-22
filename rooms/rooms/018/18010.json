@@ -1,0 +1,59 @@
+{
+  "id": 18010,
+  "uid": [
+    263016
+  ],
+  "title": [
+    "[Rogue Guild, Portico]"
+  ],
+  "description": [
+    "Many of the tiles that make up the portico walkway here are scratched and broken.  Against the wall is a bench on which drowsy footpads rest.  The air is tinged with the slight smell of sweat.  An exquisite brass lantern hangs from the portico rafters.  To the southwest is a salmon-colored awning."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "rogue guild footpads",
+    "rogue guild masters",
+    "rogue guild trainer",
+    "roguemasters"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      364,
+      254,
+      396,
+      280
+    ]
+  },
+  "exits": [
+    {
+      "to": 17989,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18007,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18009,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30761,
+      "kind": "other",
+      "cmd": "ask selima about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

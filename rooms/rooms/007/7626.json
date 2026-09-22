@@ -1,0 +1,62 @@
+{
+  "id": 7626,
+  "uid": [
+    85008
+  ],
+  "title": [
+    "[The Black Sands]"
+  ],
+  "description": [
+    "The waves break into white foam and come rolling up the black beach.  A magnificent sandcastle stands lone sentry near the tide line.  Every few minutes, a wave comes along and sweeps over it, but it remains whole and unmarred."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "saltwater",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "yabathilium fruit"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      88,
+      529,
+      98,
+      539
+    ]
+  },
+  "exits": [
+    {
+      "to": 7625,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7627,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30581,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "put": "search magnificent sandcastle"
+        },
+        {
+          "move": "push magnificent sandcastle"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

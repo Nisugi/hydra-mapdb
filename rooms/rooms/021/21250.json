@@ -1,0 +1,64 @@
+{
+  "id": 21250,
+  "uid": [
+    109009
+  ],
+  "title": [
+    "[Silvergate, Hallway]"
+  ],
+  "description": [
+    "Muffled footsteps and voices from the floor above filter through an air grille high on the end wall and echo in this wide hallway.  It is sparsely furnished, boasting only a wooden bench set opposite a tanned leather curtain which rustles in a draft.  A sturdy iron-reinforced door bars your way to the north."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Silvergate Inn",
+    "che:Silvergate Manor",
+    "che:silvergate_inn:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      478,
+      629,
+      563,
+      683
+    ]
+  },
+  "exits": [
+    {
+      "to": 21225,
+      "kind": "go",
+      "cmd": "go narrow staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 21259,
+      "kind": "go",
+      "cmd": "go reinforced door",
+      "cost": 0.2
+    },
+    {
+      "to": 21265,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 21268,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21280,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

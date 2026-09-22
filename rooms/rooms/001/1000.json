@@ -1,0 +1,72 @@
+{
+  "id": 1000,
+  "uid": [
+    13006032
+  ],
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "The sweet scent of composted wood pervades the tunnel, though the source of the odor is not readily apparent.  A steel door occupies a portion of the west wall, and a burnished brass sign flanks the door.  A crude stone arch along the eastern wall provides entrance to a small shop.  Dwarves carrying packages and dry goods wander in and out of the shop.  Some seem happy and gregarious, while others are aloof and serious."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      805,
+      624,
+      825,
+      644
+    ]
+  },
+  "exits": [
+    {
+      "to": 999,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1001,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3357,
+      "kind": "go",
+      "cmd": "go hovel",
+      "cost": 0.2
+    },
+    {
+      "to": 9493,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 9494,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": 3091,
+  "uid": [
+    4124014
+  ],
+  "title": [
+    "[Abandoned Farm, Garden]"
+  ],
+  "description": [
+    "A broken-down farm house stands just inside the wooden archway, its empty door and broken windows leering over the snow-filled garden.  A dilapidated barn slumps into the snow to the north of the garden.  To the southeast, a thin trail leads around the corner of the house."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "blue snow rose",
+    "frostflower",
+    "ice tulip",
+    "moonflower",
+    "pennyroyal stem",
+    "resting poppy",
+    "sassafras leaf",
+    "silver iceblossom",
+    "snow rose",
+    "snowy arctic rose",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wavepetal blossom",
+    "white arctic rose",
+    "white crallisberry",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      673,
+      673,
+      683,
+      683
+    ]
+  },
+  "exits": [
+    {
+      "to": 3070,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 3092,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 3100,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3104,
+      "kind": "go",
+      "cmd": "go barn",
+      "cost": 0.2
+    },
+    {
+      "to": 31352,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go snow cabin",
+          "when": {
+            "wearing_noun": "key"
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "get my key from my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "move": "go snow cabin",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "put my key in my {setting:key_sack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "any": [
+                {
+                  "wearing_noun": "key"
+                },
+                {
+                  "setting_is_set": "key_sack"
+                }
+              ]
+            },
+            {
+              "setting_is_set": "sunset_cabin"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 2196,
+  "uid": [
+    3060018
+  ],
+  "title": [
+    "[Eye of V'Tull, Lava River]"
+  ],
+  "description": [
+    "Glowing nearly white hot, a river of molten rock splashes lava upon its shores.  A natural bridge of black igneous rock stretches to the far side where a pair of carved arches can be seen cut into the wall.  Tremors cause crystal stalactites to break free and splash into the river only to sink in the lava's eternal grip."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      842,
+      601,
+      850,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 2195,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2197,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

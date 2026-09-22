@@ -1,0 +1,43 @@
+{
+  "id": 26085,
+  "uid": [
+    679005
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Three panels, two vibrantly tiled murals and one devoid of art, occupy the eastern wall, while the western wall has a bas-relief garden of herbs, plants, and flowers carved into its slightly curved surface.  Arranged in a neat row down the center of the corridor is a series of votives, their brightly burning wicks offering ample illumination for pilgrims as they make their way from the downward spiraling stairs to the upward ones, and back again."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26084,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26086,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

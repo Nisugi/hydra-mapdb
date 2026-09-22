@@ -1,0 +1,52 @@
+{
+  "id": 34630,
+  "uid": [
+    4572037
+  ],
+  "title": [
+    "[Sablecross, Hollow Bend]"
+  ],
+  "description": [
+    "A smaller row branches off of the main thoroughfare, heading northward past a clothier's with broad bay windows.  Smoked glass and silken curtains the color of the night sky guard the shop's secrets, though the open front door allows welcoming music and the scent of burning frankincense to escape.  The ironwood door is inlaid with a glinting crescent moon of black opal."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      530,
+      740,
+      551,
+      768
+    ]
+  },
+  "exits": [
+    {
+      "to": 34607,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34629,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34653,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34655,
+      "kind": "go",
+      "cmd": "go clothier's",
+      "cost": 0.2
+    }
+  ]
+}

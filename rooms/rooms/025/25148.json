@@ -1,0 +1,100 @@
+{
+  "id": 25148,
+  "uid": [
+    4216902
+  ],
+  "title": [
+    "[Tiruz's Caravans, Conductor]"
+  ],
+  "description": [
+    "Multitudinous yierkas fret and hiss from stalls along the walls of the open-air caravansary, a wide enclosure formed by loose trellises of silvered wood and shielded from above by aged canvas.  Standing beside a small fel sign, a tall blond man with a neatly trimmed goatee oversees the chaos, shouting over the cries of animals and customers alike."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "caravan",
+    "some bur-clover root"
+  ],
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      457,
+      767,
+      481,
+      791
+    ]
+  },
+  "exits": [
+    {
+      "to": 221,
+      "kind": "scripted",
+      "steps": [
+        {
+          "order_by_name": "Wehnimer's Landing"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "car_from_sos",
+            "true"
+          ]
+        },
+        "then": 120.0
+      }
+    },
+    {
+      "to": 3904,
+      "kind": "scripted",
+      "steps": [
+        {
+          "order_by_name": "Vornavis"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "car_from_sos",
+            "true"
+          ]
+        },
+        "then": 120.0
+      }
+    },
+    {
+      "to": 25145,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

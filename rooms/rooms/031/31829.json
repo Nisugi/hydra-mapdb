@@ -1,0 +1,62 @@
+{
+  "id": 31829,
+  "uid": [
+    8083409
+  ],
+  "title": [
+    "[Gleyminn Anni River, Rock Face]"
+  ],
+  "description": [
+    "To the southwest, an expansive rock face camouflaged with an elaborate draping of vine comes into view.  Mist crawls across the surface of the dark waters at the base of the imposing cliffs, obscuring the course of the river in that direction.  A faint buzzing sound can be heard somewhere in the distance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1291,
+      800,
+      1312,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 31828,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 31830,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31835,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 30136,
+  "uid": [
+    -7117102
+  ],
+  "title": [
+    "[Man O' War, Cargo Hold]"
+  ],
+  "description": [
+    "Ropes strung through staples in the deck hold kegs and barrels in place against the bulkhead, while shelves are stocked with sails, wood, and lines.  Chests filled with supplies are stacked tightly leaving just enough space to maneuver between rows.  Livestock pens are located beneath the ladder leading back up to the main deck."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up"
+  ],
+  "location": "Ships",
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      359,
+      1225,
+      373,
+      1241
+    ]
+  },
+  "exits": [
+    {
+      "to": 30130,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30137,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30138,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

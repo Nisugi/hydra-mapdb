@@ -1,0 +1,50 @@
+{
+  "id": 12700,
+  "uid": [
+    3031062
+  ],
+  "title": [
+    "[Ruined Temple, Third Floor]"
+  ],
+  "description": [
+    "A slender marble arm sticks out from a pile of rock and dust in the middle of the chamber.  Stoic faces gaze up at the sky from the floor, the magnificent statues that they once belonged to are now merely random debris scattered around."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      1029,
+      101,
+      1065,
+      137
+    ]
+  },
+  "exits": [
+    {
+      "to": 12698,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12699,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12744,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

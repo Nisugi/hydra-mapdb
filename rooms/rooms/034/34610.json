@@ -1,0 +1,52 @@
+{
+  "id": 34610,
+  "uid": [
+    4572043
+  ],
+  "title": [
+    "[Sablecross, Oblation Way]"
+  ],
+  "description": [
+    "Sumptuous figures in bas-relief twist and writhe along the ivy-clad walls of a pale temple complex.  The shadows of the greenery conceal some of the cavorting shapes, though they provide no modesty for the licentious entanglements of others.  Clad in a coat of dark green lacquer, the bars of the temple's bronze gates are wrought to resemble wisps of drifting smoke.  They open onto a garden ablossom with orchid, rockrose, and styrax in resplendent display."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      297,
+      665,
+      329,
+      694
+    ]
+  },
+  "exits": [
+    {
+      "to": 34609,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34611,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34722,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 34725,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

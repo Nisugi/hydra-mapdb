@@ -1,0 +1,58 @@
+{
+  "id": 5832,
+  "uid": [
+    14003003
+  ],
+  "title": [
+    "[Timmorain Road]"
+  ],
+  "description": [
+    "The road runs steadily northeast and southwest, and though the trees press in rather close, no cobblestones are buckled by encroaching tree roots.  The road's surface is smooth, and the cobblestones huddle closely together to allow fast, unhindered travel.  Strangely, the cobblestones are cleaner than one might expect for a road through the forest, as if someone has recently come out and given them a brisk sweeping."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Timmorain Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      446,
+      941,
+      459,
+      951
+    ]
+  },
+  "exits": [
+    {
+      "to": 5831,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5833,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25637,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go footpath"
+        }
+      ],
+      "cost": 6.2
+    }
+  ]
+}

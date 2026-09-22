@@ -1,0 +1,44 @@
+{
+  "id": 28287,
+  "uid": [
+    857008
+  ],
+  "title": [
+    "[Ta'Vaalor Hall, West Hallway]"
+  ],
+  "description": [
+    "A large mural is painted on one wall.  The marble stairway meets a deep red carpeted hallway, its length punctuated with gold sconces.  A carved fel door with a gold knob is set into the west wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28286,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 28288,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28292,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28293,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

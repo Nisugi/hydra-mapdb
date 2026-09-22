@@ -1,0 +1,40 @@
+{
+  "id": 30554,
+  "uid": [
+    652005
+  ],
+  "title": [
+    "[Infirmary]"
+  ],
+  "description": [
+    "Small windows mounted high on the walls allow dim illumination into this stone building.  Small cabinets nestle against one wall, each cabinet designed to contain an emergency supply of a specific herb.  Several cots await the injured, and a mannequin rests in one corner with piles of bandages, splints and tourniquets neatly stacked around it.  Although the walls and floors are constructed from rough granite, the entire area is immaculately kept.  A flickering light comes from an arch to the south."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "teras-empath_guild.jpg",
+    "rect": [
+      736,
+      270,
+      798,
+      328
+    ]
+  },
+  "exits": [
+    {
+      "to": 30553,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30555,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

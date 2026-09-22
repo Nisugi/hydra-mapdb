@@ -1,0 +1,46 @@
+{
+  "id": 13098,
+  "uid": [
+    561004
+  ],
+  "title": [
+    "[Sunfist Outpost, Common Room]"
+  ],
+  "description": [
+    "Cozy and warm, the common room has a circle of overstuffed leather armchairs and low couches arranged around an enormous stone-worked fireplace.  Rising from an opening in the rough modwir floor, the circular staircase pauses at a landing built against the wall before continuing to ring the room until it reaches a trapdoor positioned in the ceiling.  A door in the western wall leads into the barracks while a wide arch heads into the kitchen."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out",
+    "Obvious exits: east",
+    "Obvious exits: none"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 13095,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 13100,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13101,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 15932,
+      "kind": "climb",
+      "cmd": "climb trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

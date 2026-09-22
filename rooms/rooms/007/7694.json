@@ -1,0 +1,44 @@
+{
+  "id": 7694,
+  "uid": [
+    68016
+  ],
+  "title": [
+    "[Underground Ruin, Excavation]"
+  ],
+  "description": [
+    "It looks as if this chamber was on its way to completion.  The south wall has been smoothed and a torch rests in a sconce there."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      470,
+      1205,
+      480,
+      1215
+    ]
+  },
+  "exits": [
+    {
+      "to": 7689,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7734,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

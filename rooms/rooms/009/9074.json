@@ -1,0 +1,45 @@
+{
+  "id": 9074,
+  "uid": [
+    4045102
+  ],
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "Water has seeped down from above and run down the walls and floor only to freeze in the frigid air of the tunnel.  A thin sheet of ice covers everything, making the footing treacherous.  A cold draft blows from some unseen vent."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1171,
+      171,
+      1181,
+      181
+    ]
+  },
+  "exits": [
+    {
+      "to": 9072,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9075,
+      "kind": "go",
+      "cmd": "go boulder",
+      "cost": 0.2
+    }
+  ]
+}

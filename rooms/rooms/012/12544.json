@@ -1,0 +1,50 @@
+{
+  "id": 12544,
+  "uid": [
+    672017
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "A small shrine is set between a gap in the neatly-ordered rows of tanik trees planted along the walls.  The building is somewhat squat compared to its counterpart to the west, but has obviously been well-crafted.  A square arch of solid iron connects the door of the same metal to the highly polished granite walls, and the domed roof is coated with a finish of gleaming gold.  Two statues of dwarves holding crossed axes flank the entryway into the building."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-Cleric_Guild-1267238976.jpg",
+    "rect": [
+      515,
+      465,
+      549,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 12543,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14732,
+      "kind": "go",
+      "cmd": "go entryway",
+      "cost": 0.2
+    },
+    {
+      "to": 20026,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

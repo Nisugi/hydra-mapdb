@@ -1,0 +1,54 @@
+{
+  "id": 19970,
+  "uid": [
+    28138
+  ],
+  "title": [
+    "[Landmarks, Danjirland]"
+  ],
+  "description": [
+    "A mural of a forest scene, with thick trunks spaced close together, covers all four walls, lending itself to the primordial ambiance of the room.  A thick grass green rug covers the floor, its expansive surface interrupted by a replica wooden obelisk and a weatherbeaten sign.  On one wall a panoramic painting in a knotty oak frame blocks the mural of trees behind it and resting below the artwork is a glass-fronted oak case."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      1804,
+      1033,
+      1947,
+      1093
+    ]
+  },
+  "exits": [
+    {
+      "to": 19948,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go stone passageway"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19969,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

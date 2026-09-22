@@ -1,0 +1,33 @@
+{
+  "id": 20532,
+  "title": [
+    "[Erythro Island, Crater Rim]"
+  ],
+  "description": [
+    "A dip in the rim creates a rocky trail that leads down into the basin.  The earthen perimeter ends at a flight of polished stone stairs that lead up to a huge sandstone keep that looms high in the air, towering above the crater."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20531,
+      "kind": "go",
+      "cmd": "go crater",
+      "cost": 0.2
+    },
+    {
+      "to": 20533,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 20534,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 11813,
+  "uid": [
+    17000018
+  ],
+  "title": [
+    "[Ta'Faendryl Approach]"
+  ],
+  "description": [
+    "A cobblestone road swings in a wide arc northeast and west.  Many of the stones are missing, but for the most part the road is still level and easily traveled.  A huge mound of mud rises just to the southwest and extends to the west as far as the eye can see.  The area is eerily quiet, as if no life of any kind resides here.  A few dead trees, now petrified, rise into the sky in bleak silhouette, but the earth has a scorched look to it, and the usual underbrush seems to have retreated."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-old_ta_faendryl-1716923763.png",
+    "rect": [
+      596,
+      1106,
+      606,
+      1116
+    ]
+  },
+  "exits": [
+    {
+      "to": 10835,
+      "kind": "go",
+      "cmd": "go shimmering portal",
+      "cost": 120.0
+    },
+    {
+      "to": 11814,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11815,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

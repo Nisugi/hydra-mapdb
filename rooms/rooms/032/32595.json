@@ -1,0 +1,185 @@
+{
+  "id": 32595,
+  "uid": [
+    7119059
+  ],
+  "title": [
+    "[Kraken's Fall, River]"
+  ],
+  "description": [
+    "Cozied up along the riverside in a picturesque scene is a small cobblestone cottage with a steadily spinning oak waterwheel and barn.  Large oak and pine trees stand tall beyond the cottage, scattered within their depths is a large herd of cattle grazing upon the lush green grass.  A cacophony of cattle, pig, chicken, and goat calls echoes throughout the tree line, though it becomes drowned out near the burbling river."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Widowmaker's Road",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "alpine violet",
+    "ambrominas leaf",
+    "angelica root",
+    "barley grass",
+    "bearberries",
+    "black tea leaves",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red beet",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "butterfly pea flower",
+    "cantaloupe",
+    "cherry peppers",
+    "coffee cherries",
+    "crimson dragonstalk",
+    "daggerstalk mushroom",
+    "dill",
+    "ear of corn",
+    "fire lily",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh lemongrass",
+    "garlic",
+    "ghost pepper",
+    "golden buttercup",
+    "grapefruit",
+    "green cabbage",
+    "green tea leaves",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "horseradish root",
+    "hot pepper",
+    "huckleberries",
+    "Imaera's Lace",
+    "ironfern root",
+    "juicy plum",
+    "luckbloom blossom",
+    "mate leaves",
+    "monkey grass",
+    "motherwort",
+    "murdroot",
+    "nettle leaf",
+    "off-white parsnip",
+    "orris root",
+    "pale green honeydew",
+    "pearl onions",
+    "peppermint leaves",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rose-marrow root",
+    "round yuzu",
+    "small apple",
+    "small daisy",
+    "small dandelion",
+    "small flower",
+    "small pumpkin",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of columbine",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of wild phlox",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "stalk of monkeyflower",
+    "sun-wilted tea leaves",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "thin hemp",
+    "tobacco leaves",
+    "urchin guide grocer",
+    "urchin-access",
+    "viburnum twig",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "white tea leaves",
+    "wild carrot",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rice",
+    "wild rose",
+    "wild sage",
+    "wild strawberry",
+    "wild tulip",
+    "wintergreen leaf",
+    "wiregrass",
+    "withered mushroom",
+    "wolfsbane root",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "exits": [
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 30817,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32596,
+      "kind": "go",
+      "cmd": "go cobblestone cottage",
+      "cost": 0.2
+    }
+  ]
+}

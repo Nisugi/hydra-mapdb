@@ -1,0 +1,79 @@
+{
+  "id": 3455,
+  "uid": [
+    4043851
+  ],
+  "title": [
+    "[Haldrick's Armory]"
+  ],
+  "description": [
+    "This shop lies below street level, half-moon windows along the front illuminating racks of armor and shields.  Recent renovations have left traces of dust currently being excised by an apprentice with a broom."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "armor",
+    "armorshop",
+    "no forageables",
+    "urchin guide armor",
+    "urchin-access",
+    "warrior guild sheet metal"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      226,
+      1142,
+      262,
+      1178
+    ]
+  },
+  "exits": [
+    {
+      "to": 3454,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

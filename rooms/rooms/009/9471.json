@@ -1,0 +1,77 @@
+{
+  "id": 9471,
+  "uid": [
+    13010002
+  ],
+  "title": [
+    "[Dagresar's Furs]"
+  ],
+  "description": [
+    "A lone luminescent toadstool tries vainly to light all the corners in this small stone shop.  The walls, floor and ceiling are covered with furs, hides, and skins from nearly every creature across the lands.  A metal cabinet on the north wall contains teeth, bones, eyes, and other assorted parts, while two large large metal racks hold hides in various states of scraping and tanning.  From behind a low stone counter, the proprietor keeps an eye on his stock and customers."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "furrier",
+    "no forageables",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      562,
+      472,
+      588,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 9407,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 2963,
+  "uid": [
+    4132033
+  ],
+  "title": [
+    "[Abbey, Dorter]"
+  ],
+  "description": [
+    "Small, spare cells line the walls, each guarded by a door with a slotted window.  Beyond, every cell is remarkably similar, housing a bed, nightstand, and writing desk.  Torches along the walls drive back the day's chill, but the dorter's entrance is open and doorless, waiting at the top of a narrow staircase.",
+    "Small, spare cells line the walls, each guarded by a door with a slotted window.  Beyond, every cell is remarkably similar, housing a bed, nightstand, and writing desk.  Torches along the walls drive back the bitter cold of night, but the dorter's entrance is open and doorless, waiting at the top of a narrow staircase."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abbey",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Abbey_Map-1652211219.png",
+    "rect": [
+      1168,
+      645,
+      1220,
+      693
+    ]
+  },
+  "exits": [
+    {
+      "to": 2962,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2964,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

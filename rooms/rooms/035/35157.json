@@ -1,0 +1,44 @@
+{
+  "id": 35157,
+  "uid": [
+    4426707
+  ],
+  "title": [
+    "[The Raider's Take, Corridor]"
+  ],
+  "description": [
+    "Bronze-bowled braziers dot the corridor, their brightly burning coals adding warmth to the air and providing a companionable glow that illuminates the russet-painted walls.  Carved support posts flank a set of descending steps steps to the west that lead into the open-air tavern, while opposite a grey-washed white oak door provides access to one of the inn's rooms."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Glaoveln",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 35155,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35156,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 35158,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 35162,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

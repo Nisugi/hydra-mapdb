@@ -1,0 +1,44 @@
+{
+  "id": 29608,
+  "uid": [
+    686017
+  ],
+  "title": [
+    "[Earth Tower, Elemental Masters]"
+  ],
+  "description": [
+    "Desks have been crowded together into this small room, each a working area for a master on duty.  Piles of neverending paperwork are stacked high on each desk, some more neatly than others."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      370,
+      1107,
+      400,
+      1136
+    ]
+  },
+  "exits": [
+    {
+      "to": 29580,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30540,
+      "kind": "other",
+      "cmd": "ask nace about train alchemy",
+      "cost": 0.2
+    }
+  ]
+}

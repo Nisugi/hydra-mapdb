@@ -1,0 +1,78 @@
+{
+  "id": 18687,
+  "uid": [
+    13104626
+  ],
+  "title": [
+    "[Shadowed Alcove]"
+  ],
+  "description": [
+    "Motes of dust can be seen floating through the streams of broken moonlight filtering through a small, grimy window.  A thick mat of reeds covers the rough wooden floor, herbs and dried flowers mixed in to mask other unsavory odors.  Piled up about a polished maoral table is a wide variety of boxes, chests, and trunks.  Tucked to one side is a rounded whiskey barrel bound with strips of rusted iron.",
+    "Motes of dust can be seen floating through the streams of broken sunlight filtering through a small, grimy window.  A thick mat of reeds covers the rough wooden floor, herbs and dried flowers mixed in to mask other unsavory odors.  Piled up about a polished maoral table is a wide variety of boxes, chests, and trunks.  Tucked to one side is a rounded whiskey barrel bound with strips of rusted iron."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "locksmith pool",
+    "locksmithpool",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "boxpool:npc:small greasy gnome",
+    "boxpool:table:polished maoral table",
+    "trashcan:rounded whiskey barrel"
+  ],
+  "exits": [
+    {
+      "to": 13311,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

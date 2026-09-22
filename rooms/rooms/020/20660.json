@@ -1,0 +1,44 @@
+{
+  "id": 20660,
+  "uid": [
+    258026
+  ],
+  "title": [
+    "[Warrior Guild, Lava Chamber]"
+  ],
+  "description": [
+    "Far below the surface cavern, deep trenches have been cut into the stone to reveal radiant flows of lava that fill the chamber with its oppressive and powerful heat.  Sturdy glaes channels run alongside the molten rock, flowing with water that helps regulate the temperature to a level that is only barely tolerable.  The system creates an enormous amount of steam that is ventilated through pipes jutting out of the walls and ceiling."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Zul Logoth",
+  "climate": "hot, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "warrior guild sauna"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      575,
+      479,
+      593,
+      496
+    ]
+  },
+  "exits": [
+    {
+      "to": 20654,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 32807,
+      "kind": "go",
+      "cmd": "go sauna",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 21489,
+  "title": [
+    "[Foot To The Floor, Front Room]"
+  ],
+  "description": [
+    "A rolling brass ladder is mounted on rails that the run the length of this long wagon, leading up to a trapdoor in the roof.  Boxes are stacked on the dusty floor nearly to the ceiling, alongside a large, dented metal bin.  An oak cabinet stands next to a threadbare green curtain leading further into the wagon."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20255,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 21490,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 21491,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

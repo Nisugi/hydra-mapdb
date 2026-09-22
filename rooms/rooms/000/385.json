@@ -1,0 +1,87 @@
+{
+  "id": 385,
+  "uid": [
+    853004
+  ],
+  "title": [
+    "[Landing Hall, Courtyard]"
+  ],
+  "description": [
+    "A large domed structure of solid granite rests in the middle of a grass clearing, seemingly out of place from the bustling streets outside.  The dome of gold rises grandly from the roof of the building, providing a shining beacon in the moonlight.  Brilliant stained glass is set along the bottom circumference of the dome, adding a touch of color to the gold.  A narrow cobblestone path leads to the massive oak doors that provide entry into the building.",
+    "A large domed structure of solid granite rests in the middle of a grass clearing, seemingly out of place from the bustling streets outside.  The dome of gold rises grandly from the roof of the building, providing a shining beacon in the sunlight.  Brilliant stained glass is set along the bottom circumference of the dome, adding a touch of color to the gold.  A narrow cobblestone path leads to the massive oak doors that provide entry into the building."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mho hall",
+    "mho hall board",
+    "stalk of bluebells",
+    "townhall",
+    "urchin guide townhall",
+    "urchin-access"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 230,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 8684,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 30633,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

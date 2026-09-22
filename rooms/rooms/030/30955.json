@@ -1,0 +1,44 @@
+{
+  "id": 30955,
+  "uid": [
+    106201
+  ],
+  "title": [
+    "[Cairnfang Manor, Basement]"
+  ],
+  "description": [
+    "Numerous crates and barrels of non-perishables are stacked uniformly around the dimly lit basement.  A hard, cooled stone surface lies underfoot, causing any notable sound to reverberate fiercely.  Two sconces adorning the far wall are the lone light sources, flickering in shades of blue and green.  Frequent streams of air waft into the area from the kitchen above, causing the flames to shift and dance as they distribute their magical light."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      370,
+      315,
+      381,
+      327
+    ]
+  },
+  "exits": [
+    {
+      "to": 30954,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 36068,
+      "kind": "other",
+      "cmd": "pull sconces",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": 719,
+  "uid": [
+    13100034
+  ],
+  "title": [
+    "[Ta'Illistim, Aaendarein Var]"
+  ],
+  "description": [
+    "Meandering along towards the edges of the cliffs, the var continues to skirt the bottom of the belltower.  Deep green ivy encases the bottom section of the tower in a living green carpet, as the upper portion of the grey stone belltower soars overhead.",
+    "Meandering along towards the edges of the cliffs, the var continues to skirt the bottom of the bell tower.  Deep green ivy encases the bottom section of the tower in a living green carpet, as the upper portion of the silvery blue stone bell tower soars overhead.  A silvery blue stone building and a small shop are tucked back to either side of the spire."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1424,
+      498,
+      1447,
+      520
+    ]
+  },
+  "exits": [
+    {
+      "to": 718,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 720,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 724,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1772,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 1773,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

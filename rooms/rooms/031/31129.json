@@ -1,0 +1,43 @@
+{
+  "id": 31129,
+  "uid": [
+    102253
+  ],
+  "title": [
+    "[House Aspis, 2nd Floor Hall]"
+  ],
+  "description": [
+    "This end of the hallway leads to Nyte's room."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      269,
+      504,
+      403,
+      569
+    ]
+  },
+  "exits": [
+    {
+      "to": 31128,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31130,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

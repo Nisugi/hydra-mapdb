@@ -1,0 +1,50 @@
+{
+  "id": 34580,
+  "uid": [
+    669010
+  ],
+  "title": [
+    "[Sorcerer Guild, Ebonshade Tower]"
+  ],
+  "description": [
+    "The polished, black-stoned courtyard beneath your feet is cold and unforgiving, and every step taken echoes loudly against the walls of a dark stone tower.  Stretching endlessly upwards, the tower stands an imposing figure, with only a crumbling granite stairway leading up to a single thick ironwood door sufficing as an entry.  The building cloaks the courtyard in an enveloping shadow, dominating with its eerie presence."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "Sorcerer Guild",
+    "sorcerer guild",
+    "sorcererguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapname:Sorcerer Guild (FWI)",
+    "mapshortname:Sorcerer Guild (FWI)"
+  ],
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      762,
+      350,
+      795,
+      380
+    ]
+  },
+  "exits": [
+    {
+      "to": 34579,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34581,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 23664,
+  "uid": [
+    255043
+  ],
+  "title": [
+    "[Tanglevine Hall, Practice Room]"
+  ],
+  "description": [
+    "Rows of tackling dummies line the walls of the room.  Several wooden benches are placed in small clusters, providing a place to rest between exercises.  A rounded iron arch is set into the nearby wall, leading to a small office space which can be glimpsed through the opening.  Two small hallways lead away from this room, and a descending flight of stairs occupies the space between them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild dummies"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      335,
+      404,
+      360,
+      427
+    ]
+  },
+  "exits": [
+    {
+      "to": 23663,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 23693,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23696,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23697,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

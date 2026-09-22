@@ -1,0 +1,68 @@
+{
+  "id": 7466,
+  "uid": [
+    94009
+  ],
+  "title": [
+    "[Dark Grotto, Cavern]"
+  ],
+  "description": [
+    "The floor of this small round cavern dips suddenly down, forming a kind of bowl with the lowest point at the center of the cavern.  Large round stones, all of them roughly the same size and shape, lie scattered around the cavern, but for the most part are heaped in a loose pile at the center of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      806,
+      988,
+      816,
+      998
+    ]
+  },
+  "exits": [
+    {
+      "to": 7465,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

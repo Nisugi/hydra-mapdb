@@ -1,0 +1,57 @@
+{
+  "id": 23868,
+  "uid": [
+    4422215
+  ],
+  "title": [
+    "[Circle of Trees, Platform Level]"
+  ],
+  "description": [
+    "The branches of the large teak tree here extend upward, heading into the canopy above.  Several clusters of vines dangle down to ground level from some of them, their thick stems woven together like a natural rope.  An expansive platform of mistwood perches here as well, a pile of rocks sits to one side to use for defense.  Twin rope bridges extend to other platforms in trees nearby to the southeast and the west."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-Midsummers-Night-1266356986.png",
+    "rect": [
+      805,
+      148,
+      821,
+      161
+    ]
+  },
+  "exits": [
+    {
+      "to": 23859,
+      "kind": "go",
+      "cmd": "go branches ",
+      "cost": 0.2
+    },
+    {
+      "to": 23867,
+      "kind": "go",
+      "cmd": "go vines",
+      "cost": 0.2
+    },
+    {
+      "to": 23890,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23899,
+      "kind": "go",
+      "cmd": "go hollow",
+      "cost": 0.2
+    },
+    {
+      "to": 23903,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

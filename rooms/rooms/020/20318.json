@@ -1,0 +1,43 @@
+{
+  "id": 20318,
+  "title": [
+    "[Feywrot Mire, Misty Shore]"
+  ],
+  "description": [
+    "Barely lit by the moonlight that spreads its arms over the swamp, thin white mist swirls and eddies around the shoreline, moving at the same pace as the current of the water.  Phantasmal tendrils wrap their skeletal fingers around the bald cypress grove that makes its home in the black water, clenching the trunks in a close grip before fading away and rising up elsewhere.",
+    "Barely lit by pale motes of sunlight that dance through the swamp, thin white mist swirls and eddies around the shoreline, moving at the same pace as the current of the water.  The mist thickens into a fog as it moves out over the rippling water, so thick further away that it completely blocks sight of anything that may lie in the distance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      883,
+      854,
+      897,
+      867
+    ]
+  },
+  "exits": [
+    {
+      "to": 20317,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20319,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21390,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 30120,
+  "uid": [
+    -7117031
+  ],
+  "title": [
+    "[Carrack, Helm]"
+  ],
+  "description": [
+    "A strong sea breeze rushes through, turning a winter white mistwood wheel slightly off course.  A wooden capstan sits scuffed and worn from repeated use.  Down a short flight of stairs, a pair of sconces brighten the area around a wooden door leading to the captain's quarters."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ships",
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      314,
+      599,
+      329,
+      613
+    ]
+  },
+  "exits": [
+    {
+      "to": 30119,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30124,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

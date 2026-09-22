@@ -1,0 +1,50 @@
+{
+  "id": 24064,
+  "uid": [
+    3003701
+  ],
+  "title": [
+    "[Villa Brigatta, Atrium]"
+  ],
+  "description": [
+    "Rows of white granite columns echo the outside stylings, ringing the room and bracing the corridor leading off to the east.  At the center and beneath an open ceiling is a step-down area filled with comfortable settees.  To ward off the damp chill that comes with rain and cooler seasons is a free-standing white marble fireplace.  Blue star mosaic insets scatter across the pale travertine floor, and sky-hued gossamer curtains dance with the breeze.  A garden lush with native plants opens out to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out",
+    "Obvious exits: north, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_annex",
+    "che:brigatta:entrance_locker",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 1988,
+      "kind": "go",
+      "cmd": "go mistwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 24065,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24066,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24068,
+      "kind": "go",
+      "cmd": "go gossamer curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 4583,
+  "uid": [
+    4220010
+  ],
+  "title": [
+    "[Kraken Manor, Courtyard]"
+  ],
+  "description": [
+    "Standing in the center of the walled courtyard is a masterfully crafted water fountain created in the image of a sea kraken.  Wrapped in the kraken's tentacles is a flawless crown-of-Charl shell, from which the water cascades into the base of the fountain.  Well-kept flowerbeds containing an assortment of exotic flowers have been bordered with a collection of ruby-lined nassa shells, along with yellow, pink, and blue coquina shells.  An opal-flecked walkway leads up to a set of double doors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 1500,
+      "kind": "climb",
+      "cmd": "climb wall",
+      "cost": 0.2
+    },
+    {
+      "to": 4584,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push gargoyl"
+        },
+        {
+          "put": "push letter i"
+        },
+        {
+          "put": "push letter w"
+        },
+        {
+          "put": "push letter n"
+        },
+        {
+          "put": "push letter b"
+        },
+        {
+          "put": "push letter t"
+        },
+        {
+          "put": "push letter c"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 1.6
+    }
+  ]
+}

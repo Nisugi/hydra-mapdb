@@ -1,0 +1,58 @@
+{
+  "id": 33800,
+  "uid": [
+    170952
+  ],
+  "title": [
+    "[The Ember Vale, Dryad Lane]"
+  ],
+  "description": [
+    "Running north and south, the path here is worn and smoothed with only a few rough patches of gravel and jutted rocks.  Granite buildings frame the path, many set with open windows that provide a measure of warm orange glows from candles or fireplaces.  A mountain breeze stirs through the area."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Talador",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-ember-vale.png",
+    "rect": [
+      684,
+      356,
+      700,
+      372
+    ]
+  },
+  "exits": [
+    {
+      "to": 33799,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33801,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33809,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33814,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 33824,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

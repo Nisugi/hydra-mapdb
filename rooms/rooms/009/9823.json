@@ -1,0 +1,129 @@
+{
+  "id": 9823,
+  "uid": [
+    13022005
+  ],
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "A small pool of water has collected in a depression upon the ground, a thick root hanging from the ceiling dripping water into it constantly.  The narrow walls descend to meet the floor in a sharp angle, their surfaces smooth and featureless except for the occasional small rock or root breaking the monotony of packed earth."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Maaghara Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      1070,
+      465,
+      1080,
+      475
+    ]
+  },
+  "exits": [
+    {
+      "to": 9734,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go root"
+        },
+        {
+          "wait_until": {
+            "at": 9734
+          },
+          "when": {
+            "not": "still_here"
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "southwest",
+            "southwest",
+            "east",
+            "southwest",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "at": 9823
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "southwest",
+            "west",
+            "west",
+            "northeast",
+            "northeast",
+            "northwest"
+          ],
+          "when": {
+            "at": 9818
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "east",
+            "east",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "at": 9808
+          }
+        },
+        {
+          "moves": [
+            "southwest",
+            "southeast",
+            "southwest"
+          ],
+          "when": {
+            "at": 9788
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "south",
+            "northeast",
+            "north",
+            "west",
+            "west",
+            "west"
+          ],
+          "when": {
+            "at": 9784
+          }
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 100.0
+    },
+    {
+      "to": 9822,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9824,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

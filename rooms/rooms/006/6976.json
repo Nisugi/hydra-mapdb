@@ -1,0 +1,44 @@
+{
+  "id": 6976,
+  "uid": [
+    43018
+  ],
+  "title": [
+    "[Cavern]"
+  ],
+  "description": [
+    "This is some sort of cavern, hollowed out by the past action of the stream.  The walls are smooth and wet, and mineral-laden water drips from the ceiling, forming a number of sharp stalagmites on the floor.  High above here a circle of light shows clearly through the darkness.  In the murk you can see a steeply sloping passageway leading up towards it.  From the north comes the hollow echo of trickling water."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      51,
+      621,
+      61,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 6975,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 6980,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

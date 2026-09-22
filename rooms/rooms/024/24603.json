@@ -1,0 +1,43 @@
+{
+  "id": 24603,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "A large wine-hued silk tent occupies this relatively flat spot on the expansive meadow.  Small flowerpots have been placed at intervals around the tent's exterior, each boasting a different hued rosebush.  Flanking the tent's open entrance, twin pink rosebushes climb miniature trellises affixed to their pots.",
+    "A large wine-hued silk tent occupies this relatively flat spot on the expansive meadow.  Small flowerpots have been placed at intervals around the tent's exterior, each boasting a different hued rosebush.  Flanking the tent's open entrance, twin pink rosebushes climb miniature trellises affixed to their pots.  A glaes-paned lantern swings from a post outside the tent."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      341,
+      200,
+      362,
+      221
+    ]
+  },
+  "exits": [
+    {
+      "to": 24601,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24604,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 24607,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

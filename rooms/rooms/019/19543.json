@@ -1,0 +1,58 @@
+{
+  "id": 19543,
+  "uid": [
+    13001081
+  ],
+  "title": [
+    "[Dead Plateau, Interior]"
+  ],
+  "description": [
+    "The flat surface of the plateau winds among the cracks, moving in a haphazard fashion and often doubling back until even the position of the sun is no help in discerning one's location.  Dark, wide crevices loom dangerously in all directions, and often pebbles dropped or kicked into them fail to return the sound of striking bottom.  The cold wind howls across the landscape as a chill, mocking reminder that the elements here do not suffer travelers in their domain for long."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, dry",
+  "terrain": "barren scrub",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "ironfern root",
+    "no-auto-map",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1159,
+      961,
+      1167,
+      972
+    ]
+  },
+  "exits": [
+    {
+      "to": 1102,
+      "kind": "scripted",
+      "steps": [
+        {
+          "moves": [
+            "southeast",
+            "northeast"
+          ]
+        },
+        {
+          "wander_while": {
+            "exits_over": 2
+          }
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

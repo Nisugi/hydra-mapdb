@@ -1,0 +1,38 @@
+{
+  "id": 16332,
+  "uid": [
+    3205005
+  ],
+  "title": [
+    "[Mist Harbor Lockup, Hallway]"
+  ],
+  "description": [
+    "A single torch burns in an cast-iron sconce giving off a wan light.  The floor crunches underfoot as it's littered with the remains of various small rodents in a state of decay.  A trail of blood leads into one of the cells."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 16331,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 16706,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

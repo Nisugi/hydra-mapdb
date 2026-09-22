@@ -1,0 +1,64 @@
+{
+  "id": 34318,
+  "uid": [
+    13150304
+  ],
+  "title": [
+    "[Thunder Plateau, Rocky Path]"
+  ],
+  "description": [
+    "Stretching both north and south, a long rocky path separates the soggy plateau from a steep pinnacle that is as wide as the path is long.  There are no visible steps or paths leading to the top of the mesa, but the incline's rocky surface appears somewhat navigable with a bit of effort.  Broken limbs and debris swell over the peak's edge and bear resemblance to the blended materials found in a bird's nest."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Stormpeak",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "cabbage rose",
+    "golden mushroom",
+    "virescent rose",
+    "wild chokecherry"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1247,
+      159,
+      1264,
+      178
+    ]
+  },
+  "exits": [
+    {
+      "to": 34319,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34321,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34322,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb incline"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

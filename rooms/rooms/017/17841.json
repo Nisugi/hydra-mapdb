@@ -1,0 +1,98 @@
+{
+  "id": 17841,
+  "uid": [
+    13102001
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Cobalt Salon]"
+  ],
+  "description": [
+    "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic crafted from a multitude of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Daylight streams through the well of an alabaster staircase.",
+    "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Starlight streams through the well of a stone staircase.",
+    "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Starlight streams through the well of a stone ramp.",
+    "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Daylight streams through the well of a stone staircase."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide keep",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      544,
+      1050,
+      565,
+      1073
+    ]
+  },
+  "exits": [
+    {
+      "to": 16961,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18138,
+      "kind": "go",
+      "cmd": "go ogee arch",
+      "cost": 0.2
+    },
+    {
+      "to": 26830,
+      "kind": "go",
+      "cmd": "go peacock door",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 32741,
+      "kind": "go",
+      "cmd": "go peah door",
+      "cost": 0.2
+    }
+  ]
+}

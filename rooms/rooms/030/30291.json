@@ -1,0 +1,69 @@
+{
+  "id": 30291,
+  "uid": [
+    7118541
+  ],
+  "title": [
+    "[Wandering Kraken's Mail Shop]"
+  ],
+  "description": [
+    "Neat as a pin and cozy, the shop has several mail-related wares stacked on shelves behind a polished driftwood counter with crystalline sides, and red-bricked walls are painted with cheerful images of absinthe green krakens juggling packages, letters, and books of stamps in their many, ocean blue tentacles.  Several tropical plants in terracotta vases line the walls, and a bright red hibiscus shrub flourishes next to piles of stacked mail."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mail",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28898,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 28002,
+  "uid": [
+    8208714
+  ],
+  "title": [
+    "[Rumor Woods]"
+  ],
+  "description": [
+    "Steam wafts through the air as it takes leave of a blue and purple pavilion to the southeast, the scent of warm bread and hot clove-spiced teas mingling in its ethereal vapors.  Verdant green grasses lean towards the relative warmth of the bustling structure, while the snow retreats to the opposing side of nearby trails.  The sound of jovial voices filters through the air, though the particular conversations are muffled by layers of canvas and fleece."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south, southwest, northwest"
+  ],
+  "location": "Rumor Woods",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      778,
+      341,
+      801,
+      364
+    ]
+  },
+  "exits": [
+    {
+      "to": 27999,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28001,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28003,
+      "kind": "go",
+      "cmd": "go purple pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 28006,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28008,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29635,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

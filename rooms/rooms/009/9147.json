@@ -1,0 +1,50 @@
+{
+  "id": 9147,
+  "uid": [
+    7530025
+  ],
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.",
+    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.  A watery vortex churns dangerously in the waters just below the pier, its center crackling with energy."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "hot, damp",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      589,
+      910,
+      599,
+      920
+    ]
+  },
+  "exits": [
+    {
+      "to": 9146,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24863,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go vortex"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

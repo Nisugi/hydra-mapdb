@@ -1,0 +1,41 @@
+{
+  "id": 36128,
+  "uid": [
+    105313
+  ],
+  "title": [
+    "[House Arcane, Sauna]"
+  ],
+  "description": [
+    "Warm steam engulfs you as you enter the House spa, and you slip a little on the uneven surface of the floor.  The irregular shape of the room is due to the fact that it was hewn from the volcanic rock indigenous to the area, its obsidian surface carved and polished to a smooth sheen.  The swirling pool at the room's edge is fed by a natural hotspring that wells up from a small opening and fills the curved tub carved there."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      723,
+      1142,
+      800,
+      1220
+    ]
+  },
+  "exits": [
+    {
+      "to": 36122,
+      "kind": "go",
+      "cmd": "go glass door",
+      "cost": 0.2
+    },
+    {
+      "to": 36129,
+      "kind": "go",
+      "cmd": "go swirling pool",
+      "cost": 0.2
+    }
+  ]
+}

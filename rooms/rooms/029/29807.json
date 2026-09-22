@@ -1,0 +1,35 @@
+{
+  "id": 29807,
+  "uid": [
+    4043264
+  ],
+  "title": [
+    "[Cloudberry Room, Cubbyhole]"
+  ],
+  "description": [
+    "The small room ends in a dark leather curtain which is drawn shut.  Remnants of old advertising slogans are painted onto the curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_locker",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 26004,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 29808,
+      "kind": "go",
+      "cmd": "go leather curtain",
+      "cost": 0.2
+    }
+  ]
+}

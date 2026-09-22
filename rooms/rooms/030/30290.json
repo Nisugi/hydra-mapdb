@@ -1,0 +1,69 @@
+{
+  "id": 30290,
+  "uid": [
+    3001053
+  ],
+  "title": [
+    "[Teras Postmaster]"
+  ],
+  "description": [
+    "The air is heavy with the scent of paper and dust.  A doddering dwarven postal clerk keeps watch from behind a sturdy counter, above which hangs a framed sign.  The portrait hung near a distressed leather curtain is the only thing resembling decoration in this small office."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mail",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12538,
+      "kind": "go",
+      "cmd": "go leather curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

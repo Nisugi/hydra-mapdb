@@ -1,0 +1,108 @@
+{
+  "id": 28898,
+  "uid": [
+    7118231
+  ],
+  "title": [
+    "[Wandering Eye Market, South]"
+  ],
+  "description": [
+    "Brightly reflecting the sunlight, frosted globes dangle from the gutters of a scrollworked purple wooden wagon that is parked upon the painted cobblestones of the sprawling market.  Scrawling gold, silver, and purple lettering adorns the decorative waist board, while roller-scotches rest beneath the wheels to prevent it from rolling either forward or back.  Other shops in this section of the market give the structure a wide berth."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      407,
+      440,
+      419,
+      453
+    ]
+  },
+  "exits": [
+    {
+      "to": 28813,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28895,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28897,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28899,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28943,
+      "kind": "go",
+      "cmd": "go purple wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 30291,
+      "kind": "go",
+      "cmd": "go red-bricked shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

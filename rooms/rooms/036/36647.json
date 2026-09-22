@@ -1,0 +1,45 @@
+{
+  "id": 36647,
+  "uid": [
+    8400215
+  ],
+  "title": [
+    "[Brayern Isle, Fortress Approach]"
+  ],
+  "description": [
+    "At the head of this plateau is a fortress built out of a muted blue-green wood.  Twin ends of the wooden walls along the paths from below meet here, connected by a wide metal portcullis built into the walls that opens to the fortress interior.  These walls are carved with sharp spikes at the top to discourage surreptitious entry.  Above the portcullis is a bright violet cloth pennant stitched with onyx threads.  Suspended from supportive hooks along the fortress walls, and placed intermittently along the trails leading back down from the plateau, is a series of lanterns."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Brayern Isle",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      851,
+      1145,
+      870,
+      1161
+    ]
+  },
+  "exits": [
+    {
+      "to": 36646,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36648,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36653,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    }
+  ]
+}

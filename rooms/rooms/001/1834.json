@@ -1,0 +1,106 @@
+{
+  "id": 1834,
+  "uid": [
+    13027002
+  ],
+  "title": [
+    "[Wraithenmist, Narrow Trail]"
+  ],
+  "description": [
+    "The trail winds its way into the edge of the forest, twisting around enormous tree trunks and bushes so tall and thick they stand higher than a giantman.  Odd vines climb the trees, twisting in a sinuous pattern around the trunks and draping themselves across limbs with a snake-like grace."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Wraithenmist",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      53,
+      369,
+      63,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 1833,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1835,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27470,
+      "kind": "scripted",
+      "steps": [
+        {
+          "moves_from_setting": "mularos_lover"
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "mularos_lover"
+            },
+            {
+              "setting_is_set": "Mularos_Lover"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

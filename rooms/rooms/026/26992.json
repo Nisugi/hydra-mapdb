@@ -1,0 +1,50 @@
+{
+  "id": 26992,
+  "uid": [
+    7115001
+  ],
+  "title": [
+    "[Liabo, Basin of Tranquility]"
+  ],
+  "description": [
+    "Resembling the cold, austerity of a mountain range trapped in ice, the landscape is awash with hard lines, severe angles, and bright white light where the glow of an arcane dome reflects off of the lunar rock.  Dazzling starlight burns brightly just beyond the protective energies, the winter constellation of the Spire slowly slipping beyond the horizon.  The steady heartbeat-like pulsing of an illuminated teleportation disk fills the air with a low thrumming sound."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the surface of Liabo",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "rol:order"
+  ],
+  "image": {
+    "file": "fest-Rings of Lumnis 2022-1649952041.png",
+    "rect": [
+      1612,
+      1279,
+      1627,
+      1292
+    ]
+  },
+  "exits": [
+    {
+      "to": 26991,
+      "kind": "go",
+      "cmd": "go teleportation disk",
+      "cost": 0.2
+    },
+    {
+      "to": 26995,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26996,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

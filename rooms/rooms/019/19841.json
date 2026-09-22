@@ -1,0 +1,46 @@
+{
+  "id": 19841,
+  "uid": [
+    676006
+  ],
+  "title": [
+    "[Cleric Guild, Neutrality Garden]"
+  ],
+  "description": [
+    "This small garden is a study in contrasts, one side a blooming riot of color, the other an austerely pale space.  In the midst of the artfully untamed foliage is a statue of Zelia, her wild-eyed presence perfectly at home in the chaos.  Bordered by pale green ferns tipped with white, the other side of the garden bears the steady presence of Gosaena, her gaze impassive, as she surveys the clearing.  A tiled path cuts directly in between the two, leading to a column-flanked arch."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "cultivated",
+  "image": {
+    "file": "en-cleric_guild-1340756524.png",
+    "rect": [
+      100,
+      267,
+      141,
+      306
+    ]
+  },
+  "exits": [
+    {
+      "to": 19839,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19840,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19842,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

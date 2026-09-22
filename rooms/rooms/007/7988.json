@@ -1,0 +1,52 @@
+{
+  "id": 7988,
+  "uid": [
+    104499
+  ],
+  "title": [
+    "[Paupers, Hallway]",
+    "[House of Paupers, Hallway]"
+  ],
+  "description": [
+    "This short, carpeted hallway ends at a brightly lit room filled with wooden tables.  Many odd-looking trinkets and knickknacks are mounted on the walls, covering all available shelf space.  Someone at one of the tables has apparently taken it upon himself to try and explain each and every single item in the room, and his droning voice indicates no sign of stopping.  On one wall is a curtained opening and on another you see a curtain that looks out of place."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of Paupers",
+    "che:paupers:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      752,
+      758,
+      835,
+      809
+    ]
+  },
+  "exits": [
+    {
+      "to": 7989,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26916,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    },
+    {
+      "to": 36067,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

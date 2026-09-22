@@ -1,0 +1,69 @@
+{
+  "id": 12821,
+  "uid": [
+    4740122
+  ],
+  "title": [
+    "[Solhaven, Debt Collector's]"
+  ],
+  "description": [
+    "This room seems hardly large enough to contain the activity within it.  Accountants and record clerks carrying towering sheaves of parchment scurry about as residents mill about asking questions.  A tall counter sits opposite the door, the town clerk perched imperiously upon his stool behind it."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "debt",
+    "debts",
+    "fire lily",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12819,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

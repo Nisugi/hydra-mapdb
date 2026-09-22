@@ -1,0 +1,49 @@
+{
+  "id": 8166,
+  "uid": [
+    24014
+  ],
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A large natural cavern starts to expand as you step amid piles of rock debris.  The north wall has been chipped and hewn up to the edge of the crevice.  The black maw of a chasm before you is broken only by a single rotted plank that bridges it."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the crystal caves",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      890,
+      574,
+      900,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 8165,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    },
+    {
+      "to": 8167,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

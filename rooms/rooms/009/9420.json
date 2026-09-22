@@ -1,0 +1,60 @@
+{
+  "id": 9420,
+  "uid": [
+    13006027
+  ],
+  "title": [
+    "[Zul Logoth, Chalcedony Tunnel]"
+  ],
+  "description": [
+    "Grains of white salt are scattered across the floor of the tunnel, making footing crunchy and a bit slippery.  The salt also causes the air to be extremely dry in this section, and the timbers here display an extremely heavy tar coating in response.  A single white door occupies the east wall next to a thick, wide metal door that appears to open upward.  Salt oozes liberally from underneath the metal door to be tracked all along the tunnel by the many dwarves who are constantly moving through."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      699,
+      714,
+      719,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 9415,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9419,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 9504,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    }
+  ]
+}

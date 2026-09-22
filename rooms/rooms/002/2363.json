@@ -1,0 +1,89 @@
+{
+  "id": 2363,
+  "uid": [
+    660001
+  ],
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "Heavy fog swirls in this entrance area but does not seem to pass through the silver gate.  Sharp ivory mammoth tusks protrude outward from the top of a tall, rough-hewn ironwood fence enclosing the compound."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild",
+    "sorcererguild",
+    "stalk of bluebells",
+    "urchin guide sorcererguild",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      316,
+      289,
+      352,
+      325
+    ]
+  },
+  "exits": [
+    {
+      "to": 2362,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18958,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

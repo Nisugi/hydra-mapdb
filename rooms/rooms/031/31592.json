@@ -1,0 +1,68 @@
+{
+  "id": 31592,
+  "uid": [
+    8083005
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Surrounded by bright lanterns, a sprawling manor gazes upon the open canal and bridges with dark windows and shadowed gables.  Blue-green grasses decorate the lawn, growing duskier the further they are from the violet-sheened light, while bushes dabbled with blossoms form a corridor leading to the manor's entry.  A well-trodden cobblestone pathway cuts through the streets to the east of the structure, while a dull green moss-covered stone arch connects the manor to its nearest neighbor."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      603,
+      435,
+      625,
+      455
+    ]
+  },
+  "exits": [
+    {
+      "to": 31569,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 31591,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31598,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31603,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31605,
+      "kind": "go",
+      "cmd": "go manor",
+      "cost": 0.2
+    },
+    {
+      "to": 31607,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 25520,
+  "uid": [
+    12101054
+  ],
+  "title": [
+    "[Covenants Kept, Entry]"
+  ],
+  "description": [
+    "Four hanging moons of colored glass hang from the overhead, lit from within to cast their commingled light on the shop foyer.  Statues, one dark and one pale, guard a trio of archways that lead off to the northeast, southeast, and east.  At the feet of each effigy sits a bowl holding a burning stick of incense, the heavy scent of which thickens the air.",
+    "Four hanging moons of colored glass hang from the overhead, lit from within to cast their commingled light on the shop foyer.  Statues, one pale and one dark, guard a trio of arches that lead off to the north, south, and east.  One of them holds a burning stick of incense, the heavy scent of which thickens the air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast",
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 25519,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25524,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25525,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25526,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

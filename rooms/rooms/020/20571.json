@@ -1,0 +1,33 @@
+{
+  "id": 20571,
+  "title": [
+    "[Stone Keep, Courtyard]"
+  ],
+  "description": [
+    "Standing in the shadow of the stone keep is a wide opening, where perhaps once doors were, leading inside.  Around the circular walls of the keep are rows of perched black granite gargoyles, frozen in time and eyes cast watchfully downward."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "exits": [
+    {
+      "to": 20569,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20570,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20572,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

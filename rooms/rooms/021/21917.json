@@ -1,0 +1,42 @@
+{
+  "id": 21917,
+  "title": [
+    "[Talador, North Circle]"
+  ],
+  "description": [
+    "A huge weathered stone temple casts a wide shadow across the road and half a dozen black birds sit quietly upon the rusted hammer-shaped symbol rising up from the building's roof.  Across the street a number of horses have been safely sheltered in the town stables."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      194,
+      157,
+      221,
+      184
+    ]
+  },
+  "exits": [
+    {
+      "to": 21902,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21914,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21918,
+      "kind": "go",
+      "cmd": "go temple",
+      "cost": 0.2
+    }
+  ]
+}

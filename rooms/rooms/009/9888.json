@@ -1,0 +1,152 @@
+{
+  "id": 9888,
+  "uid": [
+    219005
+  ],
+  "title": [
+    "[Linden Grove, Path]"
+  ],
+  "description": [
+    "While the path loops and gambols beneath the tall, stately linden trees of the grove, the trees give the appearance of watching its antics like benevolent, albeit aloof elders pondering the headlong pursuits of children.  Although the grove seems airy with its tall canopy and spacious growth, nonetheless, to all sides the impenetrable quality of deep forest maintains a presence that is never out of mind."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the dark woods",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "haphip root",
+    "lady slipper blossom",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "no-auto-map",
+    "oak twig",
+    "oxblood lily",
+    "pink rain lily",
+    "silver-edged fern",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "some acantha leaf",
+    "some haphip root",
+    "some murkweed",
+    "some torban leaf",
+    "some tree bark",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "stick",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "wolfsbane root",
+    "wood violet",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-sapphire-1658723758.png",
+    "rect": [
+      1047,
+      165,
+      1057,
+      175
+    ]
+  },
+  "exits": [
+    {
+      "to": 9887,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9889,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9890,
+      "kind": "go",
+      "cmd": "go grove",
+      "cost": 0.2
+    },
+    {
+      "to": 13183,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16956,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16957,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 18803,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

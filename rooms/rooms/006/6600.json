@@ -1,0 +1,62 @@
+{
+  "id": 6600,
+  "uid": [
+    4285012
+  ],
+  "title": [
+    "[Anwyn Castle, Hall]"
+  ],
+  "description": [
+    "The castle's buttery opens off of this hall's southern end.  To the north, the hall continues, where the main stair into Anwyn's Great Hall can be seen.  The windows here are tall and furnished with the facing window seats pervasive throughout the place.  A hall to the southeast grants entry into one of the octagonal corner towers, and some narrow stairs curve up out of sight.  A wooden doorway stands open to the inner yard, admitting a chilly breeze."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, south"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1315,
+      633,
+      1325,
+      643
+    ]
+  },
+  "exits": [
+    {
+      "to": 6569,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6597,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 6601,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6602,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6603,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    }
+  ]
+}

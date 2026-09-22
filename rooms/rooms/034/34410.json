@@ -1,0 +1,37 @@
+{
+  "id": 34410,
+  "uid": [
+    289120
+  ],
+  "title": [
+    "[Bard Guild, Upstairs Hallway]"
+  ],
+  "description": [
+    "Sunlight streams in through the tall open window, warming the gold-flecked marble floor.  Beautifully carved, teak molding runs down the hall, interrupted by a silk-draped archway.  Twin ceramic urns of exotic flowers stand against the wall, filling the corridor with their sweet perfume."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34405,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34411,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34413,
+      "kind": "go",
+      "cmd": "go silk archway",
+      "cost": 0.2
+    }
+  ]
+}

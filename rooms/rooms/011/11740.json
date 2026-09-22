@@ -1,0 +1,50 @@
+{
+  "id": 11740,
+  "uid": [
+    376078
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Flickering pitifully is a torch afixed to the wall next to an iron door.  The wall is built of two materials, smooth, black stone on the lower half and granite blocks on the upper half, leading up to the ceiling.  Discarded clothing covers the floor, creating a trail of pieces of cloth leading into the cell behind the door."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      711,
+      587,
+      721,
+      597
+    ]
+  },
+  "exits": [
+    {
+      "to": 11737,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11739,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11743,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

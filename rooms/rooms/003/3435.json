@@ -1,0 +1,57 @@
+{
+  "id": 3435,
+  "uid": [
+    4043943
+  ],
+  "title": [
+    "[Silvermule, Corridor]"
+  ],
+  "description": [
+    "The corridor is lined with piles of neatly folded--and empty--money sacks.  Boxes of playing cards are stacked upon closed crates bearing labels from the Borthuum Mining Company."
+  ],
+  "paths": [
+    "Obvious exits: south",
+    "Obvious exits: east, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-silvermule_gaming_hall-1484821104.png",
+    "rect": [
+      912,
+      464,
+      1055,
+      526
+    ]
+  },
+  "exits": [
+    {
+      "to": 19474,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20024,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33203,
+      "kind": "go",
+      "cmd": "go winterberry arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33723,
+      "kind": "go",
+      "cmd": "go dewberry arch",
+      "cost": 0.2
+    }
+  ]
+}

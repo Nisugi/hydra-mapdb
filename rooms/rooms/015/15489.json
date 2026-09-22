@@ -1,0 +1,37 @@
+{
+  "id": 15489,
+  "title": [
+    "[Officers' Prize Closet]"
+  ],
+  "description": [
+    "The closet is well-lit, but so small that it leaves barely enough space to turn around.  An oversized trunk rests at the base of one wall, while shelves rise to the ceiling lining two more walls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "check_location": true,
+  "tags": [
+    "peer out =~ /^\\[Helden Hall, Commons\\]$/"
+  ],
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      27,
+      920,
+      63,
+      955
+    ]
+  },
+  "exits": [
+    {
+      "to": 15481,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 32988,
+  "uid": [
+    5001079
+  ],
+  "title": [
+    "[House Brigatta, Cubby]"
+  ],
+  "description": [
+    "This small antechamber to the locker area is lighted by a simple brass oil lamp.  The walls, crafted from smooth panels of yew wood, are bare of any adornment.  A plain cotton rug muffles your footsteps."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_locker",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 32987,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32989,
+      "kind": "go",
+      "cmd": "go beaded curtain",
+      "cost": 0.2
+    }
+  ]
+}

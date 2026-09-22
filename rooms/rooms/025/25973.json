@@ -1,0 +1,52 @@
+{
+  "id": 25973,
+  "uid": [
+    336012
+  ],
+  "title": [
+    "[Patron Suite, Hot Bath]"
+  ],
+  "description": [
+    "An immense pool of steaming water dominates most of the room, easily accessible by flat limestone steps.  Long wooden towel racks are mounted on the walls and the air is muggy, yet holds the faint scent of sandalwood."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      52,
+      1385,
+      191,
+      1444
+    ]
+  },
+  "exits": [
+    {
+      "to": 25971,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25974,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 6572,
+  "uid": [
+    4285044
+  ],
+  "title": [
+    "[Tower Chamber]"
+  ],
+  "description": [
+    "Cold inhabits the chamber as if it were bred here.  Across the floor, debris and dust mark uninhabited time as well as a clock, sifting into the room's corners in gentle drifts.  The odor of decay hangs over the emptiness with its secretive nuances, speaking a subtle language universal to all lands."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1314,
+      415,
+      1324,
+      425
+    ]
+  },
+  "exits": [
+    {
+      "to": 6571,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 6573,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

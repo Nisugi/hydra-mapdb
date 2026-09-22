@@ -1,0 +1,44 @@
+{
+  "id": 9127,
+  "uid": [
+    4045234
+  ],
+  "title": [
+    "[Cavern, Lichen Bridge]"
+  ],
+  "description": [
+    "Thick sheets of lichen lie across the surface of the water, bobbing and swaying with the slightest bit of movement.  The sheets also stretch vertically between the stalagmites that anchor them, obscuring any view of the lake beyond."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      226,
+      897,
+      236,
+      907
+    ]
+  },
+  "exits": [
+    {
+      "to": 9124,
+      "kind": "go",
+      "cmd": "go shore",
+      "cost": 0.2
+    },
+    {
+      "to": 9128,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

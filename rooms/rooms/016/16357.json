@@ -1,0 +1,45 @@
+{
+  "id": 16357,
+  "uid": [
+    -570013
+  ],
+  "title": [
+    "[Warcamp, Outside]"
+  ],
+  "description": [
+    "Cages filled with creatures of all sizes are stacked against the wall of a hut spaced away from its neighbors by numerous yards.  Next to the cages is a small pile of former cage occupants, the remains of sacrifices and divinations.  The air around the hut carries a suggestion of herbs and spices and appears to emanate from cracks in the hut's walls.  Wind chimes constructed of finger bones of various races fill the air with a morbid clattering."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Warcamp",
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      228,
+      71,
+      264,
+      107
+    ]
+  },
+  "exits": [
+    {
+      "to": 16353,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16359,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    },
+    {
+      "to": 16399,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

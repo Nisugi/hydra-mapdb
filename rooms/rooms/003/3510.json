@@ -1,0 +1,93 @@
+{
+  "id": 3510,
+  "uid": [
+    14100072
+  ],
+  "title": [
+    "[Ta'Vaalor, Gaeld Var]"
+  ],
+  "description": [
+    "A whitewashed wooden fence merges with a low stonework barricade covered with a thick, lush carpet of creeping fig.  Bright purple anemones and fragrant yellow buttercups mingle in the scant space available between the cobbled var and the base of the fence.",
+    "Broken slats of a wooden fence lie scattered across the var, and the acrid smell of burnt flowers and herbs hangs heavy in the air.  Wide cracks and chunks of brick line the path that leads beyond the wreckage.",
+    "A whitewashed wooden fence merges with a low stonework barricade covered with a thick, lush carpet of creeping fig.  Bright purple anemones and fragrant yellow buttercups creep through the slats in the fence from the garden beyond.  Citizens, both in and out of military dress, stroll casually up and down the brick path that leads through the fence."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "empath guild",
+    "empathguild",
+    "stalk of bluebells",
+    "urchin guide empathguild",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      550,
+      780,
+      582,
+      815
+    ]
+  },
+  "exits": [
+    {
+      "to": 3509,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3511,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10759,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 10988,
+  "uid": [
+    673012
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Dark wooden trellises are positioned against the walls of the guild, and lush ivy has wrapped around the structures so completely as to nearly obscure the building.  A simple dirt path leads northward into a small valley where a ring of willows lies, and soft white flowers line its edges.  Blades of long grass sway slowly with every gentle breeze that passes through the area, and the quiet sounds of nature abound in this peaceful garden."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "barley grass",
+    "birch bark",
+    "black tea leaves",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red beet",
+    "bright red teaberry",
+    "brostheras grass",
+    "butterfly pea flower",
+    "cantaloupe",
+    "cleric guild",
+    "clericguild",
+    "coffee cherries",
+    "curly garlic scapes",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "ear of corn",
+    "fire lily",
+    "flaeshorn berry",
+    "flaming violet",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "golden buttercup",
+    "grapefruit",
+    "green cabbage",
+    "green tea leaves",
+    "handful of oats",
+    "heath aster",
+    "honeymoon melon",
+    "horseradish root",
+    "hot pepper",
+    "huckleberries",
+    "Imaera's Lace",
+    "ironfern root",
+    "luckbloom blossom",
+    "mate leaves",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "pale green honeydew",
+    "pearl onions",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple eggplant",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rose-marrow root",
+    "round white eggplant",
+    "round yuzu",
+    "small daisy",
+    "small dandelion",
+    "small flower",
+    "small rose",
+    "small violet",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "sprig of tarragon",
+    "sprig of thanot",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "thin hemp",
+    "tobacco leaves",
+    "trollfear mushroom",
+    "urchin guide clericguild",
+    "urchin-access",
+    "viburnum twig",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "white tea leaves",
+    "wild chokecherry",
+    "wild grapes",
+    "wild rice",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "wiregrass",
+    "withered mushroom",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2053,
+      1086,
+      2089,
+      1122
+    ]
+  },
+  "exits": [
+    {
+      "to": 10856,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 10989,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17722,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 33830,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

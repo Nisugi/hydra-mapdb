@@ -1,0 +1,36 @@
+{
+  "id": 33132,
+  "uid": [
+    7121238
+  ],
+  "title": [
+    "[House Annex, Willow Hall]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, a black willow tree mural decorates the western wall under the light of several frosted glaesine globes that dangle from the ceiling.  Plush grass green carpeting dappled with straw yellow threads lends the otherwise austere space a coziness that is enhanced by the presence of a hunter green crushed velvet settee.  A lacquered white door leads to the hallway, while a green-edged ebon linen curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:willow_hall:entrance_annex",
+    "che:willow_hall:entrance_locker",
+    "locker annex:Willow Hall"
+  ],
+  "exits": [
+    {
+      "to": 29552,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 33133,
+      "kind": "go",
+      "cmd": "go ebon curtain",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 11744,
+  "uid": [
+    376064
+  ],
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Flickering light comes from the torch mounted in a rusting metal bracket next to an iron door.  The flame sputters off and on as if low on fuel, providing just enough illumination to reveal a dead-end formed by a solid wall of bricks glistening with beads of moisture.  An unidentifiable stench drifts into this end of the hallway from the west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      733,
+      400,
+      743,
+      410
+    ]
+  },
+  "exits": [
+    {
+      "to": 11727,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11745,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

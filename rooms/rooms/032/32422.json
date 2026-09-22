@@ -1,0 +1,45 @@
+{
+  "id": 32422,
+  "uid": [
+    4577028
+  ],
+  "title": [
+    "[Moonsedge, Bridge Approach]"
+  ],
+  "description": [
+    "A vast, deep ravine severs the highlands on which the city sits from the high hills dominated by the castle.  Joining them is a sinuous bridge of pale stone, a masterwork of architecture and stonecraft.  Flecks of mica in the stonework glint sharply in the moonlight, twinkling like stars against the dark silhouette of the bridge.",
+    "A vast, deep ravine severs the highlands on which the city sits from the high hills dominated by the castle.  Joining them is a sinuous bridge of pale stone, a masterwork of architecture and stonecraft.  Flecks of mica in the stonework gleam brightly in the daylight, engulfing the bridge in a nimbus of reflected light."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      382,
+      469,
+      402,
+      487
+    ]
+  },
+  "exits": [
+    {
+      "to": 32420,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32423,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 33088,
+  "uid": [
+    7134051
+  ],
+  "title": [
+    "[Flotilla, Knivers' Pier]"
+  ],
+  "description": [
+    "Protected and isolated, the Knivers' Pier has both a dilapidated old sloop and an iron-reinforced modwir brigantine lashed to its outer edges, each able to cut away at a moment's notice.  A rotating deployment of guards wanders the decks, each member bristling with weaponry, and where no ship is docked, no railings exist to stop someone's fall into the depths below.  Starlight sparkles across the unobstructed view of the ocean's expanse."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      518,
+      433,
+      530,
+      443
+    ]
+  },
+  "exits": [
+    {
+      "to": 33084,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33104,
+      "kind": "go",
+      "cmd": "go brigantine",
+      "cost": 0.2
+    },
+    {
+      "to": 33105,
+      "kind": "go",
+      "cmd": "go old sloop",
+      "cost": 0.2
+    }
+  ]
+}

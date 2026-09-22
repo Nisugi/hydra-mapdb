@@ -1,0 +1,70 @@
+{
+  "id": 3492,
+  "uid": [
+    14100008
+  ],
+  "title": [
+    "[Ta'Vaalor, Amaranth Court]"
+  ],
+  "description": [
+    "A deep grey stone cottage sits beside the wey, its doorstep painted a bright green.  Thick glaesine panes mark the window embrasures, each diamond-shaped piece of glaes reflecting and refracting the daylight in a hundred different hues.  A polished haon sign hangs above the door.",
+    "The Ta'Vaalor Furrier sits beside the wey, its doorstep painted a bright green.  Thick glaesine panes mark the window embrasures, each diamond-shaped piece of glaes reflecting and refracting the silvery moonlight in a rainbow of cool hues.  A polished haon sign hangs above the door.",
+    "The Ta'Vaalor Furrier sits beside the wey, its doorstep painted a bright green.  Thick glaesine panes mark the window embrasures, each diamond-shaped piece of glaes reflecting and refracting the daylight in a hundred different hues.  A polished haon sign hangs above the door.",
+    "The collapsed remains of the Ta'Vaalor Furrier stand beside the wey.  Its charred timbers still smolder, sending lazy tendrils of acrid smoke into the air.  A broken haon sign hangs crookedly from one remaining hook over the door, creaking mournfully as it swings back and forth.",
+    "A large grey stone warehouse stands beside the wey, its grey stone facade punctuated with a short series of windows and a wide double-door entry.  Tendrils of smoke and a melange of acrid odors emanate from several chimneys extending from the high, peaked roof.  A haon sign hangs above the entry."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1000,
+      253,
+      1037,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 3489,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3493,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10329,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go furrier",
+          "when": {
+            "flag": "platinum"
+          }
+        },
+        {
+          "move": "go warehouse",
+          "when": {
+            "otherwise": {
+              "flag": "platinum"
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

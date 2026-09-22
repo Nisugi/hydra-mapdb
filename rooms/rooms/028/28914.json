@@ -1,0 +1,60 @@
+{
+  "id": 28914,
+  "uid": [
+    7118204
+  ],
+  "title": [
+    "[Kraken's Fall, North Arm Lane]"
+  ],
+  "description": [
+    "Sunlight slips past the edges of the high cliff that rises like a sheer wall to the north, the golden rays warming the cobblestone streets of the lane as it dips south but doing little to illuminate the eastern and western tracks.  A large two-story inn seems to be the source of the quiet music that filters through the air, while a sprawling stone-sided complex accounts for the sound of hammering.",
+    "Starlight bathes the cobblestone lane in a silver sheen, while dark shadows created by the looming presence of a high cliff vie for dominance.  A large two-story inn to the west lends its hulking form to the battle for darkness by looming over the smaller cottages built along the eastern edge.  Removed from the fight, a southern slip of road leads closer to the ocean and is the home of a sprawling stone-sided complex."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      604,
+      242,
+      617,
+      255
+    ]
+  },
+  "exits": [
+    {
+      "to": 28910,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28915,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28916,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36266,
+      "kind": "go",
+      "cmd": "go stone-sided complex",
+      "cost": 0.2
+    }
+  ]
+}

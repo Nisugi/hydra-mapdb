@@ -1,0 +1,41 @@
+{
+  "id": 20378,
+  "title": [
+    "[Tug-of-War, Willow Knoll]"
+  ],
+  "description": [
+    "Rows of willow benches are clustered atop a gently sloping knoll, providing a clear view of a span of trenched swampland below.  Bits and pieces of rope and clothing litter the area, each stained with blood, mud, and a multitude of unrecognized substances."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20376,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20379,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21575,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go field"
+        },
+        {
+          "move": "go field",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 604,
+  "uid": [
+    13100083
+  ],
+  "title": [
+    "[Ta'Illistim, Glimaer Wey]"
+  ],
+  "description": [
+    "The wey curves around a tall statue, which stands upon a raised granite platform.  Carved of mica-flecked granite and standing nearly half as high as the city walls, the statue is of an elven archer, his arrow nocked and pointed towards an unseen quarry.  Moonlight sparkles across the mica embedded within the statue's granite form.",
+    "The wey curves around a tall statue, which stands upon a raised granite platform.  Carved of mica-flecked granite and standing nearly half as high as the city walls, the statue is of an elven archer, his arrow nocked and pointed towards an unseen quarry.",
+    "The wey curves around a tall statue, which stands upon a raised granite platform.  Cast from bronze and standing nearly half as high as the city walls, the statue is of an elven archer and her veercat companion, her arrow nocked and pointed towards an unseen quarry.  Behind her is a small ivory-hued establishment."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      635,
+      736,
+      659,
+      759
+    ]
+  },
+  "exits": [
+    {
+      "to": 603,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 605,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13254,
+      "kind": "go",
+      "cmd": "go establishment",
+      "cost": 0.2
+    }
+  ]
+}

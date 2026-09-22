@@ -1,0 +1,44 @@
+{
+  "id": 25390,
+  "uid": [
+    8100045
+  ],
+  "title": [
+    "[Delirium Manor, Crawlspace]"
+  ],
+  "description": [
+    "Clouds of dust and dried rodent feces billow up with even the lightest passing footstep.  Nails protrude downward from the low, slanted roofline overhead, posing significant threat to the taller races.  Atop the wide-planked floorboards, a disfigured baby doll awaits a ride in a discarded pull-toy wagon lying half-buried in the filth and debris."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25391,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "stand"
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25392,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34022,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

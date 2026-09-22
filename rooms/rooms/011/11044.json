@@ -1,0 +1,44 @@
+{
+  "id": 11044,
+  "uid": [
+    706123
+  ],
+  "title": [
+    "[Port Valley, Shaded Path]"
+  ],
+  "description": [
+    "The path leads into a grove of flowering linden trees, the quiet of the wooded area settling around you broken by the rushing sound of the nearby waterfall.  Colorful wildflowers dot the well-maintained path, and grassy trails lead up to the doors of cabins nestled among the trees."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      829,
+      1379,
+      849,
+      1399
+    ]
+  },
+  "exits": [
+    {
+      "to": 11033,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 11045,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

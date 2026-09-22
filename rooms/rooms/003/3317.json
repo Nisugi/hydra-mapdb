@@ -1,0 +1,44 @@
+{
+  "id": 3317,
+  "uid": [
+    4130008
+  ],
+  "title": [
+    "[Ice Tunnel, Winding Passage]"
+  ],
+  "description": [
+    "A hole in the ice opens in the north wall.  Through it, you can make out the details of the shapes in the ice, seeing them to be the remains of buildings.  Shapes flicker through the ice, making you very uneasy."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Glacier",
+  "climate": "glacial",
+  "terrain": "icy glacier",
+  "tags": [
+    "blue iceblossom"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1339,
+      996,
+      1349,
+      1006
+    ]
+  },
+  "exits": [
+    {
+      "to": 3316,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3318,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

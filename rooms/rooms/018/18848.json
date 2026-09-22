@@ -1,0 +1,50 @@
+{
+  "id": 18848,
+  "uid": [
+    108003
+  ],
+  "title": [
+    "[Twilight Hall, Mystic Library]"
+  ],
+  "description": [
+    "Comfortable chairs line the walls of this library, which is filled with rows of shelves littered with musty vellum tomes and illuminated manuscripts.  Warm and brightly lit, this is the perfect place to hide from a cold, damp and otherwise dreary night -- suitable for both research and contemplation.",
+    "Comfortable chairs line the walls of this library, which is filled with rows of built-in bookshelves littered with musty vellum tomes and illuminated manuscripts.  Warm and brightly lit, this is the perfect place to hide from a cold, damp and otherwise dreary night -- suitable for both research and contemplation."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      276,
+      447,
+      359,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 18847,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18849,
+      "kind": "go",
+      "cmd": "go coraesine door",
+      "cost": 0.2
+    },
+    {
+      "to": 18850,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

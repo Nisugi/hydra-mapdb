@@ -1,0 +1,109 @@
+{
+  "id": 1955,
+  "uid": [
+    3001043
+  ],
+  "title": [
+    "[Glaes Street]"
+  ],
+  "description": [
+    "The street enters the wall of the canyon, into an arch perhaps fifty feet high.  Just outside the tunnel is a sturdy, three-story stone tower.  This is the headquarters for the local militia.  Uniformed dwarves bearing axes and hammers swagger in and out of its steel double doors."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1163,
+      254,
+      1193,
+      284
+    ]
+  },
+  "exits": [
+    {
+      "to": 1951,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1956,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1958,
+      "kind": "go",
+      "cmd": "go headquarters",
+      "cost": 0.2
+    },
+    {
+      "to": 12511,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 23281,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go doorframe"
+        },
+        {
+          "remember": [
+            "talondown_origin",
+            "1955"
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

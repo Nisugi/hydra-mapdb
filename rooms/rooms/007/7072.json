@@ -1,0 +1,44 @@
+{
+  "id": 7072,
+  "uid": [
+    44046
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This passage is very, very dark.  The walls feel spongy, and seem to be covered with some kind of moss.  It seems to absorb any light in the area, with the result that you can't see much past your nose.  Hopefully, any monsters lurking about can't see either."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      702,
+      1090,
+      712,
+      1100
+    ]
+  },
+  "exits": [
+    {
+      "to": 7071,
+      "kind": "go",
+      "cmd": "go panel",
+      "cost": 0.2
+    },
+    {
+      "to": 7073,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

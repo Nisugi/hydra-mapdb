@@ -1,0 +1,57 @@
+{
+  "id": 1434,
+  "uid": [
+    4209010
+  ],
+  "title": [
+    "[Solhaven, Bayside Road]"
+  ],
+  "description": [
+    "The cobblestone street runs southwest, parallel to the Bay.  To the northeast, the road begins climbing the cliffs.  An oddly shaped structure stands nearby, a polished wooden plaque hanging over the door.  Well-dressed residents head purposefully in and out of the building."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, southwest"
+  ],
+  "location": "the free port of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1124,
+      324,
+      1148,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 150,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1435,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1440,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5717,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

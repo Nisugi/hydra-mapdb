@@ -1,0 +1,50 @@
+{
+  "id": 23671,
+  "uid": [
+    255022
+  ],
+  "title": [
+    "[Bathhouse, Laconicum]"
+  ],
+  "description": [
+    "Steamy air swirls throughout the room, its wooden walls and a stained glass door glisten with condensation.  Several large bronze braziers scattered about glow with banked embers, water-filled ceramic urns evaporating humidly over them.  Carved stone benches lie to either side of a laquered oak door, and across the room are the entrances to several private saunas."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild sauna"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      527,
+      107,
+      550,
+      130
+    ]
+  },
+  "exits": [
+    {
+      "to": 23666,
+      "kind": "go",
+      "cmd": "go laquered door",
+      "cost": 0.2
+    },
+    {
+      "to": 23669,
+      "kind": "go",
+      "cmd": "go stained door",
+      "cost": 0.2
+    },
+    {
+      "to": 32804,
+      "kind": "go",
+      "cmd": "go sauna",
+      "cost": 0.2
+    }
+  ]
+}

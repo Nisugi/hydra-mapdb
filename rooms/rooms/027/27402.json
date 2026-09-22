@@ -1,0 +1,48 @@
+{
+  "id": 27402,
+  "title": [
+    "[Carnival, Entry]"
+  ],
+  "description": [
+    "Colorful streamers fly from the rooftops of tall wagons bordering the expansive entry to the carnival.  Lanterns on ribbon-wrapped poles shine light on the happy faces of the passing carnival goers.  Wafting scents of delicious foods mix with perfumes and colognes from the crowds.  Throngs of people moving about head towards various points of interest, some flocking around shouting street performers.  Minstrels conduct pleasant melodies to accompany the cacophony of the carnival."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      576,
+      389,
+      626,
+      436
+    ]
+  },
+  "exits": [
+    {
+      "to": 27403,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 27404,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27405,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

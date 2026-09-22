@@ -1,0 +1,87 @@
+{
+  "id": 18043,
+  "uid": [
+    687009
+  ],
+  "title": [
+    "[Wizard Guild, Shaft Base]"
+  ],
+  "description": [
+    "You stand atop a platform of flame-cut granite fashioned into a perfect circle and positioned beneath a shaft, matching in shape and stone, extending far overhead.  Several guild wizards pass through the foyer below in quiet conversation."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_wizard_guild-1649013056.jpg",
+    "rect": [
+      351,
+      670,
+      418,
+      732
+    ]
+  },
+  "exits": [
+    {
+      "to": 18042,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 18052,
+      "kind": "scripted",
+      "steps": [
+        {
+          "wait_until": {
+            "flag": "own_disk_here"
+          },
+          "when": {
+            "spell_active": "Floating Disk"
+          }
+        },
+        {
+          "wait_until": {
+            "spell_affordable": "Floating Disk"
+          },
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "cast": "Floating Disk",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Floating Disk"
+              },
+              {
+                "not": {
+                  "flag": "own_disk_here"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "up"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 6329,
+  "uid": [
+    681002
+  ],
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "Thick plush carpets cover the flagstone floor and rich tapestries depicting the exploits of wizards of old hang from the walls.  A large mithril chandelier hangs from the arched ceiling, the numerous candles lighting up the entire room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      315,
+      513,
+      366,
+      561
+    ]
+  },
+  "exits": [
+    {
+      "to": 6328,
+      "kind": "go",
+      "cmd": "go ironbound doors",
+      "cost": 0.2
+    },
+    {
+      "to": 6330,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 6333,
+      "kind": "go",
+      "cmd": "go tapestry",
+      "cost": 0.2
+    }
+  ]
+}

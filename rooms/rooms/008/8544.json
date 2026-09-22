@@ -1,0 +1,78 @@
+{
+  "id": 8544,
+  "uid": [
+    10006
+  ],
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "The soaring peak of Zeltoph Mountain looms to the south.  Cloaked in pine trees, the northern base of the mountain rises above the foothills, wearing the zigzag scar of the caravan trail switchbacks."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "barren scrub",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "handful of currants",
+    "ironfern root",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1140,
+      678,
+      1150,
+      688
+    ]
+  },
+  "exits": [
+    {
+      "to": 8541,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8543,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8545,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8546,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round_while": [
+            [
+              "search",
+              "go crevice"
+            ],
+            {
+              "exit": "nw"
+            }
+          ]
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

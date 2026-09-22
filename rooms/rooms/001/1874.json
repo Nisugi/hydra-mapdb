@@ -1,0 +1,102 @@
+{
+  "id": 1874,
+  "uid": [
+    3002026
+  ],
+  "title": [
+    "[Kharam-Dzu, Poor Quarter]"
+  ],
+  "description": [
+    "Clouds of ash choke the air, and the buildings here are covered with soot.  Broken windows, peeling paint and rotting wooden timbers all mark the general decay.  Shabbily-dressed dwarves filter through the creaking double doors of a seedy tavern.  To the southwest, a dilapidated pile of planks serves as a makeshift gate into Pig Puddle Lane.",
+    "Clouds of ash choke the air, and the buildings here are covered with soot.  Broken windows, peeling paint and rotting wooden timbers all mark the general decay.  Shabbily-dressed dwarves filter through the creaking double doors of a seedy tavern, tucked back into the shadows.  To the southwest, a dilapidated pile of planks serves as a makeshift gate into Pig Puddle Lane."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "poorquarter",
+    "urchin guide poorquarter",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      115,
+      923,
+      151,
+      959
+    ]
+  },
+  "exits": [
+    {
+      "to": 1873,
+      "kind": "climb",
+      "cmd": "climb fence",
+      "cost": 0.2
+    },
+    {
+      "to": 1875,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1877,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12397,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 12413,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

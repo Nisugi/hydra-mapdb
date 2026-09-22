@@ -1,0 +1,80 @@
+{
+  "id": 10855,
+  "uid": [
+    2101400
+  ],
+  "title": [
+    "[River's Rest, Sanctuary]"
+  ],
+  "description": [
+    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Crickets chirping and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze.",
+    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Birdsong and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "sanctuary",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide sanctuary",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1776,
+      926,
+      1811,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 10856,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

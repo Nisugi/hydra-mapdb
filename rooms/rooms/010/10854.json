@@ -1,0 +1,144 @@
+{
+  "id": 10854,
+  "uid": [
+    2101011
+  ],
+  "title": [
+    "[River's Rest, Spring Rest]"
+  ],
+  "description": [
+    "All about, leaves and small twigs litter the forest floor, but at the forest's edge, in this clearing, brush marks in the soft dirt show the care that someone takes here.  A pool of clear water dominates the area and feeds a small stream which meanders southward beside a small path.  At the edge of the clearing, two large stone pillars mark a pathway west.  Moonlight filters through the trees and seems to invite the weary to rest here in peace.",
+    "All about, leaves and small twigs litter the forest floor, but at the forest's edge, in this clearing, brush marks in the soft dirt show the care that someone takes here.  A pool of clear water dominates the area and feeds a small stream which meanders southward beside a small path.  At the edge of the clearing, two large stone pillars mark a pathway west.  Warm sunlight filters through the trees and seems to invite the weary to rest here in peace."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "bright red beet",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "ghost pepper",
+    "green garden cucumber",
+    "green guava",
+    "handful of oats",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "sagebrush root",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "sprig of thanot",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "sweet potato",
+    "urchin-access",
+    "vanilla bean",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1888,
+      926,
+      1923,
+      964
+    ]
+  },
+  "exits": [
+    {
+      "to": 10853,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10855,
+      "kind": "go",
+      "cmd": "go pillars",
+      "cost": 0.2
+    },
+    {
+      "to": 10856,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20764,
+      "kind": "go",
+      "cmd": "go pier",
+      "cost": {
+        "when": {
+          "setting_is_set": "premium"
+        },
+        "then": 0.2,
+        "else": 10.0
+      }
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17988,
+  "uid": [
+    263005
+  ],
+  "title": [
+    "[Rogue Guild, Entry Hall]"
+  ],
+  "description": [
+    "Glazed ceramic tiles with an ornate indigo design cover the lower third of the sand-colored walls in this hallway.  Larger tiles rim the peaked arches that lead to the east and west.  On the wall, in a humble oak frame, is an ancient map.  A sturdy door leads south."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      307,
+      151,
+      335,
+      175
+    ]
+  },
+  "exits": [
+    {
+      "to": 17987,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 17989,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17990,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17995,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

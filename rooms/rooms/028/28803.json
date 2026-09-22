@@ -1,0 +1,43 @@
+{
+  "id": 28803,
+  "title": [
+    "[Windfellow Tower, Second Floor]"
+  ],
+  "description": [
+    "Exquisitely crafted heavy wool tapestries cover every wall in this generously sized room.  Each tapestry looks to be devoted to a different branch of the arcane arts and is filled with images and sigils that hint at hidden meanings.  Thick, colorful rugs cover the chilly stone floor, complimenting the colors and patterns of the tapestries.  The well-lit room is devoid of furniture or any obvious light-source, and the unexpected fragrance of ozone permeates the air.",
+    "The generously sized room is covered in heavy wool tapestries, each one slightly altered by less skilled hands.  Each tapestry, devoted to a different branch of the arcane arts, hangs covered in half-torn sigils repaired into hearts, stars, and horseshoes.  Thick cotton rugs, woven into the shape of a herd of extremely fluffy roltons, draped across the paint-splattered stone floor.  Devoid of furniture or an obvious light-source, the room contains a gigantic straw gargoyle, its head reaching the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      562,
+      1070,
+      618,
+      1125
+    ]
+  },
+  "exits": [
+    {
+      "to": 28402,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28464,
+      "kind": "go",
+      "cmd": "go heavy doors",
+      "cost": 0.2
+    },
+    {
+      "to": 28804,
+      "kind": "go",
+      "cmd": "go shadowed opening",
+      "cost": 0.2
+    }
+  ]
+}

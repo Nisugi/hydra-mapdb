@@ -1,0 +1,44 @@
+{
+  "id": 6571,
+  "uid": [
+    4285043
+  ],
+  "title": [
+    "[Anwyn Castle, East Tower]"
+  ],
+  "description": [
+    "This circular chamber is littered with the broken bones of its former furnishings.  No big surprise there.  One thing is distinctive though -- the stench here could knock an orc on its back.  That and the cold.  Every breath exhaled here frosts the air into a white fog.  No wind is stealing in to account for it, a fierce, dead cold that permeates the warmest garment.  A staircase winds up to the floor above."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1315,
+      442,
+      1325,
+      452
+    ]
+  },
+  "exits": [
+    {
+      "to": 6570,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 6572,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

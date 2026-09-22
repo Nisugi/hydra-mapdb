@@ -1,0 +1,51 @@
+{
+  "id": 19031,
+  "uid": [
+    667030
+  ],
+  "title": [
+    "[Unknown]"
+  ],
+  "description": [
+    "Elven archers in the livery of Vaalor stand astride an enormous marble arch.  Their arrows target a bilious green airship, but each is vaporized by a dull grey beam before reaching its target.  Below the aerial combat, hordes of animated orcs spew forth from a dark cavern, engaging in a vicious battle with two-headed centaurs defending a hillock of ice topped by an obsidian plinth."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "image": {
+    "file": "en-ta_vaalor-sorcerer_guild-1405076623.png",
+    "rect": [
+      1046,
+      609,
+      1084,
+      646
+    ]
+  },
+  "exits": [
+    {
+      "to": 10596,
+      "kind": "go",
+      "cmd": "go cavern",
+      "cost": 0.2
+    },
+    {
+      "to": 10748,
+      "kind": "go",
+      "cmd": "go hillock",
+      "cost": 0.2
+    },
+    {
+      "to": 19030,
+      "kind": "go",
+      "cmd": "go airship",
+      "cost": 0.2
+    },
+    {
+      "to": 19032,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

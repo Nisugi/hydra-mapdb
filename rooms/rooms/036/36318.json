@@ -1,0 +1,51 @@
+{
+  "id": 36318,
+  "uid": [
+    777317
+  ],
+  "title": [
+    "[Albatross, Silvers' Taproom]"
+  ],
+  "description": [
+    "Sunlight filters through the heavy, leaded crystal windows that span floor to ceiling on the port and starboard sides.  A gold-accented mahogany counter sits in the center of the dark green marble floor.  To the north, music echoes from the ballroom, while a tapestry-lined hallway leads toward the buffet and a silver-inlaid mahogany archway leads toward the casino floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "albatross-1342665555.png",
+    "rect": [
+      145,
+      442,
+      161,
+      460
+    ]
+  },
+  "exits": [
+    {
+      "to": 36302,
+      "kind": "go",
+      "cmd": "go mahogany archway",
+      "cost": 0.2
+    },
+    {
+      "to": 36319,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36320,
+      "kind": "go",
+      "cmd": "go tapestry-lined hallway",
+      "cost": 0.2
+    }
+  ]
+}

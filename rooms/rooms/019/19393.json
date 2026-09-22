@@ -1,0 +1,66 @@
+{
+  "id": 19393,
+  "uid": [
+    4058012
+  ],
+  "title": [
+    "[Warehouse, Cobbler's Delight]"
+  ],
+  "description": [
+    "White shutters frame an enormous window in the eastern wall, which is covered in stucco and painted a deep emerald green.  Complementing the warm glow of the teak floors, a long counter fashioned of linden stretches across the center of the room, creating a physical barrier that separates the shelves filled with wares from the walking space.  Baskets arranged along the opposite wall are filled with threads, measuring tapes, thimbles, and other cobbling necessities."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "cobbling",
+    "urchin guide cobbling",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 19389,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

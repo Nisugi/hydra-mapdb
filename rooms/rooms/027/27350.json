@@ -1,0 +1,68 @@
+{
+  "id": 27350,
+  "uid": [
+    3003175
+  ],
+  "title": [
+    "[Collectibles Shop]"
+  ],
+  "description": [
+    "This cluttered warehouse is nearly packed to the rafters with all manner of trinkets and collectibles.  Attendants busy themselves by sorting items into densely packed displays, following an organizational system apparently known only to themselves."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "collectibles",
+    "fire lily",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 12394,
+      "kind": "go",
+      "cmd": "go out",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

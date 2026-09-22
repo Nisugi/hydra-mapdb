@@ -1,0 +1,47 @@
+{
+  "id": 19993,
+  "uid": [
+    11103
+  ],
+  "title": [
+    "[Cavernhold, Inside Pavilion]"
+  ],
+  "description": [
+    "This rugged structure appears to have been built specifically to house the only prominent feature in the room: a steeply spiralling staircase that cuts through the rock floor of the pavillion and leads down to a darkened chamber below."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1109,
+      455,
+      1121,
+      464
+    ]
+  },
+  "exits": [
+    {
+      "to": 19991,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 19994,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

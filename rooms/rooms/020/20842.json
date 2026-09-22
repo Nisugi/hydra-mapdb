@@ -1,0 +1,33 @@
+{
+  "id": 20842,
+  "title": [
+    "[Commander Dragorth's War Room]"
+  ],
+  "description": [
+    "A slab of black marble forms the base for a tall black fireplace, and a golden mantle stands opposite a large leather couch.  In the center, a long table covered with maps is encircled by several leather chairs.  Behind the table, a heavy hatch leads into the Dreadnaught vault.  Tall, open doors lead to a balcony.  Mounted on a railing is a spyglass aimed to survey the surrounding area, while an oversized telescope is pointed towards the stars."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "gone"
+  ],
+  "meta": [
+    "mho:House Dreadnaught"
+  ],
+  "exits": [
+    {
+      "to": 20837,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 20843,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

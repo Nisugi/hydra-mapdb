@@ -1,0 +1,46 @@
+{
+  "id": 23770,
+  "uid": [
+    8213011
+  ],
+  "title": [
+    "[Duskruin Arena, Entrance]"
+  ],
+  "description": [
+    "Leading up into the arena stands, a set of stone steps have shattered with long cracks splintering off into the walls and nearby floor with sand poured into the cracks, leaving the steps uneven.  A crimson banner hangs overhead emblazoned with a gold fringe and bold lettering."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1644,
+      369,
+      1674,
+      401
+    ]
+  },
+  "exits": [
+    {
+      "to": 23769,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23771,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23788,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

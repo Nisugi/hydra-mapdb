@@ -1,0 +1,58 @@
+{
+  "id": 21639,
+  "uid": [
+    14116045
+  ],
+  "title": [
+    "[Second Floor, Main Hall]"
+  ],
+  "description": [
+    "Two staircases cross here, one set of steps upwards and one down.  The cramped space smells faintly of food and sweat and the passing of many people.  A mural runs across what would otherwise be a featureless wall at the back of the landing.  A thick iron door leads into a salle, while through a large open arch rows of tables and benches are visible."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "near Fearling Pass",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      676,
+      244,
+      689,
+      257
+    ]
+  },
+  "exits": [
+    {
+      "to": 21637,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 21640,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 21642,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21645,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

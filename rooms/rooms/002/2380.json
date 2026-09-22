@@ -1,0 +1,58 @@
+{
+  "id": 2380,
+  "uid": [
+    4042106
+  ],
+  "title": [
+    "[Magical Burrow, Banshee Lane]"
+  ],
+  "description": [
+    "Gloomy houses with steepled roofs spotted with snowfall join strange magic shops to both sides of the winding thread of cobblestone road.  Halflings and the occasional krolvin hurry by on their way to some place else.  Ragged tendrils of mist rise off of the ice and snow dotting the landscape, swirling in eddies around the entrance to Incantation Alley.",
+    "The earthen road turns to the northeast here and heads toward the center of the Magical Burrow.  Houses and strange magical shops line the streets and halflings hurry by on their way to someplace else."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, south",
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      139,
+      698,
+      175,
+      734
+    ]
+  },
+  "exits": [
+    {
+      "to": 2366,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2378,
+      "kind": "go",
+      "cmd": "go alley",
+      "cost": 0.2
+    },
+    {
+      "to": 2386,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34068,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

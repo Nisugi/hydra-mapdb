@@ -1,0 +1,49 @@
+{
+  "id": 11143,
+  "uid": [
+    2103009
+  ],
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "The humming, glowing barrier that makes up the north wall immediately grabs your attention when you enter this chamber.  The deposits on the floor and the smell of sea air give evidence that the ocean once reigned here.  The stone of the cavern has been formed by ancient waves into exotic and disturbing shapes, perhaps warped by the continual magic emanating from the barrier as well."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:River's Rest",
+    "mapname:River's Rest - Citadel",
+    "mapshortname:Citadel"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      1006,
+      447,
+      1016,
+      457
+    ]
+  },
+  "exits": [
+    {
+      "to": 11141,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    },
+    {
+      "to": 11144,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

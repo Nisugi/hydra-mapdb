@@ -1,0 +1,88 @@
+{
+  "id": 29931,
+  "uid": [
+    7503133
+  ],
+  "title": [
+    "[Hinterwilds, Boreal Forest]"
+  ],
+  "description": [
+    "Paw prints in the snow cover the ground near the base of a stand of close-growing pine trees to the southern edge of the pathway.  From the pines comes an occasional clacking sound, its source dozens of small bone fetishes woven into the trees' boughs.  There seems little reason or rhyme to the placement of the grisly talismans, some of which are still marred by ragged hunks of dried flesh."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "angelica root",
+    "black acorn",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "daggit root",
+    "feverfew stalk",
+    "frostflower",
+    "frostweed",
+    "gok nut",
+    "handful of pinenuts",
+    "ironfern root",
+    "lingonberry",
+    "manroot stalk",
+    "orange rowanberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "red lichen",
+    "red winterberry",
+    "rockberry",
+    "sassafras leaf",
+    "slender twig",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "wintergreen leaf",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      741,
+      921,
+      755,
+      935
+    ]
+  },
+  "exits": [
+    {
+      "to": 29930,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 29932,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30085,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go shrouded path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

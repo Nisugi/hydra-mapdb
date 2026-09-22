@@ -1,0 +1,59 @@
+{
+  "id": 19275,
+  "uid": [
+    336307
+  ],
+  "title": [
+    "[Moot Hall, South Corridor]"
+  ],
+  "description": [
+    "Rich merlot carpet muffles footsteps through the southern corridor of Moot Hall.  Two long wooden benches sit on each side of a carved wooden door, while a lone giantman guard stands watch over a modwir arch.  A small wooden placard hangs on the wall above an ivory-handled door."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      356,
+      613,
+      391,
+      649
+    ]
+  },
+  "exits": [
+    {
+      "to": 387,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19276,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 21370,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 23832,
+      "kind": "go",
+      "cmd": "go ivory-handled door",
+      "cost": 0.2
+    }
+  ]
+}

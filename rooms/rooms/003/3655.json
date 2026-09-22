@@ -1,0 +1,69 @@
+{
+  "id": 3655,
+  "uid": [
+    3201019
+  ],
+  "title": [
+    "[Wisteria Crossing]"
+  ],
+  "description": [
+    "Glowing candlelight, in various hues of orange and yellow, warms the cool cobblestone street of Wisteria Crossing through the night.  Many of the shops have closed for the evening, turning the daytime bustle of the market place into a serene village square.  The cool, crisp scent of evening drifts on the soft breeze moving down the long, empty street.",
+    "The cobblestone path intersects Wisteria Lane, marking the beginning of the inner township.  Various shops line both sides of the street, offering up all types of wares.  The scents of baked food and tanned leather hang in the air, mingling with other, unfamiliar smells.  A busy shopkeeper whistles a tune to himself as he sets to the task of sweeping the stoop of his establishment."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2770,
+      1600,
+      2811,
+      1641
+    ]
+  },
+  "exits": [
+    {
+      "to": 3654,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3656,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3657,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3662,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3868,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23807,
+      "kind": "go",
+      "cmd": "go establishment",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 5267,
+  "uid": [
+    4214301
+  ],
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "Thick fog covers the valley floor as far as the eye can see.  Pine trees grow more dense to the southwest, and thin out considerably to the north.  The tops of bushes poke through the top of the mist that carpets the ground."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "humid",
+  "terrain": "coniferous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "blood orange",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "cinnamon bark",
+    "coffee cherries",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "grapefruit",
+    "handful of pinenuts",
+    "haphip root",
+    "pine cone",
+    "pine needles",
+    "pothinir grass",
+    "red vornalite mushroom",
+    "round yuzu",
+    "slender twig",
+    "soft mushroom",
+    "stalk of bluebells",
+    "sticks",
+    "striped heart mushroom",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wintergreen leaf",
+    "withered mushroom",
+    "woth flower",
+    "yew twig"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      678,
+      554,
+      688,
+      564
+    ]
+  },
+  "exits": [
+    {
+      "to": 5266,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb rockslide"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5268,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

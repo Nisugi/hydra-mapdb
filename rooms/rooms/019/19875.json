@@ -1,0 +1,41 @@
+{
+  "id": 19875,
+  "uid": [
+    678010
+  ],
+  "title": [
+    "[Northern Refectory]",
+    "[Northern Solarium]"
+  ],
+  "description": [
+    "Murals of beautiful white horses fill the walls between the entrances to other rooms.  Above, a stained glass scene depicts an old shaggy-haired man with wings on his back, his feet surrounded by the dark, purplish-grey and green-tinged hues of a storming sea.  Plain white tiles underfoot have been painted with fanciful conch shells of various sizes."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "cultivated",
+  "image": {
+    "file": "ifw-cleric_guild.png",
+    "rect": [
+      1362,
+      296,
+      1496,
+      416
+    ]
+  },
+  "exits": [
+    {
+      "to": 19873,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33263,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

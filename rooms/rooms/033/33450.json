@@ -1,0 +1,55 @@
+{
+  "id": 33450,
+  "uid": [
+    102027
+  ],
+  "title": [
+    "[Den of the Dragon, Backstage]"
+  ],
+  "description": [
+    "Dark curtains separate this backstage area from the main stage and allow actors to watch for entrance cues.  Pulleys and ropes overhead attach to flats and other equipment, and one long, coiling rope attaches to a pulley controlling the heavy dark green velvet curtains that front the stage, serving to block the entire stage from audience view when closed.  A sign hangs nearby that can be read even in this darkened area.  The occasional flash of light and sound emanates from beyond the flats."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      2157,
+      1139,
+      2288,
+      1209
+    ]
+  },
+  "exits": [
+    {
+      "to": 24962,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 33449,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 33451,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33452,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

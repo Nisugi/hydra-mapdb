@@ -1,0 +1,69 @@
+{
+  "id": 23825,
+  "uid": [
+    14051070
+  ],
+  "title": [
+    "[Skyhigh Curiosities]"
+  ],
+  "description": [
+    "Piles of modwir cases are displayed about the small room, their insides lined with soft velvet to cushion the various treasures nestled within.  Several glass boxes in front of an arched postern door show off a wide variety of curiosities through clear panes.  Although the containers are organized haphazardly, a pair of attendants seems to know exactly where each requested item is.",
+    "Piles of modwir cases are displayed about the small room, their insides lined with soft velvet to cushion the various treasures nestled within.  Several glass boxes show off a wide variety of curiosities through clear panes.  Although the containers are organized haphazardly, a pair of attendants seems to know exactly where each requested item is."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "collectibles",
+    "fire lily",
+    "urchin guide collectibles",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 4644,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

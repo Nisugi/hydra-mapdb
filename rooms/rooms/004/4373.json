@@ -1,0 +1,51 @@
+{
+  "id": 4373,
+  "title": [
+    "[Ruby Level, Emerald Access]"
+  ],
+  "description": [
+    "A sturdy ladder descends into the next level of the mine, the rungs thick and capable of holding even the stoutest giant.  A huge, but badly flawed, emerald is inset into the wall.  A disinterested dwarven sentry stands nearby."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4348,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    },
+    {
+      "to": 4374,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 4377,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 4380,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4395,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

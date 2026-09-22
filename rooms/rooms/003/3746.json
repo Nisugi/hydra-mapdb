@@ -1,0 +1,72 @@
+{
+  "id": 3746,
+  "uid": [
+    14108002
+  ],
+  "title": [
+    "[Hall of Justice, Clerk's Office]"
+  ],
+  "description": [
+    "A heavily carved modwir desk occupies the center of the office.  One wall is lined floor to ceiling with built-in wooden shelves, each one burdened with orderly stacks of files and thick sheaves of parchment."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "jail",
+    "justice",
+    "no forageables",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 10382,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

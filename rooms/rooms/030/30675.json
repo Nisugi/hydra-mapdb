@@ -1,0 +1,41 @@
+{
+  "id": 30675,
+  "uid": [
+    858006
+  ],
+  "title": [
+    "[Kharam Dzu Hall, Miner's Mug]"
+  ],
+  "description": [
+    "A stout bar of solid grey stone topped with a thick slab of dark basalt extends from one side of the room to the other.  The polished steel face of an enormous war hammer hanging over the bar gleams in the yellow-green light.  At the northern end of the bar, a swinging door leads to the kitchen."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 30668,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30676,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30677,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

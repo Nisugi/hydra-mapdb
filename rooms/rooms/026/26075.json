@@ -1,0 +1,43 @@
+{
+  "id": 26075,
+  "uid": [
+    679012
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Housed within patterns that alternate between frenzied whorls and even, tidy lines, the three murals that occupy the walls in this chamber are wildly different from each other.  Where one is a study of order, another is rife with chaotic destruction, and the third bears a cold indifference in the lines of its imagery.  The warm illumination that spreads across the floor is borrowed from the stairs that leads upward, while only a faint reddish glow rises from the downward spiraling stairs."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26074,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26076,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

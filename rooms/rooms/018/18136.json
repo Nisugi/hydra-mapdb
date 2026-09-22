@@ -1,0 +1,43 @@
+{
+  "id": 18136,
+  "uid": [
+    13102034
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Antechamber]"
+  ],
+  "description": [
+    "Dominating the center of the chamber is a circular white marble fountain.  A majestic peacock with a colorful glass fanned-tail stands atop a center stone with water trickling down the sides into a pool surrounding the base.  The pale floor is broken by darker stones that create walkways leading to a wide velvet-draped arch and a large opening.  Moonlight passes through a clear crystal dome and blankets the room in a pale light.",
+    "Dominating the center of the chamber is a circular white marble fountain.  A majestic peacock with a colorful glass fanned-tail stands atop a center stone with water trickling down the sides into a pool surrounding the base.  The pale floor is broken by darker stones that create a walkway leading to a wide velvet-draped arch and a large opening.  Sunlight shimmers as it passes through a clear crystal dome above."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 18137,
+      "kind": "go",
+      "cmd": "go velvet-draped arch",
+      "cost": 0.2
+    },
+    {
+      "to": 18138,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18689,
+      "kind": "go",
+      "cmd": "go arched opening",
+      "cost": 0.2
+    }
+  ]
+}

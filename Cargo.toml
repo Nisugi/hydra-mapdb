@@ -1,0 +1,40 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/mapdb-convert",
+    "crates/map-combine",
+]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+publish = false
+
+# `cena-map` is the wire format both this repo's tools and the Hydra client
+# must agree on -- one definition, read from the client's own repo rather
+# than vendored here, so a format change cannot drift between two copies
+# (Cena's `plan/05` KISS/DRY rule, and the reason this was asked rather than
+# assumed). Pinned to a branch, not a rev: this repo is meant to track
+# Cena's map format as it moves, and the loader's own version check
+# (`cena_map::binary::LoadError::UnsupportedVersion`) is what catches an
+# actual incompatibility, not this pin.
+[workspace.dependencies]
+cena-map = { git = "https://github.com/Nisugi/cena", branch = "main" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Matches Cena's own workspace lints (`Cargo.toml` there): this code was
+# ported from Cena already written to this standard, and staying consistent
+# means it need not be rewritten either direction if it moves again.
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.rustdoc]
+
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+todo = "deny"
+dbg_macro = "deny"

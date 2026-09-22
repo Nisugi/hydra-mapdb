@@ -1,0 +1,43 @@
+{
+  "id": 1971,
+  "uid": [
+    682004
+  ],
+  "title": [
+    "[Wizard Guild, East Hallway]"
+  ],
+  "description": [
+    "Lava flows dangerously close in a channel along the hallway just a few feet from where you pass.  Unconcerned apprentice wizards hurry to and fro down the hallway without giving the lava any more heed than they might a cool mountain stream.  The corridor widens further to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wizard_guild.png",
+    "rect": [
+      668,
+      534,
+      733,
+      598
+    ]
+  },
+  "exits": [
+    {
+      "to": 1968,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 1972,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

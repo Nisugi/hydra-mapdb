@@ -1,0 +1,50 @@
+{
+  "id": 8341,
+  "uid": [
+    13012
+  ],
+  "title": [
+    "[Spider Temple, Leg of Acolytes]"
+  ],
+  "description": [
+    "You are in a very narrow hallway. An ebony cell door lies to the south."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      434,
+      797,
+      444,
+      807
+    ]
+  },
+  "exits": [
+    {
+      "to": 8340,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8342,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8343,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

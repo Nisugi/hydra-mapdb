@@ -1,0 +1,42 @@
+{
+  "id": 28166,
+  "title": [
+    "[Valley of Gold, Mountain Path]"
+  ],
+  "description": [
+    "Splitting as they meander down into the valley, lanterns light the trail as it moves in two different directions.  Bits of scrub grass grows in thick tufts between rocks that line the way.  Poles with golden ribbons split the distance between each light, their silken material sparkling in the misty light."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest, up"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
+  "image": {
+    "file": "fest-valley_of_gold-1561138415.png",
+    "rect": [
+      241,
+      552,
+      251,
+      573
+    ]
+  },
+  "exits": [
+    {
+      "to": 28165,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 28167,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28169,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

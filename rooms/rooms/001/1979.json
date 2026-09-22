@@ -1,0 +1,80 @@
+{
+  "id": 1979,
+  "uid": [
+    3003043
+  ],
+  "title": [
+    "[Temple, Hall of Gods]"
+  ],
+  "description": [
+    "Elaborate tapestries line this looming hall, depicting the gods in all their glory.  Highly polished marble forms the walls and floors, and elegant hand woven rugs stretch the length of the hall.  Solemn travelers shuffle past to enter the chapels of their various chosen gods, incense and offerings in hand.",
+    "Elaborate tapestries line this looming hall, depicting the gods in all their glory. Highly polished marble forms the walls and floors, and elegant hand woven rugs stretch the length of the hall.  Solemn travelers shuffle past to enter the chapels of their various chosen gods, incense and offerings in hand."
+  ],
+  "paths": [
+    "Obvious exits: east, south, out"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1978,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 1980,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1982,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

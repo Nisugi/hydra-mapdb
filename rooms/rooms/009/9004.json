@@ -1,0 +1,44 @@
+{
+  "id": 9004,
+  "uid": [
+    4043239
+  ],
+  "title": [
+    "[Thirsty Penguin, Alcove]"
+  ],
+  "description": [
+    "A dark velvet curtain hangs at the end of the circular alcove.  Quiet murmurings from beyond the curtain remind you of the soft hush of water flowing slowly beneath an ice-covered stream."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      405,
+      877,
+      441,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 3427,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 9005,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

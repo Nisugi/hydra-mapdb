@@ -1,0 +1,78 @@
+{
+  "id": 7472,
+  "uid": [
+    94015
+  ],
+  "title": [
+    "[Dark Grotto, Cavern]"
+  ],
+  "description": [
+    "A broad ledge runs all the way around the edge of this cavern, circling a huge pit at the center.  The ledge is smooth and even, with plenty of room for you to walk around."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "magru",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      943,
+      934,
+      953,
+      944
+    ]
+  },
+  "exits": [
+    {
+      "to": 7471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel",
+          "when": {
+            "otherwise": {
+              "any": [
+                {
+                  "posture": "kneeling"
+                },
+                {
+                  "race": "Dwarf"
+                },
+                {
+                  "race": "Halfling"
+                },
+                {
+                  "race": "Gnome"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7473,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb pit"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

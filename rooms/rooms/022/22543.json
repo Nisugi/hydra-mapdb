@@ -1,0 +1,27 @@
+{
+  "id": 22543,
+  "title": [
+    "[A Bone to Pick]"
+  ],
+  "description": [
+    "Gritty limestone steps descend into this ancient mausoleum, where the floor is scattered with a variety of bones; some human, others not.  Near an alcove shelf, some pitted brass hooks are suspended from a far, nearly intact wall, rising adjacent to a dark tunnel leading to the north and deeper within."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 20319,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 22612,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

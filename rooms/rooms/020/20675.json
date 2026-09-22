@@ -1,0 +1,50 @@
+{
+  "id": 20675,
+  "uid": [
+    258051
+  ],
+  "title": [
+    "[Warrior Guild, Tunnel]"
+  ],
+  "description": [
+    "Glistening luminescent blue moss clings to the rough ceiling and walls all around, bathing the area in a soothing blue light.  Sounds of training and shouting can be heard from beyond a dark tunnel.  Then passageway branches off in two directions, each tunnel lined with doors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "tags": [
+    "warrior guild metal stage doors",
+    "warrior guild wooden stage doors"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      767,
+      68,
+      783,
+      87
+    ]
+  },
+  "exits": [
+    {
+      "to": 20674,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 20676,
+      "kind": "go",
+      "cmd": "go wooden doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20677,
+      "kind": "go",
+      "cmd": "go metal doors",
+      "cost": 0.2
+    }
+  ]
+}

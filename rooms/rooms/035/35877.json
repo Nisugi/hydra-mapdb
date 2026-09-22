@@ -1,0 +1,53 @@
+{
+  "id": 35877,
+  "uid": [
+    3024109
+  ],
+  "title": [
+    "[Kragnek-Dzu, Ragnak Row]"
+  ],
+  "description": [
+    "Squat stone houses are arranged in two rows along a short, ruddy road of smooth granite cobblestones, the paths leading to the entrance of each dwelling boasting myriad pieces of colorful glaes artwork.  Large canver trees entwine their branches over a walkway leading northeast, toward a small market."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, south"
+  ],
+  "location": "the River Muagh",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      598,
+      1402,
+      635,
+      1441
+    ]
+  },
+  "exits": [
+    {
+      "to": 35871,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35876,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35878,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35880,
+      "kind": "go",
+      "cmd": "go stone dwelling",
+      "cost": 0.2
+    }
+  ]
+}

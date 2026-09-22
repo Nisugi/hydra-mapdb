@@ -1,0 +1,68 @@
+{
+  "id": 26173,
+  "uid": [
+    7107063,
+    7107113,
+    7107163,
+    7107213,
+    7107263,
+    7107313,
+    7107363,
+    7107413,
+    7107463,
+    7107513,
+    7107563,
+    7107613,
+    7107663,
+    7107713,
+    7107763,
+    7107813
+  ],
+  "title": [
+    "[Reim, Outer East]"
+  ],
+  "description": [
+    "Windowless lanterns frame the open gate, their vacant skeletons eerily dark and silent.  Destroyed barricades lay in scattered, scorched chaos about the area as if taunting would-be defenders with their uselessness.  Glinting in the moonlight are the half-buried shards of rainbow glaes panes."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      794,
+      296,
+      828,
+      330
+    ]
+  },
+  "exits": [
+    {
+      "to": 26171,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 26174,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26176,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

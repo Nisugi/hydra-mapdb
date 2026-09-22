@@ -1,0 +1,42 @@
+{
+  "id": 20085,
+  "title": [
+    "[Feywrot Mire, Western Walkway]"
+  ],
+  "description": [
+    "Ominous creaks from the cedar planks below are heard with every footfall.  The black water below is eerily still, without so much as a ripple disturbing its obsidian-like smoothness.  The walkway continues westward, but a broken handrail and bootprints on a hillock just beneath show where less prudent souls have stepped off to venture through the southern swamp."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      124,
+      523,
+      139,
+      538
+    ]
+  },
+  "exits": [
+    {
+      "to": 20106,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20107,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24331,
+      "kind": "go",
+      "cmd": "go swamp",
+      "cost": 0.2
+    }
+  ]
+}

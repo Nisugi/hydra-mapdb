@@ -1,0 +1,62 @@
+{
+  "id": 3587,
+  "uid": [
+    4292007
+  ],
+  "title": [
+    "[Stronghold, South Hall]"
+  ],
+  "description": [
+    "The passageway widens into an expansive chamber, with branches in various directions and the beginning of a wide, winding stairway.  To the north sits an alcove, its darker interior creating a gloomy maw at its entrance.  The southern hallway is likewise shadowy, however braziers can be glimpsed on the walls, promising the possibility of illumination."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      517,
+      524,
+      527,
+      534
+    ]
+  },
+  "exits": [
+    {
+      "to": 3580,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3588,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3589,
+      "kind": "go",
+      "cmd": "go alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 3590,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3613,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3282,
+  "uid": [
+    4127030
+  ],
+  "title": [
+    "[Ice Plains, Hill Side]"
+  ],
+  "description": [
+    "The ledge tapers off and once again becomes part of the hill leaving no way for you to continue around the east side of the hill.  A smooth ramp continues upward to another ledge that looks to head back in the direction you came from.  The ramp has two iron railings along each side and is completely covered with ice, making it difficult to climb.  Just underneath the ramp is the entrance to a tunnel heading north."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "hilly",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "calamintha blossom",
+    "frostflower",
+    "ironfern root",
+    "iseya lichen",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snowberries",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      496,
+      410,
+      506,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 3281,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3283,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 3294,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    }
+  ]
+}

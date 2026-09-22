@@ -1,0 +1,45 @@
+{
+  "id": 23927,
+  "uid": [
+    3003055
+  ],
+  "title": [
+    "[Abandoned Asylum]"
+  ],
+  "description": [
+    "A single, flickering lantern provides a gloomy light that dances off the rusty broken cell doors lining the dark stone walls.  The air is warm and uncomfortably moist in this cramped chamber.  A fetid stink of rotting garbage, soiled disregarded clothing and worse assaults you like a slap in the face."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1961,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "turn wheel"
+        },
+        {
+          "put": "open trapdoor"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 0.8
+    },
+    {
+      "to": 23928,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

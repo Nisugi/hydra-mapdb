@@ -1,0 +1,42 @@
+{
+  "id": 26590,
+  "title": [
+    "[Caligos Isle, Maze of Columns]"
+  ],
+  "description": [
+    "Unknown forms dart in and out of the haze-filled air, skittering across the eroded walls of the cavern and up the lopsided columns flanking the path beyond.  Frail strands of webbing lay smashed into the rocky floor creating glistening patterns that are highlighted by the torches perched at various intervals."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      494,
+      220,
+      509,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26530,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26591,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 26594,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 2305,
+  "uid": [
+    4042003
+  ],
+  "title": [
+    "[Temple Burrow, Oleani Way]"
+  ],
+  "description": [
+    "Children dash down the street, filling the chilly air with high-pitched laughter.  Although many are halflings, there are just as many giantkin and half-krolvin among them.  They weave in spritely chases through the traffic before a snow-covered wooden lodge while a small coterie of sylvankind youths follows at a more sedate pace.  Several would-be merchants near to the lodge hawk rings and other tokens of affection.",
+    "You are nearly bowled over by a large group of children dashing by on the cottage-lined street.  They seem to be chasing an impish lad who is carrying a small shoe and, as one of the pursuers has a single bare foot, you can see how the chase started.  Given the situation, you aren't certain who to root for.",
+    "A cold wind bears the promise of a coming storm down the street.  Most of the cottages are quiet and dark, but here and there a candle burns in a window to light the way home."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide weddinghall",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      848,
+      699,
+      884,
+      735
+    ]
+  },
+  "exits": [
+    {
+      "to": 2304,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2306,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2321,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

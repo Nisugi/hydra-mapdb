@@ -1,0 +1,48 @@
+{
+  "id": 30633,
+  "uid": [
+    853003
+  ],
+  "title": [
+    "[Landing Hall, Main Lobby]"
+  ],
+  "description": [
+    "Footsteps and hushed whispers echo off of the polished black-veined white marble floor, resounding throughout the room and amplified by the massive golden dome overhead.  A huge, polished gold chandelier dangles from the top of the dome from a thick mithril chain, dozens of candles providing ample light.  The sunlight streaming through the fanciful stained glass makes colored patterns upon the floor and the sweeping staircase that leads to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "mho hall clerk"
+  ],
+  "exits": [
+    {
+      "to": 385,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30634,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30638,
+      "kind": "go",
+      "cmd": "go hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 30639,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

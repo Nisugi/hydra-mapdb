@@ -1,0 +1,56 @@
+{
+  "id": 13073,
+  "uid": [
+    704151
+  ],
+  "title": [
+    "[Forest, Crystal Path]"
+  ],
+  "description": [
+    "A flagstone path, swept clear of snow and ice, winds through the silent, snow-covered forest.  Icicles hang in sparkling rows from the branches of the trees and the eaves of the cottages arranged between them."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-homes-1264234799.png",
+    "rect": [
+      198,
+      1261,
+      218,
+      1281
+    ]
+  },
+  "exits": [
+    {
+      "to": 2492,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 13074,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13082,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13091,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

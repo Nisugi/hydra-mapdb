@@ -1,0 +1,56 @@
+{
+  "id": 4148,
+  "uid": [
+    2138007
+  ],
+  "title": [
+    "[Hall of the Dead, Tunnel]"
+  ],
+  "description": [
+    "Flickering torchlight reveals tunnels running off in all directions.  They must lead to rooms that actually house the dead.  This is just part of the connecting tunnels leading you to your final destination."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west, northwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      749,
+      759,
+      759,
+      769
+    ]
+  },
+  "exits": [
+    {
+      "to": 4147,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4149,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4161,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4165,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

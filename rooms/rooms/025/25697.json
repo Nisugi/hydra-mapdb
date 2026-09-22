@@ -1,0 +1,53 @@
+{
+  "id": 25697,
+  "uid": [
+    3223825
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Creating a narrow lane of passage, the waterway stretches beyond a series of blown glass globes toward the distant beach on the north side and crashes against the rough rocks of an island to the south.  Swimmers playfully splash in the waters on the other side of the floating orbs, some waving to the boaters, and others riding the waves back to land.",
+    "Creating a narrow lane of passage, the waterway stretches beyond a series of blown glass globes toward the distant beach to the north and crashes against the rough rocks of an island to the south.  Moonlight bounces off of the waves and casts strange shadows upon the tropical plant life that sways in the evening breeze.  Lone and forlorn, the soft coo of a cormorant dances through the air."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1200,
+      1200,
+      1220,
+      1220
+    ]
+  },
+  "exits": [
+    {
+      "to": 25696,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25698,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

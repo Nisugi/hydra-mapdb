@@ -1,0 +1,51 @@
+{
+  "id": 9764,
+  "uid": [
+    13021036
+  ],
+  "title": [
+    "[Maaghara Tower, Observatory]"
+  ],
+  "description": [
+    "The catwalk encircling the lofty chamber seems dangerous, suspended on very thin wire supports attached to the transparent bubble overhead.  At the sphere's center, a colossal machine dominates everything, its gears, arms and pulleys so numerous, no self-evident logic can be determined by looking at them.  A flight of tenuous stairs, likewise suspended on thin wires, leads up to a higher vantage point."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      728,
+      255,
+      738,
+      265
+    ]
+  },
+  "exits": [
+    {
+      "to": 9763,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9765,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9766,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    }
+  ]
+}

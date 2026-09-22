@@ -1,0 +1,69 @@
+{
+  "id": 7313,
+  "uid": [
+    2150011
+  ],
+  "title": [
+    "[Narrow Tunnel]"
+  ],
+  "description": [
+    "The tunnel continues, seemingly without end, in both directions.  Shadows play off the rough rock walls, causing your eyes to dart about looking for enemies that may or may not be there."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      888,
+      533,
+      896,
+      540
+    ]
+  },
+  "exits": [
+    {
+      "to": 7312,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "southwest"
+        },
+        {
+          "await_followers": null,
+          "when": "still_here"
+        },
+        {
+          "move": "southwest",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 22426,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "northeast"
+        },
+        {
+          "await_followers": null,
+          "when": "still_here"
+        },
+        {
+          "move": "northeast",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

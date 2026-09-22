@@ -1,0 +1,57 @@
+{
+  "id": 32603,
+  "uid": [
+    336418
+  ],
+  "title": [
+    "[Landing Bazaar, Modwir Lane]"
+  ],
+  "description": [
+    "The bustling atmosphere of the market intermixes with the relaxing sound of water bubbling from a lion-carved stone fountain.  Vendors push carts up and down the cobblestone road, stopping occasionally to demonstrate their goods or to make a sale.  The intoxicating aroma of coffee permeates the area, originating from the direction of one of the establishments."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-bazaar-1671674653.png",
+    "rect": [
+      306,
+      197,
+      359,
+      248
+    ]
+  },
+  "exits": [
+    {
+      "to": 32602,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32604,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32606,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32611,
+      "kind": "go",
+      "cmd": "go white shop",
+      "cost": 0.2
+    }
+  ]
+}

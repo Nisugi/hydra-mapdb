@@ -1,0 +1,41 @@
+{
+  "id": 33079,
+  "uid": [
+    7134056
+  ],
+  "title": [
+    "[Flotilla, Sea Kobold's Folly]"
+  ],
+  "description": [
+    "A kobold and squirrel statue rests next to an ironwood gangway leading to the bow of the Flying Squirrel, and several crates marked \"Grog\" are stacked on the other side.  Moonlight glints off the waves below.  Numerous ships crowd some of the docking berths while others are repurposed as defense bays, lined with cannons and large barrels stained with pitch.  The bow of a river boat is securely affixed to the flotilla."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      122,
+      367,
+      136,
+      378
+    ]
+  },
+  "exits": [
+    {
+      "to": 33078,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33103,
+      "kind": "go",
+      "cmd": "go gangway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 9120,
+  "uid": [
+    4045223
+  ],
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The west wall of the cavern rises suddenly out of the mist.  A thin layer of fog pours down like a waterfall, but there's no telling quite where the fog is coming from.  The stone is cool to the touch and covered with glowing moss.  To the south, the stone floor of the cavern is swallowed by a mushy bog."
+  ],
+  "paths": [
+    "Obvious exits: east, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      171,
+      701,
+      181,
+      711
+    ]
+  },
+  "exits": [
+    {
+      "to": 9110,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9117,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 24695,
+  "uid": [
+    480215,
+    17006215
+  ],
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "The air here is heavy and choked with tenuous pockets of mist.  A slow, but cold wind stirs in the area, seemingly stuck in a contorted maelstrom, locking the wraithlike fog into an endless circular pattern."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "massive black boar",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "winged viper",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      402,
+      175,
+      414,
+      188
+    ]
+  },
+  "exits": [
+    {
+      "to": 24694,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24696,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24697,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

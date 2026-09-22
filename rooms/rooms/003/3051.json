@@ -1,0 +1,51 @@
+{
+  "id": 3051,
+  "uid": [
+    4050319
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "A small tower rises at this corner of the town walls, indistinct as the same stones comprise both structures.  The small windows high above are shuttered against the light of day.  Long and slender icicles dangle like fingers, pointing towards the ground.",
+    "A small tower rises at this corner of the town walls, indistinct as the same stones comprise both structures.  The small windows high above are points of light that glow within the darkness of the night.  Long and slender icicles dangle like fingers, pointing towards the ground."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      560,
+      572,
+      570,
+      582
+    ]
+  },
+  "exits": [
+    {
+      "to": 3050,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3052,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13094,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

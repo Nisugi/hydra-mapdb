@@ -1,0 +1,49 @@
+{
+  "id": 4122,
+  "uid": [
+    35010
+  ],
+  "title": [
+    "[Glatoph, Vent Hole]"
+  ],
+  "description": [
+    "You're near the mouth of a dark, rounded tunnel leading down into the mountain.  Hot air rushes up the tunnel and out the opening, ruffling through your hair and clothes on the way.  The grey rock that forms the tunnel looks like solidified sponge, as though millions of tiny bubbles had formed and hardened."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Glatoph",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "ghost pepper",
+    "hot pepper",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      103,
+      330,
+      113,
+      340
+    ]
+  },
+  "exits": [
+    {
+      "to": 4121,
+      "kind": "go",
+      "cmd": "go mouth",
+      "cost": 0.2
+    },
+    {
+      "to": 4123,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

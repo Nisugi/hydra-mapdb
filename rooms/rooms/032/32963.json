@@ -1,0 +1,35 @@
+{
+  "id": 32963,
+  "uid": [
+    4219469
+  ],
+  "title": [
+    "[Lockers, Antechamber]"
+  ],
+  "description": [
+    "A simple wooden chair and a short square table are the only furnishings in this bare room.  The open ceiling shows the warehouse roof high above.  The sounds of workers moving crates in the warehouse below can be easily heard through the thin floors."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:willow_hall:entrance_locker",
+    "locker annex:Willow Hall"
+  ],
+  "exits": [
+    {
+      "to": 32962,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32964,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    }
+  ]
+}

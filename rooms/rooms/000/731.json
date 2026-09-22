@@ -1,0 +1,59 @@
+{
+  "id": 731,
+  "uid": [
+    737003
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "Vibrant silk awnings project from cozy ivied buildings, nestled away from the cobblestone bazaar.  Tree-lined walkways pass through florid gardens leading to their closed doors.  The air is perfumed with the delightful blend of freesia and roses.",
+    "Vibrant silk awnings project from cozy ivied buildings, nestled away from the cobblestone bazaar.  Tree-lined walkways pass through florid gardens leading to their brightly painted doors.  The air is perfumed with the delightful blend of freesia and roses."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1523,
+      668,
+      1539,
+      684
+    ]
+  },
+  "exits": [
+    {
+      "to": 730,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 733,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16930,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    },
+    {
+      "to": 24257,
+      "kind": "go",
+      "cmd": "go limestone shop",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 24661,
+  "title": [
+    "[Underground Temple, Sunken Tomb]"
+  ],
+  "description": [
+    "Small piles of dirt line the edge of the tunnel, and a fine, powdery mist of dust fills the air.  Overhead, parts of tree roots emerge intermittently from the packed ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 24643,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24645,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24660,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24666,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

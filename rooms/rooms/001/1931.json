@@ -1,0 +1,50 @@
+{
+  "id": 1931,
+  "uid": [
+    3001026
+  ],
+  "title": [
+    "[Krodera Street]"
+  ],
+  "description": [
+    "There is an enormous hole in the middle of this cobblestone street, wide enough to swallow a small hill and deep enough that you can't see the bottom.  The dwarves who wander by ignore it, walking around the edges on their way.  A small wooden booth sits near the edge of the crater."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      1124,
+      519,
+      1154,
+      549
+    ]
+  },
+  "exits": [
+    {
+      "to": 1929,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1932,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19506,
+      "kind": "go",
+      "cmd": "go hovel",
+      "cost": 0.2
+    }
+  ]
+}

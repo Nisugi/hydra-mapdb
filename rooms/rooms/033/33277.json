@@ -1,0 +1,62 @@
+{
+  "id": 33277,
+  "uid": [
+    4201102
+  ],
+  "title": [
+    "[Vornavis, Dondraek Lane]"
+  ],
+  "description": [
+    "Following the curvature of the city's walls, the cobblestone street travels in a gentle incline to the north.  Columnar lampposts glisten in the daylight, the large frosted orbs that crown them dormant for the moment and temporary perches for migratory avians.  Brownstone homes are surrounded by small patchwork yards of dusky green centipede grass and maoral-framed herb or flower beds throughout this section of the city.",
+    "Following the curvature of the city's walls, the cobblestone street travels in a gentle incline to the north.  Columnar lampposts glow with a steady, bright light that dispels the shadows of night that linger this close to the city's walls.  Brownstone homes rise in tidy rows down the lane, their faces illuminated by smaller globes that dot the pathways leading through their small yards to their doors."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Vornavis Proper",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "citizenship:Solhaven"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1662,
+      1081,
+      1683,
+      1102
+    ]
+  },
+  "exits": [
+    {
+      "to": 33276,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33278,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34440,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": {
+        "when": {
+          "setting": [
+            "Oleander_House",
+            "true"
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 30908,
+  "uid": [
+    282003
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "A hallway winds through walls decorated with bas-relief carvings of a variety of instruments.  The floor is covered with large tiles, and a plush runner twists along the meandering curves, precisely following the twists and turns of the hall.  The rug matches the light-toned stucco walls, and a series of conch shell lanterns are suspended overhead.  An arch opens on the South Wall, revealing a pub beyond and admitting mouth-watering aromas and the distinctive clink of plate and mug."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30902,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30909,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30912,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34418,
+      "kind": "go",
+      "cmd": "go entryway",
+      "cost": 0.2
+    }
+  ]
+}

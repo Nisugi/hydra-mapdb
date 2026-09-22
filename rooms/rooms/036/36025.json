@@ -1,0 +1,51 @@
+{
+  "id": 36025,
+  "uid": [
+    8022008
+  ],
+  "title": [
+    "[Halan Lea, Shore of Khesta'Dahl]"
+  ],
+  "description": [
+    "Boardwalk planks stretch along the shoreline, their path paralleling the mist-hazed waters where small fishing vessels bob in slow, steady motions.  Wind chimes sway from the crossbeam of a freestanding arch fashioned of braided larch and birch poles, their pale surfaces catching the shifting light as the wood beneath them creaks in the breeze.  A line of alternating larch and birch steps climbs the hillock to the south, a bonfire's glow visible above."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "Northern Steppes",
+  "image": {
+    "file": "fest-white_star-1765071445.png",
+    "rect": [
+      352,
+      195,
+      395,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 36012,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36019,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36024,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36033,
+      "kind": "go",
+      "cmd": "go larch steps",
+      "cost": 0.2
+    }
+  ]
+}

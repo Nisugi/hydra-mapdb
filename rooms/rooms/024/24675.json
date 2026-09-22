@@ -1,0 +1,141 @@
+{
+  "id": 24675,
+  "uid": [
+    480201,
+    17006201
+  ],
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Serpentine coils of thick grey mist bend and twist through the lush forest, obscuring entire swathes of the crowded forest in a hazy shroud.  The distant call of a songbird echoes somewhere within the heavy canopies above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Red Forest",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "massive black boar",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "winged viper",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Red Forest, The",
+    "mapshortname:Red Forest"
+  ],
+  "image": {
+    "file": "red_forest-1260914757.png",
+    "rect": [
+      104,
+      143,
+      118,
+      156
+    ]
+  },
+  "exits": [
+    {
+      "to": 7892,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        },
+        {
+          "forget": "redforest_location"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "redforest_location",
+            "WL"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 16744,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        },
+        {
+          "forget": "redforest_location"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "remembered": [
+            "redforest_location",
+            "EN"
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 24676,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24688,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

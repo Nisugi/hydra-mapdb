@@ -1,0 +1,48 @@
+{
+  "id": 26090,
+  "uid": [
+    679001
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Faint light trickles into the area from the crack in the wall to the south, its dim illumination highlighting the smooth walls and floor of the circular chamber.  Grooves in the walls create ornate patterns that are shadowed in places where the ambient light is unable to reach its deeper sections.  Traveling upward, a set of stone stairs disappears into the wall, each step large, wide, and crafted of stone."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      1064,
+      457,
+      1082,
+      475
+    ]
+  },
+  "exits": [
+    {
+      "to": 9438,
+      "kind": "go",
+      "cmd": "go jagged crack",
+      "cost": 0.2
+    },
+    {
+      "to": 26089,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    }
+  ]
+}

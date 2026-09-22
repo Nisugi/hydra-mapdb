@@ -1,0 +1,49 @@
+{
+  "id": 36442,
+  "uid": [
+    58054
+  ],
+  "title": [
+    "[Dungeon, Chamber]"
+  ],
+  "description": [
+    "It is not very well lit here, and it smells absolutely terrible.  Tiny piles of dried rodent droppings liberally litter the filthy floor and the thick coating of dust shows the passage of hundreds of little feet.  You can hear high-pitched squeaks and squeals and can almost sense the motion of many small bodies in the darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, west",
+    "Obvious exits: east, south",
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2160,
+      680,
+      2200,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36441,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36443,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36444,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

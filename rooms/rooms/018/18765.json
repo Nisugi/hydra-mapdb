@@ -1,0 +1,47 @@
+{
+  "id": 18765,
+  "uid": [
+    657100
+  ],
+  "title": [
+    "[Empath Guild, Upper Hall]"
+  ],
+  "description": [
+    "Canted ceilings of green-tinged glaesine sheets rise high overhead, held in place with verdigris copper mullions, and a few intrepid vines wind across the outer panes, having clambered up from the cloister columns below.  Luminous moonlight drifts through the vines and ceiling, highlighting a pale acantha green limestone floor with blue-washed linen carpets.  An apple wood staircase curves downward, and an array of shadowy viridian ferns clusters along the walls, almost obscuring a narrow door.",
+    "Canted ceilings of green-tinged glaesine sheets rise high overhead, held in place with verdigris copper mullions, and a few intrepid vines wind across the outer panes, having clambered up from the cloister columns below.  Sunlight streams in from the ceiling, highlighting a pale acantha green limestone floor with blue-washed linen carpets.  An apple wood staircase curves downward, and clustered along the walls, an array of viridian ferns drinks in the sun, their lushness almost obscuring a narrow door."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_empath_guild.png",
+    "rect": [
+      741,
+      186,
+      802,
+      245
+    ]
+  },
+  "exits": [
+    {
+      "to": 18758,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18766,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 18785,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

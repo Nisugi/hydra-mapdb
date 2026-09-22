@@ -1,0 +1,44 @@
+{
+  "id": 11215,
+  "uid": [
+    2100117
+  ],
+  "title": [
+    "[Armory, Weapons Stores]"
+  ],
+  "description": [
+    "The walls are lined with rubbish-filled niches, each long since emptied of the weapons once stored here.  A narrow doorway faces south, metal hinges the only remnants of whatever door had closed this storeroom from the rest of the armory."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      278,
+      151,
+      288,
+      161
+    ]
+  },
+  "exits": [
+    {
+      "to": 11207,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 11214,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

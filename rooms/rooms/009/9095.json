@@ -1,0 +1,44 @@
+{
+  "id": 9095,
+  "uid": [
+    4045204
+  ],
+  "title": [
+    "[Great Cavern, Limestone Stairs]"
+  ],
+  "description": [
+    "Wide stairs of limestone curve down into the depths around a central shaft. The stairs go no further upward, but a dark opening leads somewhere.  A warm mist gathers around you like a cloud on a mountain top."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      202,
+      331,
+      212,
+      341
+    ]
+  },
+  "exits": [
+    {
+      "to": 9094,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 9096,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

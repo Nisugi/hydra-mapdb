@@ -1,0 +1,55 @@
+{
+  "id": 28740,
+  "uid": [
+    4043719
+  ],
+  "title": [
+    "[Beacon Hall, Brewpub Locker]"
+  ],
+  "description": [
+    "Stout wooden kegs, each banded with iron and stamped with a white lighthouse emblem, are stacked upon one another against the walls of this room.  A long silver mirror, somewhat burnt and warped at the edges, sits in a corner beneath a colorful round lantern, the flickering flame within casting long shadows around the cellar."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "bhalocker"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive",
+    "che:beacon_hall:locker",
+    "locker"
+  ],
+  "image": {
+    "file": "imt-beacon_hall.png",
+    "rect": [
+      316,
+      456,
+      349,
+      491
+    ]
+  },
+  "exits": [
+    {
+      "to": 28739,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go opening"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go opening",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

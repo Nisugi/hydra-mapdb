@@ -1,0 +1,67 @@
+{
+  "id": 1902,
+  "uid": [
+    703151
+  ],
+  "title": [
+    "[Mud Baths, Marble Way]"
+  ],
+  "description": [
+    "Mining equipment sits at the end of the tunnel, waiting for the next major digging effort.  Teeth biting into the wall, a huge bore remains where it was left after the construction of the mud baths was complete.  Although it is set off by barricades, children climb all over the machine, turning it into a makeshift playground."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "mapcategory:Neighborhoods",
+    "mapcategory:Premium",
+    "mapcategory:River's Rest",
+    "mapcategory:Teras Isle",
+    "mapname:Neighborhoods of Teras Isle and River's Rest"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      514,
+      459,
+      534,
+      479
+    ]
+  },
+  "exits": [
+    {
+      "to": 1901,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 1903,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28704,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlock ironwood door"
+        },
+        {
+          "put": "open ironwood door"
+        },
+        {
+          "move": "go ironwood door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

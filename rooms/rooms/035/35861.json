@@ -1,0 +1,61 @@
+{
+  "id": 35861,
+  "uid": [
+    3024016
+  ],
+  "title": [
+    "[River Muagh, Tributary Stream]"
+  ],
+  "description": [
+    "Quickly moving waters flow west from a deep pool to the south, the bend here sharply turning where a granite outcropping interrupts the treeline.  The branches of canver trees extend over the stream and entwine with each other, while verdant undergrowth saturates every traversable space beneath them."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      263,
+      955,
+      301,
+      993
+    ]
+  },
+  "exits": [
+    {
+      "to": 35860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push west"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35862,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

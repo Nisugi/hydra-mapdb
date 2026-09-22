@@ -1,0 +1,129 @@
+{
+  "id": 16729,
+  "uid": [
+    17005036
+  ],
+  "title": [
+    "[River Rapids]"
+  ],
+  "description": [
+    "Turbulence heaves the water into a nightmarish beast, smashing against the rough rock walls, before rolling over itself in a roaring fury.  It is extremely difficult to maintain balance and equilibrium in the maelstrom, and the strong current threatens to suck you away to a watery demise.  The only refuge lies on the floor of the ravine, either to the the north side or the south side of the river."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright red teaberry",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "green soybean pod",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "safflower seeds",
+    "soft mushroom",
+    "sprig of jasmine",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "thistle seeds",
+    "vert globe artichoke",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wood violet",
+    "yellow clover blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      377,
+      707,
+      402,
+      729
+    ]
+  },
+  "exits": [
+    {
+      "to": 16726,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "swim north side"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 16730,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "swim south side"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

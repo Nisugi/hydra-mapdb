@@ -1,0 +1,50 @@
+{
+  "id": 10401,
+  "uid": [
+    14109006
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "The marble in this section of the long hallway features a gradual change in color from cream to pure white as the veining melds from grey to silver.  Some candle-lit glaes globes mounted in concentric circles illuminate the passage."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      451,
+      654,
+      594,
+      715
+    ]
+  },
+  "exits": [
+    {
+      "to": 10400,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10402,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35204,
+      "kind": "go",
+      "cmd": "go studded arch",
+      "cost": 0.2
+    }
+  ]
+}

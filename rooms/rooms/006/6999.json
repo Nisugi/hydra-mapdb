@@ -1,0 +1,54 @@
+{
+  "id": 6999,
+  "uid": [
+    45105
+  ],
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "This narrow passage between the gatetowers is flanked at either end by two great portcullises crafted from solid mein.  Slits in the walls and holes in the ceiling provide defenders of the castle means to eliminate enemy forces trapped between the great gates.  Deep red stains on the floors and walls attest to their efficiency."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      431,
+      428,
+      441,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 6998,
+      "kind": "go",
+      "cmd": "go white portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 7000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "kneel"
+        },
+        {
+          "move": "kiss red portcullis"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

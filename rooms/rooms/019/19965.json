@@ -1,0 +1,54 @@
+{
+  "id": 19965,
+  "uid": [
+    28136
+  ],
+  "title": [
+    "[Legends Wing, Physical Arts]"
+  ],
+  "description": [
+    "Painted on the walls is a dense forest scene, the trees so close together that the canopies overlap.  The ceiling is covered with a thick layer of silk leaves, as if the mural on the walls has spilled over into the room itself.  Expansive tree stumps sit in a circle on the grass-green marble floor.  Resting on the each of the tree trunks are wax figures in various poses, while a a double-sided wooden easel in the center of the ring displays several paintings.  Standing in opposite corners are a glass display case and a gilt-edged rowan pedestal."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-museum-1487435869.png",
+    "rect": [
+      1804,
+      683,
+      1945,
+      743
+    ]
+  },
+  "exits": [
+    {
+      "to": 19948,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go narrow door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19964,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

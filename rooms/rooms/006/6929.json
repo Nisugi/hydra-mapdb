@@ -1,0 +1,56 @@
+{
+  "id": 6929,
+  "uid": [
+    3535
+  ],
+  "title": [
+    "[Land Tower West, Dining Room]",
+    "[Land Tower West, Infirmary]"
+  ],
+  "description": [
+    "This large open room serves as a combination dining and recreation room for the guards stationed in the two land towers.  Although the room is empty, the long wooden tables are set for the next meal.  In the corner, a wooden ladder leads to the upper levels of the tower.",
+    "Formerly a dining room for the tower guards, this large open room has been converted to a makeshift infirmary.  Most of the wooden tables have been shoved against the walls, though a few have been draped with linens to serve as treatment platforms.  A battered metal cabinet, sparsely stocked with healing herbs, hangs near the entrance.  Having borne the brunt of bleeding bodies and rotting corpses, the wood floors are clean, but heavily stained.  A sturdy ladder leads to the upper levels of the tower."
+  ],
+  "paths": [
+    "Obvious exits: up, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      238,
+      90,
+      274,
+      126
+    ]
+  },
+  "exits": [
+    {
+      "to": 223,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 6930,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 23337,
+      "kind": "go",
+      "cmd": "go wooden trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 34966,
+  "uid": [
+    4426014
+  ],
+  "title": [
+    "[Grim Sands, Dock]"
+  ],
+  "description": [
+    "Dark and forbidding, a sturdy wooden dock rules over a small bay sheltered by the curve of the isle's coastline.  The pilings are old, their upper halves stained with the droppings of sea birds; the lower encrusted with barnacles.  Deprived the fury of the tides, the waters of the bay lap languorously at the wood."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Glaoveln",
+  "climate": "snowy, arctic",
+  "terrain": "riparian",
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      747,
+      1311,
+      766,
+      1332
+    ]
+  },
+  "exits": [
+    {
+      "to": 34967,
+      "kind": "go",
+      "cmd": "go dock",
+      "cost": 0.2
+    },
+    {
+      "to": 34968,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 34969,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

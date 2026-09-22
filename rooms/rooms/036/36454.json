@@ -1,0 +1,76 @@
+{
+  "id": 36454,
+  "uid": [
+    59042
+  ],
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "This open area is scented by wafts of air from the south, but the sight of the Black Swan as you gaze upwards drives all but dread from your mind.  The rubble-strewn embankment here circles the outer rim of the moat and completely girds the castle.  Loose stones and mounds of dirt make walking difficult.  The shattered ruins of a drawbridge lay scattered on either side of the moat, leaving an entrance on the other side, but no possible approach."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "grassland",
+  "tags": [
+    "fennel bulb",
+    "handful of raspberries",
+    "honeysuckle vine",
+    "rose-marrow root",
+    "small flower",
+    "small violet",
+    "some ambrominas leaf",
+    "some monkey grass",
+    "some sovyn clove",
+    "spearmint leaf",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "wild carrot",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild strawberry"
+  ],
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      440,
+      840,
+      480,
+      880
+    ]
+  },
+  "exits": [
+    {
+      "to": 36347,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36353,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 36453,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36456,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36459,
+      "kind": "go",
+      "cmd": "go moat",
+      "cost": 0.2
+    }
+  ]
+}

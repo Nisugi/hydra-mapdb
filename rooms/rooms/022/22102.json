@@ -1,0 +1,43 @@
+{
+  "id": 22102,
+  "uid": [
+    280012
+  ],
+  "title": [
+    "[Bard Guild, Upper Hallway]"
+  ],
+  "description": [
+    "A short, well-lit hallway runs from the Green room at one end to a backstage door at the other.  Strictly functional, it provides access to the necessities of theater.  A row of overhead lamps washes the hallway in light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 22100,
+      "kind": "go",
+      "cmd": "go landing",
+      "cost": 0.2
+    },
+    {
+      "to": 30883,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30884,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30885,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

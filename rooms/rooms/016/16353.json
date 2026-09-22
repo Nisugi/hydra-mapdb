@@ -1,0 +1,46 @@
+{
+  "id": 16353,
+  "uid": [
+    -570015
+  ],
+  "title": [
+    "[Warcamp, Outside]"
+  ],
+  "description": [
+    "A beaten trail narrows considerably and leads to a hut built of thick, sturdy boards.  The makeshift wall closes in and surrounds the hut, offering no entry in to or out of the hut save but a large door at the termination of the path.  The air is thick with the odious stench of death from the bodies of captives tossed to various sides of the path, now the feeding ground of rodents and other hungry beasties."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Warcamp",
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      228,
+      5,
+      264,
+      41
+    ]
+  },
+  "exits": [
+    {
+      "to": 16357,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16714,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "open hut"
+        },
+        {
+          "move": "go hut"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 19261,
+  "uid": [
+    94038
+  ],
+  "title": [
+    "[Dark Shrine, Chapel]"
+  ],
+  "description": [
+    "Here, surrounded by dark frescoes presenting frightening images of terror, foul beasts and macabre rituals, confronted by the huge, ghastly statue that dominates the center of the chamber, the sense of evil is a palpable force that threatens to smother and consume all that it can."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "lesser vruul"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1000,
+      276,
+      1010,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 7489,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "touch large statue"
+        },
+        {
+          "move": "say dyar trog"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19262,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19267,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

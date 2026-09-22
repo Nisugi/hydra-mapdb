@@ -1,0 +1,119 @@
+{
+  "id": 11437,
+  "uid": [
+    304014
+  ],
+  "title": [
+    "[Tempest River, Bay Mouth]"
+  ],
+  "description": [
+    "The cliffs of the mainland rise steeply from the green swells of the bay.  From this angle it's impossible to see what's on top of the cliffs.  Clumps of scrub brush cling tenaciously to the sides of the cliff.  The wide mouth of the north fork of the Tempest River lies to the southeast.  To the west is Maelstrom Bay, and beyond it lies the great western sea.  The water, though deep, is clear enough that the gold-colored sand that forms the floor of the bay is visible."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, west, northwest"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      756,
+      1314,
+      766,
+      1324
+    ]
+  },
+  "exits": [
+    {
+      "to": 11436,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11438,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11448,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11449,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "south",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim south",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

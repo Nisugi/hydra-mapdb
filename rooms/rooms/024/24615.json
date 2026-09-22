@@ -1,0 +1,48 @@
+{
+  "id": 24615,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Thick blaeston bushes crowd the base of an ancient thanot tree as it spreads its leafy canopy across the path.  A small birdbath, little more than a concave stone basin, rests in a hollow near the base of the trunk.  Several tents are pitched in the shade of the old tree's boughs."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      501,
+      281,
+      522,
+      301
+    ]
+  },
+  "exits": [
+    {
+      "to": 24610,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24613,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24616,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 24617,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

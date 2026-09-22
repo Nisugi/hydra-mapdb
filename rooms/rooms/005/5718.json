@@ -1,0 +1,108 @@
+{
+  "id": 5718,
+  "uid": [
+    4740002
+  ],
+  "title": [
+    "[The Tentacled Tavern, Lounge]"
+  ],
+  "description": [
+    "Wall sconces made of candlelit conch shells cast a warm glow across this room.  Fishnets, strung with starfish and other seashells, decorate the modwir-paneled walls.  High half-walls surround each table, allowing the occupants conversational privacy."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "exits": [
+    {
+      "to": 199,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go azure table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5717,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 13973,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go spiny table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19340,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go star table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19341,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go beaded table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19342,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go spotted table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19343,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go netted table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19344,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go red table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19345,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go sea table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

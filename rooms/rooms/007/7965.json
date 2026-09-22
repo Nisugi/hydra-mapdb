@@ -1,0 +1,77 @@
+{
+  "id": 7965,
+  "uid": [
+    16050
+  ],
+  "title": [
+    "[Base of Chasm]"
+  ],
+  "description": [
+    "You're at the muddy base of a narrow gully formed by a brisk stream.  A wall of the gully rises high on either side of you.  Directly above, a tree has been felled across the chasm as a makeshift bridge."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "moist",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "blue trafel mushroom",
+    "bright red cranberry",
+    "brostheras grass",
+    "cherry peppers",
+    "daggerstalk mushroom",
+    "dill",
+    "fire lily",
+    "flathead mushroom",
+    "fresh catnip",
+    "genkew mushroom",
+    "luckbloom blossom",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "purple-tipped artichoke",
+    "rainbow chard",
+    "red onion",
+    "round yuzu",
+    "small watermelon",
+    "soft mushroom",
+    "sugar cane",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sweet onion",
+    "tobacco leaves",
+    "trollear mushroom",
+    "wavepetal blossom",
+    "wild chokecherry",
+    "wild orchid",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      545,
+      506,
+      555,
+      516
+    ]
+  },
+  "exits": [
+    {
+      "to": 7964,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

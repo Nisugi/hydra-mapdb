@@ -1,0 +1,37 @@
+{
+  "id": 25671,
+  "uid": [
+    284006
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "The hallway passes an arched door propped open with a bronze statue of a conch shell.  A sign on the wall beside the arch announces the entry to the Conch Pub.  From inside the doorway, the sound of glasses combines with an appetizing aroma of cooking food, extending a pleasant invitation to enter."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25668,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25674,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25680,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

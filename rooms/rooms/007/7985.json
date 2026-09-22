@@ -1,0 +1,57 @@
+{
+  "id": 7985,
+  "uid": [
+    104001
+  ],
+  "title": [
+    "[House of Paupers, Entry Hall]",
+    "[Paupers, Entry Hall]"
+  ],
+  "description": [
+    "Deep fur floor covering cushions your feet as you walk past opulent portraits of distinguished explorers and huntsmen dressed in stiff, formal attire.  The far end of the room is dominated by a plush comfortable sofa and several overstuffed chairs near tables on which lie scrolls of Wehnimer Edition.  You approach a large oaken desk, behind which sits a poised, elven receptionist who looks up just as you glance through the ora door to her right."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      447,
+      341,
+      530,
+      392
+    ]
+  },
+  "exits": [
+    {
+      "to": 7984,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 7986,
+      "kind": "go",
+      "cmd": "go ora door",
+      "cost": 0.2
+    },
+    {
+      "to": 22081,
+      "kind": "go",
+      "cmd": "go wide hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 24053,
+      "kind": "go",
+      "cmd": "go vultite door",
+      "cost": 0.2
+    }
+  ]
+}

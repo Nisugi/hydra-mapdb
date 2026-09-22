@@ -1,0 +1,35 @@
+{
+  "id": 4015,
+  "title": [
+    "[Ta'Illistim Keep, Lobby]"
+  ],
+  "description": [
+    "The dark green marble floors, inset with golden cabochons at the clipped corners of the tiles, have been polished to a glassy sheen.  High above, a delicate glaesine chandelier hangs from the ceiling, the sparkling crystals refracting tiny pinpoints of light across the length and breadth of the lobby."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 4014,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4016,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4032,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

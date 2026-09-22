@@ -1,0 +1,57 @@
+{
+  "id": 14597,
+  "uid": [
+    4215147
+  ],
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "This landing overlooks the first floor foyer and the curving stairway that ascends from it.  From here, short corridors lead to the north, east and south."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1047,
+      824,
+      1057,
+      834
+    ]
+  },
+  "exits": [
+    {
+      "to": 5549,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 14605,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14607,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14610,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

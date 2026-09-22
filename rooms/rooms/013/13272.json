@@ -1,0 +1,56 @@
+{
+  "id": 13272,
+  "uid": [
+    13112010
+  ],
+  "title": [
+    "[West Wing]"
+  ],
+  "description": [
+    "The corridor stretches away to the northwest and southeast.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  A gentle breeze suddenly sets the flames dancing for a moment, then stillness returns."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Lost Home",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      388,
+      376,
+      442,
+      432
+    ]
+  },
+  "exits": [
+    {
+      "to": 13271,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13273,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33150,
+      "kind": "go",
+      "cmd": "go granite arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33189,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    }
+  ]
+}

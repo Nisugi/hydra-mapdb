@@ -1,0 +1,44 @@
+{
+  "id": 18976,
+  "uid": [
+    660014
+  ],
+  "title": [
+    "[Sorcerer Guild, Guild Shop]"
+  ],
+  "description": [
+    "Thick redwood paneling serves to keep the chill from the cold basalt walls from seeping in.  The faintly glowing pipes running along two walls prevent the bitter cold beyond the walls from being noticeable unless one rests against one of the many stalagmites or stalactites.  A mannequin of ivory rests atop one of the numerous polar bear fur rugs in one corner.  In the center is a lone stalagmite, squared off at the top with several small objects resting in the grooves cut for them."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer guild shop"
+  ],
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      641,
+      743,
+      681,
+      782
+    ]
+  },
+  "exits": [
+    {
+      "to": 18959,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "paneling"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

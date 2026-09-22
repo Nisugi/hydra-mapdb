@@ -1,0 +1,52 @@
+{
+  "id": 25846,
+  "uid": [
+    3223878
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Moonlight glances off of the beaches of the small island, which sparkle beneath the silvery light.  In contrast to the dazzling beauty of the sandy shore, Charl's Teeth rise out of the southern water like a dark promise of silent destruction.  Cold water rushes through the small channel in a vain attempt to escape both the coast and the ragged obsidian wall."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1281,
+      1919,
+      1300,
+      1938
+    ]
+  },
+  "exits": [
+    {
+      "to": 25845,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25847,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 24032,
+  "title": [
+    "[Coliseum, Southeast Corridor]"
+  ],
+  "description": [
+    "Polished stone walls reflect the light of a trio of steel-banded torches that has been inset into ornate brackets.  Centered over a brick-lined tunnel is a golden banner that reads \"Arena Entrance\" embroidered in thick ebon thread.  An ebon banner over a golden arch reads \"Viewing Chamber\" in elegant golden embroidery."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "exits": [
+    {
+      "to": 24016,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24033,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24040,
+      "kind": "go",
+      "cmd": "go brick-lined tunnel",
+      "cost": 0.2
+    }
+  ]
+}

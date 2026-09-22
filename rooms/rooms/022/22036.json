@@ -1,0 +1,55 @@
+{
+  "id": 22036,
+  "uid": [
+    212400
+  ],
+  "title": [
+    "[Helden Hall, Hallway]"
+  ],
+  "description": [
+    "The sounds of revelry from the Great Hall are muted in this hallway. Flickering torchlight from the sconces on the walls produces shadows that dance along the stone floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      361,
+      637,
+      400,
+      675
+    ]
+  },
+  "exits": [
+    {
+      "to": 3880,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22072,
+      "kind": "go",
+      "cmd": "go pine door",
+      "cost": 0.2
+    },
+    {
+      "to": 22073,
+      "kind": "go",
+      "cmd": "go golvern-banded door",
+      "cost": 0.2
+    },
+    {
+      "to": 24796,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

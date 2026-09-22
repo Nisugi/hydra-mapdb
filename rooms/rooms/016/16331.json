@@ -1,0 +1,47 @@
+{
+  "id": 16331,
+  "uid": [
+    3205002
+  ],
+  "title": [
+    "[Mist Harbor Lockup, Entry Hall]"
+  ],
+  "description": [
+    "Austere and barren, the room is meticulously clean and the hardware on the imposing gate gleams.  A single wooden bench rests against one wall with an oil painting affixed over it."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 16330,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 16332,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 16704,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16705,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

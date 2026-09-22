@@ -1,0 +1,55 @@
+{
+  "id": 7664,
+  "uid": [
+    84406
+  ],
+  "title": [
+    "[Sea Cave, Rocky Cavern]"
+  ],
+  "description": [
+    "Jagged stone teeth protrude from the floor beneath you, as though from the rotting jaw of a decaying giant.  As you make your way through the stalagmites, you notice one rough column of stone that extends over to a high ledge."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "coastal sword sedge",
+    "shelfae chieftain"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      857,
+      412,
+      867,
+      422
+    ]
+  },
+  "exits": [
+    {
+      "to": 7659,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7665,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7669,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb stone"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

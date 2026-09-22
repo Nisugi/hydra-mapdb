@@ -1,0 +1,43 @@
+{
+  "id": 24608,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Several tents are arranged in a semicircle, the brightly-colored fabric walls billowing in the day's breeze.  A worn stone bench, carved with nearly illegible runes, sits beneath a nearby tree.",
+    "Several tents are arranged in a semicircle, the brightly-colored fabric walls billowing in the night's breeze.  A worn stone bench, carved with nearly illegible runes, sits beneath a nearby maoral tree.  Glaes-paned oil lamps swing from small ironwork posts, casting dim amber light across the landscape."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      501,
+      121,
+      522,
+      141
+    ]
+  },
+  "exits": [
+    {
+      "to": 24607,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24609,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 24610,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 6336,
+  "uid": [
+    681009
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Enormous book and scroll cases reach all the way to the ceiling and run along all the walls of this large room.  The chandeliers and large candelabra flanking the numerous tables burn with a bright inner light that illuminates even this immense room well enough to easily read by, but none show signs of candles or open flame.  Scrolls and books are stacked haphazardly on the tables, and even though there are more tables than wizards it still isn't enough room even at this late hour.",
+    "Enormous bookcases reaching all the way to the ceiling stretch the length and breadth of the room and smaller ones crisscross between the numerous wide tables.  Large brass candelabra flank the heavy tables, while forged mithril chandeliers hang from above.  Scrolls and books are stacked up haphazardly upon the tables and despite how many there are, there still isn't enough room to hold everything being used by the wizards currently absorbed in study."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wizard alchemy masters",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "wl-wizard_guild.jpg",
+    "rect": [
+      421,
+      414,
+      467,
+      460
+    ]
+  },
+  "exits": [
+    {
+      "to": 6330,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 6333,
+      "kind": "go",
+      "cmd": "go bookcase",
+      "cost": 0.2
+    },
+    {
+      "to": 6350,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 16811,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30548,
+      "kind": "other",
+      "cmd": "ask ark about train potions",
+      "cost": 0.2
+    }
+  ]
+}

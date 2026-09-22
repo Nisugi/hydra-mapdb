@@ -1,0 +1,40 @@
+{
+  "id": 33297,
+  "uid": [
+    4201020
+  ],
+  "title": [
+    "[Vornavis, Gallery]"
+  ],
+  "description": [
+    "Surrounded by tapestry covered walls, the gallery's landing is comprised of a clean, polished wood floor and sparse furnishings.  Emerald green runners line the way, each spreading from the wall-hugging stairs and disappearing into the wings in the northeast and southeast.  An aerial view of the vestibule is beyond a set of fel railings, while ornate pillars and a short wall provide a stone-framed view of the Great Hall below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Vornavis Proper",
+  "terrain": "hard, flat",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 33296,
+      "kind": "go",
+      "cmd": "go wall-hugging stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 33298,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33299,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

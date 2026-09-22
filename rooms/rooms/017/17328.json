@@ -1,0 +1,58 @@
+{
+  "id": 17328,
+  "uid": [
+    253004
+  ],
+  "title": [
+    "[Warrior Guild, Entrance Hall]"
+  ],
+  "description": [
+    "A light sifting of dust covers the terra cotta floor, apparently tracked in from the courtyard beyond the double doors.  Lanterns hung from sconces along the whitewashed walls protect the candles within from the cool night breeze which moves through the unglazed windows.  Corridors lead off to the east and west, their beamed ceilings only slightly higher than a tall giantman's head."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      759,
+      988,
+      779,
+      1006
+    ]
+  },
+  "exits": [
+    {
+      "to": 17331,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17334,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 17335,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17338,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17345,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

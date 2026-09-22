@@ -1,0 +1,50 @@
+{
+  "id": 2107,
+  "uid": [
+    3030039
+  ],
+  "title": [
+    "[Manor House, Kitchen]"
+  ],
+  "description": [
+    "A great heap of mud, soot and debris pours in from an enormous crack in one wall.  Beneath the sticky hill of mud, you can barely make out the rough edges of the huge boulder that nearly destroyed the outer wall of this room."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Fhorian Village",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      965,
+      1095,
+      973,
+      1103
+    ]
+  },
+  "exits": [
+    {
+      "to": 2102,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 2108,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 2111,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 17099,
+  "uid": [
+    663006
+  ],
+  "title": [
+    "[Sorcerer Guild, Tub Room]"
+  ],
+  "description": [
+    "Condensation drips from the ceiling beams and runs down the redwood walls to disappear into a drain in the far corner, leaving the floor slick with moisture.  A spacious tub has been dropped into a hole in the redwood floor, and hot seawater swirls and foams within.  A metal vat is securely bolted against the wall with a pipe and a chain hanging down just above the tub.  Wide steps lead into the tub's churning waters."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-sorcerer_guild-1405076623.png",
+    "rect": [
+      80,
+      462,
+      118,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 17097,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17100,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

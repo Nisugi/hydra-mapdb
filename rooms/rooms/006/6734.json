@@ -1,0 +1,50 @@
+{
+  "id": 6734,
+  "uid": [
+    4121018
+  ],
+  "title": [
+    "[Upper Dragonsclaw, Ledge]"
+  ],
+  "description": [
+    "At the base of a rocky ravine, this narrow ledge is eroded from the side of the mountain.  The wind blows fiercely down from above, threatening to sweep you along with it."
+  ],
+  "paths": [
+    "Obvious paths: east, up"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      336,
+      959,
+      346,
+      969
+    ]
+  },
+  "exits": [
+    {
+      "to": 6733,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 6735,
+      "kind": "climb",
+      "cmd": "climb rocks",
+      "cost": 0.2
+    },
+    {
+      "to": 6736,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

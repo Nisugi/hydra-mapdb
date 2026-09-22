@@ -1,0 +1,42 @@
+{
+  "id": 13112,
+  "uid": [
+    562010
+  ],
+  "title": [
+    "[Outpost, Western Corridor]"
+  ],
+  "description": [
+    "Iron lanterns illuminate the dim corridor from their positions between several windows with tightly closed shutters along the eastern wall.  The sound of quiet talking comes from the open door to the west and is punctuated by random snoring.",
+    "Sunlight streams through open windows, their shutters folded back to tack advantage of the daytime illumination, along the eastern wall of the corridor and they offer a perfect vantage point of the practice courtyard beyond.  Laughter and friendly banter can be heard coming from the open door to the west."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 13106,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13107,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13124,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 20189,
+  "title": [
+    "[Feywrot Mire, Highland]"
+  ],
+  "description": [
+    "The scent of honeysuckle and cypress plays upon each passing breeze that gives the branch-bound, feathery, draping moss an eerie life of its own.  Animal tracks and bootprints overlap in the soft earth, though it would be hard to tell who was following who."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      439,
+      241,
+      453,
+      255
+    ]
+  },
+  "exits": [
+    {
+      "to": 20184,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20190,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22523,
+      "kind": "go",
+      "cmd": "go almond-hued cottage",
+      "cost": 0.2
+    }
+  ]
+}

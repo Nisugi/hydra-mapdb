@@ -1,0 +1,75 @@
+{
+  "id": 17062,
+  "uid": [
+    683150
+  ],
+  "title": [
+    "[Wizard Guild, Nexus]"
+  ],
+  "description": [
+    "Bright sunlight streams into the stone room through a partially collapsed vaulted dome ceiling, the rubble of which lies piled against the north wall of the room.  Along the edges of the ceiling hang vines and tree roots, noting the encroachment of a jungle, whose leafy green treetops are visible through the breached roof.  A small water fountain lies dormant in the center of the room, surrounded by small stone benches.  The shrieks of birds and the occasional trollish roar filter in from the outside.",
+    "Moonlight streams into the stone room through a partially collapsed vaulted dome ceiling, the rubble of which lies piled against the north wall of the room.  Along the edges of the ceiling hang vines and tree roots, noting the encroachment of a jungle, whose dark treetops are visible through the breached roof.  A small water fountain sits dormant in the center of the room, surrounded by small stone benches.  The shrieks of unseen birds and the occasional roar of a troll filter in from outside."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, southwest, west, down"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-wizard_guild.png",
+    "rect": [
+      649,
+      155,
+      708,
+      209
+    ]
+  },
+  "exits": [
+    {
+      "to": 17057,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 17063,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 17064,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17065,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 17066,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17067,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17068,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

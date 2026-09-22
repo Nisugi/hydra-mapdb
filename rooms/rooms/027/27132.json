@@ -1,0 +1,46 @@
+{
+  "id": 27132,
+  "uid": [
+    13202027
+  ],
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Deep purple lavender crowds the borders of the walk, their open blossoms delicately scenting the air with a sweet essence.  Tiny crystal globes hanging from slender ironwork poles dimly light the path as it winds through the flower's tall stalks.  A large boulder rests beside the path, moss framing a painted wooden sign affixed to its worn surface."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      400,
+      637,
+      413,
+      650
+    ]
+  },
+  "exits": [
+    {
+      "to": 27131,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 27133,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31243,
+      "kind": "go",
+      "cmd": "go amethyst pavilion",
+      "cost": 0.2
+    }
+  ]
+}

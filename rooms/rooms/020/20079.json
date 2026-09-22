@@ -1,0 +1,36 @@
+{
+  "id": 20079,
+  "title": [
+    "[Haunted Pass, Dense Trees]"
+  ],
+  "description": [
+    "Thick woods block most the view here, only allowing travel along the path heading northeast.  The soil is quite wet and covered with all sorts of foliage and wildlife.  A putrid odor wafts in from the path, which leads back out into the outer swamp."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Feymist Cemetery",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      64,
+      975,
+      73,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 20078,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20219,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 23222,
+  "uid": [
+    213010
+  ],
+  "title": [
+    "[White Haven, Banquet Hall]"
+  ],
+  "description": [
+    "A long black walnut table dominates this hall and is surrounded by matching chairs, each engraved with twining vines along the back.  A sideboard of similar decor provides convenient storage for serving dishes, while a few tables of a more private nature are located near the back of the room.  White arabesque winds across the ceiling, the pattern centering on a twining gold chandelier."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "White Haven",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:White Haven"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      1442,
+      442,
+      1519,
+      518
+    ]
+  },
+  "exits": [
+    {
+      "to": 23221,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23223,
+      "kind": "go",
+      "cmd": "go curved passageway",
+      "cost": 0.2
+    },
+    {
+      "to": 23631,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go wildflower table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23632,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mithril table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23633,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go granite table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23634,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go rose table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23639,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go ice hound table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

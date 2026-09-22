@@ -1,0 +1,39 @@
+{
+  "id": 17566,
+  "title": [
+    "[Deep Passageway]"
+  ],
+  "description": [
+    "A passage widens slightly here, exposing blocks of undressed foundation stones on one side.  Passages branch off into darkness, with no apparent pattern or direction."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "Ta'Vaalor",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "maze"
+  ],
+  "exits": [
+    {
+      "to": 5930,
+      "kind": "go",
+      "cmd": "go wide crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 17561,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20425,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

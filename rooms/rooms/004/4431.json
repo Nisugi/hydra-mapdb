@@ -1,0 +1,57 @@
+{
+  "id": 4431,
+  "title": [
+    "[Topaz Level, Central Access]"
+  ],
+  "description": [
+    "A metal ladder bolted into the wall ascends to the upper levels of the mine.  The ladder looks sturdy enough to bear the weight of a giantman, but the rung separation is much better suited to a dwarf or halfling.  A pair of shafts leads out from this accessway."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4392,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    },
+    {
+      "to": 4432,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 4436,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    },
+    {
+      "to": 4440,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4441,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4476,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

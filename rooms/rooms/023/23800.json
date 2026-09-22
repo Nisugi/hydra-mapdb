@@ -1,0 +1,48 @@
+{
+  "id": 23800,
+  "title": [
+    "[Windfellow's Retreat, Courtyard]"
+  ],
+  "description": [
+    "The courtyard extends into a rather grubby stretch of land liberally punctuated with banners, flags, and hand-painted signs that invite festival goers to sample every delight the retreat has to offer.  An insufficient amount of straw has been trampled into the muddy ground creating a slippery walkway through the maze of merchant stalls."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "image": {
+    "file": "fest-windfellows_retreat-1625967088.jpg",
+    "rect": [
+      788,
+      1688,
+      844,
+      1743
+    ]
+  },
+  "exits": [
+    {
+      "to": 23757,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28393,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28441,
+      "kind": "go",
+      "cmd": "go oilcloth tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28470,
+      "kind": "go",
+      "cmd": "go linden-paneled wagon",
+      "cost": 0.2
+    }
+  ]
+}

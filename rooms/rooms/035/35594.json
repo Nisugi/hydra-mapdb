@@ -1,0 +1,63 @@
+{
+  "id": 35594,
+  "uid": [
+    7150606
+  ],
+  "title": [
+    "[The Contempt, Aft]"
+  ],
+  "description": [
+    "Beneath the thundering canvas of the mizzenmast, the quarterdeck rises imperiously toward the ship's blunt stern.  Mirrored sets of stairs ascend to the raised deck, leaving space for a black wooden hatch heavily reinforced with dark steel allowing entry to the cabin beneath.  Several barrels sit nearby in various states of disrepair, the golden frame of a compass atop one standing out against the dark wood."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      4520,
+      680,
+      4600,
+      760
+    ]
+  },
+  "exits": [
+    {
+      "to": 35593,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35595,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35597,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35600,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 35601,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

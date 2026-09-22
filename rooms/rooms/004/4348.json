@@ -1,0 +1,51 @@
+{
+  "id": 4348,
+  "title": [
+    "[Emerald Level, Central Shaft]"
+  ],
+  "description": [
+    "Four different tunnels can be accessed from this central shaft area.  None of the passageways are well lit, as each of the shafts are illuminated by only a few sparse torches.  A ladder ascends to the upper levels."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4349,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4355,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4365,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4373,
+      "kind": "other",
+      "cmd": "clim ladd",
+      "cost": 0.2
+    },
+    {
+      "to": 4482,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 35615,
+  "uid": [
+    7150510
+  ],
+  "title": [
+    "[The Mageborn, Hold]"
+  ],
+  "description": [
+    "Sea scum congregates around the lower rim of a hatchway above steps of carved teak that lead up out of the submerged hold.  Weakened by rust, the hinges have surrendered to the weight of the hatch, which is forged from steel and gilded.  The tide swirls beneath, thick with shattered planks and other detritus.  Though stained with rust and choked with algae and sea mosses, the walls around the entry are painted with a spread-winged bird in bright blue pigment."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1800,
+      2600,
+      1880,
+      2680
+    ]
+  },
+  "exits": [
+    {
+      "to": 35614,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35616,
+      "kind": "go",
+      "cmd": "go hatchway",
+      "cost": 0.2
+    }
+  ]
+}

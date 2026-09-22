@@ -1,0 +1,49 @@
+{
+  "id": 17905,
+  "uid": [
+    268005
+  ],
+  "title": [
+    "[Rogue Guild, Corridor]"
+  ],
+  "description": [
+    "Square glaes windows line the walls of this wide corridor, framed with a thin border of gold against the black marble.  Faint murmuring can be heard from beyond a dark lacquered door."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      455,
+      344,
+      493,
+      382
+    ]
+  },
+  "exits": [
+    {
+      "to": 17896,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17903,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17906,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 22415,
+  "uid": [
+    13125083
+  ],
+  "title": [
+    "[Chancery of the Purifying Flood]"
+  ],
+  "description": [
+    "The marble floor has been cut and resectioned, making way for a large rectangular pool.  A raised dais sits at the head of the basin, elevated above the water level and set with a carved jade and mahogany seat.  Overhead, a skylight opens the chamber to the elements."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      871,
+      178,
+      932,
+      214
+    ]
+  },
+  "exits": [
+    {
+      "to": 22410,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22416,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    }
+  ]
+}

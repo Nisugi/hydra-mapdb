@@ -1,0 +1,41 @@
+{
+  "id": 35901,
+  "uid": [
+    3024026
+  ],
+  "title": [
+    "[Dark Cliffs, Bloodied Cave]"
+  ],
+  "description": [
+    "Layers of dried blood and soot cover the walls and floor of this towering cave.  Deep slashes and gouges mar the walls where tools or weapons have struck with great force, revealing deep black basalt beneath the surface.  The gargantuan skull of a bizarre, leviathan creature hangs from the ceiling by numerous twisted dark glaes chains."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the River Muagh",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      331,
+      344,
+      369,
+      383
+    ]
+  },
+  "exits": [
+    {
+      "to": 35900,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 35902,
+      "kind": "go",
+      "cmd": "go dark chains",
+      "cost": 0.2
+    }
+  ]
+}

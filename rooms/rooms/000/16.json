@@ -1,0 +1,53 @@
+{
+  "id": 16,
+  "uid": [
+    13100090
+  ],
+  "title": [
+    "[Ta'Illistim, Erissian Var]"
+  ],
+  "description": [
+    "The facade of the courtyard of the Library Aies towers above, clad in grey-blue granite.  Brightly burning torches on either side of the doors illuminate heavy bas-relief murals carved into the walls surrounding the doors, each depicting scenes of scholars in study and discussion.  Formal garden plantings march in neat rows along the path leading to the ironwork front gates, nodding in the slight breeze like tiny drunken soldiers.  The sound of water tumbling in the fountain echoes softly off the massive stone wall.",
+    "The facade of the courtyard of the Library Aies towers above, clad in grey-blue granite.  Heavy bas-relief murals are carved into the walls surrounding the doors, depicting scenes of scholars in study and discussion.  Formal garden plantings march in neat rows along the path leading to the ironwork front gates, nodding in the slight breeze like tiny drunken soldiers.  The sound of water tumbling in the fountain echoes softly off the massive stone wall.",
+    "A colonnade of silvery blue stone columns forms the front of the enclosure surrounding the courtyard of the Library Aies, which is set back from the var.  Heavy bas-relief murals are carved into the frieze within the colonnade's entablature, their combined scenes depicting a long progression of elven scholars in study and discussion.  Prominently placed between the street and the columns is a huge cast bronze book."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      732,
+      545,
+      754,
+      569
+    ]
+  },
+  "exits": [
+    {
+      "to": 15,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13231,
+      "kind": "go",
+      "cmd": "go courtyard",
+      "cost": 0.2
+    }
+  ]
+}

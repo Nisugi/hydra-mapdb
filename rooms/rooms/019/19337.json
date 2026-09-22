@@ -1,0 +1,65 @@
+{
+  "id": 19337,
+  "uid": [
+    265303
+  ],
+  "title": [
+    "[The Broken Stein, Backroom]"
+  ],
+  "description": [
+    "Barely larger than a closet, the small room uses a single candle set within a niche as its sole source of illumination.  Boxes and crates are arranged to create a makeshift desk against the bricks of the eastern wall, while the western side has been left free of any debris that would impede movement to the oaken door."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild",
+    "rogueguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Isle of the Four Winds",
+    "mapcategory:Premium",
+    "mapname:Isle of the Four Winds - Rogue Guild",
+    "mapshortname:Rogue Guild (FWI)"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      801,
+      340,
+      816,
+      353
+    ]
+  },
+  "exits": [
+    {
+      "to": 21127,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    },
+    {
+      "to": 21140,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

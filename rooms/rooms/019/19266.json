@@ -1,0 +1,44 @@
+{
+  "id": 19266,
+  "uid": [
+    94042
+  ],
+  "title": [
+    "[Dark Shrine, Altar]"
+  ],
+  "description": [
+    "The low stone altar is covered with dark stains.  One corner of the altar has been broken off, and several of the hideous faces and figures carved into the stone walls have been smashed.  Large iron braziers, covered with rust and corrosion, stand at each end of the altar table.  A cracked brass gong hangs from a wooden brace along the north wall, facing an ancient tapestry which hangs directly opposite."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "lesser vruul"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1056,
+      249,
+      1064,
+      257
+    ]
+  },
+  "exits": [
+    {
+      "to": 19265,
+      "kind": "go",
+      "cmd": "go tapestry",
+      "cost": 0.2
+    },
+    {
+      "to": 19267,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": 31587,
+  "uid": [
+    8083022
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Perched on the edge of Nature's Glade, the cobblestone road is awash with verdant hues.  High viridian hedges block the view of Winterbriar Orchard to the north, while dense growth hides the view of the Gleyminn Anni River to the south where a flora-edged spindled pathway descends.  Though both places are not visible, their presence is evident by the sound of rushing waters and the scent of fragrant lilac."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      391,
+      467,
+      413,
+      487
+    ]
+  },
+  "exits": [
+    {
+      "to": 31571,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31578,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31588,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31590,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

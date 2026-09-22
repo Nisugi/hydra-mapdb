@@ -1,0 +1,47 @@
+{
+  "id": 10421,
+  "uid": [
+    14114005
+  ],
+  "title": [
+    "[Stockade, Cell Corridor]",
+    "[Bastille, Cell Corridor]"
+  ],
+  "description": [
+    "In an abrupt departure from the elegance of the public areas of the bastille visible through the iron doorway to the east, bare stone floors run the length of this hallway.  Bright torches are set in the walls between the cell doors, shedding light through the heavy bars.  Lightly blowing through the hallway, a faint breeze carries the aroma of sweat on its tail.",
+    "In an abrupt departure from the elegance of the public areas of the bastille, bare stone floors run the length of this hallway.  Bright torches are set in the walls between the cell doors, shedding light through the heavy bars.  Lightly blowing through the hallway, a faint breeze carries the aroma of sweat on its tail."
+  ],
+  "paths": [
+    "Obvious exits: west",
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 10420,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 10422,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13993,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 10064,
+  "uid": [
+    4901081
+  ],
+  "title": [
+    "[Lobstereum]"
+  ],
+  "description": [
+    "The briny air from the nearby sea assaults the senses in this dark, dank, and enclosed space.  Slivers of light filter through the numerous scattered wormholes, highlighting the filthy orange hue of the lobster-shaped mat that spans the muddy floor.  Mounted askew on the rotting wooden walls are displays of prized catches, complete with their cages suspended from the ceiling on a web of mooring rope.  A boldly painted sign hangs above a ratty oilskin curtain to the west while a dimly lit passage leads further in."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 1579,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 10100,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 14444,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

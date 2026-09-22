@@ -1,0 +1,50 @@
+{
+  "id": 4664,
+  "uid": [
+    212007
+  ],
+  "title": [
+    "[Helden Hall, Private Armory]"
+  ],
+  "description": [
+    "This small chamber is made purely of stone.  Torchlight illuminates all and the pungent smell of polishing oil fills the air.  A bedraggled brown curtain covers half the room."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Helden Hall",
+    "che:helden_hall:entrance_locker"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      137,
+      805,
+      176,
+      841
+    ]
+  },
+  "exits": [
+    {
+      "to": 3880,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 24247,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 35983,
+      "kind": "go",
+      "cmd": "go brown curtain",
+      "cost": 0.2
+    }
+  ]
+}

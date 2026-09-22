@@ -1,0 +1,38 @@
+{
+  "id": 30921,
+  "uid": [
+    272002
+  ],
+  "title": [
+    "[Jungle, Clearing]"
+  ],
+  "description": [
+    "The thick jungle growth is held at bay by a huge banyan tree, its trunk a wall of smaller boles all melded into the one tree.  Ferns sprout around its foot and orchids create a riot of color, clinging to crevices in the tree's branches with their curling roots.  A thick wall of buttress roots shields the tree, preventing a close approach to it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, out"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "tropical",
+  "exits": [
+    {
+      "to": 12566,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 12568,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30922,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 645,
+  "uid": [
+    13049001
+  ],
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "Branching off to the southeast, the cobblestoned road shows signs of wear that indicate frequent use.  A copse of trees stands nearby, birds atwitter in the tree branches.  A tall stone marker stands in front of the copse."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Sylvarraend Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      203,
+      437,
+      213,
+      447
+    ]
+  },
+  "exits": [
+    {
+      "to": 46,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 646,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27131,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

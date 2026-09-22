@@ -1,0 +1,83 @@
+{
+  "id": 3778,
+  "uid": [
+    15004001
+  ],
+  "title": [
+    "[Adventurer's Guild, Lobby]"
+  ],
+  "description": [
+    "Complex layers of stacked stone, ranging in color from palest grey to nearly solid black, form the entire rear wall into one massive fireplace.  The flames spread their welcome warmth throughout the greatroom, warding off the chill let in by the constant comings and goings of guild members.  Enormous tusked and horned heads of the fierce beasts of the north are mounted along the east wall, gazing at the rest of the guild through glass eyes."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguild",
+    "bounty",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      998,
+      970,
+      1064,
+      1033
+    ]
+  },
+  "exits": [
+    {
+      "to": 2427,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 3779,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

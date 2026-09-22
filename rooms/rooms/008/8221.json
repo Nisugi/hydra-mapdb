@@ -1,0 +1,60 @@
+{
+  "id": 8221,
+  "uid": [
+    392001
+  ],
+  "title": [
+    "[Sea Caverns, Lower Level]"
+  ],
+  "description": [
+    "Moss clings to the walls of this small, chilly cavern.  The smashed remains of a barrel rot in one corner.  A cool draft blows toward the east, and progress to the south is blocked by a crude but sturdy gate."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the sea caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      381,
+      230,
+      391,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 8213,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 8220,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8224,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

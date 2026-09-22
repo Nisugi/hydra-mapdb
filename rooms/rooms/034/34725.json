@@ -1,0 +1,58 @@
+{
+  "id": 34725,
+  "uid": [
+    4572045
+  ],
+  "title": [
+    "[Sablecross, Vesper Crescent]"
+  ],
+  "description": [
+    "Sheer walls of onyx-hued sandstone enclose the garden of a nearby temple.  Black-boled lor trees with sallow red leaves strain up over the wall as if snatching at the sky.  Elaborate jackal head carvings adorn the columns to either side of the gates, which are wrought from lightless metal and graced with flourishes of dusky gold.  Opposite it, a smaller compound houses a dark blue temple, black sand from its yard scattering through its silver-chased indigo arch."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      369,
+      666,
+      400,
+      696
+    ]
+  },
+  "exits": [
+    {
+      "to": 34609,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 34610,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 34726,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 34728,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 34739,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

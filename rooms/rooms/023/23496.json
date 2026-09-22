@@ -1,0 +1,40 @@
+{
+  "id": 23496,
+  "title": [
+    "[Furrfoot's Revenge, Barroom]"
+  ],
+  "description": [
+    "The room is lit by several brass lanterns that sway in time to the gentle rocking of the ship.  Cloyingly sweet cigar smoke hangs in the air, drifting in from a carved maoral arch that leads into a shady-looking casino.  A brass rod suspending a heavy black curtain with muffled sounds coming from behind it -- clearly inaccessible to the public -- is positioned near a long modwir bar at the back of the room.  A heavy scarlet curtain is draped over one of the walls, providing a dark wash of sanguine color to the bar."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the bay",
+  "exits": [
+    {
+      "to": 19109,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "knock wall"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 23497,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23503,
+      "kind": "go",
+      "cmd": "go modwir bar",
+      "cost": 0.2
+    }
+  ]
+}

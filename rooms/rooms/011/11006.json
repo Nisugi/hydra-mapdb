@@ -1,0 +1,99 @@
+{
+  "id": 11006,
+  "uid": [
+    2104011
+  ],
+  "title": [
+    "[South River Road, Drawbridge]"
+  ],
+  "description": [
+    "A worn but sturdy drawbridge spans the vast river here, connecting the road with the town on the opposite bank.  Some of the more daring children from town make sport of jumping off the bridge into the water below, swimming quickly to the beach a short way down the river.  You also see a road winding westward to a wide body of water while to the east it travels further up river."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the South River Road",
+  "climate": "moist",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red cranberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden flax fronds",
+    "grapefruit",
+    "kylan berry",
+    "murdroot",
+    "round yuzu",
+    "small green quenepas",
+    "soft mushroom",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "striped heart mushroom",
+    "sunburst blossom",
+    "talneo root",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild chokecherry",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2295,
+      1645,
+      2317,
+      1666
+    ]
+  },
+  "exits": [
+    {
+      "to": 10840,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "citizenship": "River's Rest"
+            },
+            {
+              "flag": "invisible"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 11007,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11023,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18677,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

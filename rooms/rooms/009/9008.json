@@ -1,0 +1,68 @@
+{
+  "id": 9008,
+  "uid": [
+    733001
+  ],
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Several steps down from street level, this passageway winds a twisting path that tunnels underneath city buildings.  Here, the cobblestones of the roads above are repeated, however they're less weathered and more cumbersome to navigate with sound footing.  Oil lamps glow permanently, day and night, due to the subterranean nature of the area."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1435,
+      488,
+      1447,
+      500
+    ]
+  },
+  "exits": [
+    {
+      "to": 1441,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 9009,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13520,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 13521,
+      "kind": "go",
+      "cmd": "go grey building",
+      "cost": 0.2
+    },
+    {
+      "to": 13525,
+      "kind": "go",
+      "cmd": "go tiny hutch",
+      "cost": 0.2
+    },
+    {
+      "to": 17105,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 12502,
+  "uid": [
+    3008005
+  ],
+  "title": [
+    "[Suniel's Pantry]"
+  ],
+  "description": [
+    "Shelves filled with provisions and lined with baskets and jars crowd this part of the hallway, passing through a small pantry.  A thick maoral door posted with a small birch bark sign framed with dried oak-leafed branches stands open, and reveals some steps that traverse downward."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 12501,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14833,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 30771,
+      "kind": "go",
+      "cmd": "go dark hallway",
+      "cost": 0.2
+    }
+  ]
+}

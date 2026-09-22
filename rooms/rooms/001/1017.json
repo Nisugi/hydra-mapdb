@@ -1,0 +1,76 @@
+{
+  "id": 1017,
+  "uid": [
+    13002015
+  ],
+  "title": [
+    "[Khazar's Hold, Central]"
+  ],
+  "description": [
+    "A dwarven outpost is located on this shelf carved into the rock mountain face.  Ragged tents line the edges of the outpost along the cliff and rock face.  A ramshackle tavern that sits just to the north has a faded wooden sign hanging unsteadily above its door.  The wind whips around the sides of the mountain, kicking up dirt and adding quite a chill to the air.  Diverse groups of travelers wander past, most likely just passing through on their way to another town."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Khazar's Hold",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "ayana leaf",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      82,
+      462,
+      92,
+      472
+    ]
+  },
+  "exits": [
+    {
+      "to": 1016,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1018,
+      "kind": "climb",
+      "cmd": "climb cliff",
+      "cost": 0.2
+    },
+    {
+      "to": 9611,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9612,
+      "kind": "go",
+      "cmd": "go tavern",
+      "cost": 0.2
+    },
+    {
+      "to": 9616,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

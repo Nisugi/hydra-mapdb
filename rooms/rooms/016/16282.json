@@ -1,0 +1,44 @@
+{
+  "id": 16282,
+  "uid": [
+    34234
+  ],
+  "title": [
+    "[Bamboo Cottage, Attic]"
+  ],
+  "description": [
+    "This small room smells very musty, and its builder did not have enough sense to equip it with any windows.  He did, however, decide to build some handy shelves along the perimeter to hold the many vials of dye spotted throughout the room.  The eastern wall of the room is made from natural slate rock and seems to be untouched by modern tools except for a solid staircase that emerges from its corner."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-dyers_tent-1512165849.png",
+    "rect": [
+      1862,
+      409,
+      2011,
+      485
+    ]
+  },
+  "exits": [
+    {
+      "to": 16178,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16283,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

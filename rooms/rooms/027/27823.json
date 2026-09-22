@@ -1,0 +1,41 @@
+{
+  "id": 27823,
+  "uid": [
+    284017
+  ],
+  "title": [
+    "[Cholen's Temple, West Hall]"
+  ],
+  "description": [
+    "The wide corridor ends at an arched door adorned with a golden musical note set in a diamond of blue-stained wood.  Brass lanterns line the walls, spilling golden light in pools across the long crimson rug that traverses the length of the hall.  Three short steps lead up to an elevated door set in the east wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 27818,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27824,
+      "kind": "go",
+      "cmd": "go elevated door",
+      "cost": 0.2
+    },
+    {
+      "to": 27825,
+      "kind": "go",
+      "cmd": "go arched door",
+      "cost": 0.2
+    }
+  ]
+}

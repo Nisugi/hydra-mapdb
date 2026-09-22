@@ -1,0 +1,35 @@
+{
+  "id": 36272,
+  "uid": [
+    18908005
+  ],
+  "title": [
+    "[Militia Keep, Tower]"
+  ],
+  "description": [
+    "A precisely angled ceiling of thick iron plates arcs overhead, supported by the carved stone that makes up the tower.  Several windows surround the cramped chamber, offering views just large enough to take in the sprawl of the city below.  Each wall has been affixed with carefully arranged racks of provisions, keeping the floor free of clutter while allowing adequate room around the large ballista."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Mist Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "ballista"
+  ],
+  "exits": [
+    {
+      "to": 36271,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 36273,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

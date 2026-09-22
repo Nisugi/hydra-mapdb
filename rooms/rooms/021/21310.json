@@ -1,0 +1,78 @@
+{
+  "id": 21310,
+  "uid": [
+    107102
+  ],
+  "title": [
+    "[House Brigatta, Common Room]"
+  ],
+  "description": [
+    "The main room of the house is large but cozy.  A pair of settees with matching footstools sit before a massive stone fireplace.  Along one wall, tall bookcases stand alternately with racks, each holding a goodly assortment of their proper objects.  Thickly woven tapestries cover the windows, enhancing the room's feelings of privacy and intimacy."
+  ],
+  "paths": [
+    "Obvious exits: east, south",
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Brigatta"
+  ],
+  "image": {
+    "file": "wl-Brigatta-1646274146.png",
+    "rect": [
+      299,
+      544,
+      450,
+      704
+    ]
+  },
+  "exits": [
+    {
+      "to": 21304,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21308,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "pull black volume"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21311,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21312,
+      "kind": "go",
+      "cmd": "go postern",
+      "cost": 0.2
+    },
+    {
+      "to": 21317,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24517,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25684,
+      "kind": "go",
+      "cmd": "go corridor",
+      "cost": 0.2
+    }
+  ]
+}

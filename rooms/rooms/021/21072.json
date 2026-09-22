@@ -1,0 +1,55 @@
+{
+  "id": 21072,
+  "uid": [
+    3217011
+  ],
+  "title": [
+    "[Alhan'naht River, Jungle Pass]"
+  ],
+  "description": [
+    "Moving at a swift pace, the river glides past the large and small boulders that create its rough banks.   Moonlight slants at angles through the rough canopy overhead and glistens upon the crystal clear waters, while verdant vines and broad-leafed ferns take root on the distant edges."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1578,
+      2242,
+      1597,
+      2262
+    ]
+  },
+  "exits": [
+    {
+      "to": 21071,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push nw"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push se"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

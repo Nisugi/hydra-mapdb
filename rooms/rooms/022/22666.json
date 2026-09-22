@@ -1,0 +1,68 @@
+{
+  "id": 22666,
+  "title": [
+    "[Smuggling Tunnels, Cavern]"
+  ],
+  "description": [
+    "Crumbling limestone soars overhead, spanning outward from a low, boulder-blocked passageway into an expansive cavern area that is largely wrapped in darkness.  Red spots, painted at various intervals, splatter across the walls, each centered with a long steel spike driven into the limestone.  Stretched between three adjacent spikes, a long coil of rope is draped with various hats.  At the very edge of the wan torchlight, where the ground suddenly drops away, the top of a narrow ladder is barely visible."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 22571,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "lie"
+        },
+        {
+          "move": "crawl boulder-blocked passageway"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24233,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go ladder"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "low opening"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

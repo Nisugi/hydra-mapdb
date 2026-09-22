@@ -1,0 +1,44 @@
+{
+  "id": 19431,
+  "uid": [
+    650017
+  ],
+  "title": [
+    "[Empath Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Icemule Trace",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "trash"
+  ],
+  "image": {
+    "file": "imt-empath_guild-1307499864.png",
+    "rect": [
+      524,
+      31,
+      568,
+      70
+    ]
+  },
+  "exits": [
+    {
+      "to": 19429,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19432,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

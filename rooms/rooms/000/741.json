@@ -1,0 +1,53 @@
+{
+  "id": 741,
+  "uid": [
+    13101052
+  ],
+  "title": [
+    "[Ta'Illistim, Caear Var]"
+  ],
+  "description": [
+    "Profusely blooming cascades of miniature roses trail from the windowboxes of a nearby shop.  A small basket of flowers rests on the doorstep, and an engraved silver sign is mounted upon the cottage's pale blue painted door.",
+    "Profusely blooming cascades of miniature roses trail from the window boxes of a nearby shop.  A small basket of flowers rests on the doorstep, and an engraved silver sign is mounted upon the building's pale blue painted door."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      838,
+      249,
+      861,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 740,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 742,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4017,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

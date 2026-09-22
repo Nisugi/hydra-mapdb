@@ -1,0 +1,85 @@
+{
+  "id": 13065,
+  "uid": [
+    560002
+  ],
+  "title": [
+    "[Rocky Trail]"
+  ],
+  "description": [
+    "Having meandered slowly upward to this point, the trail comes to an abrupt end at the foot of a narrow, rounded sheer vertical cliff.  A rough-hewn stone pillar stands mere inches from the rock face in a small clearing here."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "tags": [
+    "angelica root",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "brostheras grass",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "golden aster",
+    "ironfern root",
+    "leafy arugula",
+    "luckbloom blossom",
+    "marallis berry",
+    "oak twig",
+    "pennyroyal stem",
+    "rainbow chard",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of chicory",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild pink geranium",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      400,
+      366,
+      410,
+      376
+    ]
+  },
+  "exits": [
+    {
+      "to": 13064,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 13066,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go cleft"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33690,
+  "uid": [
+    7101233
+  ],
+  "title": [
+    "[Keep Tower, Seareach Room]"
+  ],
+  "description": [
+    "Swathes of dust-heavy cobwebs fall in lengths across the darkened room, which is surrounded by dozens of tapestries that depict similar scenes.  Several lacquered masts, each hung with a different flag, are arranged through the room and are labeled with the names of historical vessels."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1655,
+      30,
+      1701,
+      74
+    ]
+  },
+  "exits": [
+    {
+      "to": 33656,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 33691,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33692,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 31485,
+  "uid": [
+    7136051
+  ],
+  "title": [
+    "[Airmen's Rest, Gathering]"
+  ],
+  "description": [
+    "Several leather-covered chairs are placed around a thick, woven reed carpet that is centered in front of a large grey stone fireplace.  Rich, spicy aromas from cooking food drift about the tavern, mixing with the scent of fresh ale.  Dark walls of lacquered wood glisten as the light from several black iron chandeliers illuminate the tavern.  A row of padded stools are lined up in front of a polished driftwood and glaes counter.  A narrow wooden staircase in the back leads up to an open hallway above."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Elven Nations Port",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "barkeep",
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 31484,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31486,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 31491,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31524,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

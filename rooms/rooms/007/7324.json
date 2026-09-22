@@ -1,0 +1,97 @@
+{
+  "id": 7324,
+  "uid": [
+    2150007
+  ],
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "A rough granite gravestone stands against the west wall of the valley.  The torn and broken ground beneath the marker leads you to believe that whatever was buried here chose to leave.  Strangely, the thick mists circle the area, carefully avoiding the gravesite."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "blue whortleberry",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "ironfern root",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wild chokecherry",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      922,
+      334,
+      932,
+      344
+    ]
+  },
+  "exits": [
+    {
+      "to": 4541,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "yell jaron galarn"
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "you stumble upon a low opening"
+            ]
+          }
+        },
+        {
+          "move_while": [
+            "go opening",
+            {
+              "not": {
+                "exit": "s"
+              }
+            }
+          ]
+        },
+        {
+          "put": "stand",
+          "when": {
+            "not": {
+              "posture": "standing"
+            }
+          }
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 7322,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7323,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

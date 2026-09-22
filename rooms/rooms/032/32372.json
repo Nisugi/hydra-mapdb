@@ -1,0 +1,238 @@
+{
+  "id": 32372,
+  "uid": [
+    7133026
+  ],
+  "title": [
+    "[Frostmain Docks, Cold Pier]"
+  ],
+  "description": [
+    "Wailing and biting, the gale shrieking down off of the icebergs in the distance carries a cruel chill.  In concert with the seaspray, it has coated the pier in ice crystals that gleam and glisten, distracting from the rotting wood beneath.  Some of the planks, clad in icy skin, shine like polished glass."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Frostmain Docks",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "portmaster",
+    "silver-cost:10838:25000",
+    "silver-cost:11756:12500",
+    "silver-cost:1870:25000",
+    "silver-cost:250:10000",
+    "silver-cost:29033:25000",
+    "silver-cost:31493:35000",
+    "silver-cost:32928:25000"
+  ],
+  "image": {
+    "file": "imt-Road_to_Moonsedge-1668377644.png",
+    "rect": [
+      1272,
+      167,
+      1316,
+      213
+    ]
+  },
+  "exits": [
+    {
+      "to": 250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 1870,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 10838,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "put": "ask portmaster about travel 3"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 11756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 29033,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 31493,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32371,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32928,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 35254,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 11"
+        },
+        {
+          "put": "ask portmaster about travel 11"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    }
+  ]
+}

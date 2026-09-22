@@ -1,0 +1,44 @@
+{
+  "id": 29485,
+  "uid": [
+    13007211
+  ],
+  "title": [
+    "[Czeroth Labyrinth, Tunnel]"
+  ],
+  "description": [
+    "This shallow tunnel's low ceiling slants at an unusual angle making progress difficult.  As it proceeds east, the narrow walls close in claustrophobically.  A downward slope to the west delves into a pool of darkness."
+  ],
+  "paths": [
+    "Obvious exits: southeast, down"
+  ],
+  "location": "the Czeroth Caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_czeroth.png",
+    "rect": [
+      142,
+      279,
+      164,
+      297
+    ]
+  },
+  "exits": [
+    {
+      "to": 29484,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29488,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

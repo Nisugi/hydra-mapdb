@@ -1,0 +1,68 @@
+{
+  "id": 23229,
+  "uid": [
+    213015
+  ],
+  "title": [
+    "[White Haven, Upper Landing]"
+  ],
+  "description": [
+    "A wide hall carpeted in blue is brightened by small tables bearing fresh flowers and small carvings.  Four modwir doors painted yellow, blue, white and black line the walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "White Haven",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:White Haven"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      321,
+      200,
+      395,
+      281
+    ]
+  },
+  "exits": [
+    {
+      "to": 23213,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23230,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 23231,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 23232,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 23233,
+      "kind": "go",
+      "cmd": "go yellow door",
+      "cost": 0.2
+    },
+    {
+      "to": 23234,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

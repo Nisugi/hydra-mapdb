@@ -1,0 +1,62 @@
+{
+  "id": 20164,
+  "title": [
+    "[Feywrot Mire, Banyan Cirque]"
+  ],
+  "description": [
+    "Small pathways, not much wider than a bootprint, wind their brown and muddy scars through the stubbled grasses.  A low screened-in gazebo is surrounded by patches of varicolored bromeliads.  Tucked beneath the boughs of a sprawling runner oak, the structure provides respite from the buzzing of nighttime insects.  A deeper and more trodden set of bootmarks head south toward an enormous ancient banyan.",
+    "Small pathways, not much wider than a bootprint, wind their brown and muddy scars through the stubbled grasses.  A low screened-in gazebo is surrounded by patches of varicolored bromeliads.  Tucked beneath the boughs of a sprawling runner oak, the structure provides respite from the buzzing of nighttime insects.  A deeper and more trodden set of bootmarks head south toward a diseased banyan.",
+    "Small pathways, not much wider than a bootprint, wind their brown and muddy scars through the stubbled grasses.  A low screened-in gazebo is surrounded by patches of varicolored bromeliads.  Tucked beneath the boughs of a sprawling runner oak, the structure provides respite from the oppressive heat and humidity.  A deeper and more trodden set of bootmarks head south toward a diseased banyan."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      619,
+      292,
+      634,
+      306
+    ]
+  },
+  "exits": [
+    {
+      "to": 20160,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20168,
+      "kind": "go",
+      "cmd": "go gazebo",
+      "cost": 0.2
+    },
+    {
+      "to": 20170,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20175,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21386,
+      "kind": "go",
+      "cmd": "go banyan",
+      "cost": 0.2
+    },
+    {
+      "to": 21389,
+      "kind": "go",
+      "cmd": "go metal shack",
+      "cost": 0.2
+    }
+  ]
+}

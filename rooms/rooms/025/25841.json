@@ -1,0 +1,45 @@
+{
+  "id": 25841,
+  "title": [
+    "[Stone Manor, Upstairs Hallway]"
+  ],
+  "description": [
+    "A lavish navy blue carpet runs the span of the hallway, which ends at a pair of glass doors.  Various oil-painted portraits hang from each wall, broken up only by a dark mahogany double door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Stone Manor, outside the island town of Mist Harbor",
+  "tags": [
+    "private property"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      440,
+      1020,
+      480,
+      1060
+    ]
+  },
+  "exits": [
+    {
+      "to": 25837,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 25842,
+      "kind": "go",
+      "cmd": "go glass doors",
+      "cost": 0.2
+    },
+    {
+      "to": 25843,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    }
+  ]
+}

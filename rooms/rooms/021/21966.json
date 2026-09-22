@@ -1,0 +1,46 @@
+{
+  "id": 21966,
+  "title": [
+    "[Talador Mines, Rocky Ledge]"
+  ],
+  "description": [
+    "A large outcropping extends from the cavern wall.  The air is chilled and engulfed in darkness, save for the glowing maggots crawling along the walls."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      900,
+      328,
+      914,
+      341
+    ]
+  },
+  "exits": [
+    {
+      "to": 21965,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 21967,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

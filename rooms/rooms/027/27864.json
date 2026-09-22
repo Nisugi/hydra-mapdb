@@ -1,0 +1,84 @@
+{
+  "id": 27864,
+  "title": [
+    "[Greatroom]"
+  ],
+  "description": [
+    "High ceilings make this room feel larger than it is.  The front hosts brocade armchairs facing a small fireplace.  Over the mantel, a colorful painting is hung.  A dark wood display case cordons off the back of the room.  In one corner, a long oak counter isolates a cast iron stove and a large oak pantry.  A maoral table and an antique wood buffet occupy the other corner.  A set of stained glass doors leads out the back.  A large expanse of windows allow muted sunlight to fill the room.  Near the front door, a tall window provides a view of guests."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 27860,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock oak door"
+        },
+        {
+          "put": "open oak door"
+        },
+        {
+          "move": "go oak door"
+        },
+        {
+          "put": "close oak door"
+        },
+        {
+          "put": "lock oak door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    },
+    {
+      "to": 27865,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "remove {item:cord-strung delicate brass key}"
+        },
+        {
+          "put": "unlock stained door"
+        },
+        {
+          "put": "open stained door"
+        },
+        {
+          "move": "go stained door"
+        },
+        {
+          "put": "close stained door"
+        },
+        {
+          "put": "lock stained door"
+        },
+        {
+          "put": "wear {item:cord-strung delicate brass key}"
+        }
+      ],
+      "cost": {
+        "when": {
+          "wearing": "cord-strung delicate brass key"
+        },
+        "then": 5.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 24613,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "A small brook cuts across the meadow, running near the path as it winds along.  The water gurgles merrily as it tumbles over smooth stones and temporarily fills a small pool on its way to the nearby Mistydeep River.  An old silvery-hued wind chime, hung from the branches of a nearby haon bush, chimes gently in the breeze.",
+    "A small brook cuts across the meadow, running near the path as it winds along.  The water gurgles merrily as it tumbles over smooth stones and temporarily fills a small pool on its way to the nearby Mistydeep River.  An old silvery-hued wind chime, hung from the branches of a nearby haon bush, chimes gently in the evening breeze."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      419,
+      200,
+      440,
+      221
+    ]
+  },
+  "exits": [
+    {
+      "to": 24610,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24614,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    },
+    {
+      "to": 24615,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

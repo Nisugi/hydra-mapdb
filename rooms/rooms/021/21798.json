@@ -1,0 +1,39 @@
+{
+  "id": 21798,
+  "title": [
+    "[Talador, Mine Road]"
+  ],
+  "description": [
+    "The path runs east across the city walls, moving far beyond Talador and then bends sharply to the northeast.  Plots of snow-covered pine trees tower above, while the northern mountains rise up in the distance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Talador",
+  "tags": [
+    "peer northeast =~ /^Obvious paths: east, southwest/"
+  ],
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      372,
+      327,
+      386,
+      342
+    ]
+  },
+  "exits": [
+    {
+      "to": 21799,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21983,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

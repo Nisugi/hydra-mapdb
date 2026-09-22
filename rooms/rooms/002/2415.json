@@ -1,0 +1,52 @@
+{
+  "id": 2415,
+  "uid": [
+    4042317
+  ],
+  "title": [
+    "[Commerce Burrow, Krolvin Alley]",
+    "[Commerce Burrow, Elven Alley]"
+  ],
+  "description": [
+    "Wedged into a cramped walk between two tall buildings, the alley slumbers in shadow.  The brick wall behind a stack of empty crates is scrawled with an ugly symbol in dark brown pigment that looks like a harpy wreathed by a burning ring.  Soft scuttling resounds from within the crates.  Despite the unappealing locale, a grungy little shop does brisk business near the midpoint of the alleyway.",
+    "Wedged between two sturdy stone buildings, the alley is blanketed with shadows.  A stack of empty crates leans against one wall, from which a quiet scuttling noise can be heard."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      760,
+      1142,
+      796,
+      1178
+    ]
+  },
+  "exits": [
+    {
+      "to": 2414,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2416,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3398,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

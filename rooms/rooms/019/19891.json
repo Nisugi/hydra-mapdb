@@ -1,0 +1,70 @@
+{
+  "id": 19891,
+  "uid": [
+    673050
+  ],
+  "title": [
+    "[Cleric Guild, Alchemy Lobby]"
+  ],
+  "description": [
+    "Sconces line the walls of the rectangular, granite-floored room, each set upon a narrow marble column that reaches up and supports a high ceiling.  A large torn banner is draped down one wall and set behind a simple black marble altar placed in the center of the room.  Five narrow archways, draped with dark red velvet curtains, lead off from the chamber into adjacent rooms."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south, southwest, west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-cleric_guild.png",
+    "rect": [
+      331,
+      699,
+      394,
+      762
+    ]
+  },
+  "exits": [
+    {
+      "to": 19890,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19895,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 19897,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19898,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19899,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19900,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19901,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

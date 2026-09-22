@@ -1,0 +1,45 @@
+{
+  "id": 35736,
+  "uid": [
+    7150525
+  ],
+  "title": [
+    "[The Kyusharu, Upper Deck]"
+  ],
+  "description": [
+    "The shattered mast lies like a broken spine across bowed deck planks, its rotting length draped in wavering kelp flung there by the angry tide.  Snapped at the middle as if by some gigantic, vengeful hand, the mast intrudes onto the deck of a wrecked warship with rusted-over cannons that proved a poor defense against such an unexpected invader.  Each relentless wave is accompanied by groans of surrendering wood from the two hulks."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      840,
+      2600,
+      920,
+      2680
+    ]
+  },
+  "exits": [
+    {
+      "to": 35735,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35737,
+      "kind": "go",
+      "cmd": "go mast",
+      "cost": 0.2
+    }
+  ]
+}

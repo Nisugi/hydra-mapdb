@@ -1,0 +1,47 @@
+{
+  "id": 13184,
+  "uid": [
+    4749501
+  ],
+  "title": [
+    "[Temple of Koar, Grand Narthex]"
+  ],
+  "description": [
+    "Sparkling from above, a multi-tiered chandelier of brass-swirled crystal orbs imbues the narthex with sunny brilliance.  Panels of white birch gleam in the pale stone walls, each incised with the outline of a golden crown.  Across from a mosaic-tiled high golden archway, a velvet-draped marble stairway as wide as a city street rises toward a sprawling indoor plaza."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the town of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 13175,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 13185,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 14236,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14237,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

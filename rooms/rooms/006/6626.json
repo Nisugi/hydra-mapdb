@@ -1,0 +1,74 @@
+{
+  "id": 6626,
+  "uid": [
+    487005
+  ],
+  "title": [
+    "[The Broken Lands, South Hall]"
+  ],
+  "description": [
+    "Incandescent globes hung from the ceiling cast gloomy lights on the large stone chair at the south end of the room, deepening the shadows of the bas relief above it.  The floor is pitted and marred by long deep gouges."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      501,
+      843,
+      511,
+      853
+    ]
+  },
+  "exits": [
+    {
+      "to": 6622,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6627,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6628,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7436,
+      "kind": "scripted",
+      "steps": [
+        {
+          "round": [
+            "push medium moon",
+            "pull relief",
+            "push letter u",
+            "push letter t",
+            "push letter h",
+            "push letter e",
+            "push letter x",
+            "pull globe"
+          ],
+          "when": {
+            "not": {
+              "sees": "stairs"
+            }
+          }
+        },
+        {
+          "move": "go stair"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

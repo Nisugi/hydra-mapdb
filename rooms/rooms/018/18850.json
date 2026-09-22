@@ -1,0 +1,63 @@
+{
+  "id": 18850,
+  "uid": [
+    108004
+  ],
+  "title": [
+    "[Twilight Hall, Warble's Parlor]"
+  ],
+  "description": [
+    "The west end of the great hall opens up into a bright, airy parlor.  As you step into the room, your eyes are immediately drawn to an ancient elven harp set up on a small dais.  A plush snowcat rug covers the floor in front of a white marble fireplace, and white cushions made of the softest Arachnian silk lie scattered about the room, inviting you to relax and enjoy yourself.  A spiral staircase in one corner leads both upstairs and downstairs."
+  ],
+  "paths": [
+    "Obvious exits: east, up, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "supernode"
+  ],
+  "meta": [
+    "che:Twilight Hall",
+    "mapcategory:CHE",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Twilight Hall",
+    "mapshortname:Twilight Hall"
+  ],
+  "image": {
+    "file": "wl-twilight_hall.jpg",
+    "rect": [
+      152,
+      444,
+      236,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 18848,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18851,
+      "kind": "go",
+      "cmd": "go krodera door",
+      "cost": 0.2
+    },
+    {
+      "to": 18852,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18856,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

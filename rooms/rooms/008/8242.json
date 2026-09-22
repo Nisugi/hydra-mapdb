@@ -1,0 +1,50 @@
+{
+  "id": 8242,
+  "uid": [
+    390048
+  ],
+  "title": [
+    "[Wolves' Den, Chapel]"
+  ],
+  "description": [
+    "Dozens, perhaps hundreds of skeletons lie jumbled together amidst the stone pews.  Desiccated chunks of flesh and hair hang loosely from the bones.  Small metal cups are strewn among them.  Great stone pillars line the walls, and there's a white marble altar at the east end.  Behind the altar is an open doorway, and a wide passage in the southern wall leads into darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      133,
+      510,
+      143,
+      520
+    ]
+  },
+  "exits": [
+    {
+      "to": 8239,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 8243,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8244,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

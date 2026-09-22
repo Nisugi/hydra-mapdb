@@ -1,0 +1,41 @@
+{
+  "id": 8672,
+  "uid": [
+    1032
+  ],
+  "title": [
+    "[Raging Thrak Inn, Hallway]"
+  ],
+  "description": [
+    "You can look down this hallway to the other end of the building.  Doorways lead right and left off it."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 8671,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 8673,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8675,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

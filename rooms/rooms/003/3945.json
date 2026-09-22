@@ -1,0 +1,51 @@
+{
+  "id": 3945,
+  "uid": [
+    2136208
+  ],
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "The air smells unbelievably fresh, and you inhale great gasping breaths, having nearly forgotten what fresh air smells like.  You seem to have reached the end of the tunnel, as it empties out into a large underground river.  The slope is quite steep, and the small stream of sludge would be racing along, if it was any less thick."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      343,
+      249,
+      354,
+      259
+    ]
+  },
+  "exits": [
+    {
+      "to": 24818,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "jump"
+        },
+        {
+          "move": "jump"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32764,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

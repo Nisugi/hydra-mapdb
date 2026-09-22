@@ -1,0 +1,51 @@
+{
+  "id": 14114,
+  "uid": [
+    4219360
+  ],
+  "title": [
+    "[Warehouse, Second Floor Hall]"
+  ],
+  "description": [
+    "Tight and cramped, the second floor of the warehouse is new construction.  Underfoot, unfinished wooden floors sport frequent bent nails, and whitewashed panels of unsanded pine make up the walls.  Narrow, low hallways lead off to the north and east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "houselockers",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-warehouse_lockers-1485119080.png",
+    "rect": [
+      332,
+      703,
+      433,
+      756
+    ]
+  },
+  "exits": [
+    {
+      "to": 14113,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 14120,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14121,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

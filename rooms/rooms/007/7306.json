@@ -1,0 +1,55 @@
+{
+  "id": 7306,
+  "uid": [
+    18034
+  ],
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "The remains here consist of the dead bodies of a few small burrowing creatures and little else of apparent value.  Broken chests, torn hogsheads and gunny sacks, stiff goatskins filled with sour ale, some worm-eaten leatherbound books, and other everyday items that have long outlived their usefulness have been left behind here to rot."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      662,
+      332,
+      672,
+      342
+    ]
+  },
+  "exits": [
+    {
+      "to": 7245,
+      "kind": "go",
+      "cmd": "go burrow",
+      "cost": 0.2
+    },
+    {
+      "to": 7307,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7311,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

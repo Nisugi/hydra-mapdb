@@ -1,0 +1,51 @@
+{
+  "id": 5539,
+  "uid": [
+    4215137
+  ],
+  "title": [
+    "[Manor House, North Parlor]"
+  ],
+  "description": [
+    "Devoid of the door that once filled it, a modwir-framed doorway in the east wall lets out onto a small tiled courtyard.  A pile of refuse lies in the room's southwest corner, partially obscuring the outline of a trapdoor set into the floor, but otherwise the room is bare.  A tanik door leads to the corridor at the west end of the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1114,
+      486,
+      1124,
+      496
+    ]
+  },
+  "exits": [
+    {
+      "to": 5534,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 5553,
+      "kind": "go",
+      "cmd": "go tanik door",
+      "cost": 0.2
+    },
+    {
+      "to": 5559,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

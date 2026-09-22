@@ -1,0 +1,58 @@
+{
+  "id": 22360,
+  "uid": [
+    13125005
+  ],
+  "title": [
+    "[Ta'Illistim, Linsandrych Var]"
+  ],
+  "description": [
+    "Polished cobblestones of the var glisten as the sunlight strikes their surfaces.  A thanot-beamed enclave stands to one side of the road, its silvery blue stone shimmering in the heat of the day.  To the other side, a tall, stone palisade encircles a secluded compound.  Flowering greenery grows about a crystal lantern that hangs from an ornately carved alabaster post."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      331,
+      474,
+      406,
+      549
+    ]
+  },
+  "exits": [
+    {
+      "to": 22359,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22361,
+      "kind": "go",
+      "cmd": "go enclave",
+      "cost": 0.2
+    },
+    {
+      "to": 22371,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22421,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

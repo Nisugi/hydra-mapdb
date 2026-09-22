@@ -1,0 +1,44 @@
+{
+  "id": 31270,
+  "uid": [
+    4410001
+  ],
+  "title": [
+    "[Jungle Path]"
+  ],
+  "description": [
+    "The humid air hangs heavy over the pathway, and the heavy tree boughs come together overhead to cast the area in permanent shadow.  Here and there, dappled light infiltrates the area, providing enough illumination to light the path and some details of the dense jungle to either side."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "tropical",
+  "meta": [
+    "mapcategory:Events and Festivals",
+    "mapname:Iyo Glade"
+  ],
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      606,
+      904,
+      658,
+      956
+    ]
+  },
+  "exits": [
+    {
+      "to": 17578,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31271,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

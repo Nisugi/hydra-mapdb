@@ -1,0 +1,74 @@
+{
+  "id": 31562,
+  "uid": [
+    8083003
+  ],
+  "title": [
+    "[Evermore Hollow, Inner Ring]"
+  ],
+  "description": [
+    "Multiple lanes converge upon the dappled cobblestones of the avenue, though one such pathway transitions into a bowed cobblestone bridge that disappears in a shroud of mist as it crosses the canal.  Verdigris-topped lanterns with colored glass panes illuminate the arch they are mounted from in an orange sheen, while a departing pathway is left to violet-sheened shadows.  Four peaks, each topped with a gable, dominate the multistory manor that overlooks the street."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      663,
+      375,
+      687,
+      397
+    ]
+  },
+  "exits": [
+    {
+      "to": 31559,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31561,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31569,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 31603,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31607,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31609,
+      "kind": "go",
+      "cmd": "go manor",
+      "cost": 0.2
+    },
+    {
+      "to": 31630,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

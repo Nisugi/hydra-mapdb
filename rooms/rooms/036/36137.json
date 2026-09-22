@@ -1,0 +1,34 @@
+{
+  "id": 36137,
+  "uid": [
+    5001072
+  ],
+  "title": [
+    "[House Arcane Annex]"
+  ],
+  "description": [
+    "The floor, made of unglazed octagonal tiles, is partly covered with a thick carpet.  A window, screened with intricately carved wood, is set high on the wall.  Set beneath the window is a heavy terra cotta urn containing a flowering shrub."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:arcane_masters:entrance_annex"
+  ],
+  "exits": [
+    {
+      "to": 23197,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 36138,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

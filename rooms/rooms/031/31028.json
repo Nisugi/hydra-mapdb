@@ -1,0 +1,31 @@
+{
+  "id": 31028,
+  "uid": [
+    409902
+  ],
+  "title": [
+    "[Concourse, West]"
+  ],
+  "description": [
+    "A tall marble statue rests in the center of this large room, and an elegantly carved alabaster sign takes up most of the eastern wall.  Silver sconces, complete with oval dome reflectors and hurricane shades, cast a brilliant glow across the onyx-swirled white marble walls.  A tiled walkway leads westward toward the main entry, while a decorative golden archway leads into a shop with a large plaque over it that proclaims it to be \"The Rice of Life.\""
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location_unknowable": true,
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 31027,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31029,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

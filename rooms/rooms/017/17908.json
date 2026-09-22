@@ -1,0 +1,46 @@
+{
+  "id": 17908,
+  "uid": [
+    268015
+  ],
+  "title": [
+    "[Rogue Guild, Lower Hall]"
+  ],
+  "description": [
+    "A portion of the ceiling has been replaced by thick sheets of clear glaes that allow a glimpse into the surrounding rock laden with raw rubies.  The bright illumination provided by giant, glowing toadstools highlights the deep, sanguine hue of the gemstones.  Beyond a simple, polished granite archway is a dark stairway leading to the floor above."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      892,
+      400,
+      933,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 17907,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17911,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17912,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

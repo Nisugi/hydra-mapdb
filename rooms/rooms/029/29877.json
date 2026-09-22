@@ -1,0 +1,84 @@
+{
+  "id": 29877,
+  "uid": [
+    7503251
+  ],
+  "title": [
+    "[Rawknuckle's, Watering Hole]"
+  ],
+  "description": [
+    "Low eaves, stained black with smoke, do little to keep out the icy chill of the outdoors, though they have been sealed in many places with acrid pine pitch.  The floor is an artless mosaic of uneven planks, most badly warped, and the nails securing them are more rust than iron.  Behind a carved counter of time-silvered wood is a collection of racks holding dusty bottles in a variety of colors, the containers framing a fur-covered ironwood door.",
+    "Low eaves, stained black with smoke, do little to keep out the icy chill of the outdoors, though they have been sealed in many places with acrid pine pitch.  The floor is an artless mosaic of uneven planks, most badly warped, and the nails securing them are more rust than iron.  Behind a carved counter of time-silvered wood is a collection of racks holding dusty bottles in a variety of colors."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "artificer",
+    "guard",
+    "no forageables",
+    "tavern",
+    "urchin guide guard",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 29869,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 29881,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34399,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 35783,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    }
+  ]
+}

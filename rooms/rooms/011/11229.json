@@ -1,0 +1,56 @@
+{
+  "id": 11229,
+  "uid": [
+    377201
+  ],
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Furniture has been piled in each of the hallways leading away from the entry room, forming ineffective barricades.  Each of the barricades has been breached.  Skeletons, all savagely hewn and hacked, are strewn about the area.  A sign hangs crookedly on the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      137,
+      574,
+      147,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 11228,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11230,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11235,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11247,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

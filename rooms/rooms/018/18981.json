@@ -1,0 +1,58 @@
+{
+  "id": 18981,
+  "uid": [
+    668002
+  ],
+  "title": [
+    "[Sorcerer Guild, Tunnel Nexus]"
+  ],
+  "description": [
+    "Slivers of azurite crystal have been inlaid into a dizzying spiral pattern upon the cold stone floor.  The slightly arched ceiling has been carved with a swirling design that faintly resembles flowing runes.  Against the western wall, a set of onyx-inlaid doors are flanked by two recessed alcoves that house stairways leading to the lower level."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul-sorcerer_guild-1405076623.png",
+    "rect": [
+      762,
+      322,
+      801,
+      361
+    ]
+  },
+  "exits": [
+    {
+      "to": 18979,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 18994,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 18995,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18997,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18998,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

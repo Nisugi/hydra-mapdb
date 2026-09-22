@@ -1,0 +1,56 @@
+{
+  "id": 19943,
+  "uid": [
+    336027
+  ],
+  "title": [
+    "[Stone Baths, Rooftop Garden]"
+  ],
+  "description": [
+    "Brass handrails rise up along the edges of the bathhouse's stone rooftop, enclosing a wide flat surface that is mostly dominated by vivid flowerbeds, brightened by the moon's silvery rays.  The view from the garden is expansive, revealing the shadowy streets of Wehnimer's Landing and the dark forests beyond the town.",
+    "Brass handrails rise up along the edges of the bathhouse's stone rooftop, enclosing a wide flat surface that is mostly dominated by vivid flowerbeds, made even brighter by the sun's warm light.  The view from the garden is expansive, revealing the bustling streets of Wehnimer's Landing, the lush green wilds, and Darkstone Bay beyond."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      273,
+      653,
+      414,
+      714
+    ]
+  },
+  "exits": [
+    {
+      "to": 8683,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go long rope"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 19938,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

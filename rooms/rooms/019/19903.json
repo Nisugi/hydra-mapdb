@@ -1,0 +1,94 @@
+{
+  "id": 19903,
+  "uid": [
+    700351
+  ],
+  "title": [
+    "[Woodlands, Blackberry Patch]"
+  ],
+  "description": [
+    "The trail bends from the north to the west through a sunny clearing that breaks the deep woods.  Tangles of blackberry bushes grow around the trunks of the scattered trees, their brambles extending into the small paths that lead to homes in the underbrush.  A flock of blackbirds have stopped to rest in the branches of a nearby oak, filling the clearing with their cries."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "barren scrub",
+  "tags": [
+    "blue whortleberry",
+    "blueberries",
+    "bright red teaberry",
+    "broken twig",
+    "cactacae spine",
+    "elderberries",
+    "fire lily",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "hot pepper",
+    "Imaera's Lace",
+    "ironfern root",
+    "murkweed",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "safflower seeds",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "thistle seeds",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-homes-2-1264234799.png",
+    "rect": [
+      522,
+      559,
+      538,
+      574
+    ]
+  },
+  "exits": [
+    {
+      "to": 19904,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlock cabin"
+        },
+        {
+          "put": "open cabin"
+        },
+        {
+          "move": "go cabin"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 19905,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19906,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

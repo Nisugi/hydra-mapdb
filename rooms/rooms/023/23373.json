@@ -1,0 +1,44 @@
+{
+  "id": 23373,
+  "uid": [
+    13018073
+  ],
+  "title": [
+    "[Li'aeroin, Dark Stair]"
+  ],
+  "description": [
+    "A small doorway at the top of the stairs allows a little light to spill down the length of the passage.  The bottom of the narrow staircase is dark, with just enough light to see tunnels that branch off in two different directions."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      702,
+      279,
+      721,
+      295
+    ]
+  },
+  "exits": [
+    {
+      "to": 23372,
+      "kind": "go",
+      "cmd": "go narrow staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 23374,
+      "kind": "go",
+      "cmd": "go small doorway",
+      "cost": 0.2
+    }
+  ]
+}

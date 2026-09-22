@@ -1,0 +1,50 @@
+{
+  "id": 11060,
+  "uid": [
+    706107
+  ],
+  "title": [
+    "[Port Valley, Vineyards]"
+  ],
+  "description": [
+    "A small stream flows in from the northeast, curving towards the south.  A small bridge crosses it for travel in that direction.  Here on the near bank is the edge of the Gladberry Farms vineyard, fairly bursting with various berries."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-rr-homes-1264234799.png",
+    "rect": [
+      937,
+      1127,
+      957,
+      1147
+    ]
+  },
+  "exits": [
+    {
+      "to": 11059,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 11061,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16138,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

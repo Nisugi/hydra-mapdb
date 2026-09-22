@@ -1,0 +1,41 @@
+{
+  "id": 19027,
+  "uid": [
+    662011
+  ],
+  "title": [
+    "[Sorcerer Guild, Tub Room]"
+  ],
+  "description": [
+    "Condensation drips from the ceiling and runs down the white marble walls to disappear into a drain in the far corner, leaving the floor slick with moisture.  A spacious tub has been carved directly into the marble floor, and hot water swirls and foams within.  A metal vat is securely bolted against the wall with a pipe and a chain hanging down just above the tub.  Wide steps lead into the tub's churning waters."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-sorcerer_guild-1405076623.png",
+    "rect": [
+      215,
+      111,
+      254,
+      149
+    ]
+  },
+  "exits": [
+    {
+      "to": 19016,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19028,
+      "kind": "go",
+      "cmd": "go tub",
+      "cost": 0.2
+    }
+  ]
+}

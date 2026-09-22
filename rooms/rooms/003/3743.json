@@ -1,0 +1,95 @@
+{
+  "id": 3743,
+  "uid": [
+    109599
+  ],
+  "title": [
+    "[Silvergate Inn, Lion's Den Pub]"
+  ],
+  "description": [
+    "The serving maid stops in at each of the tables to check on her customers, and she nods a greeting in your direction.  The conversation is louder here, and someone's cigar adds to the smoky haze that fills one side of the room."
+  ],
+  "paths": [
+    "Obvious exits: east, west",
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      884,
+      152,
+      967,
+      206
+    ]
+  },
+  "exits": [
+    {
+      "to": 3740,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3744,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go red table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17371,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go blue table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17372,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go green table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17373,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go white table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17374,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go black table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36008,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

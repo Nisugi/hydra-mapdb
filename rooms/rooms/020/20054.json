@@ -1,0 +1,44 @@
+{
+  "id": 20054,
+  "uid": [
+    28148
+  ],
+  "title": [
+    "[Wehnimer's Museum, Basement]"
+  ],
+  "description": [
+    "Lined on both sides by flickering torches, this room is part of a tunnel beneath the museum.  A set of stone steps leads upward toward a brighter light, while the enclosed passage stretches on to the east and west, its rough walls crafted from timber braces and mortared stone."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 14448,
+      "kind": "climb",
+      "cmd": "climb steps",
+      "cost": 0.2
+    },
+    {
+      "to": 20056,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20058,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": 30279,
+  "uid": [
+    336655
+  ],
+  "title": [
+    "[Rusty Cutlass, Main Deck]"
+  ],
+  "description": [
+    "The main deck of the tavern looks to be untouched by the elements, but its wooden plank flooring is marred by countless scuff marks.  Guests linger and speak in hushed tones along the wooden railings, while the murmur of voices carries down from the quarterdeck above.  A thick rope ladder hangs on the side of the huge wooden mainmast as lights flicker in the breeze from several tiny lanterns dangling from the ship's netting above.  Two wide wooden stairs frame a tall iron-bound door."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-docks and tavern-1642366998.jpg",
+    "rect": [
+      1054,
+      493,
+      1084,
+      523
+    ]
+  },
+  "exits": [
+    {
+      "to": 30276,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 30280,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30281,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30282,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 30283,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30284,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

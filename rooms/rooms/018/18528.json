@@ -1,0 +1,39 @@
+{
+  "id": 18528,
+  "title": [
+    "[Grawood Farmstead, Town]"
+  ],
+  "description": [
+    "Tucked against the fence at the road's edge is a whitewashed building, framed on each side by taller structures.  On the opposite side of the road, a small area has been fenced in to enclose a single russet-hued cow.  The animal is tethered to one of the fence posts, and it wears a pink-checkered bonnet with a bow tied around its neck, a feat that no doubt it did not accomplish alone."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18525,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18529,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 18531,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

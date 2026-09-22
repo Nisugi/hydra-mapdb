@@ -1,0 +1,44 @@
+{
+  "id": 26908,
+  "uid": [
+    18018003
+  ],
+  "title": [
+    "[Black Hand, Grotto]"
+  ],
+  "description": [
+    "A cool draft occasionally permeates the dark stone walls lined with torches, their disturbed flames casting sinister shadows against the barrel vault ceiling.  Some warcat skin rugs cover the cold stone floor to offer some semblance of comfort around a large obsidian table naturally formed out of the ground, the piece flanked by some dark ash chairs."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "subterranean",
+  "meta": [
+    "mho:The Black Hand Trading Co."
+  ],
+  "image": {
+    "file": "wl-black_hand-1527320047.png",
+    "rect": [
+      962,
+      348,
+      1112,
+      479
+    ]
+  },
+  "exits": [
+    {
+      "to": 26901,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go panel"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

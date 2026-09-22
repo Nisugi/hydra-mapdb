@@ -1,0 +1,45 @@
+{
+  "id": 25651,
+  "uid": [
+    109208
+  ],
+  "title": [
+    "[Silvergate, A Narrow Hallway]"
+  ],
+  "description": [
+    "You can barely see a dark opening in the wall next to you, although dim light filters in from underneath a door at the end of the hallway.  The air feels charged with powerful energies, and the musical sound of chimes rings distantly."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Silvergate Inn",
+    "che:Silvergate Manor"
+  ],
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      619,
+      305,
+      675,
+      361
+    ]
+  },
+  "exits": [
+    {
+      "to": 22049,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 25650,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    }
+  ]
+}

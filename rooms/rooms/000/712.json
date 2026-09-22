@@ -1,0 +1,51 @@
+{
+  "id": 712,
+  "uid": [
+    13101059
+  ],
+  "title": [
+    "[Ta'Illistim, Vaeshean Wey]"
+  ],
+  "description": [
+    "A lone stonework building rests against the high city wall, its blue tile roof barely visible for the trees surrounding the structure.  A double track indicating frequent wagon traffic leads from the cobblestoned wey towards a pair of wide double doors in the building's left side wall.  A small metal grate is set into the bottom of the thick city wall behind the building."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      206,
+      796,
+      228,
+      817
+    ]
+  },
+  "exits": [
+    {
+      "to": 711,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 713,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13244,
+      "kind": "go",
+      "cmd": "go grate",
+      "cost": 0.2
+    }
+  ]
+}

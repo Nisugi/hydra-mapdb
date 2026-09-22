@@ -1,0 +1,30 @@
+{
+  "id": 19157,
+  "title": [
+    "[Tropic Treasure, Hot Stuff]"
+  ],
+  "description": [
+    "Black sand outlines a winding path leading to a bizarre sight.  All other nearby furnishings are dwarfed by a giant fake volcano standing in the middle of this area of the hold.  A tall pile of obsidian marks the only navigable ascent up the clearly manmade structure."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19156,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19158,
+      "kind": "climb",
+      "cmd": "climb volcano",
+      "cost": 0.2
+    }
+  ]
+}

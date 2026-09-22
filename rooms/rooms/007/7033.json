@@ -1,0 +1,62 @@
+{
+  "id": 7033,
+  "uid": [
+    45122
+  ],
+  "title": [
+    "[Castle Darkstone, Inner Keep]"
+  ],
+  "description": [
+    "You are standing in the southwest corner of a large square yard, which forms the center of the castle.  The high inner curtain walls give the place a sense of being isolated from the rest of the world, making you feel both secure and claustrophobic at the same time.  The southwest tower, with its jagged and broken top, rises high above you from here, and a portcullis of pure mein guards the exit back to the outer keep."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      665,
+      564,
+      675,
+      574
+    ]
+  },
+  "exits": [
+    {
+      "to": 7032,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 7034,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7039,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7040,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7043,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

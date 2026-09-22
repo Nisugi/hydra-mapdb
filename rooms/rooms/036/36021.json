@@ -1,0 +1,69 @@
+{
+  "id": 36021,
+  "uid": [
+    8022004
+  ],
+  "title": [
+    "[Halan Lea, Rundling Green]"
+  ],
+  "description": [
+    "Positioned along the southeastern edge, a bright white felt ger and a ruddy dumpling-shaped ger face a web of narrow trails that branch into different parts of the village.  Beyond their circular forms, the grasslands rise and fall in long, wind-shaped waves.  Directly opposite, a line of alternating larch and birch steps climbs the hillside, each tread set into the earth in a steady progression that leads toward the gathering space above."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest, west"
+  ],
+  "location": "Northern Steppes",
+  "image": {
+    "file": "fest-white_star-1765071445.png",
+    "rect": [
+      531,
+      356,
+      574,
+      395
+    ]
+  },
+  "exits": [
+    {
+      "to": 36020,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36022,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36033,
+      "kind": "go",
+      "cmd": "go larch steps",
+      "cost": 0.2
+    },
+    {
+      "to": 36044,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36045,
+      "kind": "go",
+      "cmd": "go white ger",
+      "cost": 0.2
+    },
+    {
+      "to": 36046,
+      "kind": "go",
+      "cmd": "go dumpling-shaped ger",
+      "cost": 0.2
+    },
+    {
+      "to": 36047,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

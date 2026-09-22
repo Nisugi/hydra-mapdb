@@ -1,0 +1,40 @@
+{
+  "id": 26092,
+  "uid": [
+    8213606
+  ],
+  "title": [
+    "[Underground Temple, Hall]"
+  ],
+  "description": [
+    "No more than two-feet high, a wide wooden board carved with straight lines and curved shapes encircles the room.  At each corner, a crystalline moon hangs from the ceiling and spins with abandon.  An unadorned staircase spirals downward into a chamber illuminated by a deep amber glow.  Sculpted from heavily crimson-laced slabs of ur-barath, a pulpit stands in solitude in the center of the room."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1332,
+      479,
+      1343,
+      489
+    ]
+  },
+  "exits": [
+    {
+      "to": 26091,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 26093,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

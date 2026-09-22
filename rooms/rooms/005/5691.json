@@ -1,0 +1,50 @@
+{
+  "id": 5691,
+  "uid": [
+    4219330
+  ],
+  "title": [
+    "[Warehouse, First Floor]"
+  ],
+  "description": [
+    "Several small boxes have been turned on end here and placed around a slightly taller box.  This appears to be where some warehouse workers take their lunch, or maybe play an occasional game of cards.  The boxes have been pushed aside clearing paths east and south."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-warehouse_lockers-1485119080.png",
+    "rect": [
+      450,
+      995,
+      555,
+      1045
+    ]
+  },
+  "exits": [
+    {
+      "to": 5412,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5692,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 14118,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

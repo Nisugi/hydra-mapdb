@@ -1,0 +1,43 @@
+{
+  "id": 26081,
+  "uid": [
+    679008
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Rough and irregular, the floor of the landing is pitted with small and large holes.  Stalactites and stalagmites reach towards each other from their positions in the distant ceiling and on the uneven flooring, their coarse edges displaying the distinct patterns of a carver's chisel.  Murals, one upon the eastern wall and the other upon the western wall, stretch between the staircases, the images they house illuminated by the flickering light of nearby candles."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26080,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26082,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

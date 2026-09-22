@@ -1,0 +1,66 @@
+{
+  "id": 13728,
+  "uid": [
+    287104
+  ],
+  "title": [
+    "[Bard Guild, Antechamber]"
+  ],
+  "description": [
+    "This ample, perfectly circular room is pierced symmetrically by passages leading north and south and doors to the east and west.  Several silk-cushioned divans, slightly arced to match the curvature of the walls, line the walls between.  Richly hued walnut paneling rises to meet the ceiling, a perfect hemisphere of deep ultramarine dotted with tiny gold stars."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-vaalor-bard-guild.png",
+    "rect": [
+      189,
+      278,
+      207,
+      299
+    ]
+  },
+  "exits": [
+    {
+      "to": 10761,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13729,
+      "kind": "go",
+      "cmd": "go dark door",
+      "cost": {
+        "when": {
+          "gender": "Male"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 13730,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33307,
+      "kind": "go",
+      "cmd": "go pale door",
+      "cost": {
+        "when": {
+          "gender": "Female"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

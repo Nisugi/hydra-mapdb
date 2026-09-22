@@ -1,0 +1,45 @@
+{
+  "id": 36638,
+  "uid": [
+    8400200
+  ],
+  "title": [
+    "[Brayern Isle, Docks]"
+  ],
+  "description": [
+    "The sky and horizon are obscured, both caught in the electric blue haze of the distant mana storm.  The docks here are new, built from polished blue-green wood and still bearing partially unpacked crates from construction.  Beneath, thick circular pilings drive down into bright blue waters that gently lap against an ebon, volcanic stone-laden shore.  Longboats are tied against these pilings, hewn from the same blue-green wood as the docks.  A long bridge over the water leads ashore."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Brayern Isle",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      851,
+      1481,
+      869,
+      1498
+    ]
+  },
+  "exits": [
+    {
+      "to": 36637,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36639,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36640,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

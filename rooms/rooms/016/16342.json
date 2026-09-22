@@ -1,0 +1,43 @@
+{
+  "id": 16342,
+  "uid": [
+    -570001
+  ],
+  "title": [
+    "[Warcamp, Approach]"
+  ],
+  "description": [
+    "A dirt path leads over a rise of earth and down towards a collection of mismatching tents and huts.  The rotting stench of the encampment's inhabitants lingers in the air, mixed with the aroma of cooked flesh and burning wood.  A heavy grey haze of campfire smoke hangs over the warcamp and drifts down behind the rise of land, creating a pocket of concealment from the eyes of the nearby Grimswarm."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Warcamp",
+  "meta": [
+    "mapcategory:Other",
+    "mapname:Grimswarm Warcamp"
+  ],
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      228,
+      405,
+      264,
+      441
+    ]
+  },
+  "exits": [
+    {
+      "to": 1,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 16713,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

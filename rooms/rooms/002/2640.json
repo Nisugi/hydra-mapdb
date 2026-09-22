@@ -1,0 +1,72 @@
+{
+  "id": 2640,
+  "uid": [
+    4562039
+  ],
+  "title": [
+    "[Lake of Tears]"
+  ],
+  "description": [
+    "Currents roil the tepid water, with bits of debris and sand caught in a hectic dance.  Overhead, light filters down in shifting beams, which flicker at the mercy of the water's movement.  A shadowy opening creates a fissure in the rock walls, and below that, the lake descends into darkness."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location_unknowable": true,
+  "climate": "freshwater",
+  "terrain": "none",
+  "meta": [
+    "nomagic",
+    "underwater"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      37,
+      246,
+      45,
+      254
+    ]
+  },
+  "exits": [
+    {
+      "to": 2639,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 2641,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    },
+    {
+      "to": 2642,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim opening"
+        },
+        {
+          "pause": 1000
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

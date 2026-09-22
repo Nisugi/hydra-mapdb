@@ -1,0 +1,46 @@
+{
+  "id": 10496,
+  "uid": [
+    14017001
+  ],
+  "title": [
+    "[Neartofar Road]"
+  ],
+  "description": [
+    "An ancient cobblestone road leads from the Mistydeep off into the steadily thickening forest to the southeast.  Two black marble drakes, their attitude of repose belied by one half-opened eye, rest on either side of a massive limestone bridge that crosses the water in the direction of Ta'Vaalor."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Neartofar Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      258,
+      1305,
+      269,
+      1315
+    ]
+  },
+  "exits": [
+    {
+      "to": 10495,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 10497,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

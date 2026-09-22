@@ -1,0 +1,39 @@
+{
+  "id": 20299,
+  "title": [
+    "[Hang'em High]"
+  ],
+  "description": [
+    "Thick fog roils through this wooded area of the swamp, obscuring potential pitfalls for secure footing.  Strung up between some dead branches is a bright banner tied with equally colorful streamers at its ends.  A battered human pinata hangs high up on a nearby tupelo tree.  Leading back to the rest of the festival is a long muddy path."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20310,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20311,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20312,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 20319,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

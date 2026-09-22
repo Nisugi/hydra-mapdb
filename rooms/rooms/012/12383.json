@@ -1,0 +1,55 @@
+{
+  "id": 12383,
+  "uid": [
+    3008011
+  ],
+  "title": [
+    "[Canyon Wall, Rocky Ledge]"
+  ],
+  "description": [
+    "A stunning view of Kharam-Dzu spreads out below the ledge, the intricate play of the city's canyons and tunnels like a giant labyrinth.  Carved into the stone here is a simple troglodyte dwelling surrounded with flowering planters and a doorway trellis almost totally disguised by a prolific entwining cypress vine.  Small curtained windows display a variety of wares, beckoning customers to enter.",
+    "A stunning view of Kharam-Dzu spreads out below the ledge, the intricate play of lights that run along the canyons and tunnel openings outlining a giant labyrinth.  Carved into the stone here is a simple troglodyte dwelling, its small curtained windows displaying a variety of wares and beckoning customers to enter."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      204,
+      91,
+      240,
+      127
+    ]
+  },
+  "exits": [
+    {
+      "to": 12382,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb rope"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.6
+    },
+    {
+      "to": 12498,
+      "kind": "go",
+      "cmd": "go dwelling",
+      "cost": 0.2
+    }
+  ]
+}

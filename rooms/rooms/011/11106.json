@@ -1,0 +1,51 @@
+{
+  "id": 11106,
+  "uid": [
+    26027
+  ],
+  "title": [
+    "[Krol Ship, Hold Amidships]"
+  ],
+  "description": [
+    "The hold is a bit brighter here due to the moonlight filtering in through the cargo grate high above.  Several large casks are stacked beneath the grate.",
+    "The hold is a bit brighter here due to the sunlight filtering in through the cargo grate high above.  Several large casks are stacked beneath the grate."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3642,
+      1588,
+      3665,
+      1612
+    ]
+  },
+  "exits": [
+    {
+      "to": 11105,
+      "kind": "climb",
+      "cmd": "climb cask",
+      "cost": 0.2
+    },
+    {
+      "to": 11107,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11119,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

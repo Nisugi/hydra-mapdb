@@ -1,0 +1,47 @@
+{
+  "id": 26782,
+  "uid": [
+    4126012
+  ],
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The area is dark but you can still make out several supports around the outer edges of the room.  A wooden ramp circles the entire room and spirals upward into the darkness.  Walking across the floor stirs up the dust making it difficult to see much of anything."
+  ],
+  "paths": [
+    "Obvious exits: south, west, up"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      1007,
+      1359,
+      1017,
+      1369
+    ]
+  },
+  "exits": [
+    {
+      "to": 26781,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26783,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26785,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

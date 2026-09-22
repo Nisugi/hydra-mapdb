@@ -1,0 +1,42 @@
+{
+  "id": 22257,
+  "title": [
+    "[Idolone, Outskirts]"
+  ],
+  "description": [
+    "The stone street, leading from the center of town, seems to stretch on for eternity.  A small farmhouse decorates a lush green field in the distance."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-swale-1405616532.png",
+    "rect": [
+      270,
+      507,
+      283,
+      521
+    ]
+  },
+  "exits": [
+    {
+      "to": 22254,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 22271,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22276,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

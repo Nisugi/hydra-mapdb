@@ -1,0 +1,51 @@
+{
+  "id": 18004,
+  "uid": [
+    263037
+  ],
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "The tiled floor is partly covered with simple rugs.  The flickering light from the ornate brass oil lamps reflects off a brightly polished tower shield which hangs on the wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window",
+    "rogue guild workshop",
+    "rogue workshop"
+  ],
+  "image": {
+    "file": "rr-rogue_guild-1305438533.png",
+    "rect": [
+      191,
+      411,
+      220,
+      436
+    ]
+  },
+  "exits": [
+    {
+      "to": 18002,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19220,
+      "kind": "go",
+      "cmd": "go step",
+      "cost": 0.2
+    },
+    {
+      "to": 30755,
+      "kind": "go",
+      "cmd": "go toolbenches",
+      "cost": 0.2
+    }
+  ]
+}

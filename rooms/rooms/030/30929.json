@@ -1,0 +1,38 @@
+{
+  "id": 30929,
+  "uid": [
+    272011
+  ],
+  "title": [
+    "[Ranger Guild, Banyan Bar]"
+  ],
+  "description": [
+    "The tavern is dominated by an expansive bar stretching in an arc around the circular chamber.  Stools are arranged in groups around the curve, upholstered in tawny-colored leather.  A couple of ceiling fans hang from above, empowered by a clever system of pulleys and cranks, and to one side, the walls open to a patio where a few tables stand beneath green umbrellas."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30923,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30930,
+      "kind": "go",
+      "cmd": "go canopied table",
+      "cost": 0.2
+    },
+    {
+      "to": 30931,
+      "kind": "go",
+      "cmd": "go shaded table",
+      "cost": 0.2
+    }
+  ]
+}

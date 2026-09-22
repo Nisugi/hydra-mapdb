@@ -1,0 +1,52 @@
+{
+  "id": 203,
+  "uid": [
+    13101020
+  ],
+  "title": [
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "Several merchants with heavily laden satchels move swiftly down the var in the direction of the sturdy granite building to the south.  Keeping their heads down to avoid attracting attention to themselves, they somehow manage to sneak a glimpse at everyone and everything they pass.",
+    "The var, shielded as it is on both sides by towering buildings, offers a glimpse of the blue tiled dome and peacock gargoyles of the United Bank of City-States farther down the road.  Most of the flanking shopfronts are associated in some way with the money-lending and money-changing business, though a few purveyors of museum-quality antiques and high-end booksellers are present as well.  Set in front of one doorway is a bronze quill monument."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      625,
+      356,
+      648,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 8,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 204,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18686,
+      "kind": "go",
+      "cmd": "go shopfront",
+      "cost": 0.2
+    }
+  ]
+}

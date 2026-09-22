@@ -1,0 +1,42 @@
+{
+  "id": 21815,
+  "title": [
+    "[The Old Keep Road]"
+  ],
+  "description": [
+    "The road here has suffered the unmerciful wrath of nature over the years.  Recent travel has cleared a more narrow path through the center of the lane, but a great deal of foliage and weeds have flourished along both sides of the trail.  Off to the northwest, you see an expansive war-torn battlefield."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-west-1392305660.png",
+    "rect": [
+      586,
+      238,
+      599,
+      252
+    ]
+  },
+  "exits": [
+    {
+      "to": 21814,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21816,
+      "kind": "go",
+      "cmd": "go battlefield",
+      "cost": 0.2
+    },
+    {
+      "to": 21826,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

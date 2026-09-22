@@ -1,0 +1,51 @@
+{
+  "id": 23197,
+  "uid": [
+    5001053
+  ],
+  "title": [
+    "[Timor's, House Annex Hallway]"
+  ],
+  "description": [
+    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
+  "unique_loot": [
+    "ivory silk curtain",
+    "black curtain with the sigil of Arcane Masters"
+  ],
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 16131,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23198,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33734,
+      "kind": "go",
+      "cmd": "go silk curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 36137,
+      "kind": "go",
+      "cmd": "go black curtain",
+      "cost": 0.2
+    }
+  ]
+}

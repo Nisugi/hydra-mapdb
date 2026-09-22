@@ -1,0 +1,43 @@
+{
+  "id": 29627,
+  "uid": [
+    18050009
+  ],
+  "title": [
+    "[Estate, Crypt]"
+  ],
+  "description": [
+    "The temperature drops drastically upon entering the crypt, the air hanging damp and heavy.  Several rectangular openings filled with coffins line the walls and stretch down tunnels in all directions, barring the northern tunnel which ends suddenly with a smooth, stone slab.  The ground is exposed soil, pristine save for a few distinctly feline prints.  Mosses and lichens cling to the walls in myriad shades of green.  Looming in the center is an impressive oak desk carved with a lor tree."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "plain dirt",
+  "meta": [
+    "mho:Hand of the Arkati"
+  ],
+  "image": {
+    "file": "mho-hand_of_the_arkati-1652309586.png",
+    "rect": [
+      51,
+      341,
+      130,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 29624,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 29628,
+      "kind": "go",
+      "cmd": "go stone slab",
+      "cost": 0.2
+    }
+  ]
+}

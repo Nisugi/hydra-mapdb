@@ -1,0 +1,44 @@
+{
+  "id": 8122,
+  "uid": [
+    4251110
+  ],
+  "title": [
+    "[Luinne Bheinn, Tavern]"
+  ],
+  "description": [
+    "A long counter takes up most of the space against one wall.  Flickering candles make the low ceiling dark and sooty, but cast a warm, amber light throughout the room.  A few round tables are surrounded by sturdy chairs.  The intimate ambiance is only slightly detracted from by the thin layer of dust that covers some of the less used areas.  An old, red-painted door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Luinne Bheinn",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      903,
+      839,
+      913,
+      849
+    ]
+  },
+  "exits": [
+    {
+      "to": 8099,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8123,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

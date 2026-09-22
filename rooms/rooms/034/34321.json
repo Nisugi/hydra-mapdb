@@ -1,0 +1,58 @@
+{
+  "id": 34321,
+  "uid": [
+    13150305
+  ],
+  "title": [
+    "[Thunder Plateau]"
+  ],
+  "description": [
+    "Thick cloud cover becomes a navigational hazard at this north end of a rock-hampered path, further obscured by a large plateau that casts its shadow over the barely visible trail.  Sounds of loose stones plumeting down the steep slope mingle with winds and pelting rain in a tympanic symphony.  A thick steel wire overhead stretches into the distance and disappears into the clouds to the south."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Stormpeak",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "cabbage rose",
+    "golden mushroom",
+    "virescent rose",
+    "wild chokecherry"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1246,
+      60,
+      1266,
+      79
+    ]
+  },
+  "exits": [
+    {
+      "to": 34317,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb slope"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 34318,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

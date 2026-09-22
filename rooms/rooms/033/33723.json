@@ -1,0 +1,43 @@
+{
+  "id": 33723,
+  "uid": [
+    4043937
+  ],
+  "title": [
+    "[Dewberry Room]"
+  ],
+  "description": [
+    "Thick ebon rolton wool covers the polished oak floor, its fibers woven into a geometric pattern.  A polished linden rocking chair rests to one side of a small round table.  A large bookcase dominates one wall while a granite blackboard covers another.  Fashioned from rough planks of wood is a small barrel that sits next to the arch leading to the hallway."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_annex"
+  ],
+  "image": {
+    "file": "imt-silvermule_gaming_hall-1484821104.png",
+    "rect": [
+      586,
+      466,
+      727,
+      525
+    ]
+  },
+  "exits": [
+    {
+      "to": 3435,
+      "kind": "go",
+      "cmd": "go dewberry arch",
+      "cost": 0.2
+    },
+    {
+      "to": 33724,
+      "kind": "other",
+      "cmd": "lean tart book on bookcase",
+      "cost": 0.2
+    }
+  ]
+}

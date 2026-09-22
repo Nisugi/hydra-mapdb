@@ -1,0 +1,50 @@
+{
+  "id": 8234,
+  "uid": [
+    390008
+  ],
+  "title": [
+    "[Wolves' Den, Corridor]"
+  ],
+  "description": [
+    "This passage turns a corner, leading east and south.  The white granite arch against the northern wall leads into a larger chamber."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      37,
+      335,
+      47,
+      345
+    ]
+  },
+  "exits": [
+    {
+      "to": 8229,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8235,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8248,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

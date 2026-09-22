@@ -1,0 +1,84 @@
+{
+  "id": 109,
+  "uid": [
+    13301171
+  ],
+  "title": [
+    "[Masked Hills, Hairline Ridge]"
+  ],
+  "description": [
+    "A deep depression has been worn into the bare rock of the trail.  Dirt, dried leaves, pebbles, and other detritus have filled it in for the most part."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Emerald Forest",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cluster of butterflyweed",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "red thanot berry",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      474,
+      547,
+      484,
+      557
+    ]
+  },
+  "exits": [
+    {
+      "to": 108,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 110,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "push jewel carv"
+        },
+        {
+          "put": "push skull carv"
+        },
+        {
+          "put": "push griff carv"
+        },
+        {
+          "put": "push crown carv"
+        },
+        {
+          "move": "push trian carv"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 1778,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

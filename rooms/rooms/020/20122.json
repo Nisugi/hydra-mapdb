@@ -1,0 +1,48 @@
+{
+  "id": 20122,
+  "title": [
+    "[Feywrot Mire, Black Waters]"
+  ],
+  "description": [
+    "There is no apparent way forward through the fern shrouded trees here.  Clusters of swamp milkweed threaten to further choke the waterway.  Floating entanglements of moss carry debris and detritus with them as they journey northward from a raised hummock."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      223,
+      424,
+      237,
+      438
+    ]
+  },
+  "exits": [
+    {
+      "to": 20108,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 20353,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 22571,
+      "kind": "go",
+      "cmd": "go brambles",
+      "cost": 0.2
+    },
+    {
+      "to": 22572,
+      "kind": "go",
+      "cmd": "go wooden shack",
+      "cost": 0.2
+    }
+  ]
+}

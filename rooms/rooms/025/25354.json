@@ -1,0 +1,37 @@
+{
+  "id": 25354,
+  "uid": [
+    8100104
+  ],
+  "title": [
+    "[Delirium Manor, Side Lawn]"
+  ],
+  "description": [
+    "A whimsically decorated dollhouse, far too large to be meant for toys alone, sits in the shade of a gracefully draping willow.  A white-pebbled walkway leads toward an open door, and artistically painted shutters hug the pale blue clapboard siding.  The roofing is scalloped clay tiles, the color of gingerbread, with a feathering of white paint along the gables.  Nearby is a blue-bordered privy, tucked discreetly along a small path."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Delirium Manor",
+  "terrain": "plain dirt",
+  "exits": [
+    {
+      "to": 25352,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25355,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34014,
+      "kind": "go",
+      "cmd": "go privy",
+      "cost": 0.2
+    }
+  ]
+}

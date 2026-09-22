@@ -1,0 +1,44 @@
+{
+  "id": 14707,
+  "uid": [
+    3013002
+  ],
+  "title": [
+    "[Stormbrow Hall of Dedication]"
+  ],
+  "description": [
+    "Torches held by wrought iron sconces hang evenly spaced on this room's continuous, circular wall.  The marble floor is polished to a superior sheen, which reflects the torchlight to further brighten the room.  In the exact center stands a low and wide marble platform, bearing the full weight of a large stone slab."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Stormbrow Gallery",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 12574,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14708,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 14709,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

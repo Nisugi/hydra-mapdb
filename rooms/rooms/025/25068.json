@@ -1,0 +1,45 @@
+{
+  "id": 25068,
+  "uid": [
+    -7105128
+  ],
+  "title": [
+    "[Reim Settlement, Courtyard]"
+  ],
+  "description": [
+    "A long wooden hitching post tied with several pieces of leather backs up to a large stable.  In front of the stable's painted doors, a shallow stone basin is filled with crystal clear water, and a few square hay bales are stacked nearby.  The cobblestone path continues on as it veers to the south."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      208,
+      540,
+      221,
+      550
+    ]
+  },
+  "exits": [
+    {
+      "to": 25067,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25069,
+      "kind": "go",
+      "cmd": "go stable",
+      "cost": 0.2
+    },
+    {
+      "to": 25070,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

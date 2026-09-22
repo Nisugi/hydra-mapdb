@@ -1,0 +1,39 @@
+{
+  "id": 25070,
+  "uid": [
+    -7105133
+  ],
+  "title": [
+    "[Reim Settlement, Courtyard]"
+  ],
+  "description": [
+    "The cobblestone pavers underfoot are a shade of charcoal, blackened from fire that swept through the courtyard, scorching the earth and rocks.  Carved from a solid mass of stone, a dark passageway leads down into an underground dungeon.  Mounted on either side of the cavernous opening is a pair of glaes-paned lanterns.  An open wooden crate filled with supplies sits near the entrance."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      209,
+      573,
+      222,
+      585
+    ]
+  },
+  "exits": [
+    {
+      "to": 25068,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25071,
+      "kind": "go",
+      "cmd": "go dungeon",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 3566,
+  "uid": [
+    4291010
+  ],
+  "title": [
+    "[Thanatoph, Stone Valley]"
+  ],
+  "description": [
+    "The valley dips here providing even sharper contrast between the living green of the valley and the brown desolation of the surrounding hills and the gloomy Thanatoph.  Having retreated to more hospitable clime, the fel trees that dominated the northwestern ridgeline are nowhere to be seen.  A slightly foul undertone invades the fresh green smells of life around you."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Stone Valley",
+  "climate": "hot, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "blackberries",
+    "bloodwood twig",
+    "blue passionflower",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "calamia fruit",
+    "cherry peppers",
+    "cinnamon bark",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "fresh catnip",
+    "green pear",
+    "haphip root",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "peppermint leaves",
+    "pothinir grass",
+    "round yuzu",
+    "slender twig",
+    "small watermelon",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "sticks",
+    "striped heart mushroom",
+    "sun-wilted tea leaves",
+    "trafel mushroom",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white passionflower",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild rose",
+    "withered mushroom",
+    "woth flower",
+    "yellow lemon",
+    "yellow passionflower"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      188,
+      754,
+      198,
+      764
+    ]
+  },
+  "exits": [
+    {
+      "to": 3565,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pile"
+        },
+        {
+          "await_followers": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3567,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

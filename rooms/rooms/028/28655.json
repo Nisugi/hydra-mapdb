@@ -1,0 +1,49 @@
+{
+  "id": 28655,
+  "uid": [
+    4043711
+  ],
+  "title": [
+    "[Sylvanfair, Gallery]"
+  ],
+  "description": [
+    "A dimly lit gallery, framed with grey stone walls, houses a single cloth-covered trestle table.  Hanging above are a series of gilt-framed paintings and hunting trophies, each festooned with evergreen boughs and spaced by candle-filled sconces.  A decorative carpet runner covers most of the bare stone floor, leading from a swinging door marked \"Buttery\" at one end to a narrow spiral staircase at the other, with a solid ironwood door visible at the top."
+  ],
+  "paths": [
+    "Obvious exits: down, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sylvanfair",
+    "che:sylvanfair:entrance_locker",
+    "locker annex:House Sylvanfair"
+  ],
+  "exits": [
+    {
+      "to": 28654,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 28656,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 28657,
+      "kind": "go",
+      "cmd": "go swinging door",
+      "cost": 0.2
+    },
+    {
+      "to": 28658,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    }
+  ]
+}

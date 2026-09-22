@@ -1,0 +1,53 @@
+{
+  "id": 5421,
+  "uid": [
+    319110
+  ],
+  "title": [
+    "[Bonespear Tower, Hallway]"
+  ],
+  "description": [
+    "What looks to have been a door at some point is no longer anything but a few shattered pieces of bone surrounding a gaping portal.  Several ruined pieces of furniture have spilled out into the hall from what's left of this doorway and look as if they were used as a scratching post by some massive clawed beast."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      994,
+      990,
+      1004,
+      1000
+    ]
+  },
+  "exits": [
+    {
+      "to": 5420,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 5427,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13019,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    }
+  ]
+}

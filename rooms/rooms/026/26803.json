@@ -1,0 +1,59 @@
+{
+  "id": 26803,
+  "uid": [
+    13102100,
+    13102101,
+    13102102,
+    13102103,
+    13102105,
+    13102106,
+    13102107,
+    13102108,
+    13102110,
+    13102111,
+    13102112,
+    13102113
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Locker]"
+  ],
+  "description": [
+    "You are standing in a tiny room whose facing wall is an array of small, locked doors.  One of the lockers has been removed for you and is sitting on a small counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "locker",
+    "map:multi-uid"
+  ],
+  "exits": [
+    {
+      "to": 18140,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go curtain"
+        },
+        {
+          "put": "close locker",
+          "when": "still_here"
+        },
+        {
+          "move": "go curtain",
+          "when": "still_here"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

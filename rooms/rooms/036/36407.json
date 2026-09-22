@@ -1,0 +1,48 @@
+{
+  "id": 36407,
+  "uid": [
+    58013
+  ],
+  "title": [
+    "[Dungeon, Red Corridor]"
+  ],
+  "description": [
+    "The stone here is tinged red in hue and streaked with powdery veins of grey.  The walls are unadorned and the floor is bare, leaving the corridor hollow and empty.  You also see a large door."
+  ],
+  "paths": [
+    "Obvious exits: north, south",
+    "Obvious exits: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1360,
+      680,
+      1400,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36406,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36408,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36409,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": 6481,
+  "uid": [
+    92105
+  ],
+  "title": [
+    "[Underground Lake, In The Water]"
+  ],
+  "description": [
+    "The splashing sounds that you make as you wade through the still water of the underground lake echo off the walls of this huge cavern."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      640,
+      1005,
+      650,
+      1015
+    ]
+  },
+  "exits": [
+    {
+      "to": 6480,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6482,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6483,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6484,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "keep_moving": "swim opening"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

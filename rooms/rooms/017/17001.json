@@ -1,0 +1,53 @@
+{
+  "id": 17001,
+  "uid": [
+    254002
+  ],
+  "title": [
+    "[Warrior Guild, Entrance Hall]"
+  ],
+  "description": [
+    "Streaks of sunlight from the narrow slits in the heavy, whitewashed stone walls provide the only light in this cool, darkened hall.  Dust motes dance in the gleam where the slivers of light strike the polished, well-worn stone floor of the hall which extends east and west from the entry.",
+    "Streaks of moonlight from the narrow slits in the heavy, whitewashed stone walls provide the only light in this cool, darkened hall.  Slivers of dim light strike the polished, well-worn stone floor of the hall which extends east and west from the entry."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1047,
+      287,
+      1067,
+      307
+    ]
+  },
+  "exits": [
+    {
+      "to": 9056,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 17002,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17003,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17006,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

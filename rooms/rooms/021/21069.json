@@ -1,0 +1,55 @@
+{
+  "id": 21069,
+  "uid": [
+    3217008
+  ],
+  "title": [
+    "[Alhan'aht River, Hilly Pass]"
+  ],
+  "description": [
+    "Following the contours of the land, the river winds its lazy way through the hills as it makes its slow progress to its northern destination.  Blue, brown, and orange granite rises to either side of the water course to create a roofless tunnel that displays various wavy lines where the water has eroded the land to create its current home."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1579,
+      2000,
+      1599,
+      2020
+    ]
+  },
+  "exits": [
+    {
+      "to": 20980,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push n"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push sw"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

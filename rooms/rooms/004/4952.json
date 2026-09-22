@@ -1,0 +1,93 @@
+{
+  "id": 4952,
+  "uid": [
+    13025006
+  ],
+  "title": [
+    "[Seethe Naedal, Winding Path]"
+  ],
+  "description": [
+    "A jumble of oddly-shaped rocks litter the path.  Some of the stones appear to have been worked by tools, but abandoned before finished.  Patches of lichen have taken over some of the stones while others are strangely bare.  A stream parallels the path before flowing off an overhang of rock to the west.",
+    "A jumble of oddly-shaped rocks litter the path.  Some of the stones appear to have been worked by tools, but abandoned before finished.  Patches of lichen have taken over some of the stones while others are strangely bare.  A stream parallels the path before flowing off an overhang of rock to the west.  Moonlight glints off the stream as it tumbles into the darkness below."
+  ],
+  "paths": [
+    "Obvious paths: southeast, up"
+  ],
+  "location": "Seethe Naedal",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "bolmara lichen",
+    "crimson dragonstalk",
+    "deep purple shockroot",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "hop flowers",
+    "ironfern root",
+    "juicy plum",
+    "leek",
+    "mountain dryad",
+    "pepperthorn root",
+    "private property",
+    "red thanot berry",
+    "rhubarb",
+    "shallot",
+    "small apple",
+    "small dandelion",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "thanot thorn",
+    "thin hemp",
+    "viburnum twig",
+    "wild pink geranium",
+    "wild sage",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-sapphire-1658723758.png",
+    "rect": [
+      1365,
+      708,
+      1375,
+      718
+    ]
+  },
+  "exits": [
+    {
+      "to": 4950,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 4953,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 36165,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "hunting"
+          }
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

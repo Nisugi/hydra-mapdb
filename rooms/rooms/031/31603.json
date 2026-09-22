@@ -1,0 +1,62 @@
+{
+  "id": 31603,
+  "uid": [
+    8083009
+  ],
+  "title": [
+    "[Evermore Hollow, Noble Guardian]"
+  ],
+  "description": [
+    "Transitioning from a well-trodden cobblestone pathway to a boardwalk that culminates in an elaborate iron gate, the small courtyard is part stone and part roughly hewn wood.  At its center is an ancient leafless tree strung with thousands of frosted glass bottles that sway and clink against one another, offering a counterpoint to its protesting groans as a gentle breeze moves through its limbs.  Encircling the arboreal colossus are worn circular benches connected by copper bands."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      663,
+      435,
+      686,
+      454
+    ]
+  },
+  "exits": [
+    {
+      "to": 31562,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 31592,
+      "kind": "go",
+      "cmd": "go pathway",
+      "cost": 0.2
+    },
+    {
+      "to": 31604,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 31607,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31613,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 19835,
+  "uid": [
+    675052
+  ],
+  "title": [
+    "[Cleric Guild, Alchemy Wing]"
+  ],
+  "description": [
+    "The hallway reaches its end here at a small shrine carved into the grey granite of the northern wall and lit by scores of small candles.  A pair of doors on either side of the hallway are the only other relief in the stark stone of the hall, which extends out of sight to the south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_cleric_guild.png",
+    "rect": [
+      104,
+      1,
+      156,
+      52
+    ]
+  },
+  "exits": [
+    {
+      "to": 19834,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28311,
+      "kind": "go",
+      "cmd": "go ironwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 28312,
+      "kind": "go",
+      "cmd": "go fel door",
+      "cost": 0.2
+    }
+  ]
+}

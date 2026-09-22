@@ -1,0 +1,56 @@
+{
+  "id": 2789,
+  "uid": [
+    4564202
+  ],
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "The hall is quiet, allowing a distant susurrus of wind in the pines outside to intrude, sighing like the sound of a restless ocean.  Doorways stand to the right and to the left, on either side of the passageway, framed in fine oak and decorated with carving in the pine needle pattern exhibited by the hall's rug.  Finely worked iron candlestick holders hang on the walls, providing a golden light that glistens in reflection on the hall's polished wood."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Pinefar Trading Post",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      212,
+      845,
+      222,
+      855
+    ]
+  },
+  "exits": [
+    {
+      "to": 2788,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2790,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25398,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25399,
+      "kind": "go",
+      "cmd": "go other door",
+      "cost": 0.2
+    }
+  ]
+}

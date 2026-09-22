@@ -1,0 +1,44 @@
+{
+  "id": 30022,
+  "uid": [
+    7503350
+  ],
+  "title": [
+    "[Eldurhaart, Blacksmith's]"
+  ],
+  "description": [
+    "Slag has burned a runnel into the frost-caked earth near the wall of an oversized blacksmith's hut.  Though cold and solidified, the acrid scent of the crude iron fills the air with its bitter bite.  Axe handles almost the thickness of a man's torso are propped up next to the open doorway."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      1104,
+      561,
+      1118,
+      575
+    ]
+  },
+  "exits": [
+    {
+      "to": 30021,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30023,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    }
+  ]
+}

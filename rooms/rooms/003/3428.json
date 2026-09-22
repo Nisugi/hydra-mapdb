@@ -1,0 +1,77 @@
+{
+  "id": 3428,
+  "uid": [
+    4043222
+  ],
+  "title": [
+    "[Thirsty Penguin, Parlour]"
+  ],
+  "description": [
+    "Thin muslin curtains are pulled back with twisted burgundy and gold silk cords.  Chairs and small tables cluttered with bric-a-brac make maneuvering difficult.  A small, tiled woodstove warms the room from its place in the corner."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      407,
+      875,
+      443,
+      911
+    ]
+  },
+  "exits": [
+    {
+      "to": 3426,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

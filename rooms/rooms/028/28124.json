@@ -1,0 +1,54 @@
+{
+  "id": 28124,
+  "uid": [
+    8208625
+  ],
+  "title": [
+    "[Rumor Woods]"
+  ],
+  "description": [
+    "A curtain of tangled roots hanging over a minor rocky outcropping nearly conceals what appears to be a a small cave.  The snow at the cave's mouth seems free of paw prints, or other potentially dangerous indications of animal life."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location_unknowable": true,
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-foxhunt-1654928999.jpg",
+    "rect": [
+      247,
+      582,
+      273,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 28122,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go cave"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 1.0
+    },
+    {
+      "to": 28136,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 28138,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

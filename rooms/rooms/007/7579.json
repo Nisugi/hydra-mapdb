@@ -1,0 +1,52 @@
+{
+  "id": 7579,
+  "uid": [
+    47010
+  ],
+  "title": [
+    "[Dark Cavern, Dead End]"
+  ],
+  "description": [
+    "The passage ends suddenly here, blocked by a wall of rubble where the tunnel has collapsed.  The glowing greenish lichen that covers the landslide is well-worn in several places as if someone or something had crawled over it many times, and a slight current of fresh air seems to come from above."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the dark caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "macadamia nuts",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "meta": [
+    "noteleport:fwi"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      64,
+      1182,
+      74,
+      1192
+    ]
+  },
+  "exits": [
+    {
+      "to": 292,
+      "kind": "go",
+      "cmd": "go wall of rubble",
+      "cost": 0.2
+    },
+    {
+      "to": 7578,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

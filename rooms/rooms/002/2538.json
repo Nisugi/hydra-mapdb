@@ -1,0 +1,44 @@
+{
+  "id": 2538,
+  "uid": [
+    4044020
+  ],
+  "title": [
+    "[Snowy Plains, Bridge]"
+  ],
+  "description": [
+    "Animal tracks can be seen crossing in front of you in the fallen snow covering the trail.  They seem to lead down to the river and disappear under the bridge.  Looking north, snow covered plains stretch on as far as you can see."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Icemule Trail",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-trail-1264234799.png",
+    "rect": [
+      797,
+      573,
+      807,
+      583
+    ]
+  },
+  "exits": [
+    {
+      "to": 2537,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2539,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

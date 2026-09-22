@@ -1,0 +1,51 @@
+{
+  "id": 24056,
+  "uid": [
+    104551
+  ],
+  "title": [
+    "[Paupers, Spirits Cellar]"
+  ],
+  "description": [
+    "The smell of fermentation permeates this dusty sub-level of House Paupers.  Kegs of ale are stacked along the stone walls, forming a narrow aisle leading back to huge wine casks, some of which are as tall as a giantman.  Industrious spiders have constructed complex spiderwebs that hang from the rafters down to the casks of wine and kegs of ale.  Three glasses and several drained liquor bottles rest atop one of the kegs, suggesting a recent, spur-of-the-moment celebration."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      895,
+      554,
+      982,
+      611
+    ]
+  },
+  "exits": [
+    {
+      "to": 8747,
+      "kind": "go",
+      "cmd": "go wooden stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 24057,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go jagged opening"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

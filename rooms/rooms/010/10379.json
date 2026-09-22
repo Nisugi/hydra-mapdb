@@ -1,0 +1,78 @@
+{
+  "id": 10379,
+  "uid": [
+    14103175
+  ],
+  "title": [
+    "[Ta'Vaalor Antique Goods]",
+    "[Ta'Vaalor, Secondhand Wares]"
+  ],
+  "description": [
+    "Beautiful gold sconces adorn both sides of the doorway in this quaint little shop.  A frosted glass cabinet, resting in the center of the royal-blue carpeting, holds an assortment of beautiful glass figurines.  An elegant emerald-green tapestry with gold stitching covers the wall above the fireplace.  Emptied of its cargo, a fair-sized gold chest lies on its side.  Its contents have been strewn haphazardly on the floor behind the counter.",
+    "An overwhelming stench of smoke fills the shop.  The remains of a a frosted-glass cabinet stand in the center of the room, the contents broken into piles of colorful glass dust.  The pawnbroker stands behind a makeshift counter of two crates and a scorched length of floor planking, trying desperately to pretend that everything is perfectly normal.",
+    "The stone walls are clean, but bare, and a simple woven wool carpet covers the wooden floor planks.  The pawnbroker stands behind a long counter, rows of tall shelves stretching behind him laden with a broad assortment of weapons, armor, potions, and trinkets, each meticulously labeled and catalogued.  A small trashcan stands against a side wall."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "pawn",
+    "pawnshop",
+    "urchin guide pawn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3522,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10380,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33636,
+  "uid": [
+    7101157
+  ],
+  "title": [
+    "[Academy, Northwest Corner]"
+  ],
+  "description": [
+    "The corner here is dark and damp, with much of this section of wall cracked and splitting, and the arch slightly misshapen yet still standing tall.  The carefully cut stones of the peaked opening are a light green in color, and carved on each are intricate patterns of small trees and flowers."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Vornavis",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      401,
+      226,
+      448,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 33635,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33637,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 33638,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

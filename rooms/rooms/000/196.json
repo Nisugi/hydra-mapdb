@@ -1,0 +1,59 @@
+{
+  "id": 196,
+  "uid": [
+    13101018
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]",
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low greystone building with colored glaes windows and pleasant yellow curtains, a rich, sugary smell wafts into the square.  A slight smile comes to the face of many elves as they pass by.",
+    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low marble building with colored glass windows and pale blue curtains, a rich, sugary smell wafts into the square.  Above the shop's blue door hangs a polished oak signboard."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      481,
+      500,
+      503,
+      520
+    ]
+  },
+  "exits": [
+    {
+      "to": 7,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 171,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 624,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

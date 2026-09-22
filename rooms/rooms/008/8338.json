@@ -1,0 +1,44 @@
+{
+  "id": 8338,
+  "uid": [
+    13009
+  ],
+  "title": [
+    "[Spider Temple, Leg of Folthren]"
+  ],
+  "description": [
+    "A large trunk and an ornate wooden chair are almost all that decorate the long main chamber of this leg.  A large marble statue of Arachne the Spider Goddess sits prominently in a corner, its moonstone eyes glittering.  A small curtained alcove is west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      556,
+      893,
+      566,
+      903
+    ]
+  },
+  "exits": [
+    {
+      "to": 8337,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8339,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

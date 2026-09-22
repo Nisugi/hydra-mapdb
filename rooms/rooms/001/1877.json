@@ -1,0 +1,56 @@
+{
+  "id": 1877,
+  "uid": [
+    3002025
+  ],
+  "title": [
+    "[Kharam-Dzu, Poor Quarter]"
+  ],
+  "description": [
+    "Tumble-down houses lean against one another like tired old drunks.  On the north side of the street, an abandoned warehouse squats in a haze of soot.  A shabby-looking group of dwarves, humans and others huddles before it, muttering quietly to one another.  One of the dwarves seems to be staring at you from beneath the hood of his grimy cloak."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      204,
+      834,
+      240,
+      870
+    ]
+  },
+  "exits": [
+    {
+      "to": 1867,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1874,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1875,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12420,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33648,
+  "uid": [
+    7101169
+  ],
+  "title": [
+    "[Academy, Northeast Corner]"
+  ],
+  "description": [
+    "Here, a small section of wall has shifted slightly, as if pushed up from beneath.  While still complete, it leans outward noticeably.  A large greenish stone with a carving of a bear and a tiger standing side by side sits on the peaked arch of a small opening."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      803,
+      226,
+      849,
+      274
+    ]
+  },
+  "exits": [
+    {
+      "to": 33647,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33649,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 33650,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

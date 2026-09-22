@@ -1,0 +1,45 @@
+{
+  "id": 22445,
+  "uid": [
+    94052
+  ],
+  "title": [
+    "[Dark Shrine, Wide Passageway]"
+  ],
+  "description": [
+    "A plain stone passageway has been cleanly carved from the solid rock, and leads to the east and west.  The featureless stone is grey, and the surface is abrasive."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Broken Lands",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "lesser vruul",
+    "peer west =~ /\\[Dark Shrine, Large Chamber\\]/"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      839,
+      248,
+      848,
+      258
+    ]
+  },
+  "exits": [
+    {
+      "to": 19269,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19270,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 28382,
+  "title": [
+    "[Moonstone Abbey, Lounge]"
+  ],
+  "description": [
+    "A gleaming mahogany bar trimmed with polished brass runs the length of the south wall, tall stools lined up before it.  Halfway to the vaulted stone ceiling, an unusually large blackened fel dart board cabinet hangs on one of the paneled walls.  Facing the huge grey-streaked marble fireplace, a semicircular dark leather couch invites you to relax and put your troubles aside.  Soft burgundy carpet matches the thick velvet drapes that cover the windows, giving the room a comfortable dusky feel at any hour."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 28354,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28383,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dusk table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28384,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go moonbeam table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28385,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go midnight table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28386,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go stardust table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28387,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dawn table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

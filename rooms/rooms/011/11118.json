@@ -1,0 +1,50 @@
+{
+  "id": 11118,
+  "uid": [
+    26030
+  ],
+  "title": [
+    "[Krol Ship, Forecastle]"
+  ],
+  "description": [
+    "This large room seems to serve many purposes but from the strong smell of sweat you can guess that it's most commonly used as the crew quarters.  A wooden ladder extends down into the hold from here."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      3801,
+      1652,
+      3823,
+      1674
+    ]
+  },
+  "exits": [
+    {
+      "to": 11114,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11117,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 11119,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

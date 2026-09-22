@@ -1,0 +1,41 @@
+{
+  "id": 36775,
+  "uid": [
+    7134217
+  ],
+  "title": [
+    "[Market of Lost Things]"
+  ],
+  "description": [
+    "The passage is divided by reinforced beams that frame narrow entries to storage alcoves, some converted to small kiosks or makeshift sleeping bunks.  Hooks and nails crowd every available plank, holding lanterns, baskets, and signs advertising wares.  Cargo nets hang overhead, securing a few forgotten wine barrels bearing brands from foreign ports."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Flotilla",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 36774,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36776,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    },
+    {
+      "to": 36777,
+      "kind": "go",
+      "cmd": "go kiosk",
+      "cost": 0.2
+    }
+  ]
+}

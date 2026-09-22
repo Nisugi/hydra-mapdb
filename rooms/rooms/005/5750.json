@@ -1,0 +1,111 @@
+{
+  "id": 5750,
+  "uid": [
+    13006011
+  ],
+  "title": [
+    "[Zul Logoth, Emerald Tunnel]"
+  ],
+  "description": [
+    "The developers of this section of tunnel have attempted to render it as rustic and outdoorsy as possible.  Massive pine trees, skillfully painted on the walls, thrust up to the ceiling overhead.  A giant toadstool, growing in a large stone pot, enhances the scene by bathing the ceiling and upper walls in an emerald light.  On the north wall, a log home nestles behind the pine tree screen.  A painted fawn shyly peers around the corner of the house, as if examining the interlopers with curiosity."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cleric guild",
+    "clericguild",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide clericguild",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      450,
+      446,
+      470,
+      466
+    ]
+  },
+  "exits": [
+    {
+      "to": 5749,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5751,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9406,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19788,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

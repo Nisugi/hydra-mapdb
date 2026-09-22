@@ -1,0 +1,50 @@
+{
+  "id": 16788,
+  "uid": [
+    13300038
+  ],
+  "title": [
+    "[Temple Wyneb, Occipitum]"
+  ],
+  "description": [
+    "The deep red marble which forms these chambers has a wonderful visual depth to it, created by the commingled tones of crimson and rusty brown which dapple the stone in a variety of patterns.  Some areas give the impression of newly-dissected flesh, while others remind you of smoldering embers."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      527,
+      573,
+      537,
+      583
+    ]
+  },
+  "exits": [
+    {
+      "to": 16787,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 16789,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16791,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

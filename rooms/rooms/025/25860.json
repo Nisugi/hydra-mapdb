@@ -1,0 +1,52 @@
+{
+  "id": 25860,
+  "uid": [
+    336005
+  ],
+  "title": [
+    "[Stone Baths, Siren Suite]"
+  ],
+  "description": [
+    "The scent of lavender lingers in the air, the source being several dried stalks that have been placed in delicate blown glass vases set around the room.  The stone walls are covered with silken tapestries depicting various scenes of women in repose, while a tiled fireplace along the back wall serves as the focal point for a half ring of overstuffed sofas and divans.  Plush, pale violet carpeting rests beneath the furniture, and a curtained archway to the northeast exudes a floral aroma."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "silver-cost:25975:2000"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      944,
+      880,
+      1086,
+      941
+    ]
+  },
+  "exits": [
+    {
+      "to": 19930,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25975,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "give attendant 2000"
+        },
+        {
+          "move": "go archway"
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

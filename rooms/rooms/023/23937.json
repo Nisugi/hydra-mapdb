@@ -1,0 +1,48 @@
+{
+  "id": 23937,
+  "title": [
+    "[River's Rest, Festival Grounds]"
+  ],
+  "description": [
+    "A fence of heavy rope and short, stubby pillars borders the path as it leads onward.  Here and there at the base of random pillars, seashells and wildflowers peek out from amidst the grass."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "River's Rest",
+  "image": {
+    "file": "fest-picklefest-1439662135.png",
+    "rect": [
+      404,
+      393,
+      428,
+      416
+    ]
+  },
+  "exits": [
+    {
+      "to": 23935,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23938,
+      "kind": "go",
+      "cmd": "go booth",
+      "cost": 0.2
+    },
+    {
+      "to": 23939,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24579,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    }
+  ]
+}

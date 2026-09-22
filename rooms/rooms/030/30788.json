@@ -1,0 +1,53 @@
+{
+  "id": 30788,
+  "uid": [
+    7120002,
+    7120014,
+    7120026,
+    7120038,
+    7120050,
+    7120062,
+    7120074
+  ],
+  "title": [
+    "[Enemy Ship, Helm]"
+  ],
+  "description": [
+    "In the shadows cast from the thick canvas sails overhead, a grey-backed seagull perches atop a wooden wheel, noisily munching on a potato peel scavenged from the crew's previous meal.  Across from a wooden door leading to the Captain's Quarters is a capstan, the drum wound with thick, braided hemp rope.  Large nets cling to pegs on the ship's railings, all empty save for a waterlogged boot with teethmarks on its toe."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy sloop"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      764,
+      243,
+      778,
+      257
+    ]
+  },
+  "exits": [
+    {
+      "to": 30787,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30789,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

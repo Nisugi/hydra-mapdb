@@ -1,0 +1,107 @@
+{
+  "id": 3637,
+  "uid": [
+    3201034
+  ],
+  "title": [
+    "[Honeysuckle Crossing]"
+  ],
+  "description": [
+    "The silver light of the moon pours down and reflects across the large stained glass-trimmed windows of the gemshop.  Lit from within as well, the two opposing hues of light appear to wage their war from opposite sides of the glass as they flicker and glow.  As a cloud passes over the moon, the candlelight appears to take the upper hand, crossing through the window and casting its warm glow upon the cobblestone street.",
+    "Stained glass windows, capped in green and white awnings, decorate the otherwise ordinary facing of the white gemshop that stands opposite an establishment that has a vine-covered roof.  Sunlight slants across the four corners of the crossing to illuminate exquisitely a pair of decorated signs, one hanging over each shop's doorway.",
+    "Stained glass windows, capped in green and white awnings, decorate the otherwise ordinary facing of the white gemshop that stands opposite an establishment that has a vine-covered roof.  Sunlight slants across the four corners of the crossing to illuminate exquisitely painted signs, one hanging over each shop's doorway."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2769,
+      1180,
+      2811,
+      1221
+    ]
+  },
+  "exits": [
+    {
+      "to": 3636,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3638,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3639,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.8
+    },
+    {
+      "to": 3845,
+      "kind": "go",
+      "cmd": "go gemshop",
+      "cost": 0.2
+    },
+    {
+      "to": 16343,
+      "kind": "go",
+      "cmd": "go establishment",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

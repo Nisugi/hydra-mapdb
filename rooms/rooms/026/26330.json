@@ -1,0 +1,36 @@
+{
+  "id": 26330,
+  "title": [
+    "[Lich's Landing, Wraith Way]"
+  ],
+  "description": [
+    "The broken, stained road continues here and ends at the town's barracks.  The building is two stories tall, with shattered windows lining its exterior.  Echoing from within the barracks is the sound of mournful wailing."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      1018,
+      333,
+      1045,
+      359
+    ]
+  },
+  "exits": [
+    {
+      "to": 26329,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26331,
+      "kind": "go",
+      "cmd": "go barracks",
+      "cost": 0.2
+    }
+  ]
+}

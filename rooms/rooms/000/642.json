@@ -1,0 +1,71 @@
+{
+  "id": 642,
+  "uid": [
+    737010
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Bazaar]"
+  ],
+  "description": [
+    "Drawing attention from passersby with their blazing hues, incarnadine blossoms of anemones and roses are interrupted by the pale petals of stargazer lilies.  A pair of grey-blue cottages with crimson silk awnings lie beyond the extravagant flower garden.  Standing between the entryways is a pristine marble statue clutching a gold-inked sign.",
+    "Cast in silvery moonlight, very few people pass through this portion of the bazaar at night.  A pair of grey-blue cottages with crimson silk awnings lie beyond an extravagant flower garden.  Standing between the entryways is a pristine marble statue clutching a gold-inked sign."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1434,
+      668,
+      1450,
+      684
+    ]
+  },
+  "exits": [
+    {
+      "to": 641,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 732,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 734,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27059,
+      "kind": "go",
+      "cmd": "go red shop",
+      "cost": 0.2
+    },
+    {
+      "to": 27062,
+      "kind": "go",
+      "cmd": "go black edifice",
+      "cost": 0.2
+    },
+    {
+      "to": 27809,
+      "kind": "go",
+      "cmd": "go pale building",
+      "cost": 0.2
+    }
+  ]
+}

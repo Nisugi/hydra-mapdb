@@ -1,0 +1,112 @@
+{
+  "id": 30591,
+  "uid": [
+    12005001
+  ],
+  "title": [
+    "[Snowflake Vale, Paddock]"
+  ],
+  "description": [
+    "A long, weathered fence made of alternating pine and birchwood encloses a particularly large meadow and separates it from the surrounding wilds.  Snow has piled up in the four corners of this large paddock, while an oblong trail that has been shoveled nearly clean in the center, the exposed ground covered with hoof marks.  Near the back of the lot stands a well-constructed barn illuminated by several oil lamps near its doors."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "frostflower",
+    "frostweed",
+    "handful of pinenuts",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "pine cone",
+    "pine needles",
+    "pine twig",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "slender twig",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "spruce twig",
+    "stable",
+    "sticks",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "thorny wintersbite",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "urchin guide stable",
+    "urchin-access",
+    "valerian root",
+    "white crallisberry",
+    "winter rose",
+    "wintercrisp apple",
+    "wintergreen leaf"
+  ],
+  "exits": [
+    {
+      "to": 3195,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30592,
+      "kind": "go",
+      "cmd": "go barn",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

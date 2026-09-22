@@ -1,0 +1,44 @@
+{
+  "id": 24483,
+  "uid": [
+    217032
+  ],
+  "title": [
+    "[Rone Academy, Cathedral Entry]"
+  ],
+  "description": [
+    "A wide corridor leads between the busy alumni hall to the east and the arch that serves as the entrance to the main cathedral to the west.  Murals depicting the icons of the Liabo and Lornon pantheons adorn the walls."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Rone Academy",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-rone_academy-1619899949.png",
+    "rect": [
+      585,
+      266,
+      609,
+      290
+    ]
+  },
+  "exits": [
+    {
+      "to": 24407,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24484,
+      "kind": "go",
+      "cmd": "go open arch",
+      "cost": 0.2
+    }
+  ]
+}

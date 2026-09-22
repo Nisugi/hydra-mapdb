@@ -1,0 +1,58 @@
+{
+  "id": 1338,
+  "uid": [
+    4748300
+  ],
+  "title": [
+    "[The Saddle]"
+  ],
+  "description": [
+    "Sun-bleached bones and the rusted remains of weapons and armor poke through the windswept snow.  Cold winds blowing across the plateau from the north are funneled through the pass, and carry enough moisture to bear a bone-chilling bite."
+  ],
+  "paths": [
+    "Obvious paths: south, down"
+  ],
+  "location": "the Central Caravansary",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      150,
+      1002,
+      160,
+      1012
+    ]
+  },
+  "exits": [
+    {
+      "to": 1337,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 1339,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3891,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

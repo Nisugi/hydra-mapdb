@@ -1,0 +1,36 @@
+{
+  "id": 26263,
+  "title": [
+    "[Banshee Tower, Third Floor]"
+  ],
+  "description": [
+    "Old, torn banners hang from the ceiling here, their tattered fabric depicting the visages of ancient elven women with faces half in beauty, half in death.  Moving about the room, a host of pale ghosts moan eerily."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      170,
+      402,
+      196,
+      428
+    ]
+  },
+  "exits": [
+    {
+      "to": 26262,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26264,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    }
+  ]
+}

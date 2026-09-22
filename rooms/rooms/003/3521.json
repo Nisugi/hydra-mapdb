@@ -1,0 +1,117 @@
+{
+  "id": 3521,
+  "uid": [
+    14100043
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Court]",
+    "[Ta'Vaalor, Tyrnian Court]",
+    "[Ta'Vaalor, King's Court]"
+  ],
+  "description": [
+    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenelated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall.",
+    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenellated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild",
+    "wild sage"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      1001,
+      854,
+      1037,
+      890
+    ]
+  },
+  "exits": [
+    {
+      "to": 3519,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.6
+    },
+    {
+      "to": 3522,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 17215,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

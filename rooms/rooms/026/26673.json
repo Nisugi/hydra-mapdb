@@ -1,0 +1,68 @@
+{
+  "id": 26673,
+  "title": [
+    "[The Abandoned Waters]"
+  ],
+  "description": [
+    "Just beyond the black sandbar below, the murky deep spreads out like an endless, smooth, black blanket beneath the deep indigo waters around you.  Occasional bubbles emanating from an unknown source dance upward in unison in their quest to reach the surface."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, up, down"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      375,
+      965,
+      389,
+      979
+    ]
+  },
+  "exits": [
+    {
+      "to": 26661,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26672,
+      "kind": "other",
+      "cmd": "swim southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26679,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 0.2
+    },
+    {
+      "to": 26681,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 0.2
+    },
+    {
+      "to": 26687,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

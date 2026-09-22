@@ -1,0 +1,97 @@
+{
+  "id": 9242,
+  "uid": [
+    18002001
+  ],
+  "title": [
+    "[Black Wolves Manor, Courtyard]"
+  ],
+  "description": [
+    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a white marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
+    "Tucked away from the bustle of town, the courtyard is surrounded by a tall stone wall brimming with honeysuckle and yellow trumpet vines.  Cascades of cool water tumble down from a marble fountain into a shallow pool.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
+    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "mapcategory:MHO",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Wehnimer's Landing - Black Wolves",
+    "mapshortname:Black Wolves"
+  ],
+  "image": {
+    "file": "wl-black_wolves_manor.png",
+    "rect": [
+      355,
+      564,
+      381,
+      591
+    ]
+  },
+  "exits": [
+    {
+      "to": 245,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24561,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 24562,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

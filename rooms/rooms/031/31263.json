@@ -1,0 +1,35 @@
+{
+  "id": 31263,
+  "uid": [
+    3027022
+  ],
+  "title": [
+    "[Asylum, Solitary Wing]"
+  ],
+  "description": [
+    "The repulsive odor here almost distracts from the excruciating cries that echo through the corridor.  The recently painted stone walls are already peeling and cracking from the damp air.  A filthy tray rests just outside a tiny wooden door at the bottom of the wall.  There is a metal barred door leading to an inmate's cell and a solid steel door that yields no clues to what lies beyond."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31251,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32757,
+      "kind": "go",
+      "cmd": "go solid door",
+      "cost": 0.2
+    }
+  ]
+}

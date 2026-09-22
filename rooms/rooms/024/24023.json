@@ -1,0 +1,39 @@
+{
+  "id": 24023,
+  "title": [
+    "[Coliseum Colonnade]"
+  ],
+  "description": [
+    "The wide, smooth white marble floor continues in a northern arc, flanked on the southern side by dozens of limestone columns.  The sunlit trees of the dense forest can be seen through the columns.  Inset into the limestone of the northern wall are a narrow arch and a low arch."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Ta'Vaalor",
+  "exits": [
+    {
+      "to": 24015,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24024,
+      "kind": "go",
+      "cmd": "go low arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24025,
+      "kind": "go",
+      "cmd": "go narrow arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24036,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

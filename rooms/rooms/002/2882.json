@@ -1,0 +1,121 @@
+{
+  "id": 2882,
+  "uid": [
+    4560048
+  ],
+  "title": [
+    "[Northern Slopes, Timberline]"
+  ],
+  "description": [
+    "Thick mists drape over the snowy ground.  To the west, a small stream rushes by, gurgling.  Its crystal waters froth and foam as they cascade down the barren slope, enfolding the larger rocks of the stream bed that jut above the surface.  Slicks of calm water trail the rocks where the current is broken.  Not far below, the stream disappears into an alpine forest."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Sleeping Lady Mountains",
+  "climate": "snowy, arctic",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "bolmara lichen",
+    "calamintha blossom",
+    "crowberry",
+    "dwarf bilberry",
+    "edelweiss",
+    "giant's lace",
+    "glassfern frond",
+    "golden aster",
+    "green glacierberry",
+    "iceblossoms",
+    "ironfern root",
+    "lingonberry",
+    "orange rowanberry",
+    "pale thornberry",
+    "pennyroyal stem",
+    "red winterberry",
+    "resting poppy",
+    "rockberry",
+    "sassafras leaf",
+    "silver iceblossom",
+    "small loganberry",
+    "snow lily",
+    "snowberries",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "tundra grass",
+    "valerian root",
+    "wingstem root",
+    "winter rose",
+    "wintercrisp apple"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      1294,
+      256,
+      1304,
+      266
+    ]
+  },
+  "exits": [
+    {
+      "to": 2881,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "not": {
+                  "setting": [
+                    "ice_mode",
+                    "run"
+                  ]
+                }
+              },
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "pause": 6000,
+          "when": {
+            "any": [
+              {
+                "setting": [
+                  "ice_mode",
+                  "wait"
+                ]
+              },
+              {
+                "skill_under": [
+                  "survival",
+                  50
+                ]
+              },
+              {
+                "encumbrance_over": 49
+              }
+            ]
+          }
+        },
+        {
+          "move": "east"
+        }
+      ],
+      "cost": 7.0
+    }
+  ]
+}

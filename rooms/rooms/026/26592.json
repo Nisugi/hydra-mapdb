@@ -1,0 +1,42 @@
+{
+  "id": 26592,
+  "title": [
+    "[Caligos Isle, Blind Man's Rail]"
+  ],
+  "description": [
+    "Twin railings stand at either side of the narrow pathway, the broken wood frames hanging precariously over the darkness of the cavern depths below.  The intermittent echo of rocks colliding down the walls of the chamber breaks up the otherwise monotonous silence of the area."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      825,
+      220,
+      838,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26530,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26593,
+      "kind": "go",
+      "cmd": "go rope",
+      "cost": 0.2
+    },
+    {
+      "to": 26594,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

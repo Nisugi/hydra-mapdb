@@ -1,0 +1,66 @@
+{
+  "id": 23352,
+  "uid": [
+    13018060
+  ],
+  "title": [
+    "[Sheer Cliff]"
+  ],
+  "description": [
+    "Several yards away from the last of the crabapple trees is the base of a grey granite cliff that climbs high into the sky.  The face is not completely smooth, as several outcroppings that could serve as anchor points for hands or feet are visible."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "bolmara lichen",
+    "crowberry",
+    "golden aster",
+    "ironfern root",
+    "mountain dryad",
+    "pepperthorn root",
+    "rockberry",
+    "snowberries",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "stalk of monkeyflower",
+    "wild pink geranium",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      555,
+      550,
+      565,
+      560
+    ]
+  },
+  "exits": [
+    {
+      "to": 23351,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23354,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go cliff"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

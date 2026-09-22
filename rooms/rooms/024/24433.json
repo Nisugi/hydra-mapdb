@@ -1,0 +1,101 @@
+{
+  "id": 24433,
+  "uid": [
+    4042257
+  ],
+  "title": [
+    "[Ancient Burrow, Plaza]",
+    "[Ancient Burrow, Nexus]"
+  ],
+  "description": [
+    "Veins of natural minerals glitter in the torchlight illuminating the stone walls of the burrow.  Despite the torches' scant heat, immense icicles jut from the high ceiling, ornately carved into fanciful sculptures of sea beasts, including whales and sleek sharks.  A raised plaza sprawls at the lowest portion of the burrow's floor, the dark flagstones spiraling outward from a black marble statue.  A stained pine bench faces the monument, an old oaken tun at its side.",
+    "Cobblestones spiral outwards from a dark faceless statue in the center of the nexus.  Veins of assorted natural minerals glitter beneath the cavernous burrow's artificial glow.  Carved twice the height as the rest of the burrow, the ceiling is decorated with several suspended ice sculptures.  A carved ice bench sits facing the statue, with a rhimar-bound barrel next to it."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, out",
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "subterranean",
+  "tags": [
+    "bolmara lichen",
+    "glassfern frond",
+    "ironfern root",
+    "node",
+    "supernode",
+    "urchin-access",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      189,
+      360,
+      204,
+      375
+    ]
+  },
+  "exits": [
+    {
+      "to": 24430,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24434,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24439,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24440,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

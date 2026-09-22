@@ -1,0 +1,74 @@
+{
+  "id": 14627,
+  "uid": [
+    3005
+  ],
+  "title": [
+    "[Wayside Inn, Garret]"
+  ],
+  "description": [
+    "Quiet laughter and subdued conversation punctuate the otherwise peaceful atmosphere of this little room tucked beneath the garret of the inn.  The smoke-blackened wooden beams meet at an angle, cradling a brass fixture with candles that bathe the room in a soothing glow."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 223,
+      "kind": "go",
+      "cmd": "go grate under ashes",
+      "cost": 15.0
+    },
+    {
+      "to": 3619,
+      "kind": "go",
+      "cmd": "go steep stair",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

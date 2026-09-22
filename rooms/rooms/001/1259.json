@@ -1,0 +1,94 @@
+{
+  "id": 1259,
+  "uid": [
+    1118
+  ],
+  "title": [
+    "[Raging Thrak Inn, Trophy Room]",
+    "[Raging Thrak, Trophy Room]",
+    "[Thrak Inn, Trophy Room]"
+  ],
+  "description": [
+    "The charred form of a fireplace occasionally billows small clouds of dust from a spot away from the crowd in the tavern.  Charred animal skins lie before the hearth, flanked on either side by clawed and raggedly ripped couches.  Broken and blackened trophies of forgotten hunts line the burnt and stained walls.",
+    "Tiny smudges of soot mar the fieldstones used to create the grand fireplace in this cozy room.  A collection of plaques hangs above an immense grey marble mantel cluttered with trophy cups and bowls.  Fashioned from a single stone slab, the hearth extends to an impressive black bear rug with its maw frozen in a silent roar.  Several overstuffed wingback chairs, each covered in deep jewel-tone chintz, are scattered about the room.  Against the back wall, a tall glass-front curio houses several ancient mementos and a thrak hide curtain hangs nearby.",
+    "A massive granite fireplace covers the back wall, proudly displaying a glass-paneled case upon its solid felwood mantel.  Two distressed leather sofas are pushed up against the side walls to allow plenty of room for weary patrons to rest.  Nearby, a blackened thrak hide curtain leads to a small alcove.  Sprawled across the wooden floors are several mismatched animal pelts.  You also see some leather sofas, a hide-wrapped wastebasket and a basket of sticks."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "sanctuary",
+    "supernode",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      201,
+      354,
+      231,
+      384
+    ]
+  },
+  "exits": [
+    {
+      "to": 1194,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1195,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 8722,
+      "kind": "go",
+      "cmd": "go thrak curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

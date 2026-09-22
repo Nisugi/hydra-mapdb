@@ -1,0 +1,109 @@
+{
+  "id": 4041,
+  "uid": [
+    2033
+  ],
+  "title": [
+    "[Temple, Chapel]"
+  ],
+  "description": [
+    "Two pillars frame a simple chapel.  Followers of the land's many religions offer prayers here, each to their own gods.  On a pine pew a Zhaolmin monk in tattered robes sits beside a solitary elf softly intoning an ancient chant.  In front of the pews, you see an unadorned altar."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin guide temple",
+    "urchin-access"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "image": {
+    "file": "wl-wehnimers-1264234799.png",
+    "rect": [
+      585,
+      881,
+      615,
+      911
+    ]
+  },
+  "exits": [
+    {
+      "to": 234,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4040,
+      "kind": "go",
+      "cmd": "go white arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4044,
+      "kind": "go",
+      "cmd": "go black arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4046,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7523,
+      "kind": "go",
+      "cmd": "go altar",
+      "cost": 0.2
+    },
+    {
+      "to": 8687,
+      "kind": "go",
+      "cmd": "go curved arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

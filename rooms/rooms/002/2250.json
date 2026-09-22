@@ -1,0 +1,56 @@
+{
+  "id": 2250,
+  "uid": [
+    3051021
+  ],
+  "title": [
+    "[Glaes Tunnel]"
+  ],
+  "description": [
+    "A massive iron wall to the south dominates this gloomy tunnel.  Underfoot, the floor is a vicious track of glaes spikes and pitfalls.  Here and there, pools of molten glaes lie sheathed in steam, which drifts up from the surface of each in a languid, curling dance."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "rough",
+  "tags": [
+    "crimson-flecked rose",
+    "ember orange rose",
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      251,
+      698,
+      259,
+      706
+    ]
+  },
+  "exits": [
+    {
+      "to": 2249,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2251,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

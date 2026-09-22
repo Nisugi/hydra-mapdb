@@ -1,0 +1,58 @@
+{
+  "id": 19789,
+  "uid": [
+    677002
+  ],
+  "title": [
+    "[Cleric Guild, Corridor]"
+  ],
+  "description": [
+    "Austere, moss green runners flow like verdant rivers upon the polished limestone floor.  The wide corridor splits to the east, where muffled chanting can be heard."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Zul Logoth",
+    "mapname:Zul Logoth - Cleric Guild",
+    "mapshortname:Cleric Guild (Zul Logoth)"
+  ],
+  "image": {
+    "file": "en-zul-logoth-cleric-guild.png",
+    "rect": [
+      117,
+      314,
+      169,
+      365
+    ]
+  },
+  "exits": [
+    {
+      "to": 19788,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 19790,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19791,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19796,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

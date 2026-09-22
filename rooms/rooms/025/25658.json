@@ -1,0 +1,43 @@
+{
+  "id": 25658,
+  "uid": [
+    281009
+  ],
+  "title": [
+    "[Bard Guild, Corridor]"
+  ],
+  "description": [
+    "The hall stops before a large oak door, with a second almost identical door to the west.  To the east, a flight of steps descends a short distance to a landing below, where a brightly embroidered cloth banner over the doorway reads \"Guild Office.\""
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25657,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25660,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 25661,
+      "kind": "go",
+      "cmd": "go second door",
+      "cost": 0.2
+    },
+    {
+      "to": 30887,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 31,
+  "uid": [
+    13100009
+  ],
+  "title": [
+    "[Ta'Illistim, Mzaarine Wey]"
+  ],
+  "description": [
+    "The wey opens onto a larger cobblestoned var, as the few passersby move off towards their separate destinations.  Several city guardsmen, casually watching the passersby and talking quietly amongst themselves, stand at the corner of the wey.",
+    "The wey opens onto a larger cobblestoned var, the congestion easing somewhat as the throngs move off towards their separate destinations.  Several city guardsmen, casually watching the passersby and talking quietly amongst themselves, stand at the corner of the wey.",
+    "At the juncture of wey and var, the cobblestones of the two streets merge together.  The former, much smaller than the latter, opens up at the intersection, forming a fan pattern on the ground.  The bluish-grey stones are joined with a mica-flecked mortar, which under the veil of night appears darker than it probably really is.  A gate peeks out from behind a stand of climbing roses.",
+    "At the juncture of wey and var, the cobblestones of the two streets merge together.  The former, much smaller than the latter, opens up at the intersection, forming a fan pattern on the ground.  The bluish-grey stones are joined with a mica-flecked mortar, which glints in the sunlight.  A gate peeks out from behind a stand of climbing roses."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1353,
+      795,
+      1375,
+      817
+    ]
+  },
+  "exits": [
+    {
+      "to": 30,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 3747,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

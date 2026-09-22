@@ -1,0 +1,122 @@
+{
+  "id": 11461,
+  "uid": [
+    304119
+  ],
+  "title": [
+    "[Maelstrom Bar, Underwater]"
+  ],
+  "description": [
+    "Light green water above, deep green water below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, west, northwest, up, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      788,
+      1261,
+      798,
+      1271
+    ]
+  },
+  "exits": [
+    {
+      "to": 11439,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11456,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11457,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11458,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim east"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11460,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11462,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11465,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11466,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 16060,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northeast"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

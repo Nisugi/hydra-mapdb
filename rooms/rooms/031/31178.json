@@ -1,0 +1,44 @@
+{
+  "id": 31178,
+  "uid": [
+    8208515
+  ],
+  "title": [
+    "[Liraflyswn, Cliff's Edge]"
+  ],
+  "description": [
+    "Clustered around the cliff's edge, large and small boulders make a protective barrier that would require climbing to circumvent.  Water, however, has little to no difficulty slipping through the eroded soil at their base and easily flows out of the nearby pond before tumbling over the edge.  A partially rotted wooden plank stretches through surrounding cattails and bulrush to a floating island."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location_unknowable": true,
+  "climate": "cold, dry",
+  "terrain": "cultivated",
+  "meta": [
+    "pay-to-play"
+  ],
+  "image": {
+    "file": "fest-pixiehunt-1654910951.png",
+    "rect": [
+      779,
+      374,
+      825,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 31165,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31179,
+      "kind": "go",
+      "cmd": "go plank",
+      "cost": 0.2
+    }
+  ]
+}

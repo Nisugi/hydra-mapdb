@@ -1,0 +1,63 @@
+{
+  "id": 26141,
+  "uid": [
+    7107087,
+    7107137,
+    7107187,
+    7107237,
+    7107287,
+    7107337,
+    7107387,
+    7107437,
+    7107487,
+    7107537,
+    7107587,
+    7107637,
+    7107687,
+    7107737,
+    7107787,
+    7107837
+  ],
+  "title": [
+    "[Reim Fortress, Entry]"
+  ],
+  "description": [
+    "Originating from a central portal, the immediate area is blanketed in an illuminating thick green haze that appears to flow like water across the ground toward the north.  Distant guttural growls and an ever-present clanking of metal chains resonate throughout the fortress."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Reim Fortress Defense",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "mapshortname:Reim Fortress Defense"
+  ],
+  "image": {
+    "file": "imt-reim-town_and_fortress-1676820399.png",
+    "rect": [
+      634,
+      458,
+      666,
+      490
+    ]
+  },
+  "exits": [
+    {
+      "to": 26129,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 26142,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

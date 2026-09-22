@@ -1,0 +1,56 @@
+{
+  "id": 4124,
+  "uid": [
+    35012
+  ],
+  "title": [
+    "[Glatoph, Vent Hole]"
+  ],
+  "description": [
+    "The walls and ceiling of this room curve gently around, blending into each other without any sharp corners or straight lines.  It's hot enough in here that you wish you could do with a bit less clothing, like maybe a loincloth.  Four round tunnels lead out of here in different directions."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, up, down"
+  ],
+  "location": "Glatoph",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      106,
+      384,
+      116,
+      394
+    ]
+  },
+  "exits": [
+    {
+      "to": 4123,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 4125,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 7903,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7905,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

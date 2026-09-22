@@ -1,0 +1,46 @@
+{
+  "id": 201,
+  "uid": [
+    13101010
+  ],
+  "title": [
+    "[Ta'Illistim, Baeialin Court]"
+  ],
+  "description": [
+    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the night breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible.",
+    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      243,
+      464,
+      265,
+      485
+    ]
+  },
+  "exits": [
+    {
+      "to": 200,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13300,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

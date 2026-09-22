@@ -1,0 +1,52 @@
+{
+  "id": 25763,
+  "uid": [
+    3223816
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Rhythmic and persistent, the ebb and flow of the tide as it courses over the southwestern beaches fills the air.  Bright white and glistening in the moonlight, the sands of the land mass fall away as they meet the sharp, jagged edges of cliffs that support Mist Harbor's eastern community.  Hearty vine plants trail down the edge, finding purchase in the various crags and cracks that riddle the rocky facing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1680,
+      1039,
+      1701,
+      1058
+    ]
+  },
+  "exits": [
+    {
+      "to": 25762,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25764,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

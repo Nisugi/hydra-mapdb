@@ -1,0 +1,44 @@
+{
+  "id": 11116,
+  "uid": [
+    26007
+  ],
+  "title": [
+    "[Krol Ship, Bowsprit]"
+  ],
+  "description": [
+    "Tenuously you cling to the large spar here which extends out from the bow of the ship.  Below you the water from a small river flows past the anchor chain and into the cove with a constant gurgle.  It looks as though the only way to go is back down the bowsprit, but you may be able to climb down the anchor chain with care."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Sea Caves",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      4072,
+      1779,
+      4094,
+      1801
+    ]
+  },
+  "exits": [
+    {
+      "to": 11115,
+      "kind": "go",
+      "cmd": "go bowsprit",
+      "cost": 0.2
+    },
+    {
+      "to": 11117,
+      "kind": "climb",
+      "cmd": "climb chain",
+      "cost": 0.2
+    }
+  ]
+}

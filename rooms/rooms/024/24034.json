@@ -1,0 +1,33 @@
+{
+  "id": 24034,
+  "title": [
+    "[Coliseum, Northeast Corridor]"
+  ],
+  "description": [
+    "Polished stone walls reflect the light of a trio of iron-banded torches that has been inset into ornate brackets.  Centered over a brick-lined tunnel is a deep azure banner that reads \"Arena Entrance\" embroidered in thick flaxen thread.  A flaxen banner over an azure arch reads \"Viewing Chamber\" in elegant azure embroidery."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Ta'Vaalor",
+  "exits": [
+    {
+      "to": 24016,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24035,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 24039,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

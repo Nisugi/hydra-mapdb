@@ -1,0 +1,42 @@
+{
+  "id": 25909,
+  "title": [
+    "[Sylinar's Spire]"
+  ],
+  "description": [
+    "A white tallow candle drips in its holder atop a small writing desk.  The stool in front of it is covered with a thick layer of dust.  Several small nicks mar the frame of the door opposite the desk.  The staircase spirals further upward to the fifth level of the tower."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
+  "image": {
+    "file": "Spire_Grounds_5117.png",
+    "rect": [
+      937,
+      315,
+      986,
+      369
+    ]
+  },
+  "exits": [
+    {
+      "to": 25908,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 25910,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 25914,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

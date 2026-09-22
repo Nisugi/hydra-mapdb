@@ -1,0 +1,50 @@
+{
+  "id": 7647,
+  "uid": [
+    84111
+  ],
+  "title": [
+    "[Sailors' Haven, Common Room]"
+  ],
+  "description": [
+    "You get the feeling no one has gathered here in ages as you enter this once cheerful room.  Trying to avoid the rotted fishing nets that hang from the ceiling proves to be quite tricky.  A musty smell emanates from several overstuffed chairs that are strewn about the room.  You hear strange sounds that seem to come from behind the soggy planks nailed loosely to the fireplace."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      300,
+      633,
+      310,
+      643
+    ]
+  },
+  "exits": [
+    {
+      "to": 7646,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 7648,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7649,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

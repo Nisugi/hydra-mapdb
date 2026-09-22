@@ -1,0 +1,45 @@
+{
+  "id": 35737,
+  "uid": [
+    7150526
+  ],
+  "title": [
+    "[The Tonbury, Main Deck]"
+  ],
+  "description": [
+    "Planks of cypress stained the color of coal are gritty with black sediment that spills from barrels near the ship's rusting cannons.  Frayed sailcloth, bleached ghostly white by long years in the sun, hangs raggedly from the masts, casting ghostly shadows over the useless weaponry.  Undeterred by the corroded cannons, another wreck, that of a fat-bellied merchant cog, grinds uncomfortably close to the hull and is joined to the warship by its own broken main mast."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1000,
+      2760,
+      1080,
+      2840
+    ]
+  },
+  "exits": [
+    {
+      "to": 35736,
+      "kind": "go",
+      "cmd": "go mast",
+      "cost": 0.2
+    },
+    {
+      "to": 35738,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

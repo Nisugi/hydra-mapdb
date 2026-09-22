@@ -1,0 +1,27 @@
+{
+  "id": 22593,
+  "title": [
+    "[Pucker Up]"
+  ],
+  "description": [
+    "A watercolor landscape hangs on the wall behind two wooden displays.  The image shows two figures engaged in a kiss near a twilit lake.  At the rear of the room, a cream lace curtain backed with apricot silk hangs neatly over the entrance to a small parlor."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 22592,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 22594,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

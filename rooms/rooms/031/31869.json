@@ -1,0 +1,57 @@
+{
+  "id": 31869,
+  "uid": [
+    8083088
+  ],
+  "title": [
+    "[Darkbriar Woods, Shadowed Copse]"
+  ],
+  "description": [
+    "Snowladen trees arch high above, casting shadows across the copse.  Several stone structures dot the depths of the woods, and several icy trails lead to additional buildings.  Icicle-fraught briars and brambles cluster together beneath the trees, the occasional frozen wild rose blossom adding a splash of color."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1361,
+      245,
+      1383,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31868,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31870,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33961,
+      "kind": "go",
+      "cmd": "go curiosity shop",
+      "cost": 0.2
+    },
+    {
+      "to": 34855,
+      "kind": "go",
+      "cmd": "go stone hut",
+      "cost": 0.2
+    }
+  ]
+}

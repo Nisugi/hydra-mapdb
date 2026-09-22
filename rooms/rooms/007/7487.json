@@ -1,0 +1,71 @@
+{
+  "id": 7487,
+  "uid": [
+    94030
+  ],
+  "title": [
+    "[Dark Grotto, Long Stairway]"
+  ],
+  "description": [
+    "Huge steps have been carved into the stone wall of the cavern forming a stairway of gigantic proportions.  No creature that you have ever seen has had the size or length of leg to negotiate stairs of this size.  The floor of the cavern is far below, and anyone who fell over the unprotected edge of the stairway would surely die in the fall."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map",
+    "peer down =~ /Obvious exits: up, down/"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      1001,
+      650,
+      1011,
+      660
+    ]
+  },
+  "exits": [
+    {
+      "to": 24572,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "down"
+        },
+        {
+          "pause": 200
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": {
+        "hasted": 15.0,
+        "step": 0.2
+      }
+    },
+    {
+      "to": 24573,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "up"
+        },
+        {
+          "pause": 200
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": {
+        "hasted": 15.0,
+        "step": 0.2
+      }
+    }
+  ]
+}

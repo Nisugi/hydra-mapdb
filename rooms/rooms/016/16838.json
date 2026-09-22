@@ -1,0 +1,66 @@
+{
+  "id": 16838,
+  "uid": [
+    268001
+  ],
+  "title": [
+    "[Bluerock Brewery, Office]"
+  ],
+  "description": [
+    "Promotional scrolls for many of Bluerock Brewery's signature beers and ales have been tacked carefully upon the bleached stone walls.  Neatly furnished, the tidy office features a glaes-paned curio cabinet, an immaculately clean desk, and a sturdy high-backed chair.  The faint aroma of roasted barley lingers in the air, mingling with a distinctly earthy scent originating from somewhere unseen."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "rogue guild",
+    "rogueguild"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Zul Logoth",
+    "mapname:Zul Logoth - Rogue Guild",
+    "mapshortname:Rogue Guild (Zul Logoth)"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      110,
+      239,
+      150,
+      277
+    ]
+  },
+  "exits": [
+    {
+      "to": 9450,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17897,
+      "kind": "scripted",
+      "routine": {
+        "name": "guild_password"
+      },
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "rogue_password"
+            },
+            {
+              "profession": "Rogue"
+            }
+          ]
+        },
+        "then": 1.6
+      }
+    }
+  ]
+}

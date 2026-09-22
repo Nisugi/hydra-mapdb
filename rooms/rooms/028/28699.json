@@ -1,0 +1,50 @@
+{
+  "id": 28699,
+  "uid": [
+    336786
+  ],
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Clumps of dirt make the travel here uneven and bumpy, and one lone torch provides only a small halo of light along the ground.  A stained steel ladder stretches up from a jagged rock wall."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-burrow_way-1616121316.png",
+    "rect": [
+      507,
+      341,
+      544,
+      377
+    ]
+  },
+  "exits": [
+    {
+      "to": 13245,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 20590,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28700,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

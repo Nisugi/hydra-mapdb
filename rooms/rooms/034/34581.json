@@ -1,0 +1,46 @@
+{
+  "id": 34581,
+  "uid": [
+    669012
+  ],
+  "title": [
+    "[Ebonshade Tower, Foyer]"
+  ],
+  "description": [
+    "Covering the dark stone floor, a rich burgundy carpet fans out from the entrance.  Standing to one side of a carved ironwood door is a marble pedestal veined with swirling gold; an open book rests on top, with a deep crimson banner fringed with gold hanging above.  Several pewter sconces shed light over the foyer, while two standing candelabra rest to either side of an archway draped in ebon velvet."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      280,
+      863,
+      312,
+      893
+    ]
+  },
+  "exits": [
+    {
+      "to": 34580,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 34582,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 34583,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

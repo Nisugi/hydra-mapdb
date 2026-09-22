@@ -1,0 +1,43 @@
+{
+  "id": 26077,
+  "uid": [
+    679011
+  ],
+  "title": [
+    "[Zul Logoth, Ancient Passage]"
+  ],
+  "description": [
+    "Four large murals line the smooth stones walls, their images ranging in hues from sanguine to niveous.  Carved patterns, each transforming from one mural to the other, travel between the pieces and are illuminated by a tall pillar of candles that occupies the center of the floor.  Traveling in opposing directions, a pair of staircases provides twin exits from the chamber."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26076,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26078,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

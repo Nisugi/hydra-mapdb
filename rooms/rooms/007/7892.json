@@ -1,0 +1,80 @@
+{
+  "id": 7892,
+  "uid": [
+    2123010
+  ],
+  "title": [
+    "[Upper Trollfang, Winding Trees]"
+  ],
+  "description": [
+    "A dense wall of thick fog covers the path to the southeast making it impossible to venture further in that direction.  You feel an odd stirring of mana within it that makes you uneasy, as if it were somehow alive and aware of your presence."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, dry",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "ephlox moss",
+    "luckbloom blossom",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild beechnut",
+    "wild pink geranium",
+    "willow twig",
+    "wintergreen leaf",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      1083,
+      1032,
+      1093,
+      1042
+    ]
+  },
+  "exits": [
+    {
+      "to": 7891,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 24675,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "go fog"
+        },
+        {
+          "remember": [
+            "redforest_location",
+            "WL"
+          ]
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

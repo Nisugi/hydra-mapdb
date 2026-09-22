@@ -1,0 +1,53 @@
+{
+  "id": 8638,
+  "uid": [
+    32129
+  ],
+  "title": [
+    "[Courtyard North]"
+  ],
+  "description": [
+    "This corner of the courtyard lies within the shadows of the surrounding buildings, creating a cool haven.  A large wooden bench painted with a vibrant mural sits before the six-tiered fountain that squats in the middle of the courtyard.  A flock of pigeons scavenge about for crumbs and seeds, their dun colored heads bobbing as they walk."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 8637,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8639,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8649,
+      "kind": "go",
+      "cmd": "go ornate door",
+      "cost": 0.2
+    },
+    {
+      "to": 8650,
+      "kind": "go",
+      "cmd": "go felwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 8652,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

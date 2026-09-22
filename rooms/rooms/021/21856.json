@@ -1,0 +1,36 @@
+{
+  "id": 21856,
+  "title": [
+    "[Talador, Outside Gate]"
+  ],
+  "description": [
+    "The city's thick stone walls rise up before you, stretching far to the east and west.  Armored guards with crossbows man the walls, patrolling their vast length.  The dirt road ends before a huge steel-bound wooden gate and a number of merchants and their wagons wait on the side of the trail to be permitted within."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      240,
+      262,
+      254,
+      276
+    ]
+  },
+  "exits": [
+    {
+      "to": 21796,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21857,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

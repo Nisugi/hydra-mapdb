@@ -1,0 +1,41 @@
+{
+  "id": 36406,
+  "uid": [
+    58012
+  ],
+  "title": [
+    "[Dungeon, Red Corridor]"
+  ],
+  "description": [
+    "Deep red stone makes up the walls of the corridor.  Sconces give off a warm glow that exaggerates the crimson in the stonework, making the walls appear to run with fresh blood in the shifting light.  There is a simple door set into the wall, unassuming against the stone."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1360,
+      760,
+      1400,
+      800
+    ]
+  },
+  "exits": [
+    {
+      "to": 36404,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 36407,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

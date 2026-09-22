@@ -1,0 +1,67 @@
+{
+  "id": 3264,
+  "uid": [
+    4127005
+  ],
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "The path leads you closer to the south side of the hill where large cave openings can be seen scattered along the base.  The closest opening is one of three along this side and has heavy gouges around the lower edges.  To the left of the opening is a staircase that has been carved into the side of the hill leading upwards to a wide ledge."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Ice Plains",
+  "climate": "glacial",
+  "terrain": "plain dirt",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "frostflower",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sweetfern stalk",
+    "valerian root",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      316,
+      410,
+      326,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 3239,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "rolaren_gate"
+      },
+      "cost": 1.0
+    },
+    {
+      "to": 3265,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3274,
+      "kind": "go",
+      "cmd": "go open",
+      "cost": 0.2
+    },
+    {
+      "to": 3280,
+      "kind": "climb",
+      "cmd": "climb stair",
+      "cost": 0.2
+    }
+  ]
+}

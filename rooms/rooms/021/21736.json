@@ -1,0 +1,36 @@
+{
+  "id": 21736,
+  "title": [
+    "[Griffin's Landing, Hidden Oasis]"
+  ],
+  "description": [
+    "An abundance of color fills the land surrounding the calm water disturbed only by a small waterfall that flows over the perimeter wall.  A short, partially concealed tunnel can be seen behind the flow of water.  A large wooden dock extends into the water, providing a dry walkway to a small island in the lake where Blubber's ice cream stand awaits.  A group of wide trees emerging from the water's edge support a small hammock and an oak swing."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 21692,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21737,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 21738,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

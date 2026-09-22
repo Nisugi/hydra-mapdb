@@ -1,0 +1,54 @@
+{
+  "id": 18220,
+  "uid": [
+    3217242
+  ],
+  "title": [
+    "[Cobblestone Courtyard]"
+  ],
+  "description": [
+    "Set back from the well-lit streets of the marketplace, the courtyard is very dark.  The only source of light is coming from an intricate metalwork door set in the whitewashed wall of a small cottage.  The light coming through the door illuminates the start of a cobblestone path that leads towards the back of the cottage.",
+    "Set back from the bustling market, this small courtyard is much more quiet.  An intricate metalwork door is set in the whitewashed wall of a small cottage while a cobblestone path leads around to the back where you see a small plume of smoke rising in the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3329,
+      1460,
+      3370,
+      1499
+    ]
+  },
+  "exits": [
+    {
+      "to": 3676,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18219,
+      "kind": "go",
+      "cmd": "go metalwork door",
+      "cost": 0.2
+    },
+    {
+      "to": 18221,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

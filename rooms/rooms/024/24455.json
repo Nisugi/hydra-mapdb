@@ -1,0 +1,53 @@
+{
+  "id": 24455,
+  "uid": [
+    4043061
+  ],
+  "title": [
+    "[Ancient Keep, Foyer]"
+  ],
+  "description": [
+    "Circular in shape, the floor is completely made from square-cut sections of black marble.  Large, blackened marble pillars line the walls, ending with a domed glass ceiling high overhead.  A narrow gap on the far side of the room leads to a sweeping stairwell with a mithglin-plated door beneath it."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 24439,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 24456,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24457,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24459,
+      "kind": "go",
+      "cmd": "go mithglin-plated door",
+      "cost": 0.2
+    },
+    {
+      "to": 24460,
+      "kind": "go",
+      "cmd": "go sweeping stairwell",
+      "cost": 0.2
+    }
+  ]
+}

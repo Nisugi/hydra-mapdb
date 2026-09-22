@@ -1,0 +1,35 @@
+{
+  "id": 21305,
+  "uid": [
+    107207
+  ],
+  "title": [
+    "[House Brigatta, Hallway]"
+  ],
+  "description": [
+    "This narrow hallway ends in a blank wall and at the other end a curtained opening."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_locker",
+    "che:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 21306,
+      "kind": "go",
+      "cmd": "go curtained opening",
+      "cost": 0.2
+    },
+    {
+      "to": 21308,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

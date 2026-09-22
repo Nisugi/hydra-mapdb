@@ -1,0 +1,85 @@
+{
+  "id": 23260,
+  "uid": [
+    306042
+  ],
+  "title": [
+    "[The Broken Lands, Jagged Plain]"
+  ],
+  "description": [
+    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "climate": "hot, damp",
+  "terrain": "barren scrub",
+  "tags": [
+    "black toadstool",
+    "blackened moss",
+    "giant fog beetle",
+    "hooded figure"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      703,
+      951,
+      713,
+      961
+    ]
+  },
+  "exits": [
+    {
+      "to": 7454,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southwest"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 7455,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23261,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23262,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "north"
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 23264,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

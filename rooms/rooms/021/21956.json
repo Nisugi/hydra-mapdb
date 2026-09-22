@@ -1,0 +1,36 @@
+{
+  "id": 21956,
+  "title": [
+    "[Talador Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "Darkness only faintly peels away as parts of the tunnel are illuminated by the presence of strange glowing white maggots crawling along the walls.  At the end of the tunnel, a stony ledge rises up."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      768,
+      592,
+      782,
+      606
+    ]
+  },
+  "exits": [
+    {
+      "to": 21955,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 21957,
+      "kind": "go",
+      "cmd": "go ledge",
+      "cost": 0.2
+    }
+  ]
+}

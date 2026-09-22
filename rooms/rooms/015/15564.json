@@ -1,0 +1,43 @@
+{
+  "id": 15564,
+  "uid": [
+    685025
+  ],
+  "title": [
+    "[Wizard Guild, Conveyance]"
+  ],
+  "description": [
+    "The soft music of running water fills the still air, and the smooth crystalline walls of the chamber ripple with the movement of the flowing rivulets trapped behind them.  Faint runic traceries glint on the surface of the transparent walls and run their entire length and breadth.  Stretching across the floor are sinuous silver lines that whorl and spiral about each other in fanciful runes and geometric shapes, ultimately forming a vast circle."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+    "rect": [
+      7,
+      636,
+      25,
+      654
+    ]
+  },
+  "exits": [
+    {
+      "to": 15562,
+      "kind": "go",
+      "cmd": "go circle",
+      "cost": 0.2
+    },
+    {
+      "to": 15599,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

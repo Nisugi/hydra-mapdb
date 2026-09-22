@@ -1,0 +1,40 @@
+{
+  "id": 16852,
+  "uid": [
+    13010142
+  ],
+  "title": [
+    "[Paupers, Annex]"
+  ],
+  "description": [
+    "Two huge toadstools in stone pots illuminate a large, comfortable room.  Dusky brown granite benches line two of the marble walls, facing each other across the sapphire carpet.  On one wall, a brass arch allows exit to the corridor outside, while on the other wall a curtain provides entrance to the locker area."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "pauperslockers"
+  ],
+  "meta": [
+    "che:paupers:entrance_annex",
+    "che:paupers:entrance_locker",
+    "locker annex:House of Paupers"
+  ],
+  "exits": [
+    {
+      "to": 9498,
+      "kind": "go",
+      "cmd": "go brass arch",
+      "cost": 0.2
+    },
+    {
+      "to": 32850,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

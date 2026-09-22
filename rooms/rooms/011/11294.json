@@ -1,0 +1,50 @@
+{
+  "id": 11294,
+  "uid": [
+    377101
+  ],
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "Every ancient tapestry lining this hall has been torn into long tatters, which sway and twist drunkenly with even the ghost of a breeze.  To the east, the walls have caved and crumbled, with jagged timbers spiking like the points of a morning star from the impenetrable heap of rubble.  A dreamlike quality possesses the place, induced by the eye-stinging yellow haze that fills the ruined hall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      764,
+      893,
+      774,
+      903
+    ]
+  },
+  "exits": [
+    {
+      "to": 11293,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 11295,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11296,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

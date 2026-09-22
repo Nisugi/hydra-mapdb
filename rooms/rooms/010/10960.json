@@ -1,0 +1,35 @@
+{
+  "id": 10960,
+  "uid": [
+    2101968
+  ],
+  "title": [
+    "[River's Rest Inn, Narrow Hall]"
+  ],
+  "description": [
+    "Many plaques and paintings adorn the walls here as light from ceiling windows reflect down on them.  An elegant oak staircase leads up to an open balcony of the upper floor."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 10956,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 10961,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 26004,
+  "uid": [
+    4043263
+  ],
+  "title": [
+    "[Cloudberry Room]"
+  ],
+  "description": [
+    "The plain, light yellow walls complement the golden-orange marble tiles.  On the wall hangs a painting of a group of halflings happily feasting on a huge cloudberry pie -- their faces dripping with crumb-covered juices."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "locker annex:Silvergate Inn"
+  ],
+  "image": {
+    "file": "imt-silvermule_gaming_hall-1484821104.png",
+    "rect": [
+      589,
+      817,
+      721,
+      870
+    ]
+  },
+  "exits": [
+    {
+      "to": 20015,
+      "kind": "go",
+      "cmd": "go cloudberry arch",
+      "cost": 0.2
+    },
+    {
+      "to": 29807,
+      "kind": "other",
+      "cmd": "lean tart book in bookcase",
+      "cost": 0.2
+    }
+  ]
+}

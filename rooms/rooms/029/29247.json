@@ -1,0 +1,41 @@
+{
+  "id": 29247,
+  "uid": [
+    13122008
+  ],
+  "title": [
+    "[Museum Alerreth, Upper Platform]"
+  ],
+  "description": [
+    "Copper railings line the inner edge of the high platform, providing a slatted view down onto the main floor of the museum below.  The exhibit space between the railings and the building's exterior wall is largely open, and identical to its mate across the platform -- the floors are basket weave patterned wood and the cases clear glass atop copper pedestals.  A walkway stretches between the two elevated halves of the building."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 29246,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 29248,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29249,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    }
+  ]
+}

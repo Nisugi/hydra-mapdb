@@ -1,0 +1,27 @@
+{
+  "id": 26473,
+  "title": [
+    "[The Third Eye]"
+  ],
+  "description": [
+    "Witch-balls, suspended from the ceiling by bits of twine, dangle at varying lengths, their candle-lit bodies spilling a golden glow upon the refurbished floorboards.  Recesses carved into the granite walls display a variety of wares under the watchful eye of a young giantwoman.  Near the back of the shop, a coin-edged velvet curtain provides entry to a backroom."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26472,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26642,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

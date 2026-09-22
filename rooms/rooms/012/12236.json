@@ -1,0 +1,109 @@
+{
+  "id": 12236,
+  "uid": [
+    4571011
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "A white-washed baby's crib stands alone in a circle of dark stones.  Snow swirls around the bed in a loose vortex.  The tortured cries and wails of an infant can be heard clearly, though there is no child to be found anywhere.",
+    "A white-washed baby's crib stands alone in a circle of glowing coals, illuminated with a reddish hue against the darkness.  The tortured cries and wails of an infant can be heard clearly, though there is no child to be found anywhere."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, northwest",
+    "Obvious paths: southeast, south, northwest"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      460,
+      210,
+      484,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12234,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 12235,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12238,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

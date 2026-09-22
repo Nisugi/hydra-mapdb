@@ -1,0 +1,85 @@
+{
+  "id": 33863,
+  "uid": [
+    14150102
+  ],
+  "title": [
+    "[Nielira Harbor, Promenade]"
+  ],
+  "description": [
+    "Latticed branches of ebony are crafted to form a natural canopy across the cobblestone-paved road, providing shade for a scattering of wrought faenor benches set along the perimeter.  Interspersed between the seats are diminutive planters of vert-colored clay, the vessels resting upon circular tables covered in embroidered linen.  A tall row of faenor lamp posts stand guard across the opposite side of the walkway, their spherical nielira-etched lanterns loosely entangled in heartleaf."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, west, northwest"
+  ],
+  "location": "Ta'Nalfein",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "acistira stem",
+    "black-red fritillary",
+    "blackish green twisted-fan",
+    "checkered fritillary",
+    "green acistira leaves",
+    "pinkish green rosegrass",
+    "snake's head fritillary",
+    "tiny white elderflowers",
+    "vert and orange frog-cup",
+    "violet fritillary",
+    "yellowish green twisted-fan"
+  ],
+  "image": {
+    "file": "en-nalfein-1695787165.png",
+    "rect": [
+      428,
+      430,
+      456,
+      458
+    ]
+  },
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 33856,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33857,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33862,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33864,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33879,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

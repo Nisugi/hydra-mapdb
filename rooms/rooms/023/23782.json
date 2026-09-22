@@ -1,0 +1,40 @@
+{
+  "id": 23782,
+  "uid": [
+    8213016
+  ],
+  "title": [
+    "[Duskruin Arena, Descent]"
+  ],
+  "description": [
+    "Sloping downward into the mountainside, the dim tunnel ends at an expansive stone archway that serves as the entrance to a bright chamber beyond. To one side, another tunnel appears to have once been started, but never finished, leaving deep gouges in the walls."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1362,
+      318,
+      1383,
+      338
+    ]
+  },
+  "exits": [
+    {
+      "to": 23779,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23798,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

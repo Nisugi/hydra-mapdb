@@ -1,0 +1,42 @@
+{
+  "id": 20264,
+  "title": [
+    "[Feywrot Mire, Trail of Runes]"
+  ],
+  "description": [
+    "The scent of peat and decaying leaves drift upwards from nearby swamp waters, wafting on currents of humid air.  Toward the outer areas, a stand of moss-bearded trees keep silent watch on their surroundings.  Knees protrude around them like knobby, gnarled daggers piercing the glassy surface of the waters."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      554,
+      853,
+      567,
+      867
+    ]
+  },
+  "exits": [
+    {
+      "to": 20263,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20266,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21865,
+      "kind": "go",
+      "cmd": "go house",
+      "cost": 0.2
+    }
+  ]
+}

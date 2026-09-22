@@ -1,0 +1,53 @@
+{
+  "id": 17839,
+  "uid": [
+    266038
+  ],
+  "title": [
+    "[Hall]"
+  ],
+  "description": [
+    "A polished wooden staircase curves downward from this wide landing, the checkered pattern of the marble tiles below visible at its base.  A pair of statues reside on thick pedestals on either side of the staircase, one an elegant crystal unicorn, the other an intricately carved wooden dragon.  Facing each other and striking similarly aggressive poses, the statues appear to be passing judgment on all those who ascend the stairs."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-Illistim_rogue_guild-1267238976.jpg",
+    "rect": [
+      1330,
+      370,
+      1374,
+      412
+    ]
+  },
+  "exits": [
+    {
+      "to": 17838,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17881,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17882,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17887,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

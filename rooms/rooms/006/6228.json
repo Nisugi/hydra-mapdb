@@ -1,0 +1,55 @@
+{
+  "id": 6228,
+  "uid": [
+    2167110
+  ],
+  "title": [
+    "[Labyrinth, Promontory]"
+  ],
+  "description": [
+    "A small stone promontory stretches outward slightly from the mountainside, overlooking the ground far below.  A gentle breeze swirls about playfully, carrying with it the strong scent of pine.  Stone benches travel around the walled edge of the circular platform, turned to face the handsome statue of a warrior-king.  A steep trail leads away from the simple sanctuary, down and across the cliffs of the plateau."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "ironfern root",
+    "murdroot",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      843,
+      126,
+      877,
+      160
+    ]
+  },
+  "exits": [
+    {
+      "to": 6227,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb path"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9651,
+      "kind": "climb",
+      "cmd": "climb trail",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 35772,
+  "uid": [
+    3201710
+  ],
+  "title": [
+    "[Seawind Haven, Promenade]"
+  ],
+  "description": [
+    "Dense clusters of heliconia and bird of paradise fill the area with sweeping fronds and vivid color.  A pale path of seashells winds between the plants, its curve leading toward a bluestone cottage.  A driftwood post supports a polished brass lantern with blue-tinted glass, its frame worked into the shape of curling fronds.  Tall palm trees rise in even rows beyond a copper-roofed quaint stone residence."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 35771,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 35773,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36279,
+      "kind": "go",
+      "cmd": "go quaint residence",
+      "cost": 0.2
+    }
+  ]
+}

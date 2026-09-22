@@ -1,0 +1,65 @@
+{
+  "id": 21079,
+  "uid": [
+    3217018
+  ],
+  "title": [
+    "[Alhan'naht River, South Wilds]"
+  ],
+  "description": [
+    "Choked with broken pieces from the floating meadows of the north, the river narrows perceptively to the south and becomes clogged with thick grasses.  Large posts flank a narrow dock that sticks out into the wider parts of the river and allows easy passage to drier lands."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1581,
+      2799,
+      1599,
+      2819
+    ]
+  },
+  "exits": [
+    {
+      "to": 21078,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push n"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21080,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push s"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21085,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dock"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

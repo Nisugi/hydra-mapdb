@@ -1,0 +1,75 @@
+{
+  "id": 11459,
+  "uid": [
+    304218
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "The uneven floor of the bay is dotted with clumps of seaweed and tall, tree-like clusters of elkhorn coral.  The floor of the bay rises sharply to the south.  A rocky wall, covered with bladder rockweed, emerges abruptly from the sandy bay floor to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      976,
+      1260,
+      986,
+      1270
+    ]
+  },
+  "exits": [
+    {
+      "to": 11458,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11460,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11468,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

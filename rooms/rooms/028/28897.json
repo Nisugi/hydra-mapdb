@@ -1,0 +1,105 @@
+{
+  "id": 28897,
+  "uid": [
+    7118238
+  ],
+  "title": [
+    "[Kraken's Fall, Deadeye's Road]"
+  ],
+  "description": [
+    "Stretching across the rocky shoals and interrupting a cliff-hugging oak railing, a sturdy oak catwalk links the land to a sprawling network of piers where boats lay at anchor.  To the north, a market of brightly colored tents sprawls across a blue and black cobblestone courtyard against the backdrop of towering cliffs.  Built in the middle of the road, a black shop has an incredibly wordy sign posted on its front door."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "dock handler",
+    "fire lily",
+    "handler",
+    "stalk of bluebells",
+    "urchin guide catwalk",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-krakens_fall-1648278406.png",
+    "rect": [
+      405,
+      505,
+      419,
+      518
+    ]
+  },
+  "exits": [
+    {
+      "to": 28896,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28898,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28900,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29007,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 29032,
+      "kind": "go",
+      "cmd": "go catwalk",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

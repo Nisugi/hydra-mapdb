@@ -1,0 +1,300 @@
+{
+  "id": 2679,
+  "uid": [
+    4561129
+  ],
+  "title": [
+    "[Top of the World, Aenatumgana]"
+  ],
+  "description": [
+    "The trail ends in a redoubt created by immense formations of ice.  Snow rains down in sheets, like a frozen waterfall cascading down from above in slow motion.  What remains of the trail meanders down to the northeast, fraught with dangerous patches of ice and irregular outcrops of stone, which wait for an unwary footfall to offer up disaster."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the great mountain Aenatumgana",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "arctic moss",
+    "daggit root",
+    "feverfew stalk",
+    "gok nut",
+    "ironfern root",
+    "manroot stalk",
+    "pennyroyal stem",
+    "red lichen",
+    "red winterberry",
+    "sassafras leaf",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wyrmwood bark"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      831,
+      501,
+      841,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 2678,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put": "search"
+        },
+        {
+          "try_move": "go ledge"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "try_move": "go ledge",
+          "when": "still_here"
+        },
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              "still_here",
+              {
+                "all": [
+                  {
+                    "spell_known": "Celerity"
+                  },
+                  {
+                    "spell_affordable": "Celerity"
+                  },
+                  {
+                    "not": {
+                      "spell_active": "Celerity"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "put": "search",
+          "when": "still_here"
+        },
+        {
+          "move": "go ledge",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 2680,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

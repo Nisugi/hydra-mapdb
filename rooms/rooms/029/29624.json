@@ -1,0 +1,52 @@
+{
+  "id": 29624,
+  "uid": [
+    18050004
+  ],
+  "title": [
+    "[Estate, Destruction]"
+  ],
+  "description": [
+    "Once a fully functional wing of the estate, all that remains are piles of rubble and a clearing littered with craters.  A small path wends through the rubble to the east meeting up with the hallway leading inside.  Inside the largest crater at the center, a sturdy steel workbench juts up obliquely amidst scorched jumbles of stone and mahogany.  A jagged crack zigzags through the rubble on the western rim of the large crater."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "tags": [
+    "node"
+  ],
+  "meta": [
+    "mho:Hand of the Arkati"
+  ],
+  "image": {
+    "file": "mho-hand_of_the_arkati-1652309586.png",
+    "rect": [
+      211,
+      341,
+      291,
+      419
+    ]
+  },
+  "exits": [
+    {
+      "to": 29623,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29626,
+      "kind": "go",
+      "cmd": "go plank walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29627,
+      "kind": "go",
+      "cmd": "go jagged crack",
+      "cost": 0.2
+    }
+  ]
+}

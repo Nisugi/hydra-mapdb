@@ -1,0 +1,125 @@
+{
+  "id": 1572,
+  "uid": [
+    4902093
+  ],
+  "title": [
+    "[Solhaven, South Market]"
+  ],
+  "description": [
+    "Crowded with booths, merchants hawking their wares and customers chatting and arguing under the glaes-lensed street lamps, the market is filled with an almost frantic air.  Even with the thinning of the crowds that nightfall brings, the market is still a noisy place.",
+    "Crowded with booths, merchants hawking their wares, and customers chatting and arguing under the glaes-lensed street lamps, the market is filled with an almost frantic air.  Even with the thinning of the crowds that nightfall brings, the market is still a noisy place.",
+    "Crowded with booths, merchants hawking their wares, and customers chatting and arguing, the market is filled with an almost frantic air.  With the voices and sound of footfalls reflected off the wooden storefronts, and the resonance of the planking underfoot, it's hard to recall a noisier market."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node",
+    "stalk of bluebells",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:ora-banded driftwood barrel"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      636,
+      1395,
+      660,
+      1419
+    ]
+  },
+  "exits": [
+    {
+      "to": 1551,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1552,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1554,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1571,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1573,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1574,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1575,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1576,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

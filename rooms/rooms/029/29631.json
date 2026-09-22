@@ -1,0 +1,64 @@
+{
+  "id": 29631,
+  "uid": [
+    7122101
+  ],
+  "title": [
+    "[North Dock, Catwalk]"
+  ],
+  "description": [
+    "Varnished with crushed black coral to give purchase, the oak and teak catwalk gleams in the ambient light.  A glass and oak building and a teak and polished oak shop face one another on either side of the catwalk, each on several sturdy support posts sunk deep into the harbor.  A wide ramp leads down and away from the catwalk, while to the south, a large docking structure with ample portage is visible."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "handler",
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "mapcategory:Open Sea Adventures:Docks (WL)",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:The Docks and Rusty Cutless - Wehnimer's Landing",
+    "mapshortname:Docks and Rusty Cutlass"
+  ],
+  "image": {
+    "file": "wl-docks and tavern-1642366998.jpg",
+    "rect": [
+      242,
+      190,
+      272,
+      220
+    ]
+  },
+  "exits": [
+    {
+      "to": 250,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    },
+    {
+      "to": 29738,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30236,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 30237,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

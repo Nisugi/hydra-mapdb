@@ -1,0 +1,113 @@
+{
+  "id": 11465,
+  "uid": [
+    304123
+  ],
+  "title": [
+    "[Maelstrom Bay, Underwater]"
+  ],
+  "description": [
+    "Light green water above, deep green water below, green water all around.  A reef covered with club-fingered coral forms a wall to the west.  A wide patch of sargassum on the surface blocks the moonlight.  The long, green, flat-bladed streamers hanging beneath the sargassum sway and undulate sinuously.",
+    "Light green water above, deep green water below, green water all around.  A reef covered with club-fingered coral forms a wall to the west.  A wide patch of sargassum on the surface blocks the sunlight.  The long, green, flat-bladed streamers hanging beneath the sargassum sway and undulate sinuously."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, up, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      761,
+      1233,
+      771,
+      1243
+    ]
+  },
+  "exits": [
+    {
+      "to": 11439,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11461,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11462,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11464,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11466,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim east"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11472,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 16041,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 16121,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

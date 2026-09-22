@@ -1,0 +1,54 @@
+{
+  "id": 2209,
+  "uid": [
+    3061018
+  ],
+  "title": [
+    "[Depths of V'Tull, Crawlway]"
+  ],
+  "description": [
+    "You see a sharply descending cylindrical crawlway leading down into the depths of the volcano.  The air here is so hot it's painful to breathe.  This passageway is cramped, and the lava-scorched glassine walls seem somewhat unstable as they squeeze in from either side."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      641,
+      773,
+      651,
+      783
+    ]
+  },
+  "exits": [
+    {
+      "to": 2208,
+      "kind": "climb",
+      "cmd": "climb fissure",
+      "cost": 0.2
+    },
+    {
+      "to": 2210,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb crawlway"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

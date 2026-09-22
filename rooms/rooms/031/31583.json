@@ -1,0 +1,62 @@
+{
+  "id": 31583,
+  "uid": [
+    8083024
+  ],
+  "title": [
+    "[Evermore Hollow, Outer Circle]"
+  ],
+  "description": [
+    "Hunkering in the shadows at the edge of the city, a gated neighborhood sprawls within the confines of a wrought iron fence topped with warding sigils.  Painted symbols dapple the cobblestones closest to its entry, while brightly burning lanterns struggle to stave off the shadows that seem to push outward from the neighborhood.  A lone shop braves the miasmic air of the area, its windows filled with brightly burning lights."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      421,
+      255,
+      443,
+      273
+    ]
+  },
+  "exits": [
+    {
+      "to": 31567,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31584,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 31585,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31638,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 31980,
+      "kind": "go",
+      "cmd": "go neighborhood",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 17022,
+  "uid": [
+    254007
+  ],
+  "title": [
+    "[Warrior Guild, East Hall]"
+  ],
+  "description": [
+    "Sounds of grunts, cheers, and the occasional loud thump emanate from beyond the wide stone arch set into the inner wall.  The vertical slit in the cool stone wall looks out on the street through a gap in the green hedges outside, affording a glimpse of clear sky.",
+    "Sounds of grunts, cheers, and the occasional loud thump emanate from beyond the wide stone arch set into the inner wall.  The vertical slit in the cool stone wall looks out on the street through a gap in the green hedges outside, affording a glimpse of twinkling stars in the night sky."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1251,
+      132,
+      1273,
+      154
+    ]
+  },
+  "exits": [
+    {
+      "to": 17021,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17023,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17025,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

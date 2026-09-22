@@ -1,0 +1,129 @@
+{
+  "id": 9818,
+  "uid": [
+    13022015
+  ],
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Thick curls of mist rise up from small fissures in the floor, the wavering wisps enshrouding the area in a light haze.  The blurred forms of slimy mold can be seen upon the walls, each casting their malodorous scent to the musty air of the room.  As the mist swirls about the area lazily, the slime upon the wall glistens faintly, resembling a cascading waterfall of green ooze."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Maaghara Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-tower-1264234799.png",
+    "rect": [
+      1175,
+      493,
+      1185,
+      503
+    ]
+  },
+  "exits": [
+    {
+      "to": 9734,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go root"
+        },
+        {
+          "wait_until": {
+            "at": 9734
+          },
+          "when": {
+            "not": "still_here"
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "southwest",
+            "southwest",
+            "east",
+            "southwest",
+            "southeast",
+            "south"
+          ],
+          "when": {
+            "at": 9823
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "southwest",
+            "west",
+            "west",
+            "northeast",
+            "northeast",
+            "northwest"
+          ],
+          "when": {
+            "at": 9818
+          }
+        },
+        {
+          "moves": [
+            "east",
+            "east",
+            "east",
+            "northeast",
+            "west"
+          ],
+          "when": {
+            "at": 9808
+          }
+        },
+        {
+          "moves": [
+            "southwest",
+            "southeast",
+            "southwest"
+          ],
+          "when": {
+            "at": 9788
+          }
+        },
+        {
+          "moves": [
+            "southeast",
+            "south",
+            "northeast",
+            "north",
+            "west",
+            "west",
+            "west"
+          ],
+          "when": {
+            "at": 9784
+          }
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 100.0
+    },
+    {
+      "to": 9817,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9819,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

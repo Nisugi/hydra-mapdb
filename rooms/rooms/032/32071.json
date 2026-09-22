@@ -1,0 +1,52 @@
+{
+  "id": 32071,
+  "uid": [
+    8083420
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "In the midst of a primeval forest, the river plods on beneath a tangled canopy of vines and leaf-laden branches.  Shadowy forms seem to move across the solemn waters, while a heavy silence settles like a wet blanket over the wildwood.  Giant arboraceous ferns cover the ground alongside the river."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1709,
+      721,
+      1734,
+      746
+    ]
+  },
+  "exits": [
+    {
+      "to": 32070,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push nw"
+        }
+      ],
+      "cost": 2.2
+    },
+    {
+      "to": 32072,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

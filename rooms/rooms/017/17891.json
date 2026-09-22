@@ -1,0 +1,49 @@
+{
+  "id": 17891,
+  "uid": [
+    268018
+  ],
+  "title": [
+    "[Rogue Guild, Lower Hall]"
+  ],
+  "description": [
+    "Deep, azure glaes has been crafted to resemble the flowing cascades of a waterfall in miniature.  The artful sculpture resides within a small nook hung with phosphorescent moss that casts a mysterious glow upon the volcanic glass.  A dark stairway stands in the corner of the hall."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild window"
+  ],
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      894,
+      818,
+      933,
+      857
+    ]
+  },
+  "exits": [
+    {
+      "to": 17890,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17892,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 17893,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

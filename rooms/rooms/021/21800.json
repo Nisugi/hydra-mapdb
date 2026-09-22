@@ -1,0 +1,36 @@
+{
+  "id": 21800,
+  "title": [
+    "[Talador, Mining Camp]"
+  ],
+  "description": [
+    "The old camp is deserted, the entire area partially concealed by overgrowth and covered in dust.  Derelict wagons have been abandoned throughout the site, their structures warped and damaged from rain and snow.  The great northern mountains loom up above the camp, their icy peaks scratching the sky or disappearing amidst low clouds altogether."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      437,
+      295,
+      451,
+      308
+    ]
+  },
+  "exits": [
+    {
+      "to": 21799,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21931,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

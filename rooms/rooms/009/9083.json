@@ -1,0 +1,65 @@
+{
+  "id": 9083,
+  "uid": [
+    4045150
+  ],
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "This central area is cleaner than the surrounding tunnels.  Relatively fresh straw covers the ground and in one corner is a tiny mound of partly digested cloudberry seeds.  The walls are old and full of small holes and cracks -- with a bit of effort you might be able to climb them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the subterranean tunnels",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "ironfern root",
+    "pine twig",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1296,
+      443,
+      1306,
+      453
+    ]
+  },
+  "exits": [
+    {
+      "to": 9076,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9077,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9080,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9081,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9084,
+      "kind": "climb",
+      "cmd": "climb wall",
+      "cost": 0.2
+    }
+  ]
+}

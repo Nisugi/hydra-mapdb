@@ -1,0 +1,52 @@
+{
+  "id": 25820,
+  "uid": [
+    3223829
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Fingers of land rise from the ocean floor as the water surges around a small island, though no visible sign of landfall can be seen.  Churned by the proximity of the nearby docks on the west, the ocean is riddled with cross-waves that collide with one another and produce a cool, misty spray that rains down upon everything within its reach."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      960,
+      1279,
+      980,
+      1298
+    ]
+  },
+  "exits": [
+    {
+      "to": 25819,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25821,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 11478,
+  "uid": [
+    304234
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "A rocky wall rising from the sandy bay floor curves gently from the southwest to the north.  Clumps of knotted rockweed grow among the dark stones of the rock wall.  A mass of pale organ pipe sponges gives the rocky wall an odd-mildewed appearance.  Strong currents prevent swimming to the north or west."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      922,
+      1153,
+      932,
+      1163
+    ]
+  },
+  "exits": [
+    {
+      "to": 11474,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11479,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

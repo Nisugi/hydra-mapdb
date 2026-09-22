@@ -1,0 +1,68 @@
+{
+  "id": 1893,
+  "uid": [
+    3003026
+  ],
+  "title": [
+    "[Company Store, Debt Office]"
+  ],
+  "description": [
+    "A glaes candy dish perches at the edge of a large mistwood countertop.  On a small table near the doorway, a potted fern shrivels.  Thick leather-bound ledgers are stacked on the bookshelves behind the clerk.  Some of the book spines are so worn that the letters on them are scarcely legible."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "debts",
+    "fire lily",
+    "urchin guide debts",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 1892,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

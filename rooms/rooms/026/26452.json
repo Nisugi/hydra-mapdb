@@ -1,0 +1,33 @@
+{
+  "id": 26452,
+  "title": [
+    "[The Tides That Bind]"
+  ],
+  "description": [
+    "The entry tunnel opens into a large, smoothly hewn room inside a plateau.  Orderly stone columns supported by wooden beams overhead line the sides of the chamber.  Veins of colorful gemstones line the floor in unorderly patterns, snaking from wall to wall.  Set between two supporting columns is an enruned archway with a carved sapphire keystone."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26450,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 26550,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26643,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 11276,
+  "uid": [
+    377065
+  ],
+  "title": [
+    "[Zoo, Cage Area]"
+  ],
+  "description": [
+    "The stream from the mountain goat cage runs through the cage before you.  Aside from the lush growth of grass within, you see no other outward signs of life."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      589,
+      815,
+      599,
+      825
+    ]
+  },
+  "exits": [
+    {
+      "to": 11275,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11277,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11279,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

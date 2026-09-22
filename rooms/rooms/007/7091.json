@@ -1,0 +1,50 @@
+{
+  "id": 7091,
+  "uid": [
+    44029
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Eerie shadows flicker through this section of corridor, casting grotesque shapes on the walls and floor.  There are tracks of rats and other things in the dust on the floor, and filmy grey cobwebs swagging from the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      976,
+      1051,
+      986,
+      1061
+    ]
+  },
+  "exits": [
+    {
+      "to": 7090,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7092,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7104,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

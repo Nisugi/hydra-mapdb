@@ -1,0 +1,55 @@
+{
+  "id": 21067,
+  "uid": [
+    3217005
+  ],
+  "title": [
+    "[Alhan'aht River, Southern Pass]"
+  ],
+  "description": [
+    "Rocks along the southwestern banks create a barricade that directs the swiftly flowing river into a northerly direction and causes the dark waters to slightly foam as they collide with the smooth protrusions.  The banks rise on either side of the water course and grow less muddy to the east, while the western edge is riddled with heavy vines and rabbit's foot fern."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1420,
+      1841,
+      1440,
+      1859
+    ]
+  },
+  "exits": [
+    {
+      "to": 21066,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push nw"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21068,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push e"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

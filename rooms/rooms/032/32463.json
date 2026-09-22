@@ -1,0 +1,57 @@
+{
+  "id": 32463,
+  "uid": [
+    4577212
+  ],
+  "title": [
+    "[Moonsedge Castle, Grand Hall]"
+  ],
+  "description": [
+    "Starlight creeps through stained glass windows that dominate the eastern wall, the tenuous light reddened by the colored panes.  It illuminates a raised dais on which are set tables and seats that watch over the hall.  To the north, the high ceilings rise in parallel with a series of steps that climb toward an ostentatious chamber.  No less grand is a jeweled archway to the east.  Opposite the steps is a smaller, less impressive arch framing the entrance to the kitchens.",
+    "Daylight filters uncertainly through stained glass windows that dominate the eastern wall, stained fiercely red by the colored panes.  The windows illuminate a raised dais on which are set tables and seats that watch over the hall.  To the north, the high ceilings rise in parallel with a series of steps that climb toward an ostentatious chamber.  No less grand is a jeweled archway to the east.  Opposite the steps is a smaller, less impressive arch framing the entrance to the kitchens."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1167,
+      645,
+      1191,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 32454,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32464,
+      "kind": "go",
+      "cmd": "go jeweled archway",
+      "cost": 0.2
+    },
+    {
+      "to": 32481,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32483,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

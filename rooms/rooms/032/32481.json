@@ -1,0 +1,44 @@
+{
+  "id": 32481,
+  "uid": [
+    4577216
+  ],
+  "title": [
+    "[Moonsedge Castle, Dining Room]"
+  ],
+  "description": [
+    "Beneath the light of a tiered chandelier hung from the pine-paneled ceiling, a massive bloodwood table hosts an ostentatious banquet on trays of bone and porcelain.  Each place setting at the table has heavy golden utensils that are freshly polished and devoid of even a speck of dust.  A burled arch in the far wall frames a swinging door through which fleeting glimpses of an immaculate kitchen are visible."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1166,
+      705,
+      1191,
+      730
+    ]
+  },
+  "exits": [
+    {
+      "to": 32463,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 32482,
+      "kind": "go",
+      "cmd": "go swinging door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 25998,
+  "uid": [
+    3215120
+  ],
+  "title": [
+    "[Annex, Booth]"
+  ],
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "peer curtain =~ /^\\[Annex, White Haven Lobby\\]$/"
+  ],
+  "meta": [
+    "che:white_haven:locker",
+    "locker"
+  ],
+  "exits": [
+    {
+      "to": 21324,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

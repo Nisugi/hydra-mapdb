@@ -1,0 +1,41 @@
+{
+  "id": 17749,
+  "uid": [
+    250002
+  ],
+  "title": [
+    "[Warrior Guild, Main Gate]"
+  ],
+  "description": [
+    "A light veil of snow covers the flowering heaths and willows of the guild courtyard, except for a few small patches located underneath the protective overhanging branches of some fel trees.  In these patches, the sedges peek out to seek the rejuvenation of the day's sun.  A carefully swept stone path leads from the main gate towards a columnar complex with walls formed from megalithic slabs of black rock."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      822,
+      472,
+      840,
+      490
+    ]
+  },
+  "exits": [
+    {
+      "to": 2388,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17755,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

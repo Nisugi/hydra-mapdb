@@ -1,0 +1,52 @@
+{
+  "id": 162,
+  "uid": [
+    13101007
+  ],
+  "title": [
+    "[Ta'Illistim, Vaeshean Wey]"
+  ],
+  "description": [
+    "The deep grey slate roof of the local clerical shop is lined with shallow grooves from years of wind and weather.  Thick beds of acantha intermingled with blaestonberry bushes surround the building, the fragrance of the blossoms permeating the air.  An engraved silver sign is tacked to the blue front door.",
+    "The blue tiles on the roof of the local clerical shop are crazed with tiny cracks and lined with shallow grooves from years of wind and weather.  Thick beds of acantha are planted alongside hydrangea bushes, the greenery left to surround the building and mingle together.  An engraved white plaque is tacked to the blue front door."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      243,
+      595,
+      265,
+      615
+    ]
+  },
+  "exits": [
+    {
+      "to": 161,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 163,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13297,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

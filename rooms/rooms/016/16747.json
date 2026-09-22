@@ -1,0 +1,96 @@
+{
+  "id": 16747,
+  "uid": [
+    17005025
+  ],
+  "title": [
+    "[Aradhul Road, Rocky Trail]"
+  ],
+  "description": [
+    "A sheer cliff effectively terminates the trail to the south, with the top branches of an oak below protruding above the drop off.  Twisted bits of rusted metal lie discarded at the edge, a support frame for a lift system, if the decaying strands of rope and chunks of pulleys are any indication.  Far off, a dark ribbon of water cuts across the landscape, where the fortress of Ta'Vaalor can be seen.  The trail leads northerly, away from the cliff's edge and toward a rocky rise far in the distance."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "mountainous",
+  "tags": [
+    "agave heart",
+    "angelica root",
+    "bolmara lichen",
+    "cherry peppers",
+    "crimson dragonstalk",
+    "fresh catnip",
+    "hop flowers",
+    "ironfern root",
+    "juicy plum",
+    "leek",
+    "mountain dryad",
+    "peppermint leaves",
+    "pepperthorn root",
+    "red thanot berry",
+    "shallot",
+    "small apple",
+    "small watermelon",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of larkspur",
+    "spring onion",
+    "stalk of bluebells",
+    "stalk of monkeyflower",
+    "sunburst blossom",
+    "thanot thorn",
+    "viburnum twig",
+    "wild pink geranium",
+    "wild sage",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      652,
+      806,
+      676,
+      827
+    ]
+  },
+  "exits": [
+    {
+      "to": 16746,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16748,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb oak"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

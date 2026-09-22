@@ -1,0 +1,58 @@
+{
+  "id": 36449,
+  "uid": [
+    59010
+  ],
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "The sounds of rushing water from the spring to the west, the rustle of unseen forest creatures to the north, and an occasional plop, splash and sucking sound from the moat compete for your attention.  The spring's course bends here, disappearing into a thick clump of trees that signals the beginning of a great wood to the north.  Very faintly in the east, you can see pale outlines of peaks.  Dominating the southeast vista, the ruins of the Black Swan hover on the horizon.",
+    "The rustle of unseen forest creatures meandering through the trees and the occasional sucking plops and splashes from the disgusting moat subtly vie for your attention.  The spring's course bends here around a solitary modwir tree, disappearing into a thick clump of trees that branch out into the beginning of a dense forest to the north.  To the east, you can faintly see the pale outlines of mountain peaks.  Dominating the southeastern landscape, you can see the ruins of the Black Swan on the horizon.  You also see a rope stretching from the top of a tree and across the moat to the castle."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Upper Trollfang",
+  "terrain": "grassland",
+  "tags": [
+    "small daisy",
+    "some sovyn clove",
+    "sprig of lavender"
+  ],
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      40,
+      40,
+      80,
+      80
+    ]
+  },
+  "exits": [
+    {
+      "to": 36450,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36455,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36457,
+      "kind": "climb",
+      "cmd": "climb tree",
+      "cost": 0.2
+    },
+    {
+      "to": 36462,
+      "kind": "go",
+      "cmd": "go moat",
+      "cost": 0.2
+    }
+  ]
+}

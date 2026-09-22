@@ -1,0 +1,54 @@
+{
+  "id": 16190,
+  "uid": [
+    216018
+  ],
+  "title": [
+    "[Beacon Hall, Dragon Fountain]"
+  ],
+  "description": [
+    "An enormous stone dragon's head emerges from the dark center of a large hole, dominating this round chamber.  Water pours out of the dragon's gaping maw, creating a swift waterfall that empties into the hole below."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1009,
+      364,
+      1055,
+      408
+    ]
+  },
+  "exits": [
+    {
+      "to": 16188,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16189,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 16191,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

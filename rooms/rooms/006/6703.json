@@ -1,0 +1,60 @@
+{
+  "id": 6703,
+  "uid": [
+    2121014
+  ],
+  "title": [
+    "[Gnome Mine, Entrance]"
+  ],
+  "description": [
+    "This is the entrance to a series of natural caves.  As your eyes adjust to the change in light you see a path worn in the cave floor leading to the southeast.  It looks like the cave off to the southwest is seldom used by the cave occupants."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      154,
+      1285,
+      164,
+      1295
+    ]
+  },
+  "exits": [
+    {
+      "to": 6702,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6704,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 6715,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

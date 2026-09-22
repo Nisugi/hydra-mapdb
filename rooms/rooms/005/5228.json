@@ -1,0 +1,54 @@
+{
+  "id": 5228,
+  "uid": [
+    4202413
+  ],
+  "title": [
+    "[Vornavian Coast, South Beach]"
+  ],
+  "description": [
+    "A massive oak tree has toppled from the cliff to the east here, and is tall enough to allow a climb to the top of the cliffs.  The roots of the tree still cling to the cliffside, and rocks lie strewn about the tree on the beach, dislodged in the fall."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "saltwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "strand of seaweed",
+    "wavepetal blossom",
+    "yabathilium fruit",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      413,
+      953,
+      423,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 5227,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5229,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5264,
+      "kind": "climb",
+      "cmd": "climb tree",
+      "cost": 0.2
+    }
+  ]
+}

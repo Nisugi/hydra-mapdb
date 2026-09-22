@@ -1,0 +1,50 @@
+{
+  "id": 4150,
+  "uid": [
+    2138009
+  ],
+  "title": [
+    "[Hall of the Dead, Tunnel]"
+  ],
+  "description": [
+    "The stone of the room is worn smooth with the passing of many feet.  Flickering torches cast forbidding shadows on the walls, which reflect little light.  Here the paint has lost all of its sheen and has seen little care."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
+  "climate": "none",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      802,
+      759,
+      812,
+      769
+    ]
+  },
+  "exits": [
+    {
+      "to": 4149,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4151,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 4160,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

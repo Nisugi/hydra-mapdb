@@ -1,0 +1,52 @@
+{
+  "id": 31831,
+  "uid": [
+    8083411
+  ],
+  "title": [
+    "[Gleyminn Anni River, Ford]"
+  ],
+  "description": [
+    "Well worn paths deep with ruts lead down to the river on either side of the bank.  Posts are sunk deep into the soft ground on either side, each wound with heavy ropes which lay in large coils nearby.  While the current is not fast-moving, its difficult to judge the depth of the water to ford safely."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      1369,
+      878,
+      1391,
+      899
+    ]
+  },
+  "exits": [
+    {
+      "to": 31830,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31832,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 6583,
+  "uid": [
+    4285028
+  ],
+  "title": [
+    "[Anwyn Castle Yard]"
+  ],
+  "description": [
+    "The castle yard comes to a stop before a tall, stone wall inset with a highly carved doorcase.  An old iron gate hangs in it, rusty and weathered over the countless years.  One side of the gate stands resolutely closed, but its mate swings in the wind, shrieking like a tortured soul.  The dark entrance to a building crouches in the shadow of the curtain wall to the west."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      867,
+      516,
+      877,
+      526
+    ]
+  },
+  "exits": [
+    {
+      "to": 6582,
+      "kind": "go",
+      "cmd": "go doorcase",
+      "cost": 0.2
+    },
+    {
+      "to": 6584,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6589,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

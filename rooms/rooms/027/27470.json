@@ -1,0 +1,66 @@
+{
+  "id": 27470,
+  "uid": [
+    1303801
+  ],
+  "title": [
+    "[The Harrows, Hanging Valley]"
+  ],
+  "description": [
+    "The valley is confined on three sides by a massif of dark, jagged peaks, their claw-like tines nearly drowning out sight of off-kilter peaks elsewhere in the mountain range.  A small stream snakes its way between gigantic black boulders, before spilling over the southern edge of the hung valley.  Nestled in the lee of the northern rim amid a maze of stunted hawthorn, a dark grey manor faces the open skyline.  A narrow slope leads down and out of the valley, its approach marked with an elaborate gate spiked with razern finials.",
+    "The valley is confined on three sides by a range of dark, jagged rocks, their claw-like tines reaching up to a faint light high in the west.  A small stream, snaking through a maze of stunted hawthorn, spills out of sight to the south, where a break in the massif yields only the abyss of night.  Facing the dark skyline stands a two-story dark grey manor, its windows shrouded by curtains.  Arching bronze cressets stand before a narrow escarpment leading out of the valley, its approach marked with an elaborate razern gate."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "The Harrows, outside the elven city of Ta'Illistim",
+  "terrain": "rough",
+  "tags": [
+    "private property"
+  ],
+  "image": {
+    "file": "pp-eastern-spine-1543903046.png",
+    "rect": [
+      1170,
+      920,
+      1269,
+      1020
+    ]
+  },
+  "exits": [
+    {
+      "to": 1834,
+      "kind": "scripted",
+      "steps": [
+        {
+          "moves_from_setting": "mularos_lover"
+        }
+      ],
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting_is_set": "mularos_lover"
+            },
+            {
+              "setting_is_set": "Mularos_Lover"
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 27471,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 27472,
+      "kind": "go",
+      "cmd": "go wicket",
+      "cost": 0.2
+    }
+  ]
+}

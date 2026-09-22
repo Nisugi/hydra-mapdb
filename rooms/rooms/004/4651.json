@@ -1,0 +1,199 @@
+{
+  "id": 4651,
+  "uid": [
+    14050006
+  ],
+  "title": [
+    "[Cysaegir, Vista Knoll]"
+  ],
+  "description": [
+    "Cresting the top of the hill provides an ideal vantage point of the snow-capped mountains that tower in the distance and the town common spreading out below.  The wan glow of a moon peeks out from between two of the largest mountains, their perpetual misty clouds breaking apart to allow a thick beam of light.  Illuminated by the faint moonlight is a small clearing surrounded on three sides by thick ancient forest growth and a steep mountain slope in the remaining direction.",
+    "Cresting the top of the hill provides an ideal vantage point of the snow-capped mountains that tower in the distance and the town common spreading out below.  The glowing ball of the sun peeks out from the perpetual mists that surround two of the largest mountaintops.  Off to the side, a small clearing is host to some ancient ruins and abandoned buildings.",
+    "Cresting the top of the hill provides an ideal vantage point of the snow-capped mountains that tower in the distance and the town common spreading out below.  Illuminated by the faint moonlight is a small clearing surrounded on three sides by thick ancient forest growth and a steep mountain slope in the remaining direction.  A spiral staircase winds around one of the large trees growing along the edge of the woodland."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west, northwest"
+  ],
+  "location": "the village of Cysaegir",
+  "climate": "temperate",
+  "terrain": "hilly",
+  "tags": [
+    "ambrominas leaf",
+    "angelica root",
+    "birch bark",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown-skinned kiwi",
+    "crimson dragonstalk",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ebony twig",
+    "elderberries",
+    "flathead mushroom",
+    "fresh lemongrass",
+    "genkew mushroom",
+    "golden aster",
+    "green pear",
+    "honeysuckle vine",
+    "huckleberries",
+    "ironfern root",
+    "leafy arugula",
+    "leek",
+    "luckbloom blossom",
+    "motherwort",
+    "mountain dryad",
+    "murkweed",
+    "nettle leaf",
+    "nightbloom blossom",
+    "oak twig",
+    "plump black mulberries",
+    "rainbow chard",
+    "red cherries",
+    "rhubarb",
+    "rose-marrow root",
+    "shallot",
+    "silver-edged fern",
+    "sky-blue delphira",
+    "slender twig",
+    "small dandelion",
+    "soft mushroom",
+    "sprig of alyssum",
+    "sprig of columbine",
+    "sprig of holly",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of mistletoe",
+    "sprig of mournbloom",
+    "sprig of wild lilac",
+    "sprig of wild phlox",
+    "stalk of bluebells",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of monkeyflower",
+    "sticks",
+    "sunburst blossom",
+    "tkaro root",
+    "tree bark",
+    "trollear mushroom",
+    "twisted twig",
+    "white lily",
+    "white ramie",
+    "wild pansy blossom",
+    "wild pink geranium",
+    "wild rice",
+    "wild sage",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolfsbane root",
+    "yew twig"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      547,
+      858,
+      567,
+      878
+    ]
+  },
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 4650,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4653,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 4672,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 9686,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26905,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport duskruin"
+        },
+        {
+          "move": "event transport duskruin"
+        },
+        {
+          "remember": [
+            "duskruin_origin",
+            "4651"
+          ]
+        }
+      ],
+      "cost": 2400.0
+    },
+    {
+      "to": 27860,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 31558,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "event transport ebon gate"
+        },
+        {
+          "move": "event transport ebon gate"
+        },
+        {
+          "remember": [
+            "ebon_gate_origin",
+            "4651"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "month": 10
+        },
+        "then": 2400.0
+      }
+    }
+  ]
+}

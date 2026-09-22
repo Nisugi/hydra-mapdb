@@ -1,0 +1,87 @@
+{
+  "id": 21342,
+  "uid": [
+    211013
+  ],
+  "title": [
+    "[House Sylvanfair, Kitchen]"
+  ],
+  "description": [
+    "Here, just outside the tree, is a small walled-in courtyard where several tables and chairs are sheltered beneath the leafy branches.  Mouthwatering aromas of baked goods and other delights lead the way to a pair of large ovens placed safely far away from the tree trunk.  An elderly halfling woman smiles briefly at you before going back to her baking."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sylvanfair"
+  ],
+  "image": {
+    "file": "wl-sylvanfair.jpg",
+    "rect": [
+      811,
+      503,
+      849,
+      541
+    ]
+  },
+  "exits": [
+    {
+      "to": 21341,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 21361,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Pixies table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21362,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tree Nymph table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21363,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Sea Nymph table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21364,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Moonstone Butterfly table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 21365,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Water Lily table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 1231,
+  "uid": [
+    2190014
+  ],
+  "title": [
+    "[Vipershroud, Inside the Tree]"
+  ],
+  "description": [
+    "Pitch blackness eliminates vision, and progress must be made through the sense of touch.  The sound of small scurryings and scrapings echoes faintly in the tight confines of the log, and soft, wriggly bodies squish easily under hand and foot.  The odor of decay, rising from the damp, pressing walls adds to the discomfort from the steamy humidity.  No way forward is apparent in the darkness, although the way back out is readily remembered."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Vipershroud",
+  "climate": "hot, damp",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      120,
+      739,
+      130,
+      749
+    ]
+  },
+  "exits": [
+    {
+      "to": 1230,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover"
+            ]
+          }
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 1232,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 10.0
+    }
+  ]
+}

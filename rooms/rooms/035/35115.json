@@ -1,0 +1,50 @@
+{
+  "id": 35115,
+  "uid": [
+    4426543
+  ],
+  "title": [
+    "[Glaeve, Bloodfang Crescent]"
+  ],
+  "description": [
+    "The clash of steel rings out sharply from the enclosed yard of a barracks near the crescent.  Flying black and azure banners marked with a notched cutlass, the outpost occupies a capacious edifice that has the look of a small fortress.  A few seabirds have nested in the eaves, staining the dark stone white with their leavings."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      393,
+      348,
+      414,
+      368
+    ]
+  },
+  "exits": [
+    {
+      "to": 35113,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35116,
+      "kind": "go",
+      "cmd": "go barracks",
+      "cost": 0.2
+    },
+    {
+      "to": 35118,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

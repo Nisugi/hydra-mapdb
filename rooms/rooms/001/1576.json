@@ -1,0 +1,58 @@
+{
+  "id": 1576,
+  "uid": [
+    4902092
+  ],
+  "title": [
+    "[Solhaven, South Market West]"
+  ],
+  "description": [
+    "A row of half a dozen colorfully painted shops form the western end of the South Market.  Although brightly lit by the Market's oil lamps, the insides of the shops are dark.  The doorways are boarded over and through the windows the partially plastered walls can be seen.",
+    "A row of half a dozen colorfully painted shops form the western end of the South Market.  Unfortunately, the doorways are boarded over and the windows are dark, the insides clearly being replastered and refinished."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      575,
+      1395,
+      599,
+      1419
+    ]
+  },
+  "exits": [
+    {
+      "to": 1551,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1572,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 1575,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13006,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

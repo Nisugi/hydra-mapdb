@@ -1,0 +1,41 @@
+{
+  "id": 34577,
+  "uid": [
+    669008
+  ],
+  "title": [
+    "[Sorcerer's Guild, Courtyard]"
+  ],
+  "description": [
+    "A dark stone tower looms majestically in the center of a large clearing, rising high above the trees.   Its ebon stonework contrasting against the forest's lush greenery.  Blackened trees ring the outer courtyard, their trunks warped and twisted into a menacing tribute.  A large marble statue stands guard to a polished black flagstone path that leads through a decrepit courtyard."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      688,
+      555,
+      724,
+      584
+    ]
+  },
+  "exits": [
+    {
+      "to": 34576,
+      "kind": "go",
+      "cmd": "go thicket",
+      "cost": 0.2
+    },
+    {
+      "to": 34578,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

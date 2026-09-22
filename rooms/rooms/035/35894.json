@@ -1,0 +1,61 @@
+{
+  "id": 35894,
+  "uid": [
+    3024010
+  ],
+  "title": [
+    "[River Muagh, Ashen Bend]"
+  ],
+  "description": [
+    "The river is wide and calm as it curves between an impassable barrier of mangroves, trees, ferns, and cattails along each bank.  Constantly falling grey ash muddles the clarity of the surface, stretching into a thin film that floats and clings together."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      191,
+      785,
+      229,
+      823
+    ]
+  },
+  "exits": [
+    {
+      "to": 35893,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35895,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

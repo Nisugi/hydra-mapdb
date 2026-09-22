@@ -1,0 +1,46 @@
+{
+  "id": 20653,
+  "uid": [
+    258017
+  ],
+  "title": [
+    "[Warrior Guild, South Walk]"
+  ],
+  "description": [
+    "A slender limestone tablet and a long red slate building stand quite a distance away from the main walkway, boundaried by several clusters of luminescent toadstools.  Decidedly warmer than other parts of the cavern, steam rises from a pipe jutting out of the ground against the far wall."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      575,
+      373,
+      592,
+      389
+    ]
+  },
+  "exits": [
+    {
+      "to": 20652,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 20654,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 20655,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

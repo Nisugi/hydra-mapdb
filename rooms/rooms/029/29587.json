@@ -1,0 +1,52 @@
+{
+  "id": 29587,
+  "uid": [
+    686028
+  ],
+  "title": [
+    "[Air Tower, Second Floor]"
+  ],
+  "description": [
+    "Caged in a net of silver wire, a magelight hangs suspended from the sky blue ceiling.  Soft, warm white paint coats the walls, while the floor is a glittering mosaic of white and grey glaes.  Two overstuffed chairs upholstered in white and grey toile flank a mistwood side table under the one window, which looks down into the great chamber below.  Crossing the expanse to the adjacent towers are the eastern bridge and the northern bridge, each meticulously maintained."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      187,
+      933,
+      217,
+      961
+    ]
+  },
+  "exits": [
+    {
+      "to": 29582,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29586,
+      "kind": "go",
+      "cmd": "go northern bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29589,
+      "kind": "go",
+      "cmd": "go eastern bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 29612,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

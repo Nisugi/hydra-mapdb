@@ -1,0 +1,47 @@
+{
+  "id": 21641,
+  "uid": [
+    14116047
+  ],
+  "title": [
+    "[The Keep, Kitchen]"
+  ],
+  "description": [
+    "A swinging door provides glimpses of the long tables and benches in the refectory each time it opens.  The walls of the kitchen are lined with counters, water tubs, and stone-lined ovens positioned to vent excess heat through the outer wall.  The floor is slightly slick from spilled food but the kitchen is otherwise clean."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "near Fearling Pass",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "society:Order of Voln"
+  ],
+  "image": {
+    "file": "society-voln-1686351593.png",
+    "rect": [
+      776,
+      278,
+      788,
+      289
+    ]
+  },
+  "exits": [
+    {
+      "to": 21640,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 21658,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

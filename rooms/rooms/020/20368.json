@@ -1,0 +1,34 @@
+{
+  "id": 20368,
+  "title": [
+    "[Instrumental Interlude, Tunnel]"
+  ],
+  "description": [
+    "The passage is almost completely dark, only illuminated by the light from the candles that filters in through the mouth of the tunnel.  A faint trickle of water can be heard from somewhere in the back of the room, the sound reverberating in the small space.  Just within the dim pool of light, a slatted wooden crate rests on its side, its contents threatening to spill out onto the stone floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20345,
+      "kind": "go",
+      "cmd": "go mouth",
+      "cost": 0.2
+    },
+    {
+      "to": 25464,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go tunnel"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 24909,
+  "uid": [
+    -7105007
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "Empty stalls, vacated booths, and unfilled vegetable stands line both sides of the lane outside the plaza, remnants of a once-grand bazaar.  Laying in the middle of the cobblestones is a painted tin can next to a pair of forgotten sticks.  Carts and wagons, with no beasts to pull them, are parked in an open, grassy patch to the south."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      702,
+      870,
+      717,
+      882
+    ]
+  },
+  "exits": [
+    {
+      "to": 24904,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24912,
+      "kind": "go",
+      "cmd": "go plaza",
+      "cost": 0.2
+    },
+    {
+      "to": 24935,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

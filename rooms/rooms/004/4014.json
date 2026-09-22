@@ -1,0 +1,35 @@
+{
+  "id": 4014,
+  "title": [
+    "[Ta'Illistim Keep, Lobby]"
+  ],
+  "description": [
+    "The vaulted ceiling, high above, is carved of soft white marble and decorated with ornately carved scrollwork.  Finely polished maoral panelling lines the lobby walls.  Dark green marble tiles clad the floor, punctuated by small golden cabochons."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "tags": [
+    "rewritten"
+  ],
+  "exits": [
+    {
+      "to": 623,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4015,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4027,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

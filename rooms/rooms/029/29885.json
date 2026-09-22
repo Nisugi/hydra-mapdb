@@ -1,0 +1,57 @@
+{
+  "id": 29885,
+  "uid": [
+    7503105
+  ],
+  "title": [
+    "[Hinterwilds, Issenflow Banks]"
+  ],
+  "description": [
+    "Mist enshrouds most the sinuous body of the Issenflow.  The wide, slow river moves just swiftly enough not to have frozen in the intense cold, but thin ice congregates along the dark earthen bank.  Through the fog, glimpses of the far shore suggest an endless expanse of white proceeding into the darkness of sunless twilight."
+  ],
+  "paths": [
+    "Obvious paths: east, west, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "glacial",
+  "terrain": "riparian",
+  "tags": [
+    "arctic moss",
+    "ironfern root"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      765,
+      1147,
+      780,
+      1163
+    ]
+  },
+  "exits": [
+    {
+      "to": 29883,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 29884,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29886,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30115,
+      "kind": "go",
+      "cmd": "go river",
+      "cost": 0.2
+    }
+  ]
+}

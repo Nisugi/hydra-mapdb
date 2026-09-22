@@ -1,0 +1,52 @@
+{
+  "id": 34632,
+  "uid": [
+    4572017
+  ],
+  "title": [
+    "[Sablecross, Bastion's Shadow]"
+  ],
+  "description": [
+    "The cobblestone roadway proceeds beneath a vast portcullis of black iron decorated by golden chains as it marches into the yard of the basalt-walled citadel.  Black against the brightness of the skies, the central spire of the complex points forebodingly heavenward.  Armed, dark figures along the walls stand vigilant watch over the entry, the wind stirring their concealing garments and dark cloaks.  A black walnut message board stands near to the entrance, obviously a frequent roost for ravens."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "sablecross",
+    "sanctuary",
+    "town"
+  ],
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      451,
+      586,
+      479,
+      617
+    ]
+  },
+  "exits": [
+    {
+      "to": 34633,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 34634,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34643,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

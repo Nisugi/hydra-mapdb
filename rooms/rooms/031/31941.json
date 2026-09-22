@@ -1,0 +1,33 @@
+{
+  "id": 31941,
+  "uid": [
+    8084145
+  ],
+  "title": [
+    "[Rub-a-dub-dub, Stairway]"
+  ],
+  "description": [
+    "Warped and rotting from constant water damage, the spiraling stairway winds up and up to a trapdoor in the ceiling overhead.  A collection of glass jars and clay pots are stacked on narrow shelves that line the sandstone walls, while myriad tubs, basins, and buckets hang from some rusty hooks.  Torches lighting the stairway splutter and sizzle as water droplets threaten to cast the treacherous flight into darkness."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31940,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 32106,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 23110,
+  "title": [
+    "[Half-built Barn]"
+  ],
+  "description": [
+    "Heaps of mud-caked, rotting timber planks are piled into one corner, where a row of candles burn with flickering flames.  Two buckets lie on the ground, their contents displaying tarnished silver tools and a handful of dirt-smeared cloths.  The far wall, many of its planks entirely missing, is strewn with spiderwebs caught in the brambles and growth that seeps in from the outside.  In the far corner, a wooden ladder leads down into the dark.",
+    "Heaps of mud-caked, rotting timber planks are piled into one corner.  Two buckets lie on the ground, their contents displaying tarnished silver tools and a handful of dirt-smeared cloths.  The far wall, many of its planks entirely missing, is strewn with spiderwebs caught in the brambles and growth that seeps in from the outside.  In the far corner, a wooden ladder leads down into the dark."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 21519,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23107,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23109,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23111,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

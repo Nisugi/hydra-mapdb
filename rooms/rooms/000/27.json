@@ -1,0 +1,60 @@
+{
+  "id": 27,
+  "uid": [
+    13100030
+  ],
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
+  ],
+  "description": [
+    "The Shimmarglin Court, surrounded by shops, provides a home for the city's famed floating garden.  Throngs of townspeople and travellers move through the court, shopping at the various merchants and socializing in small groups.  Torches placed at regular intervals illuminate the walkways threading through the area.",
+    "The Shimmarglin Court, surrounded by shops, provides a home for the city's famed floating garden.  Throngs of townspeople and travellers move through the court, shopping at the various merchants and socializing in small groups.",
+    "In the darkness cast by the floating dais overhead, a few tables and shop stalls remain open through the night, lit by unflickering blue lanterns.  The detritus of a day's commerce still litters the cobblestones.  Around the edges of the courtyard, the porticos of the more permanent buildings have already been swept clean.",
+    "In the lee of the floating dais overhead, small shops and temporary stalls are set out to catch potential customers passing by on their way to the gardens.  The cobblestones are nearly obscured under the mass of commerce waiting to happen.  Around the edges of the courtyard, more permanent buildings fight for the space around their own arched doorways and porticos."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1199,
+      726,
+      1222,
+      746
+    ]
+  },
+  "exits": [
+    {
+      "to": 26,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 184,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 188,
+      "kind": "go",
+      "cmd": "go dais",
+      "cost": 0.2
+    }
+  ]
+}

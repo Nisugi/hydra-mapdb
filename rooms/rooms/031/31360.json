@@ -1,0 +1,37 @@
+{
+  "id": 31360,
+  "uid": [
+    409407
+  ],
+  "title": [
+    "[Garden Sanctuary, Reception]"
+  ],
+  "description": [
+    "Precisely pruned trees of varying heights give a secluded feeling to the otherwise open expanse of short, pale emerald grass.  A simplistic stairway forms a fanning crescent down the side of a modest hill, adjacent to a sculptural stonework buffet and a bronze patina pedestal.  Warm, twinkling lights float amongst the limbs of back-set red maples that provide a fiery accent to the understated landscape."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location_unknowable": true,
+  "terrain": "cultivated",
+  "exits": [
+    {
+      "to": 31359,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 31361,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 31362,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

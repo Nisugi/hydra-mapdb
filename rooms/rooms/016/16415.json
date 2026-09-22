@@ -1,0 +1,62 @@
+{
+  "id": 16415,
+  "uid": [
+    3209348
+  ],
+  "title": [
+    "[Firefly Villa, Tree]"
+  ],
+  "description": [
+    "Arched in four directions, the redwood tree is hollow and polished to a lustrous warm, reddish glow.  Tiny orbs set into the distant ceiling provide ample light for any that wish to traverse the stairway, while sconces set on the right side of each entry provide illumination for the pathways that lead through the vibrant gardens that ring the inn."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1160,
+      2160,
+      1181,
+      2180
+    ]
+  },
+  "exits": [
+    {
+      "to": 12321,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 12330,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 12333,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16416,
+      "kind": "climb",
+      "cmd": "climb stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 16422,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

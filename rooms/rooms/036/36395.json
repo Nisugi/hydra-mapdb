@@ -1,0 +1,53 @@
+{
+  "id": 36395,
+  "uid": [
+    58001
+  ],
+  "title": [
+    "[Dungeon, Grand Chamber]"
+  ],
+  "description": [
+    "The warm glow in this chamber from the many beautiful bronze sconces is almost cheerily bright.  Grand architecture is evident in the rich green tiles, giant columns, and gold leaf trim adorning the room.  The intricate richness even extends to a gleaming silver archway, a lustrous golden archway, and a sparking emerald green portal which are set equidistant from each other around the atrium.  A three-armed stone pedestal stands in the center of the chamber, boasting a yellow plate, a red plate, and a blue plate."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1560,
+      360,
+      1600,
+      400
+    ]
+  },
+  "exits": [
+    {
+      "to": 36396,
+      "kind": "go",
+      "cmd": "go silver arch",
+      "cost": 0.2
+    },
+    {
+      "to": 36415,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36416,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 36423,
+      "kind": "go",
+      "cmd": "go gold arch",
+      "cost": 0.2
+    }
+  ]
+}

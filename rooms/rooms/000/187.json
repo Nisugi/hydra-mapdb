@@ -1,0 +1,62 @@
+{
+  "id": 187,
+  "uid": [
+    13100046
+  ],
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
+  ],
+  "description": [
+    "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a darkness only broken by the purposeful placement of a few silver lanterns.  Their unflickering blue light illuminates a white marble boutique.",
+    "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a dim, perpetual gloaming.  Nonetheless, the space is filled with impermanent shelving and carrels, set out with no regard for order, placement, or easy passage through the morass.  Settled in the center of the chaos is a white marble boutique.",
+    "The northern corner of the court is relatively quiet, the low hum of conversation punctuated only by the occasional bursts of laughter emanating from the nearby dais.  A row of monir trees delineates the curvature of the cobblestoned lane, their leafy boughs creating a shady resting spot.",
+    "The northern corner of the court is relatively quiet, the low hum of conversation punctuated only by the occasional bursts of laughter emanating from the nearby dais.  A row of monir trees delineates the curvature of the cobblestoned lane, their leafy boughs creating a peaceful resting spot.",
+    "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a darkness only broken by the purposeful placement of a few silver lanterns.  Their unflickering blue light gives the space a ghostly glow.",
+    "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a dim, perpetual gloaming.  Nonetheless, the space is filled with impermanent shelving and carrels, set out with no regard for order, placement, or easy passage through the morass."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1199,
+      441,
+      1220,
+      461
+    ]
+  },
+  "exits": [
+    {
+      "to": 186,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 188,
+      "kind": "go",
+      "cmd": "go dais",
+      "cost": 0.2
+    },
+    {
+      "to": 528,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34421,
+      "kind": "go",
+      "cmd": "go boutique",
+      "cost": 0.2
+    }
+  ]
+}

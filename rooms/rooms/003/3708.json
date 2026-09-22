@@ -1,0 +1,44 @@
+{
+  "id": 3708,
+  "uid": [
+    42033
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The sound of your own footsteps echoes around you in the silent, cavernous chamber.  The silence is disturbing, and you sense that you are being watched.  Your head is filled with the pounding noise of your own heartbeat."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      310,
+      1091,
+      320,
+      1101
+    ]
+  },
+  "exits": [
+    {
+      "to": 3707,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3709,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

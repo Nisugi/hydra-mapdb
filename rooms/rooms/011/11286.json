@@ -1,0 +1,50 @@
+{
+  "id": 11286,
+  "uid": [
+    377060
+  ],
+  "title": [
+    "[Zoo, Cage Area]"
+  ],
+  "description": [
+    "You peer through the steel bars of the cage before you and see a large number of bones scattered about the floor.  No signs of life seem to stir within the cage."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      562,
+      734,
+      572,
+      744
+    ]
+  },
+  "exits": [
+    {
+      "to": 11284,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11287,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 11288,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

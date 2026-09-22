@@ -1,0 +1,44 @@
+{
+  "id": 6879,
+  "uid": [
+    21130
+  ],
+  "title": [
+    "[Abandoned Inn, Junk Room]"
+  ],
+  "description": [
+    "Rusty-bladed scythes, buckets with holes, bushel baskets, and all manner of things that have seen better days are tossed here with no rhyme or reason.  This seems to be the holding pen for items that no one wants...but no one wants to throw away, either.  A truly hideous painting of an old woman stares out from the back of the room, as if disapproving of the entire mess."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      959,
+      1053,
+      969,
+      1063
+    ]
+  },
+  "exits": [
+    {
+      "to": 6878,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6888,
+      "kind": "go",
+      "cmd": "go painting",
+      "cost": 0.2
+    }
+  ]
+}

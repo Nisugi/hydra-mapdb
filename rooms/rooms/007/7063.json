@@ -1,0 +1,56 @@
+{
+  "id": 7063,
+  "uid": [
+    42500
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Assorted rubble--dirt, bones, and other debris--has been dug up from the ground beneath the dungeon, revealing a network of tunnels.  Sections of the tunnel are wide, others narrow and in danger of imminent collapse."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "roa'ter",
+    "wingstem root",
+    "withered mushroom",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      242,
+      926,
+      252,
+      936
+    ]
+  },
+  "exits": [
+    {
+      "to": 7062,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7064,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7070,
+      "kind": "climb",
+      "cmd": "climb rubble",
+      "cost": 0.2
+    }
+  ]
+}

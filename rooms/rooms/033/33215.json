@@ -1,0 +1,36 @@
+{
+  "id": 33215,
+  "uid": [
+    7121240
+  ],
+  "title": [
+    "[House Annex, Rone Academy]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, a star-wreathed sword mural decorates the western wall under the light of several frosted glaesine globes that dangle from the ceiling.  Plush dark purple carpeting dappled with argent threads lends the otherwise austere space a coziness that is enhanced by the presence of a twilight purple velvet settee.  A lacquered beige door leads to the hallway, while a silver-edged dark purple curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:rone_academy:entrance_annex",
+    "che:rone_academy:entrance_locker",
+    "locker annex:Rone Academy"
+  ],
+  "exits": [
+    {
+      "to": 29552,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 36092,
+      "kind": "go",
+      "cmd": "go dark curtain",
+      "cost": 0.2
+    }
+  ]
+}

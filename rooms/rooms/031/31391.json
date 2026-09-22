@@ -1,0 +1,103 @@
+{
+  "id": 31391,
+  "uid": [
+    171028
+  ],
+  "title": [
+    "[Wyrdeep Forest]"
+  ],
+  "description": [
+    "The lack of ambient light in the suffocating darkness makes it impossible to discern the time of day.  Eerie howls and muffled scampering confirms the presence of unseen beings, but offers little solace as the approaching sound resonates through the trees."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "alder bark",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ginger root",
+    "golden buttercup",
+    "haphip root",
+    "kylan berry",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "oak twig",
+    "pink rain lily",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "twisted twig",
+    "walnuts",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "yew twig"
+  ],
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 31390,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get vine"
+        },
+        {
+          "move": "push vine"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 31392,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31400,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

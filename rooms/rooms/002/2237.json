@@ -1,0 +1,59 @@
+{
+  "id": 2237,
+  "uid": [
+    3051007
+  ],
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "At the foot of a barrier of jagged glaes boulders, the passageway curves quickly out of sight around an immense outcropping of blood-red glaes.  The rare stone glistens in the low light, embraced by black glaes, which surrounds it and accents it with the contrast in color.  Within the stone, a dim reflection of light flickers and pulses, as though the huge formation is a beating heart with convoluted striations for veins."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "rough",
+  "tags": [
+    "crimson-flecked rose",
+    "ember orange rose",
+    "ghost pepper",
+    "horseradish root",
+    "hot pepper",
+    "pepperthorn root"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      37,
+      814,
+      47,
+      824
+    ]
+  },
+  "exits": [
+    {
+      "to": 2236,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb boulders"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2238,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

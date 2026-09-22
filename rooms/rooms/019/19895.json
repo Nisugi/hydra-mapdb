@@ -1,0 +1,44 @@
+{
+  "id": 19895,
+  "uid": [
+    673056
+  ],
+  "title": [
+    "[Cleric Guild, Alchemy Storage]"
+  ],
+  "description": [
+    "The circular chamber is built of dark granite with the exception of white marble used to outline the ribbing of a vaulted ceiling.  The room is mainly bare with only a few stacked crates flanked on one side by a large dust bin and on the other by a wooden footlocker.  An archway, outlined with the same marble as the ceiling, leads off into another room."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "River's Rest",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "cleric alchemy cleaning supplies"
+  ],
+  "image": {
+    "file": "rr-cleric_guild.png",
+    "rect": [
+      432,
+      600,
+      501,
+      665
+    ]
+  },
+  "exits": [
+    {
+      "to": 19891,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 19896,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 35899,
+  "uid": [
+    3024015
+  ],
+  "title": [
+    "[River Muagh, Mouth]"
+  ],
+  "description": [
+    "A churning black maelstrom blocks the sky on the eastern, seaward facing side of lifeless, dark cliffs that flank the river along both banks.  The wind whips about with an intensity only rivaled by dwarves charging toward free ale, and surging waves from the Obsidian Sea meet the River Muagh head on.  A battered raft tethered to a jagged basalt ledge is caught in a constant, turbulent mix of brackish water, tossed one way, then the other."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "saltwater",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "strand of seaweed"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      331,
+      525,
+      369,
+      562
+    ]
+  },
+  "exits": [
+    {
+      "to": 35898,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35900,
+      "kind": "go",
+      "cmd": "go basalt ledge",
+      "cost": 0.2
+    }
+  ]
+}

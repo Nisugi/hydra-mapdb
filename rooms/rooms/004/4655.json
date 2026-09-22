@@ -1,0 +1,86 @@
+{
+  "id": 4655,
+  "uid": [
+    14051003
+  ],
+  "title": [
+    "[Gems of the Earth]"
+  ],
+  "description": [
+    "Shards of colored glass dangle from the ceiling, casting a myriad of jewel tones upon the platform as sunlight shines through them.  A simple wooden counter houses two rather large chests and serves as the only furniture on this level of the store.  Sturdy-looking steps rise to the second floor in a wide spiral around a massive tree trunk.",
+    "Shards of colored glass dangle from the ceiling, glimmering like jewels amid the freestanding torches.  A simple wooden counter houses two rather large chests and serves as the only furniture on this level of the store.  Sturdy-looking steps rise to the second floor in a wide spiral around a massive tree trunk."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "gemshop",
+    "stalk of bluebells",
+    "urchin guide gemshop",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      546,
+      782,
+      567,
+      802
+    ]
+  },
+  "exits": [
+    {
+      "to": 4653,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 4702,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

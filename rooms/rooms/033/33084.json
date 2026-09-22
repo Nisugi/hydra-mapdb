@@ -1,0 +1,47 @@
+{
+  "id": 33084,
+  "uid": [
+    7134052
+  ],
+  "title": [
+    "[Flotilla, Behind the Stacks]"
+  ],
+  "description": [
+    "Large stacks of crates isolate this area of the flotilla, creating a narrow path west back to the main structure.  To the north, the way is blocked by an oversized building, its exterior covered in various bits of flotsam and jetsam, and a ramshackle ironwood man-of-war is thoroughly lashed to one outer edge.  Reinforced connections bridge this section to the outermost edge of the flotilla in a narrow but sturdy walkway, creating an easily defensible position."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      454,
+      369,
+      463,
+      377
+    ]
+  },
+  "exits": [
+    {
+      "to": 33076,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 33088,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36794,
+      "kind": "go",
+      "cmd": "go man-of-war",
+      "cost": 0.2
+    }
+  ]
+}

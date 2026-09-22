@@ -1,0 +1,58 @@
+{
+  "id": 1546,
+  "uid": [
+    4902050
+  ],
+  "title": [
+    "[Solhaven, Tidewater Road]"
+  ],
+  "description": [
+    "A plank-walled warehouse faces the bay, its grey, weathered face telling a silent tale of years spent in the sun and salt sea air.  Clustered about its base are stacks of newly hewn boards and spools of cordage and cable half covered by canvas tarps.  Across the road, a gravel apron stretches from the edge of Tidewater's planking to a silver gate set in a limestone wall.",
+    "Heedless of the rushing waters beneath it, the road rises gently to form an arch over the neck of the Sunderer's Glaive.  The smell of salt is sharp in the air, its concentration great enough to peel the coat of fresh paint from the facade of a plank-walled warehouse facing the bay.  Clustered about the warehouse's base are stacks of fresh-hewn boards, accompanied by spools of cordage and cable half-covered by canvas tarps."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      576,
+      1206,
+      600,
+      1230
+    ]
+  },
+  "exits": [
+    {
+      "to": 1540,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1549,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 1550,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9304,
+      "kind": "go",
+      "cmd": "go warehouse",
+      "cost": 0.2
+    }
+  ]
+}

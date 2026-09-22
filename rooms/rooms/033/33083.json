@@ -1,0 +1,41 @@
+{
+  "id": 33083,
+  "uid": [
+    7134059
+  ],
+  "title": [
+    "[Flotilla, Jareseth's Jump]"
+  ],
+  "description": [
+    "The ocean depths in the midst of the flotilla sparkle in the starlight, and the deck leading up to it is covered in deep scuff marks.  A handmade sign nailed to a pole is the only item between deck and depths.  Opposite sits a repurposed warehouse, with a seashell mosaic at its entrance depicting several pirates brandishing cutlasses."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      384,
+      300,
+      398,
+      313
+    ]
+  },
+  "exits": [
+    {
+      "to": 33076,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 33082,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

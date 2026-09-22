@@ -1,0 +1,50 @@
+{
+  "id": 35588,
+  "uid": [
+    7150613
+  ],
+  "title": [
+    "[The Contempt, Orlop Deck]"
+  ],
+  "description": [
+    "A squat, dimly lit passage stretches below the main deck beneath the low and pitch-stained beams of a sagging overhead.  Near to rotting steps that climb out of the hold's hatch toward the brilliance of the day, a crooked workbench stands slightly askew.  Splicing tools litter its surface, though they seem ill-suited to the colossal task embodied by the piles of netting and loose coils of line heaped at the bench's base."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      4040,
+      1000,
+      4120,
+      1080
+    ]
+  },
+  "exits": [
+    {
+      "to": 35586,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 35589,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35593,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

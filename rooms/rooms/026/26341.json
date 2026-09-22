@@ -1,0 +1,42 @@
+{
+  "id": 26341,
+  "title": [
+    "[Barracks, Map Room]"
+  ],
+  "description": [
+    "The room is shrouded in near darkness, the only light coming from a glowing white skull that rests on the edge of a long wooden table.  Next to the skull is a small rack filled with torn maps and stained parchments.  Occasionally the glowing skull cackles wildly."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      1238,
+      180,
+      1264,
+      206
+    ]
+  },
+  "exits": [
+    {
+      "to": 26340,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26342,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26343,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

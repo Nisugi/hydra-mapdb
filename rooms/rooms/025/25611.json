@@ -1,0 +1,38 @@
+{
+  "id": 25611,
+  "uid": [
+    283002
+  ],
+  "title": [
+    "[Bard Guild, Circular Chamber]"
+  ],
+  "description": [
+    "An expansive circular chamber provides an impressive entry to the Bard Guild, with a carved wooden door leading out.  The walls are decorated with narrow silk hangings, and the ceiling above is high, with ceiling fans suspended on long shafts floating like a flight of birds.  Tall palm trees potted in urns circle the room's perimeter, placed around the edge of a round rug woven in brilliant tones of red, gold, and indigo blue.  A carved lebbek arch sits between two ocean blue silk banners stitched with golden musical notes.",
+    "An expansive circular chamber provides an impressive entry to the Bard Guild.  The walls are decorated with narrow silk hangings and the ceiling above is high, with ceiling fans suspended on long shafts floating like a flight of birds.  Tall palm trees potted in urns circle the room's perimeter, placed around the edge of a round rug woven in brilliant tones of red, gold, and indigo blue."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25601,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25610,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34402,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

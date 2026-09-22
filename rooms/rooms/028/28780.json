@@ -1,0 +1,50 @@
+{
+  "id": 28780,
+  "uid": [
+    3213109
+  ],
+  "title": [
+    "[Vardar Lodge, Hallway]"
+  ],
+  "description": [
+    "Shining white frost beckons from the other side of a pale pine door with a frosted glass panel.  Heat bleeds from the hallway's dead end, hungrily leached from the air by the waiting outdoors.  On the walls, a series of bright-pigmented landscapes depict pastoral scenes that are green and refreshingly devoid of ice, framing the curve of a silver-inlaid smooth spruce archway that leads to the banquet hall."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Vardar_Hollow_Map-51200827a.png",
+    "rect": [
+      908,
+      1051,
+      976,
+      1117
+    ]
+  },
+  "exits": [
+    {
+      "to": 28777,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28781,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 28782,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

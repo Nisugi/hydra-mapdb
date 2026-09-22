@@ -1,0 +1,40 @@
+{
+  "id": 31792,
+  "uid": [
+    8087160
+  ],
+  "title": [
+    "[Evermore Hotel, Hallway]"
+  ],
+  "description": [
+    "A ticking longcase clock sits between a pair of closed doors in the middle of a short corridor leading northeast to a grand staircase.  Opposite the doors, a bronze-framed oil painting hangs above a heavy mahogany desk, a thick leather-bound tome lying open on it.  A rolling cart supplied with fresh towels and folded blankets is parked to one side of the hallway, while a maidservant pauses to dust a marble gargoyle sculpture."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Naidem",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31791,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 31793,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 31794,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

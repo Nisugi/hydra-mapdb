@@ -1,0 +1,58 @@
+{
+  "id": 34595,
+  "uid": [
+    669034
+  ],
+  "title": [
+    "[Ebonshade Tower, Nexus]"
+  ],
+  "description": [
+    "A fountain crafted from four large black marble blocks, flecked with gold veins and etched with unrecognizable runes on each side, is centered in the room, with a small water geyser bubbling between the blocks.  A large potted fern is placed in one corner, its green leaves cascading onto the floor.  Other passageways branch off to smaller chambers filled with alchemical instruments and supplies, located on walls separate from narrow archway."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast"
+  ],
+  "location": "FWI Sorcerer Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "fwi-Sorcerer_Guild-1721107818.png",
+    "rect": [
+      490,
+      451,
+      527,
+      484
+    ]
+  },
+  "exits": [
+    {
+      "to": 34592,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 34600,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34601,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34602,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34603,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

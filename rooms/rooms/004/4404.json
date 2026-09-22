@@ -1,0 +1,45 @@
+{
+  "id": 4404,
+  "title": [
+    "[Hammer it Out, Entry]"
+  ],
+  "description": [
+    "Carved out of rough hewn stone, this empty midsized entryway is shored up with old timbers.  Twin passages lead off to the east and west, and a plain granite door has been set flush against the northern rock face."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4403,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 4405,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 4406,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4408,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

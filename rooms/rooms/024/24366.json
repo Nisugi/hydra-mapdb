@@ -1,0 +1,40 @@
+{
+  "id": 24366,
+  "uid": [
+    278910
+  ],
+  "title": [
+    "[Zul Logoth, Cavern]"
+  ],
+  "description": [
+    "Stalagmites and stalactites are sporadically spaced within this large cavern.  Light illuminates the passageway to the northwest, casting long shadows on the ground from the various rock formations.  Patches of luminescent moss create tiny glowing points on the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul_logoth-rangerguild-v2.png",
+    "rect": [
+      150,
+      320,
+      166,
+      336
+    ]
+  },
+  "exits": [
+    {
+      "to": 16918,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 24367,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

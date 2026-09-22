@@ -1,0 +1,74 @@
+{
+  "id": 16193,
+  "uid": [
+    216010
+  ],
+  "title": [
+    "[Beacon Hall, Rock Room]"
+  ],
+  "description": [
+    "This room appears to be unfinished.  Although it is encompassed on all four sides by stone walls, it lacks a ceiling, and sunlight streams in unhindered.  The floor is made up entirely of small rocks and pebbles, which crunch loudly underfoot."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "sandy",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "banana leaf",
+    "black peppercorn",
+    "bur-clover root",
+    "cactacae spine",
+    "cardamom",
+    "cumin seeds",
+    "murdroot",
+    "nutmeg",
+    "pink peppercorn",
+    "sagebrush root",
+    "small coconut",
+    "star anise",
+    "tiger lily",
+    "vanilla bean",
+    "wingstem root",
+    "yellow primrose"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      509,
+      262,
+      556,
+      307
+    ]
+  },
+  "exits": [
+    {
+      "to": 16192,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "put": "push block"
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 16194,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

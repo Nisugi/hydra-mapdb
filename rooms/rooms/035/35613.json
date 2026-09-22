@@ -1,0 +1,45 @@
+{
+  "id": 35613,
+  "uid": [
+    7150506
+  ],
+  "title": [
+    "[The Mageborn, Main Deck]"
+  ],
+  "description": [
+    "The deck is partially bisected by the ship's broken main mast, but still overshadowed by what remains of the shrouds.  Decaying lines cast foreboding patterns of shadow over a hatch that permits access into the partially submerged hold.  The rush of the tide beckons from the gloom below, and in a narrow square of sunlight, white foam stands out against a backdrop of surging black water."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "saltwater",
+  "terrain": "ruins",
+  "tags": [
+    "dusky pink sea thrift",
+    "peacock's tail"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      1800,
+      2280,
+      1880,
+      2360
+    ]
+  },
+  "exits": [
+    {
+      "to": 35608,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 35614,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    }
+  ]
+}

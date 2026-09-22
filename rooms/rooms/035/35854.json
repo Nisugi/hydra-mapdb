@@ -1,0 +1,48 @@
+{
+  "id": 35854,
+  "uid": [
+    3024002
+  ],
+  "title": [
+    "[River Muagh]"
+  ],
+  "description": [
+    "A well-tended rock garden faces toward the river, where massive boulders, tiny pebbles, and all sizes of rocks in-between are piled into unique geometric shapes.  Bentok's Adventurers' Rest towers over the east bank, where a stout wooden dock is anchored in the shallows.  The two sides of the river bubble peacefully as they join and flow north from around the sides of Ghorsa Isle."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      97,
+      1393,
+      134,
+      1429
+    ]
+  },
+  "exits": [
+    {
+      "to": 35853,
+      "kind": "go",
+      "cmd": "go wooden dock",
+      "cost": 0.2
+    },
+    {
+      "to": 35855,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

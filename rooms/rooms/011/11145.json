@@ -1,0 +1,44 @@
+{
+  "id": 11145,
+  "uid": [
+    2103007
+  ],
+  "title": [
+    "[River Tunnels, Dead End]"
+  ],
+  "description": [
+    "Old calcium deposits and the fossilized remains of ancient sea creatures indicate that at one time this passage was underwater.  The only reminder of its ancient oceanic heritage is the hint of salt and cold moisture in the air.  Oddly, the smell of some type of mold or fungus is also in the air, although none is visible.  The passage slopes downward to the north."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Citadel",
+  "climate": "none",
+  "terrain": "plain dirt",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      1006,
+      392,
+      1016,
+      402
+    ]
+  },
+  "exits": [
+    {
+      "to": 11144,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 11146,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

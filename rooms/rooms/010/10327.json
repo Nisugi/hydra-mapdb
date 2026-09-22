@@ -1,0 +1,76 @@
+{
+  "id": 10327,
+  "uid": [
+    14103075
+  ],
+  "title": [
+    "[Areacne's Gems of Ta'Vaalor]",
+    "[Ta'Vaalor, Areacne's Gemshop]"
+  ],
+  "description": [
+    "Exquisite antique-white dupioni silk curtains, trimmed in fine lace covers the bay window.  A beautifully arranged bouquet of wild roses in a transparent quartz vase rests in the center of the speckled marble-topped counter, which is trimmed in black willow.  Overhead, the delicate prisms of the crystal chandelier emit soft chimes, as a slight breeze makes it gently sway back and forth.  The thick, plush forest-green wall-to-wall carpet muffles the steps of the patrons of this elegant shop.",
+    "Various cut and uncut gemstones wink from where they sit on pale, stained oak shelves that line the sides of the room.  The gemsmith, Areacne, swiftly strides about the area, buying the occasional gem or stone for the store's collection or answering the questions of curious customers gazing over her merchandise."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "gemshop",
+    "no forageables",
+    "urchin guide gemshop",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 3494,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10328,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 36645,
+  "uid": [
+    8400217
+  ],
+  "title": [
+    "[Brayern Isle, Jungle Path]"
+  ],
+  "description": [
+    "Opening out of thick jungle on either side of the path is a small, canopied clearing.  In the center, some stone benches have been set so travelers may rest in this glade.  Alongside them is a simple bamboo fountain.  Lanterns line the area's perimeter, with openings facing only inward so as to not cast excess light into the jungle.  A winding, boulder-strewn path leads visibly toward the cliff face and a dense vine-twisted opening leading up to a narrow platform above."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Brayern Isle",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      937,
+      1230,
+      953,
+      1245
+    ]
+  },
+  "exits": [
+    {
+      "to": 36644,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36646,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36652,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

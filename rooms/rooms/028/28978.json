@@ -1,0 +1,134 @@
+{
+  "id": 28978,
+  "uid": [
+    7119101
+  ],
+  "title": [
+    "[Kraken's Fall, Exterior]"
+  ],
+  "description": [
+    "Evenly spaced along the dusty road, fitfully burning bamboo and hemp torches stand at attention as they guide visitors towards large wooden gates built into the face of a towering stakewall.  Spindly saplings dot the northern edges of the area amid verdant shrubs laden with bright orange and red berries, while tufts of grass sprout along the southern edges where a long guardrail blocks access to the cliff's edge.  A dazzling aerial view of a portside town can be seen from this vantage point.",
+    "Evenly spaced along the dusty road, dormant bamboo and hemp torches stand at attention as they guide visitors towards large wooden gates built into the face of a towering stakewall.  Spindly saplings dot the northern edges of the area amid verdant shrubs laden with bright orange and red berries, while tufts of grass sprout along the southern edges where a long guardrail blocks access to the cliff's edge.  A dazzling aerial view of a portside town can be seen from this vantage point."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Widowmaker's Road",
+  "climate": "temperate",
+  "terrain": "rough",
+  "tags": [
+    "advguard",
+    "banana leaf",
+    "bearberries",
+    "blueberries",
+    "bright pink plumeria",
+    "bright red beet",
+    "bright red teaberry",
+    "broken twig",
+    "cone-shaped pineapple",
+    "dark pink plumeria",
+    "elderberries",
+    "fiddlehead fern",
+    "ghost pepper",
+    "golden buttercup",
+    "guard",
+    "handful of currants",
+    "heath aster",
+    "horseradish root",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "Luthrek",
+    "motherwort",
+    "pepperthorn root",
+    "phoenix palm frond",
+    "pink clover blossom",
+    "pristine white plumeria",
+    "purple clover blossom",
+    "red clover blossom",
+    "sentry",
+    "soft white plumeria",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "turquoise plumeria",
+    "urchin guide guard",
+    "urchin-access",
+    "vibrant yellow plumeria",
+    "white baneberry",
+    "white clover blossom",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose"
+  ],
+  "meta": [
+    "mapcategory:Kraken's Fall",
+    "mapname:Kraken's Fall - Widowmaker's Road",
+    "mapshortname:Widowmaker's Road"
+  ],
+  "image": {
+    "file": "kf-widowmakers_road-1668643957.png",
+    "rect": [
+      759,
+      317,
+      771,
+      329
+    ]
+  },
+  "exits": [
+    {
+      "to": 28919,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    },
+    {
+      "to": 29021,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

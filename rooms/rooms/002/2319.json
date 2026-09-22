@@ -1,0 +1,59 @@
+{
+  "id": 2319,
+  "uid": [
+    4042014
+  ],
+  "title": [
+    "[Temple Burrow, Koar and Cholen]"
+  ],
+  "description": [
+    "Koar Street ends in an ice-slicked hill that rises to merge with the town's outer wall.  The glacier stretches out over the road, blocking view of the sky, though street lamps with bases fashioned in the shapes of dancing figures illuminate the shrouded span.  Priests wearing the symbols of several orders come and go through an iron-gated tunnel in the ice, though some fill the cavernous space with their murmurs as they stand talking quietly with one another.  At the road's end, a frosted silver gate leads into a walled courtyard.",
+    "Koar Street ends in a huge hill of ice that serves as part of the town wall.  Priests representing several orders come and go through a tunnel in the ice, or stand talking quietly, carefully polishing symbols of their deities.",
+    "Koar Street ends in a huge hill of ice that serves as part of the town wall.  The only light in the area flows through an unobtrusive tunnel in the ice.  The sound of chanting can be heard from somewhere deep within the hill."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west",
+    "Obvious paths: southwest, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      1026,
+      519,
+      1062,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 2318,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2320,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2326,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 2328,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    }
+  ]
+}

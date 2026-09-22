@@ -1,0 +1,102 @@
+{
+  "id": 30792,
+  "uid": [
+    7120001,
+    7120013,
+    7120025,
+    7120037,
+    7120049,
+    7120061,
+    7120073
+  ],
+  "title": [
+    "[Enemy Ship, Main Deck]"
+  ],
+  "description": [
+    "A sail hanging from a mast casts a large shadow across some debris, while rigging creates a dark, web-like pattern across the planks of the main deck. Along both sides of the ship, cannons stand at the ready.  A lone gull circles overhead, its sonorous call a greeting to those on board."
+  ],
+  "paths": [
+    "Obvious paths: east, west, up, down"
+  ],
+  "location": "The Tenebrous Cauldron",
+  "terrain": "none",
+  "tags": [
+    "enemy brigantine"
+  ],
+  "meta": [
+    "exit:go gangplank:previous in:29038,30142,30119,30176,30166,30130",
+    "map:multi-uid",
+    "morphing"
+  ],
+  "image": {
+    "file": "osa-ships-1649101574.jpg",
+    "rect": [
+      804,
+      418,
+      819,
+      431
+    ]
+  },
+  "exits": [
+    {
+      "to": 29038,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30119,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30130,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30142,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30166,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30176,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 30793,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30795,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30796,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 30797,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

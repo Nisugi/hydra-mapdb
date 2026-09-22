@@ -1,0 +1,42 @@
+{
+  "id": 26002,
+  "uid": [
+    158102
+  ],
+  "title": [
+    "[Isharn Enclave, Nook]"
+  ],
+  "description": [
+    "A carpet of silver-grey leaves softens the paving stones near the edge of a crystal-clear pond in the courtyard's corner.  Fed by a burbling fountain shaped like three elven maidens, the pool's music echoes off of the walls in an even, lulling manner.  Cushioned chairs ornate enough to be thrones laze by the waterside in a patch of cool shadows."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "New Ta'Faendryl",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim-isharn_enclave-1648064027.png",
+    "rect": [
+      1071,
+      703,
+      1367,
+      959
+    ]
+  },
+  "exits": [
+    {
+      "to": 26000,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go northwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 7458,
+  "uid": [
+    94001
+  ],
+  "title": [
+    "[Jagged Plains, High Ledge]"
+  ],
+  "description": [
+    "Perched here, high above the quietude of the rock and boulder strewn expanse of the jagged plains below, the stillness holds an almost palpable tension.  The strained feeling of expectancy has you poised and alert, and you cannot escape the feeling that someone, or something, is watching you."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Broken Lands",
+  "climate": "temperate",
+  "terrain": "subterranean",
+  "tags": [
+    "blackened moss",
+    "bone mushroom",
+    "cave moss",
+    "glowing green lichen",
+    "sponge mushroom"
+  ],
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      597,
+      801,
+      607,
+      811
+    ]
+  },
+  "exits": [
+    {
+      "to": 7440,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 7459,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

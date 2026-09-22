@@ -1,0 +1,63 @@
+{
+  "id": 10130,
+  "uid": [
+    13038005
+  ],
+  "title": [
+    "[Fethayl Bog, Muddy Slough]"
+  ],
+  "description": [
+    "The nearby saw grass has overgrown the trail in some places and rustles softly in the breeze.  Where the trail is still clear, some recent disturbances in the mud indicate that it may be deeper than it looks.  A lake of thick mud, littered with several unidentifiable objects discarded by previous travelers, blocks passage to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Fethayl Bog",
+  "climate": "saltwater",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "blades of cordgrass",
+    "blue-green marshgrass",
+    "bolmara lichen",
+    "broken twig",
+    "feathery mannagrass",
+    "murdroot",
+    "orange heliconia",
+    "saltmeadow cordgrass",
+    "wavepetal blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-fearling-1632908688.png",
+    "rect": [
+      1113,
+      231,
+      1123,
+      241
+    ]
+  },
+  "exits": [
+    {
+      "to": 10128,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 10131,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10133,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mud"
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

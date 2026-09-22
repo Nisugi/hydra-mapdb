@@ -1,0 +1,41 @@
+{
+  "id": 17756,
+  "uid": [
+    250022
+  ],
+  "title": [
+    "[Warrior Guild, Icy Path]"
+  ],
+  "description": [
+    "This narrow path winds through the snow-covered hedges and bare trees, its surface packed by the stomping of many heavy boots.  The ice has been shaken from the hedges where the path opens out into the main courtyard, and a faint aroma of roasting meat drifts from the large canvas tent that has been erected in a clearing between the trees."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "cold, damp",
+  "terrain": "cultivated",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      779,
+      390,
+      799,
+      410
+    ]
+  },
+  "exits": [
+    {
+      "to": 17755,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 17757,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

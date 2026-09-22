@@ -1,0 +1,56 @@
+{
+  "id": 2792,
+  "uid": [
+    4564205
+  ],
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "The hall runs east and west, flanked with more of the carved doors and carpeted with its coniferously patterned runner.  The door on the left stands facing an alcove where a couple of comfortable chairs sit on either side of a low table."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      212,
+      844,
+      222,
+      854
+    ]
+  },
+  "exits": [
+    {
+      "to": 2790,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2793,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2794,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15604,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

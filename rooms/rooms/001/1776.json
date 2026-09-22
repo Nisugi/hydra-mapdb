@@ -1,0 +1,80 @@
+{
+  "id": 1776,
+  "uid": [
+    4026
+  ],
+  "title": [
+    "[Gemcutter's, Front Room]"
+  ],
+  "description": [
+    "Inside the Gemcutter's shop, you see two glass showcases holding jewelry and precious stones.  Directly ahead of you is a low desk with several racks holding tools of the Gemcutter's trade."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "gemshop",
+    "urchin guide gemshop",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 298,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 6324,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13487,
+      "kind": "go",
+      "cmd": "go narrow door",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

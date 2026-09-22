@@ -1,0 +1,37 @@
+{
+  "id": 22229,
+  "uid": [
+    43063
+  ],
+  "title": [
+    "[Pool]"
+  ],
+  "description": [
+    "You are in a murky, cold pool of water.  Although it does not seem very deep, your feet do not touch bottom.  Beneath the surface, down about 7 feet or so, there appears to be a floor of solid rock.  A flat, narrow ledge of granite forms the shore."
+  ],
+  "paths": [
+    ""
+  ],
+  "location_unknowable": true,
+  "climate": "freshwater",
+  "terrain": "subterranean",
+  "meta": [
+    "map:ignore-blanks",
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 6955,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "swim up"
+        },
+        {
+          "move": "go shore"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

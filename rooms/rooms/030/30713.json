@@ -1,0 +1,286 @@
+{
+  "id": 30713,
+  "title": [
+    "[Ta'Vaalor - Urchin Hideout]",
+    "[the city of Ta'Vaalor - Urchin Hideout]"
+  ],
+  "description": [
+    "This is a fake room used to hold wayto/timeto for urchin guides."
+  ],
+  "paths": [
+    "Obvious exits: bwahaha"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "tags": [
+    "urchin-hideout"
+  ],
+  "meta": [
+    "map:virtual room"
+  ],
+  "exits": [
+    {
+      "to": 3483,
+      "kind": "other",
+      "cmd": "urchin guide amaranthgate",
+      "cost": 0.1
+    },
+    {
+      "to": 3490,
+      "kind": "other",
+      "cmd": "urchin guide vermiliongate",
+      "cost": 0.1
+    },
+    {
+      "to": 3495,
+      "kind": "other",
+      "cmd": "urchin guide wizardguild",
+      "cost": 0.1
+    },
+    {
+      "to": 3498,
+      "kind": "other",
+      "cmd": "urchin guide helgreths",
+      "cost": 0.1
+    },
+    {
+      "to": 3510,
+      "kind": "other",
+      "cmd": "urchin guide empathguild",
+      "cost": 0.1
+    },
+    {
+      "to": 3516,
+      "kind": "other",
+      "cmd": "urchin guide victorygate",
+      "cost": 0.1
+    },
+    {
+      "to": 3519,
+      "kind": "other",
+      "cmd": "urchin guide kingscourt",
+      "cost": 0.1
+    },
+    {
+      "to": 3521,
+      "kind": "other",
+      "cmd": "urchin guide warriorguild",
+      "cost": 0.1
+    },
+    {
+      "to": 3523,
+      "kind": "other",
+      "cmd": "urchin guide annattogate",
+      "cost": 0.1
+    },
+    {
+      "to": 3538,
+      "kind": "other",
+      "cmd": "urchin guide premiumhall nonpremium",
+      "cost": {
+        "when": {
+          "not": {
+            "flag": "premium_account"
+          }
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 3544,
+      "kind": "other",
+      "cmd": "urchin guide locksmithpool",
+      "cost": 0.1
+    },
+    {
+      "to": 3727,
+      "kind": "other",
+      "cmd": "urchin guide guard",
+      "cost": 0.1
+    },
+    {
+      "to": 3746,
+      "kind": "other",
+      "cmd": "urchin guide justice",
+      "cost": 0.1
+    },
+    {
+      "to": 5826,
+      "kind": "other",
+      "cmd": "urchin guide inn",
+      "cost": 0.1
+    },
+    {
+      "to": 5883,
+      "kind": "other",
+      "cmd": "urchin guide chronomages",
+      "cost": 0.1
+    },
+    {
+      "to": 10313,
+      "kind": "other",
+      "cmd": "urchin guide townhall",
+      "cost": 0.1
+    },
+    {
+      "to": 10325,
+      "kind": "other",
+      "cmd": "urchin guide bank",
+      "cost": 0.1
+    },
+    {
+      "to": 10327,
+      "kind": "other",
+      "cmd": "urchin guide gemshop",
+      "cost": 0.1
+    },
+    {
+      "to": 10329,
+      "kind": "other",
+      "cmd": "urchin guide furrier",
+      "cost": 0.1
+    },
+    {
+      "to": 10332,
+      "kind": "other",
+      "cmd": "urchin guide bounty",
+      "cost": 0.1
+    },
+    {
+      "to": 10362,
+      "kind": "other",
+      "cmd": "urchin guide fletcher",
+      "cost": 0.1
+    },
+    {
+      "to": 10365,
+      "kind": "other",
+      "cmd": "urchin guide alchemy",
+      "cost": 0.1
+    },
+    {
+      "to": 10367,
+      "kind": "other",
+      "cmd": "urchin guide weapons",
+      "cost": 0.1
+    },
+    {
+      "to": 10369,
+      "kind": "other",
+      "cmd": "urchin guide temple",
+      "cost": 0.1
+    },
+    {
+      "to": 10375,
+      "kind": "other",
+      "cmd": "urchin guide weddinghall",
+      "cost": 0.1
+    },
+    {
+      "to": 10376,
+      "kind": "other",
+      "cmd": "urchin guide clericguild",
+      "cost": 0.1
+    },
+    {
+      "to": 10379,
+      "kind": "other",
+      "cmd": "urchin guide pawn",
+      "cost": 0.1
+    },
+    {
+      "to": 10384,
+      "kind": "other",
+      "cmd": "urchin guide malwith",
+      "cost": 0.1
+    },
+    {
+      "to": 10388,
+      "kind": "other",
+      "cmd": "urchin guide tables",
+      "cost": 0.1
+    },
+    {
+      "to": 10396,
+      "kind": "other",
+      "cmd": "urchin guide herbalist",
+      "cost": 0.1
+    },
+    {
+      "to": 10397,
+      "kind": "other",
+      "cmd": "urchin guide healer",
+      "cost": 0.1
+    },
+    {
+      "to": 10398,
+      "kind": "other",
+      "cmd": "urchin guide dancingdahcre",
+      "cost": 0.1
+    },
+    {
+      "to": 10434,
+      "kind": "other",
+      "cmd": "urchin guide locksmith",
+      "cost": 0.1
+    },
+    {
+      "to": 10438,
+      "kind": "other",
+      "cmd": "urchin guide bardguild",
+      "cost": 0.1
+    },
+    {
+      "to": 12347,
+      "kind": "other",
+      "cmd": "urchin guide debts",
+      "cost": 0.1
+    },
+    {
+      "to": 12350,
+      "kind": "other",
+      "cmd": "urchin guide armor",
+      "cost": 0.1
+    },
+    {
+      "to": 20713,
+      "kind": "other",
+      "cmd": "urchin guide premiumhall premium",
+      "cost": {
+        "when": {
+          "flag": "premium_account"
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 23818,
+      "kind": "other",
+      "cmd": "urchin guide collectibles",
+      "cost": 0.1
+    },
+    {
+      "to": 30287,
+      "kind": "other",
+      "cmd": "urchin guide postoffice",
+      "cost": 0.1
+    },
+    {
+      "to": 30590,
+      "kind": "other",
+      "cmd": "urchin guide stable",
+      "cost": 0.1
+    },
+    {
+      "to": 31493,
+      "kind": "other",
+      "cmd": "urchin guide docks",
+      "cost": 0.1
+    },
+    {
+      "to": 32788,
+      "kind": "other",
+      "cmd": "urchin guide grocer",
+      "cost": 0.1
+    }
+  ]
+}

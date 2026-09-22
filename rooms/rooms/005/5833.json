@@ -1,0 +1,45 @@
+{
+  "id": 5833,
+  "uid": [
+    14003004
+  ],
+  "title": [
+    "[Timmorain Road]"
+  ],
+  "description": [
+    "A bridge to the northeast has collapsed into a swift stream, and though the cobblestone road obviously continues into the forest on the other side, there is no way to cross the surging waters.  The collapse appears to be rather recent, judging from the condition of the broken timbers, and there is no evidence of repair efforts.  A tree-lined path leads into the forest, perhaps providing a means of circumventing the ruined bridge."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Timmorain Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      477,
+      909,
+      489,
+      921
+    ]
+  },
+  "exits": [
+    {
+      "to": 5832,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5834,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    }
+  ]
+}

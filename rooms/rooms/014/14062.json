@@ -1,0 +1,51 @@
+{
+  "id": 14062,
+  "uid": [
+    4750032
+  ],
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "The east and north sections of the inner wall meet here.  Set between the two walls, a stout watchtower rises several stories over the inner ward grounds.  A sturdy wooden door hanging on its rusted hinges leads into the tower's interior."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      761,
+      224,
+      771,
+      234
+    ]
+  },
+  "exits": [
+    {
+      "to": 14037,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14063,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14064,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

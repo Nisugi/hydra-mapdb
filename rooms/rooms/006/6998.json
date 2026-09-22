@@ -1,0 +1,84 @@
+{
+  "id": 6998,
+  "uid": [
+    45104
+  ],
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "You peer up at the intimidating stone towers which flank the entrance to the castle, silently guarding the passage in.  Inexplicably, a mound of hay has been piled up close to the wall here, in odd contrast to the gleaming white mein portcullis which towers overhead."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bright red cranberry",
+    "cuctucae berry",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "stalk of chicory",
+    "sweetfern stalk",
+    "valerian root",
+    "wingstem root",
+    "wolifrew lichen"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      320,
+      429,
+      330,
+      439
+    ]
+  },
+  "exits": [
+    {
+      "to": 6997,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "push lever",
+            "until": [
+              "Ok, you push a heavy steel lever protruding from a slit in one wall.  Now what",
+              "Summoning all your strength, you manage to push a heavy steel lever protruding from a slit in one wall forward just enough to lower a wooden drawbridge"
+            ]
+          }
+        },
+        {
+          "move": "go drawbridge"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6999,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "pull lever",
+            "until": [
+              "Ok, you pull a heavy steel lever protruding from a slit in one wall.  Now what",
+              "Summoning all your strength, you manage to pull a heavy steel lever protruding from a slit in one wall back just enough to raise a wooden drawbridge"
+            ]
+          }
+        },
+        {
+          "move": "go white portcullis"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

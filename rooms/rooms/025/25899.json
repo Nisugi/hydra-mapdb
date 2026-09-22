@@ -1,0 +1,60 @@
+{
+  "id": 25899,
+  "uid": [
+    8211303
+  ],
+  "title": [
+    "[Summit Academy, South Ellipse]"
+  ],
+  "description": [
+    "A current of warm air flows from the walkway that winds south beneath an arched canopy of trees.  As it mixes with the frosty air, a constant breeze swirls through the area.  A narrow flagstone path splits as it leads to both a tile-roofed manor house and a thatch-roofed cobblestone cottage.",
+    "A current of warm air flows from the walkway that winds south beneath an arched canopy of trees.  As it mixes with the frosty air, a constant breeze swirls through the area.  A narrow flagstone path leads up to a tile-roofed manor house."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "Summit Academy",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous forest",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      295,
+      501,
+      321,
+      524
+    ]
+  },
+  "exits": [
+    {
+      "to": 25900,
+      "kind": "go",
+      "cmd": "go house",
+      "cost": 0.2
+    },
+    {
+      "to": 25916,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28088,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 34466,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35455,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

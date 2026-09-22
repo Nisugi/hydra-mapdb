@@ -1,0 +1,84 @@
+{
+  "id": 28982,
+  "uid": [
+    7118508
+  ],
+  "title": [
+    "[Molskroen Hall, West Hall]"
+  ],
+  "description": [
+    "Framed in carved cocobolo, a long white parchment guide is mounted on the eastern wall, the starlight reflecting off of its glass-covered surface, while below it, fabric and wood dress forms stand on display.  Green shutters frame open, glass-free windows in the western wall, each providing a view of the streets beyond and bringing cool air into the narrow hallway.  Cushioned wicker armchairs are scattered about the golden linden floor, providing comfortable places for repose."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "meta": [
+    "premium"
+  ],
+  "exits": [
+    {
+      "to": 28981,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28983,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28989,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

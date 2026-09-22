@@ -1,0 +1,58 @@
+{
+  "id": 6487,
+  "uid": [
+    95156
+  ],
+  "title": [
+    "[Monastery, Atrium]"
+  ],
+  "description": [
+    "This large room appears to have been carved from solid rock.  The walls, floor, and ceiling are totally seamless, leaving no evidence that stones have been fitted together to form this structure.  There are several high-backed chairs, also carved from solid stone, and several low stone tables.  Each of the heavy-looking pieces of furniture resembles a piece of art, having its own unique pattern of mineral deposits."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "monastic lich",
+    "no forageables",
+    "spectral monk"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      307,
+      1005,
+      317,
+      1015
+    ]
+  },
+  "exits": [
+    {
+      "to": 6486,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go doors"
+        },
+        {
+          "put": "pull lever",
+          "when": "still_here"
+        },
+        {
+          "move": "go doors",
+          "when": "still_here"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 6488,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

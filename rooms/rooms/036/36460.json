@@ -1,0 +1,48 @@
+{
+  "id": 36460,
+  "uid": [
+    55012
+  ],
+  "title": [
+    "[Black Swan Castle, Moat]"
+  ],
+  "description": [
+    "The outer wall of the castle is just beyond your reach as you swim through the turbid waters, intent on staying afloat.  The dark form of the rusted drawbridge is above you, casting greater gloom from the northeast.",
+    "The outer wall of the castle rises from the turbid waters life a sheer cliff face.  The dark form of the rusted drawbridge looms precariously overhead, casting greater gloom from the northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      120,
+      760,
+      160,
+      800
+    ]
+  },
+  "exits": [
+    {
+      "to": 36456,
+      "kind": "other",
+      "cmd": "swim shore",
+      "cost": 0.2
+    },
+    {
+      "to": 36459,
+      "kind": "other",
+      "cmd": "swim east",
+      "cost": 0.2
+    },
+    {
+      "to": 36461,
+      "kind": "other",
+      "cmd": "swim north",
+      "cost": 0.2
+    }
+  ]
+}

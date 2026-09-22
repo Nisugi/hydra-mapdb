@@ -1,0 +1,108 @@
+{
+  "id": 3657,
+  "uid": [
+    3201024
+  ],
+  "title": [
+    "[Oleander Crossing]"
+  ],
+  "description": [
+    "Built nearly on top of one another, there is barely a crack between the buildings here.  Only the colorful awnings and decorative trim differentiate one from another.  Outside one shop, a set of silver wind chimes hangs and issues an eerie melody as the breeze passes through them."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "meta": [
+    "trashcan:old barrel"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2770,
+      1460,
+      2810,
+      1500
+    ]
+  },
+  "exits": [
+    {
+      "to": 3651,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3655,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3658,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3668,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.8
+    },
+    {
+      "to": 12281,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 26981,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

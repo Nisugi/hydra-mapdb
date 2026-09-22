@@ -1,0 +1,98 @@
+{
+  "id": 1550,
+  "uid": [
+    664001
+  ],
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "A limestone wall topped with driftwood carvings supports a silver gate.  A thick layer of crunchy yellow and white brick chips covers the area between the street and the gate.  Torches affixed to the wall on either side of the gate blaze brilliantly to light the surrounding area.",
+    "Mere feet from the dark waters that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Torches affixed to the walls to either side of the gate blaze brilliantly, throwing the shadows back to the meeting of sand and sea.",
+    "Mere feet from the lapping waves that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Unlit torches affixed to the walls to either side of the gate await the onset of night."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "sorcerer guild",
+    "sorcererguild",
+    "stalk of bluebells",
+    "urchin guide sorcererguild",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      515,
+      1207,
+      537,
+      1229
+    ]
+  },
+  "exits": [
+    {
+      "to": 1546,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18928,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 22350,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 5.0
+    },
+    {
+      "to": 30710,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

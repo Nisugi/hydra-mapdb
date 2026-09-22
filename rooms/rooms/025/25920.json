@@ -1,0 +1,47 @@
+{
+  "id": 25920,
+  "uid": [
+    8211329
+  ],
+  "title": [
+    "[Groundskeeper's Yard]"
+  ],
+  "description": [
+    "Seated atop a wooded knoll is a modest stone and daub cottage.  To the north, the moon reflects off icy Lake Sasalis, its luminous glow shining between the trees.  A winding path leads back toward the openness of the commons."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Summit Academy",
+  "climate": "cold, damp",
+  "terrain": "hilly",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      565,
+      396,
+      587,
+      418
+    ]
+  },
+  "exits": [
+    {
+      "to": 25919,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 25930,
+      "kind": "go",
+      "cmd": "go cottage",
+      "cost": 0.2
+    },
+    {
+      "to": 25931,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

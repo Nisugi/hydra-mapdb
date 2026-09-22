@@ -1,0 +1,185 @@
+{
+  "id": 16124,
+  "uid": [
+    5004009,
+    5004010,
+    5004011,
+    5004012,
+    5004013,
+    5004014,
+    5004015
+  ],
+  "title": [
+    "[Miasmal Forest, Ghostly Trees]"
+  ],
+  "description": [
+    "Rotting reeds and marsh grasses mix with the turbid water to befoul the air with a noxious stench.  The sickly trees rising from the miasma look like skeletal figures reaching into the befouled mist.  The trails disappear into the thick chalky mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "moist",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "alligator lily",
+    "aloeas stem",
+    "black peppercorn",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "kylan berry",
+    "murdroot",
+    "no-auto-map",
+    "nutmeg",
+    "orange heliconia",
+    "pink heliconia",
+    "pink passionflower",
+    "pink peppercorn",
+    "purple passionflower",
+    "red heliconia",
+    "red passionflower",
+    "soft white mushroom",
+    "spider lily",
+    "stalk of cattail",
+    "star anise",
+    "sunburst blossom",
+    "talneo root",
+    "trollfear mushroom",
+    "vanilla bean",
+    "water chestnut",
+    "wavepetal blossom",
+    "wingstem root",
+    "withered black mushroom",
+    "yellow heliconia"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "maze"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      738,
+      515,
+      748,
+      525
+    ]
+  },
+  "exits": [
+    {
+      "to": 11620,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move_while": [
+            "west",
+            {
+              "exit": "w"
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northwest",
+              "southwest"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        },
+        {
+          "move_while": [
+            "east",
+            {
+              "exit": "e"
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 11653,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 22219,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_any_while": [
+            [
+              "northeast",
+              "southeast"
+            ],
+            {
+              "exits_are": [
+                "ne",
+                "se",
+                "sw",
+                "nw"
+              ]
+            }
+          ]
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

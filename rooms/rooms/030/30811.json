@@ -1,0 +1,45 @@
+{
+  "id": 30811,
+  "uid": [
+    7119117
+  ],
+  "title": [
+    "[Widowmaker's Road, Rapids]"
+  ],
+  "description": [
+    "Freshly hewn logs speed down the waters as they splash against the edge.  A small slippery platform extends out over the waters offering a place to attempt to jump onto the speeding projectiles.  A large warning sign is set precariously next to the rapids."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Widowmaker's Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bright pink protea",
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "exits": [
+    {
+      "to": 29050,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30812,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "stance def"
+        },
+        {
+          "move": "jump"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 30298,
+  "title": [
+    "[Yuvi Qorit, Sandy Path]"
+  ],
+  "description": [
+    "Winding around a group of palms, shrubbery pulls away and opens to a panoramic view of the neighboring oasis.  Huddling adjacent from some twining trees is a tethered palm-framed stall with a patchwork morduska hide canopy, the breeze causing the copper sign dangling from the building to swing.  Wind-rippled sand surrounds a faded blue domed canvas tent with a narrow entrance, creating soft mounds that press up against the obstruction, the desert attempting to reclaim its territory."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Sea of Fire",
+  "image": {
+    "file": "fest-yuvi_qorit-1643758946.jpg",
+    "rect": [
+      373,
+      484,
+      405,
+      515
+    ]
+  },
+  "exits": [
+    {
+      "to": 30297,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30299,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30307,
+      "kind": "go",
+      "cmd": "go stall",
+      "cost": 0.2
+    },
+    {
+      "to": 30308,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

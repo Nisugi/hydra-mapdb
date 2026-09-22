@@ -1,0 +1,69 @@
+{
+  "id": 29127,
+  "uid": [
+    7118403
+  ],
+  "title": [
+    "[Constable's Office]"
+  ],
+  "description": [
+    "White stucco clings to the walls of the tiny office, which is pristine and tidy despite the cramped size.  Most of the floor space is given over to an ebonwood desk, though a few chairs can be found nearby.  Dangling from the ceiling is the wheel of a ship, it's spindled appendages laden with frosted globes."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "jail",
+    "justice",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 29009,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

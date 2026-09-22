@@ -1,0 +1,45 @@
+{
+  "id": 20057,
+  "uid": [
+    28152
+  ],
+  "title": [
+    "[Museum, Basement Storage]"
+  ],
+  "description": [
+    "This expansive room is cluttered floor to ceiling with canvas-draped objects that rest in storage.  The timber-braced mortared stone walls are almost completely obscured by piles of artifacts, paintings, statues, and relics that dwell in this subterranean room.  Flickering torches high in the walls cast their light on the covered objects below, and a glimpse of reddish fur peeks out from beneath an askew canvas cover.  An old and musty tapestry hangs on the south wall beside an open archway that leads out of the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 20056,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 20638,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crack"
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

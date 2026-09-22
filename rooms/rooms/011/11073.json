@@ -1,0 +1,51 @@
+{
+  "id": 11073,
+  "uid": [
+    26107
+  ],
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Rocks about the size of chairs are gathered together to the southeast in this section of the cave, and a small, flat stone sits between them.  This may have been the location of many a game of dice.  Cold air blows through an opening high in the northeast wall."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the Sea Caves",
+  "climate": "cold, damp",
+  "terrain": "sandy",
+  "tags": [
+    "murdroot",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      4447,
+      1013,
+      4469,
+      1034
+    ]
+  },
+  "exits": [
+    {
+      "to": 11072,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11074,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 11083,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

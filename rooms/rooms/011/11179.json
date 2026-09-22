@@ -1,0 +1,44 @@
+{
+  "id": 11179,
+  "uid": [
+    2100015
+  ],
+  "title": [
+    "[Garrison, Mess Hall]"
+  ],
+  "description": [
+    "Most of the furniture in the mess hall is broken, and the room is littered with the skeletons of men and trolls.  High along the wall, a bas relief has been broken and chipped to such an extent that you are unable to determine what it had once proudly depicted."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      489,
+      442,
+      499,
+      452
+    ]
+  },
+  "exits": [
+    {
+      "to": 11178,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11180,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

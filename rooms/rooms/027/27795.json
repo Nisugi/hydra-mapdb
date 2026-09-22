@@ -1,0 +1,43 @@
+{
+  "id": 27795,
+  "uid": [
+    285001
+  ],
+  "title": [
+    "[Bard Guild, Foyer]"
+  ],
+  "description": [
+    "The surroundings walls are patterned with deep crimson mahogany, their surfaces wrought with delicate, swirling patterns that flow with the grain of the wood.  A variety of comfortable chairs are placed near several large bay windows, while a pair of arched doors stand to the north.  Several low-lit hallways branch off to the east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 23,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 27796,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 27799,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27805,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

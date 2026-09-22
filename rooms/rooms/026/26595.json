@@ -1,0 +1,49 @@
+{
+  "id": 26595,
+  "title": [
+    "[Caligos Isle, Shadow Playground]"
+  ],
+  "description": [
+    "The air weighs heavily with the overwhelming scent of sulfur, the plumes of gas stabbing out from vein-like fissures covering the shadowed ground.  Loose rocks, jarred from the inward angled walls, become heated projectiles as they roll across the temperamental fissures."
+  ],
+  "paths": [
+    "Obvious exits: northwest, up"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      659,
+      220,
+      674,
+      233
+    ]
+  },
+  "exits": [
+    {
+      "to": 26594,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26596,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26610,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go fissure"
+        },
+        {
+          "pause": 500
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

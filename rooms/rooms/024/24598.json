@@ -1,0 +1,42 @@
+{
+  "id": 24598,
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "An ancient maoral tree towers above, its thick gnarled trunk decorated with beribboned garlands of roses, hyacinth, and blaeston flowers.  A small cart, painted in shades of blue and red, sits beneath the tree."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Lumnea Meadow",
+  "image": {
+    "file": "fest-lumnea-16.png",
+    "rect": [
+      101,
+      360,
+      121,
+      381
+    ]
+  },
+  "exits": [
+    {
+      "to": 24593,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24596,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24599,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    }
+  ]
+}

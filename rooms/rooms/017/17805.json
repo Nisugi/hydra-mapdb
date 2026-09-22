@@ -1,0 +1,67 @@
+{
+  "id": 17805,
+  "uid": [
+    267100
+  ],
+  "title": [
+    "[Shed]"
+  ],
+  "description": [
+    "Slivers of light trickle in through cracks in the ceiling and walls, casting odd shadows within this cramped interior.  A few rusty tools hang on one wall, clearly neglected for many years.",
+    "Burning torches just outside this shed allow a few slivers of light to trickle in through cracks in the ceiling and walls, casting odd shadows within this cramped interior.  A few rusty tools hang on one wall, clearly neglected for many years."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "mapcategory:Elven Nations",
+    "mapcategory:Guilds",
+    "mapname:Elven Nations - Ta'Vaalor - Rogue Guild",
+    "mapshortname:Rogue Guild (Ta'Vaalor)"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      805,
+      1156,
+      845,
+      1197
+    ]
+  },
+  "exits": [
+    {
+      "to": 3509,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18348,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "look tool"
+        },
+        {
+          "pause": 500
+        },
+        {
+          "put": "pull hoe"
+        },
+        {
+          "put": "pull rake"
+        },
+        {
+          "put": "pull shovel"
+        },
+        {
+          "move": "go panel"
+        }
+      ],
+      "cost": 9.2
+    }
+  ]
+}

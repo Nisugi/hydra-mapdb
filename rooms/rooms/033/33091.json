@@ -1,0 +1,47 @@
+{
+  "id": 33091,
+  "uid": [
+    7134066
+  ],
+  "title": [
+    "[Mariners' Market]"
+  ],
+  "description": [
+    "Jutting off from the main structure of the flotilla, this battered teak dock has several dubious-looking vessels in various stages of seaworthiness tied to a variety of posts and pillars.  Kelp is flung across the planks, creating a walking hazard, and unusual bright orange barnacles encrust the reinforced archway leading back to the main flotilla.  The clustered ships and structures of the flotilla proper tower above this offshoot dock, leaving it relatively unprotected."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Flotilla",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Flotilla.png",
+    "rect": [
+      120,
+      298,
+      137,
+      311
+    ]
+  },
+  "exits": [
+    {
+      "to": 33078,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 33092,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36783,
+      "kind": "go",
+      "cmd": "go ship",
+      "cost": 0.2
+    }
+  ]
+}

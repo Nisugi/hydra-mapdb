@@ -1,0 +1,52 @@
+{
+  "id": 31275,
+  "uid": [
+    4410005
+  ],
+  "title": [
+    "[Iyo Glade, Meadow]"
+  ],
+  "description": [
+    "A wide path leads through the meadow, its edges marked with fresh-cut timber.  Wildflowers intermingle with long grass on either side of the path, swaying gently in the breeze.  Here and there, definite sounds of small creatures moving through the grass can be heard, and a plump honeybee lazily makes its way from blossom to blossom."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-Iyo_Glade-1657378562.png",
+    "rect": [
+      514,
+      627,
+      567,
+      679
+    ]
+  },
+  "exits": [
+    {
+      "to": 31273,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31276,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 31304,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31344,
+      "kind": "go",
+      "cmd": "go red tent",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 31878,
+  "uid": [
+    8083080
+  ],
+  "title": [
+    "[Darkbriar Woods, Umbral Willow]"
+  ],
+  "description": [
+    "The winding path through the woods ends at a giant gnarled black willow, its unnaturally dark boughs dangling wide over the clearing.  Dense briar thickets leave little room for egress except the path winding back to the east.  Rowan and birch fighting for life under the umbral willow's boughs create a few gaps in the thicket, but most look unviable as a means of escape.  Ice covers most the woods here, and deep drifts of snow pile along the path, except around a circle of bright toadstools."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1051,
+      243,
+      1073,
+      265
+    ]
+  },
+  "exits": [
+    {
+      "to": 31867,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31903,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 31908,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    },
+    {
+      "to": 33953,
+      "kind": "go",
+      "cmd": "go dark mouth",
+      "cost": 0.2
+    }
+  ]
+}

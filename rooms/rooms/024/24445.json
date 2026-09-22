@@ -1,0 +1,37 @@
+{
+  "id": 24445,
+  "uid": [
+    4052005
+  ],
+  "title": [
+    "[Warehouse, West Wing]"
+  ],
+  "description": [
+    "Wide crystalline sconces illuminate the darkened areas of the hallway, each one cut into a large, iridescent snowflake.  The scattered shards of light highlight the thick, silvery furs covering the ground, muffling the sounds of footsteps."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 24442,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24446,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31442,
+      "kind": "go",
+      "cmd": "go butterfly door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 7113,
+  "uid": [
+    44004
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This narrow corridor is thick with dust and crawling with beetles.  They scatter at your approach, clicking furiously, waiting in the dark corners just out of sight."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1042,
+      1176,
+      1052,
+      1186
+    ]
+  },
+  "exits": [
+    {
+      "to": 7112,
+      "kind": "go",
+      "cmd": "go passage",
+      "cost": 0.2
+    },
+    {
+      "to": 7114,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

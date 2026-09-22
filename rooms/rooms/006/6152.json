@@ -1,0 +1,170 @@
+{
+  "id": 6152,
+  "uid": [
+    2167019
+  ],
+  "title": [
+    "[Hidden Plateau]"
+  ],
+  "description": [
+    "A large outcropping stretches away from the upper slopes, its surface littered with large rocks and scraggly plants.  Half-dead trees sway gently in the near-constant breeze that swirls stiffly across the plain."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "temperate",
+  "terrain": "grassland",
+  "tags": [
+    "acantha leaf",
+    "ambrominas leaf",
+    "angelica root",
+    "barley grass",
+    "birch bark",
+    "blue trafel mushroom",
+    "bright red teaberry",
+    "brostheras grass",
+    "brown potato",
+    "cherry peppers",
+    "chives",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "fennel bulb",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "fresh catnip",
+    "fresh lemongrass",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "ginger root",
+    "golden aster",
+    "golden buttercup",
+    "green cabbage",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hot pepper",
+    "Imaera's Lace",
+    "ironfern root",
+    "leek",
+    "luckbloom blossom",
+    "monkey grass",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "off-white parsnip",
+    "orris root",
+    "peppermint leaves",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple cabbage",
+    "purple clover blossom",
+    "purple potato",
+    "purple-tipped artichoke",
+    "rainbow chard",
+    "raspberries",
+    "red clover blossom",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "round grumbleberry",
+    "round yuzu",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small pumpkin",
+    "small rose",
+    "small violet",
+    "small watermelon",
+    "soft mushroom",
+    "sovyn clove",
+    "spearmint leaf",
+    "sprig of alyssum",
+    "sprig of ivy",
+    "sprig of jasmine",
+    "sprig of larkspur",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "stalk of burdock",
+    "stalk of celery",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sweet onion",
+    "thistle seeds",
+    "tobacco leaves",
+    "traesharm berry",
+    "trollear mushroom",
+    "wavepetal blossom",
+    "wheat grass",
+    "white clover blossom",
+    "white lily",
+    "wild carrot",
+    "wild chokecherry",
+    "wild grapes",
+    "wild orchid",
+    "wild pansy blossom",
+    "wild rose",
+    "wild strawberry",
+    "wild tulip",
+    "wintergreen leaf",
+    "wiregrass",
+    "withered mushroom",
+    "woad leaves",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellow squash",
+    "zucchini"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      543,
+      818,
+      579,
+      854
+    ]
+  },
+  "exits": [
+    {
+      "to": 6141,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb landslide"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6153,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6156,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

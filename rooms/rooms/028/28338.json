@@ -1,0 +1,43 @@
+{
+  "id": 28338,
+  "uid": [
+    287004
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "A gentle clink of glassware and the murmur of good-humored voices wafts into this long hallway from the nearby bar.  The polished brass sconces lining the hallway throw soft light onto the cherrywood paneling and ivory coffered ceiling.  Portraits of various guildmasters past are hung along the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 28335,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28339,
+      "kind": "go",
+      "cmd": "go padded door",
+      "cost": 0.2
+    },
+    {
+      "to": 28340,
+      "kind": "go",
+      "cmd": "go metal door",
+      "cost": 0.2
+    },
+    {
+      "to": 28341,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

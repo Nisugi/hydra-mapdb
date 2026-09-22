@@ -1,0 +1,46 @@
+{
+  "id": 18998,
+  "uid": [
+    668003
+  ],
+  "title": [
+    "[Sorcerer Guild, Tunnel]"
+  ],
+  "description": [
+    "Running along the center of the tunnel is a row of potted, luminescent toadstools.  The fungi cast a cheerful white light, illuminating a pair of pale blue granite doors and the grey marble door standing across the way."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "subterranean",
+  "image": {
+    "file": "en-zul-sorcerer_guild-1405076623.png",
+    "rect": [
+      762,
+      182,
+      802,
+      220
+    ]
+  },
+  "exits": [
+    {
+      "to": 18981,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18999,
+      "kind": "go",
+      "cmd": "go grey door",
+      "cost": 0.2
+    },
+    {
+      "to": 19000,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

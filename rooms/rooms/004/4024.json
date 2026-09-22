@@ -1,0 +1,69 @@
+{
+  "id": 4024,
+  "uid": [
+    13104500
+  ],
+  "title": [
+    "[Ta'Illistim Locksmith]"
+  ],
+  "description": [
+    "Small hooks have been fastened to the stone wall behind the locksmith's counter.  Dangling from the hooks are key blanks and lockpicks fashioned of a wide array of materials, some plain and others quite ornate.  Multicolored carpets are scattered across the stone floor, glowing in the sunlight beaming in through the glaesine windows."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "locksmith",
+    "locksmith shop",
+    "no forageables",
+    "urchin guide locksmith",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 612,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

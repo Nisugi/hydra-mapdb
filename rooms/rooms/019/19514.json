@@ -1,0 +1,53 @@
+{
+  "id": 19514,
+  "uid": [
+    655003
+  ],
+  "title": [
+    "[Empath Guild]"
+  ],
+  "description": [
+    "Rays of golden sunlight shine through the glass-paned doors leading to the hall's inner courtyard.  Opposite the doors, book-lined shelves are visible beyond a marble archway.  Hushed voices break the calming silence of this section of the corridor.",
+    "Rays of silver moonlight filter through the glass-paned doors leading to the hall's inner courtyard.  Opposite the doors, book-lined shelves are visible beyond a marble archway.  Hushed voices break the calming silence of this section of the corridor."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      706,
+      649,
+      761,
+      706
+    ]
+  },
+  "exits": [
+    {
+      "to": 19513,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19515,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 19516,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19517,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

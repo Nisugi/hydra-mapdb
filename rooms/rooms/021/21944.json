@@ -1,0 +1,36 @@
+{
+  "id": 21944,
+  "title": [
+    "[Talador Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "The entire area is engulfed in darkness.  You cannot see a thing!"
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-east-1392305660.png",
+    "rect": [
+      735,
+      625,
+      748,
+      639
+    ]
+  },
+  "exits": [
+    {
+      "to": 21943,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 21953,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

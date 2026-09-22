@@ -1,0 +1,36 @@
+{
+  "id": 21738,
+  "title": [
+    "[Griffin's Landing, Small Dock]"
+  ],
+  "description": [
+    "Dominating the center of the area is a long derelict elven airship docked on a wide landing bay.  Thick, black smoke rises above the trading post in the nearby plaza while several multi-level cottages are huddled near the Dreadnaught Alliance Embassy."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south"
+  ],
+  "location": "Ta'Illistim",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 21692,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 21736,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21739,
+      "kind": "go",
+      "cmd": "go embassy",
+      "cost": 0.2
+    }
+  ]
+}

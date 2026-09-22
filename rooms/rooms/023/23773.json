@@ -1,0 +1,80 @@
+{
+  "id": 23773,
+  "uid": [
+    8213008
+  ],
+  "title": [
+    "[Duskruin Arena, Entrance]"
+  ],
+  "description": [
+    "A pair of oversized greatswords hang above a set of stone steps, leading up into the arena seating, the corridor lined with iron sconces that provide flickering light.  Other weapons of a wide variety are mounted to the back wall, serving as ominous decor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "tags": [
+    "mania"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1424,
+      150,
+      1454,
+      180
+    ]
+  },
+  "exits": [
+    {
+      "to": 23772,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23774,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 23791,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 26907,
+      "kind": "go",
+      "cmd": "go dimly tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 30356,
+      "kind": "go",
+      "cmd": "go oversized entryway",
+      "cost": 0.2
+    },
+    {
+      "to": 30358,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "go darkened alleyway"
+        },
+        {
+          "move": "go darkened alleyway"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35176,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    }
+  ]
+}

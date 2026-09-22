@@ -1,0 +1,64 @@
+{
+  "id": 29582,
+  "uid": [
+    686008
+  ],
+  "title": [
+    "[Air Tower, First Floor]"
+  ],
+  "description": [
+    "A single large magelight shines on the desks, tables, and chairs of the common room.  To the southwest and southeast, arches lead into common sleeping areas.  On the table nearest the stairs that wind up and down the tower sits a bowl of ripe fruit.  A walkway stretches off to the east, and a perpendicular walkway heads north."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, up, down"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-wizard_guild-1619773727.png",
+    "rect": [
+      187,
+      1418,
+      217,
+      1447
+    ]
+  },
+  "exits": [
+    {
+      "to": 29581,
+      "kind": "go",
+      "cmd": "go north walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29583,
+      "kind": "go",
+      "cmd": "go east walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29587,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 29592,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29594,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29600,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

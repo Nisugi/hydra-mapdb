@@ -1,0 +1,62 @@
+{
+  "id": 21137,
+  "uid": [
+    265052
+  ],
+  "title": [
+    "[Rogue Guild, Dining Chamber]"
+  ],
+  "description": [
+    "Built into an unused sewer nexus, the cobble walls of the dinning chamber are painted stark white.  Cushion-topped stools surround a circular driftwood bar beneath the warm glow of frosted orbs that are suspended from the azure ceiling.  Private alcoves occupy each of the north, east, west, and south-facing walls, while a blackened iron ladder resting in the northwest corner leads to the upper levels."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild bar",
+    "rogue guild plant"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      602,
+      406,
+      617,
+      420
+    ]
+  },
+  "exits": [
+    {
+      "to": 21136,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21138,
+      "kind": "go",
+      "cmd": "go northern alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 21139,
+      "kind": "go",
+      "cmd": "go eastern alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 21150,
+      "kind": "go",
+      "cmd": "go western alcove",
+      "cost": 0.2
+    },
+    {
+      "to": 21151,
+      "kind": "go",
+      "cmd": "go southern alcove",
+      "cost": 0.2
+    }
+  ]
+}

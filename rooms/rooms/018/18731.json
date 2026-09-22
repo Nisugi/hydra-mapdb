@@ -1,0 +1,32 @@
+{
+  "id": 18731,
+  "uid": [
+    674019
+  ],
+  "title": [
+    "[Cleric Guild, Training Annex]"
+  ],
+  "description": [
+    "Twin sconces are set opposite one another on the north and south walls here, their dim flames casting long shadows down the hallway in both directions.  The floor is composed of carefully chiseled granite blocks, each one set against the next at a slight angle, and the walls are polished marble blocks from floor to ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Solhaven",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 18625,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 18631,
+      "kind": "go",
+      "cmd": "go annex",
+      "cost": 0.2
+    }
+  ]
+}

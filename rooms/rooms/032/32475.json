@@ -1,0 +1,44 @@
+{
+  "id": 32475,
+  "uid": [
+    4577242
+  ],
+  "title": [
+    "[Moonsedge Castle, Upper Hallway]"
+  ],
+  "description": [
+    "At the end of the hallway stands an imposing bloodwood door carved with a moon and bramble sprig that is heavy-laden with thorns and berries.  Blazing torches to either side cast the planes of the door in harsh, dancing light, making the shadows of its carvings stretch long and strange.  Along the walls, bas-reliefs of weeping women in tattered gowns lend a funereal cast to the walk."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      1109,
+      347,
+      1125,
+      365
+    ]
+  },
+  "exits": [
+    {
+      "to": 32466,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32476,
+      "kind": "go",
+      "cmd": "go bloodwood door",
+      "cost": 0.2
+    }
+  ]
+}

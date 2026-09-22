@@ -1,0 +1,32 @@
+{
+  "id": 28619,
+  "uid": [
+    3217701
+  ],
+  "title": [
+    "[Cavern, Entry]"
+  ],
+  "description": [
+    "Enormous black iron doors, their faces carved with labyrinthine whorls and bas-relief tunnels, stand as a formidable guard to the world beyond the cavern.  Wide bronze braziers, each set equidistant from their neighbor, line the long corridor, their brightly glowing coals casting shadows on the distant ceiling.  Painted onto the smooth walls are a series of bright blue, azure, and white murals.",
+    "Rough-hewn walls to either side and a similarly-crafted ceiling overhead form the entry to a large, well-worked cavernous space.  The floor underneath is perfectly smooth, and uniformly grey in color.  The slight scent of incense tinges the air, carried by the minutest hint of a breeze, drifting down the entryway towards the cavern proper."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 23177,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 28620,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 16162,
+  "uid": [
+    564006
+  ],
+  "title": [
+    "[Outpost, Courtyard]"
+  ],
+  "description": [
+    "Men and women of various races cross back and forth through the courtyard, sparring under the watchful eye of a stout dwarf standing atop a large wood block.  The covered walkway extends along the border of the courtyard, providing shade and shelter to several archways and doorways that open out on to the courtyard.  Along a wall that extends westwards towards the main gate are lined a series of dummies built to resemble orcs, goblins, and other fiends."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2784,
+      1683,
+      2808,
+      1706
+    ]
+  },
+  "exits": [
+    {
+      "to": 16159,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16163,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 16164,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

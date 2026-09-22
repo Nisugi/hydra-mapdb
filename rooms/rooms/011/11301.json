@@ -1,0 +1,56 @@
+{
+  "id": 11301,
+  "uid": [
+    377103
+  ],
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "Stone and timber alike gave way here beneath some colossal impact, which ripped the floor asunder and brought down the ceiling at the same time.  Even a dwarf might feel a bit claustrophobic in this space, with barely enough room to squeeze through the rubble.  Dark, foul-tasting smoke drifts lazily up from a wide hole in the floor, hot enough to sting eyes and lungs alike."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      860,
+      893,
+      870,
+      903
+    ]
+  },
+  "exits": [
+    {
+      "to": 11298,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11300,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11302,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11303,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

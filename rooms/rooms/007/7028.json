@@ -1,0 +1,44 @@
+{
+  "id": 7028,
+  "uid": [
+    45138
+  ],
+  "title": [
+    "[Castle Darkstone, Guardtower]"
+  ],
+  "description": [
+    "A large block of stone, perhaps part of the inner tower, has collapsed the roof inward here, filling the room with shards of wood and stone, as well as the block itself.  Sunlight coming in from the now-open roof has warmed the rocks to a pleasant temperature, which gives you a bit of comfort from the chill which pervades the castle."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      358,
+      563,
+      368,
+      573
+    ]
+  },
+  "exits": [
+    {
+      "to": 7022,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 7027,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    }
+  ]
+}

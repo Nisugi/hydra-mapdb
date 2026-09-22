@@ -1,0 +1,52 @@
+{
+  "id": 25762,
+  "uid": [
+    3223814
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Shadowed by the cliffs of the mainland, as well as the ominously dark shards of Charl's teeth, the small island rises out of the waters of the eastern harbor to claim the landscape.  Bright, green plants surround a single structure at the center, while lantern-lit pathways lead about the small island.  Lapping at the nearby shores, the tidal waters are becalmed in this section of the harbor."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1761,
+      959,
+      1781,
+      979
+    ]
+  },
+  "exits": [
+    {
+      "to": 25761,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25763,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

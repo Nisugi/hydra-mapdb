@@ -1,0 +1,49 @@
+{
+  "id": 17260,
+  "uid": [
+    252070
+  ],
+  "title": [
+    "[Guild Hall, West Wing]"
+  ],
+  "description": [
+    "The western hallway turns northward at this junction.  Adorning the walls are suits of armor of various design.  The arched openings facing the esplanade provide a splendid view of the swimming pool."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1292,
+      924,
+      1314,
+      946
+    ]
+  },
+  "exits": [
+    {
+      "to": 17258,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17261,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17281,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

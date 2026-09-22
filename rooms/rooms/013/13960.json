@@ -1,0 +1,93 @@
+{
+  "id": 13960,
+  "uid": [
+    7056107
+  ],
+  "title": [
+    "[Curlew Brook, Swimming Dock]"
+  ],
+  "description": [
+    "Crafted of wide modwir planks, this dock juts out into the deep waters of the Mistydeep, allowing swimmers easy access to the deeper flows of the river.  A dragonfly perches on the narrow boardwalk leading westward, back to shore.",
+    "Crafted of wide modwir planks, this dock juts out into the deep waters of the Mistydeep, allowing swimmers easy access to the deeper flows of the river.  A narrow boardwalk leading westward, back to shore, shimmers slightly in the starlight."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Curlew Brook neighborhood",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright red teaberry",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "green soybean pod",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "safflower seeds",
+    "soft mushroom",
+    "sprig of jasmine",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "thistle seeds",
+    "vert globe artichoke",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wood violet",
+    "yellow clover blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      884,
+      565,
+      913,
+      594
+    ]
+  },
+  "exits": [
+    {
+      "to": 13918,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30500,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "go deep water"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

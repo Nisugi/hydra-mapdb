@@ -1,0 +1,44 @@
+{
+  "id": 2674,
+  "uid": [
+    4562003
+  ],
+  "title": [
+    "[East Stair, Hill of Ice]"
+  ],
+  "description": [
+    "The stairs curve up toward the west, dark with shadow and treacherous with ice.  The stone of the outside walls is heavily carved in bas-relief.  Overhead, the ceiling is a distant, shadowy pool of darkness, but the intricate detail of the carved walls can be glimpsed reaching past the point of sight in a rich landscape of embellishment."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      390,
+      700,
+      400,
+      710
+    ]
+  },
+  "exits": [
+    {
+      "to": 2673,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 2675,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 3045,
+  "uid": [
+    4050311
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "A light coating of sand crunches with each step, adding some traction to the icy, slick pathway.  The howl of a nocturnal animal echoes in the night, its lonesome cry continuing unanswered.  Moonlight makes the snow softly glitter here and there and gives it a pale blue cast.",
+    "A light coating of sand crunches with each step, adding some traction to the icy, slick pathway.  The loping tracks of a creature trail along for a bit before heading towards the forest.  A young pine tree pushes its way up through the drift, the wiry branches tipped with a slight dusting of snow."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      171,
+      946,
+      180,
+      957
+    ]
+  },
+  "exits": [
+    {
+      "to": 3044,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3046,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26922,
+      "kind": "go",
+      "cmd": "go encampment",
+      "cost": 0.2
+    }
+  ]
+}

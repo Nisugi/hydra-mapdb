@@ -1,0 +1,42 @@
+{
+  "id": 19133,
+  "title": [
+    "[Treasure Hunt, Seaside]"
+  ],
+  "description": [
+    "The gentle sounds of waves breaking on a light-colored sand beach fill the air.  A series of small dunes dot the edge of the beach, marking the perimeter.  A cracked and aged wooden signpost leans haphazardly to one side, and the wall into which a hatch is set is a magnificent mural of a wide-open ocean dotted with white clouds.  Brilliant sunlight bombards the beach here through a portal cut into the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19126,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 19163,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19164,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19166,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

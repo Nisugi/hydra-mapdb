@@ -1,0 +1,52 @@
+{
+  "id": 31814,
+  "uid": [
+    8083395
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "A heavy fog hangs above the dusky river quieting the incessant babbling of shallow waters along the stone-ridden shoreline.  Here and there, the parting mists unveil natural rock formations as works of art on display for passers-by.  One particularly large boulder resembles a horned gargoyle, its bat-like wings spread upward, disappearing into a cloud of grey mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      905,
+      763,
+      927,
+      781
+    ]
+  },
+  "exits": [
+    {
+      "to": 31740,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 4.2
+    },
+    {
+      "to": 31815,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push west"
+        }
+      ],
+      "cost": 4.2
+    }
+  ]
+}

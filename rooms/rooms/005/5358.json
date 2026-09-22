@@ -1,0 +1,98 @@
+{
+  "id": 5358,
+  "uid": [
+    4218322
+  ],
+  "title": [
+    "[Vornavian Coast, Forest Road]"
+  ],
+  "description": [
+    "The path here is choked with weeds and vines.  Bushes close in on the path, nearly closing it to further travel.  The main road to the northwest looks much easier to travel.  The path grows rougher to the east.  Shaped like a balled-up fist with a single extended finger, a large boulder points accusingly at the bone white tower looming above you on a rocky hillock."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Vornavian Coast",
+  "climate": "temperate",
+  "terrain": "barren scrub",
+  "tags": [
+    "blades of cordgrass",
+    "blue-green marshgrass",
+    "blueberries",
+    "bright red teaberry",
+    "bright yellow sunwort",
+    "broken twig",
+    "cactacae spine",
+    "elderberries",
+    "feathery mannagrass",
+    "fire lily",
+    "ghost pepper",
+    "golden buttercup",
+    "handful of currants",
+    "hot pepper",
+    "Imaera's Lace",
+    "ironfern root",
+    "long green okra",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "saltmeadow cordgrass",
+    "sprig of alyssum",
+    "sprig of larkspur",
+    "sprig of wild lilac",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "thistle seeds",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild grapes",
+    "wild rose",
+    "wild strawberry",
+    "wingstem root",
+    "wintergreen leaf",
+    "yellow clover blossom",
+    "yellow primrose",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      1332,
+      794,
+      1342,
+      804
+    ]
+  },
+  "exits": [
+    {
+      "to": 5356,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 5381,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 5390,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb hillock"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 8350,
+  "uid": [
+    13029
+  ],
+  "title": [
+    "[Spider Temple, Leg of Carelin]"
+  ],
+  "description": [
+    "A large map hangs on the wall beside a wooden desk.  The desk is covered with papers that seem to describe and diagram various troop movements.  A leather bound trunk sits in one corner, near a curtained alcove to the east."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      695,
+      659,
+      705,
+      669
+    ]
+  },
+  "exits": [
+    {
+      "to": 8349,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 8351,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 7870,
+  "uid": [
+    35031
+  ],
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening reveals the season's constellations.  Curiously, the tunnel below seems lit with a luminescence of its own.",
+    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening leads to glaring daylight.  Below, the tunnel continues into the dark."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Glatoph",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      806,
+      348,
+      816,
+      358
+    ]
+  },
+  "exits": [
+    {
+      "to": 7869,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 7871,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

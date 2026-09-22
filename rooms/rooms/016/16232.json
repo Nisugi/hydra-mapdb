@@ -1,0 +1,59 @@
+{
+  "id": 16232,
+  "uid": [
+    683006
+  ],
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "The curving, erratic path of the guild's stone walls has been allowed to continue, the only compromise to practicality being a series of rectangular niches lined with shelves.  Hundreds of scrolls and volumes compete for the available space, sheltered safely beneath the unfinished round of the ceiling.  Benches and desks are scattered in a semi-circle, each equipped with an oddly shaped bit of quartz that sheds a gentle glow."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "wizard alchemy guildmaster",
+    "wizard alchemy masters",
+    "wizard guild guildmaster",
+    "wizard guild masters"
+  ],
+  "image": {
+    "file": "rr-wizard_guild.png",
+    "rect": [
+      401,
+      399,
+      462,
+      461
+    ]
+  },
+  "exits": [
+    {
+      "to": 16123,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16229,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 17050,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30550,
+      "kind": "other",
+      "cmd": "ask thalia about train potions",
+      "cost": 0.2
+    }
+  ]
+}

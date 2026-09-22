@@ -1,0 +1,134 @@
+{
+  "id": 10376,
+  "uid": [
+    675001
+  ],
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Rows of neatly-trimmed hedges line the walkway leading toward an ivory-walled building to the east, while a smaller domed structure is visible to the north.  Oak trees stretch their gnarled limbs across the sky, their large boughs filled with a healthy collection of verdant leaves.  Carved wooden benches beneath the trees bear ornate, looping designs across their richly-stained surfaces, and the buzz of daily life filters in faintly from beyond the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "black peppercorn",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cleric guild",
+    "clericguild",
+    "cumin seeds",
+    "curly garlic scapes",
+    "dark blue honeyberries",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "rye grass",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "urchin guide clericguild",
+    "urchin-access",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-ta_vaalor_cleric_guild.png",
+    "rect": [
+      208,
+      931,
+      260,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 3535,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 10377,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 19809,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

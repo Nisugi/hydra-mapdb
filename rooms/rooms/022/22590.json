@@ -1,0 +1,27 @@
+{
+  "id": 22590,
+  "title": [
+    "[Beer Hall, Dance Floor]"
+  ],
+  "description": [
+    "In contrast to the tap room, the dance floor is clearly illuminated by numerous silver lamps evenly spaced along each wall.   A mahogany dance floor covers the entirety of the area and dark scuff marks attest to the use it's seen over the years.  A small wobbly wooden table offers up a refreshing drink to those who have worked up a thirst dancing the day away.  A colorful silk curtain leads into a small recessed room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 22520,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 22591,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

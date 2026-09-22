@@ -1,0 +1,54 @@
+{
+  "id": 28355,
+  "title": [
+    "[Moonstone Abbey, Great Hall]"
+  ],
+  "description": [
+    "A set of stairs leads down into darkness, the silver and onyx elegance of the main hall giving way to rougher stone as they descend, curving with the outer wall.  A dark marble arch on the inner wall faces a narrow spiral staircase leading up to the balcony above.  A single black doomstone adorns the end of each polished rail of the staircase."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 28353,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28356,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28361,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 28362,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28366,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 28369,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": 0.2
+    }
+  ]
+}

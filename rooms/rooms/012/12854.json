@@ -1,0 +1,36 @@
+{
+  "id": 12854,
+  "uid": [
+    708412
+  ],
+  "title": [
+    "[Market Bend, Red Dog Plaza]"
+  ],
+  "description": [
+    "Paved with large, crudely cut blocks of granite, the floor of the plaza is bumpy and littered with debris.   A large stack of crates in the southeast is ringed by empty liquor bottles and discarded cigar stubs, and the rotting stench of fish mixes with the scent of stale beer and tobacco.",
+    "The bumpy floor of the plaza is paved with large, crudely cut blocks of granite.  The stench of rotting fish wafts up from a grate in the center of the plaza, yet this does not seem to bother the large number of sailors and merchants that have gathered around a large stack of crates to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Solhaven",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 12853,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14266,
+      "kind": "go",
+      "cmd": "go crates",
+      "cost": 0.2
+    }
+  ]
+}

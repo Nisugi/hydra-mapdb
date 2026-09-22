@@ -1,0 +1,50 @@
+{
+  "id": 32704,
+  "uid": [
+    13106014
+  ],
+  "title": [
+    "[Library Aies, Hall of Being]"
+  ],
+  "description": [
+    "The Hall of Being stretches endlessly onward with no end in sight, impossibly long for a building of the library's size.  The endless maoral panelled walls are unembellished save amber glaesine wall sconces, which are evenly spaced down the corridor, providing dim illumination."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      406,
+      1058,
+      462,
+      1114
+    ]
+  },
+  "exits": [
+    {
+      "to": 32702,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32705,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 32706,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 33649,
+  "uid": [
+    7101170
+  ],
+  "title": [
+    "[Academy, Topiary Garden]"
+  ],
+  "description": [
+    "Clogged by overgrown topiaries, a jagged fracture in the outer wall provides egress from the academy's grounds, while an arched opening surrounded by wild bushes leads deeper inside.  Large bushes, vaguely resembling the shape of bear, monkey, tiger, and dolphin stand guardian over the grounds, their bushy heads and elongated limbs giving them a wild and crazed cast.  Lying upon the ground within a wire frame is the remains of a once regally sculpted ki-lin bush."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Vornavis",
+  "terrain": "cultivated",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      903,
+      228,
+      950,
+      275
+    ]
+  },
+  "exits": [
+    {
+      "to": 33599,
+      "kind": "go",
+      "cmd": "go fracture",
+      "cost": 0.2
+    },
+    {
+      "to": 33648,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

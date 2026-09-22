@@ -1,0 +1,46 @@
+{
+  "id": 34670,
+  "uid": [
+    4572031
+  ],
+  "title": [
+    "[Sablecross, Silkbend]"
+  ],
+  "description": [
+    "Separated from the commotion of the bazaar by a long alleyway, the bend is flanked by stately shops and older homes.  An elegant fence of spiraled dark iron bars extends along the southern side of the street, and at its center is an arched black gate with golden flourishes.  Orchids flourish along the perimter of a sprawling terrace on the other side, and beyond the yard awaits an expansive alabaster bathhouse."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      523,
+      206,
+      554,
+      241
+    ]
+  },
+  "exits": [
+    {
+      "to": 34621,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 34671,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 34672,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

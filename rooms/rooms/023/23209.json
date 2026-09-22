@@ -1,0 +1,50 @@
+{
+  "id": 23209,
+  "uid": [
+    213004
+  ],
+  "title": [
+    "[White Haven, Foyer]"
+  ],
+  "description": [
+    "The crystalline white walls shed their light upon a dark marble floor, both hues echoed in the marbled arch that separates the foyer from the main tower.  Grand arches stretch across the foyer, one bearing a chiseled inscription.  Next to a long hallway that leads towards the ballroom, a doorless closet holds snow-soaked outer garments and muddy footwear.  A number of lounges provide seating to enjoy the ambiance."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "White Haven",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:White Haven"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      202,
+      562,
+      277,
+      637
+    ]
+  },
+  "exits": [
+    {
+      "to": 3410,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23210,
+      "kind": "go",
+      "cmd": "go long hallway",
+      "cost": 0.2
+    },
+    {
+      "to": 23211,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

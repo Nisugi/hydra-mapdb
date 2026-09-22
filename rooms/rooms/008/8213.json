@@ -1,0 +1,54 @@
+{
+  "id": 8213,
+  "uid": [
+    391012
+  ],
+  "title": [
+    "[Sea Caverns, Storage Chamber]"
+  ],
+  "description": [
+    "Boxes and sacks are jumbled together in this small, round chamber.  A thick swarm of flies buzzes about, and various sorts of beetles work over the foodstuffs stored here.  Some rusted cookware hangs from hooks on the wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the sea caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      381,
+      129,
+      391,
+      139
+    ]
+  },
+  "exits": [
+    {
+      "to": 8212,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8221,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    }
+  ]
+}

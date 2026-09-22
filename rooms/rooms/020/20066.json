@@ -1,0 +1,37 @@
+{
+  "id": 20066,
+  "title": [
+    "[Haunted Pass, Under the Willow]"
+  ],
+  "description": [
+    "Large, soil-covered rocks block any further travel under the tree, leaving only the path heading west.  A series of twisted roots hang from a hole just above a patch of moss, which moonlight beams down upon.",
+    "Large, soil-covered rocks block any further travel under the tree, leaving only the path heading west.  A series of twisted roots hang from a hole just above a patch of moss, which sunlight beams down upon."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Feymist Cemetery",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      197,
+      976,
+      204,
+      983
+    ]
+  },
+  "exits": [
+    {
+      "to": 20065,
+      "kind": "go",
+      "cmd": "go roots",
+      "cost": 0.2
+    },
+    {
+      "to": 20074,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

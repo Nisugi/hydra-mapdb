@@ -1,0 +1,57 @@
+{
+  "id": 2335,
+  "uid": [
+    4047002
+  ],
+  "title": [
+    "[Icemule Temple, Nave]"
+  ],
+  "description": [
+    "High overhead, an enormous dome has been carved into the encasing glacier.  Sunlight filters through the thin layer of ice, bathing the circular nave in soft white light.  Several dozen pews crafted of dark-stained oak stand in two rows atop a plush red carpet.  One row faces north toward a black marble arch, while the other faces south toward a pair of wide mithril doors.",
+    "High overhead, an enormous dome has been carved into the encasing glacier.  Starlight filters through the thin layer of ice, bathing the circular nave in pale, silvery light.  Several dozen pews crafted of dark-stained oak stand in two rows atop a plush red carpet.  One row faces north toward a black marble arch, while the other faces south toward a pair of wide mithril doors."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-temple-1512640476.png",
+    "rect": [
+      670,
+      730,
+      798,
+      786
+    ]
+  },
+  "exits": [
+    {
+      "to": 2334,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2336,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3633,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 15702,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 5906,
+  "uid": [
+    14100039
+  ],
+  "title": [
+    "[Ta'Vaalor, Annatto Gate]"
+  ],
+  "description": [
+    "Tremendous white limestone blocks form the massive edifice that is the Annatto Gate.  Stylized vines and flowers are carved along the stones surrounding the arched opening.",
+    "Tremendous white limestone blocks form the massive edifice that is the Annatto Gate.  Although worn along the edges and crumbling slightly in a few areas from years of wind and rain, the massive structure nonetheless has lost none of its impressive stature.  Stylized vines and flowers are carved along the stones surrounding the arched opening.",
+    "Soot and grime smear the tremendous white limestone blocks which form the massive Annatto Gate.  A small corp of workers labors diligently to repair the edges of the walls where rain and wind have done damage over the years.  Another group of citizens works with ladders, rags, and buckets of soapy water to clean and polish the stone, slowly removing the evidence of the recent incursion.",
+    "Tremendous white limestone blocks form the massive edifice that is the Annatto Gate.  Although battered by years of wind and rain, with the watchful care of the city's masons the massive structure has lost none of its impressive stature.  Stylized vines and flowers are carved along the stones surrounding the arched opening."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-cemetery-1617615116.png",
+    "rect": [
+      165,
+      1212,
+      177,
+      1224
+    ]
+  },
+  "exits": [
+    {
+      "to": 3523,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unhide",
+          "when": {
+            "flag": "invisible"
+          }
+        },
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 10494,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

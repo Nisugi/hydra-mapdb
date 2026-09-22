@@ -1,0 +1,65 @@
+{
+  "id": 32571,
+  "uid": [
+    336809
+  ],
+  "title": [
+    "[Darkstone Bay]"
+  ],
+  "description": [
+    "A cold wind races across the surface of the bay, sending moisture and salt swirling about.  Beneath the waters, a large bed of kelp can be seen."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 32573,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    },
+    {
+      "to": 32574,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim southeast",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

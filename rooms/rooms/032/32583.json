@@ -1,0 +1,71 @@
+{
+  "id": 32583,
+  "uid": [
+    2101917
+  ],
+  "title": [
+    "[The Mist and Shore Bakery]"
+  ],
+  "description": [
+    "Light and airy, the shop's interior features polished birch floors with matching shelves, cupboards, and counters, all filled with various baking and cooking goods.  A display case highlights numerous pastries and other delectables, and behind the main counter stands a diminutive baker.  One wall is covered in a detailed mural of an isle surrounded by turquoise seas, a haze of indigo mist lingering amidst the tiny village on its shores."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "grocer",
+    "no forageables",
+    "urchin guide grocer",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 10841,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

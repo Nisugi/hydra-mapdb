@@ -1,0 +1,64 @@
+{
+  "id": 990,
+  "uid": [
+    13003018
+  ],
+  "title": [
+    "[Eastern DragonSpine, Slope]"
+  ],
+  "description": [
+    "The trail is extremely icy, steep and treacherous.  Below, the homes and businesses of Zhindel's Post cluster near the face of the DragonSpine Mountains.  The well-kept buildings with their candlelit windows give the Post the look of a toy town, but a few figures moving on the streets and between the buildings belies this impression.  Farther to the east the conifer forest spreads out in a rolling carpet of green.",
+    "The trail is extremely icy, steep and treacherous.  Below, the homes and businesses of Zhindel's Post cluster near the face of the DragonSpine Mountains.  The well-kept buildings with their colorful doors and whitewashed exteriors give the Post the look of a toy town, but a large number of figures moving on the streets and between the buildings belies this impression.  Farther to the east the conifer forest spreads out in a rolling carpet of green."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Zhindel's Post",
+  "climate": "glacial",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "deep purple shockroot",
+    "ironfern root",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of holly",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      1280,
+      826,
+      1288,
+      834
+    ]
+  },
+  "exits": [
+    {
+      "to": 989,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb path"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 991,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb trail"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

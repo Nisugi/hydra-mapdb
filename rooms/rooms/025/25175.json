@@ -1,0 +1,53 @@
+{
+  "id": 25175,
+  "uid": [
+    4216024
+  ],
+  "title": [
+    "[Sanctum of Scales, Spire Base]"
+  ],
+  "description": [
+    "The hall comes to an end at the base of a huge sandstone spire, its second story balcony overlooking the regal disarray of the columned walk.  A gauze-wrapped corpse dangles from the balcony's edge, suspended from a length of black cord.  Still swinging, the corpse fixes the structure's entrance with a filmy, sightless stare."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      361,
+      467,
+      385,
+      492
+    ]
+  },
+  "exits": [
+    {
+      "to": 25168,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25169,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25176,
+      "kind": "go",
+      "cmd": "go spire",
+      "cost": 0.2
+    },
+    {
+      "to": 25236,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

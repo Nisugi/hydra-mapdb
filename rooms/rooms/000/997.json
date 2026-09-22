@@ -1,0 +1,118 @@
+{
+  "id": 997,
+  "uid": [
+    13006037
+  ],
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "A breeze courses down the tunnel from northeast to southwest, bringing a bit of fresh air to the hazy, claustrophobic environs of the narrow tunnel.  The sound of footsteps echoes loudly from both directions, intermingling to make it sound as if hordes of dwarves are converging on this very section from both ends.  Gigantic toadstools, their caps glowing a luminescent blue, light the tunnel at twenty-foot intervals."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest",
+    "Obvious exits: northeast, southeast, southwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "ironfern root",
+    "murdroot",
+    "pepperthorn root",
+    "soft mushroom",
+    "urchin guide bardguild",
+    "urchin-access",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "en-zul_logoth-1639816187.png",
+    "rect": [
+      1062,
+      626,
+      1082,
+      646
+    ]
+  },
+  "exits": [
+    {
+      "to": 996,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 998,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 9432,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 9550,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 30712,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 30890,
+      "kind": "go",
+      "cmd": "go edifice",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

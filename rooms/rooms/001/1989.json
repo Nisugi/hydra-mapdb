@@ -1,0 +1,89 @@
+{
+  "id": 1989,
+  "uid": [
+    662001
+  ],
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "Seamlessly fitted white marble cobblestones lead up to a silver gate.  Tall, white marble walls shot with silver veins enclose the compound."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "sorcerer guild",
+    "sorcererguild",
+    "urchin guide sorcererguild",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      116,
+      126,
+      152,
+      162
+    ]
+  },
+  "exits": [
+    {
+      "to": 1859,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19005,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 6110,
+  "uid": [
+    484001
+  ],
+  "title": [
+    "[Twin Canyons, Rocky Pass]"
+  ],
+  "description": [
+    "Jagged outcrops of craggy rocks split the valley into twin canyons.  Small rocks skitter down the steep walls of the canyon and form small wisps of dust that look like rising steam.  Cold air flows steadily north out of both canyons as the night cools the rock faces to near freezing temperatures.  Very faint chattering sounds can be heard coming from large cracks in the rock outcrop to the south.",
+    "Jagged outcrops of craggy rocks split the valley into twin canyons.  Small rocks skitter down the steep walls of the canyon creating small wisps of dust that look like rising steam while the cool rock of the canyon floor creates a stream of cool air that flows steadily north out of both canyons.  Very faint chattering sounds can be heard coming from large cracks in the rock outcrop to the south."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest"
+  ],
+  "location": "Wehntoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      305,
+      1274,
+      315,
+      1284
+    ]
+  },
+  "exits": [
+    {
+      "to": 6109,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ravine"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6111,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 6119,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb ridge"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7921,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 14725,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

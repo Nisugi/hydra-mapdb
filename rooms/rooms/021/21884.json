@@ -1,0 +1,48 @@
+{
+  "id": 21884,
+  "title": [
+    "[Talador, East Circle]"
+  ],
+  "description": [
+    "A three-legged dog periodically barks from the wooden steps of a large brick store with a brown wooden awning, and occasionally a town guard will silence him with a scrap of food.  Tents dot the side of the road like a colorful forest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      367,
+      271,
+      394,
+      297
+    ]
+  },
+  "exits": [
+    {
+      "to": 21874,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21885,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21886,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21887,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

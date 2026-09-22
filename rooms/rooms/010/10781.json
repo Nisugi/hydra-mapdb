@@ -1,0 +1,64 @@
+{
+  "id": 10781,
+  "uid": [
+    666001
+  ],
+  "title": [
+    "[Gyldemar Road, Ruins]"
+  ],
+  "description": [
+    "A triad of ebon pillars stands in a triangular pattern upon the road, their angular architecture resembling a singular massive claw stretching out to grasp at the sky.  A circular pattern of arcing patterns is faintly visible in the parched earth within the pillars, the faint writing similar in design to the rows upon rows of sigils incised into each of the towering monoliths.  A stillness pervades the area, broken only by the occasional chill draft of wind."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "handful of currants",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "sky-blue delphira",
+    "sorcerer guild",
+    "sorcererguild",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "en-gyldemar-1264234799.png",
+    "rect": [
+      225,
+      869,
+      235,
+      879
+    ]
+  },
+  "exits": [
+    {
+      "to": 4715,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18150,
+      "kind": "scripted",
+      "routine": {
+        "name": "puzzle",
+        "puzzle": "three_pillars"
+      },
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 10.0
+      }
+    }
+  ]
+}

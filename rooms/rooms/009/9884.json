@@ -1,0 +1,149 @@
+{
+  "id": 9884,
+  "uid": [
+    219001
+  ],
+  "title": [
+    "[Deep Forest, Path]"
+  ],
+  "description": [
+    "Within the forest's heart, the pungent mustiness of loam rules hand in hand with the relentless green of the woods.  A ragged path winds its way through boles of trees growing so closely together, they look almost like a solid wall.  Chinks of green light filter down from the intertwined branches overhead and sway gently at the prompt of a breeze, dappling the trail where it can be seen through the overhang of fern fronds.",
+    "Within the forest's heart, the pungent mustiness of loam rules hand in hand with the relentless green of the woods.  A ragged path winds its way through boles of trees growing so closely together, they look almost like a solid wall.  Soft, green-tinged moonlight filters down from the intertwined branches overhead, dappling the trail where it can be seen through the encroaching shadows of fern fronds."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the dark woods",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "basal moss",
+    "bloodwood twig",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red teaberry",
+    "broken twig",
+    "calamia fruit",
+    "coppery rain lily",
+    "daggerstalk mushroom",
+    "ebony twig",
+    "elderberries",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden buttercup",
+    "haphip root",
+    "lady slipper blossom",
+    "luckbloom blossom",
+    "murdroot",
+    "murkweed",
+    "nightbloom blossom",
+    "no-auto-map",
+    "oak twig",
+    "oxblood lily",
+    "pink rain lily",
+    "silver-edged fern",
+    "slender twig",
+    "small wild rose",
+    "soft white mushroom",
+    "some acantha leaf",
+    "some basal moss",
+    "some calamia fruit",
+    "some haphip root",
+    "some murkweed",
+    "some torban leaf",
+    "some tree bark",
+    "sprig of mistletoe",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of burdock",
+    "stalk of goldenrod",
+    "stick",
+    "sticks",
+    "tkaro root",
+    "torban leaf",
+    "tree bark",
+    "trollfear mushroom",
+    "twisted twig",
+    "white baneberry",
+    "white lily",
+    "wild beechnut",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild orchid",
+    "wild pink geranium",
+    "wintergreen leaf",
+    "withered black mushroom",
+    "wolfsbane root",
+    "wood violet",
+    "yew twig"
+  ],
+  "image": {
+    "file": "en-sapphire-1658723758.png",
+    "rect": [
+      1045,
+      273,
+      1055,
+      283
+    ]
+  },
+  "exits": [
+    {
+      "to": 54,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 9885,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13183,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16956,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 16957,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    },
+    {
+      "to": 18803,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_until_there": "go forest"
+        }
+      ],
+      "cost": 15.0
+    }
+  ]
+}

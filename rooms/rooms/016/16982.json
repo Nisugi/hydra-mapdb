@@ -1,0 +1,57 @@
+{
+  "id": 16982,
+  "uid": [
+    251009
+  ],
+  "title": [
+    "[Warrior Guild, East Lawn]"
+  ],
+  "description": [
+    "The paths from the north and west break into a large, well-worn spot in the middle of this expansive part of the East Lawn.  Obviously, this bare patch was created by the many guild denizens who commit their robust daily practice here."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild leaves",
+    "warrior guild masters",
+    "warrior guild wheel"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      306,
+      986,
+      326,
+      1006
+    ]
+  },
+  "exits": [
+    {
+      "to": 16981,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16983,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    },
+    {
+      "to": 16984,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30525,
+      "kind": "other",
+      "cmd": "ask khalea about training berserk",
+      "cost": 0.2
+    }
+  ]
+}

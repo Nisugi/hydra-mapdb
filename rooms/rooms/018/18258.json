@@ -1,0 +1,70 @@
+{
+  "id": 18258,
+  "uid": [
+    3216024
+  ],
+  "title": [
+    "[Stumbling Pebble Bar II]"
+  ],
+  "description": [
+    "Dried, cracked boards mingle with newer knotted pine planks as they spread across the floor from the swinging oak doors to the white oak bar.  Several half-cask chairs are arranged in circles around the room, their backs weathered and cracked, while plump couches face a fireplace that looks as if it has seen better days.  A scattering of cracked peanut shells litters the floor around an oversized bowl that is set upon a faded blue rug."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Western Harbor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "supernode",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 17588,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": 8008,
+  "uid": [
+    401004
+  ],
+  "title": [
+    "[Kobold Mines, Sublevel Two]"
+  ],
+  "description": [
+    "The slope is treacherously steep here and your footing threatens to give way and send you sprawling on the rock floor.  Several broken shovels and picks are scattered about and one or two ruined iron caps lie, rusting, on the floor.  Metal rails in the floor continue both up and down the steep slope, but they also branch and pass through some double doors set into a walled-up cave entrance."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, up, down"
+  ],
+  "location": "the old Mine Road",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      105,
+      918,
+      115,
+      928
+    ]
+  },
+  "exits": [
+    {
+      "to": 8005,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 8009,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8010,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 8012,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8013,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 8016,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

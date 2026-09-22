@@ -1,0 +1,53 @@
+{
+  "id": 1512,
+  "uid": [
+    4902006
+  ],
+  "title": [
+    "[Solhaven, Zelia's Court]"
+  ],
+  "description": [
+    "A low wall, constructed of various-sized stones, boards and odd pieces of refuse, surrounds a small plot of land between the end of the paved road and the canal.  A statue of a monkey, almost as tall as a halfling, squats in the middle of the lot, while a middle-aged woman dressed in drab, threadbare robes and an oversized horned helm putters tirelessly about the area, apparently unperturbed by the darkness.",
+    "A low wall, constructed of various-sized stones, boards and odd pieces of refuse, surrounds a small plot of land between the end of the paved road and the canal.  A statue of a monkey, almost as tall as a halfling, squats in the middle of the lot, while a middle-aged woman dressed in drab, threadbare robes and an oversized horned helm putters tirelessly about the area.  A half dozen or so brick-bordered patches of weeds show evidence of unskilled and even detrimental attention."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the southern part of Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1185,
+      954,
+      1209,
+      978
+    ]
+  },
+  "exits": [
+    {
+      "to": 1511,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28598,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go wall"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

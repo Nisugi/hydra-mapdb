@@ -1,0 +1,47 @@
+{
+  "id": 8812,
+  "uid": [
+    5041
+  ],
+  "title": [
+    "[Frith's Inn, Second Floor]"
+  ],
+  "description": [
+    "You are on the second floor of the inn.  As you lean over the polished modwir railing that surrounds the open landing, you see the front room below.  The stairway continues up and down here.  To the east is an oak door and to the west a teakwood door bearing a brass plaque."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1264,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 8813,
+      "kind": "go",
+      "cmd": "go teakwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 8814,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 8815,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

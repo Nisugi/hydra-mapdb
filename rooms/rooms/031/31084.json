@@ -1,0 +1,56 @@
+{
+  "id": 31084,
+  "uid": [
+    4225001
+  ],
+  "title": [
+    "[Abandoned Manor, Remains]"
+  ],
+  "description": [
+    "What may once have been a fine house now lies hollow and guttered.  All that is left standing is the rickety skeleton of the structure, heavily blackened with char in some areas.  A mixture of dust, dead leaves, and decaying pieces of wood form the debris that nearly covers the floor."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Forgotten Vineyard",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "mapcategory:Vornavis",
+    "mapname:Vornavis - Forgotten Vineyard",
+    "mapshortname:Forgotten Vineyard"
+  ],
+  "image": {
+    "file": "vo-forgotten_vineyard-1653511567.png",
+    "rect": [
+      302,
+      1404,
+      351,
+      1451
+    ]
+  },
+  "exits": [
+    {
+      "to": 5383,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31085,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trapdoor"
+        }
+      ],
+      "cost": 3.2
+    }
+  ]
+}

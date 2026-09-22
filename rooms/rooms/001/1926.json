@@ -1,0 +1,35 @@
+{
+  "id": 1926,
+  "uid": [
+    3006003
+  ],
+  "title": [
+    "[Meeting Hall, Clan Corridor]"
+  ],
+  "description": [
+    "The room ends to the west at a down-sloping ramp.  Two statues flank the entrance to the ramp while a brass plaque resides just above.  The floor dips slightly towards a small drain in the center of the room."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1925,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 14799,
+      "kind": "go",
+      "cmd": "go ramp",
+      "cost": 0.2
+    }
+  ]
+}

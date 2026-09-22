@@ -1,0 +1,52 @@
+{
+  "id": 32841,
+  "uid": [
+    14053303
+  ],
+  "title": [
+    "[Rhyaesdid Hall, Hallway]"
+  ],
+  "description": [
+    "Bright crimson crimson roses, climbing from glass-inlaid pots, line the pale ivory walls of the hallway.  The polished tanik floor is cushioned with a thick ramie silk carpet patterned in pale hues of golds and greens.  Hanging between the flowers are an ornate brocade curtain and a silvery velvet curtain embroidered with a blossoming sovyn clove."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 32839,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32843,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33019,
+      "kind": "go",
+      "cmd": "go velvet curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 35997,
+      "kind": "go",
+      "cmd": "go brocade curtain",
+      "cost": 0.2
+    }
+  ]
+}

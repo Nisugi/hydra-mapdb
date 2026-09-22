@@ -1,0 +1,51 @@
+{
+  "id": 7700,
+  "uid": [
+    68030
+  ],
+  "title": [
+    "[Underground, Hidden Wing]"
+  ],
+  "description": [
+    "The walls, floor and ceiling of this room are finished smooth.  Unlike other rooms, these surfaces are not covered with finished stones, but are polished to a dull luster."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      375,
+      1083,
+      385,
+      1093
+    ]
+  },
+  "exits": [
+    {
+      "to": 7684,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "pull chain"
+        },
+        {
+          "move": "go chute"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 7701,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

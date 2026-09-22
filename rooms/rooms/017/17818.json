@@ -1,0 +1,44 @@
+{
+  "id": 17818,
+  "uid": [
+    267121
+  ],
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "A staircase leads down, the steps cracked but probably sturdy enough to use.  A small rat sits atop one of the steps, an odd glimmer in its eyes.  It doesn't seem startled by your presence."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      387,
+      739,
+      427,
+      777
+    ]
+  },
+  "exits": [
+    {
+      "to": 17816,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 17819,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": 3767,
+  "uid": [
+    4291101
+  ],
+  "title": [
+    "[Thanatoph, Dead-end]"
+  ],
+  "description": [
+    "The trail turns into the mountain, winding through a narrow trail edged with tall cliffs to either side.  Finally, it dead-ends at a rough jumble of stones.  Small enclaves and crevices cultivate deep shadows as the cold sun fights its way past the towering rock.",
+    "The trail turns into the mountain, winding through a narrow trail edged with tall cliffs to either side.  Finally, it dead-ends at a rough jumble of stones."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Stone Valley",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      707,
+      880,
+      717,
+      890
+    ]
+  },
+  "exits": [
+    {
+      "to": 3766,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 3787,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go crevice"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

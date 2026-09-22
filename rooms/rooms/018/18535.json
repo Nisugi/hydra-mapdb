@@ -1,0 +1,40 @@
+{
+  "id": 18535,
+  "title": [
+    "[Nanetta's Cafe, Dining Room]"
+  ],
+  "description": [
+    "The sound of crickets and late night revelers drift occasionally through an open window.  Yellow checked curtains rustle lightly with each passing of the cool evening breeze.  Cozy scrollworked iron tables are tucked against the walls, leaving a clear pathway to the cashier's counter.  A menu board, handwritten in delicate script, presents the daily specials.  The sweet aroma of freshly baked pies drifts through an open doorway near the back.",
+    "Yellow checked cafe curtains flutter across an open window with every passing breeze.  Cozy scrollworked iron tables are tucked against the walls, leaving a clear pathway to the cashier's counter.  A menu board, handwritten in delicate script, presents the daily specials.  The busy clattering of dishes can be heard through an open doorway near the back, accompanied by the humming of a jaunty tune."
+  ],
+  "paths": [
+    "Obvious exits: down, out"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18534,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 18536,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 18573,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

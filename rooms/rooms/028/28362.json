@@ -1,0 +1,54 @@
+{
+  "id": 28362,
+  "title": [
+    "[Tower of Lornon, Balcony]"
+  ],
+  "description": [
+    "Gleaming bricks of smooth black onyx reflect the light from a wall-mounted vaalin lamp.  No window disturbs the flame and the lamp's unwavering glow suffuses the air, which is noticeably heavy and still.  A narrow staircase leads back down to the main hall, and enclosed corridors stretch off to the north and southeast."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, down"
+  ],
+  "location": "the dark woods",
+  "meta": [
+    "che:Moonstone Abbey"
+  ],
+  "exits": [
+    {
+      "to": 28355,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 28363,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 28364,
+      "kind": "go",
+      "cmd": "go ebonwood door",
+      "cost": 0.2
+    },
+    {
+      "to": 28365,
+      "kind": "go",
+      "cmd": "go krodera-bound door",
+      "cost": 0.2
+    },
+    {
+      "to": 28376,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28378,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

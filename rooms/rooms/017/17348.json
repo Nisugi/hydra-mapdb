@@ -1,0 +1,43 @@
+{
+  "id": 17348,
+  "uid": [
+    253013
+  ],
+  "title": [
+    "[Warrior Guild, Courtyard]"
+  ],
+  "description": [
+    "A wide swath of bare earth stretches north from the gate to the guild house, its surface packed hard from the tread of many feet.  On the far eastern side of the clearing is a rolton tethered to a stake.  A circle of grass around the creature is neatly cropped, the only visible effort made at landscaping."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild leaves"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      759,
+      1112,
+      781,
+      1131
+    ]
+  },
+  "exits": [
+    {
+      "to": 11017,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 17331,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

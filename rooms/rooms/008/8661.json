@@ -1,0 +1,82 @@
+{
+  "id": 8661,
+  "uid": [
+    281075
+  ],
+  "title": [
+    "[Bard Guild, Courtyard]"
+  ],
+  "description": [
+    "Three walkways lead from openings in the ornately decorated cast-iron fencing, all converging upon the grand entrance to the Bard Guild Theater.  Well-tended lawn and bountiful flower beds intermingle with overarching trees.  Star-shaped paving stones create an expansive terrace below the marquee, framing the large, delicately carved doors.  Above the marquee, on a gilded sign hanging from a pole and supported by black chains, shine the words \"Terrace Theater.\""
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide bardguild",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 299,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 8662,
+      "kind": "go",
+      "cmd": "go entrance",
+      "cost": 0.2
+    },
+    {
+      "to": 25659,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": 17457,
+  "uid": [
+    7800012
+  ],
+  "title": [
+    "[Jirkirl's Hilltop, Fairground]"
+  ],
+  "description": [
+    "Placed in the front yard of a quaint, loganberry-covered cabin, a three-wheeled wagon serves as a planter and has orderly rows of moonflowers.  Needle-shaped leaves from the surrounding pine trees blanket the ground.  Tall and wide, a haystack with a huge gap through its middle stands at the side of the small structure."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "plain dirt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "image": {
+    "file": "fest-highman_games-1265497377.png",
+    "rect": [
+      226,
+      238,
+      274,
+      286
+    ]
+  },
+  "exits": [
+    {
+      "to": 17439,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17453,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17458,
+      "kind": "go",
+      "cmd": "go haystack",
+      "cost": 0.2
+    },
+    {
+      "to": 17459,
+      "kind": "go",
+      "cmd": "go cabin",
+      "cost": 0.2
+    },
+    {
+      "to": 34115,
+      "kind": "go",
+      "cmd": "go brown tent",
+      "cost": 0.2
+    },
+    {
+      "to": 34116,
+      "kind": "go",
+      "cmd": "go rackhal tent",
+      "cost": 0.2
+    }
+  ]
+}

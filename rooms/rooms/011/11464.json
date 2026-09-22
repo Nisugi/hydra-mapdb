@@ -1,0 +1,101 @@
+{
+  "id": 11464,
+  "uid": [
+    304223
+  ],
+  "title": [
+    "[Maelstrom Bay, Bottom]"
+  ],
+  "description": [
+    "To the west a coral reef grows out of the golden sand of the bay floor.  A large colony of spiral gilled tube worms has attached itself to the coral.  The wreck of a small coastal cutter lies on its side.  The tracks of crabs and lobsters lead in and out of the wreck."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      922,
+      1234,
+      932,
+      1244
+    ]
+  },
+  "exits": [
+    {
+      "to": 11460,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11463,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11465,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11467,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim east"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11471,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11473,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim north"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11482,
+      "kind": "go",
+      "cmd": "go cutter",
+      "cost": 0.2
+    }
+  ]
+}

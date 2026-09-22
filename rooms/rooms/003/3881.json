@@ -1,0 +1,66 @@
+{
+  "id": 3881,
+  "uid": [
+    212002
+  ],
+  "title": [
+    "[Helden Hall, Inner Bailey]"
+  ],
+  "description": [
+    "As you step through the gate, you find yourself in a walled enclosure some one hundred yards square.  To the north is a massive hall with large oaken doors, and the sounds of livestock are coming from pens to the northeast.  There is a hut against the western wall of the Hall with tendrils of steam escaping from an opening in the roof."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "plain dirt",
+  "meta": [
+    "che:Helden Hall",
+    "che:helden_hall:entrance_che",
+    "mapcategory:CHE",
+    "mapcategory:Wehnimer's Landing",
+    "mapname:Helden Hall - Wehnimer's Landing",
+    "mapshortname:Helden Hall"
+  ],
+  "image": {
+    "file": "wl-heldenhall-1502386358.png",
+    "rect": [
+      363,
+      1219,
+      399,
+      1255
+    ]
+  },
+  "exits": [
+    {
+      "to": 3879,
+      "kind": "go",
+      "cmd": "go wrought-iron gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3880,
+      "kind": "go",
+      "cmd": "go oaken doors",
+      "cost": 0.2
+    },
+    {
+      "to": 15473,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    },
+    {
+      "to": 15680,
+      "kind": "go",
+      "cmd": "go stables",
+      "cost": 0.2
+    },
+    {
+      "to": 17697,
+      "kind": "go",
+      "cmd": "go tree",
+      "cost": 0.2
+    }
+  ]
+}

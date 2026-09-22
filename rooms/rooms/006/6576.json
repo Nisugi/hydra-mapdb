@@ -1,0 +1,62 @@
+{
+  "id": 6576,
+  "uid": [
+    4285042
+  ],
+  "title": [
+    "[Castle Anwyn Keep]"
+  ],
+  "description": [
+    "The cylindrical keep looks as if it's much older than the other parts of the castle, which follows a more modern, rectangular design.  The keep's ground floor stands two-stories tall.  Its old 'murder-holes' -- through which rocks or scalding oil were once thrown down on unwelcome guests -- are now filled in.  Halls lead off to the east and to the south, and a handsomely carved, arched door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up, down"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      1095,
+      517,
+      1105,
+      527
+    ]
+  },
+  "exits": [
+    {
+      "to": 6574,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6577,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 6578,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 6607,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6609,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 25769,
+  "uid": [
+    3223845
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Capped with white, the ocean waters bounce against each other as they seek purchase upon the nearby islands.  Occasionally, the frolicking waves collide, causing a spray of water to burst into the air, only to rain back down into the tide moments later."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1920,
+      1439,
+      1941,
+      1460
+    ]
+  },
+  "exits": [
+    {
+      "to": 25768,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25770,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

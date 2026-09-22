@@ -1,0 +1,41 @@
+{
+  "id": 16425,
+  "uid": [
+    3209320
+  ],
+  "title": [
+    "[Firefly Villa, Landing]"
+  ],
+  "description": [
+    "Spilling into the room from the northeastern corner is a resplendent staircase that culminates in mahogany-inlaid newel posts crafted of white birch.  Nearby, a frosted ebon glass door leads to the gentlemen's bathing facility, its polished surface beaded with sweat."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      1402,
+      1923,
+      1416,
+      1937
+    ]
+  },
+  "exits": [
+    {
+      "to": 16420,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16426,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

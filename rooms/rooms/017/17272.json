@@ -1,0 +1,40 @@
+{
+  "id": 17272,
+  "uid": [
+    252032
+  ],
+  "title": [
+    "[Warrior Guild, Esplanade]"
+  ],
+  "description": [
+    "This walkway is covered with hand drawn tiles depicting abstract shapes.  The clear blue waters of the large swimming pool invite you to take a dip. Shadows from the western wall of the guild harbor some flowering ivy as they work their way towards the sun."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1293,
+      800,
+      1315,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 17269,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17270,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": 0.2
+    }
+  ]
+}

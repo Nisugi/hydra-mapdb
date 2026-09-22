@@ -1,0 +1,44 @@
+{
+  "id": 127,
+  "uid": [
+    13300015
+  ],
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "A skeleton slumps against the far wall, its clothing little more than rotting scraps laid on dry bones.  Small metal arrows are scattered across the floor and imbedded in the wall, each one furry with dust.  Has the trap been neutralized by this unfortunate soul, or will your next step trigger a deadly rain of metal?"
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Temple Wyneb",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-skull-1264234799.png",
+    "rect": [
+      771,
+      710,
+      781,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 126,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 128,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

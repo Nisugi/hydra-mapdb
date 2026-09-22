@@ -1,0 +1,42 @@
+{
+  "id": 25941,
+  "title": [
+    "[Lich's Landing, Specter Lane]"
+  ],
+  "description": [
+    "Smoke rises from the roof of a large blacksmith shop in the distance, the black fog darkening the area even more.  The sound of metal bouncing against metal echoes all around, broken up only by a high-pitched scream that periodically pierces the air."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      754,
+      597,
+      781,
+      623
+    ]
+  },
+  "exits": [
+    {
+      "to": 24986,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25942,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25990,
+      "kind": "go",
+      "cmd": "go rubble",
+      "cost": 0.2
+    }
+  ]
+}

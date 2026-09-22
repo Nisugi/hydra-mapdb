@@ -1,0 +1,33 @@
+{
+  "id": 22018,
+  "title": [
+    "[Haute Hibernation, Foyer]"
+  ],
+  "description": [
+    "Dark stained wooden floors contrast sharply with two stark white silk screens partitioning off rooms to the east and west.  A low table is positioned between two leather chairs arranged in front of a tall cedar cabinet.  A rack fashioned from large antlers is mounted next to the entry door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location_unknowable": true,
+  "exits": [
+    {
+      "to": 21862,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 22025,
+      "kind": "go",
+      "cmd": "go west screen",
+      "cost": 0.2
+    },
+    {
+      "to": 22026,
+      "kind": "go",
+      "cmd": "go east screen",
+      "cost": 0.2
+    }
+  ]
+}

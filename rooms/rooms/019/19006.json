@@ -1,0 +1,62 @@
+{
+  "id": 19006,
+  "uid": [
+    662003
+  ],
+  "title": [
+    "[Sorcerer Guild, Foyer]"
+  ],
+  "description": [
+    "This long hallway extends in a gentle arc to the northeast and northwest.  Silver chandeliers hang from the ceiling, the flames from their white candles reflecting brightly off the mirrored walls.  The walls duplicate the chandelier' appearances, giving the effect of a huge room full of chandeliers diminishing in all directions.  A mirrored postern blends virtually seamlessly into the wall, leaving double doors to the north and a massive door to the south as the only intrusions on the radiant effect."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "tags": [
+    "sorcerer alchemy administrator",
+    "sorcerer guild administrator"
+  ],
+  "image": {
+    "file": "ti-sorcerer_guild-1405076623.png",
+    "rect": [
+      355,
+      443,
+      395,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 19005,
+      "kind": "go",
+      "cmd": "go massive door",
+      "cost": 0.2
+    },
+    {
+      "to": 19007,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19011,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 19012,
+      "kind": "go",
+      "cmd": "go postern",
+      "cost": 0.2
+    },
+    {
+      "to": 19013,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

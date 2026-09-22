@@ -1,0 +1,27 @@
+{
+  "id": 28523,
+  "title": [
+    "[Underground, Tunnel's End]"
+  ],
+  "description": [
+    "The tunnel floor continues for only a few feet more before it sheers off sharply here, an open drop into a pool of water below.  Sheltered by an overhang of rock, the narrow crevice between is just large enough to squeeze through."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 28522,
+      "kind": "other",
+      "cmd": "crawl south",
+      "cost": 0.2
+    },
+    {
+      "to": 28524,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

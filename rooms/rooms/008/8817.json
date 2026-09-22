@@ -1,0 +1,80 @@
+{
+  "id": 8817,
+  "uid": [
+    5058
+  ],
+  "title": [
+    "[Beldrin's Game Hall, Reception]"
+  ],
+  "description": [
+    "From the southwest, the clatter of dice, the clicking of ivory, and the shuffling of cards is heard.  Looking around the reception area, you see a faded sofa upon which sits a young couple, passing the time in pleasant self-involvement.  To the north is a black door guarded by a shifty-looking dwarf."
+  ],
+  "paths": [
+    "Obvious exits: southwest, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "beldrins",
+    "fire lily",
+    "urchin guide beldrins",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 242,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 8818,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8820,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    },
+    {
+      "to": 30708,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

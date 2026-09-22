@@ -1,0 +1,47 @@
+{
+  "id": 36404,
+  "uid": [
+    58010
+  ],
+  "title": [
+    "[Dungeon, Mana Storm Room]"
+  ],
+  "description": [
+    "This large, square room seems to have been carefully crafted from fine black marble, down to the trapezoidal doors to the south and west.  Long veins of milky white swirl through the smooth, dark material, giving the entire room the appearance of being in the heart of a mana storm."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      1480,
+      760,
+      1520,
+      800
+    ]
+  },
+  "exits": [
+    {
+      "to": 36400,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36405,
+      "kind": "go",
+      "cmd": "go south door",
+      "cost": 0.2
+    },
+    {
+      "to": 36406,
+      "kind": "go",
+      "cmd": "go west door",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 17759,
+  "uid": [
+    250010
+  ],
+  "title": [
+    "[Guild Hall, North Hall]"
+  ],
+  "description": [
+    "The floor levels out at this narrow point and terminates at a low opening in the rock face.  A blinding light floods through the orifice, obscuring the view of the area beyond.  Curiously enough, a slight warm breeze seems to be issuing from the opening as well."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "plain dirt",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      615,
+      348,
+      634,
+      370
+    ]
+  },
+  "exits": [
+    {
+      "to": 17758,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 17760,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    }
+  ]
+}

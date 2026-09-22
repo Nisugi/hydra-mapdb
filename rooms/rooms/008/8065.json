@@ -1,0 +1,63 @@
+{
+  "id": 8065,
+  "uid": [
+    4250069
+  ],
+  "title": [
+    "[Liath Bheinn, Ledge]"
+  ],
+  "description": [
+    "A small ledge is cut into the steep, west-facing mountainside.  The ledge is filled with rocks of all sizes, and more tumble down every so often."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "Liath Bheinn and Aillidh Brae",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      1241,
+      953,
+      1251,
+      963
+    ]
+  },
+  "exits": [
+    {
+      "to": 8063,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 8066,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8067,
+      "kind": "climb",
+      "cmd": "climb mountainside",
+      "cost": 15.0
+    }
+  ]
+}

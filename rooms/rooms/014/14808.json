@@ -1,0 +1,68 @@
+{
+  "id": 14808,
+  "uid": [
+    4057005
+  ],
+  "title": [
+    "[Cobblers' Wares]"
+  ],
+  "description": [
+    "Behind a long, marble-topped counter stands a storage unit that encompasses the entire wall.  The top third of the unit is comprised of shelves containing boxes of many sizes.  The remainder is made entirely of wide, shallow drawers labeled with the names of various animals."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "cobbling",
+    "fire lily",
+    "urchin guide cobbling",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 14807,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

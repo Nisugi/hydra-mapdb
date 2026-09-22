@@ -1,0 +1,42 @@
+{
+  "id": 28158,
+  "title": [
+    "[Midnight Heron, Main Hall]"
+  ],
+  "description": [
+    "Lanterns housing eldritch flames illuminate this coffee and spice scented hallway that connects various areas of the galleon below decks.  Heavy midnight carpeting and a large tapestry muffle any noise of passers-by.  Similarly carpeted, a stairwell with chrome handrails rises to the deckhouse above.  A reinforced door on one wall bears the crest of House Illistim.  A dark portal leads aft towards the cargo hold."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "meta": [
+    "storyline"
+  ],
+  "exits": [
+    {
+      "to": 28157,
+      "kind": "go",
+      "cmd": "go portal",
+      "cost": 0.2
+    },
+    {
+      "to": 28202,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 28203,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 28204,
+      "kind": "go",
+      "cmd": "go tapestry",
+      "cost": 0.2
+    }
+  ]
+}

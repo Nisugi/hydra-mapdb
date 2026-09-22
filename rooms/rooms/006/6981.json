@@ -1,0 +1,44 @@
+{
+  "id": 6981,
+  "uid": [
+    43016
+  ],
+  "title": [
+    "[Gorge, Waterfall]"
+  ],
+  "description": [
+    "A small waterfall trickles down the headwall of the gorge here, splashing down upon the rocks in an unceasing rain.  You find yourself looking about at the smooth face of the gorge and wonder whatever happened to this obviously one-time magnificent spectacle."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "freshwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      52,
+      463,
+      62,
+      473
+    ]
+  },
+  "exits": [
+    {
+      "to": 6980,
+      "kind": "go",
+      "cmd": "go narrow ledge",
+      "cost": 0.2
+    },
+    {
+      "to": 6982,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

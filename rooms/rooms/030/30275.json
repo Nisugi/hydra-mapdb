@@ -1,0 +1,29 @@
+{
+  "id": 30275,
+  "title": [
+    "duplicate of 614"
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "exits": [
+    {
+      "to": 613,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 615,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30274,
+      "kind": "go",
+      "cmd": "go airship terminus",
+      "cost": 0.2
+    }
+  ]
+}

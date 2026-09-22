@@ -1,0 +1,46 @@
+{
+  "id": 34615,
+  "uid": [
+    4572024
+  ],
+  "title": [
+    "[Sablecross, Gauntlet Row]"
+  ],
+  "description": [
+    "The roadway winds by an ornate stone colosseum that stands atop a low hill garlanded with bloodwood trees.  Severe bronze figures clad in a veneer of verdigris gaze outward from niches along the three-tiered building's exterior, baleful gazes staring outward as if in defiant challenge.  A stone-lined pathway climbs toward the entrance, flanked by lampposts hoisting great lanterns of dark steel and cut glass aloft."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      143,
+      358,
+      174,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 34613,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34616,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34692,
+      "kind": "go",
+      "cmd": "go colosseum",
+      "cost": 0.2
+    }
+  ]
+}

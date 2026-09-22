@@ -1,0 +1,66 @@
+{
+  "id": 6696,
+  "uid": [
+    2121017
+  ],
+  "title": [
+    "[Gnoll Lair, Underground Lake]"
+  ],
+  "description": [
+    "This area is by the shore of an underground lake.  Dim light comes from some of the phosporescent lichen here.  As you look across the lake you notice a slight current seems to flow through it, possibly feeding to the Locksmehr River at some point.  Some discarded fishing tools and a few fish remains lie on the shore.  The shore continues to the east.  To the south you see a smaller tunnel heading off from this massive chamber."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "black mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "red mushroom",
+    "soft mushroom",
+    "white hook mushroom",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      74,
+      1312,
+      84,
+      1322
+    ]
+  },
+  "exits": [
+    {
+      "to": 6695,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 6697,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6705,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6706,
+      "kind": "go",
+      "cmd": "go lake",
+      "cost": 0.2
+    }
+  ]
+}

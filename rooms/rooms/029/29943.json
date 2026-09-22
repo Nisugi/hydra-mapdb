@@ -1,0 +1,50 @@
+{
+  "id": 29943,
+  "uid": [
+    7503154
+  ],
+  "title": [
+    "[Hinterwilds, Cave Entrance]"
+  ],
+  "description": [
+    "A clearing spans the space before a craggy cave that delves into a hillock of stone at the briar's edge.  Scents of spoor and decay spice the otherwise pristine air, enduring despite the nasty gale that shivers through the bramble patch.  Great paw prints congregate around the cave entrance."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest"
+  ],
+  "location": "the Hinterwilds",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Hinterwilds-1651886165.jpg",
+    "rect": [
+      901,
+      1041,
+      916,
+      1057
+    ]
+  },
+  "exits": [
+    {
+      "to": 29941,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29944,
+      "kind": "go",
+      "cmd": "go cave",
+      "cost": 0.2
+    },
+    {
+      "to": 29945,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

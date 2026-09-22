@@ -1,0 +1,121 @@
+{
+  "id": 18677,
+  "uid": [
+    2101039
+  ],
+  "title": [
+    "[River's Rest, Underbridge]"
+  ],
+  "description": [
+    "Tall cattails and water grasses take up much of the space beneath the drawbridge above, and beyond them the Tempest River flows swiftly.  Wavering shadows in the shallower waters indicate potential meals to the enterprising fishermen, while the soothing sound of moving water -- a chorus of gurgles and chuckles -- fills the air.  A cast iron fish sits forelonely before a rickety shack nestled against the underside of the bridge and the bank."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "moist",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red cranberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden flax fronds",
+    "grapefruit",
+    "kylan berry",
+    "murdroot",
+    "round yuzu",
+    "small green quenepas",
+    "soft mushroom",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "striped heart mushroom",
+    "sunburst blossom",
+    "talneo root",
+    "urchin-access",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild chokecherry",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2216,
+      1564,
+      2240,
+      1586
+    ]
+  },
+  "exits": [
+    {
+      "to": 11006,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 11749,
+      "kind": "scripted",
+      "routine": {
+        "name": "errand",
+        "errand": "cutter_from_rivers_rest"
+      },
+      "cost": 300.0
+    },
+    {
+      "to": 18678,
+      "kind": "go",
+      "cmd": "go shack",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

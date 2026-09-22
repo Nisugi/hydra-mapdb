@@ -1,0 +1,68 @@
+{
+  "id": 4019,
+  "uid": [
+    13104675
+  ],
+  "title": [
+    "[Gaedrein's Furs and Pelts]"
+  ],
+  "description": [
+    "Stacks of furs and pelts are thickly layered upon maoral shelves which cover the shop's stone walls from floor to ceiling.  Several glaesine lanterns hanging from the rafters above cast a dim amber glow across the windowless room.  A lone counter sits at the rear of the shop, behind which the shop's proprietor stands, waiting for patrons to assist."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "furrier",
+    "urchin guide furrier",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 740,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

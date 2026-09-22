@@ -1,0 +1,57 @@
+{
+  "id": 32606,
+  "uid": [
+    336417
+  ],
+  "title": [
+    "[Landing Bazaar, Modwir Lane]"
+  ],
+  "description": [
+    "A thicket of modwir trees surges along one edge of the road, creating a blanket of darkness to envelope the exteriors of a handful of shops.  Children run playfully along the store fronts, peeking into each colorful window display before moving on to the next one.  A muted tune hangs in the distance, originating from an elven minstrel perched upon the edge of a wrought-iron bench, politely thanking shoppers that toss coins into a jar at his feet."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "wl-bazaar-1671674653.png",
+    "rect": [
+      479,
+      198,
+      529,
+      247
+    ]
+  },
+  "exits": [
+    {
+      "to": 32602,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32603,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32607,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 32609,
+      "kind": "go",
+      "cmd": "go modwir shop",
+      "cost": 0.2
+    }
+  ]
+}

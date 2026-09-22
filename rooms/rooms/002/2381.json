@@ -1,0 +1,64 @@
+{
+  "id": 2381,
+  "uid": [
+    4042120
+  ],
+  "title": [
+    "[Magical Burrow, Illusionist Way]"
+  ],
+  "description": [
+    "Narrowing to a tenuous thread of cobblestone, the street is crowded by huddled houses with snow-dusted yards.  Thick fog drapes the street, though the locals largely ignore its presence as they shuffle on their way to one task or another.  A brightly illuminated shop sits between a bank of snow and a corner street light, the sign above its entry swaying in the wintry air.",
+    "The road narrows here as houses crowd the street.  Some halflings wander past in the fog, talking to themselves."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west",
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      228,
+      521,
+      264,
+      557
+    ]
+  },
+  "exits": [
+    {
+      "to": 2365,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2382,
+      "kind": "go",
+      "cmd": "go fog",
+      "cost": 0.2
+    },
+    {
+      "to": 3351,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34068,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34070,
+      "kind": "go",
+      "cmd": "go illuminated shop",
+      "cost": 0.2
+    }
+  ]
+}

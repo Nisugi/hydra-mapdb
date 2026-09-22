@@ -1,0 +1,105 @@
+{
+  "id": 11476,
+  "uid": [
+    304131
+  ],
+  "title": [
+    "[Maelstrom Bay, Under Water]"
+  ],
+  "description": [
+    "Light green water above, deep green water below, green water all around. Organ-pipe sponges grow among the knotted rockweed on the rocky wall to the northeast.  Overhead, the shimmering surface of the bay rolls sinuously."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest, west, northwest, up, down"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "underwater"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      788,
+      1180,
+      798,
+      1190
+    ]
+  },
+  "exits": [
+    {
+      "to": 11453,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim up"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11469,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southeast"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11472,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim south"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11475,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim west"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11477,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim down"
+        }
+      ],
+      "cost": 3.0
+    },
+    {
+      "to": 11479,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim northwest"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 16121,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "swim southwest"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

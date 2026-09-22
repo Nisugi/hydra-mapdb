@@ -1,0 +1,43 @@
+{
+  "id": 25655,
+  "uid": [
+    281003
+  ],
+  "title": [
+    "[Bard Guild, Corridor]"
+  ],
+  "description": [
+    "Cloaked in shadow and muted by a thick carpet runner extending along its length, the long hallway features a vaulted ceiling and dark wood-paneled walls.  Its somber atmosphere is anything but quiet, however, as strains of music and snippets of melody create an impromptu backdrop.  Their tones are muffled and the rhythms are haphazard as musicians and singers practice their craft behind closed doors in adjacent chambers.  A sign on a mahogany door reads \"Hall of the Ancient Instruments\"."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 25654,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25656,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 25657,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25662,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    }
+  ]
+}

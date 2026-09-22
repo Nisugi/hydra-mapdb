@@ -1,0 +1,54 @@
+{
+  "id": 16184,
+  "uid": [
+    216016
+  ],
+  "title": [
+    "[Beacon Hall, Story Room]"
+  ],
+  "description": [
+    "This expansive room is carpeted from wall to wall with soft lamb's wool that has been dyed a rich burgundy.  A large hearth in the rear lends a faint but warm light to the area.  A large, comfortable chair resting on an exquisite, hand-woven throw rug faces the hearth.  Soft pillows of every size are scattered about the floor.  The walls of this room are not adorned with any portraits, but the walls themselves are expertly painted murals."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      1012,
+      564,
+      1055,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 16183,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16188,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 16189,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

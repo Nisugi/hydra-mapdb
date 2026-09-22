@@ -1,0 +1,73 @@
+{
+  "id": 30117,
+  "uid": [
+    2101032
+  ],
+  "title": [
+    "[River's Rest Post Office, Lobby]"
+  ],
+  "description": [
+    "A floor of uneven planks tracked with river mud greets the eye of the visitor.  A waterstained bench rests against one wall and above it sits a portrait surrounded by a gilded frame.  In the corner sit several crates, the uppermost stained with a pattern of splattered dark crimson spots and decorated with a vase of gathered cattails and bright yellow marsh marigolds.  In an opposite corner rests a half-open sack of letters and scrolls.  The planks of the wall nearest to the door are covered in numerous carvings."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10839,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30118,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

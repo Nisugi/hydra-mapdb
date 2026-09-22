@@ -1,0 +1,50 @@
+{
+  "id": 20684,
+  "uid": [
+    258019
+  ],
+  "title": [
+    "[Warrior Guild, Coldhouse]"
+  ],
+  "description": [
+    "Drawing closer to a set of heavy rhimar-lined doors, the air grows more frigid to the point that a thin sheet of ice crystals have formed upon the silver marble floor.  A two-tiered rack holds all sizes of fur-lined gloves for guild members to use in this cold place."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Zul Logoth",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild floor"
+  ],
+  "image": {
+    "file": "en-zul_logoth-warriorguild-1697063613.png",
+    "rect": [
+      429,
+      96,
+      444,
+      111
+    ]
+  },
+  "exits": [
+    {
+      "to": 20651,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20685,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 20686,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 6267,
+  "uid": [
+    372001
+  ],
+  "title": [
+    "[Kobold Village, Promontory]"
+  ],
+  "description": [
+    "A steep earthen cliff rises above you, roots dangling over the edge far above.  Several large piles of dirt lie nearby, and a broken wheelbarrow is partially buried by one."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Lower Dragonsclaw",
+  "climate": "temperate",
+  "terrain": "plain dirt",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "birch bark",
+    "black peppercorn",
+    "blue whortleberry",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "dark blue honeyberries",
+    "ghost pepper",
+    "ginger root",
+    "golden yellow shadesbane",
+    "heath aster",
+    "hot pepper",
+    "ironfern root",
+    "juniper berry",
+    "kobold",
+    "motherwort",
+    "murdroot",
+    "murkweed",
+    "nutmeg",
+    "off-white parsnip",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "round grumbleberry",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sovyn clove",
+    "sprig of alyssum",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild carrot",
+    "wild chokecherry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      229,
+      374,
+      239,
+      384
+    ]
+  },
+  "exits": [
+    {
+      "to": 6265,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6284,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb mound"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 21341,
+  "uid": [
+    211010
+  ],
+  "title": [
+    "[Sylvanfair, Orc's Head Bar]"
+  ],
+  "description": [
+    "The wood of the tree opens into a large gathering area, with dozens of places to sit formed by tree branches and moss-covered stones.  Next to the bar stands a graceful harp, apparently formed of the same wood as the walls.  Hanging on one wall is a polished walnut dart board carved in the image of an owl and off to one side a counter nestles amidst greenery.  The lilac-twined arch leads into the ballroom beyond the bar, and a modwir door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sylvanfair"
+  ],
+  "image": {
+    "file": "wl-sylvanfair.jpg",
+    "rect": [
+      644,
+      502,
+      683,
+      541
+    ]
+  },
+  "exits": [
+    {
+      "to": 21330,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21340,
+      "kind": "go",
+      "cmd": "go lilac-twined arch",
+      "cost": 0.2
+    },
+    {
+      "to": 21342,
+      "kind": "go",
+      "cmd": "go modwir door",
+      "cost": 0.2
+    },
+    {
+      "to": 21343,
+      "kind": "go",
+      "cmd": "go leafy archway",
+      "cost": 0.2
+    },
+    {
+      "to": 21345,
+      "kind": "go",
+      "cmd": "go maple door",
+      "cost": 0.2
+    }
+  ]
+}

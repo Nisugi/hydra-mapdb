@@ -1,0 +1,43 @@
+{
+  "id": 17442,
+  "uid": [
+    7801061
+  ],
+  "title": [
+    "[Volstrun's Whetter, Hallway]"
+  ],
+  "description": [
+    "Standing off to one side of the hallway is a tarnished brass spittoon that is tucked partially beneath an oval-shaped table.  Lining the corridor are brass, steel, and copper-inlaid doors with tiny ribbons hanging from their doorknobs.  Some creaky stairs lead back down to the barroom."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Highman Games near Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:highman"
+  ],
+  "exits": [
+    {
+      "to": 17441,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 17503,
+      "kind": "go",
+      "cmd": "go copper door",
+      "cost": 0.2
+    },
+    {
+      "to": 17504,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    }
+  ]
+}

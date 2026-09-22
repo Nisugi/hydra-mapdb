@@ -1,0 +1,43 @@
+{
+  "id": 26798,
+  "uid": [
+    13102011
+  ],
+  "title": [
+    "[Ta'Illistim Keep, Hallway]"
+  ],
+  "description": [
+    "Crafted entirely of silvery grey stone, the blocks fit together seamlessly creating the smooth passage walls.  Set into a shallow recess is a narrow archway covered with a peacock blue silk curtain."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "public locker",
+    "publiclockers"
+  ],
+  "exits": [
+    {
+      "to": 18140,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18145,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 26803,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 240.0
+    }
+  ]
+}

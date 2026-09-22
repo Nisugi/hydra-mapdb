@@ -1,0 +1,64 @@
+{
+  "id": 22410,
+  "uid": [
+    13125037
+  ],
+  "title": [
+    "[Chancery of the Bowered Wood]"
+  ],
+  "description": [
+    "Laid out in millions of tiny glaes tesserae, the domed ceiling is tiled in silver and green, its pattern a canopy of forest boughs.  The mosaic flows down the walls as tree trunks, before stopping halfway to meet a register of wooden panels.  A carpet of woven silk is laid out, creating a soft, natural-looking floor.  Several open archways fan out to other parts of the chancery.  Paneled with wood, a large door stands across the room from a tiny one of modwir."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_illistim-embassies-1405076623.png",
+    "rect": [
+      969,
+      107,
+      1033,
+      142
+    ]
+  },
+  "exits": [
+    {
+      "to": 22353,
+      "kind": "go",
+      "cmd": "go panel door",
+      "cost": 0.2
+    },
+    {
+      "to": 22411,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22412,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22413,
+      "kind": "go",
+      "cmd": "go round door",
+      "cost": 0.2
+    },
+    {
+      "to": 22414,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 22415,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

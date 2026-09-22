@@ -1,0 +1,62 @@
+{
+  "id": 11355,
+  "uid": [
+    377001
+  ],
+  "title": [
+    "[Citadel, Outside Gates]"
+  ],
+  "description": [
+    "As would be expected of wizards, the normal drawbridge construction is missing from the entrance to the citadel.  Traversing the ravine that surrounds the citadel is a large contraption which resembles a balance with several levers and ropes attached.  On the other side of the ravine you can see two doors which form the entrance to the citadel."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      177,
+      1401,
+      187,
+      1411
+    ]
+  },
+  "exits": [
+    {
+      "to": 11354,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11357,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "stance": "offensive"
+        },
+        {
+          "move_while": [
+            "climb ledge",
+            {
+              "exits_over": 0
+            }
+          ]
+        },
+        {
+          "restore_stance": null
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

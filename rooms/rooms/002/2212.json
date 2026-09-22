@@ -1,0 +1,66 @@
+{
+  "id": 2212,
+  "uid": [
+    3061021
+  ],
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "Composed of living rock, the area around you seems to be in a constant state of flux.  You can see molten lava moving freely behind the semi-transparent surface.  It seems to pulse with a malevolent sentience."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      445,
+      654,
+      455,
+      664
+    ]
+  },
+  "exits": [
+    {
+      "to": 2211,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "climb rock"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 2213,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 2227,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2228,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

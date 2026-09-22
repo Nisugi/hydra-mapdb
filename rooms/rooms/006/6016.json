@@ -1,0 +1,111 @@
+{
+  "id": 6016,
+  "uid": [
+    14005004
+  ],
+  "title": [
+    "[Yander's Farm, Barn]"
+  ],
+  "description": [
+    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.",
+    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.  Fine particles of dust float lazily through the moonlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness.",
+    "Bands of light and dark splay across the beams and floor in alternating bright sunlight stripes and darker shade stripes.  Fine particles of dust float lazily through the sunlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Yander's Farm",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "acantha leaf",
+    "agave heart",
+    "angelica root",
+    "black peppercorn",
+    "brown potato",
+    "bur-clover root",
+    "calamia fruit",
+    "cardamom",
+    "cumin seeds",
+    "curly garlic scapes",
+    "dark blue honeyberries",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "mistweed",
+    "motherwort",
+    "murdroot",
+    "nutmeg",
+    "pepperthorn root",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple potato",
+    "rye grass",
+    "small daisy",
+    "small flower",
+    "small rose",
+    "sorcerer guild",
+    "sorcererguild",
+    "sovyn clove",
+    "sprig of alyssum",
+    "spring onion",
+    "stalk of chicory",
+    "stalk of goldenrod",
+    "star anise",
+    "vanilla bean",
+    "white baneberry",
+    "wild chokecherry",
+    "wild rice",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom",
+    "yellow primrose"
+  ],
+  "image": {
+    "file": "en-victory-1264234799.png",
+    "rect": [
+      752,
+      427,
+      762,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 6014,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6017,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6018,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18748,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast_at": [
+            "Phase",
+            "shadow"
+          ]
+        }
+      ],
+      "cost": {
+        "when": {
+          "profession": "Sorcerer"
+        },
+        "then": 3.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 26256,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "Pale fog hugs the ground, obscuring the road as you pass.  Wispy tendrils of white smoke coil up from the mist, snaking around the numerous corpses staked along the path.  Periodically, the shrill wail of a banshee can be heard from within a tall black crystal tower that rises up at the end of the lane."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      354,
+      82,
+      381,
+      108
+    ]
+  },
+  "exits": [
+    {
+      "to": 26255,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26257,
+      "kind": "go",
+      "cmd": "go tower",
+      "cost": 0.2
+    }
+  ]
+}

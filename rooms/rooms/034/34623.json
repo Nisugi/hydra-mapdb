@@ -1,0 +1,52 @@
+{
+  "id": 34623,
+  "uid": [
+    4572029
+  ],
+  "title": [
+    "[Sablecross, The Giltroad]"
+  ],
+  "description": [
+    "A stately brick brokerage with a viridian awning has wide windows of smoked glass that permit only glimpses of movement within.  It stands in the shade of the outer wall, flanked by manicured pomegranate trees that are heavy-laden with plump red fruit.  The candlelight that flickers from the open door is welcoming and warm, suggesting a spot of solace away from the raucous crowds of the Giltroad's bazaar."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west, northwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      678,
+      284,
+      708,
+      310
+    ]
+  },
+  "exits": [
+    {
+      "to": 34622,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34624,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34668,
+      "kind": "go",
+      "cmd": "go brokerage",
+      "cost": 0.2
+    },
+    {
+      "to": 34672,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 3839,
+  "uid": [
+    4291052
+  ],
+  "title": [
+    "[Thanatoph, Hot Springs]"
+  ],
+  "description": [
+    "Surrounded by the warm soothing water you sit back and relax, letting the dust of the day wash away.  Many small springs gently splash water into the pool you sit in, sending a light steam into the air.  The steam lingers over your head forming a gentle fog that slowly wafts out."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Stone Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "murdroot"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      455,
+      1043,
+      465,
+      1053
+    ]
+  },
+  "exits": [
+    {
+      "to": 3838,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 8429,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "swim nook"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

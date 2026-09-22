@@ -1,0 +1,46 @@
+{
+  "id": 19847,
+  "uid": [
+    676015
+  ],
+  "title": [
+    "[Cleric Guild, Hallway]"
+  ],
+  "description": [
+    "Polished marble walls enclose this small room and gleam in the torchlight that filters in from either hallway.  The area is devoid of ornamentation, serving only as a passageway to other areas of the guild."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-cleric_guild-1340756524.png",
+    "rect": [
+      364,
+      265,
+      406,
+      308
+    ]
+  },
+  "exits": [
+    {
+      "to": 19843,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19845,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19848,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

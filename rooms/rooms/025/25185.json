@@ -1,0 +1,61 @@
+{
+  "id": 25185,
+  "uid": [
+    4216901
+  ],
+  "title": [
+    "[Dazh's Caravans, Conductor]"
+  ],
+  "description": [
+    "Sweat and horseflesh conspire to form a tangy musk around the open-air business, which is astir with dozens of patrons with dustcloaks and knapsacks full of clothing, all gathered around a high counter at the center of the area.  A small fel sign sits atop the counter.  Stalls with horses and the occasional yierka line the western wall, tended by a team of sweating and overworked grooms.  The clank of wagons departing and arriving is a constant addition to the din."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "arid",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "caravan",
+    "silver-cost:25145:3000"
+  ],
+  "exits": [
+    {
+      "to": 5579,
+      "kind": "go",
+      "cmd": "go caravansary",
+      "cost": 0.2
+    },
+    {
+      "to": 25145,
+      "kind": "scripted",
+      "steps": [
+        {
+          "order_by_name": "the Sea of Fire"
+        },
+        {
+          "put": "order confirm"
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "await_arrival": null
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "car_to_sos",
+            "true"
+          ]
+        },
+        "then": 120.0
+      }
+    }
+  ]
+}

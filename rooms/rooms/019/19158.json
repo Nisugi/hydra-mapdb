@@ -1,0 +1,30 @@
+{
+  "id": 19158,
+  "title": [
+    "[Tropic Treasure, Hot Sauce]"
+  ],
+  "description": [
+    "High above the floor, the top of the strange volcano is riddled with various vents, though the gaping volcano mouth is the most prominent and disturbing feature of this structure.  The air is thick with the pungency of hot peppers, and occasional bursts of smoke diffuse the spicy scent everywhere.  Steep, though passable with effort, the side of the volcano is the only apparent path."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "tags": [
+    "closed"
+  ],
+  "exits": [
+    {
+      "to": 19157,
+      "kind": "climb",
+      "cmd": "climb volcano",
+      "cost": 0.2
+    },
+    {
+      "to": 19159,
+      "kind": "go",
+      "cmd": "go mouth",
+      "cost": 0.2
+    }
+  ]
+}

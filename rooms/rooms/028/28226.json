@@ -1,0 +1,48 @@
+{
+  "id": 28226,
+  "uid": [
+    336221
+  ],
+  "title": [
+    "[Town Barracks, Second Floor]"
+  ],
+  "description": [
+    "A wide wooden stairwell begins at the end of the second floor hall, an open banister overlooking the entranceway below.  To the south, a bookcase can be glimpsed through an archway, which stands opposite of a plain wooden door.  A narrow window provides an angled view of the city streets beyond."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "exits": [
+    {
+      "to": 28225,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 28229,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28235,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 28236,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 33640,
+  "uid": [
+    7101161
+  ],
+  "title": [
+    "[Academy, Southwest Corner]"
+  ],
+  "description": [
+    "Filled with mortar and loose stones, a jagged scar runs down the face of the wall where a previous repair has rotted away.  Large and small bits of the upper crenellation have fallen free and clog the walking space, though it manages to still be passable.  Green stone set into an arched opening has a sheen of yellowish moisture upon it, which enhances the intricately carved staff entwined by two roses that decorates the lintel."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Vornavis",
+  "terrain": "plain dirt",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      399,
+      528,
+      446,
+      574
+    ]
+  },
+  "exits": [
+    {
+      "to": 33639,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33641,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 33642,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

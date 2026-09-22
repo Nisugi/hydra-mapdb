@@ -1,0 +1,52 @@
+{
+  "id": 32079,
+  "uid": [
+    8083386
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "Deep and sluggish, the water plods along its course, the riverbed overhung with a thick canopy of leaves from the enormous trees along the banks.  A stoppered glass bottle is carried downstream by the current, narrowly missing a jumble of roots and rocks protruding from the eastern hillside.  An unmarked tombstone rests in the shadow of an ancient weeping willow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      905,
+      451,
+      928,
+      475
+    ]
+  },
+  "exits": [
+    {
+      "to": 32078,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32080,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

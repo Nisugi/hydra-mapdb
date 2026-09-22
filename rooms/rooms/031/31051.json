@@ -1,0 +1,36 @@
+{
+  "id": 31051,
+  "uid": [
+    7121220
+  ],
+  "title": [
+    "[House Annex, House Brigatta]"
+  ],
+  "description": [
+    "Devoid of nearby furnishings, the western wall is painted sky blue and dominated by a majestic pure white unicorn, which is illuminated by the warm glow of several frosted glaesine globes anchored to the ceiling.  Plush azure carpeting dappled with white threads lends the otherwise austere space a coziness that is enhanced by the presence of a soft blue crushed velvet settee.  A lacquered beige door leads to the hallway, while a blue-edged pure white silk curtain provides access to the storage facilities."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:brigatta:entrance_annex",
+    "che:brigatta:entrance_locker",
+    "locker annex:House Brigatta"
+  ],
+  "exits": [
+    {
+      "to": 2437,
+      "kind": "go",
+      "cmd": "go beige door",
+      "cost": 0.2
+    },
+    {
+      "to": 31052,
+      "kind": "go",
+      "cmd": "go pure curtain",
+      "cost": 0.2
+    }
+  ]
+}

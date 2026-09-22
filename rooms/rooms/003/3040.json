@@ -1,0 +1,35 @@
+{
+  "id": 3040,
+  "uid": [
+    18012002
+  ],
+  "title": [
+    "[Northern Fortress, Entry Hall]"
+  ],
+  "description": [
+    "Framed by an arched oak beam ceiling high overhead, the great windowless hall is lit by dimly glowing braziers set into each corner of the room.  A giant four-pointed star of cerulean-hued stone is inset into the center of the lightly buffed grey marble floor.  Standing open, some oak double doors lead further into the keep, while a pair of iron-bound doors lead outside."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 3039,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 15935,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

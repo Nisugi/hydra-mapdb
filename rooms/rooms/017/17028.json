@@ -1,0 +1,49 @@
+{
+  "id": 17028,
+  "uid": [
+    254010
+  ],
+  "title": [
+    "[Warrior Guild, North Hall]"
+  ],
+  "description": [
+    "A pair of large, ornate double doors, carved of fine mahogany in an elaborate geometric pattern, dominate the inner wall.  A pair of fine brass urns stand to either side of the doors, and two slits in the stone outer wall provide a limited view of a neatly-kept yard outside."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Solhaven's Warrior Guild",
+  "terrain": "none",
+  "tags": [
+    "warrior guild armor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1046,
+      82,
+      1067,
+      102
+    ]
+  },
+  "exits": [
+    {
+      "to": 17027,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17029,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17031,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

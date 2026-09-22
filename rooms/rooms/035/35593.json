@@ -1,0 +1,67 @@
+{
+  "id": 35593,
+  "uid": [
+    7150607
+  ],
+  "title": [
+    "[The Contempt, Main Deck]"
+  ],
+  "description": [
+    "Beneath the main mast, a disintegrating hatch of iron with edges swollen by rust yawns into the hold below.  The deck before it is worn smooth by the passage of many feet over countless years.  Its greying planks and the steps leading down to the hold are weakened in places by splotches of black rot.  Air from below wafts up in cold gusts, laden with the perfume of lamp oil and a less pleasant sweetness of old decay."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Sailor's Grief",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "fwi:teleport",
+    "teleport"
+  ],
+  "image": {
+    "file": "Sailors_Grief.jpg",
+    "rect": [
+      4360,
+      680,
+      4440,
+      760
+    ]
+  },
+  "exits": [
+    {
+      "to": 3668,
+      "kind": "scripted",
+      "routine": {
+        "name": "trinket"
+      },
+      "cost": {
+        "when": {
+          "setting_is_set": "fwi_trinket"
+        },
+        "then": 15.0
+      }
+    },
+    {
+      "to": 35588,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 35594,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 35603,
+      "kind": "climb",
+      "cmd": "climb mast",
+      "cost": 0.2
+    }
+  ]
+}

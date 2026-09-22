@@ -1,0 +1,70 @@
+{
+  "id": 10367,
+  "uid": [
+    14103025
+  ],
+  "title": [
+    "[The Ta'Vaalor Weaponry]"
+  ],
+  "description": [
+    "The aromatic scent of oil and leather fills the air.  Trimmed with faenor metal, a well-crafted solid oak counter dominates the length of this shop.  Skillfully wrought and forged from rare, exotic material and hanging from metal supports in the walls is an assemblage of various weapons of war.  They have been artfully arranged in geometric patterns.  A black-inked sign is directly above an executioner's axe, which is leaning in the corner behind the counter."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin guide weapons",
+    "urchin-access",
+    "warrior guild sheet metal",
+    "weapons",
+    "weaponshop"
+  ],
+  "exits": [
+    {
+      "to": 3526,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30713,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

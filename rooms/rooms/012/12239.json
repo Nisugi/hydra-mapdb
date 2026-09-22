@@ -1,0 +1,109 @@
+{
+  "id": 12239,
+  "uid": [
+    4571015
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "A brilliant purple stone formation with veins of orange towers overhead.  Frozen humanoid corpses lie around the base of the formation in supplicated positions.  Tiny bright red insect-like creatures feast upon the dead, skittering to and fro from an unseen nest.",
+    "A brilliant purple stone formation with veins of orange towers overhead.  Desiccated humanoid corpses lie around the base of the formation in supplicated positions.  Tiny bright red insect-like creatures surrounded by a subtle, yet distinct flame scavenge the dead, skittering to and fro from an unseen nest."
+  ],
+  "paths": [
+    "Obvious exits: north, up",
+    "Obvious paths: north, up"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      572,
+      322,
+      594,
+      344
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12237,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 12238,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 12241,
+      "kind": "go",
+      "cmd": "go barrier",
+      "cost": 0.2
+    }
+  ]
+}

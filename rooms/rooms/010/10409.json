@@ -1,0 +1,50 @@
+{
+  "id": 10409,
+  "uid": [
+    14109016
+  ],
+  "title": [
+    "[Dancing Dahcre, Hallway]"
+  ],
+  "description": [
+    "Cream white marble flooring and polished white oak walls present a classic contrast to the burnished gold arches spanning the passageway at regular intervals.  A narrower arch is set into the side of the hallway, the sides formed of gold posts capped with finials ending in polished blazestar spheres."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-dancing_dahcre-1488763271.png",
+    "rect": [
+      1223,
+      1134,
+      1365,
+      1195
+    ]
+  },
+  "exits": [
+    {
+      "to": 10408,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10410,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33147,
+      "kind": "go",
+      "cmd": "go gold arch",
+      "cost": 0.2
+    }
+  ]
+}

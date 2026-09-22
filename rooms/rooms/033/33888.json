@@ -1,0 +1,69 @@
+{
+  "id": 33888,
+  "uid": [
+    14150201
+  ],
+  "title": [
+    "[Nielira Harbor Mail Office]"
+  ],
+  "description": [
+    "Ebony-washed bricks create the framework of the mail office, the stones curtained in drapes of Nalfein ivy, creating a backdrop of ivory-edged vert leaves.  Floor-to-ceiling windows crafted from blackened iron are affixed with jade-lacquered shutters, the apertures allowing a seaside breeze to filter through the shop.  The narrow slots provide small glimpses of the bustling harbor, the faint sounds of the piers echoing against the counter-set dark stone walls."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Nalfein",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "mail",
+    "postoffice",
+    "urchin guide postoffice",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 33879,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 34423,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

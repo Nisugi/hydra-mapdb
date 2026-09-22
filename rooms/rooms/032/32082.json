@@ -1,0 +1,52 @@
+{
+  "id": 32082,
+  "uid": [
+    8083389
+  ],
+  "title": [
+    "[Gleyminn Anni River]"
+  ],
+  "description": [
+    "A darkening gloom settles over the area, the air thick with grey mist which muffles surrounding sounds except for the slow-moving current of the river.  A chill seeps in, followed by the caw of a raven, piercing through the duskiness."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "fest-naidem-part2-1730328833.png",
+    "rect": [
+      982,
+      568,
+      1005,
+      589
+    ]
+  },
+  "exits": [
+    {
+      "to": 31589,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push east"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32081,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northwest"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

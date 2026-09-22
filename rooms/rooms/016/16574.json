@@ -1,0 +1,50 @@
+{
+  "id": 16574,
+  "uid": [
+    261039
+  ],
+  "title": [
+    "[Rogue Guild, Basement Workshop]"
+  ],
+  "description": [
+    "Better lit than the rest of the basement, this corner seems to have been reserved for utilitarian purposes.  Rows of cluttered toolbenches line the far wall and small scraps of metal lay scattered about mixing with smaller shavings."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild workshop"
+  ],
+  "image": {
+    "file": "wl-rogue_guild-1267242645.png",
+    "rect": [
+      336,
+      527,
+      364,
+      555
+    ]
+  },
+  "exits": [
+    {
+      "to": 16443,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26232,
+      "kind": "go",
+      "cmd": "go toolbench",
+      "cost": 0.2
+    },
+    {
+      "to": 33256,
+      "kind": "go",
+      "cmd": "go toolbenches",
+      "cost": 0.2
+    }
+  ]
+}

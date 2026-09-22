@@ -1,0 +1,49 @@
+{
+  "id": 20855,
+  "uid": [
+    214060
+  ],
+  "title": [
+    "[Obsidian Tower, Passage]"
+  ],
+  "description": [
+    "A single, unwavering torch illuminates a long, roughly hewn stone hallway.  Flecks of ore and crystal glimmer out from the natural rock walls, and coarse rockdust litters the floor, causing footfalls to crunch softly.  Dark passages lead off to the south and the west, and some rough stairs lead up into yet more gloom."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Obsidian Tower"
+  ],
+  "image": {
+    "file": "wo-obsidian-tower-1626034546.png",
+    "rect": [
+      429,
+      974,
+      482,
+      1031
+    ]
+  },
+  "exits": [
+    {
+      "to": 20848,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 20862,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20864,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

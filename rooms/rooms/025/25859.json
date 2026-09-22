@@ -1,0 +1,52 @@
+{
+  "id": 25859,
+  "uid": [
+    336030
+  ],
+  "title": [
+    "[Stone Baths, Private Suite]"
+  ],
+  "description": [
+    "A soft murmur fills the room as a few patrons mill about, their footfalls dampened by the plush midnight green carpeting.  Bronze half-moon wall sconces project light towards the ceiling, bathing the room in a muted glow.  A white-robed elven attendant stands behind a dark maple desk, occasionally scribbling something on a small stack of parchments.  Spaced evenly around the room are number of large cabinets filled with towels."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "silver-cost:25858:2000"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      748,
+      1244,
+      891,
+      1308
+    ]
+  },
+  "exits": [
+    {
+      "to": 19930,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25858,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "give attendant 2000"
+        },
+        {
+          "move": "go archway"
+        }
+      ],
+      "cost": 11.1
+    }
+  ]
+}

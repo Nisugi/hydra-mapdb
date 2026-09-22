@@ -1,0 +1,50 @@
+{
+  "id": 35100,
+  "uid": [
+    4426534
+  ],
+  "title": [
+    "[Glaeve, Reaver's Run]"
+  ],
+  "description": [
+    "Crossed cutlasses hang over the grandiose double doors of a two-story chapterhouse guarded by a granite wall.  Ornate carvings adorn the dark stone, depicting scenes of nautical combat and tall ships with heavy cannons and fierce crews.  The wrought iron rails of the upper story's balconies are festooned with garish pennants, each stitched with an emblem.  The sigils range from mundane skulls and crossbones to flamboyant birds and vicious predators of the sea."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Glaoveln",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "white-belled wintergreen"
+  ],
+  "image": {
+    "file": "imt-glaoveln-1754606664.png",
+    "rect": [
+      292,
+      198,
+      313,
+      219
+    ]
+  },
+  "exits": [
+    {
+      "to": 35099,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 35101,
+      "kind": "go",
+      "cmd": "go chapterhouse",
+      "cost": 0.2
+    },
+    {
+      "to": 35102,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

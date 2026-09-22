@@ -1,0 +1,44 @@
+{
+  "id": 23366,
+  "uid": [
+    13018080
+  ],
+  "title": [
+    "[Basement, Cells]"
+  ],
+  "description": [
+    "A row of three iron-barred cells, one next to the other, line the western wall.  Across from the cells is a table holding a whip and a few scattered shackles.  Dark spots on the cold stone floor appear to be smears of dried blood.  Faint light spills into the area from the top of a narrow staircase."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-zul_logoth_liaerion-1703216519.png",
+    "rect": [
+      370,
+      282,
+      391,
+      300
+    ]
+  },
+  "exits": [
+    {
+      "to": 23365,
+      "kind": "go",
+      "cmd": "go narrow staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 23367,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

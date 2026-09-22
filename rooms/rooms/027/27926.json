@@ -1,0 +1,47 @@
+{
+  "id": 27926,
+  "uid": [
+    14115202
+  ],
+  "title": [
+    "[Annatto Barracks, Corridor]"
+  ],
+  "description": [
+    "The corridor is barren of furnishings and wide enough for four soldiers to line up in formation.  Broad archways open to the east and west, and to the north, the corridor opens onto the dormitory.  A pair of golden wyverns is inlaid in the stone walls, flanking each archway, and a reinforced oak door to the south leads back to the courtyard."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "meta": [
+    "Crimson Legion",
+    "mho"
+  ],
+  "exits": [
+    {
+      "to": 27925,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27927,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27928,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27929,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

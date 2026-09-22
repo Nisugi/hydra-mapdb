@@ -1,0 +1,44 @@
+{
+  "id": 35160,
+  "uid": [
+    4426705
+  ],
+  "title": [
+    "[The Raider's Take, Corridor]"
+  ],
+  "description": [
+    "Smoke rises from the damp cedar chips resting upon the hot coals of nearby braziers, perfuming the air as it dances in the moonlight that filters into the corridor from the west.  Carved posts support the overhang that stretches from the walls of the corridor and out into the open courtyard of the gathering hall, nearly touching the roof on the opposite side.  Built opposite each other, a grey-washed driftwood door stands open across the lacquered floor expanse from a set of descending steps."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Glaoveln",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 35156,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 35159,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 35164,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 35165,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

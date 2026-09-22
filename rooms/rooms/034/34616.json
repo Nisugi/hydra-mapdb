@@ -1,0 +1,52 @@
+{
+  "id": 34616,
+  "uid": [
+    4572023
+  ],
+  "title": [
+    "[Sablecross, Gauntlet Row]"
+  ],
+  "description": [
+    "Beneath the ominous shadows of basalt statues depicting hooded figures with powerful builds, broad steps climb up to a sprawling terrace in the southeast.  Opposite the figures, a slate-roofed armory occupies the space near the district's outer wall, its yard separated from the cobblestone street by a black steel gate.  Bloodwood trees stand tall along the pathway leading up to the entrance, and every breeze solicits a rain of leaves and carmine blossoms from their high branches."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Sablecross",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "Sablecross_1200_911.jpg",
+    "rect": [
+      220,
+      286,
+      248,
+      314
+    ]
+  },
+  "exits": [
+    {
+      "to": 34615,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 34617,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 34691,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 34693,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

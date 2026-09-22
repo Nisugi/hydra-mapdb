@@ -1,0 +1,71 @@
+{
+  "id": 18917,
+  "uid": [
+    663100
+  ],
+  "title": [
+    "[Sorcerer Guild, Alchemy Nexus]"
+  ],
+  "description": [
+    "Wind whips through the open air stone room, the scent of the sea thick in the air and accompanied by the sound of crashing waves.  Five platforms extend from the immediate area and beyond them in all directions lies an endless expanse of dark water.  A glimpse over the edge of the platform reveals its location atop a great stone tower anchored in the sea, hundreds of feet above the surface of the water.  In the center of the platform stands a pillar, behind which descends a staircase."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, southwest, west"
+  ],
+  "location": "River's Rest",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-sorcerer_guild-1405076623.png",
+    "rect": [
+      921,
+      461,
+      961,
+      499
+    ]
+  },
+  "exits": [
+    {
+      "to": 17103,
+      "kind": "go",
+      "cmd": "go ledge",
+      "cost": 0.2
+    },
+    {
+      "to": 18918,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 18920,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 18921,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18922,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 18923,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 18924,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

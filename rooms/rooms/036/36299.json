@@ -1,0 +1,57 @@
+{
+  "id": 36299,
+  "uid": [
+    777301
+  ],
+  "title": [
+    "[Albatross, Main Deck]"
+  ],
+  "description": [
+    "Sunlight glints off the polished rosewood and mahogany decks.  A mahogany-framed entry inlaid with ornate gold filigree leads inside the riverboat, while the deck wraps about it all.  Carefully piled silk rope sits next to a gaily beribboned mahogany gangplank leading off the boat, which is adorned with carved mistwood albatross perched along the railings."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "albatross-1342665555.png",
+    "rect": [
+      281,
+      162,
+      301,
+      181
+    ]
+  },
+  "exits": [
+    {
+      "to": 8889,
+      "kind": "go",
+      "cmd": "go mahogany gangplank",
+      "cost": 0.2
+    },
+    {
+      "to": 19621,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 36300,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36302,
+      "kind": "go",
+      "cmd": "go mahogany-framed entry",
+      "cost": 0.2
+    }
+  ]
+}

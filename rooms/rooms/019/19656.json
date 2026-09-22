@@ -1,0 +1,47 @@
+{
+  "id": 19656,
+  "uid": [
+    11218
+  ],
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "A maze of stalagmites makes travel in any direction other than northwest quite impossible.  Far above you can be seen a narrow suspension bridge that spans the high canyon walls that loom above you."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1142,
+      1234,
+      1151,
+      1242
+    ]
+  },
+  "exits": [
+    {
+      "to": 19655,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 19657,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

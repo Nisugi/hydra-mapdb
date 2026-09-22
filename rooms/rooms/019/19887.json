@@ -1,0 +1,41 @@
+{
+  "id": 19887,
+  "uid": [
+    653017
+  ],
+  "title": [
+    "[Empath Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "River's Rest",
+  "check_location": true,
+  "terrain": "hard, flat",
+  "image": {
+    "file": "rr-empath_guild-1525964802.jpg",
+    "rect": [
+      105,
+      0,
+      155,
+      48
+    ]
+  },
+  "exits": [
+    {
+      "to": 19886,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19888,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    }
+  ]
+}

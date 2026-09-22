@@ -1,0 +1,57 @@
+{
+  "id": 6364,
+  "uid": [
+    2167101
+  ],
+  "title": [
+    "[Labyrinth, The Dark Altar]"
+  ],
+  "description": [
+    "Moonlight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat.",
+    "Daylight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "The Hidden Plateau",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "tags": [
+    "black hook mushroom",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "cave moss",
+    "ironfern root",
+    "murdroot",
+    "soft white mushroom",
+    "white hook mushroom",
+    "withered black mushroom"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      1111,
+      493,
+      1129,
+      511
+    ]
+  },
+  "exits": [
+    {
+      "to": 6245,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 30.0
+    },
+    {
+      "to": 6365,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

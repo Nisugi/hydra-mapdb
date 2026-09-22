@@ -1,0 +1,50 @@
+{
+  "id": 8959,
+  "uid": [
+    705202
+  ],
+  "title": [
+    "[Spitfire Alley, Gunner's Lane]"
+  ],
+  "description": [
+    "The Crow's Nest pub stands shakily on the north side of the street, its clapboard walls peeling paint and desperately in need of a good cleaning.  Whenever the doors to the place swing open, loud sea chanties tumble out, usually followed by a flying body or two and an emphatic \"And don't come back neither, ya lubbers!\""
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-homes-1264234799.png",
+    "rect": [
+      928,
+      506,
+      948,
+      526
+    ]
+  },
+  "exits": [
+    {
+      "to": 8958,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 8960,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 23640,
+      "kind": "go",
+      "cmd": "go pub",
+      "cost": 0.2
+    }
+  ]
+}

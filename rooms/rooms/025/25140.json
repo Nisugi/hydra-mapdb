@@ -1,0 +1,39 @@
+{
+  "id": 25140,
+  "uid": [
+    -7105180
+  ],
+  "title": [
+    "[Reim Castle, Royal Chambers]"
+  ],
+  "description": [
+    "A trail of sooty footprints mars the otherwise perfect white marble leading up to a narrow window.  On either side of the window, lightless torches are hung evenly on whitewashed walls.  Carved into the wall surrounding the window is the depiction of a devolving man, one side of his body a soupy mess."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      440,
+      178,
+      451,
+      190
+    ]
+  },
+  "exits": [
+    {
+      "to": 25138,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25141,
+      "kind": "go",
+      "cmd": "go window",
+      "cost": 0.2
+    }
+  ]
+}

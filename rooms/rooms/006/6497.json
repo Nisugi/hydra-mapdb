@@ -1,0 +1,53 @@
+{
+  "id": 6497,
+  "uid": [
+    95163
+  ],
+  "title": [
+    "[Monastery, Altar]"
+  ],
+  "description": [
+    "This altar shows the only signs of age or destruction that you have seen anywhere in the monastery.  The altar is badly burned and the long stone altar table has been shattered into more than a dozen pieces.  A tall brazier mounted from a long pole in the floor of the room stands to one side, but the supporting pole has been bent and twisted.  There is a large iron chest on the floor behind what was once the altar, badly blackened and charred by the fire that must have occurred here."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "monastic lich",
+    "no forageables",
+    "spectral monk"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      202,
+      979,
+      212,
+      989
+    ]
+  },
+  "exits": [
+    {
+      "to": 6493,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6499,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "turn brazier"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 32430,
+  "uid": [
+    4577019
+  ],
+  "title": [
+    "[Moonsedge, Scarlet Road]"
+  ],
+  "description": [
+    "Beneath flapping scarlet banners, a decrepit jeweler's shop stands at an intersection choked with empty carriages and wagons.  Beds of black velvet near the windows of the shop have been stripped of their valuables and the door hangs open.  Outside, the vehicles are abandoned, whatever wares or baggage they carried either taken or ruined by the elements."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west, northwest"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      502,
+      283,
+      519,
+      303
+    ]
+  },
+  "exits": [
+    {
+      "to": 32425,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32426,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32431,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 32435,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32436,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

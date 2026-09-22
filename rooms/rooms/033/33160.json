@@ -1,0 +1,35 @@
+{
+  "id": 33160,
+  "uid": [
+    3003122
+  ],
+  "title": [
+    "[Ivory Lounge, Cubbyhole]"
+  ],
+  "description": [
+    "This narrow, cramped space ends abruptly at a curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:white_haven:entrance_locker",
+    "locker annex:White Haven"
+  ],
+  "exits": [
+    {
+      "to": 33159,
+      "kind": "other",
+      "cmd": "pull small lever",
+      "cost": 0.2
+    },
+    {
+      "to": 33161,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    }
+  ]
+}

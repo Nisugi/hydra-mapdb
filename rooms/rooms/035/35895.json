@@ -1,0 +1,61 @@
+{
+  "id": 35895,
+  "uid": [
+    3024011
+  ],
+  "title": [
+    "[River Muagh, Mangroves]"
+  ],
+  "description": [
+    "Wide and slow, the river meanders northward between clustered mistwood trees that tower over the banks on both sides.  Tiny black birds flit through the branches, the bravest occasionally diving into the tall grasses to find a snack."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      263,
+      785,
+      299,
+      821
+    ]
+  },
+  "exits": [
+    {
+      "to": 35894,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push west"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35896,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push northeast"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

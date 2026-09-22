@@ -1,0 +1,33 @@
+{
+  "id": 23852,
+  "title": [
+    "[Napporium, Foyer]"
+  ],
+  "description": [
+    "Large cushions are stacked against the walls of the foyer, each stack of a varying size.  Scattered throughout the foyer are a couple dimly burning metal sconces, offering light to a single orange hook, a single green hook, and a black mannequin.  A makeshift wooden arch offers entry to a second wagon connected by a series of overlapping planks."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Mist Harbor",
+  "exits": [
+    {
+      "to": 23849,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 23853,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 23882,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

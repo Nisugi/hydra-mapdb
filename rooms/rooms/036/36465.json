@@ -1,0 +1,53 @@
+{
+  "id": 36465,
+  "uid": [
+    55013
+  ],
+  "title": [
+    "[Black Swan Castle, Moat]"
+  ],
+  "description": [
+    "The surface of the moat here is smooth and reflective, like a smoked glass mirror.  You swim along, beguiled by its omninous beauty.  Just beneath your fast-kicking legs, you sense odd, turbulent vibrations welling up from the water's depths."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      760,
+      440,
+      800,
+      480
+    ]
+  },
+  "exits": [
+    {
+      "to": 36349,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 0.2
+    },
+    {
+      "to": 36350,
+      "kind": "other",
+      "cmd": "swim down",
+      "cost": 0.2
+    },
+    {
+      "to": 36452,
+      "kind": "other",
+      "cmd": "swim shore",
+      "cost": 0.2
+    },
+    {
+      "to": 36464,
+      "kind": "other",
+      "cmd": "swim north",
+      "cost": 0.2
+    }
+  ]
+}

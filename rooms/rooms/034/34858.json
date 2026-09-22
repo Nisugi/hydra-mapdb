@@ -1,0 +1,30 @@
+{
+  "id": 34858,
+  "uid": [
+    8084705
+  ],
+  "title": [
+    "[Murky Tunnel]"
+  ],
+  "description": [
+    "Rough, uneven surfaces press in from all sides, and spectral strands of cobwebs drape from the ceiling like decaying lace.  The ground continues its precipitous decline, and the air grows cooler, suffused with a strange, otherworldly glow as faint, dusky light spills from a dimly glowing fissure far ahead."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Evermore Hollow",
+  "exits": [
+    {
+      "to": 34857,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 34859,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    }
+  ]
+}

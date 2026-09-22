@@ -1,0 +1,47 @@
+{
+  "id": 17847,
+  "uid": [
+    266016
+  ],
+  "title": [
+    "[Hallway]"
+  ],
+  "description": [
+    "Uniformed maids and plainly dressed apprentices come and go through a simple wooden door in the south wall, which apparently leads to the servants' quarters."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-Illistim_rogue_guild-1267238976.jpg",
+    "rect": [
+      454,
+      906,
+      492,
+      942
+    ]
+  },
+  "exits": [
+    {
+      "to": 17846,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17850,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17852,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

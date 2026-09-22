@@ -1,0 +1,89 @@
+{
+  "id": 4647,
+  "uid": [
+    14051034
+  ],
+  "title": [
+    "[Gaertira's Herbs]"
+  ],
+  "description": [
+    "Colorfully-painted planters brimming with fresh herbs and flowers are supported by wooden poles that are evenly spaced around this open-air platform.  The numerous fragrances of this tiny treetop garden mingle together into a delightful harmony of aroma.  A modwir counter has been topped off with a granite slab, serving as a worktable for creating tinctures, tonics, and other healing concoctions."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "herbalist",
+    "urchin guide herbalist",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      503,
+      462,
+      524,
+      482
+    ]
+  },
+  "exits": [
+    {
+      "to": 4645,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4648,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4649,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

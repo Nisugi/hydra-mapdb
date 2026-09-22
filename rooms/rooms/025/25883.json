@@ -1,0 +1,44 @@
+{
+  "id": 25883,
+  "uid": [
+    3003040
+  ],
+  "title": [
+    "[Adventurers' Rest, Lapis Lounge]"
+  ],
+  "description": [
+    "The intricate mosaic tile floor depicts scenes from the history of Elanthia.  A gilt birdcage stands to one side.  Brightly colored native birds flutter about the cage, as though looking for a way back to their forest home."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:sovyn:entrance_annex",
+    "locker annex:House Sovyn"
+  ],
+  "image": {
+    "file": "ti-adventurers_rest-1486448911.png",
+    "rect": [
+      1488,
+      842,
+      1629,
+      900
+    ]
+  },
+  "exits": [
+    {
+      "to": 1938,
+      "kind": "go",
+      "cmd": "go curved archway",
+      "cost": 0.2
+    },
+    {
+      "to": 33046,
+      "kind": "other",
+      "cmd": "pull dwarvish tome in mistwood bookcase",
+      "cost": 0.2
+    }
+  ]
+}

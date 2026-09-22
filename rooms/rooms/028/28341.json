@@ -1,0 +1,72 @@
+{
+  "id": 28341,
+  "uid": [
+    287006
+  ],
+  "title": [
+    "[Bard Guild, Member's Bar]"
+  ],
+  "description": [
+    "Dim streetlight filters through this cozy room's thick curtains of loosely woven silk, casting a maroon-tinged glow over the scattered groups seated at the tables and private booths.  A magnificently carved mahogany bar runs the length of the west wall, its polished onyx surface reflecting the gleaming barware, bottles and brass of the trade.  An occasional raucous laugh or snippet of heated conversation filters through a heavy green velvet curtain on the north side of the room.",
+    "Dim sunlight filters through this cozy room's thick curtains of loosely woven silk, casting a maroon-tinged glow over the scattered groups seated at the tables and private booths.  A magnificently carved mahogany bar runs the length of the west wall, its polished onyx surface reflecting the gleaming barware, bottles and brass of the trade.  An occasional raucous laugh or snippet of heated conversation filters through a heavy green velvet curtain on the north side of the room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 10436,
+      "kind": "go",
+      "cmd": "go green curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 28338,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28342,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go dorian table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28343,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go ionian table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28344,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go mixolydian table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28345,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go locrian table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

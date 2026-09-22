@@ -1,0 +1,57 @@
+{
+  "id": 8549,
+  "uid": [
+    10101
+  ],
+  "title": [
+    "[Mountain Path]"
+  ],
+  "description": [
+    "The twisting trail, which follows the canyon to the northwest, suddenly ends at the base of a huge pile of rubble.  Glancing about, you assure yourself that the rocks have fallen from the sides of the surrounding cliffs.  You have heard that landslides and avalanches are not uncommon to this region and this seems to prove it."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "handful of currants",
+    "heath aster",
+    "ironfern root",
+    "juniper berry",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1235,
+      705,
+      1245,
+      715
+    ]
+  },
+  "exits": [
+    {
+      "to": 8546,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 8550,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rubble"
+        }
+      ],
+      "cost": 5.2
+    }
+  ]
+}

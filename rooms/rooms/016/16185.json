@@ -1,0 +1,54 @@
+{
+  "id": 16185,
+  "uid": [
+    216006
+  ],
+  "title": [
+    "[Beacon Hall, Display Room]"
+  ],
+  "description": [
+    "A long gallery of white marble shot with reddish veins extends along nearly the entire length of Beacon Hall.  Several arches on the west wall provide a splendid view across Maelstrom Bay.  A soft breeze filters through open windows, carrying a hint of sea salt and meadow flowers and causing three crystal chandeliers overhead to tinkle musically.  On the east wall, imposing glass display cases contain replicas and artifacts of historical significance."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "no forageables"
+  ],
+  "meta": [
+    "che:Beacon Hall Archive"
+  ],
+  "image": {
+    "file": "rr-beacon_hall-1405076623.png",
+    "rect": [
+      407,
+      568,
+      452,
+      613
+    ]
+  },
+  "exits": [
+    {
+      "to": 16183,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16186,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 16196,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

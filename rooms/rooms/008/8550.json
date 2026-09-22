@@ -1,0 +1,48 @@
+{
+  "id": 8550,
+  "uid": [
+    10102
+  ],
+  "title": [
+    "[Rubble Pile]"
+  ],
+  "description": [
+    "You are standing on the northern edge of the huge rubble pile.  It is much wider up here than you expected and you can easily travel several yards to the south with little difficulty.  To reach the floor of the narrow canyon to the north, you'll have to climb down the rubble pile."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "none",
+  "terrain": "rough",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-trollfang-1264234799.png",
+    "rect": [
+      1266,
+      621,
+      1276,
+      631
+    ]
+  },
+  "exits": [
+    {
+      "to": 8549,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb rubble"
+        }
+      ],
+      "cost": 5.2
+    },
+    {
+      "to": 8551,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

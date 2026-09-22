@@ -1,0 +1,64 @@
+{
+  "id": 34322,
+  "uid": [
+    13150306
+  ],
+  "title": [
+    "[Thunder Plateau, Northern Mesa]"
+  ],
+  "description": [
+    "Splintered tree branches encased in silver lichen reinforced with bits of dying flora and feathers comprise an enormous nest that partially encompasses this unusually flat plateau.  Two bracing beams support a large wooden column that has been driven through the ground at the eastern edge, and an immense iron wheel guides thick metal cables through an opening at the top and out across the open landscape below.  A sketchy rope bridge connects to another plateau to the south."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Stormpeak",
+  "climate": "moist",
+  "terrain": "rough",
+  "tags": [
+    "broken twig",
+    "cabbage rose",
+    "golden mushroom",
+    "virescent rose",
+    "wild chokecherry"
+  ],
+  "image": {
+    "file": "en-zul_logoth-storm_peaks-1703220375.png",
+    "rect": [
+      1347,
+      159,
+      1367,
+      178
+    ]
+  },
+  "exits": [
+    {
+      "to": 34319,
+      "kind": "other",
+      "cmd": "jump hook",
+      "cost": 0.2
+    },
+    {
+      "to": 34323,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 34324,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb rockface"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

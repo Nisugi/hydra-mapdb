@@ -1,0 +1,45 @@
+{
+  "id": 13986,
+  "uid": [
+    4750004
+  ],
+  "title": [
+    "[Castle Varunar, Moat]"
+  ],
+  "description": [
+    "You find yourself on the drawbridge that spans the castle moat.  Below you, scum covered water guards the castle walls from approach.  To the north you see a massive steel-barred gate that is standing open on broken hinges.  To the south you see the barbican."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Castle Varunar",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-trail-1264234799.png",
+    "rect": [
+      656,
+      445,
+      666,
+      455
+    ]
+  },
+  "exits": [
+    {
+      "to": 13985,
+      "kind": "go",
+      "cmd": "go drawbridge",
+      "cost": 0.2
+    },
+    {
+      "to": 13987,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 35896,
+  "uid": [
+    3024012
+  ],
+  "title": [
+    "[River Muagh, Mangroves]"
+  ],
+  "description": [
+    "The river meanders between wide, mangrove-laden banks, burbling as it flows eagerly toward the sea.  Dark, jagged cliffs are barely visible above the treeline to the north, almost hidden within the churning maelstrom of black clouds overhead."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      332,
+      722,
+      369,
+      758
+    ]
+  },
+  "exits": [
+    {
+      "to": 35895,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push southwest"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35897,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

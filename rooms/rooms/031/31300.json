@@ -1,0 +1,43 @@
+{
+  "id": 31300,
+  "uid": [
+    4410160
+  ],
+  "title": [
+    "[Dolgin's Den, Entrance]"
+  ],
+  "description": [
+    "Hanging mirrors are positioned around the perimeter of the entrance, reflecting light from a lantern to the southwest.  Ash and soot mingles with the earthy dirt on the ground to the northwest, the blending of their natural hues staining the bottom of a hanging doorway that leads out.  Roughly hewn beams of ironwood support thick, patchwork walls and a ceiling decorated with dark silks that hang from taut ropes overhead."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest, out"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 31299,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 31301,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 31327,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 31328,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

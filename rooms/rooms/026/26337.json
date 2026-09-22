@@ -1,0 +1,36 @@
+{
+  "id": 26337,
+  "title": [
+    "[Barracks, Darkness]"
+  ],
+  "description": [
+    "The room is full of darkness, making it impossible to see."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      1145,
+      280,
+      1171,
+      306
+    ]
+  },
+  "exits": [
+    {
+      "to": 26336,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26352,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

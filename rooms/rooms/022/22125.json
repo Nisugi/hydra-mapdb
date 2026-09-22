@@ -1,0 +1,61 @@
+{
+  "id": 22125,
+  "uid": [
+    106407
+  ],
+  "title": [
+    "[Cairnfang Manor, Hallway]"
+  ],
+  "description": [
+    "Partially covered, the polished linden floor shows at the edges of a cerulean carpet.  Several unique doors of different sizes and colors line the walls.  A small stream of water trickles down a rock formation built against the wall, patches of moss covering smooth stones in the basin.  A small marble fairy stands to one side, gazing at the waterfall."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the free port of Solhaven",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Cairnfang Manor"
+  ],
+  "image": {
+    "file": "vo-cairnfang_manor-1657584717.png",
+    "rect": [
+      549,
+      536,
+      562,
+      547
+    ]
+  },
+  "exits": [
+    {
+      "to": 22115,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 22126,
+      "kind": "go",
+      "cmd": "go fel door",
+      "cost": 0.2
+    },
+    {
+      "to": 22127,
+      "kind": "go",
+      "cmd": "go faewood door",
+      "cost": 0.2
+    },
+    {
+      "to": 22128,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 22133,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

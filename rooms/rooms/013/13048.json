@@ -1,0 +1,96 @@
+{
+  "id": 13048,
+  "uid": [
+    15005002
+  ],
+  "title": [
+    "[Ta'Illistim, Alearyl Hall]"
+  ],
+  "description": [
+    "High, corbeled arches give way to elaborately frescoed ceiling partitions, each glorified in hues of majestic purple, grey, and blue.  The floor is highly polished, matching the blue-grey granite common among other Ta'Illistim architecture.  A massive, maoral desk consumes a great portion of the room's far end and beyond it stands an iron-bound door along the southwest wall.  Two guards carefully watch those who pass through the hall."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "advguild",
+    "bounty",
+    "fire lily",
+    "urchin guide bounty",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      1608,
+      2562,
+      1676,
+      2627
+    ]
+  },
+  "exits": [
+    {
+      "to": 1767,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 13047,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13049,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13050,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

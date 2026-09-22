@@ -1,0 +1,50 @@
+{
+  "id": 9232,
+  "uid": [
+    7532032
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "An elegant stairway crafted from handcarved chunks of pink coral leads downward into the sunken pit.  One of the stairs is badly cracked and chipped, but is easily enough skipped as the distance between each of the steps is quite small."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1145,
+      1004,
+      1155,
+      1014
+    ]
+  },
+  "exits": [
+    {
+      "to": 9231,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9233,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 9237,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    }
+  ]
+}

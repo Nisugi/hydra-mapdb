@@ -1,0 +1,44 @@
+{
+  "id": 11386,
+  "uid": [
+    377323
+  ],
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "Spiraling upward, the black stone staircase is cut from the very stone of the wall of the Citadel.  Lining the hallway to the west is wood paneling covered in a thin layer of dust, occasionally gutted by the presence of dry rot and scarred by claw marks."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      510,
+      1230,
+      520,
+      1240
+    ]
+  },
+  "exits": [
+    {
+      "to": 11385,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11387,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 36445,
+  "uid": [
+    58057
+  ],
+  "title": [
+    "[Dungeon, Green Tunnel]"
+  ],
+  "description": [
+    "The thick, glowing green substance that thickly coats the curved walls drips and glops from top to bottom as the tunnel rotates slowly in a clockwise manner.  A faint, soft grinding is audible above the glopping and squishing of the goo as the tunnel spins around and around on its course."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2240,
+      600,
+      2280,
+      640
+    ]
+  },
+  "exits": [
+    {
+      "to": 36444,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36446,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

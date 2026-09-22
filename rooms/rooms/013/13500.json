@@ -1,0 +1,75 @@
+{
+  "id": 13500,
+  "uid": [
+    397003
+  ],
+  "title": [
+    "[Hearthstone, Foyer]"
+  ],
+  "description": [
+    "Dark flagstone floors extend in a gleaming river of darkness beneath thick, handwoven crimson rugs in this spacious foyer.  To the north, banners of purple, blue, green, and yellow flutter from a balcony railing some fifty feet overhead.  A granite archway sweeps along the length of the western wall, and a magnificent fieldstone staircase curves upward to the east."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "node"
+  ],
+  "image": {
+    "file": "wl-Hearthstone_Manor-1439662135.png",
+    "rect": [
+      423,
+      582,
+      491,
+      635
+    ]
+  },
+  "exits": [
+    {
+      "to": 477,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13119,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 13897,
+      "kind": "go",
+      "cmd": "go purple banner",
+      "cost": 0.2
+    },
+    {
+      "to": 14683,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 14684,
+      "kind": "go",
+      "cmd": "go yellow banner",
+      "cost": 0.2
+    },
+    {
+      "to": 14685,
+      "kind": "go",
+      "cmd": "go green banner",
+      "cost": 0.2
+    },
+    {
+      "to": 14686,
+      "kind": "go",
+      "cmd": "go blue banner",
+      "cost": 0.2
+    }
+  ]
+}

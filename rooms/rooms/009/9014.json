@@ -1,0 +1,57 @@
+{
+  "id": 9014,
+  "uid": [
+    733007
+  ],
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Two dogs wander aimlessly in the passageway, pausing to sniff along some unseen trail.  The loud clatter of cans sends them running off, tails tucked between their legs.  A pair of lovers hide in the shadows, in an attempt to conceal the illicitness of their affair, only to be startled by the sudden noise.",
+    "Two children play hide and seek in the passageway, their voices and laughing echoing loudly.  Tiny feet running up and down steps reverberate with a hollowness to their sound.  A young woman carries several packages, balancing them with the skill of a juggler, as she makes her way along the subterranean egress."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Solhaven",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1467,
+      339,
+      1479,
+      351
+    ]
+  },
+  "exits": [
+    {
+      "to": 9013,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 9015,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13742,
+      "kind": "go",
+      "cmd": "go clapboard shop",
+      "cost": 0.2
+    },
+    {
+      "to": 15857,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": 2658,
+  "uid": [
+    4562019
+  ],
+  "title": [
+    "[Stairs of Ice]"
+  ],
+  "description": [
+    "The stairs grow more pitched and hazardous with each step.  To each side, sheer walls rise up toward the arched ceiling, their surfaces covered with archaic sigils punctuated with pictographs.  Many of these portray drakes, in a multitude of postures."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Koar's Shrine",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-pinefar-1264234799.png",
+    "rect": [
+      363,
+      433,
+      373,
+      443
+    ]
+  },
+  "exits": [
+    {
+      "to": 2647,
+      "kind": "scripted",
+      "routine": {
+        "name": "flight_of_steps",
+        "wall": "northern"
+      },
+      "cost": 1.0
+    },
+    {
+      "to": 2659,
+      "kind": "scripted",
+      "routine": {
+        "name": "flight_of_steps",
+        "wall": "eastern"
+      },
+      "cost": 1.0
+    },
+    {
+      "to": 2660,
+      "kind": "scripted",
+      "routine": {
+        "name": "flight_of_steps",
+        "wall": "southern"
+      },
+      "cost": 1.0
+    },
+    {
+      "to": 2661,
+      "kind": "scripted",
+      "routine": {
+        "name": "flight_of_steps",
+        "wall": "western"
+      },
+      "cost": 1.0
+    }
+  ]
+}

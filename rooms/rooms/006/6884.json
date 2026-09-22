@@ -1,0 +1,44 @@
+{
+  "id": 6884,
+  "uid": [
+    21138
+  ],
+  "title": [
+    "[Abandoned Inn, Attic Storage]"
+  ],
+  "description": [
+    "Old furniture, trunks, crates and the like are spread chaotically around the room.  Some have been hastily covered with sheets, others were simply jammed into any available space.  Old clothes and piles of shabby china add to the rubble.  The only thing left clear of chaos is a large full-length mirror which leans against a wall, almost hidden in a shadow."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abandoned Inn",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      812,
+      1457,
+      822,
+      1467
+    ]
+  },
+  "exits": [
+    {
+      "to": 6863,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6887,
+      "kind": "go",
+      "cmd": "go mirror",
+      "cost": 0.2
+    }
+  ]
+}

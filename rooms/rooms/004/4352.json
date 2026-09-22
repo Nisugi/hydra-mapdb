@@ -1,0 +1,33 @@
+{
+  "id": 4352,
+  "title": [
+    "[Emerald Level, Corridor]"
+  ],
+  "description": [
+    "Naturally formed stalactites and stalagmites give way to the ironwood bracings of an artificial tunnel.  Where torchlight streaming from farther up the passage strikes the ground, the stone appears to be a dusky green-grey shade, though it seems perfectly black in shadow."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4351,
+      "kind": "go",
+      "cmd": "go pass",
+      "cost": 0.2
+    },
+    {
+      "to": 4353,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

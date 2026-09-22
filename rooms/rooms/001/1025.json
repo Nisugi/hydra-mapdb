@@ -1,0 +1,61 @@
+{
+  "id": 1025,
+  "uid": [
+    13002007
+  ],
+  "title": [
+    "[Western DragonSpine, Slope]"
+  ],
+  "description": [
+    "The thin ledge slowly disappears against the mountain towards the northwest, leaving the ledge to the southeast or the sheer rock cliff leading upward the only directions of travel.  The damp, cold air creates a raw atmosphere, its heavy mist blanketing the area.  Green and brown moss clings to many of the jagged rocks forming the ledge and wall of the mountain."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Khazar's Hold",
+  "climate": "cold, dry",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1294,
+      338,
+      1304,
+      348
+    ]
+  },
+  "exits": [
+    {
+      "to": 1024,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb cliff"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 1026,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

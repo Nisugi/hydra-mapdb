@@ -1,0 +1,42 @@
+{
+  "id": 19073,
+  "title": [
+    "[Spitfire, Forecastle Deck]"
+  ],
+  "description": [
+    "The forecastle deck overlooks the jib-boom, which juts out of the bow with its figurehead mounted beneath it.  Catheads protrude through the railing to starboard and port, and a small pawl bitt boasts a shining brass ship's bell.  A couple of burly halflings, their trousers rolled up to the knees, wield large brooms, scrubbing the spotless deck with sand sloshed in buckets of salt water."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the bay",
+  "image": {
+    "file": "fest-spitfire-1302895531.jpg",
+    "rect": [
+      88,
+      96,
+      126,
+      133
+    ]
+  },
+  "exits": [
+    {
+      "to": 19057,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19070,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19074,
+      "kind": "go",
+      "cmd": "go jib-boom",
+      "cost": 0.2
+    }
+  ]
+}

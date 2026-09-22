@@ -1,0 +1,176 @@
+{
+  "id": 1809,
+  "uid": [
+    13027031,
+    13027034
+  ],
+  "title": [
+    "[Wraithenmist, Maze of Mist]"
+  ],
+  "description": [
+    "The silvery mist is so thick it is impossible to even see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place.",
+    "The silvery mist is so thick it is impossible even to see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Wraithenmist",
+  "climate": "cold, damp",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "blueberries",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "ephlox moss",
+    "fiddlehead fern",
+    "golden flax fronds",
+    "luckbloom blossom",
+    "murdroot",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "soft mushroom",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "thanot thorn",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild pink geranium",
+    "wild rose",
+    "willow twig",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "maze"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      422,
+      330,
+      432,
+      340
+    ]
+  },
+  "exits": [
+    {
+      "to": 1808,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_while": [
+            "northeast",
+            {
+              "exit": "nw"
+            }
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 1810,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move_while": [
+            "southwest",
+            {
+              "exit": "sw"
+            }
+          ]
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 13224,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northeast",
+          "when": {
+            "exit": "ne"
+          }
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 13481,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        },
+        {
+          "move": "southwest",
+          "when": {
+            "not": {
+              "exit": "ne"
+            }
+          }
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 14664,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "southwest",
+          "when": {
+            "not": {
+              "exit": "ne"
+            }
+          }
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 14665,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest"
+        },
+        {
+          "move": "northeast",
+          "when": {
+            "exit": "ne"
+          }
+        }
+      ],
+      "cost": 0.4
+    }
+  ]
+}

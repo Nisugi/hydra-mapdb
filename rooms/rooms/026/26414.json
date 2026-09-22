@@ -1,0 +1,48 @@
+{
+  "id": 26414,
+  "title": [
+    "[Damsel of the Deep, Aftcastle]"
+  ],
+  "description": [
+    "Fanciful carvings decorate the edge planking around this raised portion of the upper deck at the stern of the sailing vessel.  Brass handrails aid passengers and crew alike when the sea swells exacerbate or the winds turn to gales.  One large cabin for the captain, and some smaller quarters for his mate, keep both in close proximity to the helm where a large ship's wheel is mounted firmly on the aftcastle decking."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Damsel of the Deep",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      528,
+      814,
+      542,
+      826
+    ]
+  },
+  "exits": [
+    {
+      "to": 26413,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 26415,
+      "kind": "go",
+      "cmd": "go cabin",
+      "cost": 0.2
+    },
+    {
+      "to": 26598,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 26729,
+      "kind": "go",
+      "cmd": "go quarters",
+      "cost": 0.2
+    }
+  ]
+}

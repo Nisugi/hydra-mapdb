@@ -1,0 +1,44 @@
+{
+  "id": 6614,
+  "uid": [
+    4285053
+  ],
+  "title": [
+    "[Alcove]"
+  ],
+  "description": [
+    "This alcove is a small, octagonal room.  The ceiling is arched and richly adorned with murals, their colors still vivid, resulting from the preservative absence of light.  They depict a fascinating panorama of satyrs and nymphs, cavorting through a fantastic wooded landscape.  A substantial door dominates the alcove, its modwir beams crossed with thick iron bands.  There is a faint outline of strange symbols across the door's surface."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Castle Anwyn",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      944,
+      644,
+      954,
+      654
+    ]
+  },
+  "exits": [
+    {
+      "to": 6613,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6615,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

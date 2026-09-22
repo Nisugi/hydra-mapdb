@@ -1,0 +1,78 @@
+{
+  "id": 17141,
+  "uid": [
+    14052003
+  ],
+  "title": [
+    "[Reformatory, Office]"
+  ],
+  "description": [
+    "Specifically aligned, three chairs rest in front of a lightly carved desk.  Arranged side by side on the desktop, miniature portraits of a child and a woman in her middle years are on display in ivory frames.  In the far corner, standing roughly three feet high, a plainly made wooden horse bears the burden of holding a brass-riveted saddle.  Smaller wood sculptures of a wolf, a caribou, and a snow leopard carved in amazing detail surround the horse in a semi-circle."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "jail",
+    "justice",
+    "urchin guide justice",
+    "urchin-access"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 4671,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 17142,
+      "kind": "go",
+      "cmd": "go stairwell",
+      "cost": 0.2
+    },
+    {
+      "to": 30717,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

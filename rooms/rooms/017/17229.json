@@ -1,0 +1,50 @@
+{
+  "id": 17229,
+  "uid": [
+    257007
+  ],
+  "title": [
+    "[Warrior Guild, Southern Grove]"
+  ],
+  "description": [
+    "A simple but sturdy wooden bridge arching over a small stream leads to the Guild Citadel.  Two elven sentries bearing pikes stand on either side of the building.  Neither appears terribly worried about intruders, as they seem to be engaged in a very animated conversation.",
+    "A simple but sturdy wooden bridge arching over a small stream leads to the Guild Citadel.  Two elven sentries bearing pikes stand on either side of the building.  It's hard to tell in the dim light, but one of them appears to be sleeping on his feet."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "deciduous forest",
+  "tags": [
+    "warrior guild leaves"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      184,
+      247,
+      204,
+      268
+    ]
+  },
+  "exits": [
+    {
+      "to": 17221,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17228,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17230,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

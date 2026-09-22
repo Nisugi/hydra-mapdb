@@ -1,0 +1,93 @@
+{
+  "id": 1843,
+  "uid": [
+    3001002
+  ],
+  "title": [
+    "[Ghorsa Isle, Plaza Southwest]"
+  ],
+  "description": [
+    "A stout marble tower dominates this corner of the plaza, standing nearly fifty feet high.  Members of various races wander about, some lingering on the marble benches flanking the plaza.  On the far western shore of the river, the ramshackle buildings of the poor quarter are covered by a constant haze."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "ti-teras-1264234799.png",
+    "rect": [
+      679,
+      746,
+      715,
+      782
+    ]
+  },
+  "exits": [
+    {
+      "to": 1840,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 1841,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 1844,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 1845,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30715,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

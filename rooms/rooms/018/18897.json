@@ -1,0 +1,135 @@
+{
+  "id": 18897,
+  "uid": [
+    678031
+  ],
+  "title": [
+    "[Mist Harbor, Vineyard]"
+  ],
+  "description": [
+    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, dragonflies flicker in and out of deep shadows cast by the large stone-faced building that towers over the area.  A blue and red-paned lantern hangs lightless to one side above an ornate bronze plaque.",
+    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, fireflies flicker in the deep shadows of the exotic and domestic plant life that threatens to consume the large stone-faced building that towers above the area.  A blue and red-paned lantern provides ample light to see by and also illuminates an ornate bronze plaque."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "cultivated",
+  "tags": [
+    "bay leaf",
+    "black peppercorn",
+    "blue passionflower",
+    "cardamom",
+    "cleric guild",
+    "clericguild",
+    "cumin seeds",
+    "curly garlic scapes",
+    "green guava",
+    "luckbloom blossom",
+    "nutmeg",
+    "onion skin",
+    "orange heliconia",
+    "orange-yellow starfruit",
+    "pink heliconia",
+    "pink passionflower",
+    "pink peppercorn",
+    "purple passion fruit",
+    "purple passionflower",
+    "red heliconia",
+    "red lychee",
+    "red onion",
+    "red passionflower",
+    "red-green mango",
+    "star anise",
+    "sweet onion",
+    "sweet potato",
+    "tobacco leaves",
+    "urchin guide clericguild",
+    "urchin-access",
+    "vanilla bean",
+    "wavepetal blossom",
+    "white passionflower",
+    "yellow heliconia",
+    "yellow papaya",
+    "yellow passionflower",
+    "yew twig"
+  ],
+  "meta": [
+    "mapcategory:Guilds",
+    "mapcategory:Isle of the Four Winds",
+    "mapcategory:Premium",
+    "mapname:Isle of the Four Winds - Cleric Guild",
+    "mapshortname:Cleric Guild (FWI)"
+  ],
+  "image": {
+    "file": "ifw-cleric_guild.png",
+    "rect": [
+      1264,
+      1920,
+      1472,
+      2098
+    ]
+  },
+  "exits": [
+    {
+      "to": 16728,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19548,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19860,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": {
+        "when": {
+          "profession": "Cleric"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

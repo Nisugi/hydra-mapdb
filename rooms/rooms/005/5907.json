@@ -1,0 +1,56 @@
+{
+  "id": 5907,
+  "uid": [
+    14100052
+  ],
+  "title": [
+    "[Ta'Vaalor, Victory Gate]"
+  ],
+  "description": [
+    "The towering limestone facade of the Victory Gate is heavily carved with scenes of battle.  Hordes of elves fight faceless wraithen shapes, as flames rise from the ground and jagged, ripped clouds hang above.  Several city guardsmen stand near the gate, inspecting all who pass."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "advguard",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-victory-1264234799.png",
+    "rect": [
+      1126,
+      370,
+      1136,
+      380
+    ]
+  },
+  "exits": [
+    {
+      "to": 3516,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unhide",
+          "when": {
+            "flag": "invisible"
+          }
+        },
+        {
+          "move": "go gate"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 5948,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

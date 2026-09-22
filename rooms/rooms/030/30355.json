@@ -1,0 +1,80 @@
+{
+  "id": 30355,
+  "uid": [
+    8213213
+  ],
+  "title": [
+    "[Duskruin Arena, The Cheap Seats]"
+  ],
+  "description": [
+    "Dimly illuminated, the cold stone benches are cheaply made and house none of the warmth found in the polished seats of the upper levels.  Dangerously close to the combatants, as evidenced by the gouges in the stone and the stained blood, this section houses warped barrels and a dusty board covered in food items.  The din of combat from the nearby stands fills the air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "hard, flat",
+  "tags": [
+    "cheap seats",
+    "cheapseats"
+  ],
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1429,
+      32,
+      1450,
+      49
+    ]
+  },
+  "exits": [
+    {
+      "to": 23789,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 23792,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 33578,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

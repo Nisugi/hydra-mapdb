@@ -1,0 +1,42 @@
+{
+  "id": 25695,
+  "uid": [
+    3223812
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Crashing waves send a salty mist into the air as they spend their fury upon the wall that rings the harbor.  Beyond the thick, brick barrier, the shopping district bustles with activity as people move in and out of a large warehouse.  In contrast to the busy streets beyond, the waterway calmly spreads outward towards the distant islands."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      961,
+      960,
+      980,
+      979
+    ]
+  },
+  "exits": [
+    {
+      "to": 25693,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 6955,
+  "uid": [
+    43062
+  ],
+  "title": [
+    "[Gorge, Intersection]"
+  ],
+  "description": [
+    "A large stream, or perhaps a small river, has carved a deep, narrow gorge into the native sedimentary stone here.  The walls of the gorge are almost vertical and provide no purchase.  In places, the limestone walls turn to glassy marbleized outcrops, as though some intense heat or force had crystallized or fused the rock together.  Such patches make it impossible to climb your way out."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "deciduous",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "ephlox moss",
+    "luckbloom blossom",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild beechnut",
+    "wild pink geranium",
+    "willow twig",
+    "wintergreen leaf",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      158,
+      206,
+      168,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 6954,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6985,
+      "kind": "scripted",
+      "routine": {
+        "name": "errand",
+        "errand": "sword_in_the_gorge"
+      },
+      "cost": {
+        "when": {
+          "level_at_least": 20
+        },
+        "then": 33.2
+      }
+    },
+    {
+      "to": 22229,
+      "kind": "go",
+      "cmd": "go pool",
+      "cost": {
+        "when": {
+          "level_at_least": 20
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

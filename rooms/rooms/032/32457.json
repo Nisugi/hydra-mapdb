@@ -1,0 +1,56 @@
+{
+  "id": 32457,
+  "uid": [
+    4577205
+  ],
+  "title": [
+    "[Moonsedge Castle, Vomitory]"
+  ],
+  "description": [
+    "The hallway is lined with dark crimson runners that mute the sound of footsteps.  They match the reds of the drapes that hang from the walls, softening the severity of the stone construction.  Portraits of finely dressed women, men, and children hang from the spaces in between the spills of fabric, baubles winking from their throats and hands an ostentatious display of aristocratic wealth.  The carpet leads through an arched opening to the west, passing by an unobtrusive steel door."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      989,
+      646,
+      1005,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 32456,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32458,
+      "kind": "go",
+      "cmd": "go steel door",
+      "cost": 0.2
+    },
+    {
+      "to": 32459,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 32488,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

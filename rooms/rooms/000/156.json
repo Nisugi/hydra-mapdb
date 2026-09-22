@@ -1,0 +1,100 @@
+{
+  "id": 156,
+  "uid": [
+    13101024
+  ],
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "This corner of the court is dominated by a round marble fountain.  A few solitary elves sit on the wide edge of the fountain, occasionally tossing a coin inside and murmuring a wish, as they steal shy glances around them.  The water descends from a tall center column, producing a musical burble that softens the noise of the city's daily traffic.",
+    "This corner of the court is dominated by a round marble fountain.  A few couples stroll hand-in-hand around the wide edge, occasionally stopping to toss a coin inside and murmur a wish, as they look lovingly into each others' eyes.  The water descends from a tall center column, producing a musical burble that obscures the lovers' words.",
+    "The cobblestoned court gives way for a circular fountain, whose edges are repurposed into a wide ledge of tiled seating.  Nearby, the marble facades of several shops look on, forming a ring around the open plaza."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "node",
+    "sanctuary",
+    "stalk of bluebells",
+    "supernode",
+    "urchin guide briarstone",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      433,
+      356,
+      456,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 155,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 157,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 208,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 715,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

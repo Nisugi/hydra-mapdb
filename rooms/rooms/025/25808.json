@@ -1,0 +1,62 @@
+{
+  "id": 25808,
+  "uid": [
+    3223879
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Darkly ominous, Charl's Teeth overshadow the lapping waves of the harbor, though its dark presence does not seem to extend to the islands that rise out of the ocean on the east and west.  Moonlight lends its silvery glow to the small coral structures that lay upon the ocean floor where glittering anemones wave in the current."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1600,
+      1919,
+      1621,
+      1939
+    ]
+  },
+  "exits": [
+    {
+      "to": 25807,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25809,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25810,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

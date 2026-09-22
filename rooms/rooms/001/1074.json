@@ -1,0 +1,62 @@
+{
+  "id": 1074,
+  "uid": [
+    13001038
+  ],
+  "title": [
+    "[Dead Plateau, Rope Ladder]"
+  ],
+  "description": [
+    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the moons and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast.",
+    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the sun and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Locksmehr Trail",
+  "climate": "cold, dry",
+  "terrain": "barren scrub",
+  "tags": [
+    "bright red teaberry",
+    "broken twig",
+    "cothinar flower",
+    "handful of currants",
+    "ironfern root",
+    "moonlight cactus-bloom",
+    "sprig of larkspur",
+    "stalk of chicory",
+    "sunburst blossom",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "en-trail-1264234799.png",
+    "rect": [
+      1247,
+      720,
+      1257,
+      730
+    ]
+  },
+  "exits": [
+    {
+      "to": 1073,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb ladder"
+        }
+      ],
+      "cost": 30.0
+    },
+    {
+      "to": 1075,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

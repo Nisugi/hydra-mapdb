@@ -1,0 +1,57 @@
+{
+  "id": 31872,
+  "uid": [
+    8083085
+  ],
+  "title": [
+    "[Garden of Shadows]"
+  ],
+  "description": [
+    "Several stone buildings are set within the cultivated grounds of a large garden with trails wending this way and that off the main pathway.  Tall trees entwined with brambles and vines outline the area, the canopy overhead dense enough to cast deep shadows while still allowing just enough light for the garden to thrive.  Blue-black rosebushes climb trellises amidst ivory moonflowers, while pale pink jasmine blossoms near evening primrose, all seemingly unaffected by the chill air and massive snow drifts all around."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Evermore Hollow",
+  "climate": "snowy, arctic",
+  "terrain": "coniferous",
+  "tags": [
+    "no forageables",
+    "winterbriar moss"
+  ],
+  "image": {
+    "file": "fest-naidem-part1-1696171838.png",
+    "rect": [
+      1245,
+      243,
+      1266,
+      264
+    ]
+  },
+  "exits": [
+    {
+      "to": 31871,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31873,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31893,
+      "kind": "go",
+      "cmd": "go old abbey",
+      "cost": 0.2
+    },
+    {
+      "to": 34866,
+      "kind": "go",
+      "cmd": "go bramble cottage",
+      "cost": 0.2
+    }
+  ]
+}

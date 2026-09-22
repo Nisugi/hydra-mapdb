@@ -1,0 +1,50 @@
+{
+  "id": 3053,
+  "uid": [
+    4050321
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "Snow blankets the landscape, though the path around Icemule Trace has been cleared, leaving piles of snow flush against the stone wall.  Shrubbery grows in great abundance here, most notably winterberry with its showy red berries."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      505,
+      601,
+      515,
+      611
+    ]
+  },
+  "exits": [
+    {
+      "to": 3052,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3054,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 28735,
+      "kind": "go",
+      "cmd": "go stone footpath",
+      "cost": 0.2
+    }
+  ]
+}

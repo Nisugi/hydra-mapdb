@@ -1,0 +1,56 @@
+{
+  "id": 35858,
+  "uid": [
+    3024006
+  ],
+  "title": [
+    "[River Muagh, Granite Canyon]"
+  ],
+  "description": [
+    "Sheer, granite canyon walls taper downwards from the south, the ends eroded and cracked as the landscape transitions into a muddy, verdant expanse of canver and mistwood trees to the north.  Considerably wide and deep, the river flows into white-capped rapids from the canyon's base."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "mountainous",
+  "tags": [
+    "bolmara lichen",
+    "wingstem root"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      96,
+      1113,
+      133,
+      1147
+    ]
+  },
+  "exits": [
+    {
+      "to": 35857,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push south"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35859,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

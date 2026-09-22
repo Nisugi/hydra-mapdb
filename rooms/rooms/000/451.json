@@ -1,0 +1,65 @@
+{
+  "id": 451,
+  "uid": [
+    52020
+  ],
+  "title": [
+    "[Melgorehn's Reach, Lake Eonak]"
+  ],
+  "description": [
+    "You are on the bank of a beautiful mountain lake that is fed by a waterfall gushing from the mountain side.  There is a path which seems to actually lead up the side of the mountain."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Melgorehn's Reach",
+  "climate": "freshwater",
+  "terrain": "coniferous forest",
+  "tags": [
+    "blue whortleberry",
+    "bolmara lichen",
+    "broken twig",
+    "handful of pinenuts",
+    "pine cone",
+    "pine needles",
+    "sticks",
+    "sunburst blossom",
+    "wild gooseberry",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      684,
+      624,
+      694,
+      634
+    ]
+  },
+  "exits": [
+    {
+      "to": 450,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 13038,
+      "kind": "go",
+      "cmd": "go visible trail",
+      "cost": 0.2
+    },
+    {
+      "to": 14726,
+      "kind": "go",
+      "cmd": "go mountain path",
+      "cost": 0.2
+    },
+    {
+      "to": 24501,
+      "kind": "go",
+      "cmd": "go cedar path",
+      "cost": 0.2
+    }
+  ]
+}

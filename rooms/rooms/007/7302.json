@@ -1,0 +1,44 @@
+{
+  "id": 7302,
+  "uid": [
+    18016
+  ],
+  "title": [
+    "[Graveyard, Tunnel]"
+  ],
+  "description": [
+    "The granite-walled tunnel here is in a state of disrepair, although it appears never to have been very well planned or constructed to begin with.  A low stone corridor leads off to the north, while a confusing jumble of channels are cut into the ground as you look south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Graveyard",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      568,
+      533,
+      578,
+      543
+    ]
+  },
+  "exits": [
+    {
+      "to": 7303,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7304,
+      "kind": "go",
+      "cmd": "go corridor",
+      "cost": 0.2
+    }
+  ]
+}

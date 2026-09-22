@@ -1,0 +1,86 @@
+{
+  "id": 8227,
+  "uid": [
+    390002
+  ],
+  "title": [
+    "[Wolves' Den, Entry Hall]"
+  ],
+  "description": [
+    "A tattered red banner hangs from the grey stones of the north wall.  The sturdy gates to the west have arrow slits to each side.  An armored skeleton lies by each.  A matched pair of doors leads east, and a passage south opens into a larger chamber."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Wolves' Den",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-mineroad-1264234799.png",
+    "rect": [
+      132,
+      259,
+      142,
+      269
+    ]
+  },
+  "exits": [
+    {
+      "to": 8226,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 8228,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 8245,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go second iron door"
+        },
+        {
+          "moves": [
+            "go iron door",
+            "go first iron door"
+          ],
+          "when": {
+            "not": {
+              "at": 8245
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 8247,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go first iron door"
+        },
+        {
+          "moves": [
+            "go iron door",
+            "go second iron door"
+          ],
+          "when": {
+            "not": {
+              "at": 8247
+            }
+          }
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

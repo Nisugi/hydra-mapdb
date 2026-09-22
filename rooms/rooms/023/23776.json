@@ -1,0 +1,46 @@
+{
+  "id": 23776,
+  "uid": [
+    8213005
+  ],
+  "title": [
+    "[Duskruin Arena, Entrance]"
+  ],
+  "description": [
+    "To either side of a set of stone steps stands a large suit of armor, one in golvern and the other in vultite, each polished to a shine.  Above them, carved into the stone itself are large letters spelling out the word, \"DUSKRUIN\"."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Duskruin Arena",
+  "terrain": "subterranean",
+  "image": {
+    "file": "fest-duskruin-1660957206.png",
+    "rect": [
+      1203,
+      369,
+      1231,
+      399
+    ]
+  },
+  "exits": [
+    {
+      "to": 23775,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 23777,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 23794,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    }
+  ]
+}

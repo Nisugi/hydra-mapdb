@@ -1,0 +1,57 @@
+{
+  "id": 21188,
+  "uid": [
+    265014
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Several narrow tunnels, each lined with concrete storm basins, branch off from the main passage in multiple directions.  Curtains of water fall with audible splashes into the various basins, the sound of their draining creating a roar that echoes through the area.  Descended at a sharp dip, a grated and brick-lined tunnel leads towards a well-illuminated nexus on a lower level."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "tags": [
+    "rogue guild administrator",
+    "rogue guild dirt"
+  ],
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      601,
+      603,
+      618,
+      618
+    ]
+  },
+  "exits": [
+    {
+      "to": 21163,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21186,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21189,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 21190,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

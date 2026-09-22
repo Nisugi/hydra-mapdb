@@ -1,0 +1,40 @@
+{
+  "id": 16984,
+  "uid": [
+    251012
+  ],
+  "title": [
+    "[Warrior Guild, Ringside]"
+  ],
+  "description": [
+    "Rows of benches line up before the boxing ring, letting a pretty sizable crowd sit comfortably and cheer the combatants as they practice their fisticuffs.  The Eastern Lawn and woodshed can be seen to the south."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      306,
+      944,
+      328,
+      966
+    ]
+  },
+  "exits": [
+    {
+      "to": 16982,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 16985,
+      "kind": "go",
+      "cmd": "go ring",
+      "cost": 0.2
+    }
+  ]
+}

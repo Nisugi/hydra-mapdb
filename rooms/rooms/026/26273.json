@@ -1,0 +1,48 @@
+{
+  "id": 26273,
+  "title": [
+    "[The Darkness With Inn, Barroom]"
+  ],
+  "description": [
+    "A long and stained wooden bar occupies the whole north wall of the tavern here at The Darkness With Inn.  Hard wooden chairs, tables and benches are spaced liberally throughout the room.  A trio of rotting krolvin pirates sits at the bar, blood dripping from their mouths as they feast on plates of smoked flesh."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      478,
+      518,
+      505,
+      546
+    ]
+  },
+  "exits": [
+    {
+      "to": 26272,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 26279,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26280,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26282,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 3665,
+  "uid": [
+    3201011
+  ],
+  "title": [
+    "[Gatehouse]"
+  ],
+  "description": [
+    "On either side of the gatehouse runs the cobblestone street to the tall, wrought iron gates that protect it.  The small gatehouse has been painted in a muted yellow hue and tiled in terra cotta.  Two guards man the entrance to the town, their demeanor a distant politeness as they nod to passersby.",
+    "Flanked on the east and west by guard towers, the small gatehouse stands silent sentry over the tall wrought iron gates that separate the encroaching jungle from the cobblestone streets of the town.  Painted in muted hues of yellow and crowned with terracotta tiles, the tiny structure provides shelter for a pair of guards that stand rigidly at attention."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Isle of Four Winds",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      2770,
+      2162,
+      2810,
+      2201
+    ]
+  },
+  "exits": [
+    {
+      "to": 3664,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3666,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3667,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17518,
+      "kind": "go",
+      "cmd": "go gates",
+      "cost": 0.2
+    }
+  ]
+}

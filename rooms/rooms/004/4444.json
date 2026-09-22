@@ -1,0 +1,45 @@
+{
+  "id": 4444,
+  "title": [
+    "[Topaz Level, Chute]"
+  ],
+  "description": [
+    "The steep tilt of the passage ends briefly at a leveled area, allowing access to several other tunnels.  It looks reasonably safe, although the downward edge of the earthen platform is starting to crumble."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up, down"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4443,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 4445,
+      "kind": "go",
+      "cmd": "go entry",
+      "cost": 0.2
+    },
+    {
+      "to": 4453,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4458,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

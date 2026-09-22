@@ -1,0 +1,52 @@
+{
+  "id": 16981,
+  "uid": [
+    251008
+  ],
+  "title": [
+    "[Warrior Guild, East Lawn]"
+  ],
+  "description": [
+    "Walking along this path that stretches across the East Lawn, you can smell the poignantly sweet scent wafting from the trellis draped with flower vines.  The trellis obscures the view of the pugilism ring that sits alongside the eastern wall of the Guild Hall.  South of the path sits the woodshed."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "grassland",
+  "tags": [
+    "warrior guild dummies",
+    "warrior guild leaves",
+    "warrior guild sauna",
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      264,
+      986,
+      286,
+      1008
+    ]
+  },
+  "exits": [
+    {
+      "to": 16980,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 16982,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 32805,
+      "kind": "go",
+      "cmd": "go sauna",
+      "cost": 0.2
+    }
+  ]
+}

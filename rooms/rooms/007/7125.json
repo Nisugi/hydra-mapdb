@@ -1,0 +1,52 @@
+{
+  "id": 7125,
+  "uid": [
+    41044
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The mouldy remains of some large animal lie in a heap in the corner.  A nicked and rusted sword sticks out at an angle, and white bones protrude from rotten, rat-chewed hide.  It looks like it's been here for a long time, which is good, since it would probably smell horrible otherwise."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "kiramon defender",
+    "kiramon worker",
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1028,
+      362,
+      1038,
+      372
+    ]
+  },
+  "exits": [
+    {
+      "to": 7124,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7126,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7127,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

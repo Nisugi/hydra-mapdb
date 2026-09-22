@@ -1,0 +1,44 @@
+{
+  "id": 7073,
+  "uid": [
+    44047
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You pick your way fearfully through the dark, one careful step at a time.  You hear a drip, drip, drip coming from somewhere over your head, and a faint rustling noise coming from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      703,
+      1063,
+      713,
+      1073
+    ]
+  },
+  "exits": [
+    {
+      "to": 7072,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 7074,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

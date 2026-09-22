@@ -1,0 +1,52 @@
+{
+  "id": 33701,
+  "uid": [
+    730352
+  ],
+  "title": [
+    "[Trader's Refuge, Apartment]"
+  ],
+  "description": [
+    "Bright and airy colors in this room counterbalance the darkly stained oak floors and dim light filtering in through a white linen-curtained window flanked by a pair of sconces. On opposite walls, a carved white door and a carved light blue door lead to adjoining rooms while the center is devoted to entertaining guests.  A pair of soft leather couches and a whitewashed driftwood table serve as a comfortable seating area, while a large glass aquarium divides it from the entry area."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Trader's Refuge, inside the seaside town of Solhaven",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 33700,
+      "kind": "go",
+      "cmd": "go oak doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 33702,
+      "kind": "go",
+      "cmd": "go blue door",
+      "cost": 0.2
+    },
+    {
+      "to": 33703,
+      "kind": "go",
+      "cmd": "go white door",
+      "cost": 0.2
+    },
+    {
+      "to": 33704,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33705,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

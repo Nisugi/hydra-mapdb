@@ -1,0 +1,51 @@
+{
+  "id": 3220,
+  "uid": [
+    4050303
+  ],
+  "title": [
+    "[Icemule Trace, Exterior]"
+  ],
+  "description": [
+    "The glassy surface of an iced over pond reflects the sun's rays, making a cheery display for the single bench that keeps it company.  Breadcrumbs and bird seed have been scattered around in a kindhearted attempt to keep the local livestock well-fed.",
+    "The glassy surface of an iced over pond distorts the moon's reflection, making an eerie display for the single bench that keeps it company.  The soft hoot of an owl comes from the shelter of a nearby tree and is followed with a reply a moment later."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-south_gate-1647231707.png",
+    "rect": [
+      344,
+      492,
+      354,
+      502
+    ]
+  },
+  "exits": [
+    {
+      "to": 3219,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3221,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 29802,
+      "kind": "go",
+      "cmd": "go icy path",
+      "cost": 0.2
+    }
+  ]
+}

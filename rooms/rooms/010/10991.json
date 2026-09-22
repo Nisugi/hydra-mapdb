@@ -1,0 +1,62 @@
+{
+  "id": 10991,
+  "uid": [
+    15003002
+  ],
+  "title": [
+    "[Mislin Hall, Entry]"
+  ],
+  "description": [
+    "A rustic chandelier crafted from an old ship's wheel casts a ruddy glow across a polished maoral floor inlaid with a detailed pattern in knotted pale oak.  Weapon racks and full suits of armor guard archways leading off the entry foyer, and a plush green runner softens a grand staircase leading to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "adventurers_guild-1485358936.png",
+    "rect": [
+      295,
+      1577,
+      362,
+      1644
+    ]
+  },
+  "exits": [
+    {
+      "to": 10867,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    },
+    {
+      "to": 10992,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10993,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 10994,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 16023,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

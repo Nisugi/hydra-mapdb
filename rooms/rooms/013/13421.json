@@ -1,0 +1,237 @@
+{
+  "id": 13421,
+  "uid": [
+    13111033
+  ],
+  "title": [
+    "[Veythorne Manor, Gardens]"
+  ],
+  "description": [
+    "A plethora of tiny saplings grow among the grassy patches of earth that lack a thick carpet of verdant moss, their tiny leaves stretching forth to harvest a plentiful bounty of sunlight.  Half-buried stones peek out from beneath the ground, each ringed by a variety of wildflowers and stargazer lilies.  Deep shadows obscure the southeastern path, the dark boughs of the trees overhead closing in tight to form a velvety shroud of darkness.",
+    "A plethora of tiny saplings grow among the grassy patches of earth that lack a thick carpet of verdant moss, their tiny leaves illuminated dimly by the faint starlight.  Half-buried stones peek out from beneath the ground, each ringed by a variety of wildflowers and stargazer lilies.  Deep shadows obscure the southeastern path, the dark boughs of the trees overhead closing in tight to form a velvety shroud of darkness -- yet brief pinpoints of light wink in and out of existence within the blackness."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, west"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "arbutus berry",
+    "black peppercorn",
+    "blaestonberries",
+    "blaestonberry blossom",
+    "blue trafel mushroom",
+    "blue whortleberry",
+    "bright orange",
+    "brown potato",
+    "brown-skinned kiwi",
+    "cactacae spine",
+    "calamia fruit",
+    "cardamom",
+    "chives",
+    "creamy white wisteria",
+    "crystal-like sylthiel",
+    "cumin seeds",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dark blue honeyberries",
+    "dark blue wisteria",
+    "deep purple wisteria",
+    "ear of corn",
+    "fennel bulb",
+    "fig",
+    "fire lily",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh broccoli",
+    "garlic",
+    "genkew mushroom",
+    "ghostly blue aplixta",
+    "golden buttercup",
+    "green beans",
+    "green cabbage",
+    "green olive",
+    "haphip root",
+    "heath aster",
+    "honeysuckle vine",
+    "hop flowers",
+    "hosta flower",
+    "Imaera's Lace",
+    "iris blossom",
+    "juicy plum",
+    "large sunflower",
+    "large white gardenia",
+    "leek",
+    "light blue hydrangea",
+    "luckbloom blossom",
+    "motherwort",
+    "mustard seeds",
+    "nightbloom blossom",
+    "nutmeg",
+    "onion skin",
+    "orange begonia",
+    "pale rose pink wisteria",
+    "pea pods",
+    "peacock green rose",
+    "pearlescent rose",
+    "pink begonia",
+    "pink hydrangea",
+    "pink oleander",
+    "pink peony",
+    "pink peppercorn",
+    "plump black mulberries",
+    "purple cabbage",
+    "purple datura blossom",
+    "purple hydrangea",
+    "purple potato",
+    "rainbow chard",
+    "raspberries",
+    "red begonia",
+    "red cherries",
+    "red oleander",
+    "red onion",
+    "rhubarb",
+    "rose-marrow root",
+    "round red radish",
+    "safflower seeds",
+    "scallions",
+    "shallot",
+    "small anemone",
+    "small apple",
+    "small daisy",
+    "small flower",
+    "small primrose",
+    "small rose",
+    "small turnip",
+    "small violet",
+    "snapdragon stalk",
+    "soft mushroom",
+    "sovyn clove",
+    "sprig of boxwood",
+    "sprig of clematis",
+    "sprig of foxglove",
+    "sprig of holly",
+    "sprig of jasmine",
+    "sprig of lavender",
+    "sprig of mournbloom",
+    "sprig of tarragon",
+    "sprig of wild phlox",
+    "stalk of celery",
+    "stalk of monkeyflower",
+    "stalk of tuberose",
+    "stalk of wormwood",
+    "star anise",
+    "stargazer lily",
+    "stem of freesia flowers",
+    "stem of verbena",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "tendril of vinca",
+    "thistle seeds",
+    "thyme",
+    "tiger lily",
+    "trollfear mushroom",
+    "urchin-access",
+    "vanilla bean",
+    "vert globe artichoke",
+    "viburnum twig",
+    "violet sel'elun vine",
+    "wavepetal blossom",
+    "white begonia",
+    "white datura blossom",
+    "white hydrangea",
+    "white lily",
+    "white oleander",
+    "white peony",
+    "white ramie",
+    "wild pansy blossom",
+    "wild rice",
+    "wild spinach",
+    "withered mushroom",
+    "yellow carrot",
+    "yellow datura blossom",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      186,
+      152,
+      202,
+      167
+    ]
+  },
+  "exits": [
+    {
+      "to": 13415,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13416,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 13420,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 13424,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 13425,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

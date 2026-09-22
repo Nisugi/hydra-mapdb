@@ -1,0 +1,89 @@
+{
+  "id": 1216,
+  "uid": [
+    2123007
+  ],
+  "title": [
+    "[Upper Trollfang, Winding Trees]"
+  ],
+  "description": [
+    "Winding again to the east, the path takes you back and forth through the trees making you wonder if there might be a better path hidden deeper within the foliage.  Somewhere far from the path, you can hear something moving quickly through the forest."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, dry",
+  "terrain": "deciduous forest",
+  "tags": [
+    "acantha leaf",
+    "angelica root",
+    "bolmara lichen",
+    "bright red cranberry",
+    "bright red teaberry",
+    "broken twig",
+    "brostheras grass",
+    "ephlox moss",
+    "luckbloom blossom",
+    "oak twig",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "slender twig",
+    "stalk of bluebells",
+    "sticks",
+    "sweetfern stalk",
+    "tkaro root",
+    "tree bark",
+    "twisted twig",
+    "valerian root",
+    "white hook mushroom",
+    "wild beechnut",
+    "wild pink geranium",
+    "willow twig",
+    "wintergreen leaf",
+    "wolifrew lichen",
+    "yew twig"
+  ],
+  "image": {
+    "file": "wl-danjirland-1264234799.png",
+    "rect": [
+      999,
+      980,
+      1009,
+      990
+    ]
+  },
+  "exits": [
+    {
+      "to": 1215,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 1217,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "discover a small footpath"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "move": "go footpath"
+        }
+      ],
+      "cost": 20.0
+    },
+    {
+      "to": 7890,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

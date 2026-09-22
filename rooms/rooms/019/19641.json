@@ -1,0 +1,65 @@
+{
+  "id": 19641,
+  "uid": [
+    10021
+  ],
+  "title": [
+    "[Glowing Intersection]"
+  ],
+  "description": [
+    "Clumps of an odd fungus cling to the walls and ceiling of this room and glow with a dim greenish-gray light.  Passages lead off in several directions, each one black and silent."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      579,
+      999,
+      592,
+      1013
+    ]
+  },
+  "exits": [
+    {
+      "to": 19640,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 19658,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19660,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19661,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 19662,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

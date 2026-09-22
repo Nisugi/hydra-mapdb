@@ -1,0 +1,57 @@
+{
+  "id": 17360,
+  "uid": [
+    253007
+  ],
+  "title": [
+    "[Warrior Guild, East Hall]"
+  ],
+  "description": [
+    "The arched door to your east stands open, admitting a breeze that stirs the humid air.  The whitewashed walls bear water stains that someone has tried unsuccessfully to hide behind a potted fern.  A utilitarian set of steel armor stands nearby, its surface blooming with the first signs of rust in the damp atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Warrior Guild",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild armor"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      882,
+      988,
+      903,
+      1006
+    ]
+  },
+  "exits": [
+    {
+      "to": 17359,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17361,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go glass door"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17368,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go arched door"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

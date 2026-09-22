@@ -1,0 +1,52 @@
+{
+  "id": 36106,
+  "uid": [
+    105302
+  ],
+  "title": [
+    "[House Arcane, Hallway]"
+  ],
+  "description": [
+    "Two oil lamps flank the mahogany door to Lady Kayla's room.  Their soft light flickers and dances over the intricate carvings in the hard wood.  Her doorknob is cut from the heart of a large shard of golden quartz and sparkles like the eye of a crystal dragon.  On the other side of the hallway is a doorway draped in black velvet which, parted, reveals a door panelled with black vultite.  Almost hidden in the shadows is an onyx door that leads to Zharahk's room."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-house_arcane-1765480679.png",
+    "rect": [
+      241,
+      501,
+      320,
+      580
+    ]
+  },
+  "exits": [
+    {
+      "to": 36105,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 36109,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 36110,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 36111,
+      "kind": "go",
+      "cmd": "go black door",
+      "cost": 0.2
+    }
+  ]
+}

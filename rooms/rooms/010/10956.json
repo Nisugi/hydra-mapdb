@@ -1,0 +1,86 @@
+{
+  "id": 10956,
+  "uid": [
+    2101955
+  ],
+  "title": [
+    "[River's Rest Inn, Lobby]"
+  ],
+  "description": [
+    "Spacious and airy, the lobby of this small island inn welcomes the weary traveler.  Tucked away in the far corner of the room, a simple wooden staircase spirals up, out of sight, to the second floor.  Casual groups of comfortably worn sofas and chairs are scattered about.  At the base of the staircase, a jovial innkeeper stands behind a massive counter, passing out keys and keeping an eye on the lobby.  Occasional bursts of laughter filter in from the archway to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "inn",
+    "no forageables",
+    "urchin guide inn",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 10860,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 10957,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 10959,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 10960,
+      "kind": "climb",
+      "cmd": "climb staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

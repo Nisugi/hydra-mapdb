@@ -1,0 +1,50 @@
+{
+  "id": 2287,
+  "uid": [
+    3030256
+  ],
+  "title": [
+    "[Mausoleum, Catacombs]"
+  ],
+  "description": [
+    "Your feet stir clouds of dust, which hang like pale ghosts in the still, musty air.  Ruined coffins line the walls of dark stone, each closed up tight for the ages.  High on one wall, a gaping hole leads back out."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Fhorian Village",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      119,
+      972,
+      129,
+      982
+    ]
+  },
+  "exits": [
+    {
+      "to": 2286,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    },
+    {
+      "to": 2288,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2299,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

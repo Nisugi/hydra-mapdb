@@ -1,0 +1,47 @@
+{
+  "id": 6361,
+  "uid": [
+    731044
+  ],
+  "title": [
+    "[Henty's Depot, Ceilings]"
+  ],
+  "description": [
+    "A massive ramp runs along side some stairs connecting the first and second floors of the building.  Stacks of sealed crates have been marked with red paint, gathering dust while awaiting transport up the ramp.  Beside an open window with a clear view of the street, a varnished maple stand holds a thick tome listing the store inventory."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 6359,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6362,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6363,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 15513,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    }
+  ]
+}

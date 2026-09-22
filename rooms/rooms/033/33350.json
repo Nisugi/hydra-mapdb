@@ -1,0 +1,101 @@
+{
+  "id": 33350,
+  "uid": [
+    730326
+  ],
+  "title": [
+    "[Marshtown, Abandoned Courtyard]"
+  ],
+  "description": [
+    "This abandoned courtyard appears to be used predominately for storage.  Stacks of crates and the ubiquitous Marshtown barrel are piled high in the open space.  Barely visible within the maze of wooden containers is a bricked-over white marble archway at the back of the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Safe Harbor, inside the seaside town of Solhaven",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 5728,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 33351,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go brick-covered door",
+          "when": {
+            "wearing_noun": "key"
+          }
+        },
+        {
+          "empty_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "get my {setting:safe_harbor} from my {setting:keysack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "move": "go brick-covered door",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "put": "put my key in my {setting:keysack}",
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        },
+        {
+          "fill_hands": null,
+          "when": {
+            "otherwise": {
+              "wearing_noun": "key"
+            }
+          }
+        }
+      ],
+      "cost": {
+        "when": {
+          "any": [
+            {
+              "wearing_noun": "key"
+            },
+            {
+              "all": [
+                {
+                  "setting_is_set": "safe_harbor"
+                },
+                {
+                  "setting_is_set": "keysack"
+                }
+              ]
+            }
+          ]
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

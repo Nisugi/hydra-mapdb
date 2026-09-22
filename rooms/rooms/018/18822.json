@@ -1,0 +1,62 @@
+{
+  "id": 18822,
+  "uid": [
+    14202001
+  ],
+  "title": [
+    "[Sorcerer's Isle, Shore]"
+  ],
+  "description": [
+    "Wavelets from the river lap incessantly against the pebbly beach created by an outwash of a small creek flowing in from the heart of the island.  A pair of large pine trees frame the beach, their ancient roots clinging to the eroding soil like gnarled fingers.  The creek-bed wends its way to the river through a dense thicket of reeds to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Sorcerer's Isle",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "aloeas stem",
+    "murdroot",
+    "orchil lichen",
+    "stalk of cattail",
+    "sunburst blossom",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild gooseberry",
+    "wood violet"
+  ],
+  "image": {
+    "file": "en-ravelin.png",
+    "rect": [
+      1239,
+      286,
+      1267,
+      311
+    ]
+  },
+  "exits": [
+    {
+      "to": 18821,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 18823,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "go river"
+        },
+        {
+          "move": "go river"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

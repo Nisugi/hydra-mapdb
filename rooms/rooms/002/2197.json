@@ -1,0 +1,53 @@
+{
+  "id": 2197,
+  "uid": [
+    3061001
+  ],
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Molten lava once used this chamber to make its way to the surface, but the chamber and the passageways beyond are empty now, the lava having found a different path to travel.  The walls of the cavern have given up little of their heat and they still flow red and white in some locations."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Eye of V'Tull",
+  "climate": "arid",
+  "terrain": "subterranean",
+  "tags": [
+    "cave moss",
+    "daggerstalk mushroom",
+    "pepperthorn root",
+    "trafel mushroom"
+  ],
+  "image": {
+    "file": "ti-vtull-1663120653.png",
+    "rect": [
+      768,
+      601,
+      776,
+      609
+    ]
+  },
+  "exits": [
+    {
+      "to": 2196,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 2198,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12769,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

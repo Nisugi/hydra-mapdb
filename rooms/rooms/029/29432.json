@@ -1,0 +1,48 @@
+{
+  "id": 29432,
+  "title": [
+    "[Briarmoon Cove, Bazaar]"
+  ],
+  "description": [
+    "Frost-crested stones are artfully positioned along the decorative perimeter of the curving path, flanking a swirling sea glass mosaic that is firmly pressed into the central walkway.  The ornamentation terminates abruptly at a dense thicket of cypress trees, and the lively market area ahead widens into a section with plentiful wares."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      553,
+      336,
+      575,
+      358
+    ]
+  },
+  "exits": [
+    {
+      "to": 29431,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 29433,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29441,
+      "kind": "go",
+      "cmd": "go ramshackle hut",
+      "cost": 0.2
+    },
+    {
+      "to": 29442,
+      "kind": "go",
+      "cmd": "go teak cabin",
+      "cost": 0.2
+    }
+  ]
+}

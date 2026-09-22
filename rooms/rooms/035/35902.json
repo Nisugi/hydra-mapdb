@@ -1,0 +1,45 @@
+{
+  "id": 35902,
+  "uid": [
+    3024027
+  ],
+  "title": [
+    "[Gargantuan Skull]"
+  ],
+  "description": [
+    "The dark spaces within the skull are intermittently interrupted by the angular edges of a pale, bony interior.  Small fractures run across the top and widen into cracks as they branch toward a large, jagged gash in one side that reveals the only way out.  The one remaining eye socket is angled outward on the opposite side, serving as a makeshift window from within this bizarre space."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the River Muagh",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      331,
+      235,
+      367,
+      272
+    ]
+  },
+  "exits": [
+    {
+      "to": 35901,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "get chain"
+        },
+        {
+          "move": "push chain"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

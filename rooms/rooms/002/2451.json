@@ -1,0 +1,64 @@
+{
+  "id": 2451,
+  "uid": [
+    4042303
+  ],
+  "title": [
+    "[Icemule Trace, East Road]"
+  ],
+  "description": [
+    "Adventurers thread through the crowd cluttering the eastbound road, ornate weapons and flamboyant attire standing out from the more common furs and wool worn by merchants and locals.  Young halfling and human children run around near the street, tugging at travelers' coattails in an effort to hawk cheap gems.  Wooden building sits amidst the chaos, its yard heaped with crates, barrels, and trunks, while a well-lit dark stone shop seems to have taken a more reserved approach, standing away from the busy throng.",
+    "Crowds of adventurers flock along this main road, traveling back and forth between the East Gate and the Icemule town center.  Young children run around, tugging at travellers' coattails as they hawk cheap gems.  A rather squat wooden building sits comfortably on the north side of the road."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west",
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      848,
+      785,
+      884,
+      821
+    ]
+  },
+  "exits": [
+    {
+      "to": 2427,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 2452,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 2472,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3372,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    },
+    {
+      "to": 32867,
+      "kind": "go",
+      "cmd": "go dark shop",
+      "cost": 0.2
+    }
+  ]
+}

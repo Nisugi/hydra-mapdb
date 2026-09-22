@@ -1,0 +1,46 @@
+{
+  "id": 33682,
+  "uid": [
+    7101225
+  ],
+  "title": [
+    "[Keep Tower, Riverwood Room]"
+  ],
+  "description": [
+    "Ripped velvet pads the six placards that decorate the walls of the room, though the bare display hooks give no hint at what might have been displayed.  Cryptic etchings, visible beneath the layer of dust, are written in a concise hand, but no evidence of who the creator was is available within the tiny room.  Twin niches flank the room."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1256,
+      326,
+      1303,
+      373
+    ]
+  },
+  "exits": [
+    {
+      "to": 33655,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33683,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33684,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

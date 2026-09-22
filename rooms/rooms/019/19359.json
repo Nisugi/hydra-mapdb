@@ -1,0 +1,102 @@
+{
+  "id": 19359,
+  "uid": [
+    3223007
+  ],
+  "title": [
+    "[Eastern Harbor, Sea Turtle Lane]"
+  ],
+  "description": [
+    "Surrounded by flowering trees, the teak and cedar villa sprawls across a petal-strewn lawn along the northern edge of the street.  Glassless windows provide a view of the cobalt blue walls of the interior, while the exterior is marked by an elegant painted sign and an arched entry that exudes a welcoming atmosphere.  Golden sunlight illuminates the tangled clusters of the surrounding foliage, which provides a pleasant contrast to the bright white of the cobblestoned street.",
+    "Surrounded by flowering trees, the teak and cedar villa sprawls across a petal-strewn lawn along the northern edge of the street.  Wide open windows, illuminated from within, provide a view of the cobalt blue walls of the interior, while the exterior is marked by an elegant painted sign and an arched entry that exudes a welcoming atmosphere.  Circles of lamplight pool upon the cobblestones and cast shadows in the surrounding foliage that partially obscure a vast marble castle."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "urchin guide wizardguild",
+    "urchin-access",
+    "wizard guild",
+    "wizardguild"
+  ],
+  "image": {
+    "file": "ifw-isle_of_four_winds-1310232949.png",
+    "rect": [
+      3616,
+      1607,
+      3643,
+      1630
+    ]
+  },
+  "exits": [
+    {
+      "to": 19356,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 19360,
+      "kind": "go",
+      "cmd": "go villa",
+      "cost": 0.2
+    },
+    {
+      "to": 19361,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27618,
+      "kind": "go",
+      "cmd": "go double door",
+      "cost": {
+        "when": {
+          "profession": "Wizard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30718,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

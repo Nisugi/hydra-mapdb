@@ -1,0 +1,44 @@
+{
+  "id": 21749,
+  "uid": [
+    103003
+  ],
+  "title": [
+    "[House Phoenix, Library]"
+  ],
+  "description": [
+    "The library of the House is a largish room, with walls completely hidden by bookcases.  A wide selection of reading material can be seen from a cursory glance.  Treatises on science and history stand next to ancient volumes on forest lore and magic.  One rather extensive section seems devoted to arms and armor and the many subjects dealing with the arts of war.  Locked glass-fronted cabinets hold rare tomes and fragile scrolls and even the odd clay tablet.  Scattered around the room are several chairs."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Rising Phoenix"
+  ],
+  "image": {
+    "file": "wl-house_phoenix-1485115199.png",
+    "rect": [
+      953,
+      979,
+      1068,
+      1053
+    ]
+  },
+  "exits": [
+    {
+      "to": 21747,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 21750,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 7990,
+  "uid": [
+    104505
+  ],
+  "title": [
+    "[House of Paupers, Lounge]",
+    "[Paupers, Lounge]"
+  ],
+  "description": [
+    "You hear the sound of muted conversation and laughter coming from the Common room, though the thick carpets which cover the floor seem to absorb some of the sound.  The walls are paneled in polished mahogany and are decorated with several silver candle sconces which shed their warm light onto the tables scattered about the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of Paupers"
+  ],
+  "image": {
+    "file": "wl-house_paupers.jpg",
+    "rect": [
+      897,
+      338,
+      979,
+      391
+    ]
+  },
+  "exits": [
+    {
+      "to": 7986,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 8747,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 32853,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Singing Traveler table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32854,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Elemental Fire table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32855,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Minor Water table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32856,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Tangleweed table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 32857,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Mana table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 36441,
+  "uid": [
+    58052,
+    58053
+  ],
+  "title": [
+    "[Dungeon, Stream]"
+  ],
+  "description": [
+    "You find yourself walking across the surface of a swiftly flowing stream.  Inexplicably, you do not sink even the slightest bit, but the strong current is rushing you toward the north wall and you find that you must sidestep in order to keep your balance.  It might be best to move as quickly as possible.  You notice several glowing rods which seem to penetrate the surface of the water at the southern end of the tunnel.",
+    "You find yourself wading through a waist-deep stream that cuts through this chamber.  The water is numbingly cold and the waters move swiftly, making the going difficult and uncomfortable.  There is a set of rods overhead that drip with moisture as if they have recently been removed from the water."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2080,
+      680,
+      2120,
+      720
+    ]
+  },
+  "exits": [
+    {
+      "to": 36440,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36442,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

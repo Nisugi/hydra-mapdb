@@ -1,0 +1,55 @@
+{
+  "id": 14013,
+  "uid": [
+    4384012
+  ],
+  "title": [
+    "[East Wing Corridor]"
+  ],
+  "description": [
+    "This corridor is quiet, and the decorations here are minimal.  A soft carpet woven with several hues of complementary autumnal shades matches the polished cherrywood of the walls.  A golden haon door stands between a pair of triple-pronged candelabrum affixed to the walls, and opposite is a scorched monir door and an oak door inlaid with jade vines."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "tags": [
+    "no-auto-map"
+  ],
+  "meta": [
+    "mentor"
+  ],
+  "exits": [
+    {
+      "to": 13533,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 14014,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 14015,
+      "kind": "go",
+      "cmd": "go monir door",
+      "cost": 0.2
+    },
+    {
+      "to": 14016,
+      "kind": "go",
+      "cmd": "go golden door",
+      "cost": 0.2
+    },
+    {
+      "to": 14023,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

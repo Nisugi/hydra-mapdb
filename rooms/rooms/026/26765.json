@@ -1,0 +1,48 @@
+{
+  "id": 26765,
+  "title": [
+    "[Underground]"
+  ],
+  "description": [
+    "The amber cast of the torchlight makes the damp, grey stones glisten with a green iridescence, giving the widening chamber a sickly countenance.  To one side, shelves have been carved into the rock, and they rise into an arch that shelters a carved granite altar.  On the other lies a seeming shrine of bones, stacked high and wide and arranged in configurations both mystical and profane.",
+    "The amber cast of the torchlight makes the damp, grey stones glisten with a green iridescence, giving the widening chamber a sickly countenance.  To one side, shelves have been carved into the rock, and they rise into an arch that shelters a crumbling granite altar.  On the other lies a seeming shrine of bones, stacked high and wide and arranged in configurations both mystical and profane."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Caligos Isle",
+  "exits": [
+    {
+      "to": 26764,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 26766,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 27623,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_while": [
+            "search",
+            {
+              "not": {
+                "sees": "craggy rough-hewn opening"
+              }
+            }
+          ]
+        },
+        {
+          "move": "go opening"
+        }
+      ],
+      "cost": 10.0
+    }
+  ]
+}

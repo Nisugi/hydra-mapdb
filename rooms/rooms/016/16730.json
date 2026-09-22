@@ -1,0 +1,129 @@
+{
+  "id": 16730,
+  "uid": [
+    17005009
+  ],
+  "title": [
+    "[Floor of the Ravine]"
+  ],
+  "description": [
+    "The constant dull roar of water echoes loudly, drowning out all ambient sound.  Past flooding is evidenced by faint high water marks on the ravine walls, which rise high above both banks of the fast-moving river.  Aside from debris washed up on the river bank, only scraggly scrub brush has survived to flourish in the immediate area."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Aradhul Road",
+  "climate": "temperate",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "blue trafel mushroom",
+    "blueberries",
+    "bright red teaberry",
+    "calamia fruit",
+    "daggerstalk mushroom",
+    "fiddlehead fern",
+    "flathead mushroom",
+    "genkew mushroom",
+    "green soybean pod",
+    "handful of currants",
+    "Imaera's Lace",
+    "ironfern root",
+    "mistweed",
+    "murdroot",
+    "pepperthorn root",
+    "pink clover blossom",
+    "purple clover blossom",
+    "red clover blossom",
+    "safflower seeds",
+    "soft mushroom",
+    "sprig of jasmine",
+    "sprig of wild lilac",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "stalk of goldenrod",
+    "sunburst blossom",
+    "talneo root",
+    "thistle seeds",
+    "vert globe artichoke",
+    "water chestnut",
+    "wavepetal blossom",
+    "white clover blossom",
+    "wild chokecherry",
+    "wild gooseberry",
+    "wild grapes",
+    "wild rose",
+    "wintergreen leaf",
+    "withered mushroom",
+    "wood violet",
+    "yellow clover blossom",
+    "yellowed salt reedgrass"
+  ],
+  "image": {
+    "file": "en-aradhul-road-1308194332.png",
+    "rect": [
+      427,
+      708,
+      451,
+      730
+    ]
+  },
+  "exits": [
+    {
+      "to": 16729,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "swim river"
+        }
+      ],
+      "cost": 10.0
+    },
+    {
+      "to": 16731,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Sigil of Resolve",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Sigil of Resolve"
+              },
+              {
+                "spell_affordable": "Sigil of Resolve"
+              },
+              {
+                "not": {
+                  "spell_active": "Sigil of Resolve"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "move": "climb ledge"
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

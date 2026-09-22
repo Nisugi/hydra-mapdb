@@ -1,0 +1,41 @@
+{
+  "id": 24953,
+  "uid": [
+    -7105022
+  ],
+  "title": [
+    "[Reim Settlement, Village]"
+  ],
+  "description": [
+    "Spanning the gap between two standing stones on either side of a narrow pass, a towering gate cuts off the road leading out of the village.  A heap of rusty spears are piled next to an empty guard post stationed in the shadow of a steep hillside bestrewn with brushwood and boulders."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Settlement of Reim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      702,
+      770,
+      717,
+      783
+    ]
+  },
+  "exits": [
+    {
+      "to": 24945,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24977,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    }
+  ]
+}

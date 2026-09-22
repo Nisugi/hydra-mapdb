@@ -1,0 +1,72 @@
+{
+  "id": 3777,
+  "uid": [
+    8007
+  ],
+  "title": [
+    "[Upper Dragonsclaw, Slopes]"
+  ],
+  "description": [
+    "Tall, ghostly mountain peaks loom above you.  Although you know they are quite far distant to the south, it feels as though you could almost reach out and touch them from here.  Dark, contorted trails wind up the sides of the mountains, but they seem to be fit only for a few hardy mountain goats - or foolish climbers.  The ground here is mostly bare, save for gravel, moss and a few stray weeds.  The trail here winds to the east, with a high rocky ridge looming to the west."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Upper Dragonsclaw",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-gates-1264234799.png",
+    "rect": [
+      91,
+      1009,
+      101,
+      1019
+    ]
+  },
+  "exits": [
+    {
+      "to": 3776,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6107,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6691,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 6717,
+      "kind": "go",
+      "cmd": "go ridge",
+      "cost": 0.2
+    }
+  ]
+}

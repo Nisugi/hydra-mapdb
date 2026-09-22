@@ -1,0 +1,46 @@
+{
+  "id": 17268,
+  "uid": [
+    252030
+  ],
+  "title": [
+    "[Guild Hall, Tepidarium]"
+  ],
+  "description": [
+    "Warm air radiates from the sauna room to the south while cooler air blows from the frigidarium to the east and the circular rose windows above.  Clean, white towels are neatly stacked upon marble shelves that line the wall.  In the center of the room are some circular benches, offering a place to sit while toweling dry."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Kharam-Dzu",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      1457,
+      800,
+      1479,
+      822
+    ]
+  },
+  "exits": [
+    {
+      "to": 17267,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17269,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 17271,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

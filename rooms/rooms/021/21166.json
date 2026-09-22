@@ -1,0 +1,40 @@
+{
+  "id": 21166,
+  "uid": [
+    265401
+  ],
+  "title": [
+    "[Eastern Harbor, Sewers]"
+  ],
+  "description": [
+    "Low ceilings fashioned of blocky cobblestones meet with the smooth stone walls, which are supported by a soft floor of dry dirt.  Tiny rivulets, fed by condensation upon the eastern walls, follow the tunnel to the north under the watchful gaze of some ring-bound torches.  A thick metal grate separates this section of the sewers from the others."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Mist Harbor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      471,
+      273,
+      483,
+      287
+    ]
+  },
+  "exits": [
+    {
+      "to": 21134,
+      "kind": "go",
+      "cmd": "go grate",
+      "cost": 0.2
+    },
+    {
+      "to": 21167,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 23677,
+  "uid": [
+    255028
+  ],
+  "title": [
+    "[Tanglevine Hall, Northwest Lawn]"
+  ],
+  "description": [
+    "Thick brush and shrubs act as a hedge between the Guild grounds and the dark of the jungle, its length broken by a large wooden shed.  A tiger-shaped topiary threatens to pounce from its position near the shed entrance.  Several red sandalwood trees grow along the path circling the guild hall."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Mist Harbor",
+  "climate": "hot, damp",
+  "terrain": "tropical",
+  "tags": [
+    "warrior guild shrubbery"
+  ],
+  "image": {
+    "file": "ifw-Warrior Guild.jpg",
+    "rect": [
+      172,
+      274,
+      196,
+      298
+    ]
+  },
+  "exits": [
+    {
+      "to": 23675,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 23678,
+      "kind": "go",
+      "cmd": "go shed",
+      "cost": 0.2
+    },
+    {
+      "to": 23679,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

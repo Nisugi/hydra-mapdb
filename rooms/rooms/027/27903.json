@@ -1,0 +1,42 @@
+{
+  "id": 27903,
+  "uid": [
+    5001253
+  ],
+  "title": [
+    "[Silvergate Inn Annex]"
+  ],
+  "description": [
+    "The floor, made of unglazed octagonal tiles, is partly covered with a thick carpet.  A window, screened with intricately carved wood, is set high on the wall.  Set beneath the window is a heavy terra cotta urn containing a flowering plant."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:silvergate_inn:entrance_annex",
+    "locker annex:Silvergate Inn"
+  ],
+  "exits": [
+    {
+      "to": 23199,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go curtain"
+        },
+        {
+          "replan": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27904,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

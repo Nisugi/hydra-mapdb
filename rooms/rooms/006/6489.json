@@ -1,0 +1,64 @@
+{
+  "id": 6489,
+  "uid": [
+    95158
+  ],
+  "title": [
+    "[Monastery, Hallway]"
+  ],
+  "description": [
+    "This short hallway is quite plain in comparison to the intricate artistry and craftmanship of the other rooms.  Several doors line the hallway, each well fitted and free from any signs of the passage of time, and a low broad archway opens to the northwest appearing incongruously like the mouth of a giant carp."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Lysierian Hills",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "monastic lich",
+    "no forageables",
+    "spectral monk"
+  ],
+  "image": {
+    "file": "wl-lysierian-1264234799.png",
+    "rect": [
+      281,
+      1031,
+      291,
+      1041
+    ]
+  },
+  "exits": [
+    {
+      "to": 6488,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 6490,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 6491,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 6492,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 6493,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    }
+  ]
+}

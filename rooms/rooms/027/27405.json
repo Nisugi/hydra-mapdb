@@ -1,0 +1,54 @@
+{
+  "id": 27405,
+  "title": [
+    "[Carnival, Strange Street]"
+  ],
+  "description": [
+    "Light flickers across the wagons bordering the southern edge of the walkway from the bonfire to the northwest.  A tree stump remains to the side of the walkway, a stubborn reminder of the area before it was cleared for the carnival.  People pass by with looks of wonder and amazement."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "Wehnimer's Landing",
+  "image": {
+    "file": "fest-carnival-of-freaks-1537632252.png",
+    "rect": [
+      677,
+      390,
+      726,
+      437
+    ]
+  },
+  "exits": [
+    {
+      "to": 27402,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 27406,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27407,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27428,
+      "kind": "go",
+      "cmd": "go shack",
+      "cost": 0.2
+    },
+    {
+      "to": 27430,
+      "kind": "go",
+      "cmd": "go oak wagon",
+      "cost": 0.2
+    }
+  ]
+}

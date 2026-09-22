@@ -1,0 +1,105 @@
+{
+  "id": 11436,
+  "uid": [
+    304012
+  ],
+  "title": [
+    "[Tempest River, North Fork]"
+  ],
+  "description": [
+    "The wide Tempest River and the great Maelstrom Bay converge, creating choppy water that makes it difficult to see the sand floor of the river.  The cliff that forms the northern bank curves to the northeast.  On the south bank, barely visible from the water, is a sandy point stretching into the river.  The bay opens to the west.  The river runs to the east.",
+    "The wide Tempest River and the great Maelstrom Bay converge, creating choppy water that makes it difficult to see the sandy floor of the river.  The cliff that forms the northern bank curves to the northeast.  On the south bank, barely visible from the water, is a sandy point stretching into the river.  The bay opens to the west.  The river runs to the east."
+  ],
+  "paths": [
+    "Obvious paths: east, west, northwest"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "saltwater",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      783,
+      1342,
+      793,
+      1352
+    ]
+  },
+  "exits": [
+    {
+      "to": 11435,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "east",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim east",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11437,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "northwest",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim northwest",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 11449,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "west",
+          "when": {
+            "spell_active": "Water Walking"
+          }
+        },
+        {
+          "move": "swim west",
+          "when": {
+            "otherwise": {
+              "spell_active": "Water Walking"
+            }
+          }
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 32874,
+      "kind": "go",
+      "cmd": "go steep trail",
+      "cost": 0.2
+    }
+  ]
+}

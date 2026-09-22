@@ -1,0 +1,198 @@
+{
+  "id": 10863,
+  "uid": [
+    2101012
+  ],
+  "title": [
+    "[River's Rest, Town Gardens]"
+  ],
+  "description": [
+    "Against the backdrop of a forest to the south, this garden is open to a starlit sky.  In unruly disorder, flowers and herbs of all descriptions are scattered in several beds throughout the gardens.  To the north, a large meadow spreads out as far as you can see.  Off to one side, a wizened old elf is busily uprooting weeds from one particularly overgrown bed.  Whistling a merry tune, he occasionally breaks into a sweet song as he works, smiling at all who enter his domain.",
+    "Against the backdrop of a forest to the south, this garden is open to a bright sky.  In unruly disorder, flowers and herbs of all descriptions are scattered in several beds throughout the gardens.  To the north, a large meadow spreads out as far as you can see.  Off to one side, a wizened old elf is busily uprooting weeds from one particularly overgrown bed.  Whistling a merry tune, he occasionally breaks into a sweet song as he works, smiling at all who enter his domain."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "cultivated",
+  "tags": [
+    "alligator lily",
+    "angelica root",
+    "bay leaf",
+    "black peppercorn",
+    "black tea leaves",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red beet",
+    "butterfly pea flower",
+    "cactacae spine",
+    "calamia fruit",
+    "cantaloupe",
+    "cardamom",
+    "coffee cherries",
+    "cumin seeds",
+    "curly garlic scapes",
+    "curly leaf parsley",
+    "daggerstalk mushroom",
+    "dill",
+    "ear of corn",
+    "fire lily",
+    "flaming violet",
+    "flat-leaf parsley",
+    "flathead mushroom",
+    "fresh basil",
+    "fresh broccoli",
+    "fresh cilantro",
+    "fresh oregano",
+    "garlic",
+    "genkew mushroom",
+    "ghost pepper",
+    "golden buttercup",
+    "grapefruit",
+    "green beans",
+    "green cabbage",
+    "green garden cucumber",
+    "green guava",
+    "green pepper",
+    "green tea leaves",
+    "heath aster",
+    "herbalist",
+    "honeymoon melon",
+    "horseradish root",
+    "hot pepper",
+    "Imaera's Lace",
+    "luckbloom blossom",
+    "mate leaves",
+    "motherwort",
+    "nutmeg",
+    "onion skin",
+    "orange pepper",
+    "orange-yellow starfruit",
+    "pale green honeydew",
+    "pea pods",
+    "pearl onions",
+    "pink peppercorn",
+    "pink petunia",
+    "pink wild rose",
+    "purple cabbage",
+    "purple eggplant",
+    "purple passion fruit",
+    "purple petunia",
+    "purple tea leaves",
+    "purple-tipped artichoke",
+    "rabbit's ear rose",
+    "raspberries",
+    "red lychee",
+    "red onion",
+    "red pepper",
+    "red-green mango",
+    "rose-marrow root",
+    "round red radish",
+    "round white eggplant",
+    "round yuzu",
+    "small banana",
+    "small daisy",
+    "small flower",
+    "small peapod",
+    "small primrose",
+    "small rose",
+    "small violet",
+    "soft mushroom",
+    "sovyn clove",
+    "spider lily",
+    "sprig of rosemary",
+    "sprig of tarragon",
+    "sprig of thanot",
+    "stalk of celery",
+    "stalk of wormwood",
+    "star anise",
+    "sun-wilted tea leaves",
+    "sunburst blossom",
+    "sunflower seeds",
+    "sweet onion",
+    "sweet potato",
+    "tea leaves",
+    "tiger lily",
+    "tobacco leaves",
+    "trollear mushroom",
+    "urchin guide herbalist",
+    "urchin-access",
+    "vanilla bean",
+    "viburnum twig",
+    "wavepetal blossom",
+    "white lily",
+    "white petunia",
+    "white tea leaves",
+    "wild rice",
+    "wild spinach",
+    "withered mushroom",
+    "yellow carrot",
+    "yellow lemon",
+    "yellow papaya",
+    "yellow pepper",
+    "yellow squash",
+    "yew twig",
+    "zucchini"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2288,
+      777,
+      2326,
+      815
+    ]
+  },
+  "exits": [
+    {
+      "to": 10862,
+      "kind": "go",
+      "cmd": "go trail",
+      "cost": 0.2
+    },
+    {
+      "to": 10864,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

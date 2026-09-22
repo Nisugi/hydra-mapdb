@@ -1,0 +1,104 @@
+{
+  "id": 529,
+  "uid": [
+    13100032
+  ],
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
+  ],
+  "description": [
+    "The imposing facade of the Shimmarglin Inn dominates this corner of the court.  Flanking the inn's doorposts and hanging above each glaesine-paned window, grinning gargoyles stand in stony defense of the lair within.  A trickle of patrons flows through the inn's wide front doors, allowing a short-lived flood of light into the court with each swing of the doors.",
+    "The imposing facade of the Shimmarglin Inn dominates this corner of the court.  Flanking the inn's doorposts and hanging above each glaesine-paned window, grinning gargoyles stand in stony defense of the lair within.  A steady stream of patrons flows through the inn's wide front doors.",
+    "Two paths snake out of the courtyard and around the imposing facade of the Shimmarglin Inn, with its tall, arched doors and stained glass lancet windows.  In front of the building a line of silver torches lights up the open space, illuminating the hanging gardens above, as well as the Inn itself.",
+    "Two paths snake out of the courtyard and around the imposing facade of the Shimmarglin Inn, with its tall, arched doors and stained glass lancet windows.  In front of the building an open space has been carved out of the jungle of massed tables and temporary stalls, large enough to allow for safe passage through the throng and to the Inn itself.  Above, the floating dais spins slowly in the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin guide shimmarglin",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1342,
+      584,
+      1363,
+      605
+    ]
+  },
+  "exits": [
+    {
+      "to": 28,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 188,
+      "kind": "go",
+      "cmd": "go dais",
+      "cost": 0.2
+    },
+    {
+      "to": 528,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 596,
+      "kind": "go",
+      "cmd": "go inn",
+      "cost": 0.2
+    },
+    {
+      "to": 718,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

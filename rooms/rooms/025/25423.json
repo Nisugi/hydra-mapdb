@@ -1,0 +1,51 @@
+{
+  "id": 25423,
+  "uid": [
+    336337
+  ],
+  "title": [
+    "[Hendoran Outpost, Alchemist]"
+  ],
+  "description": [
+    "A thick wooden table sits beneath a wide wood-framed blackboard and dominates the center of the room, where it is surrounded by a number of locked chests and trunks, many of them labeled with the crest of the Hall of Mages.  Large curtains flank an arched rune-etched window, allowing for the quick extinguishing of light, while numerous candles in various states of melted usage perch from precarious places throughout the room.  The faint aroma of sulphur and herbs lingers in the air of the area."
+  ],
+  "paths": [
+    "Obvious exits: none",
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-hendoran_outpost-1669182273.png",
+    "rect": [
+      611,
+      518,
+      645,
+      552
+    ]
+  },
+  "exits": [
+    {
+      "to": 25407,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 26095,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26098,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

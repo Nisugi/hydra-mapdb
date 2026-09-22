@@ -1,0 +1,54 @@
+{
+  "id": 26484,
+  "title": [
+    "[Caligos Isle, High Plateau]"
+  ],
+  "description": [
+    "Built into the dark shale face, the corner of a building juts out from the mountain wall causing the cobbled pathway to circumvent its chipped steps.  Cage lanterns are anchored to either side of a pair of teak double doors that allow entry into the dark edifice, while the brown thatching above shows signs of new molds and lichens growing in their depths.  Goose barnacles cling in clusters to the manmade walls, the constant drip of their wriggling bodies filling the air."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Caligos Isle",
+  "image": {
+    "file": "fest-ebon_gate-caligos_isle-1539222190.png",
+    "rect": [
+      263,
+      484,
+      278,
+      498
+    ]
+  },
+  "exits": [
+    {
+      "to": 26481,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 26485,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 26486,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 27518,
+      "kind": "go",
+      "cmd": "go vine-covered shack",
+      "cost": 0.2
+    },
+    {
+      "to": 27525,
+      "kind": "go",
+      "cmd": "go small shack",
+      "cost": 0.2
+    }
+  ]
+}

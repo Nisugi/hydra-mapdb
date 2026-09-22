@@ -1,0 +1,65 @@
+{
+  "id": 10119,
+  "uid": [
+    14001002
+  ],
+  "title": [
+    "[Lake of Fear, South Dock]"
+  ],
+  "description": [
+    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing.",
+    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the dark and eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Lake of Fear",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-fearling-1632908688.png",
+    "rect": [
+      666,
+      237,
+      676,
+      247
+    ]
+  },
+  "exits": [
+    {
+      "to": 10117,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go gangplank"
+        },
+        {
+          "await": "An elven crewmember scrambles back onto the boat and lowers the gangplank.",
+          "when": "still_here"
+        },
+        {
+          "move": "go gangplank",
+          "when": "still_here"
+        },
+        {
+          "await": "An elven crewmember scrambles back onto the boat and lowers the gangplank."
+        },
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 300.0
+    },
+    {
+      "to": 10120,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

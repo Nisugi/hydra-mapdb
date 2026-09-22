@@ -1,0 +1,50 @@
+{
+  "id": 7105,
+  "uid": [
+    44041
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A breeze wafts down the passage, carrying with it the odor of something in a state of advanced decay.  The shadows seem deeper and more ominous, and you look over your shoulder nervously."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      1001,
+      1077,
+      1011,
+      1087
+    ]
+  },
+  "exits": [
+    {
+      "to": 7104,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7106,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 7107,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

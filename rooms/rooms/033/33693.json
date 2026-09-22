@@ -1,0 +1,46 @@
+{
+  "id": 33693,
+  "uid": [
+    7101236
+  ],
+  "title": [
+    "[Keep Tower, Research]"
+  ],
+  "description": [
+    "Collapsed shelves draped in blankets of dust lean against their casings, the moldy remains of their once esteemed passengers lay in tattered shreds at their clawed feet.  Chair stuffing is scattered about the room in old clumps that resemble matted nests, while the splintered remains of a table has been pushed firmly against one wall.  Watermarks upon the southern wall glisten with new moisture and lend the small space a fetid, mildewed scent."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Vornavis",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "quest-night_at_the_academy.png",
+    "rect": [
+      1257,
+      1326,
+      1305,
+      1374
+    ]
+  },
+  "exits": [
+    {
+      "to": 33651,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 33694,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33695,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

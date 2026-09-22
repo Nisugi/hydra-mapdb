@@ -1,0 +1,62 @@
+{
+  "id": 11722,
+  "uid": [
+    376059
+  ],
+  "title": [
+    "[Marsh Keep, Bedroom]"
+  ],
+  "description": [
+    "The focus of the decadently decorated bedroom is a tall four-poster bed set immediately within sight of the doorway.  Underneath the bed's canopy, a skeleton in rotting robes lies sprawled across the dusty sheets, one boney hand still gripping a hanging canopy cord.  A second skeleton lies against an opposite wall near a book shelf and just under a candelabra.  Light streams into the room from a large window across from the bed to shine across an opened tome lying on the floor as if dropped.",
+    "The focus of the decadently decorated bedroom is a tall four-poster bed set immediately within sight of the doorway.  Underneath the bed's canopy, a skeleton in rotting robes lies sprawled across the dusty sheets, one boney hand still gripping a hanging canopy cord.  A second skeleton lies against an opposite wall near a book shelf and just under a candelabra.  Moonlight streams into the room from a large window across from the bed, to shine across an opened tome lying on the floor as if dropped."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Marsh Keep",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-marsh_keep-1266356986.png",
+    "rect": [
+      867,
+      811,
+      877,
+      821
+    ]
+  },
+  "exits": [
+    {
+      "to": 11721,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 16179,
+      "kind": "go",
+      "cmd": "go window",
+      "cost": 0.2
+    },
+    {
+      "to": 17692,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "turn candelabra"
+        },
+        {
+          "put": "pull black book"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.5
+    }
+  ]
+}

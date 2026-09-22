@@ -1,0 +1,62 @@
+{
+  "id": 25754,
+  "uid": [
+    3223818
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Following the curve the island, the waterway flows gently against the sandy beaches to the west and north.  Meeting a barrier of rocks that rise from the ocean floor, the waves bounce back upon themselves and create a choppy cross-current that disturbs the seaweed beds below.  Several long, slippery strands of kelp, that have been dislodged by the tide, bob up and down on the water's surface."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      2001,
+      1039,
+      2021,
+      1058
+    ]
+  },
+  "exits": [
+    {
+      "to": 25745,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal west"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25755,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southwest"
+        }
+      ],
+      "cost": 6.0
+    },
+    {
+      "to": 25756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal southeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 25809,
+  "uid": [
+    3223882
+  ],
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Water swirls in tiny pools as the waves round the edge of the island and collide with the colossal, obsidian faces of Charl's Teeth.  Shattered shards and jagged rocks, comprised of both the glossy black volcanic glass and the shale from the nearby island, surround the tiny inlet and deny further passage to the west or south."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Mist Harbor",
+  "climate": "saltwater",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ifw-eastern_waterway-1489553700.png",
+    "rect": [
+      1521,
+      2000,
+      1540,
+      2018
+    ]
+  },
+  "exits": [
+    {
+      "to": 25808,
+      "kind": "scripted",
+      "steps": [
+        {
+          "keep_moving": "pedal northeast"
+        }
+      ],
+      "cost": 6.0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5420,
+  "uid": [
+    319109
+  ],
+  "title": [
+    "[Bonespear Tower, Stairwell]"
+  ],
+  "description": [
+    "The stairs continue both upward and downward from this vantage, but a flickering light down one passage invites those with courage to step out of the narrow stairwell.  The air is very stale, but while the scent is unpleasant, it is still breathable."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up, down"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      996,
+      965,
+      1004,
+      973
+    ]
+  },
+  "exits": [
+    {
+      "to": 5419,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 5421,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 5422,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 5423,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

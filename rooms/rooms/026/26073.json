@@ -1,0 +1,43 @@
+{
+  "id": 26073,
+  "uid": [
+    679024
+  ],
+  "title": [
+    "[Ancient Passage, Niche]"
+  ],
+  "description": [
+    "Rising from the center of the chamber is an ornate stone throne fitted with emerald shards.  An enormous male statue sits upon the furnishing, his back straight and his gaze pointedly fixed upon the downward stairs.  Candles recessed into the enormous construction filter greenish light throughout the chamber and illuminate the large niche is fitted into the wall beside the upward spiraling stairs."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 26072,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb upward stairs"
+        }
+      ],
+      "cost": 24.0
+    },
+    {
+      "to": 26074,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "climb downward stairs"
+        }
+      ],
+      "cost": 12.0
+    }
+  ]
+}

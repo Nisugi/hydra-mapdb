@@ -1,0 +1,40 @@
+{
+  "id": 20860,
+  "uid": [
+    214015
+  ],
+  "title": [
+    "[Obsidian Tower, Antechamber]"
+  ],
+  "description": [
+    "The thick puma fur carpeting and heavy velvet lining on the walls deadens nearly every sound in this small chamber.  Dark candles flicker quietly in the two onyx sconces mounted on either side of the room, and against either wall sits a dark mahogany bench covered with black velvet cushions.  A heavy velvet curtain hangs from an exquisitely crafted black ora arch."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "none",
+  "meta": [
+    "che:Obsidian Tower"
+  ],
+  "exits": [
+    {
+      "to": 20859,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20861,
+      "kind": "go",
+      "cmd": "go ora arch",
+      "cost": 0.2
+    },
+    {
+      "to": 32666,
+      "kind": "go",
+      "cmd": "go mahogany arch",
+      "cost": 0.2
+    }
+  ]
+}

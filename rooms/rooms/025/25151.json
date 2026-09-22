@@ -1,0 +1,56 @@
+{
+  "id": 25151,
+  "uid": [
+    4216001
+  ],
+  "title": [
+    "[Sanctum of Scales, Gates]"
+  ],
+  "description": [
+    "A towering black ora gate spans an opening between two massive sand-blasted walls, marking the southern perimeter of the open courtyard.  Huge slabs of bone white sandstone spread concentrically outward from a seal of bronze and copper branding the ground before the gateway.  Hot sunlight glints off of the disk's surface, outlining a tangle of serpents etched into its face."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      360,
+      670,
+      384,
+      695
+    ]
+  },
+  "exits": [
+    {
+      "to": 25150,
+      "kind": "go",
+      "cmd": "go gate",
+      "cost": 0.2
+    },
+    {
+      "to": 25152,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25157,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25158,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

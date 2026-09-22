@@ -1,0 +1,103 @@
+{
+  "id": 12235,
+  "uid": [
+    4571009
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Thick, perfectly clear glass forms the ceiling, walls, and floor of this small room.  Beyond the transparent enclosure is a sea of water that has been completely frozen.  A school of colorful fish has been immobilized in the midst of fleeing from an equally still scaly predator.  Even bubbles of air that had risen from the murky depths have been captured in the ice.",
+    "Thick, perfectly clear glass forms the ceiling, walls, and floor of this small room.  Beyond the transparent enclosure is a sea of water that boils violently from an unknown source of heat.  The lifeless bodies of fish swirl chaotically throughout the briny deep."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up",
+    "Obvious paths: southeast, up"
+  ],
+  "location": "the Rift",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      404,
+      154,
+      428,
+      178
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12232,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 12236,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

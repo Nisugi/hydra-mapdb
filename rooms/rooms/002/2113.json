@@ -1,0 +1,50 @@
+{
+  "id": 2113,
+  "uid": [
+    3009022
+  ],
+  "title": [
+    "[Teras Isle, High Road]"
+  ],
+  "description": [
+    "The ground rises rapidly on the northern side of the valley between the two peaks.  Up the slope marches a narrow but well maintained causeway.  Only Dwarves would build such a fine road with such a steep grade."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the old Logging Road",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      446,
+      351,
+      456,
+      361
+    ]
+  },
+  "exits": [
+    {
+      "to": 2053,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 2114,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 14716,
+      "kind": "go",
+      "cmd": "go building",
+      "cost": 0.2
+    }
+  ]
+}

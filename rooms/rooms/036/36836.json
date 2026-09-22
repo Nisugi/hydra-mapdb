@@ -1,0 +1,45 @@
+{
+  "id": 36836,
+  "uid": [
+    741003
+  ],
+  "title": [
+    "[Sutara Flyr Emporia]"
+  ],
+  "description": [
+    "Running east to west, a crushed stone walkway broadens as it meets a small wooden bridge that arches over the pond toward a central island.  Tall reeds, interspersed with blossoming stargrass, cluster along the bank, framing the bridge's approach.  Beyond the bridge, fields of colorful wildflowers surround a circular building crafted of stone."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Cysaegir",
+  "image": {
+    "file": "en-cysaegir-1788544057.png",
+    "rect": [
+      197,
+      877,
+      208,
+      889
+    ]
+  },
+  "exits": [
+    {
+      "to": 36835,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36837,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36839,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    }
+  ]
+}

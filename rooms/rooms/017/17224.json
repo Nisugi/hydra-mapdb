@@ -1,0 +1,46 @@
+{
+  "id": 17224,
+  "uid": [
+    257003
+  ],
+  "title": [
+    "[Warrior Guild, Eastern Grove]"
+  ],
+  "description": [
+    "Elegantly carved and decorated wooden benches surround the ancient fel tree centered in this portion of the grove.  The tree looks fairly healthy, but clearly age and animals have taken their toll on its proud form."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "deciduous forest",
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      266,
+      164,
+      287,
+      185
+    ]
+  },
+  "exits": [
+    {
+      "to": 17223,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17225,
+      "kind": "go",
+      "cmd": "go clearing",
+      "cost": 0.2
+    },
+    {
+      "to": 17226,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

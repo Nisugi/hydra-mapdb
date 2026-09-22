@@ -1,0 +1,51 @@
+{
+  "id": 36688,
+  "uid": [
+    8400033
+  ],
+  "title": [
+    "[Nyessem, Promenade]"
+  ],
+  "description": [
+    "This walkway is wide and extends off into the distance in multiple directions.  The way down, through the stairs at one end, is shrouded in shadow with occasional pearlescent flickers.  The contrast between this near-darkness and the blue mist above lends the area a surreal duality.  In the middle of the walkway is a four-tiered white stone fountain surrounded by thickly piled silk pillows."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      852,
+      515,
+      868,
+      530
+    ]
+  },
+  "exits": [
+    {
+      "to": 36670,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 36678,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 36687,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36689,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

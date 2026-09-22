@@ -1,0 +1,59 @@
+{
+  "id": 17680,
+  "uid": [
+    5007207
+  ],
+  "title": [
+    "[River's Rest, Rabbit Hutch]"
+  ],
+  "description": [
+    "Sunlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling.",
+    "Moonlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      433,
+      1234,
+      472,
+      1272
+    ]
+  },
+  "exits": [
+    {
+      "to": 10888,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "out"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17679,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "crawl opening"
+        },
+        {
+          "put": "stand"
+        }
+      ],
+      "cost": 1.0
+    }
+  ]
+}

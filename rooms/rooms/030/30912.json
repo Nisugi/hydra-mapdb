@@ -1,0 +1,44 @@
+{
+  "id": 30912,
+  "uid": [
+    282005
+  ],
+  "title": [
+    "[Bard Guild, Hallway]"
+  ],
+  "description": [
+    "The hallway is wide, allowing plenty of room for carrying large instruments along its length.  To the east, it ends at three teak doors.  To the north and south, signs on the doors announce they are entrances to practice rooms.  To the east, large block letters on the door read 'Guild Office.'  Strains and snippets of music escape from behind the three doors, mixing in a muffled tangle of melody."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 30908,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 30913,
+      "kind": "go",
+      "cmd": "go south door",
+      "cost": 0.2
+    },
+    {
+      "to": 30914,
+      "kind": "go",
+      "cmd": "go office door",
+      "cost": 0.2
+    },
+    {
+      "to": 30915,
+      "kind": "go",
+      "cmd": "go north door",
+      "cost": 0.2
+    }
+  ]
+}

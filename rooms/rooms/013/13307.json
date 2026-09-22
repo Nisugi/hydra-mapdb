@@ -1,0 +1,97 @@
+{
+  "id": 13307,
+  "uid": [
+    256001
+  ],
+  "title": [
+    "[Warrior Guild, Sentry]"
+  ],
+  "description": [
+    "From this vantage point, an impressive view of the guild and its ample grounds can be observed.  Several courtyards, neatly outlined in crisscrossing walkways bespeak of the arduous task of maintaining such crisp surroundings.  The guild's two stories and multitude of small square windows break up the otherwise stale appearance of the dark grey stone.  A short wooden bridge over a pristine moat leads back to the city."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "urchin guide warriorguild",
+    "urchin-access",
+    "warrior guild",
+    "warriorguild",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      577,
+      250,
+      599,
+      273
+    ]
+  },
+  "exits": [
+    {
+      "to": 690,
+      "kind": "go",
+      "cmd": "go bridge",
+      "cost": 0.2
+    },
+    {
+      "to": 17094,
+      "kind": "go",
+      "cmd": "go guild",
+      "cost": {
+        "when": {
+          "profession": "Warrior"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 18696,
+      "kind": "go",
+      "cmd": "go path",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

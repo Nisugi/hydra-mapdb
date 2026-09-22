@@ -1,0 +1,47 @@
+{
+  "id": 21132,
+  "uid": [
+    265002
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Stretching in either direction, the wide and tall tunnel echoes noisily with every rustle or movement.  Every surface seeps with water which pools shallowly on the ground.  The walls are featureless except for a subtle crescent on the northern wall.  A slightly raised spot on the southern wall reveals the tips of a ladder peaking out of it."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      603,
+      274,
+      617,
+      288
+    ]
+  },
+  "exits": [
+    {
+      "to": 21131,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21133,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21134,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

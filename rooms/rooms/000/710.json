@@ -1,0 +1,85 @@
+{
+  "id": 710,
+  "uid": [
+    13101004
+  ],
+  "title": [
+    "[Ta'Illistim, Vaeshean Wey]"
+  ],
+  "description": [
+    "The facade of a guild hall towers above, crafted of fine smooth blue granite and anchored with ornately carved buttresses.  The immense stone wall is pierced at intervals with stained glaes rosette windows detailing elegant geometric scrollwork and sinuous glyphs.  A burnished silver plaque is mounted on the wide double doors.",
+    "The facade of a grand edifice towers above, crafted of fine smooth blue granite and anchored with ornately carved buttresses.  The immense stone wall is pierced at intervals with stained glaes rosette windows detailing elegant geometric scrollwork and sinuous glyphs.",
+    "The facade of a guild hall towers above, crafted of fine smooth marble and anchored with ornately capitaled columns.  The immense white wall is pierced at intervals with stained glass rosette windows, each one detailed with elegant geometric scrollwork and sinuous glyphs.  A burnished silver plaque is mounted on the wide double doors.",
+    "Set against the high city wall is a large marble relief.  A neatly arranged bed of sea glass, driftwood and tumbled shells surrounds the base of the tripartite display."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      206,
+      724,
+      228,
+      746
+    ]
+  },
+  "exits": [
+    {
+      "to": 164,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 711,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

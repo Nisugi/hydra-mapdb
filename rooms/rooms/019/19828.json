@@ -1,0 +1,52 @@
+{
+  "id": 19828,
+  "uid": [
+    675021
+  ],
+  "title": [
+    "[Cleric Guild, Alchemy Wing]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-ta_vaalor_cleric_guild.png",
+    "rect": [
+      104,
+      311,
+      156,
+      364
+    ]
+  },
+  "exits": [
+    {
+      "to": 19827,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 19829,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 19830,
+      "kind": "go",
+      "cmd": "go cauldrons",
+      "cost": 0.2
+    },
+    {
+      "to": 19831,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

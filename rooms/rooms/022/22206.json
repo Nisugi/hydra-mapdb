@@ -1,0 +1,53 @@
+{
+  "id": 22206,
+  "uid": [
+    14119014
+  ],
+  "title": [
+    "[Guardian Keep, Grand Hall]"
+  ],
+  "description": [
+    "Two stories above, the vaulted ceiling is adorned by chandeliers of vivid fire-hued crystal.  A commingling of crimson and golden light falls in shattered patches on the snowy marble floor and columns, setting them brightly ablaze.  The hall ends in a large eahnor-banded archway framing twin linden doors, with a set of gold-flecked stone steps guarded by a pair of brass braziers to its right.  Nearly hidden in the splendor is a wooden door leading into the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "citizenship:Ta'Vaalor"
+  ],
+  "image": {
+    "file": "en-ta_vaalor-1260914757.png",
+    "rect": [
+      1579,
+      672,
+      1615,
+      708
+    ]
+  },
+  "exits": [
+    {
+      "to": 22207,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 28257,
+      "kind": "go",
+      "cmd": "go wooden door",
+      "cost": 0.2
+    },
+    {
+      "to": 33048,
+      "kind": "go",
+      "cmd": "go eahnor-banded archway",
+      "cost": 0.2
+    }
+  ]
+}

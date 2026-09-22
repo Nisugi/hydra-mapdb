@@ -1,0 +1,77 @@
+{
+  "id": 28063,
+  "uid": [
+    8208724
+  ],
+  "title": [
+    "[Rumor Woods, Canine Track]",
+    "[Rumor Woods, Equid Track]"
+  ],
+  "description": [
+    "The angled path leads towards the market area of the woods, the sound of whinnying horses emanating further south.  Staggered racks of gear are laid out on crudely forged iron forms, the saddles and reins well-crafted despite the shoddy displays.  Equine-sized breastplates and tooled harnesses sit upon woolen blankets in the stalls, protected from the muddy grounds below."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "Rumor Woods",
+  "terrain": "rough",
+  "image": {
+    "file": "fest-RW2026.png",
+    "rect": [
+      992,
+      554,
+      1017,
+      580
+    ]
+  },
+  "exits": [
+    {
+      "to": 28061,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 28064,
+      "kind": "go",
+      "cmd": "go dark stall",
+      "cost": 0.2
+    },
+    {
+      "to": 28066,
+      "kind": "go",
+      "cmd": "go canvas tent",
+      "cost": 0.2
+    },
+    {
+      "to": 28068,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 28083,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 29647,
+      "kind": "go",
+      "cmd": "go forest tent",
+      "cost": 0.2
+    },
+    {
+      "to": 33552,
+      "kind": "go",
+      "cmd": "go airy tent",
+      "cost": 0.2
+    },
+    {
+      "to": 33563,
+      "kind": "go",
+      "cmd": "go red shed",
+      "cost": 0.2
+    }
+  ]
+}

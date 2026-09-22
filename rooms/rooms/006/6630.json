@@ -1,0 +1,71 @@
+{
+  "id": 6630,
+  "uid": [
+    487010
+  ],
+  "title": [
+    "[The Broken Lands, Closet]"
+  ],
+  "description": [
+    "This cramped, dark space appears to have once been a storage area for whoever worked in the workshop beyond the curtain.  Cobwebs and dust cover everything in a thick blanket and the shattered remains of shelves line the walls, now devoid of any treasures they may have once held.  A heavy iron-bound strongbox stands alone in one corner."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Broken Lands",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "wl-broken-1264234799.png",
+    "rect": [
+      367,
+      997,
+      377,
+      1007
+    ]
+  },
+  "exits": [
+    {
+      "to": 6629,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 6631,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "rough hole"
+            ]
+          }
+        },
+        {
+          "move": "go hole"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

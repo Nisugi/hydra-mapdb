@@ -1,0 +1,38 @@
+{
+  "id": 14454,
+  "uid": [
+    4757002
+  ],
+  "title": [
+    "[Penitentiary, Entry]"
+  ],
+  "description": [
+    "Hulking granite walls securely enclose the room.  A large duty desk, with a rickety oak chair behind it, sprawls along one wall.  A faintly sour smell drifts into the room through a large, barred gate to the south, and an iron portcullis on the north wall offers access to the courtyard."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Solhaven",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic"
+  ],
+  "exits": [
+    {
+      "to": 11754,
+      "kind": "go",
+      "cmd": "go portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 14455,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

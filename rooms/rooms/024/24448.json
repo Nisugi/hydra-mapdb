@@ -1,0 +1,66 @@
+{
+  "id": 24448,
+  "uid": [
+    4052004
+  ],
+  "title": [
+    "[Warehouse, Storage Room]"
+  ],
+  "description": [
+    "The din of the open warehouse is muffled by several mammoth hides draped against the walls, the giant layers set behind a long wooden counter, preventing access to the public.  A riveted wooden platform sits towards one end of the counter, loaded with twine-tied bundles of fabric, neatly stacked and labeled."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Icemule Trace",
+  "terrain": "hard, flat",
+  "tags": [
+    "cobbling",
+    "urchin guide cobbling",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 24442,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

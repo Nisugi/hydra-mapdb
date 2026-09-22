@@ -1,0 +1,53 @@
+{
+  "id": 36726,
+  "uid": [
+    740020
+  ],
+  "title": [
+    "[Salty's Services, Warehouse]"
+  ],
+  "description": [
+    "A broad kelp-lined curtain opens on a massive warehouse facility.  Sturdy-looking wooden beams reinforced with iron bars hold the towering structure in place over a domed roof lit by wide metal braziers.  A wide path leads forward and is flanked by small standalone buildings within the facility, each in a varying state of repair.  Battered-looking hovels reside alongside well-maintained storefronts.  Vendors and potential customers alike walk the hall, perusing the options."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 36725,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 36727,
+      "kind": "cardinal",
+      "cmd": "e",
+      "cost": 0.2
+    },
+    {
+      "to": 36737,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    },
+    {
+      "to": 36740,
+      "kind": "go",
+      "cmd": "go dark emp",
+      "cost": 0.2
+    },
+    {
+      "to": 36743,
+      "kind": "go",
+      "cmd": "go pale boutique",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 25986,
+  "title": [
+    "[Briarmoon Cove, Western Dock]"
+  ],
+  "description": [
+    "The western dock houses a great deal of the trading vessels and cargo ships that drop anchor in port, and emits the gentle creaking of weathered wood that rocks atop nearby waters.  Broken only by an occasional ivory snow-dusted ridge, a shadowy curvature of murky grey cliffs stalks behind the entrance to a lengthy red cedar pier trailing out towards the horizon."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Pinefar Trading Post",
+  "image": {
+    "file": "fest-briarmoon_cove-2020-v3.png",
+    "rect": [
+      361,
+      647,
+      385,
+      668
+    ]
+  },
+  "exits": [
+    {
+      "to": 25441,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25987,
+      "kind": "go",
+      "cmd": "go pier",
+      "cost": 0.2
+    },
+    {
+      "to": 28456,
+      "kind": "go",
+      "cmd": "go gangplank",
+      "cost": 0.2
+    }
+  ]
+}

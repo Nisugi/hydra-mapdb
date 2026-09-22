@@ -1,0 +1,50 @@
+{
+  "id": 32746,
+  "uid": [
+    13107109
+  ],
+  "title": [
+    "[Moonglae Inn, Upper Cloister]"
+  ],
+  "description": [
+    "A covered walkway paved with dark blue slate circles a skylit atrium in the center of the building.  A low greystone wall bolstered by a row of graceful black marble pillars ensures that inattentive guests will not step out into the empty space.  A large pane of stained glass framed in dark oak hangs between the pillars across from a heavy, black ash door on the opposite wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Moonglae Inn",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "en-ta_illistim_buildings.png",
+    "rect": [
+      1874,
+      2086,
+      1933,
+      2142
+    ]
+  },
+  "exits": [
+    {
+      "to": 13357,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 13358,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32745,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

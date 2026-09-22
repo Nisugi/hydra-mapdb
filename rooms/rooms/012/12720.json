@@ -1,0 +1,50 @@
+{
+  "id": 12720,
+  "uid": [
+    3031036
+  ],
+  "title": [
+    "[Ruined Temple, Third Floor]"
+  ],
+  "description": [
+    "Constant exposure to the brine of the sea has encrusted the bases of several pillars with salt.  Cracked pottery has been bleached and worn well from the elements, piled in a small area around a leaning marble column."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Ruined Temple",
+  "climate": "humid",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-nelemar-1262373036.png",
+    "rect": [
+      253,
+      371,
+      289,
+      407
+    ]
+  },
+  "exits": [
+    {
+      "to": 12718,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 12721,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 12730,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 7540,
+  "uid": [
+    46025
+  ],
+  "title": [
+    "[Catacombs, Dry Passage]"
+  ],
+  "description": [
+    "A rough-hewn passage slopes gently down and eastward here.  The tunnel seems remarkably dry, so dry that motes of dust, not beads of moisture, coat the floor and walls.  The tinkling of water is not far off, however, with splashing sounds echoing from the east.  The western wall seems more finely finished and well-preserved than the rest of the structure here.  A plain iron cresset is bolted to the wall at almost dead center."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the catacombs",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      447,
+      1208,
+      457,
+      1218
+    ]
+  },
+  "exits": [
+    {
+      "to": 7539,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7542,
+      "kind": "other",
+      "cmd": "pull cresset",
+      "cost": 0.2
+    }
+  ]
+}

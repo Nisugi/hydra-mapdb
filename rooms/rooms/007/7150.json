@@ -1,0 +1,56 @@
+{
+  "id": 7150,
+  "uid": [
+    41006,
+    41011,
+    41016
+  ],
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This dark, cavernous room smells like a slaughterhouse.  Bodies in varying states of extended decomposition, from mummies to bare bones, litter the floor.  A dim light comes from a pot set high on the wall.  There is a dark hole in the roof, high above your head, far out of reach.  Gloomy passages lead away in three directions."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, south"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "map:multi-uid",
+    "maze"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      872,
+      555,
+      882,
+      565
+    ]
+  },
+  "exits": [
+    {
+      "to": 7148,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 7149,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7151,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

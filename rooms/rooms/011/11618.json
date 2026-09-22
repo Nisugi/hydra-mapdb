@@ -1,0 +1,122 @@
+{
+  "id": 11618,
+  "uid": [
+    5003004
+  ],
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "A creek bisects the old road.  The ribs of a fallen bridge are visible through the fog, its rotting timbers now mired below in the turgid creek they once spanned.  The neatly trimmed trunk of a felled tree now spans the creek.  Tall, greasy weeds and scrub brush line the northern side of the road."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Miasmal Forest",
+  "climate": "cold, damp",
+  "terrain": "muddy wetlands",
+  "tags": [
+    "aloeas stem",
+    "blue trafel mushroom",
+    "bolmara lichen",
+    "broken twig",
+    "mistweed",
+    "murdroot",
+    "soft mushroom",
+    "stalk of cattail",
+    "sunburst blossom",
+    "talneo root",
+    "wavepetal blossom",
+    "white hook mushroom",
+    "wild gooseberry",
+    "wild rose",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-maelstrom-1619824696.png",
+    "rect": [
+      603,
+      640,
+      613,
+      650
+    ]
+  },
+  "exits": [
+    {
+      "to": 11616,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11617,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 11619,
+      "kind": "go",
+      "cmd": "go trunk",
+      "cost": 0.2
+    },
+    {
+      "to": 11630,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northeast"
+        }
+      ],
+      "cost": 0.8
+    },
+    {
+      "to": 16122,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        }
+      ],
+      "cost": 0.4
+    },
+    {
+      "to": 22218,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go trail"
+        },
+        {
+          "move": "northeast"
+        },
+        {
+          "move": "southeast"
+        },
+        {
+          "move": "northwest"
+        }
+      ],
+      "cost": 0.8
+    }
+  ]
+}

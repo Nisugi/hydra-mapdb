@@ -1,0 +1,45 @@
+{
+  "id": 25121,
+  "uid": [
+    -7105163
+  ],
+  "title": [
+    "[Reim Castle, East Wing]"
+  ],
+  "description": [
+    "Ethereal light surrounds a steel door leading into the royal court.  The thick, gold-edged crimson carpet continues down the hall shadowed by structural wooden beams overhead.  Elegantly carved gold banisters rise and fall along the walls in a wave-like motion.  A pair of carved wooden mantles hold a collection of paintings on either side of the door."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Settlement of Reim",
+  "image": {
+    "file": "imt-Reim-1260914759.png",
+    "rect": [
+      374,
+      342,
+      386,
+      354
+    ]
+  },
+  "exits": [
+    {
+      "to": 25120,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25122,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25130,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

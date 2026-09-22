@@ -1,0 +1,47 @@
+{
+  "id": 17968,
+  "uid": [
+    260011
+  ],
+  "title": [
+    "[Rogue Guild, Warehouse]"
+  ],
+  "description": [
+    "This small warehouse has been piled to the rafters with a variety of barrels and crates that look to contain an endless variety of goods from many ports -- everything from spices to bolts of cloth to fine brandies to scrap metal and dried oats seems to be stored here.  An open area has been cleared to the west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-rogue_guild-1305438533.png",
+    "rect": [
+      349,
+      232,
+      379,
+      256
+    ]
+  },
+  "exits": [
+    {
+      "to": 17967,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 17969,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 17978,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

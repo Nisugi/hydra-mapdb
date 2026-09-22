@@ -1,0 +1,60 @@
+{
+  "id": 21902,
+  "title": [
+    "[Talador, North Circle]"
+  ],
+  "description": [
+    "The northern road is bustling with activity, from merchants peddling their products to townspeople flowing through the area.  Stone and wooden shops dot the landscape and a cluster of homes can be glimpsed beyond them."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, west"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-talador-1392305660.png",
+    "rect": [
+      194,
+      43,
+      221,
+      70
+    ]
+  },
+  "exits": [
+    {
+      "to": 21900,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21903,
+      "kind": "go",
+      "cmd": "go pavilion",
+      "cost": 0.2
+    },
+    {
+      "to": 21904,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    },
+    {
+      "to": 21905,
+      "kind": "go",
+      "cmd": "go wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 21906,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 21917,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

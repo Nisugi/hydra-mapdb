@@ -1,0 +1,54 @@
+{
+  "id": 25943,
+  "title": [
+    "[Shade Square, Southwest]"
+  ],
+  "description": [
+    "The corner of the square is filled with the wrenching cries of the living, as bone golems stomp down the lane, dragging a number of humans, kicking and screaming behind them.  The air is heavy with the overwhelming scent of decomposition."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south"
+  ],
+  "location": "Talador",
+  "image": {
+    "file": "wl-lichs_landing-1500800742.png",
+    "rect": [
+      755,
+      509,
+      781,
+      535
+    ]
+  },
+  "exits": [
+    {
+      "to": 25942,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 25945,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 25968,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 25969,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25989,
+      "kind": "go",
+      "cmd": "go shop",
+      "cost": 0.2
+    }
+  ]
+}

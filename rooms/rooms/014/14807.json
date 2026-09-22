@@ -1,0 +1,41 @@
+{
+  "id": 14807,
+  "uid": [
+    4057011
+  ],
+  "title": [
+    "[Cobblers' Co-Operative, Hallway]"
+  ],
+  "description": [
+    "A soft, deep red carpet runner muffles any footsteps along the corridor.  Iron sconces holding torches have been securely mounted on either side of a heavy leather curtain, which marks the end of the hallway to the north."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Kharam-Dzu",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 14806,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 14808,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 14809,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

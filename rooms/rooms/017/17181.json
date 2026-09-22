@@ -1,0 +1,44 @@
+{
+  "id": 17181,
+  "uid": [
+    256224
+  ],
+  "title": [
+    "[Warrior Guild, Steam Room Entry]"
+  ],
+  "description": [
+    "A robed elven attendant stands behind a solidly build counter elegantly topped with a mosaic depicting the seal of the warrior guild.  Behind him, expansive windows afford a view of the gardens just beyond.  Two barrels flank the counter, one tightly lidded, but emanating a subtle fragrance noticeable by all who walk past.  The other is open and half-filled with smooth stones waiting to be put to good use."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "warrior guild sauna"
+  ],
+  "image": {
+    "file": "en-ta_illistim-warrior_guild-v2.png",
+    "rect": [
+      524,
+      1002,
+      543,
+      1024
+    ]
+  },
+  "exits": [
+    {
+      "to": 17178,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 32808,
+      "kind": "go",
+      "cmd": "go sauna",
+      "cost": 0.2
+    }
+  ]
+}

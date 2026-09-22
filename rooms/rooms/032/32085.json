@@ -1,0 +1,40 @@
+{
+  "id": 32085,
+  "uid": [
+    8084611
+  ],
+  "title": [
+    "[A. B. Witching, Workshop]"
+  ],
+  "description": [
+    "An immense crescent worktable sits centered on the back wall, with a swiveling cushioned barstool nestled in its cradle, allowing access to the full span of the work surface.  Almost an entire wall is covered by a large parchment illustration of a variety of plants, herbs, and fruits.  Hand-scribbled notes line its surface, some faded with age, others so fresh that the wet ink glimmers in the lamp light.  A few wine red damask-cushioned wingback chairs are arranged about in the remaining space."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Evermore Hollow",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 31967,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 32084,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go black arch"
+        }
+      ],
+      "cost": 5.0
+    }
+  ]
+}

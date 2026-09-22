@@ -1,0 +1,69 @@
+{
+  "id": 21226,
+  "uid": [
+    109200
+  ],
+  "title": [
+    "[Silvergate, 3rd Floor Hallway]"
+  ],
+  "description": [
+    "Thick carpeting muffles your footsteps and warms this room.  A small window in the western wall overlooks a courtyard far below and the forest beyond.  Simply furnished, there is a single table and a straight-backed chair resting at the window.  A wide carpeted staircase leads back to the lounge far below."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:Silvergate Inn",
+    "che:Silvergate Manor"
+  ],
+  "image": {
+    "file": "wl-silvergate_inn-1487242763.png",
+    "rect": [
+      252,
+      214,
+      336,
+      271
+    ]
+  },
+  "exits": [
+    {
+      "to": 3735,
+      "kind": "go",
+      "cmd": "go carpeted staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 22040,
+      "kind": "go",
+      "cmd": "go mahogany door",
+      "cost": 0.2
+    },
+    {
+      "to": 22041,
+      "kind": "go",
+      "cmd": "go marble door",
+      "cost": 0.2
+    },
+    {
+      "to": 22043,
+      "kind": "go",
+      "cmd": "go oak door",
+      "cost": 0.2
+    },
+    {
+      "to": 22045,
+      "kind": "go",
+      "cmd": "go onyx door",
+      "cost": 0.2
+    },
+    {
+      "to": 22046,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

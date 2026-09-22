@@ -1,0 +1,99 @@
+{
+  "id": 23,
+  "uid": [
+    13100047
+  ],
+  "title": [
+    "[Ta'Illistim, Glamesine Var]"
+  ],
+  "description": [
+    "The ornate facade of a guild hall stands back from the var, clad in blue-grey granite and carved in heavy relief.  A wide variety of gargoyles grin from their perches atop window embrasures, doorframes, and rainspouts.  A few gargoyles dance gleefully across the blue tiled rooftop as the moonlight bathes their forms in silvery light.",
+    "The ornate facade of a guild hall stands back from the var, clad in blue-grey granite and carved in heavy relief.  A wide variety of gargoyles grin from their perches atop window embrasures, doorframes, and rainspouts.  A few gargoyles dance gleefully across the blue tiled rooftop.",
+    "The ornate facade of a guild hall stands back from the var, clad in silvery blue granite and decorated in heavy relief.  Flanking its immense door are two pieces of statuary, each one cast in bronze and set atop marble pedestals.",
+    "The ornate facade of a guild hall stands back from the var, clad in silvery blue granite and decorated in heavy relief.  Flanking its immense door are two pieces of statuary, each cast in bronze and set atop marble pedestals."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bard guild",
+    "bardguild",
+    "stalk of bluebells",
+    "urchin guide bardguild",
+    "urchin-access",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      947,
+      723,
+      969,
+      746
+    ]
+  },
+  "exits": [
+    {
+      "to": 22,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 27795,
+      "kind": "go",
+      "cmd": "go hall",
+      "cost": {
+        "when": {
+          "profession": "Bard"
+        },
+        "then": 0.2
+      }
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

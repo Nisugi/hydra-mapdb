@@ -1,0 +1,51 @@
+{
+  "id": 14598,
+  "uid": [
+    4215169
+  ],
+  "title": [
+    "[Outlands Manor, Tower Dungeon]"
+  ],
+  "description": [
+    "A set of stone steps descends from an iron trapdoor in the ceiling near the chamber's east wall.  A single barred door is set into the wall opposite the steps, evidence that the builders of the tower did not intend to entertain many prisoners."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Outlands",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "dobrem",
+    "no forageables"
+  ],
+  "image": {
+    "file": "vo-outlands-1264234799.png",
+    "rect": [
+      1070,
+      371,
+      1080,
+      381
+    ]
+  },
+  "exits": [
+    {
+      "to": 5562,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 14599,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 14600,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

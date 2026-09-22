@@ -1,0 +1,50 @@
+{
+  "id": 9224,
+  "uid": [
+    7532018
+  ],
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "The amber globe that is inset into the wall here has burnt out, or its magic has failed.  In either case, this part of the cellar is considerably darker than the rest, and perhaps it's an illusion, but it seems colder as well."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Thurfel's Island",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-underground-1264234799.png",
+    "rect": [
+      1227,
+      924,
+      1237,
+      934
+    ]
+  },
+  "exits": [
+    {
+      "to": 9223,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 9225,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 15930,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

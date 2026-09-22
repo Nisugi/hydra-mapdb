@@ -1,0 +1,76 @@
+{
+  "id": 28717,
+  "uid": [
+    2101945
+  ],
+  "title": [
+    "[Lalena's Box Emporium]"
+  ],
+  "description": [
+    "Although small, the inside of the tent is organized and tidy.  Neatly piled boxes and trunks line the walls, leaving a clear path around a rough walnut table.  Tucked to one side of the opening is a large wooden crate, its surface painted with small stick figures.  A variety of toys can be seen nestled between the stacks."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "locksmith pool",
+    "locksmithpool",
+    "node",
+    "supernode",
+    "urchin guide locksmithpool",
+    "urchin-access"
+  ],
+  "meta": [
+    "boxpool:npc:slender half-elven woman",
+    "boxpool:table:rough walnut table",
+    "trashcan:large wooden crate"
+  ],
+  "exits": [
+    {
+      "to": 10852,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

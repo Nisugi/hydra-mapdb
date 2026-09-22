@@ -1,0 +1,45 @@
+{
+  "id": 7667,
+  "uid": [
+    84409
+  ],
+  "title": [
+    "[Sea Cave, Waterfall Room]"
+  ],
+  "description": [
+    "Standing on a small ledge, you pause for a moment to take in the sight of a subterranean waterfall, tumbling and frothing in the furthest corner of the cave.  There is a large fissure between the boulders that line one of the walls.  Somewhere upstream, a hot spring has merged into the flow, and the water is surprisingly warm.  The room is comfortable, and a pleasant change from the dankness of the outer cave."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "shelfae chieftain"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      776,
+      439,
+      786,
+      449
+    ]
+  },
+  "exits": [
+    {
+      "to": 7666,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7668,
+      "kind": "go",
+      "cmd": "go fissure",
+      "cost": 0.2
+    }
+  ]
+}

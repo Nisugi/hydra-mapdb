@@ -1,0 +1,54 @@
+{
+  "id": 182,
+  "uid": [
+    13100012
+  ],
+  "title": [
+    "[Ta'Illistim, Stearriza Var]"
+  ],
+  "description": [
+    "The neatly kept cottages of the var march cheerily onward, many displaying painted wooden window boxes brimming with colorful blooms.  Bees, humming with industrious glee, hover about trees and bushes alongside the var.  A sign swings above the doorway of one cottage.",
+    "The neatly kept cottages of the var march cheerily onward, many displaying wooden window boxes brimming with shadowy blooms.  Moonlight glimmers across the var.",
+    "The neatly kept houses of the var present their marbled facades, many displaying carved pediments and entablatures lit by unflickering blue lights.  A sign swings above the arched doorway of one building, setting it apart from the residential structures around it.",
+    "The neatly kept houses of the var present their marbled facades, many displaying carved pediments and entablatures.  A sign swings above the arched doorway of one building, setting it apart from the residential structures around it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1237,
+      848,
+      1261,
+      870
+    ]
+  },
+  "exits": [
+    {
+      "to": 181,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 183,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 24641,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 32196,
+  "uid": [
+    8085022
+  ],
+  "title": [
+    "[The Gallivant, Clearing]"
+  ],
+  "description": [
+    "The overgrowth stops abruptly, opening into a wide grassy clearing that is still verdant but obviously manicured.  Centrally positioned, an immense marquee striped in teal and saffron flies a pennant decorated with a pair of toy bears playing pat-a-cake.  At haphazard intervals, the marquee's borders shift and blur uncannily, but the small signpost planted near the entrance proclaiming this \"The Gallivant\" remains steadfast.  A mossy cobblestone path skirts the edges of the clearing and disappears into some thick overgrowth to the northeast.",
+    "The overgrowth stops abruptly, opening into a wide grassy clearing that is still verdant but obviously manicured.  Centrally positioned, an immense marquee striped in teal and saffron flies a pennant decorated with a pair of toy bears playing pat-a-cake.  At haphazard intervals, the marquee's borders shift and blur uncannily, but the small signpost planted near the entrance proclaiming this \"The Gallivant\" remains steadfast."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Naidem",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 32195,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 32197,
+      "kind": "go",
+      "cmd": "go marquee",
+      "cost": 0.2
+    },
+    {
+      "to": 33971,
+      "kind": "go",
+      "cmd": "go cobblestone path",
+      "cost": 0.2
+    }
+  ]
+}

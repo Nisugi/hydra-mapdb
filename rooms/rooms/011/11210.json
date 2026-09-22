@@ -1,0 +1,50 @@
+{
+  "id": 11210,
+  "uid": [
+    2100113
+  ],
+  "title": [
+    "[Armory, Smithy]"
+  ],
+  "description": [
+    "Three rusted anvils are set on heavy wooden blocks in the center of the room.  Equally rusted tongs and hammers hang from hooks on the edges of the blocks.  A large brick forge dominates the far wall, its mouth widened by the removal of a number of bricks which had once lined its opening."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Citadel",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      333,
+      206,
+      343,
+      216
+    ]
+  },
+  "exits": [
+    {
+      "to": 11209,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 11211,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11213,
+      "kind": "go",
+      "cmd": "go forge",
+      "cost": 0.2
+    }
+  ]
+}

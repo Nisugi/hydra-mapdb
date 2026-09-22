@@ -1,0 +1,57 @@
+{
+  "id": 8358,
+  "uid": [
+    13023
+  ],
+  "title": [
+    "[Spider Temple, Cell]"
+  ],
+  "description": [
+    "Cool air seems to radiate from the large basalt slab that serves as bed but looks, for all the world, like a bier, giving the room a funereal cast.  Manacles, anxious to slowly gnaw upon the spirit of another captive, hang expectant against the basalt walls which seem to suck the light from the very air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Spider Temple",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-spider_temple-1264234799.png",
+    "rect": [
+      525,
+      642,
+      535,
+      652
+    ]
+  },
+  "exits": [
+    {
+      "to": 8353,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 25497,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put_until": {
+            "command": "search",
+            "until": [
+              "the opening of an escape tunnel",
+              "nothing other than the tunnel"
+            ]
+          }
+        },
+        {
+          "move": "go tunnel"
+        }
+      ],
+      "cost": 4.0
+    }
+  ]
+}

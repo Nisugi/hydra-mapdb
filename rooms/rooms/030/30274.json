@@ -1,0 +1,72 @@
+{
+  "id": 30274,
+  "uid": [
+    14118100
+  ],
+  "title": [
+    "[Ta'Illistim, Airship Terminus]"
+  ],
+  "description": [
+    "At the center of the lofty ceiling overhead is a mosaicked medallion depicting one of the famous airships of Ta'Illistim in flight.  Its silver shape is placed against a background of sapphire blue, the hue of which is echoed in the similarly colored glaes tile floor.  The rectangular room is set on its longer faces with a pair of double doors and a lapis-tiled arch."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "no forageables",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 614,
+      "kind": "go",
+      "cmd": "go double doors",
+      "cost": 0.2
+    },
+    {
+      "to": 30273,
+      "kind": "go",
+      "cmd": "go lapis arch",
+      "cost": 0.2
+    },
+    {
+      "to": 30714,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

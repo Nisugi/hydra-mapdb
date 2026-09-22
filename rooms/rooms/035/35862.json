@@ -1,0 +1,57 @@
+{
+  "id": 35862,
+  "uid": [
+    3024017
+  ],
+  "title": [
+    "[River Muagh, Waterfall]"
+  ],
+  "description": [
+    "Crashing down a rocky, moss-covered ridge to the south, a towering waterfall pours into a wide pool that feeds into the River Muagh as the current sweeps it north.   A verdant bank flanks a rugged wooden dock, which looks oddly out of place amid the foliage."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the River Muagh",
+  "climate": "freshwater",
+  "terrain": "tropical",
+  "tags": [
+    "broken twig",
+    "bur-clover root",
+    "mistwood twig",
+    "murdroot",
+    "sticks",
+    "wavepetal blossom",
+    "wild gooseberry"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ti-kragnek_dzu-1761314324.png",
+    "rect": [
+      261,
+      1026,
+      297,
+      1063
+    ]
+  },
+  "exits": [
+    {
+      "to": 35861,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push north"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 35863,
+      "kind": "go",
+      "cmd": "go wooden dock",
+      "cost": 0.2
+    }
+  ]
+}

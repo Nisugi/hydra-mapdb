@@ -1,0 +1,43 @@
+{
+  "id": 33443,
+  "uid": [
+    102508
+  ],
+  "title": [
+    "[House Aspis, Secret Vault]"
+  ],
+  "description": [
+    "This is the strong room of the House.  Treasure and important papers are kept here in a massive iron safe anchored to the floor.  A small wooden table sits in front of it for use in handling money and for storing important but less valuable items."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House of the Argent Aspis"
+  ],
+  "image": {
+    "file": "wl-argent_aspis-1680542112.png",
+    "rect": [
+      384,
+      1247,
+      519,
+      1309
+    ]
+  },
+  "exits": [
+    {
+      "to": 33442,
+      "kind": "go",
+      "cmd": "go iron door",
+      "cost": 0.2
+    },
+    {
+      "to": 33444,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

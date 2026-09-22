@@ -1,0 +1,70 @@
+{
+  "id": 26487,
+  "title": [
+    "[Siren's Call Tavern, Bar]"
+  ],
+  "description": [
+    "A mild hint of wood varnish lingers in the air, mingled with the aroma of dark ale, spirits, and the twang of cigar smoke.  Centered on the back wall is a carved teak bar, and over it hangs a tremendous circular mirror behind glass shelves illuminated in wan jewel-toned hues.  Suede-cushioned stools sit beneath the edge of the counter, which is topped with clean-shaded lamps at intervals.  A narrow stairway leads up to the mezzanine."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Caligos Isle",
+  "tags": [
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 26482,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26488,
+      "kind": "go",
+      "cmd": "go stairway",
+      "cost": 0.2
+    },
+    {
+      "to": 26770,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go scallop table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28563,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go starfish table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28572,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go sandsilver table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 28573,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go whelk shell table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

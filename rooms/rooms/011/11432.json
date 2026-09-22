@@ -1,0 +1,60 @@
+{
+  "id": 11432,
+  "uid": [
+    304009
+  ],
+  "title": [
+    "[Floating Dock, Tempest River]"
+  ],
+  "description": [
+    "The dock is little more than a few hundred narrowly-spaced slats carefully tied with sail cordage to a trio of long beams.  Large, ovoid casks, coated with pitch and spaced every few yards, keep it afloat.  The dock juts into an eddy formed by the current of the river rushing west and the waves from the Bay moving east.  A ramp leads up to the Stone Eye veranda.",
+    "A massive dock stretches far out over the river's surface, complete with large support columns at regular intervals, several slips for boats of various sizes, and a series of steps leading towards the swiftly flowing river.  A large warehouse sits adjacent to the slips, and a ramp leads up to the Stone Eye veranda.",
+    "A massive dock stretches far out over the river's surface, complete with large support columns at regular intervals, several slips for boats of various sizes, and a series of steps leading towards the swiftly flowing river.  The shattered remains of a large warehouse lie adjacent to the slips, and a ramp leads up to the Stone Eye veranda."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Maelstrom Bay",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      1933,
+      371,
+      1957,
+      393
+    ]
+  },
+  "exits": [
+    {
+      "to": 11431,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 11433,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "put": "unhide",
+          "when": {
+            "spell_active": "Invisibility"
+          }
+        },
+        {
+          "move": "go river"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

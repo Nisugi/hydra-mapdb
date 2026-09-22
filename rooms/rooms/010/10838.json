@@ -1,0 +1,297 @@
+{
+  "id": 10838,
+  "uid": [
+    2101030
+  ],
+  "title": [
+    "[River's Rest, Underbridge]"
+  ],
+  "description": [
+    "It's shady and cool beneath the drawbridge.  The Tempest River, though swift in the channel, chuckles slowly and cheerfully among the stones and alluvium along the bank.  Reeds, cattails, tall river grasses, and other various weeds flourish in the rich mud and silt.  Set off to the side of the drawbridge is a rickety shack with a cast iron fish set into the ground in front of it.",
+    "It's dark and cool beneath the drawbridge.  The Tempest River, though swift in the channel, chuckles slowly and cheerfully among the stones and alluvium along the bank.  Reeds, cattails, tall river grasses, and other various weeds flourish in the rich mud and silt.  Set off to the side of the drawbridge is a rickety shack with a cast iron fish set into the ground in front of it.",
+    "It's shady and cool beneath the drawbridge.  The Tempest River, though swift in the channel, chuckles slowly and cheerfully among the stones and alluvium along the bank.  Reeds, cattails, tall river grasses, and other various weeds flourish in the rich mud and silt."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "moist",
+  "terrain": "riparian",
+  "tags": [
+    "acantha leaf",
+    "aloeas stem",
+    "banana leaf",
+    "blood orange",
+    "blue trafel mushroom",
+    "bright orange",
+    "bright red cranberry",
+    "bright yellow plantain",
+    "calamia fruit",
+    "cassava root",
+    "coffee cherries",
+    "cone-shaped pineapple",
+    "daggerstalk mushroom",
+    "flathead mushroom",
+    "genkew mushroom",
+    "golden flax fronds",
+    "grapefruit",
+    "kylan berry",
+    "murdroot",
+    "portmaster",
+    "round yuzu",
+    "silver-cost:11756:12500",
+    "silver-cost:1870:25000",
+    "silver-cost:250:25000",
+    "silver-cost:29033:25000",
+    "silver-cost:31493:35000",
+    "silver-cost:32372:12500",
+    "silver-cost:32928:25000",
+    "small green quenepas",
+    "soft mushroom",
+    "stalk of bluebells",
+    "stalk of cattail",
+    "striped heart mushroom",
+    "sunburst blossom",
+    "talneo root",
+    "urchin guide docks",
+    "urchin-access",
+    "vibrant green plantain",
+    "water chestnut",
+    "wavepetal blossom",
+    "wild chokecherry",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "rr-rivers_rest-1618766733.png",
+    "rect": [
+      2342,
+      1242,
+      2381,
+      1281
+    ]
+  },
+  "exits": [
+    {
+      "to": 250,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "put": "ask portmaster about travel 1"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 1870,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "put": "ask portmaster about travel 4"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 10839,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 10840,
+      "kind": "go",
+      "cmd": "go weeds",
+      "cost": 0.2
+    },
+    {
+      "to": 11756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "put": "ask portmaster about travel 2"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 29033,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "put": "ask portmaster about travel 5"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 29577,
+      "kind": "go",
+      "cmd": "go grasses",
+      "cost": 0.2
+    },
+    {
+      "to": 30711,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    },
+    {
+      "to": 31493,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "put": "ask portmaster about travel 6"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32372,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "put": "ask portmaster about travel 7"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    },
+    {
+      "to": 32928,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "put": "ask portmaster about travel 8"
+        },
+        {
+          "await": "A crew member escorts you off the ship."
+        }
+      ],
+      "cost": {
+        "when": {
+          "setting": [
+            "use_portmasters",
+            "true"
+          ]
+        },
+        "then": 1200.0
+      }
+    }
+  ]
+}

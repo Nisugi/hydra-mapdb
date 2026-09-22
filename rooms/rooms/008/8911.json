@@ -1,0 +1,35 @@
+{
+  "id": 8911,
+  "uid": [
+    5019
+  ],
+  "title": [
+    "[Brewery, Office]"
+  ],
+  "description": [
+    "This is the brewmaster's office.  A long table by the window holds some corked bottles of pale golden liquid and crockery mugs.  An impressive fireplace occupies the major part of one entire wall and seems to demand closer scrutiny."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "exits": [
+    {
+      "to": 8910,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 14998,
+      "kind": "go",
+      "cmd": "go fireplace",
+      "cost": 0.2
+    }
+  ]
+}

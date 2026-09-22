@@ -1,0 +1,106 @@
+{
+  "id": 12238,
+  "uid": [
+    4571013
+  ],
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Oak crates riddled with holes have been stacked precariously high around a cramped stock room.  The cold has frozen the teetering piles together, preventing them from falling.  A reddish glow can be seen beyond the grate of cast iron furnace in the back of the room, but there is no heat felt, only bitter cold.",
+    "Oak crates riddled with scorch marks have been stacked precariously high around a cramped stock room.  Several of the teetering piles threaten to collapse with the slightest movement.  While the cast iron furnace in the back of the room appears empty, the air is ripe with heat and humidity."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest",
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Rift",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "congealed slime"
+  ],
+  "image": {
+    "file": "imt-scatter-1264234799.png",
+    "rect": [
+      515,
+      266,
+      539,
+      290
+    ]
+  },
+  "exits": [
+    {
+      "to": 12151,
+      "kind": "scripted",
+      "routine": {
+        "name": "patrol",
+        "starts": [
+          12240,
+          12229,
+          12228,
+          12219,
+          12217,
+          12220,
+          12231,
+          12230,
+          12232,
+          12235,
+          12236,
+          12238,
+          12239,
+          12237,
+          12234,
+          null,
+          12233
+        ],
+        "dirs": [
+          "southwest",
+          "southwest",
+          "southwest",
+          "up",
+          "northwest",
+          "east",
+          "northwest",
+          "northeast",
+          "down",
+          "southeast",
+          "southeast",
+          "southeast",
+          "up",
+          "northeast",
+          "west",
+          "southeast",
+          "northwest",
+          "northwest",
+          "northeast",
+          "up"
+        ],
+        "landmarks": [
+          {
+            "noun": "fissure",
+            "enter": "go fissure",
+            "open": {
+              "command": "push fissure",
+              "until": "A wide fissure cannot be opened any farther.",
+              "tries": 5
+            }
+          }
+        ]
+      },
+      "cost": 11.4
+    },
+    {
+      "to": 12236,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 12239,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    }
+  ]
+}

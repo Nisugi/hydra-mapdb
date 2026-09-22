@@ -1,0 +1,41 @@
+{
+  "id": 1247,
+  "uid": [
+    5066
+  ],
+  "title": [
+    "[River Tower East, Barracks]"
+  ],
+  "description": [
+    "You enter a square room with cots pushed back against the walls and a trunk at the foot of each bed.  Everything in the room denotes order and readiness.  In times of emergency, the extra militia sleep here.  To the north a recessed alcove is partly obscured by spare uniforms hanging from hooks."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "exits": [
+    {
+      "to": 1246,
+      "kind": "go",
+      "cmd": "go stair",
+      "cost": 0.2
+    },
+    {
+      "to": 1248,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 8912,
+      "kind": "climb",
+      "cmd": "climb ladder",
+      "cost": 0.2
+    }
+  ]
+}

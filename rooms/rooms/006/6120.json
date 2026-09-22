@@ -1,0 +1,64 @@
+{
+  "id": 6120,
+  "uid": [
+    495002
+  ],
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "A worn mountain trail climbs up the side of the slope.  Sparse patches of vegetation testify to the harsh conditions of this rocky mountainside.  A deep chasm yawns to the north, its depths lost in the darkness as it seems to swallow the dim light that manages its way past the towering heights to the south."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Krag slopes",
+  "climate": "cold, damp",
+  "terrain": "mountainous",
+  "tags": [
+    "angelica root",
+    "bolmara lichen",
+    "cuctucae berry",
+    "dwarf bilberry",
+    "dwarf billberry",
+    "golden aster",
+    "ironfern root",
+    "marallis berry",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "sprig of larkspur",
+    "stalk of bluebells",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "wild pink geranium",
+    "wingstem root"
+  ],
+  "image": {
+    "file": "wl-wehntoph-1310775397.png",
+    "rect": [
+      1709,
+      26,
+      1745,
+      62
+    ]
+  },
+  "exits": [
+    {
+      "to": 6119,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "jump chasm"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 6121,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

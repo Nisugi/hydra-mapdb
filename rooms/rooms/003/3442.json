@@ -1,0 +1,63 @@
+{
+  "id": 3442,
+  "uid": [
+    735026
+  ],
+  "title": [
+    "[Icemule, Bootlegger's Alley]"
+  ],
+  "description": [
+    "Snow accumulates against the South Wall, which leans over the alley and casts a long shadow over its stores.  An empty cask abandoned at the side of the alley, its staves kicked in by some tremendous force, spreads a faint odor of hops over the cobblestones.",
+    "Snow accumulates against the South Wall, casting a gloomy dark shadow over the alley and its stores.  At the side of the alley lies an empty cask, its staves kicked in by some tremendous force.  A faint odor of hops rises from the cobblestones beneath your feet."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      174,
+      1399,
+      192,
+      1417
+    ]
+  },
+  "exits": [
+    {
+      "to": 3441,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 3443,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 31247,
+      "kind": "go",
+      "cmd": "go simple shop",
+      "cost": 0.2
+    },
+    {
+      "to": 36617,
+      "kind": "go",
+      "cmd": "go stucco building",
+      "cost": 0.2
+    },
+    {
+      "to": 36618,
+      "kind": "go",
+      "cmd": "go plaster market",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 7662,
+  "uid": [
+    84418
+  ],
+  "title": [
+    "[Sea Cave, Dank Tunnel]"
+  ],
+  "description": [
+    "An odor of decay permeates the tunnel.  The entire floor is covered with flat round stones.  A stream of water trickles slowly down one of the walls collecting in small puddles that empty into a dark crevice between two of the stones.  The tunnel is blocked by a huge boulder."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Coastal Cliffs",
+  "climate": "moist",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "shelfae chieftain"
+  ],
+  "image": {
+    "file": "wl-coastal_cliffs-1264234799.png",
+    "rect": [
+      754,
+      335,
+      764,
+      345
+    ]
+  },
+  "exits": [
+    {
+      "to": 7661,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7663,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    }
+  ]
+}

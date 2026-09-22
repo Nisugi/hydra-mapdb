@@ -1,0 +1,34 @@
+{
+  "id": 33735,
+  "uid": [
+    5001076
+  ],
+  "title": [
+    "[Cairnfang Manor, Nook]"
+  ],
+  "description": [
+    "Set back from the main room, the small nook is enclosed by panels of rough driftwood.  Terracotta tiles are set into the floor in a haphazard pattern with a tarnished brass lamp on the wall the only light source.  A runner of woven sea grass creates a cushioned walkway leading to a heavy beaded curtain."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "River's Rest",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:cairnfang_manor:entrance_locker"
+  ],
+  "exits": [
+    {
+      "to": 33734,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 33736,
+      "kind": "go",
+      "cmd": "go beaded curtain",
+      "cost": 0.2
+    }
+  ]
+}

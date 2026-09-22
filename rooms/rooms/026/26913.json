@@ -1,0 +1,56 @@
+{
+  "id": 26913,
+  "uid": [
+    18018006
+  ],
+  "title": [
+    "[Black Hand, Supply Room]"
+  ],
+  "description": [
+    "A plush velvet charcoal sofa wraps around the cavern walls, and large pieces of aubergine ramie silk drape down from the ceiling providing a pop of color and texture to the room.  Spaced evenly in front of the long sofa are rounded glaes tables etched with a tessellated pattern.  Carved into the far wall is a huge steel vault, gems and coins scattered across the stone floor in front.  Silhouettes of different shapes fill the lounge, the shadows dancing in the warm flicker of some vaalin sconces."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "subterranean",
+  "meta": [
+    "mho:The Black Hand Trading Co."
+  ],
+  "image": {
+    "file": "wl-black_hand-1527320047.png",
+    "rect": [
+      692,
+      571,
+      852,
+      705
+    ]
+  },
+  "exits": [
+    {
+      "to": 26901,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 26912,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 26914,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go fissure"
+        }
+      ],
+      "cost": 3.0
+    }
+  ]
+}

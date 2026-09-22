@@ -1,0 +1,50 @@
+{
+  "id": 17774,
+  "uid": [
+    250041
+  ],
+  "title": [
+    "[Warrior Guild, Ice Lagoon]"
+  ],
+  "description": [
+    "While natural rock formations enclose the lagoon and screen the arctic winds, the ambient temperature still remains below freezing.  Though the surface of the pool is mostly frozen, there exists a circle of broken patches, which act as tubs used to take invigorating ice baths."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Warrior Guild",
+  "climate": "glacial",
+  "terrain": "riparian",
+  "tags": [
+    "warrior guild icetub"
+  ],
+  "image": {
+    "file": "warrior_guilds-1268684755.png",
+    "rect": [
+      439,
+      143,
+      460,
+      162
+    ]
+  },
+  "exits": [
+    {
+      "to": 17773,
+      "kind": "go",
+      "cmd": "go waterfall",
+      "cost": 0.2
+    },
+    {
+      "to": 17775,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 32791,
+      "kind": "go",
+      "cmd": "go tubs",
+      "cost": 0.2
+    }
+  ]
+}

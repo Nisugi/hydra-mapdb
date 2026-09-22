@@ -1,0 +1,60 @@
+{
+  "id": 20263,
+  "title": [
+    "[Feywrot Mire, Trail of Hexes]"
+  ],
+  "description": [
+    "The main path widens here as bootprints converge from several points of origin, most showing the direction of travel to be northward towards a large banyan.  A smaller number lead downslope toward the deeper swamp.  The tracks alone would not be disturbing, were it not for the very large, reptilian, claw-tipped tracks overlaying some of the bootprints leading toward the swamp."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      619,
+      854,
+      634,
+      867
+    ]
+  },
+  "exits": [
+    {
+      "to": 18245,
+      "kind": "go",
+      "cmd": "go slope",
+      "cost": 0.2
+    },
+    {
+      "to": 20165,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 20264,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20272,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 21439,
+      "kind": "go",
+      "cmd": "go brown wagon",
+      "cost": 0.2
+    },
+    {
+      "to": 25465,
+      "kind": "go",
+      "cmd": "go ironwood wagon",
+      "cost": 0.2
+    }
+  ]
+}

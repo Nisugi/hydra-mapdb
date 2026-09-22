@@ -1,0 +1,47 @@
+{
+  "id": 21136,
+  "uid": [
+    265005
+  ],
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Illuminated by the flicking flames trapped within bronze lanterns, the sewer passage is largely free of debris.  Steel, iron, and copper pipes descend from the ceiling in knotted tangles only to disappear into the western wall.  Rising four handspans high, a small water barrier made of burlap sacks filled with sand encircles a large hole in the floor with a blackened iron ladder poking out of it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "rough",
+  "image": {
+    "file": "ifw-rogue_guild.png",
+    "rect": [
+      603,
+      340,
+      617,
+      353
+    ]
+  },
+  "exits": [
+    {
+      "to": 21131,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 21137,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    },
+    {
+      "to": 21153,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    }
+  ]
+}

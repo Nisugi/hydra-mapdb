@@ -1,0 +1,47 @@
+{
+  "id": 19995,
+  "uid": [
+    11212
+  ],
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "You are walking in what appears to have been an underground streambed. Although it is dry now, this portion of the cave is less dusty than some areas you have passed through.  You have to watch your footing carefully, as the original watercourse cut under the stone in some areas, creating some sharp protrusions right at ankle height."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the foothills of Zeltoph",
+  "climate": "cold, dry",
+  "terrain": "rough",
+  "tags": [
+    "ironfern root"
+  ],
+  "meta": [
+    "trap"
+  ],
+  "image": {
+    "file": "wl-cavernhold-1295073688.png",
+    "rect": [
+      1109,
+      628,
+      1121,
+      636
+    ]
+  },
+  "exits": [
+    {
+      "to": 19994,
+      "kind": "go",
+      "cmd": "go crevice",
+      "cost": 0.2
+    },
+    {
+      "to": 19996,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

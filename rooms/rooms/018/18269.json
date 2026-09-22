@@ -1,0 +1,55 @@
+{
+  "id": 18269,
+  "uid": [
+    3210472
+  ],
+  "title": [
+    "[Saewehna Lagoon]"
+  ],
+  "description": [
+    "The water expands all around in a blanket of rippling, near-black liquid that changes in hue as moonlight glistens upon it.  The sounds of nocturnal wildlife are accompanied by the rush of the waterfall, and foam collects on the surface of the water as the influx of liquid is fed into the pool from above.  Water laps at the shoreline constantly, wearing down the stones that cling to the edge of the soil stubbornly."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "climate": "freshwater",
+  "terrain": "sandy",
+  "tags": [
+    "bur-clover root",
+    "murdroot",
+    "wingstem root"
+  ],
+  "meta": [
+    "splashy"
+  ],
+  "image": {
+    "file": "ifw-saewehna_lagoon-1525325794.png",
+    "rect": [
+      2000,
+      742,
+      2032,
+      773
+    ]
+  },
+  "exits": [
+    {
+      "to": 18267,
+      "kind": "go",
+      "cmd": "go shoreline",
+      "cost": 0.2
+    },
+    {
+      "to": 18320,
+      "kind": "other",
+      "cmd": "swim southeast",
+      "cost": 5.0
+    },
+    {
+      "to": 18329,
+      "kind": "other",
+      "cmd": "swim south",
+      "cost": 5.0
+    }
+  ]
+}

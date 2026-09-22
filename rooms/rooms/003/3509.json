@@ -1,0 +1,73 @@
+{
+  "id": 3509,
+  "uid": [
+    14100071
+  ],
+  "title": [
+    "[Ta'Vaalor, Gaeld Var]"
+  ],
+  "description": [
+    "Several small homes border the var, each finely crafted from grey stone and trimmed with copper guttering.  Elaborate steps lead to the front doors, each seemingly carved from large blocks of wood.  Lanterns are set above some of the doors while simple candle sconces adorn others.",
+    "Several small homes border the var, each finely crafted from grey stone and trimmed with copper guttering.  Elaborate steps lead to the front doors, each seemingly carved from large blocks of wood.  Lanterns are set above some of the doors while simple candle sconces adorn others, all burning now as they attempt to carve away at the blackness of night."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the city of Ta'Vaalor",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-tavaalor-1565907614.png",
+    "rect": [
+      478,
+      784,
+      509,
+      812
+    ]
+  },
+  "exits": [
+    {
+      "to": 3507,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 3510,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 17805,
+      "kind": "scripted",
+      "steps": [
+        {
+          "take_out": "lockpick"
+        },
+        {
+          "put": "pick shed"
+        },
+        {
+          "put_back": null
+        },
+        {
+          "put": "open shed"
+        },
+        {
+          "move": "go shed"
+        }
+      ],
+      "cost": {
+        "when": {
+          "profession": "Rogue"
+        },
+        "then": 2.0
+      }
+    }
+  ]
+}

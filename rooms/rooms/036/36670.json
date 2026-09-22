@@ -1,0 +1,51 @@
+{
+  "id": 36670,
+  "uid": [
+    8400013
+  ],
+  "title": [
+    "[Nyessem, Orb Approach]"
+  ],
+  "description": [
+    "The walls here are colored a dark, matte black.  A pale silver spotlight emitting its beam straight from the ceiling focuses on a glittering gem-studded arch.  Flanking the arch on all sides are some dark crimson banners trimmed with bright violet threads.  Above the top banner running perpendicular to the arch is a gem-cut crest for the Maivaldius family.  At the crest's center is a large rune-etched diamond.  Opposite the arch are some wide stairs."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Nyessem",
+  "image": {
+    "file": "Nyessem.png",
+    "rect": [
+      851,
+      431,
+      868,
+      447
+    ]
+  },
+  "exits": [
+    {
+      "to": 36669,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 36671,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 36688,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 36696,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    }
+  ]
+}

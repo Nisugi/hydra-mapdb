@@ -1,0 +1,50 @@
+{
+  "id": 17747,
+  "uid": [
+    4292034
+  ],
+  "title": [
+    "[Stronghold, Armory]"
+  ],
+  "description": [
+    "The armory is strewn with debris, huge pieces of stone littering the floor as if an explosion had occurred.  Dust covers everything in a thick mantle, only giving way to a thin path.  It winds between the heaps of rock like a meandering creek.  Across the walls stretches a panorama, faded with time and almost obscured in the gloom, but breathtaking, nonetheless."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Stone Valley",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "ironfern root"
+  ],
+  "image": {
+    "file": "wl-stronghold-1264234799.png",
+    "rect": [
+      508,
+      383,
+      518,
+      393
+    ]
+  },
+  "exits": [
+    {
+      "to": 3582,
+      "kind": "scripted",
+      "steps": [
+        {
+          "try_move": "go door"
+        },
+        {
+          "await": "You hear a soft click from the door and it suddenly flies open.",
+          "when": "still_here"
+        },
+        {
+          "move": "go door",
+          "when": "still_here"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

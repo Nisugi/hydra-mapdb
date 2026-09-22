@@ -1,0 +1,53 @@
+{
+  "id": 25244,
+  "uid": [
+    4216037
+  ],
+  "title": [
+    "[Sanctum Tower, Second Floor]"
+  ],
+  "description": [
+    "The second floor opens onto a parlor outfitted with burnished acacia moldings that frame the high ceilings and baseboards.  Untouched by the elements, a peridot green wool-covered divan is adorned with a pair of ruched bronze silk pillows.  A colossal, perfectly articulated yierka skull stares out vacantly from above some riveted black ora doors."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, down"
+  ],
+  "location": "the shadow of the Sanctum",
+  "climate": "arid, temperate",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "SanctumMap-Eiadh-1643825243.png",
+    "rect": [
+      360,
+      96,
+      385,
+      121
+    ]
+  },
+  "exits": [
+    {
+      "to": 25239,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 25245,
+      "kind": "go",
+      "cmd": "go black doors",
+      "cost": 0.2
+    },
+    {
+      "to": 25251,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 25255,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

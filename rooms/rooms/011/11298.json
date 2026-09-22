@@ -1,0 +1,57 @@
+{
+  "id": 11298,
+  "uid": [
+    377102
+  ],
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "Massive chunks of stone and fallen timbers force anyone who would traverse the hallway to duck and weave through the hazardous ruin, a labyrinth made more disorienting by the light dusting of broken glass sparkling from every surface.  Although shadows dominate the wreckage, a single shaft of moonlight lances down through a gaping hole in the ceiling, illuminating a round spot on the dusty, threadbare hall rug.",
+    "Massive chunks of stone and fallen timbers force anyone who would traverse the hallway to duck and weave through the hazardous ruin, a labyrinth made more disorienting by the light dusting of broken glass sparkling from every surface.  Although shadows dominate the wreckage, a single shaft of sunlight lances down through a gaping hole in the ceiling, illuminating a round spot on the dusty, threadbare hall rug."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "rr-citadel-1717856937.png",
+    "rect": [
+      833,
+      893,
+      843,
+      903
+    ]
+  },
+  "exits": [
+    {
+      "to": 11297,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 11299,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 11301,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 11319,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

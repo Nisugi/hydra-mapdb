@@ -1,0 +1,64 @@
+{
+  "id": 3410,
+  "uid": [
+    213002
+  ],
+  "title": [
+    "[White Haven, Grand Courtyard]"
+  ],
+  "description": [
+    "A vast and peaceful courtyard surrounds the crystal tower bordered by a stone wall.  Engulfed by clinging ice-coated vines that create a large frozen mosaic on the wall are a white birch branch message board and a heavy slate blackboard.  Almost hidden by the vines, a staircase spirals upward against the central tower, while a massive white modwir-framed entryway stands as the obvious entrance, with a granite monument placed nearby.  An ice-covered pond dominates one corner of the courtyard.",
+    "A vast and peaceful courtyard surrounds the crystal tower, bordered by a stone wall.  Delicate vines coated with a fine layer of ice cling to the wall, creating a frozen mosaic.  Almost hidden by the vines, a staircase spirals upwards against the central tower, while a massive white modwir-framed entryway stands as the obvious entrance.",
+    "A vast and peaceful courtyard surrounds the crystal tower, bordered by a stone wall.  Delicate vines coated with a fine layer of ice cling to the wall, creating a frozen mosaic.  Almost hidden by the vines, a staircase spirals upwards against the central tower, while a massive white modwir-framed entryway stands as the obvious entrance.  An ice-covered pond dominates one corner of the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "White Haven",
+  "climate": "snowy, arctic",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "imt-WhiteHaven2.png",
+    "rect": [
+      202,
+      680,
+      279,
+      760
+    ]
+  },
+  "exits": [
+    {
+      "to": 3409,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 13099,
+      "kind": "go",
+      "cmd": "go dark arch",
+      "cost": 0.2
+    },
+    {
+      "to": 15698,
+      "kind": "go",
+      "cmd": "go pond",
+      "cost": 0.2
+    },
+    {
+      "to": 15699,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 23209,
+      "kind": "go",
+      "cmd": "go modwir-framed entryway",
+      "cost": 0.2
+    }
+  ]
+}

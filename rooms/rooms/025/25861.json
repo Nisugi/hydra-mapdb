@@ -1,0 +1,52 @@
+{
+  "id": 25861,
+  "uid": [
+    336010
+  ],
+  "title": [
+    "[Stone Baths, Patron Suite]"
+  ],
+  "description": [
+    "Rich grey-toned walls encompass the men's suite while midnight blue carpeting stretches across the entire floor.  A ring of high-backed chairs occupies the middle of the room with wooden drink stands positioned between each seat.  From behind a marble countertop, a burly human man greets guests while smoke trails up from his thick cigar."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "fire lily",
+    "silver-cost:25971:2000"
+  ],
+  "image": {
+    "file": "wl-stone_baths-1487292814.png",
+    "rect": [
+      208,
+      956,
+      350,
+      1018
+    ]
+  },
+  "exits": [
+    {
+      "to": 19930,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 25971,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "give attendant 2000"
+        },
+        {
+          "move": "go archway"
+        }
+      ],
+      "cost": 0.3
+    }
+  ]
+}

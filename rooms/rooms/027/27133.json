@@ -1,0 +1,64 @@
+{
+  "id": 27133,
+  "uid": [
+    13202028
+  ],
+  "title": [
+    "[Lumnea Meadow]"
+  ],
+  "description": [
+    "Widening abruptly, the path meets the thick green grass of the meadow.  Occasional maple, oak, and walnut trees dot the landscape, their thick canopy casting shadows over the meadow in the bright moonlight.  A carved stone bench sits beneath a nearby rose-covered arbor, providing a quiet resting place from which to enjoy the shimmering night sky."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "Lumnea Meadow",
+  "terrain": "grassland",
+  "image": {
+    "file": "fest-lumnea-2018.png",
+    "rect": [
+      438,
+      601,
+      450,
+      613
+    ]
+  },
+  "exits": [
+    {
+      "to": 24611,
+      "kind": "go",
+      "cmd": "go black tent",
+      "cost": 0.2
+    },
+    {
+      "to": 24635,
+      "kind": "go",
+      "cmd": "go pale tent",
+      "cost": 0.2
+    },
+    {
+      "to": 27132,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 27134,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 27140,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 31224,
+      "kind": "go",
+      "cmd": "go white tent",
+      "cost": 0.2
+    }
+  ]
+}

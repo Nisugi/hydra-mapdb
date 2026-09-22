@@ -1,0 +1,33 @@
+{
+  "id": 20334,
+  "title": [
+    "[Abandoned Church, Nave]"
+  ],
+  "description": [
+    "The interior of the church is overrun with moss and vegetation that has crept in through the entrance and the various rotted wood that mars the structure.  Upon the eastern side of the church, swamp water seeps in from the outside.  Old pews are used to display wares, which rest on grey linens.  A silk tapestry hangs from the rafters, displaying the Pantheon of Liabo.  A short flight of steps leads up to the pulpit."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "the Feywrot Mire",
+  "exits": [
+    {
+      "to": 20333,
+      "kind": "out",
+      "cmd": "out",
+      "cost": 0.2
+    },
+    {
+      "to": 20335,
+      "kind": "go",
+      "cmd": "go steps",
+      "cost": 0.2
+    },
+    {
+      "to": 20412,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": 26038,
+  "title": [
+    "[The Falcon, Belowdecks]"
+  ],
+  "description": [
+    "Dusky blue tubes plated with refined veniom stand as tall as a man and far wider, lining the interior hull of the ship.  The metal sparkles dimly in the half-light.  They resonate faintly with the constant vibrations twitching through the ship, releasing a high-pitched hum into the cool air.  Glass pipes full of rushing water direct their frothing current eastward toward a steadily pulsating light source."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "The Falcon, inside the seaside town of Solhaven",
+  "tags": [
+    "private property"
+  ],
+  "exits": [
+    {
+      "to": 26037,
+      "kind": "go",
+      "cmd": "go hatch",
+      "cost": 0.2
+    },
+    {
+      "to": 26040,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 29775,
+  "uid": [
+    689041
+  ],
+  "title": [
+    "[Tower of Wisdom, Rotunda]"
+  ],
+  "description": [
+    "Several potted ferns are scattered around the spacious entryway, and filtered sunlight slants in through tall stained glass windows.  A tiled marble walkway leads out to an expansive terrace.  A matching pair of carefully pruned ficus trees in dark bamboo planters flank a curtained archway.  Painted in bright red and blue, a gnome statue props open a set of ironwood double doors."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Kraken's Fall",
+  "tags": [
+    "bright pink protea",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "kf-wizardguild.png",
+    "rect": [
+      485,
+      244,
+      504,
+      262
+    ]
+  },
+  "exits": [
+    {
+      "to": 29774,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 29791,
+      "kind": "go",
+      "cmd": "go archway",
+      "cost": 0.2
+    },
+    {
+      "to": 29792,
+      "kind": "go",
+      "cmd": "go walkway",
+      "cost": 0.2
+    },
+    {
+      "to": 29793,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 29796,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

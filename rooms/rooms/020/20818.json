@@ -1,0 +1,61 @@
+{
+  "id": 20818,
+  "uid": [
+    210600
+  ],
+  "title": [
+    "[House Sovyn, Cavern]"
+  ],
+  "description": [
+    "This large subterranean cavern is lit only by torches set in sconces spaced evenly around the perimeter of the cave.  Natural crystals in the walls refract the flickering light creating beautiful rainbow patterns.  Water pours from an opening high above the ground, forming a waterfall, and splashes into a stream that winds its way between huge stalagmites that rise from the ground to meet large stalactites hanging from the ceiling way above you.  The light is too dim for you to see across the stream."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "terrain": "hard, flat",
+  "meta": [
+    "che:House Sovyn"
+  ],
+  "image": {
+    "file": "wl-house_sovyn-11481362649.png",
+    "rect": [
+      575,
+      1235,
+      740,
+      1347
+    ]
+  },
+  "exits": [
+    {
+      "to": 20811,
+      "kind": "go",
+      "cmd": "go dark staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 20819,
+      "kind": "go",
+      "cmd": "go stepping stones",
+      "cost": 0.2
+    },
+    {
+      "to": 20822,
+      "kind": "go",
+      "cmd": "go narrow tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 20823,
+      "kind": "go",
+      "cmd": "go waterfall",
+      "cost": 0.2
+    },
+    {
+      "to": 20831,
+      "kind": "other",
+      "cmd": "pull large stalactite",
+      "cost": 0.2
+    }
+  ]
+}

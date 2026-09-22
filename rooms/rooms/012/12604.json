@@ -1,0 +1,78 @@
+{
+  "id": 12604,
+  "uid": [
+    3041002
+  ],
+  "title": [
+    "[Luukos' Gullet, Quiet Niche]"
+  ],
+  "description": [
+    "Wide overhanging stalactites shelter this quiet spot.  Thick moss grows heartily along the walls and ceiling.  A damp breeze blows through, as soothing as the gale outside is unwholesome, and every now and then a drop of crystal clear water falls from a tuft of moss into a perfectly round natural basin in the floor.  The smooth surface of the little pool ripples for only a moment, and then returns to a calming stillness."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
+  "climate": "hot, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "ti-wilds-1643860469.png",
+    "rect": [
+      771,
+      732,
+      781,
+      742
+    ]
+  },
+  "exits": [
+    {
+      "to": 12605,
+      "kind": "scripted",
+      "steps": [
+        {
+          "cast": "Celerity",
+          "when": {
+            "all": [
+              {
+                "spell_known": "Celerity"
+              },
+              {
+                "spell_affordable": "Celerity"
+              },
+              {
+                "not": {
+                  "spell_active": "Celerity"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "round_until": {
+            "commands": [
+              "search",
+              "get rock"
+            ],
+            "until": [
+              "You reach out"
+            ],
+            "tries": 10
+          }
+        },
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb wall"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 3.4
+    }
+  ]
+}

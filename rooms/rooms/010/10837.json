@@ -1,0 +1,55 @@
+{
+  "id": 10837,
+  "uid": [
+    13100003
+  ],
+  "title": [
+    "[Ta'Illistim, Gateyard]"
+  ],
+  "description": [
+    "A low wooden platform occupies the length of the city wall in this corner of the busy gateyard.  Atop the platform, a scaffolding of untold origin and use sits, ignored by the local populace and city guard alike.  Torches mounted in ironwork brackets upon the wall burn brightly, keeping the darkness of night at bay.",
+    "A low wooden platform occupies the length of the city wall in this corner of the busy gateyard.  Atop the platform, a scaffolding of untold origin and use sits, ignored by the local populace and city guard alike.  Torches mounted in ironwork brackets upon the wall are snuffed in deference to the day's light.",
+    "A low wooden platform occupies the length of the city wall in this chamber of the stone gateyard.  Atop the platform, a scaffolding of untold origin and use sits, ignored by the local populace and city guard alike.  Silver lanterns upon the wall burn bright blue, keeping the darkness of night at bay.  Two larger lanterns flank the entrance to a narrow passageway.",
+    "A low wooden platform occupies the length of the city wall in this corner of the stone gateyard.  Atop the platform, a scaffolding of untold origin and use sits, ignored by the local populace and city guard alike.  Silver lanterns upon the wall are dimmed in deference to the day's light.  Two larger lanterns flank the entrance to a narrow passageway."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "Ta'Illistim",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-ta_illistim-new.jpg",
+    "rect": [
+      1543,
+      806,
+      1565,
+      829
+    ]
+  },
+  "exits": [
+    {
+      "to": 36,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 10836,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 13169,
+      "kind": "go",
+      "cmd": "go passageway",
+      "cost": 0.2
+    }
+  ]
+}

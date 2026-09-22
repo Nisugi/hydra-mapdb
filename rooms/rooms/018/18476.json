@@ -1,0 +1,33 @@
+{
+  "id": 18476,
+  "title": [
+    "[Grawood Farmstead, Maze]"
+  ],
+  "description": [
+    "Numerous rows of corn stretch onwards, forming a pathway to the north.  Dried corn husks litter the fertile dirt underfoot.  The neck of a dark green glass bottle pokes out from between two stalks of corn."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Grawood Farmstead outside of River's Rest",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:grawood"
+  ],
+  "exits": [
+    {
+      "to": 18475,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 18477,
+      "kind": "go",
+      "cmd": "go ladder",
+      "cost": 0.2
+    }
+  ]
+}

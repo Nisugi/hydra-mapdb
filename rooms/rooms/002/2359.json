@@ -1,0 +1,97 @@
+{
+  "id": 2359,
+  "uid": [
+    4042026
+  ],
+  "title": [
+    "[Icemule Trace, North Gate]"
+  ],
+  "description": [
+    "Several town guards watch the northern gate of the town, which is little more than a chasm hollowed out of the encroaching glacier.  Though armed, the guards seem less focused on watching for foes from the ice and more on discouraging the unwary or unprepared from braving the frigid depths.  The faint shadow of what once must have been the actual gates is visible through the ice, evidently devoured during the glacier's unrelenting advance.  Some stairs cut into the ice leading up to the city walls climb the natural wall created by the ice.",
+    "Several well-armed guards stand to either side of a hole in the glacier.  People wander in and out of the opening, which apparently serves as a gate to the town.  Within the ice you can see the faint shadow of what once must have been the actual gates.  However, the glacier has devoured it over time, and the resourceful halflings have taken advantage of the natural wall created by the ice.",
+    "Several well-armed guards stand to either side of a hole in the glacier.  People wander in and out of the opening, which apparantly serves as a gate to the town.  Within the ice you can see the faint shadow of what once must have been the actual gates.  However, the glacier has devoured it over time, and the resourceful halflings have taken advantage of the natural wall created by the ice."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "northgate",
+    "stalk of bluebells",
+    "urchin guide northgate",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      584,
+      343,
+      620,
+      379
+    ]
+  },
+  "exits": [
+    {
+      "to": 2358,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 2360,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 3307,
+      "kind": "go",
+      "cmd": "go ice-encrusted gate",
+      "cost": 0.2
+    },
+    {
+      "to": 3726,
+      "kind": "go",
+      "cmd": "go stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": 7366,
+  "uid": [
+    2160027
+  ],
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A rotting stench wafts up from the dark surface of a decaying pond surrounded by dead pastureland.  Piles of large bleached bones dot the landscape, causing you to wonder what may have happened here."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, northwest"
+  ],
+  "location": "the Shadow Valley",
+  "climate": "cold, dry",
+  "terrain": "barren scrub",
+  "tags": [
+    "longgrass",
+    "petrified shadowstalk",
+    "wyrm thorn"
+  ],
+  "image": {
+    "file": "wl-graveyard-1264234799.png",
+    "rect": [
+      1333,
+      1100,
+      1341,
+      1108
+    ]
+  },
+  "exits": [
+    {
+      "to": 7362,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 7364,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7365,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7367,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    },
+    {
+      "to": 36595,
+      "kind": "go",
+      "cmd": "go hut",
+      "cost": 0.2
+    }
+  ]
+}

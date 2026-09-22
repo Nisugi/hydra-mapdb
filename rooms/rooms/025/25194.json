@@ -1,0 +1,84 @@
+{
+  "id": 25194,
+  "uid": [
+    14102202
+  ],
+  "title": [
+    "[Crimson Raven, Bar]"
+  ],
+  "description": [
+    "A polished cherry bar extends along the south wall of the room, behind which can be seen an impressive selection of wines and liquors.  Soldiers mill about, some leaning against the bar having a solitary drink, some gathered in conversation around a few tall tables, and some crowding around the arch to the game room, people-watching.  A large mirror over the back of the bar has been painstakingly cut into the shape of a raven, with shallower cuts picking out the detail of feathers, beak, and glittering eyes."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "Ta'Vaalor Inns",
+  "terrain": "hard, flat",
+  "meta": [
+    "Crimson Legion"
+  ],
+  "exits": [
+    {
+      "to": 25192,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 25196,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 25197,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go backsword table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25198,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go crowbill table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25199,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go jeddart-axe table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25200,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go claidhmore table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 25201,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go fist-scythe table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

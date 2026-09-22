@@ -1,0 +1,45 @@
+{
+  "id": 4503,
+  "title": [
+    "[Crystal Level, Hall]"
+  ],
+  "description": [
+    "A gaping hole in the ceiling vanishes into the darkness.  It is uneven and unworked, clearly not the result of mining efforts.  Dirt and rubble piled at the base of the hole look fresh."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Revel of the Anfelt",
+  "tags": [
+    "closed"
+  ],
+  "meta": [
+    "fest:anfelt"
+  ],
+  "exits": [
+    {
+      "to": 4502,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 4504,
+      "kind": "go",
+      "cmd": "go arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4509,
+      "kind": "go",
+      "cmd": "go opening",
+      "cost": 0.2
+    },
+    {
+      "to": 4513,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

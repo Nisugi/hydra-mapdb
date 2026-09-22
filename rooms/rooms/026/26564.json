@@ -1,0 +1,110 @@
+{
+  "id": 26564,
+  "title": [
+    "[Whip and Wight Inn, Great Room]"
+  ],
+  "description": [
+    "The immensity of this chamber belies the fact that it exists beneath and within a mountain.  In addition to those anchored by chains to the ceiling, myriad lanterns are mounted at intervals on the walls, and a warm amber haze suffuses the air.  Dark iron braziers piled with embers are interspersed among the tables to ward off the chill of the underground, and vents found in the floor beneath them draw the smoke out and away."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Caligos Isle",
+  "tags": [
+    "table"
+  ],
+  "exits": [
+    {
+      "to": 26559,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 26565,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 26755,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go ash table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26756,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go pine table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26759,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go rowan table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26760,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go yew table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26762,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go cedar table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26763,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go haon table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 26768,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go fel table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 27532,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go oak table"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

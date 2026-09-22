@@ -1,0 +1,55 @@
+{
+  "id": 21066,
+  "uid": [
+    3217004
+  ],
+  "title": [
+    "[Alhan'aht River, Southern Pass]"
+  ],
+  "description": [
+    "Tiny whirlpools form in the dark waters of the river, their creation testament to its swift passage as it courses through the jungle on its way to the north.  Small channels along the muddy banks break away from the main body of the river to create minor tributaries that wind their way into the dark green jungle, only to rejoin the river further down."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "climate": "freshwater",
+  "terrain": "riparian",
+  "tags": [
+    "murdroot",
+    "stalk of cattail",
+    "sunburst blossom",
+    "wavepetal blossom"
+  ],
+  "image": {
+    "file": "ifw-wilds-1368242816.png",
+    "rect": [
+      1341,
+      1760,
+      1359,
+      1780
+    ]
+  },
+  "exits": [
+    {
+      "to": 21065,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push nw"
+        }
+      ],
+      "cost": 2.0
+    },
+    {
+      "to": 21067,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "push se"
+        }
+      ],
+      "cost": 2.0
+    }
+  ]
+}

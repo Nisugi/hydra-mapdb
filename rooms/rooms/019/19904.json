@@ -1,0 +1,34 @@
+{
+  "id": 19904,
+  "title": [
+    "[Vindicate's Private Home]"
+  ],
+  "description": [
+    "The trail bends from the north to the west through a sunny clearing that breaks the deep woods.  Tangles of blackberry bushes grow around the trunks of the scattered trees, their brambles extending into the small paths that lead to homes in the underbrush.  A flock of blackbirds have stopped to rest in the branches of a nearby oak, filling the clearing with their cries."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Wehnimer's Landing",
+  "meta": [
+    "private home"
+  ],
+  "exits": [
+    {
+      "to": 19903,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "unlock door"
+        },
+        {
+          "put": "open door"
+        },
+        {
+          "move": "go door"
+        }
+      ],
+      "cost": 0.6
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 3025,
+  "uid": [
+    4129106
+  ],
+  "title": [
+    "[Snow Fort, Ice Altar]"
+  ],
+  "description": [
+    "An elaborate chapel is hollowed out of the ice here, calling praise to an unknown deity.  Towering pure white pillars stand sentinel over a massive altar of snow and ice.  Strange, ensconced torches illuminate the altar, glowing with a cold blue fire."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the High Plains",
+  "climate": "glacial",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables",
+    "snow spectre"
+  ],
+  "image": {
+    "file": "imt-east_west_north_gates-1668398077.png",
+    "rect": [
+      489,
+      872,
+      499,
+      882
+    ]
+  },
+  "exits": [
+    {
+      "to": 3024,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    },
+    {
+      "to": 3026,
+      "kind": "go",
+      "cmd": "go hole",
+      "cost": 0.2
+    }
+  ]
+}

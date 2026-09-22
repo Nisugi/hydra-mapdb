@@ -1,0 +1,45 @@
+{
+  "id": 32443,
+  "uid": [
+    4577107
+  ],
+  "title": [
+    "[Moonsedge Castle, Ward]"
+  ],
+  "description": [
+    "Guarded by unyielding walls of dark basalt and a heavy steel portcullis, the castle yard is shielded from the sounds of the outside world and the highland gale.  A flagstone path proceeds eastward, cut from the same material as the walls.  It winds past empty horse troughs and several disused hitching posts that are green with a thick coating of moss."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Moonsedge",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "mscastle",
+    "stalk of bluebells"
+  ],
+  "image": {
+    "file": "imt-Moonsedge-1770317665.png",
+    "rect": [
+      563,
+      769,
+      581,
+      787
+    ]
+  },
+  "exits": [
+    {
+      "to": 32442,
+      "kind": "go",
+      "cmd": "go steel portcullis",
+      "cost": 0.2
+    },
+    {
+      "to": 32444,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

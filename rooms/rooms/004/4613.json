@@ -1,0 +1,54 @@
+{
+  "id": 4613,
+  "uid": [
+    13050015
+  ],
+  "title": [
+    "[Sylvarraend, Mistglin Wey]"
+  ],
+  "description": [
+    "The trail peters to an end in a small but well-kept woodland garden nestled beneath a small group of haon and oak trees.  Delicate white blaeston blooms glow in the moonlight across the breadth of the garden.  The sweet fragrances of wild sage and rosemary drift on the night air.",
+    "The trail peters to an end in a small but well-kept woodland garden nestled beneath a small group of haon and oak trees.  Delicate white blaeston blooms across the breadth of the garden, interspersed with more brightly colored blossoms along the edges of the clearing.  Patches of wild sage and rosemary grow beside the solitary stone bench, filling the area with a sweet fragrance."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the town of Sylvarraend",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily",
+    "stalk of bluebells",
+    "wild sage"
+  ],
+  "image": {
+    "file": "en-sylvarraend-1264234799.png",
+    "rect": [
+      385,
+      939,
+      421,
+      975
+    ]
+  },
+  "exits": [
+    {
+      "to": 684,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 4632,
+      "kind": "scripted",
+      "steps": [
+        {
+          "put": "search"
+        },
+        {
+          "move": "go path"
+        }
+      ],
+      "cost": 0.2
+    }
+  ]
+}

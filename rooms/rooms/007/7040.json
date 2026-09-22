@@ -1,0 +1,62 @@
+{
+  "id": 7040,
+  "uid": [
+    45125
+  ],
+  "title": [
+    "[Castle Darkstone, Inner Keep]"
+  ],
+  "description": [
+    "The southeast tower of the castle appears to have collapsed entirely, although it is unclear whether this was due to damage or simply the ravages of time.  In either case, all that remains of the great tower now is a huge pile of rubble."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "Darkstone Castle",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "image": {
+    "file": "wl-darkstone-1717380773.png",
+    "rect": [
+      703,
+      562,
+      713,
+      572
+    ]
+  },
+  "exits": [
+    {
+      "to": 7033,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 7034,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 7039,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 7041,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 7042,
+      "kind": "go",
+      "cmd": "go stables",
+      "cost": 0.2
+    }
+  ]
+}

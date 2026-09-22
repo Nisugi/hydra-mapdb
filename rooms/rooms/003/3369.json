@@ -1,0 +1,63 @@
+{
+  "id": 3369,
+  "uid": [
+    4043801
+  ],
+  "title": [
+    "[Ice Garden, Altar]"
+  ],
+  "description": [
+    "Benches of carved ice with seats of wood surround the central altar, bowered with beardtongue shrubs.  The glitter of the fallen snow reflects light in a myriad of rainbows, creating a hypnotic effect ideal for settling into a meditative state.  Carved into the base of the glacier is a dark crevice leading into the mountain of ice."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Icemule Trace",
+  "climate": "glacial",
+  "terrain": "cultivated",
+  "tags": [
+    "angelica root",
+    "blue snow rose",
+    "frostflower",
+    "ice tulip",
+    "moonflower",
+    "pennyroyal stem",
+    "sassafras leaf",
+    "silver iceblossom",
+    "snow pansy",
+    "snowy arctic rose",
+    "sunburst blossom",
+    "sweetfern stalk",
+    "valerian root",
+    "white arctic rose",
+    "winter rose"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      759,
+      610,
+      795,
+      646
+    ]
+  },
+  "exits": [
+    {
+      "to": 3365,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 3561,
+      "kind": "go",
+      "cmd": "go dark crevice",
+      "cost": {
+        "when": {
+          "society": "Order of Voln"
+        },
+        "then": 0.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 7584,
+  "uid": [
+    47033
+  ],
+  "title": [
+    "[Ant Nest, Tunnels]"
+  ],
+  "description": [
+    "The passage ends here in a wall of solid rock, but you notice a tunnel winding up through the dirt next to the slab.  Piles of refuse, glowing with the greenish lichen that has spread over them, litter the ground at your feet."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the dark caverns",
+  "climate": "none",
+  "terrain": "none",
+  "tags": [
+    "bur-clover root",
+    "cave moss",
+    "macadamia nuts",
+    "murdroot",
+    "wingstem root",
+    "withered mushroom"
+  ],
+  "image": {
+    "file": "wl-catacombs-1264234799.png",
+    "rect": [
+      135,
+      1048,
+      145,
+      1058
+    ]
+  },
+  "exits": [
+    {
+      "to": 7582,
+      "kind": "go",
+      "cmd": "go tunnel",
+      "cost": 0.2
+    },
+    {
+      "to": 7585,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    }
+  ]
+}

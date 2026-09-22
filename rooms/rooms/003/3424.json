@@ -1,0 +1,176 @@
+{
+  "id": 3424,
+  "uid": [
+    4043215
+  ],
+  "title": [
+    "[The Nightowl Pub, Lounge]"
+  ],
+  "description": [
+    "Waitresses wearing feathered headdresses fashioned like the heads of owls work the room swiftly and quietly, trying not to interrupt the guests or the stage act.  Although the tables are set relatively close together, the darkness creates a feeling of intimacy.  After their number, the chorus glides off the stage and all but disappears behind a dark curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "climate": "cold, dry",
+  "terrain": "hard, flat",
+  "tags": [
+    "guard",
+    "no forageables",
+    "pub",
+    "table",
+    "tables",
+    "urchin guide tables",
+    "urchin-access"
+  ],
+  "image": {
+    "file": "imt-icemule-1474811966.png",
+    "rect": [
+      139,
+      877,
+      175,
+      913
+    ]
+  },
+  "exits": [
+    {
+      "to": 2389,
+      "kind": "go",
+      "cmd": "go staircase",
+      "cost": 0.2
+    },
+    {
+      "to": 3609,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Barn Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3627,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go owlet table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3631,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Screech Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3632,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Hoot Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3821,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go White Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 3822,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Spotted Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 9006,
+      "kind": "go",
+      "cmd": "go curtain",
+      "cost": 0.2
+    },
+    {
+      "to": 17088,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Burrowing Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17089,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Horned Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 17090,
+      "kind": "scripted",
+      "steps": [
+        {
+          "move": "go Winking Owl table"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 30709,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 34985,
+  "uid": [
+    12101102
+  ],
+  "title": [
+    "[The White Wyrm, Main Deck]"
+  ],
+  "description": [
+    "Evenly lit by glimaerstone spheres set into the overhead, the intersection of the main deck is narrow.  Veniom filaments travel along the bulkheads, which are made of teak and reinforced with pale imflass the color of fog.  They fan out from a hatch to the west that is also the source of the low, rumbling thrum that pulses through the deck.  At the northern end of the corridor, a reinforced hoarbeam door carved with a rampant mule is stationed at the center of the bulkhead."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Aboard an Airship",
+  "terrain": "hard, flat",
+  "exits": [
+    {
+      "to": 34968,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 34986,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 34987,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

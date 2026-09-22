@@ -1,0 +1,46 @@
+{
+  "id": 19540,
+  "uid": [
+    655015
+  ],
+  "title": [
+    "[Empath Guild]"
+  ],
+  "description": [
+    "A pair of recessed golden doors interrupts this bend of the upper hall.  A single crescent moon has been painted above the doorway, and its immediate surroundings are completely devoid of decoration."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "ti-empaths_guild-1638321977.jpg",
+    "rect": [
+      675,
+      89,
+      730,
+      146
+    ]
+  },
+  "exits": [
+    {
+      "to": 19519,
+      "kind": "cardinal",
+      "cmd": "northwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19538,
+      "kind": "cardinal",
+      "cmd": "southwest",
+      "cost": 0.2
+    },
+    {
+      "to": 19541,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    }
+  ]
+}

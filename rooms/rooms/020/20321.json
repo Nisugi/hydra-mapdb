@@ -1,0 +1,42 @@
+{
+  "id": 20321,
+  "title": [
+    "[Feywrot Mire, Misty Shore]"
+  ],
+  "description": [
+    "Steady waves lap against the shore, the noise loud and startling in the quiet swamp.  Black gum trees grow up just off-shore, with several fallen trunks surrounding the tempestuous, leaf-strewn water.  Further out, the dark water is completely still."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Feywrot Mire",
+  "image": {
+    "file": "fest-ebon_gate-1445214445.png",
+    "rect": [
+      719,
+      920,
+      732,
+      934
+    ]
+  },
+  "exits": [
+    {
+      "to": 18245,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 20319,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 20344,
+      "kind": "go",
+      "cmd": "go cave",
+      "cost": 0.2
+    }
+  ]
+}

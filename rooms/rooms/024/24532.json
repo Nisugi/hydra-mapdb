@@ -1,0 +1,70 @@
+{
+  "id": 24532,
+  "uid": [
+    4124050
+  ],
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A crumbling firepit is all but covered by the spiky branches here.  Old bones rest within the pit, long since picked clean by scavengers.  Clearly it has been a long time since anybody has used this spot to rest."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
+  "location": "the Abandoned Farm",
+  "climate": "snowy, arctic",
+  "terrain": "barren scrub",
+  "tags": [
+    "arctic moss",
+    "bright red teaberry",
+    "broken twig",
+    "crowberry",
+    "ironfern root",
+    "lingonberry",
+    "rockberry",
+    "snow lily",
+    "sunburst blossom",
+    "wingstem root",
+    "wintergreen leaf"
+  ],
+  "image": {
+    "file": "imt-bramble_patch-1307499864.png",
+    "rect": [
+      300,
+      257,
+      313,
+      270
+    ]
+  },
+  "exits": [
+    {
+      "to": 24519,
+      "kind": "scripted",
+      "steps": [
+        {
+          "empty_hands": null
+        },
+        {
+          "move": "climb hillside"
+        },
+        {
+          "fill_hands": null
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 24542,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 24543,
+      "kind": "cardinal",
+      "cmd": "northeast",
+      "cost": 0.2
+    }
+  ]
+}

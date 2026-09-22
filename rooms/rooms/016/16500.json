@@ -1,0 +1,39 @@
+{
+  "id": 16500,
+  "uid": [
+    -570011
+  ],
+  "title": [
+    "[Warcamp, Outside]"
+  ],
+  "description": [
+    "The air is thick with the aroma of burnt and cooking meat, mingled with the stench of rotting flesh, all of which originate from a makeshift tent set off to the side of the encampment.  Flies and maggots compete with each other over a grotesque pile of leftovers situated next to the tent flap.  Thick black smoke unfurls from the peak of the tent, adding to the grey haze hanging over the warcamp."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Warcamp",
+  "image": {
+    "file": "warcamp-1263540726.png",
+    "rect": [
+      95,
+      204,
+      131,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 16496,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 16702,
+      "kind": "go",
+      "cmd": "go tent",
+      "cost": 0.2
+    }
+  ]
+}

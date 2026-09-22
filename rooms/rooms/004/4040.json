@@ -1,0 +1,51 @@
+{
+  "id": 4040,
+  "uid": [
+    2055
+  ],
+  "title": [
+    "[Temple, Corridor]"
+  ],
+  "description": [
+    "Fragrant flowers are crushed beneath your feet as you walk down this corridor of polished white marble.  An ornate arch of pink granite marks the entrance to the wedding chapel, where many a blushing bride and her betrothed have exchanged their vows of everlasting love under the watchful eyes of their gods."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "fire lily"
+  ],
+  "meta": [
+    "nomagic",
+    "teleport:fwi"
+  ],
+  "exits": [
+    {
+      "to": 4039,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 4041,
+      "kind": "go",
+      "cmd": "go marble arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4042,
+      "kind": "go",
+      "cmd": "go ornate arch",
+      "cost": 0.2
+    },
+    {
+      "to": 4043,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    }
+  ]
+}

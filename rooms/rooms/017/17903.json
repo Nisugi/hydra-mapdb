@@ -1,0 +1,52 @@
+{
+  "id": 17903,
+  "uid": [
+    268009
+  ],
+  "title": [
+    "[Rogue Guild, East Hall]"
+  ],
+  "description": [
+    "Shallow carvings adorn the black marble, creating mesmerizing designs of light and shadow in the presence of strategically placed luminescent toadstools.  The corridors meet at a t-junction, where a huge carved red jasper has been set into the gold-sheened lintel above a pair of ornately carved white granite doors."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Zul Logoth",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "en-zul_logoth-rogue-1648915933.jpg",
+    "rect": [
+      559,
+      343,
+      598,
+      380
+    ]
+  },
+  "exits": [
+    {
+      "to": 17902,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 17904,
+      "kind": "go",
+      "cmd": "go doors",
+      "cost": 0.2
+    },
+    {
+      "to": 17905,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 17907,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

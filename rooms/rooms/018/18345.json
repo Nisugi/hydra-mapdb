@@ -1,0 +1,51 @@
+{
+  "id": 18345,
+  "uid": [
+    267126
+  ],
+  "title": [
+    "[Cellar]"
+  ],
+  "description": [
+    "Several half-filled sconces sputter and flare, fighting in vain to stay alit.  They shed just enough light to reveal several small alcoves within this ample cellar.  A large sewage grate partially covers an opening leading somewhere below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor",
+  "climate": "arid",
+  "terrain": "hard, flat",
+  "tags": [
+    "rogue guild footpads",
+    "rogue guild masters"
+  ],
+  "image": {
+    "file": "en-vaalor-rogue-guild.png",
+    "rect": [
+      283,
+      297,
+      321,
+      339
+    ]
+  },
+  "exits": [
+    {
+      "to": 17824,
+      "kind": "go",
+      "cmd": "go trapdoor",
+      "cost": 0.2
+    },
+    {
+      "to": 18346,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 30766,
+      "kind": "other",
+      "cmd": "ask pyll about train gambits",
+      "cost": 0.2
+    }
+  ]
+}

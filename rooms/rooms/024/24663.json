@@ -1,0 +1,40 @@
+{
+  "id": 24663,
+  "title": [
+    "[Underground Temple, Sunken Tomb]"
+  ],
+  "description": [
+    "Cramped and dark, the narrow hallway barely traverses more than a few steps, but the short journey is made more unpleasant by the piles of dirt and ancient smell of decay.  Uneven walls with rocky points bite into flesh and cloth when passing through the tight enclosure."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location_unknowable": true,
+  "check_location": true,
+  "exits": [
+    {
+      "to": 24657,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    },
+    {
+      "to": 24659,
+      "kind": "cardinal",
+      "cmd": "west",
+      "cost": 0.2
+    },
+    {
+      "to": 24664,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    },
+    {
+      "to": 24665,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    }
+  ]
+}

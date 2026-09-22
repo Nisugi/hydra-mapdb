@@ -1,0 +1,68 @@
+{
+  "id": 28870,
+  "uid": [
+    7118401
+  ],
+  "title": [
+    "[Kraken's Fall Bank, Teller]"
+  ],
+  "description": [
+    "A wide wooden counter spans the entire width of this room, and interspersed across its top are heavy iron bars a handsbreadth apart, securely fastened to both the counter and the stone ceiling overhead.  A glossy black placard inlaid with gold leaf text is prominently placed above a single gap in the center of the iron supports.  Three stern-looking guards stand at the ready, their hands near their weapons as they track every movement in the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kraken's Fall",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "bank",
+    "fire lily",
+    "urchin guide bank",
+    "urchin-access"
+  ],
+  "exits": [
+    {
+      "to": 28814,
+      "kind": "go",
+      "cmd": "go door",
+      "cost": 0.2
+    },
+    {
+      "to": 30716,
+      "kind": "scripted",
+      "pass": null,
+      "cost": {
+        "when": {
+          "all": [
+            {
+              "setting": [
+                "use_urchins",
+                "true"
+              ]
+            },
+            {
+              "flag": "urchin_access"
+            },
+            {
+              "not": {
+                "flag": "hidden"
+              }
+            },
+            {
+              "not": {
+                "flag": "invisible"
+              }
+            },
+            {
+              "not": {
+                "flag": "mounted"
+              }
+            }
+          ]
+        },
+        "then": 0.1
+      }
+    }
+  ]
+}

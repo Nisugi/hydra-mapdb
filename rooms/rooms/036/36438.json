@@ -1,0 +1,48 @@
+{
+  "id": 36438,
+  "uid": [
+    58049
+  ],
+  "title": [
+    "[Cavern, Ledge]"
+  ],
+  "description": [
+    "You stand upon a precipitous ledge overlooking a vast cavern which drops frighteningly into the darkness.  You see a set of three wooden disks, suspended from the ceiling by thick chains, spaced evenly between your ledge and a similar one on the western side of the cavern.  With some skill you could probably jump onto the first disk from here."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Upper Trollfang",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "image": {
+    "file": "quest-black_swan_castle.png",
+    "rect": [
+      2240,
+      200,
+      2280,
+      240
+    ]
+  },
+  "exits": [
+    {
+      "to": 36437,
+      "kind": "scripted",
+      "steps": [
+        {
+          "await": "The nearest disk, with no one on it, swings near the ledge"
+        },
+        {
+          "move": "jump disk"
+        }
+      ],
+      "cost": 0.2
+    },
+    {
+      "to": 36439,
+      "kind": "cardinal",
+      "cmd": "south",
+      "cost": 0.2
+    }
+  ]
+}

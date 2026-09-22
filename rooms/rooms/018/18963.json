@@ -1,0 +1,46 @@
+{
+  "id": 18963,
+  "uid": [
+    660006
+  ],
+  "title": [
+    "[Sorcerer Guild, Library]"
+  ],
+  "description": [
+    "Rows of dark ironwood bookcases stretch from floor to ceiling, each shelf heavily laden with books and other assorted reading materials.  Small desks nestle between the bookcases to provide quiet places for study and contemplation.  A single brass oil lantern glows on each desk, and these islands of light provide the only illumination in this windowless room.  The thick polar bear fur carpet effectively muffles the sound of footsteps, and a stern-looking librarian keeps a close watch on the patrons."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the town of Icemule Trace",
+  "terrain": "hard, flat",
+  "image": {
+    "file": "imt-sorcerer_guild-1405076623.png",
+    "rect": [
+      501,
+      323,
+      540,
+      362
+    ]
+  },
+  "exits": [
+    {
+      "to": 18960,
+      "kind": "vertical",
+      "cmd": "down",
+      "cost": 0.2
+    },
+    {
+      "to": 18964,
+      "kind": "go",
+      "cmd": "go mist",
+      "cost": 0.2
+    },
+    {
+      "to": 18965,
+      "kind": "vertical",
+      "cmd": "up",
+      "cost": 0.2
+    }
+  ]
+}

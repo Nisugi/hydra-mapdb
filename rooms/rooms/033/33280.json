@@ -1,0 +1,60 @@
+{
+  "id": 33280,
+  "uid": [
+    4201105
+  ],
+  "title": [
+    "[Vornavis, Gate of Light]"
+  ],
+  "description": [
+    "Bordered on its south by the interlocking pavers of the canal-spanning bridge, the sprawling courtyard is comprised of rounded cobblestones painted bright white and laid in concentric bands around a marble fountain.  Flanking the gates that connect Vornavis to Solhaven are wrought iron loops that resemble shepherd's crooks, each dangling a glass-doored octagonal lantern dormant in the daylight.  Branching out from the courtyard like the rays of a stylized sun, five avenues head deeper into the city.",
+    "Bordered on its south by the interlocking pavers of the canal-spanning bridge, the sprawling courtyard is comprised of rounded cobblestones painted bright white and laid in concentric bands around a marble fountain.  Flanking the gates that connect Vornavis to Solhaven are wrought iron loops that resembed shepherd's crooks, each dangling a glass-doored octagonal lantern that bathes the area in bright light.  Branching out from the courtyard like the rays of a stylized sun, five avenues head deeper into the city."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast"
+  ],
+  "location": "Vornavis Proper",
+  "climate": "temperate",
+  "terrain": "hard, flat",
+  "tags": [
+    "no forageables"
+  ],
+  "meta": [
+    "citizenship:Solhaven"
+  ],
+  "image": {
+    "file": "vo-solhaven-1675635404.png",
+    "rect": [
+      1661,
+      766,
+      1683,
+      787
+    ]
+  },
+  "exits": [
+    {
+      "to": 1507,
+      "kind": "go",
+      "cmd": "go green gates",
+      "cost": 0.2
+    },
+    {
+      "to": 33279,
+      "kind": "cardinal",
+      "cmd": "southeast",
+      "cost": 0.2
+    },
+    {
+      "to": 33281,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 33284,
+      "kind": "cardinal",
+      "cmd": "east",
+      "cost": 0.2
+    }
+  ]
+}

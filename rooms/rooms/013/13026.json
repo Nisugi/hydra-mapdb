@@ -1,0 +1,53 @@
+{
+  "id": 13026,
+  "uid": [
+    319123
+  ],
+  "title": [
+    "[Bonespear Tower, Kitchen]"
+  ],
+  "description": [
+    "A wide variety of broken and shattered cooking utensils cover the floor, and they present a very sharp and dangerous obstacle to those attempting to pass.  An old table with legs made out of what look like the bones of a giant has been pushed up against one wall near a badly dented iron stove."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Bonespear Tower",
+  "climate": "cold, damp",
+  "terrain": "hard, flat",
+  "tags": [
+    "dybbuk",
+    "eidolon",
+    "no forageables",
+    "waern"
+  ],
+  "image": {
+    "file": "vo-foggy_valley-1264234799.png",
+    "rect": [
+      1074,
+      991,
+      1084,
+      1001
+    ]
+  },
+  "exits": [
+    {
+      "to": 13025,
+      "kind": "cardinal",
+      "cmd": "north",
+      "cost": 0.2
+    },
+    {
+      "to": 13027,
+      "kind": "climb",
+      "cmd": "climb stairs",
+      "cost": 0.2
+    },
+    {
+      "to": 13028,
+      "kind": "go",
+      "cmd": "go doorway",
+      "cost": 0.2
+    }
+  ]
+}
