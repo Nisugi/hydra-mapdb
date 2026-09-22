@@ -11,30 +11,38 @@ Ruby; it only ever loads the binary this repo publishes.
 ## Pipeline
 
 ```
-FarFigNewGut/lich-mapdb-room  ──►  convert.yml  ──►  rooms/*.json (committed)
-      data/map.json                    │                    │
-                                        │                    ▼ combine.yml
-                                  residue report      hydra.map (release asset)
+FarFigNewGut/lich-mapdb-room  ──►  convert.yml  ──►  a PR against rooms/
+      data/map.json               (manual only)      (reviewed, merged by hand)
+                                        │                    │
+                                  residue report              ▼ combine.yml
+                                                      hydra.map (release asset)
 ```
 
-- **`convert.yml`** (weekly, or on demand) downloads
+`rooms/` is **committed source, not derived output that gets regenerated**:
+Hydra's mapdb is still being designed (Cena's `plan/21-mapdb.md`), and it
+already holds -- or will hold -- content upstream never had: floors, layout,
+room identification, and whatever else the design settles on. A bot that
+silently overwrote all 36,838 room files from upstream on a schedule would
+overwrite that too. So only one of the two workflows runs unattended.
+
+- **`convert.yml`** (manual only — `workflow_dispatch`) downloads
   [`FarFigNewGut/lich-mapdb-room`](https://github.com/FarFigNewGut/lich-mapdb-room)'s
   `data/map.json` — checking `data/updated_at` first so an unchanged upstream
-  costs one small request, not a 42 MB one — and runs `cena-mapdb-convert`
-  on it. That writes one JSON file per room under `rooms/` (sharded by
-  thousand, so an update is a small, reviewable diff) and commits the
-  result. It also runs the **porting ratchet**
+  costs one small request, not a 42 MB one — runs `cena-mapdb-convert` on it,
+  and runs the **porting ratchet**
   (`crates/mapdb-convert/tests/ratchet.rs`) against the freshly downloaded
-  map: if upstream added a scripted crossing this repo has never ported,
-  the job fails and names it.
-- **`combine.yml`** (on every push that touches `rooms/`, or on demand) runs
-  `cena-map-combine` over whatever is currently committed and publishes the
-  resulting `hydra.map` as the `latest` GitHub release, replaced each run,
+  map (if upstream added a scripted crossing this repo has never ported, the
+  job fails and names it, and no PR is opened). If the ratchet passes, it
+  opens a **pull request** with the converted diff against `rooms/` — it
+  never pushes to `main` itself. Review it like any other change: does this
+  diff track an upstream update, or did it clobber something hand-authored?
+  Merge, edit, or close it.
+- **`combine.yml`** runs on every push to `main` that touches `rooms/` —
+  which now only happens when a `convert.yml` PR is merged, or a room file
+  is hand-edited directly — plus on demand. It is the one step safe to
+  automate: a pure, deterministic build over whatever is already committed,
+  publishing `hydra.map` as the `latest` GitHub release (replaced each run)
   plus a short-lived build artifact.
-
-The two are separate so a converted diff can be looked at before it becomes
-what players download, and so hand-editing a room file directly doesn't
-require a 42 MB re-download to see it combined.
 
 ## The two tools
 

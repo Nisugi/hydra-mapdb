@@ -1,15 +1,18 @@
 name: combine
 
-# Turn the committed per-room JSON (written by `convert.yml`) into the single
-# binary Hydra loads, and publish it where the client can fetch it: a
-# `latest` release, replaced each run, plus every push kept as a build
-# artifact for a few days.
+# Turn whatever is committed under `rooms/` into the single binary Hydra
+# loads, and publish it where the client can fetch it: a `latest` release,
+# replaced each run, plus every push kept as a build artifact for a few
+# weeks.
 #
-# Separate from `convert.yml` on purpose (`plan/21`'s "two tools, each
-# knowing as little as it can", carried into two workflows): a person may
-# want to look at a converted diff before it becomes the binary players
-# download, and a combine with no upstream change (e.g. after editing a
-# hand-fixed room file directly) should not have to re-run a 42 MB download.
+# This is the one step of the pipeline safe to run unattended: it is a pure,
+# deterministic build over data a person has already put in `main` --
+# whether that arrived via a `convert.yml` PR someone reviewed and merged,
+# or a hand edit to a room file. It never touches upstream and never decides
+# what the map should say, which is why it can trigger on every push to
+# `rooms/**` while `convert.yml` (plan/21's mapdb is still being designed;
+# `rooms/` holds hand-authored content upstream doesn't have) stays
+# manual-only and proposes a PR instead of merging anything itself.
 on:
   push:
     branches: [main]

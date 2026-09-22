@@ -1,19 +1,16 @@
 name: convert
 
-# Download the upstream mapdb and turn it into the per-room JSON this repo
-# commits. Room files are one room per file (`crates/mapdb-convert/src/
-# output.rs`), so a weekly upstream update is a small, reviewable diff --
-# that diff, committed here, is this workflow's product. The `combine`
-# workflow turns whatever is committed into the client's binary separately.
+# Download the upstream mapdb and convert it, for review -- **not** for
+# automatic merge. `rooms/` is not pure derived output any more: the mapdb
+# is still being designed (`plan/21` in Cena), and it will hold hand-authored
+# additions upstream never had (floors, layout, room identification, and
+# whatever else the design settles on). A bot that regenerates and commits
+# 36,838 files from upstream on a schedule would happily overwrite that.
 #
-# Runs weekly and on demand. Not on push: nothing in this repo changing is a
-# reason to re-download: only upstream changing is, and only the schedule (or
-# a person) knows when that happened.
+# So this workflow only ever proposes a diff -- as a pull request, opened
+# against a scratch branch it also owns -- and a person merges it (or edits
+# it, or closes it) by hand. Nothing here pushes to `main`.
 on:
-  schedule:
-    # Wednesdays, 09:00 UTC. No significance to the day; just off the hour
-    # and away from any midnight-UTC pile-up on GitHub's shared runners.
-    - cron: '0 9 * * 3'
   workflow_dispatch:
     inputs:
       force:
@@ -23,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   convert:
@@ -58,9 +56,11 @@ jobs:
 
       - name: Convert
         if: steps.freshness.outputs.changed == 'true'
+        id: convert
         run: |
           cargo run --release -p cena-mapdb-convert -- upstream_map.json rooms
           cp upstream_updated_at rooms/upstream_updated_at
+          echo "as-of=$(cat rooms/upstream_updated_at)" >> "$GITHUB_OUTPUT"
 
       # The ratchet is a real check here, not just a local dev habit: it is
       # what notices upstream added a scripted crossing this repo has never
@@ -68,25 +68,35 @@ jobs:
       # job and prints which shape is new; a fall (someone ported one) fails
       # too, until `unported.baseline` is turned down to match -- so the
       # workflow itself enforces "the ratchet only turns one way", not just
-      # a person remembering to run it.
+      # a person remembering to run it. It gates the PR below: a conversion
+      # that regresses the ratchet is not offered for review at all.
       - name: Ratchet the conversion against the freshly downloaded map
         if: steps.freshness.outputs.changed == 'true'
         env:
           CENA_MAPDB: ${{ github.workspace }}/upstream_map.json
         run: cargo test --release -p cena-mapdb-convert --test ratchet -- --nocapture
 
-      - name: Commit the per-room diff
+      # A PR, not a push to main and not a bare artifact: GitHub's own diff
+      # view is what lets a person see exactly which rooms changed against
+      # hand-authored `rooms/` content before any of it lands, the same way
+      # any other change here would be reviewed.
+      - name: Open a PR with the converted diff
         if: steps.freshness.outputs.changed == 'true'
-        run: |
-          git config user.name "hydra-mapdb bot"
-          git config user.email "actions@github.com"
-          git add rooms/
-          if git diff --cached --quiet; then
-            echo "converted output is unchanged; nothing to commit"
-          else
-            git commit -m "Convert: upstream mapdb as of $(cat rooms/upstream_updated_at)"
-            git push
-          fi
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: rooms/
+          commit-message: "Convert: upstream mapdb as of ${{ steps.convert.outputs.as-of }}"
+          branch: convert/upstream-update
+          delete-branch: true
+          title: "Convert: upstream mapdb as of ${{ steps.convert.outputs.as-of }}"
+          body: |
+            Converted from `FarFigNewGut/lich-mapdb-room`'s `data/map.json`
+            (upstream `data/updated_at`: ${{ steps.convert.outputs.as-of }}).
+
+            **Review before merging.** `rooms/` holds hand-authored additions
+            this conversion does not know about; check the diff for anything
+            that looks like it overwrote one rather than tracking an upstream
+            change.
 
       - name: Upload the residue report
         if: steps.freshness.outputs.changed == 'true'
