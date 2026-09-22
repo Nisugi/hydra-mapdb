@@ -14,9 +14,16 @@ name: corrections
 # The check runs on every edit and every comment, so a submitter who gets a
 # refusal fixes their export and attaches it again on the same issue rather
 # than opening a new one.
+#
+# `labeled` is deliberately **not** a trigger. The issue form applies the
+# `corrections` label as it creates the issue, so GitHub emits `opened` and
+# `labeled` for the same submission and the check ran twice -- two identical
+# verdicts on the issue, and two jobs racing to push the same branch. The
+# remaining triggers already cover every way a submission arrives: a new
+# issue, an edited one, and a comment carrying a corrected export.
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [opened, edited]
   issue_comment:
     types: [created, edited]
 
@@ -24,6 +31,14 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+
+# One check per issue at a time. Editing an issue twice in quick succession,
+# or any trigger that fires alongside another, would otherwise have two jobs
+# writing the same `corrections/issue-N` branch. The newest submission is the
+# one worth checking, so an in-flight run is cancelled rather than queued.
+concurrency:
+  group: corrections-${{ github.event.issue.number }}
+  cancel-in-progress: true
 
 jobs:
   check:
@@ -36,6 +51,9 @@ jobs:
     # creates the label. That failure is invisible -- the issue looks right
     # and the job just never runs -- so the title the form fixes is accepted
     # as well, and either is enough.
+    #
+    # Labelling by hand no longer re-runs the check (see `on:` above). To
+    # re-check an issue, edit it or comment the corrected export on it.
     if: >-
       github.event.sender.type != 'Bot' &&
       (contains(github.event.issue.labels.*.name, 'corrections') ||
@@ -57,7 +75,7 @@ jobs:
           {
             gh issue view "$ISSUE" --json body --jq .body
             gh issue view "$ISSUE" --json comments --jq '.comments[].body'
-          } > all-text.md
+          } > "$RUNNER_TEMP/all-text.md"
 
           # An attachment lands on one of two hosts, and which one is not
           # something a submitter controls: `github.com/user-attachments/`
@@ -68,14 +86,14 @@ jobs:
           #
           # The last one wins: a submitter who gets a refusal attaches the
           # fixed export in a new comment below it.
-          url=$(grep -oiE 'https://(github\.com/user-attachments/files|[a-z0-9.-]*githubusercontent\.com)/[a-zA-Z0-9./_?=&%-]+\.json' all-text.md | tail -1)
+          url=$(grep -oiE 'https://(github\.com/user-attachments/files|[a-z0-9.-]*githubusercontent\.com)/[a-zA-Z0-9./_?=&%-]+\.json' "$RUNNER_TEMP/all-text.md" | tail -1)
           if [ -z "$url" ]; then
             echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           echo "found=true" >> "$GITHUB_OUTPUT"
-          curl -sSL --max-filesize 26214400 -o submission.json "$url"
-          ls -la submission.json
+          curl -sSL --max-filesize 26214400 -o "$RUNNER_TEMP/submission.json" "$url"
+          ls -la "$RUNNER_TEMP/submission.json"
 
       - name: Say that nothing was attached
         if: steps.find.outputs.found == 'false'
@@ -114,9 +132,9 @@ jobs:
         continue-on-error: true
         run: |
           cargo run --release -p cena-corrections --bin validate -- \
-            submission.json rooms . --accept "${{ steps.name.outputs.file }}" \
-            > verdict.md
-          cat verdict.md
+            "$RUNNER_TEMP/submission.json" rooms . --accept "${{ steps.name.outputs.file }}" \
+            > "$RUNNER_TEMP/verdict.md"
+          cat "$RUNNER_TEMP/verdict.md"
 
       # The verdict goes back to the issue either way. A refusal is a normal
       # outcome that the submitter has to be able to act on, so it is posted
@@ -126,7 +144,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           ISSUE: ${{ github.event.issue.number }}
-        run: gh issue comment "$ISSUE" --body-file verdict.md
+        run: gh issue comment "$ISSUE" --body-file "$RUNNER_TEMP/verdict.md"
 
       - name: Stop here if it was refused
         if: steps.find.outputs.found == 'true' && steps.validate.outcome != 'success'
@@ -140,7 +158,7 @@ jobs:
       # the merge is what keeps them out of `main`.
       - name: Open a pull request
         if: steps.find.outputs.found == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           add-paths: corrections/
           commit-message: |

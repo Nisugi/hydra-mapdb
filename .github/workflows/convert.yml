@@ -91,7 +91,7 @@ jobs:
       # any other change here would be reviewed.
       - name: Open a PR with the converted diff
         if: steps.freshness.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           add-paths: rooms/
           commit-message: "Convert: upstream mapdb as of ${{ steps.convert.outputs.as-of }}"
