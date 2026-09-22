@@ -3,9 +3,18 @@
 version = 4
 
 [[package]]
+name = "cena-corrections"
+version = "0.1.0"
+dependencies = [
+ "cena-map",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "cena-map"
 version = "0.1.0"
-source = "git+https://github.com/Nisugi/cena?branch=main#9853193e957fac592560b9578e8632e67211446e"
+source = "git+https://github.com/Nisugi/cena?branch=main#15c9a376cbcd797a3e20d3263c8cb533ae335bf2"
 dependencies = [
  "serde",
  "serde_json",

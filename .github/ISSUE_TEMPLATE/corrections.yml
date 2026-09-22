@@ -1,0 +1,67 @@
+name: Map corrections
+description: Submit corrections exported from hydra-mapper
+title: "Corrections: "
+labels: ["corrections"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are made in **[hydra-mapper](https://github.com/Nisugi/hydra-mapper)**
+        and exported as a single `.json` file. This form takes that file and
+        nothing else: everything needed to review a correction — what it
+        changes, and pictures of the sheets it changes — travels inside it.
+
+        **Attach the export by dragging it into the box below.** GitHub does
+        not allow attachments in a form field, so drop it into the comment
+        area after the issue is created if it will not attach here.
+
+        A bot checks the file as soon as it arrives. If something is wrong it
+        says what, on this issue, and nothing is merged — fix the export and
+        attach it again. If it passes, it opens a pull request with your
+        corrections and the pictures, for a person to review.
+
+  - type: textarea
+    id: attachment
+    attributes:
+      label: The export
+      description: |
+        Drag the `.json` file `hydra-mapper` exported into this box. Do not
+        paste its contents — it has to be the file itself, because the bot
+        fetches it by URL.
+      placeholder: Drop the .json file here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you correct, and how do you know?
+      description: |
+        A sentence or two for the reviewer. The file already says *what*
+        changes; this is for *why* — "the tunnel really does come out north
+        of the bridge, I walked it both ways" is exactly the kind of thing
+        that makes a correction easy to accept.
+      placeholder: |
+        The barn exits were welded to the ravine on a `go door` the solver
+        guessed a bearing for. Un-welded both, and dragged the barn back
+        where walking it puts it.
+    validations:
+      required: true
+
+  - type: input
+    id: character
+    attributes:
+      label: Character or handle
+      description: Optional, for credit in the commit.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: This is an export from `hydra-mapper`, not a hand-written file.
+          required: true
+        - label: I walked or otherwise verified these corrections in game.
+          required: true

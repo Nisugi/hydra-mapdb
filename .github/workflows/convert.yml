@@ -62,6 +62,15 @@ jobs:
           cp upstream_updated_at rooms/upstream_updated_at
           echo "as-of=$(cat rooms/upstream_updated_at)" >> "$GITHUB_OUTPUT"
 
+      # A conversion overwrites every room file from upstream, which would
+      # drop the corrections people submitted -- they live in `corrections/`
+      # precisely so a refresh cannot lose them, but the re-application has to
+      # actually happen. Doing it before the ratchet and the PR means the diff
+      # a reviewer sees is the one that would really be committed.
+      - name: Re-apply accepted corrections over the fresh conversion
+        if: steps.freshness.outputs.changed == 'true'
+        run: cargo run --release -p cena-corrections --bin apply -- . rooms
+
       # The ratchet is a real check here, not just a local dev habit: it is
       # what notices upstream added a scripted crossing this repo has never
       # ported (`crates/mapdb-convert/tests/ratchet.rs`). A rise fails the
