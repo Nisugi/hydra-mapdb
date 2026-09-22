@@ -29,9 +29,17 @@ jobs:
   check:
     # Only issues from the corrections form, and never the bot's own comments
     # -- posting a verdict must not trigger another check of it.
+    #
+    # The label alone is **not** enough to gate on: an issue form silently
+    # drops a label the repository has not been given, so a form that says
+    # `labels: [corrections]` still files an unlabelled issue until someone
+    # creates the label. That failure is invisible -- the issue looks right
+    # and the job just never runs -- so the title the form fixes is accepted
+    # as well, and either is enough.
     if: >-
-      contains(github.event.issue.labels.*.name, 'corrections') &&
-      github.event.sender.type != 'Bot'
+      github.event.sender.type != 'Bot' &&
+      (contains(github.event.issue.labels.*.name, 'corrections') ||
+       startsWith(github.event.issue.title, 'Corrections:'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -51,9 +59,16 @@ jobs:
             gh issue view "$ISSUE" --json comments --jq '.comments[].body'
           } > all-text.md
 
-          # GitHub rewrites attachments to github-user-content URLs. The last
-          # one wins: submitters attach a fixed export below a refusal.
-          url=$(grep -oE 'https://[a-zA-Z0-9./_-]*githubusercontent\.com/[a-zA-Z0-9./_?=&-]+\.json' all-text.md | tail -1)
+          # An attachment lands on one of two hosts, and which one is not
+          # something a submitter controls: `github.com/user-attachments/`
+          # for a file dragged into the form or a comment today, and the
+          # older `*.githubusercontent.com` for one attached before GitHub
+          # moved them. Both are matched, because a submission that was
+          # written months ago is exactly the case this has to accept.
+          #
+          # The last one wins: a submitter who gets a refusal attaches the
+          # fixed export in a new comment below it.
+          url=$(grep -oiE 'https://(github\.com/user-attachments/files|[a-z0-9.-]*githubusercontent\.com)/[a-zA-Z0-9./_?=&%-]+\.json' all-text.md | tail -1)
           if [ -z "$url" ]; then
             echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
